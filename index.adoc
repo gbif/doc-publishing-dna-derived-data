@@ -1,0 +1,6 @@
+# Index
+
+ *This file is required.*
+
+* ../text/en.adoc[Title]
+* ../text/es.adoc[Título]

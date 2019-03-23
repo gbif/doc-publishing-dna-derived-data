@@ -1,0 +1,5 @@
+# Citation
+
+_sample text_
+
+GBIF Secretariat (2019) Establishing an Effective GBIF Participant Node: Concepts and general considerations. Copenhagen. https://doi.org/10.15468/doc-z79c-sa53.
