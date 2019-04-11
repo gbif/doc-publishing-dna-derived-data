@@ -1,2 +1,6 @@
 *.html
 *.pdf
+assets/img/.DS_Store
+assets/img/_source/.DS_Store
+text/.DS_Store
+.DS_Store
