@@ -1,0 +1,9 @@
+== Document control
+
+_sample text_
+
+Second edition, March 2019.
+
+First edition, March 2015. Mélianie Raymond, Olaf Bánki, Kyle Copas, Alberto González-Talaván, Tim Hirsch, and Donald Hobern.
+
+Originally based on an earlier publication, Towards establishing a functional GBIF Participant Node (Part I): definitions and general considerations.

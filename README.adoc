@@ -1,5 +1,4 @@
-GBIF Document Template
-----------------------
+= GBIF Document Template
 
 // Please delete this text after cloning the repository for a new document!
 This repository can be cloned to create the structure for maintaining up-to-date, community-curated documentation for the GBIF network on GitHub. *This file is REQUIRED.*
@@ -8,7 +7,8 @@ All documentation should be written in https://asciidoctor.org/docs/asciidoc-wri
 
 This `README.adoc` file should not normally be part of the document.  It is shown on the GitHub source code page, and should contain information on how issues and contributions should be handled, and how the code might be used (such as build instructions).
 // End of text to delete.
-// Then please update "template" to the new repositorie's name, minus the doc- prefix, and remove this line.
+
+// In the text below, please update "doc-template" to "doc-your-document-name", and remove this line.
 
 _This is information *about* this document's source code.  It is not part of the document._
 

@@ -1,4 +1,4 @@
-# Acknowledgements
+== Acknowledgements
 
 This formal statement recognizes individuals and institutions that made direct contributions to your work. This is a simple statement of gratitude, not dedication or very emotional testimonial. The people and institutions you should consider listing include:
 

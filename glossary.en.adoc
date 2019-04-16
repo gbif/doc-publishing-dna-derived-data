@@ -1,0 +1,11 @@
+[glossary]
+== Glossary
+
+[glossary]
+Biodiversity information facility:: Variously described as a ‘BIF’, a system or a network, the broader structure of people and institutions, coordinated by the node, that collectively forms an infrastructure for delivering biodiversity information to relevant stakeholders.
+
+Participant:: A country, economy or organization that joins GBIF by signing a Memorandum of Understanding and establishing a co-ordinated effort to support open access and use of biodiversity data, to advance scientific research, and to promote technological and sustainable development.
+
+Participant node:: A coordinating team designated by the Participant to coordinate a network of people and institutions that produce, manage and use biodiversity data, collectively building an infrastructure for delivering biodiversity information.
+
+Species occurrence:: A record of a named organism observed or collected at a given time or place.

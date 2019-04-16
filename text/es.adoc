@@ -1,3 +1,0 @@
-# Título
-
-Lorem ipsum

@@ -1,0 +1,10 @@
+== Licence
+
+Assert the copyright/copyleft status of this work. *This file is REQUIRED.*
+
+By default, all GBIF-related documentation will be licensed for use under https://creativecommons.org/licenses/by/4.0/[CC BY 4.0]. These licences can be presented in the same language as the documentation.
+
+See also the https://creativecommons.org/licenses/by/4.0/legalcode[full text of the CC BY licence]
+
+_sample text_
+[This title] is licensed under Creative Commons Attribution 4.0 Unported License.
