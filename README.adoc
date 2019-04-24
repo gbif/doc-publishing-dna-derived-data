@@ -1,3 +1,6 @@
+// In the text below, please update "doc-template" to "doc-your-document-name", and remove this line.
+https://builds.gbif.org/job/doc-template/[image:https://builds.gbif.org/job/doc-template/badge/icon[Build status]]
+
 = GBIF Document Template
 
 // Please delete this text after cloning the repository for a new document!
@@ -8,12 +11,8 @@ All documentation should be written in https://asciidoctor.org/docs/asciidoc-wri
 This `README.adoc` file should not normally be part of the document.  It is shown on the GitHub source code page, and should contain information on how issues and contributions should be handled, and how the code might be used (such as build instructions).
 // End of text to delete.
 
-// In the text below, please update "doc-template" to "doc-your-document-name", and remove this line.
-
 _This is information *about* this document's source code.  It is not part of the document._
 
-The document is available in a temporary location as https://labs.gbif.org/documents/template/[HTML] and https://labs.gbif.org/documents/template/index.pdf[PDF].
+The document is available as HTML and PDF at https://labs.gbif.org/documents/template/[Document Template].
 
-The build status is https://builds.gbif.org/job/doc-template/[image:https://builds.gbif.org/job/doc-template/badge/icon[Build status]]
-
-The document is built using AsciiDoc, for guidance on how to make changes or suggestions see the https://labs.gbif.org/documents/documentation-guidelines[GBIF Documentation Guidelines].
+The document is built using AsciiDoc, for guidance on how to make changes or suggestions see the https://labs.gbif.org/documents/documentation-guidelines/[GBIF Documentation Guidelines].
