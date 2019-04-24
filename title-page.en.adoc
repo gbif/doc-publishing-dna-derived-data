@@ -1,4 +1,0 @@
-== Title page
-
-_sample text_
-Establishing an Effective GBIF Participant Node: Concepts and general considerations
