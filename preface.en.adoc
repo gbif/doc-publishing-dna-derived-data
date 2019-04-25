@@ -17,6 +17,4 @@ The special guide to something blar de blar blar blar.
 
 ===	Dedication
 
-La versión de OpenRefine utilizada para la confección de esta guía es OpenRefine 3.1.
-
-Para ver detalles sobre cómo descargar e instalar OpenRefine en su computadora, ver el Apéndice 1.
+Once again to Zelda
