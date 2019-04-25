@@ -4,7 +4,7 @@
 
 === Epigraph
 
-[quote, Tacitus, Annales]
+[quote, Tacitus, _Annales_]
 mihi, quanto plura recentium seu veterum revolvo, tanto magis ludibria rerum mortalium cunctis in negotiis obversantur.
 
 === Acknowledgments
