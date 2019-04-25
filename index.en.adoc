@@ -19,7 +19,7 @@ endif::backend-html5[]
 
 include::colophon.en.adoc[]
 
-include::frontmatter.en.adoc[]
+include::preface.en.adoc[]
 
 :sectnums:
 
