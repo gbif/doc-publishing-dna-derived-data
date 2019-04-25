@@ -1,31 +1,22 @@
-== Prefacio
+== Preface
 
-=== Comentarios Preliminares
+// This section can contain not only the preface but other 'frontmatter' as well (particularly those called out in the AsciiDoctor user manual, including
 
-El texto e imágenes incluidos en esta guía están en idioma castellano (ES).
+=== Epigraph
 
-=== Objetivo
+[quote, Tacitus, Annales]
+mihi, quanto plura recentium seu veterum revolvo, tanto magis ludibria rerum mortalium cunctis in negotiis obversantur.
 
-La presente guía ha sido construida con fines únicamente pedagógicos. El objetivo de esta guía es mostrar cómo utilizar algunas de las funciones básicas de OpenRefine que pueden utilizarse para evaluar y mejorar la calidad de datos de biodiversidad.
+=== Acknowledgments
 
-=== Cómo usar esta guía
+This section may also be placed at the document's end.
 
-En esta guía se muestra cómo utilizar funciones básicas de OpenRefine para la evaluación y mejoramiento de la calidad de un conjunto de datos de biodiversidad. Los ejemplos de uso presentados en esta guía constituyen sólo algunas de las alternativas posibles para el tratamiento de datos en OpenRefine.
+=== Abstract
 
-Para hacer un mejor uso de esta guía, se recomienda seguir los pasos utilizando el programa OpenRefine y el conjunto de datos modelo provisto junto con esta guía. Todos los ejemplos presentados corresponden a un conjunto de datos de biodiversidad que ha sido específicamente modificado por los autores.
+The special guide to something blar de blar blar blar.
 
-En el texto, los nombres de los campos originales se marcan con color verde claro.
-
-====	Software
+===	Dedication
 
 La versión de OpenRefine utilizada para la confección de esta guía es OpenRefine 3.1.
 
 Para ver detalles sobre cómo descargar e instalar OpenRefine en su computadora, ver el Apéndice 1.
-
-====	Datos
-
-El conjunto de datos modelo utilizado en esta guía (link:../EjercicioModelo_OpenRefine_Datos.zip[EjercicioModelo_OpenRefine_Datos.csv]) puede obtenerse a través de: https://tinyurl.com/yd8mekzw. Descargar el archivo, y no manipularlo en otros programas (e.g., MS Excel) antes de abrirlo en OpenRefine, dado que ello puede cambiar los formatos y/o codificación del archivo.
-
-El conjunto de datos modelo fue derivado a partir del conjunto de datos: 
-
-> > Williams J (2018). Colección de Herbario. Version 3.1. Facultad de Ciencias Naturales y Museo - U.N.L.P.. Occurrence dataset https://doi.org/10.15468/i9bj5r accessed via GBIF.org on 2019-04-18.
