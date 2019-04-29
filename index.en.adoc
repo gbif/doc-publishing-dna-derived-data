@@ -5,7 +5,7 @@ Kyle Copas <communication@gbif.org> & Matthew Blissett
 :numbered:
 :revnumber: {git-metadata-branch}-{git-metadata-sha-short}
 :revdate: {localdate}
-:title-logo-image: img/photo.jpg
+:title-logo-image: img/web/photo.jpg
 :icons: font
 :pagenums:
 :license: https://creativecommons.org/licenses/by/4.0/
