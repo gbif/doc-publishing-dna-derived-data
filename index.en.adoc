@@ -12,7 +12,7 @@ Kyle Copas <communication@gbif.org> & Matthew Blissett
 :xrefstyle: short
 
 ifdef::backend-html5[]
-_languageLinks:pdf[This document is also available in,PDF format] and languageLinks:languages[in other languages:,]._
+_languageLinks:pdf[This document is also available in,PDF format]languageLinks:languages[and in other languages:,]._
 endif::backend-html5[]
 
 :sectnums!:
