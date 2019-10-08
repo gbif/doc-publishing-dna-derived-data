@@ -18,7 +18,7 @@ The document _The special guide to something_ is licensed under https://creative
 === URI persistente
 https://doi.org/10.15468/doc-xxxx-xxxx
 
-=== Control de documentos
+=== Document control
 Third edition, April 2019
 
 // include reference to provenance if possible/relevant
