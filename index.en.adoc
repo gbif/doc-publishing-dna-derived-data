@@ -15,12 +15,8 @@ include::colophon.en.adoc[]
 
 include::preface.en.adoc[]
 
+include::acknowledgements.en.adoc[]
+
 :sectnums:
 
-include::ch01.en.adoc[]
-
-include::ch02.en.adoc[]
-
-include::afterword.en.adoc[]
-
-include::appa.en.adoc[]
+include::100.en.adoc[]
