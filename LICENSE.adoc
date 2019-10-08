@@ -4,7 +4,7 @@ UNLESS OTHERWISE NOTED, THE CONTENTS OF THIS DIRECTORY ARE LICENSED UNDER THE CR
 
 image:https://i.creativecommons.org/l/by-sa/4.0/88x31.png[CC-BY] image:https://creativecommons.org/images/deed/seal.png[Approved for Free Cultural Works]
 
-== License Summary of CC-BY 4.0 International
+== License Summary of CC BY-SA 4.0 International
 
 _This section is a human-readable summary of (and not a substitute for) the full license included below._
 
@@ -141,6 +141,8 @@ Where the Licensed Rights include Sui Generis Database Rights that apply to Your
 . You must comply with the conditions in <<s3a,Section 3(a)>> if You Share all or a substantial portion of the contents of the database.
 For the avoidance of doubt, this <<s4,Section 4>> supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.
 
+For the avoidance of doubt, this <<s4,Section 4>> supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.
+
 [[s5]]
 ==== Section 5 – Disclaimer of Warranties and Limitation of Liability.
 
@@ -185,28 +187,30 @@ _Creative Commons is not a party to its public licenses. Notwithstanding, Creati
 _Creative Commons may be contacted at http://creativecommons.org/[creativecommons.org]._
 
 _Additional languages available:
-https://creativecommons.org/licenses/by/4.0/legalcode.id[Bahasa Indonesia],
-https://creativecommons.org/licenses/by/4.0/legalcode.eu[euskara],
-https://creativecommons.org/licenses/by/4.0/legalcode.de[Deutsch],
-https://creativecommons.org/licenses/by/4.0/legalcode.es[Español],
-https://creativecommons.org/licenses/by/4.0/legalcode.fr[français],
-https://creativecommons.org/licenses/by/4.0/legalcode.hr[hrvatski],
-https://creativecommons.org/licenses/by/4.0/legalcode.it[italiano],
-https://creativecommons.org/licenses/by/4.0/legalcode.lv[latviski],
-https://creativecommons.org/licenses/by/4.0/legalcode.lt[Lietuvių],
-https://creativecommons.org/licenses/by/4.0/legalcode.nl[Nederlands],
-https://creativecommons.org/licenses/by/4.0/legalcode.no[norsk],
-https://creativecommons.org/licenses/by/4.0/legalcode.pl[polski],
-https://creativecommons.org/licenses/by/4.0/legalcode.pt[português],
-https://creativecommons.org/licenses/by/4.0/legalcode.fi[suomeksi],
-https://creativecommons.org/licenses/by/4.0/legalcode.sv[svenska],
-https://creativecommons.org/licenses/by/4.0/legalcode.mi[te reo Māori],
-https://creativecommons.org/licenses/by/4.0/legalcode.tr[Türkçe],
-https://creativecommons.org/licenses/by/4.0/legalcode.el[Ελληνικά],
-https://creativecommons.org/licenses/by/4.0/legalcode.ru[русский],
-https://creativecommons.org/licenses/by/4.0/legalcode.uk[українська],
-https://creativecommons.org/licenses/by/4.0/legalcode.ar[العربية],
-https://creativecommons.org/licenses/by/4.0/legalcode.ja[日本語].
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.id[Bahasa Indonesia],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.de[Deutsch],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.es[Español],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.eu[euskara],
+https://creativecommons.org/licenses/by-s/4.0/legalcode.fr[français],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.hr[hrvatski],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.it[italiano],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.lv[latviski],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.lt[Lietuvių],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.nl[Nederlands],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.no[norsk],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.pl[polski],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.pt[português],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.fi[suomeksi],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.sv[svenska],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.mi[te reo Māori],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.tr[Türkçe],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.cs[čeština],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.el[Ελληνικά],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.ru[русский],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.uk[українська],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.ar[العربية],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja[日本語],
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.ko[한국어].
 Please read the https://wiki.creativecommons.org/FAQ#officialtranslations[FAQ] for more information about official translations._
 
 '''''
