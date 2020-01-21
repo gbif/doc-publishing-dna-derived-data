@@ -17,10 +17,10 @@ The document is available as HTML and PDF at https://labs.gbif.org/documents/tem
 
 The document is built using AsciiDoc, for guidance on how to make changes or suggestions see the https://labs.gbif.org/documents/documentation-guidelines/[GBIF Documentation Guidelines].
 
+This work is licensed under a http://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike 4.0 International License].
+
 [link=http://creativecommons.org/licenses/by-sa/4.0/]
 image::https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg[CC BY-SA 4.0] 
-
-This work is licensed under a http://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike 4.0 International License].
 
 [link:http://creativecommons.org/licenses/by-sa/4.0/]
 image::https://licensebuttons.net/l/by-sa/4.0/88x31.png[CC BY-SA 4.0]
