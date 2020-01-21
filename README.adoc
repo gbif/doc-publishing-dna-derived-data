@@ -17,6 +17,9 @@ The document is available as HTML and PDF at https://labs.gbif.org/documents/tem
 
 The document is built using AsciiDoc, for guidance on how to make changes or suggestions see the https://labs.gbif.org/documents/documentation-guidelines/[GBIF Documentation Guidelines].
 
+[link=http://creativecommons.org/licenses/by-sa/4.0/] 
+image:https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg[CC BY-SA 4.0]
+
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 This work is licensed under a http://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike 4.0
