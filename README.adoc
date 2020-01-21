@@ -22,5 +22,5 @@ image::https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg[CC B
 
 This work is licensed under a http://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike 4.0 International License].
 
-[link:http://creativecommons.org/licenses/by-sa/4.0/]
+[link=http://creativecommons.org/licenses/by-sa/4.0/]
 image::https://licensebuttons.net/l/by-sa/4.0/88x31.png[CC BY-SA 4.0]
