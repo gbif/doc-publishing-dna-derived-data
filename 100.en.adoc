@@ -1,1 +1,13 @@
+== Heading
 
+Some text
+
+=== A subheading
+
+More text.
+
+==== A sub-subheading
+
+Just blathering on now.
+
+Chapters and sections prepared for GBIF's AsciiDoc-based documentation system can be published in smaller or larger chunks, provided that the individual pieces are listed in sequence in index.en.adoc
