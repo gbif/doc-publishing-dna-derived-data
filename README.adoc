@@ -1,4 +1,6 @@
-// In the text below, please update "doc-template" to "doc-your-document-name", and remove this line.
+// DOI badge: If you have a DOI, remove the comment ("// ") from the line below, change "10.EXAMPLE/EXAMPLE" to the DOI in all three places, and remove this line.
+// https://doi.org/10.EXAMPLE/EXAMPLE[image:https://zenodo.org/badge/DOI/10.EXAMPLE/EXAMPLE.svg[doi:10.EXAMPLE/EXAMPLE]]
+// Build status badge: In the text below, please update "doc-template" to "doc-your-document-name", and remove this line.
 https://builds.gbif.org/job/doc-template/[image:https://builds.gbif.org/job/doc-template/badge/icon[Build status]]
 
 = GBIF Document Template
