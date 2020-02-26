@@ -3,7 +3,7 @@ Kyle Copas <communication@gbif.org> & Matthew Blissett
 :revnumber: {git-metadata-branch}
 :revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
 :title-logo-image: img/web/photo.jpg
-:license: https://creativecommons.org/licenses/by/4.0/
+:license: https://creativecommons.org/licenses/by-sa/4.0/
 
 ifdef::backend-html5[]
 _languageLinks:pdf[This document is also available in,PDF format]languageLinks:languages[and in other languages:,]._
