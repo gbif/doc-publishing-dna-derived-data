@@ -1,5 +1,7 @@
 // DOI badge: If you have a DOI, remove the comment ("// ") from the line below, change "10.EXAMPLE/EXAMPLE" to the DOI in all three places, and remove this line.
 // https://doi.org/10.EXAMPLE/EXAMPLE[image:https://zenodo.org/badge/DOI/10.EXAMPLE/EXAMPLE.svg[doi:10.EXAMPLE/EXAMPLE]]
+// License badge
+https://creativecommons.org/licenses/by-sa/4.0/[image:https://img.shields.io/badge/License-CC%20BY-\-SA%204.0-lightgrey.svg[CC BY-SA 4.0]]
 // Build status badge: In the text below, please update "doc-template" to "doc-your-document-name", and remove this line.
 https://builds.gbif.org/job/doc-template/[image:https://builds.gbif.org/job/doc-template/badge/icon[Build status]]
 
@@ -15,14 +17,8 @@ This `README.adoc` file should not normally be part of the document.  It is show
 
 _This is information *about* this document's source code.  It is not part of the document._
 
-The document is available as HTML and PDF at https://labs.gbif.org/documents/template/[Document Template].
+The document is available as HTML and PDF at https://docs.gbif-uat.org/template/[Document Template].
 
-The document is built using AsciiDoc, for guidance on how to make changes or suggestions see the https://labs.gbif.org/documents/documentation-guidelines/[GBIF Documentation Guidelines].
-
-[link=http://creativecommons.org/licenses/by-sa/4.0/]
-image::https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg[CC BY-SA 4.0] 
+The document is built using AsciiDoc, for guidance on how to make changes or suggestions see the https://docs.gbif-uat.org/documentation-guidelines/[GBIF Documentation Guidelines].
 
 This work is licensed under a http://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike 4.0 International License].
-
-[link=http://creativecommons.org/licenses/by-sa/4.0/]
-image::https://licensebuttons.net/l/by-sa/4.0/88x31.png[CC BY-SA 4.0]
