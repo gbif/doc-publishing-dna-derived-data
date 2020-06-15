@@ -1,24 +1,32 @@
-# Contributing to this document
+= Contributing to this document
 
-https://www.gbif.org[GBIF]—the Global Biodiversity Information Facility—has long been a source of technical documentation on a range of topics relating to biodiversity informatics and open biodiversity data. Building on the suggestions of the http://vertnet.org/[VertNet] team, GBIF began taking steps to clarify and improve its role in coordinating the development of such documentation in 2018, with the intent of engaging its community to collaborate with subject-matter experts to produce and use standardized documentation that is uniform, reliable, reusable, versioned, and easily updatable. 
+https://www.gbif.org[GBIF] invites community members to contribute to our [digital documentation system](). 
 
-We code our documents using https://asciidoctor.org/docs/user-manual/[AsciiDoc] and apply http://dd.dgacm.org/editorialmanual/[United Nations style and spelling conventions] (tl;dr: British English with -ize endings).
+If you are a first-time user, please don't let the code-developer vernacular of 'branches', 'pull requests' and 'commits' frighten you off. Our use of GitHub, while squarely based on its technical capabilities, is equally important from an editorial perspective. The design and format of the materials we publish through this system aims to ensure that any guidance we prepare and commission is uniform, reliable, reusable, versioned, and up-to-date. Your contributions are vital to achieving this. 
 
-## What are we looking for?
+We code documents in this system using a lightweight code called https://asciidoctor.org/docs/user-manual/[AsciiDoc] (see some https://github.com/gbif/doc-documentation-guidelines/blob/1.0/index.en.adoc#guidelines-for-document-authors[key tips here]). We apply United Nations editorial conventions (tl;dr: British English with -ize endings) with regard to http://dd.dgacm.org/editorialmanual/ed-guidelines/style/spelling.htm/[spelling] and http://dd.dgacm.org/editorialmanual/[style].
 
-GBIF's digital documents are designed to encourage and support input from the biodiversity informatics community on key guidance materials. 
+== What are we looking for?
 
-### Content issues
+=== Community review
+
+By maintaining each document’s source text in a public GitHub repository, or "repo", community members have ready access to this material. Each time a new draft document is completed, we will ask members of relevant GBIF communities of practice (the intended users and beneficiaries of these documents) to offer direct input and feedback. The effect of this process is two-fold: to ensure the quality of the documentation and to foster community discussion and collaboration. https://github.com/gbif/doc-documentation-guidelines/blob/1.0/index.en.adoc#community-peer-review-process[Read more about the community review process].
+
+=== Content issues
+
+If you see something, say something.
+
+he use of GitHub enables reviewers and users to raise issues and track their resolution. Reviewers and users can offer comments, suggestions and corrections at any stage of the document’s life cycle, making it easier to make corrections to current versions and update future ones while ensuring community access to accurate, well-maintained guidance and information.
+
 
 * Substantive and 'mere' copy edits. less about You can help improve this guide by making it more coherent, consistent, or readable, adding missing information, correcting factual errors, fixing typos, or bringing them up to date.
 * Suggestions on format and usability, e.g. standards, 
 * Errors and bug reports
 * Suggestions on additional topics for us to consider covering in such materials
 
-### Community review
 
 
-### Translations
+=== Translations
 
 GBIF.org is currently available in ten languages (https://www.gbif.org/[English], https://www.gbif.org/ar/[Arabic], https://www.gbif.org/zh/[Simplified Chinese], https://www.gbif.org/fr/[French], https://www.gbif.org/ru/[Russian], https://www.gbif.org/es/[Spanish], https://www.gbif.org/zh-tw[Traditional Chinese], https://www.gbif.org/ja/[Japanese], https://www.gbif.org/pt/[Portuguese] and https://www.gbif.org/uk/[Ukrainian]), so we will be more than happy to support efforts to build on the achievements of https://www.gbif.org/translators/[our volunteer translators] by translating GBIF's digital documentation. 
 
@@ -31,7 +39,7 @@ Existing non-English documents and translations
 * OpenRefine
 * Guide to effective node management
 
-## What are we *not* looking for?
+== What are we *not* looking for?
 
 We use GitHub to manage and maintain the source material of our documentation because it is findable and accessible  . We always welcome suggestions  
 
@@ -39,21 +47,21 @@ We use GitHub to manage and maintain the source material of our documentation be
 * Technical set-up and configuration
 * Security issues
 
-## How to contribute
+== How to contribute
 
 0. Create a GitHub account.
 1. Read the documents
 2. See something? Say something (probably in an issue)
 3. Follow and support the conversation
 
-### Credit
+=== Credit
 
 a
 
-### Licensing
+=== Licensing
 
 a
 
-### Code of conduct
+=== Code of conduct
 
 All interactions must comply with the https://www.gbif.org/code-of-conduct[Code of Conduct for GBIF activities].
