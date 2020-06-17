@@ -14,17 +14,19 @@ By maintaining each document’s source text in a public GitHub repository, or "
 
 === Content issues
 
-If you see something, say something.
+We encourage reviewers and users to help improve this document by offering comments, suggestions and corrections at any stage in its life cycle. In short: **if you see something, say something**.
 
-he use of GitHub enables reviewers and users to raise issues and track their resolution. Reviewers and users can offer comments, suggestions and corrections at any stage of the document’s life cycle, making it easier to make corrections to current versions and update future ones while ensuring community access to accurate, well-maintained guidance and information.
+Improvements can take any number of forms, but your suggestions should aim to:
 
+* make the document more coherent, consistent, or readable
+* add missing information
+* correct factual errors
+* fix typos 
+* bring it up-to-date
 
-* Substantive and 'mere' copy edits. less about You can help improve this guide by making it more coherent, consistent, or readable, adding missing information, correcting factual errors, fixing typos, or bringing them up to date.
-* Suggestions on format and usability, e.g. standards, 
-* Errors and bug reports
-* Suggestions on additional topics for us to consider covering in such materials
+In general, we ask that you create an issue when for your suggestions and corrections. You can also use issues to highlight more technical, less editorial matters, such as errors and bug reports, recommendations on usability and formatting or suggestions on additional topics for us to consider covering in our documentation.
 
-
+Be sure that you are logged in to your GitHub account if you have one—and if you don't have one, please consider https://github.com/join[creating one]. By doing so, you can ensure that the document's authors can contact you if they have questions or need clarification, that GBIF can properly credit your contributions, and that you can automatically track the progress and resolution of any issues you submit.
 
 === Translations
 
