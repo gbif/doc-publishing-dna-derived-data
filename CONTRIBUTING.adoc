@@ -26,7 +26,7 @@ Improvements can take any number of forms, but your suggestions should aim to:
 
 In general, we ask that you create an issue when for your suggestions and corrections.
 
-video::430632177[vimeo]
+video::430632177[vimeo, width=640]
 
 You can also use issues to highlight more technical, less editorial matters, such as errors and bug reports, recommendations on usability and formatting or suggestions on additional topics for us to consider covering in our documentation.
 
