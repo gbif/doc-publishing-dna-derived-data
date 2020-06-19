@@ -24,17 +24,21 @@ Improvements can take any number of forms, but your suggestions should aim to:
 * fix typos 
 * bring it up-to-date
 
-In general, we ask that you create an issue when for your suggestions and corrections. You can also use issues to highlight more technical, less editorial matters, such as errors and bug reports, recommendations on usability and formatting or suggestions on additional topics for us to consider covering in our documentation.
+In general, we ask that you create an issue when for your suggestions and corrections.
 
-Be sure that you are logged in to your GitHub account if you have one—and if you don't have one, please consider https://github.com/join[creating one]. By doing so, you can ensure that the document's authors can contact you if they have questions or need clarification, that GBIF can properly credit your contributions, and that you can automatically track the progress and resolution of any issues you submit.
+video::430632177[vimeo]
+
+You can also use issues to highlight more technical, less editorial matters, such as errors and bug reports, recommendations on usability and formatting or suggestions on additional topics for us to consider covering in our documentation.
+
+Be sure that you are logged in to your GitHub account if you have one—and if you don't have one, please consider https://github.com/join[creating one]. By doing so, you can ensure transparency and openness in the community peer-review process, enable authors to ask you about or clarify the issues you raise, track the progress of your suggestions and make certain that GBIF can properly credit your contributions.
+
+video::430640810[vimeo]
 
 === Translations
 
 GBIF.org is currently available in ten languages (https://www.gbif.org/[English], https://www.gbif.org/ar/[Arabic], https://www.gbif.org/zh/[Simplified Chinese], https://www.gbif.org/fr/[French], https://www.gbif.org/ru/[Russian], https://www.gbif.org/es/[Spanish], https://www.gbif.org/zh-tw[Traditional Chinese], https://www.gbif.org/ja/[Japanese], https://www.gbif.org/pt/[Portuguese] and https://www.gbif.org/uk/[Ukrainian]), so we will be more than happy to support efforts to build on the achievements of https://www.gbif.org/translators/[our volunteer translators] by translating GBIF's digital documentation. 
 
-We are most grateful to https://crowdin.com/[CrowdIn] for the pivotal support that GBIF receives through their free institutional licence. 
-
-https://crowdin.com/profile/timrobertson100[CrowdIn]
+We are grateful for the generous support we receive from https://crowdin.com/[CrowdIn]. You can see all the translation projects we manage https://crowdin.com/profile/timrobertson100[here].
 
 Existing non-English documents and translations
 
@@ -51,9 +55,9 @@ We use GitHub to manage and maintain the source material of our documentation be
 
 == How to contribute
 
-0. Create a GitHub account.
+0. https://www.vimeo.com/430640810[Create a GitHub account].
 1. Read the documents
-2. See something? Say something (probably in an issue)
+2. See something? Say something by https://vimeo.com/430632177[creating an issue]
 3. Follow and support the conversation
 
 === Credit
