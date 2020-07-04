@@ -18,7 +18,7 @@ This `README.adoc` file should not normally be part of the document.  It is show
 
 _This is information *about* this document's source code.  It is not part of the document._
 
-The document is available as HTML and PDF at https://docs.gbif-uat.org/template/[Document Template].
+The document is available as HTML and PDF at https://docs.gbif-uat.org/template/1.0/en/[Document Template].
 
 The document is built using AsciiDoc, for guidance on how to make changes or suggestions see the https://docs.gbif-uat.org/documentation-guidelines/[GBIF Documentation Guidelines].
 
