@@ -1,6 +1,6 @@
 == Preface
 
-// This section can contain not only the preface but other 'frontmatter' as well (particularly those called out in the AsciiDoctor user manual, including
+// This section can contain not only a preface but other 'frontmatter' as well—particularly those called out in the AsciiDoctor user manual, including
 
 === Epigraph
 

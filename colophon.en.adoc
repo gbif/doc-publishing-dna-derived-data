@@ -13,12 +13,12 @@ Author U, Autore D & Auteur T. The special guide to something. Third edition. GB
 James Joyce and Samuel Beckett of Trinity College, Dublin, contributed to this version of the document.
 
 === Licence
-The document _The special guide to something_ is licensed under https://creativecommons.org/licenses/by/4.0[Creative Commons Attribution 4.0 Unported License].
+The document _The special guide to something_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License].
 
 === URI persistente
 https://doi.org/10.15468/doc-xxxx-xxxx
 
-=== Control de documentos
+=== Document control
 Third edition, April 2019
 
 // include reference to provenance if possible/relevant

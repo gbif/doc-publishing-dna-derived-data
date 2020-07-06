@@ -1,15 +1,9 @@
 = GBIF Document Template
 Kyle Copas <communication@gbif.org> & Matthew Blissett
-:toc: left
-:toclevels: 3
-:numbered:
-:revnumber: {git-metadata-sha-short}
+:revnumber: {git-metadata-branch}
 :revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
 :title-logo-image: img/web/photo.jpg
-:icons: font
-:pagenums:
-:license: https://creativecommons.org/licenses/by/4.0/
-:xrefstyle: short
+:license: https://creativecommons.org/licenses/by-sa/4.0/
 
 ifdef::backend-html5[]
 _languageLinks:pdf[This document is also available in,PDF format]languageLinks:languages[and in other languages:,]._
@@ -21,12 +15,8 @@ include::colophon.en.adoc[]
 
 include::preface.en.adoc[]
 
+include::acknowledgements.en.adoc[]
+
 :sectnums:
 
-include::ch01.en.adoc[]
-
-include::ch02.en.adoc[]
-
-include::afterword.en.adoc[]
-
-include::appa.en.adoc[]
+include::100.en.adoc[]
