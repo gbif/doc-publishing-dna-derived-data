@@ -1,18 +1,50 @@
-= Contributing to this document
+[improving]
+== Improve this document
 
-https://www.gbif.org[GBIF] invites community members to contribute to our [digital documentation system](). 
+https://www.gbif.org[GBIF] invites community members to contribute to, improve and maintain our https://#[digital documentation ].
 
-If you are a first-time user, please don't let the code-developer vernacular of 'branches', 'pull requests' and 'commits' frighten you off. Our use of GitHub, while squarely based on its technical capabilities, is equally important from an editorial perspective. The design and format of the materials we publish through this system aims to ensure that any guidance we prepare and commission is uniform, reliable, reusable, versioned, and up-to-date. Your contributions are vital to achieving this. 
+If you are a first-time user, please don't let the code-developer vernacular of 'branches', 'pull requests' and 'commits' frighten you. Our use of GitHub, while squarely based on its technical capabilities, is equally important from an editorial perspective. The design and format of the materials we publish through this system aim to ensure that any guidance we prepare and commission is uniform, reliable, reusable, versioned and up-to-date. Your contributions are vital to achieving this. 
 
-We code documents in this system using a lightweight code called https://asciidoctor.org/docs/user-manual/[AsciiDoc] (see some https://github.com/gbif/doc-documentation-guidelines/blob/1.0/index.en.adoc#guidelines-for-document-authors[key tips here]). We apply United Nations editorial conventions (tl;dr: British English with -ize endings) with regard to http://dd.dgacm.org/editorialmanual/ed-guidelines/style/spelling.htm/[spelling] and http://dd.dgacm.org/editorialmanual/[style].
+=== How to contribute to this document as a peer-reviewer (tl;dr)
 
-== What are we looking for?
+0. https://www.vimeo.com/430640810[Create a GitHub account].
+1. Read the documents
+2. See something? Say something by https://vimeo.com/430632177[creating an issue]
+3. Follow and support the conversation
 
-=== Community review
+=== Best practices for community peer-reviewers
+
+* Recognizing that members of our community are all extremely busy, if you intend to provide comments during the community peer-review process, set aside sufficient time to read and digest the document (the PDF version of each document offers a convenient tool for this purpose). 
+* Use a first read to form a general impression of the document, noting any major problems or concerns.
+* Keeping your notes handy, begin a second read-through in which you flag possible issues point-by-point. 
+* Comment on the validity of the guidance provided in the documentation, identifying possible errors and evaluating the approaches
+* Identify any references, citations, precedents or examples that you feel may be missing or mischaracterized 
+
+=== How to submit your review comments and suggestions
+
+* If you have not already done so, https://github.com/[*sign up for a GitHub account*]. Again, to encourage transparency, choose a username that allows others in the community to identify and recognize you with relative ease.
+* *Find the GitHub repository for the document under review*. The HTML version of any document provides a link to "Edit on GitHub" and its source repository near the top of its tree navigation. Reviewers can also search for the repository through the https://github.com/gbif[GBIF GitHub organization page]. Searches can be more efficient knowing that the names of the repositories for GBIF's digital documentation all begin with the prefix /doc-/, followed by a shortened, plain-language version of the title.  
+* *Submit your comments as issues in the document's GitHub repository*. The 'Issues' tab is second from the left in every repository. 
+
+video::430632177[vimeo]
+
+* Where possible, *group similar comments in a single issue*. For example, reviewers who identify (heaven forbid!) multiple spelling or punctuation errors should consider submitting such items in a single issue. Then, when commenting on content or offering other suggestions, the same reviewer should include those in a second issue. 
+* *Use deep links to document sections*. Reviewers can link to any section heading in any document, thereby providing an accurate citation of where the issue or problem you wish to identify arises.  Mousing over the left end of the heading will cause the appearance of a section symbol—*§*—which users can then right-click or option-click to copy a direct link to that location in the document. The link available by right- or option-clicking the section symbol in the example pictured below, for example, is 
+....
+https://docs.gbif.org/effective-nodes-guidance/1.0/en/#_suggested_citation 
+.... 
+
+image:img/section-symbol.png[float="left"]
+
+* *Track the progress and resolution of your issues*. We encourage you to sign up for notifications of actions that others take in connection with the issues you submit. Doing so may permit direct, reciprocal discussion between authors and reviewers, as and where appropriate. 
+
+=== What are we looking for?
+
+==== Community review
 
 By maintaining each document’s source text in a public GitHub repository, or "repo", community members have ready access to this material. Each time a new draft document is completed, we will ask members of relevant GBIF communities of practice (the intended users and beneficiaries of these documents) to offer direct input and feedback. The effect of this process is two-fold: to ensure the quality of the documentation and to foster community discussion and collaboration. https://github.com/gbif/doc-documentation-guidelines/blob/1.0/index.en.adoc#community-peer-review-process[Read more about the community review process].
 
-=== Content issues
+==== Content issues
 
 We encourage reviewers and users to help improve this document by offering comments, suggestions and corrections at any stage in its life cycle. In short: **if you see something, say something**.
 
@@ -26,7 +58,7 @@ Improvements can take any number of forms, but your suggestions should aim to:
 
 In general, we ask that you create an issue when for your suggestions and corrections.
 
-video::430632177[vimeo, width=640]
+video::430632177[vimeo,640,340]
 
 You can also use issues to highlight more technical, less editorial matters, such as errors and bug reports, recommendations on usability and formatting or suggestions on additional topics for us to consider covering in our documentation.
 
@@ -34,40 +66,18 @@ Be sure that you are logged in to your GitHub account if you have one—and if y
 
 video::430640810[vimeo]
 
-=== Translations
+=== What are we *not* looking for?
 
-GBIF.org is currently available in ten languages (https://www.gbif.org/[English], https://www.gbif.org/ar/[Arabic], https://www.gbif.org/zh/[Simplified Chinese], https://www.gbif.org/fr/[French], https://www.gbif.org/ru/[Russian], https://www.gbif.org/es/[Spanish], https://www.gbif.org/zh-tw[Traditional Chinese], https://www.gbif.org/ja/[Japanese], https://www.gbif.org/pt/[Portuguese] and https://www.gbif.org/uk/[Ukrainian]), so we will be more than happy to support efforts to build on the achievements of https://www.gbif.org/translators/[our volunteer translators] by translating GBIF's digital documentation. 
-
-We are grateful for the generous support we receive from https://crowdin.com/[CrowdIn]. You can see all the translation projects we manage https://crowdin.com/profile/timrobertson100[here].
-
-Existing non-English documents and translations
-
-* OpenRefine
-* Guide to effective node management
-
-== What are we *not* looking for?
-
-We use GitHub to manage and maintain the source material of our documentation because it is findable and accessible  . We always welcome suggestions  
-
-* Code and code review
-* Technical set-up and configuration
-* Security issues
-
-== How to contribute
-
-0. https://www.vimeo.com/430640810[Create a GitHub account].
-1. Read the documents
-2. See something? Say something by https://vimeo.com/430632177[creating an issue]
-3. Follow and support the conversation
+We use GitHub to manage the source material of our documentation openly to encourage community members to help us maintain it and keep it up-to-date. While we welcome your suggestions on such topics, the peer-review process should focus on the content of any given document rather than less editorial issues like the documents' technical set-up and configuration, code or security issues. If you have issues you would like to raise on such matters, please contact us at mailto:communication@gbif.org[communication@gbif.org].
 
 === Credit
 
-a
+GBIF will give proper credit and acknowledgement of community members who participate in the peer-review process. While this may initially take the form of a curated list of contributors, we are committed to improving these processes, particularly where the use of persistent identifiers like https://orcid.org/[ORCID IDs] can efficiently record community members' activities and automate the production of annual reports and metrics. 
 
 === Licensing
 
-a
+All GBIF digital documentation is licensed under https://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-Share Alike 4.0 International]. As a result, you are free to share and adapt it provided that you a) give appropriate credit, link to the license and indicate if changes were made and b) distribute your contributions under the same licence.
 
 === Code of conduct
 
-All interactions must comply with the https://www.gbif.org/code-of-conduct[Code of Conduct for GBIF activities].
+All interactions in the GBIF community peer-review process must comply with GBIF's https://www.gbif.org/code-of-conduct[Code of Conduct].
