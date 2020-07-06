@@ -6,25 +6,30 @@ endif::backend-html5[]
 == Colophon
 
 === Suggested citation
-Author U, Autore D & Auteur T. The special guide to something. Third edition. GBIF Secretariat: Copenhagen. https://doi.org/10.15468/doc-xxxx-xxxx.
+
+Andersson A, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Kõljalg U, Lundin D, Nilsson RN, Prager M, Stjernegaard T, Svenningsen C & Schigel D (2020) Publishing sequence-derived data
+through biodiversity discovery platforms. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-xxxx-xxxx.
+
+== Authors
+
+Anders Andersson, Andrew Bissett, https://orcid.org/0000-0003-4529-6266[Anders G. Finstad], https://orcid.org/0000-0002-7535-9574[Frode Fossøy], https://orcid.org/0000-0002-2685-8078[Marie Grosjean], Michael Hope, https://orcid.org/0000-0002-5171-1668[Urmas Kõljalg], Daniel Lundin, https://orcid.org/0000-0002-8052-0107[R. Henrik Nilsson], https://orcid.org/0000-0003-4897-8422[Maria Prager], https://orcid.org/0000-0003-1691-239X[Thomas Stjernegaard], https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen] & https://orcid.org/0000-0002-2919-1168[Dmitry Schigel].
 
 == Contributors
 
-James Joyce and Samuel Beckett of Trinity College, Dublin, contributed to this version of the document.
+Valuable discussions with members of (GGBN), (GLOMICON), ELIXIR, (iBOL) and (OBIS) networks contributed to compilation of this draft. We are especially grateful for inputs and encouragement from Kessy Abarenkov, Torbjørn Ekrem, Hamish Holewa, Tobias Frøslev, Corinna Paeper, Tim Robertson, Andrew Young and others listed below who have contributed to the GBIF community review process.
 
 === Licence
-The document _The special guide to something_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License].
+
+The document _Publishing sequence-derived data
+through biodiversity discovery platforms_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License].
 
 === URI persistente
+
 https://doi.org/10.15468/doc-xxxx-xxxx
 
-=== Document control
-Third edition, April 2019
+=== Control de documentos
 
-// include reference to provenance if possible/relevant
-https://doi.org/10.15468/doc-yyyy-yyyy[Second edition], March 2015, by Due Autore and https://orcid.org/0000-0000-0000-0000[Tercio Auteur].
-
-Originally based on an earlier publication, _Towards establishing the special guide to something_.
+Published for community peer review, July 2020
 
 === Cover image
 

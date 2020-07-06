@@ -1,0 +1,567 @@
+== Data packaging and mapping
+
+This chapter focuses on practical details on turning your data export into a dataset indexed by a biodiversity discovery platform. Section 3.1 will help you understand what is the optimal mapping schema for your data at hand. Section 3.2 describes these mappings in detail.
+
+This guide combines the standards for general biodiversity data publishing with genetic sequence-derived biodiversity data (<<fig-0x,Fig. 3.1>>). This “do-section” stops at providing mapping recommendations for different types of sequence-derived data.
+
+Data packaging and publishing pathways vary from platform to platform and are described in general documentation. One of the widespread ways to package data files is DwC-A, where data tables are arranged in a star schema, with records (rows) in peripheral extension files pointing to a single record in the central core file (Fig. 3.1). There are different types of core files, e.g. occurrence and sampling-event, corresponding to different classes of datasets. Although sequence-derived datasets often are event-based in nature, i.e. hundreds or even thousands of quantified sequence occurrences may derive from a single sampling event and thus share most metadata attributes., The current recommendation is to publish data as Occurrence core (Category I or II) with the MIxS for Darwin Core extension. This is due to limitations in the DwC star schema, which would not allow any occurrence-level data in extension files, e.g. processed barcode sequences, to point to records in an event core file. We do, however, recommend including an eventID for each core record, to provide some association between occurrences derived from the same sampling event.
+
+Figure [5]3.1 Zoom in of DwC-A / IPT from figure ? in chapter 2.4. The choice of core entity is mainly a matter of fitting data to the data import mechanism (ingestion) of the biodiversity discovery platforms. Most data could be formulated as either Occurrence, Event or Taxon core, but as only the core can have extensions, this will affect the choice. It is for example not possible to extend occurrences with DNA sequences if data is packaged using Event core.
+
+[[figure-05]]
+image::img/web/figure-05.jpg[]
+.Figure 5. Zoom in of DwC-A / IPT from figure ? in chapter 2.4. The choice of core entity is mainly a matter of fitting data to the data import mechanism (ingestion) of the biodiversity discovery platforms. Most data could be formulated as either Occurrence, Event or Taxon core, but as only the core can have extensions, this will affect the choice. It is for example not possible to extend occurrences with DNA sequences if data is packaged using Event core.
+
+=== Categorization of your data
+
+For the purpose of this guide, we categorize data into five categories, linked by a key ID field (_eventID_), equivalent to the standards for general biodiversity data, and include fields relevant for genetic sequence-derived data (see Chapter 3.2 Data mapping). Our five categories seek to reflect the most commonly used molecular approaches to biodiversity characterization and are I) sequence-derived occurrences, II) enriched occurrences, III) targeted species detection, IV) name references and V) metadata only. Examine the decision tree (Fig. 3.2) and proceed to the correct section below.
+
+[[figure-06]]
+image::img/web/figure-06.jpg[]
+.Figure 6. A – decision tree for sequence-derived data categorisation. B visual representation of categories I-V.
+
+=== Category I: Sequence-derived occurrences
+
+This category concerns data where a sequence is the only evidence for the presence of a given organism or community. In other words, the data cannot be traced back to an observable specimen. This is the case for most metagenomics, metabarcoding and eDNA studies.
+
+Examples of sequence-derived occurrence datasets
+* MGnify (2019) Impact of rainforest transformation on phylogenetic and functional diversity of soil prokaryotic communities in Sumatra (Indonesia). Sampling event dataset https://doi.org/10.15468/osp7hi accessed via GBIF.org on 2020-04-16.
+* MGnify (2020) Marine metagenomes from the bioGEOTRACES project. Sampling event dataset https://doi.org/10.15468/oifcho accessed via GBIF.org on 2020-04-16.
+* Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74 (accessed via https://collections.ala.org.au/public/show/dr14581)
+
+For guidance on how to format and share these datasets, see section 3.2.1. General guidelines for Darwin Core occurrence datasets: DwC-A template for occurrence datasets and Data quality requirements for occurrences.
+
+==== Category II: Enriched occurrences
+
+If some genetic material is, or can be, associated with an observation or a specimen, we will categorize this type of data as “enriched occurrences”. In this context, the sequences are not the only evidence of occurrences. One can always trace the information back to a vouchered specimen or observed organism. This category includes barcoding datasets and some DNA metabarcoding datasets with reference material for example.
+
+Examples of Enriched occurrence datasets
+
+* The International Barcode of Life Consortium (2016) International Barcode of Life project (iBOL). Occurrence dataset https://doi.org/10.15468/inygc6 accessed via GBIF.org on 2020-04-16.
+* Takamura K (2019) Chironomid Specimen records in the Chironomid DNA Barcode Database. Version 1.9. National Institute of Genetics, ROIS. Occurrence dataset https://doi.org/10.15468/hxhow5 accessed via GBIF.org on 2020-04-16.
+* Bessey C, Jarman SN, Stat M, Rohner CA, Bunce M, Koziol A, Power M, Rambahiniarison JM, Ponzo A, Richardson AJ & Berry O (2019) DNA metabarcoding assays reveal a diverse prey assemblage for Mobula rays in the Bohol Sea, Philippines. Ecology and Evolution 9 (5) 2459-2474. https://doi.org/10.1002/ece3.4858, (accessed via https://collections.ala.org.au/public/show/dr11663)
+
+For guidance on how to format and share these datasets, see section 3.2.1. General guidelines for Darwin Core occurrence datasets: DwC-A template for occurrence datasets and Data quality requirements for occurrences.
+
+==== Category III: Targeted species detection (qPCR)
+
+This category concerns data where a specific (PCR) assay is used to detect the presence (or absence) of a DNA sequence specific to the target organism in an environmental sample. In this case the occurrence record may not even contain sequence data as it is the process itself that determines the occurrence.
+
+Examples of targeted species occurrence datasets
+* Strzelecki, Joanna; Feng, Ming; Berry, Olly; Zhong, Liejun; Keesing, John; Fairclough, David; Pearce, Alan; Slawinski, Dirk; Mortimer, Nick. Location and transport of early life stages of Western Australian Dhufish Glaucosoma hebraicum. Floreat, WA: Fisheries Research and Development Corporation; 2013. http://hdl.handle.net/102.100.100/97533 (accessed via https://collections.ala.org.au/public/show/dr8131)
+
+For guidance on how to format and share these datasets, see section 3.2.2. General guidelines for Darwin Core occurrence datasets: DwC-A template for occurrence datasets and Data quality requirements for occurrences
+
+==== Category IV: Name references
+
+This category corresponds to sequence-derived names, derived from clustering or denoising (error-correction based models), such as stable non-Linnaean Operational Taxonomic Units (OTU), Amplicon Sequence Variant (ASV) and Barcode Index Numbers (BIN). In other words, any reference to taxa or provisional names that are defined outside of the Linnaean taxonomy. Numerous projects produce local, project- or study-specific libraries of OTUs, and even though publishing those as checklists is technically possible, we see little data linking or interpretational value in such checklists, and we disencourage publishing them through biodiversity discoverable platforms. On the contrary, inclusion of the global, widely-adopted, stable, digitally referrable OTUs into the taxonomic backbones is critically important to index unnamed “dark” biodiversity. GBIF have accumulated experience in integrating such large and global reference libraries of OTUs into the GBIF taxonomic backbone, which allows to display OTUs under the nearest parent taxon which has a Latin name (Fig. 3.4). 
+
+=== Data mapping
+
+While core files store ubiquitous data on the 'what, where and when' of a record, extension files are used to describe the specifics of a certain type of observation. We propose using the MIxS for Darwin Core extension to complement occurrence data derived from either barcoding- or metabarcoding (eDNA). The MIxS extension builds on the Minimum information standards, developed by the Genomic Standards Consortium (GSC) and applied by the European Nucleotide Archive (ENA) for submission of e.g. eDNA sample metadata. To improve indexing and search we have opted to split some MIxS terms, for instance separating forward and reverse primer sequences and names.
+
+As a first step in preparing your data for publishing, you should make sure your field names / column headers follow the Darwin Core Data Standard. In many cases this is straightforward, such as renaming your lat or latitude field to decimalLatitude. However, the Darwin Core Standard is quite flexible and some terms are used in different ways, depending on the type of data. An example of this are the fields organismQuantity and organismQuantityType which could be used to describe the number of individuals, % biomass or a score on the Braun Blanquet Scale as well as the number of reads of an ASV within a sample. Therefore, we here provide tables of required / recommended fields with descriptions and examples (Table 3.2.1.1 and 3.2.1.2). Additional fields and extensions e.g. eMoF are possible here. Perhaps the single most important recommendation is to use globally unique (when available) and other permanent identifiers for as many data fields and parameters as possible (in all ID fields in the tables below).
+
+==== Mapping metabarcoding (eDNA) and barcoding data
+
+This section provides mapping recommendations for Categories I and II.
+
+
+.Recommended fields for http://rs.gbif.org/core/dwc_occurrence_2020-04-15.xml[Occurrence core] for Metabarcoding data
+[cols=4*,options="header"]
+|===
+| Field name
+| Examples
+| Description
+| Required
+
+| basisOfRecord	
+| MaterialSample
+| The specific nature of the data record - a subtype of the http://rs.gbif.org/vocabulary/dwc/basis_of_record.xml[dcterms:type]. For sequence-derived occurrences (see #[chapter 3 category IV]) use MaterialSample. For enriched occurrences (see #[chapter 3 category III]) use PreservedSpecimen or LivingSpecimen as appropriate.
+| Required
+
+| occurrenceStatus
+| Present, Absent
+| A statement about the presence or absence of a Taxon at a Location.
+| Required for ddPCR / qPCR
+
+| eventID	
+| urn:uuid:a964765b-22c4-439a-jkgt-2
+| An identifier for the set of information associated with an Event (something that occurs at a place and time). May be a global unique identifier or an identifier specific to the data set
+| Highly recommended
+
+| eventDate
+| 2020-01-05
+| 
+| Required
+
+| organismQuantity
+| 33
+| Number of reads of this sequence variant in the sample
+| Highly recommended
+
+| organismQuantityType
+| DNA sequence reads
+| Should always be “DNA sequence reads”
+| Highly recommended
+
+| sampleSizeValue
+| 1233890
+| Total number of reads in the sample
+| Highly recommended
+
+| sampleSizeUnit
+| DNA sequence reads
+| Should always be “DNA sequence reads”
+| Highly recommended
+
+| materialSampleID
+| https://www.ncbi.nlm.nih.gov/biosample/15224856 +
+urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03
+| An identifier for the MaterialSample (as opposed to a particular digital record of the material sample). Use the biosample ID if one was obtained from a nucleotide archive. In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the materialSampleID globally unique.
+| Highly recommended
+
+| samplingProtocol
+| 
+| 
+| 
+
+| associatedSequences	
+| https://www.ebi.ac.uk/ena/browser/view/SAMEA3724543
+| A list (concatenated and separated) of identifiers (publication, global unique identifier, URI) of genetic sequence information associated with the Occurrence. Could be used for linking to archived (raw) sequence reads, e.g. in a public repository.
+| Recommended
+
+| identificationRemarks
+| RDP annotation confidence (at lowest specified taxon): 0.96, against reference database: GTDB
+| Specification of taxonomic identification process, ideally including data on applied algorithm and reference database, as well as on level of confidence in the resulting identification.
+| Recommended
+
+| identificationReferences
+| https://www.ebi.ac.uk/metagenomics/pipelines/4.1 + 
+ +
+https://github.com/terrimporter/CO1Classifier
+| 
+| Recommended
+
+| previousIdentifications
+| Identified by data provider as: Bacteria|Verrucomicrobia|Spartobacteria|Spartobacteria_genera_incertae_sedis|Spartobacteria_genera_incertae_sedis|Spartobacteria_genera_incertae_sedis|||	This can be used for the raw output from the classifier (Note: may also be used by national platforms for storing user-provided identification when this has been replaced with a 'standard' taxonomic annotation for a particular group of organisms.)
+| Recommended
+
+| decimalLatitude
+| 60.545207
+| 
+| Highly recommended
+
+| decimalLongitude
+| 24.174556
+| 
+| Highly recommended
+
+| taxonID 
+| ASV:7bdb57487bee022ba30c03c3e7ca50e1
+| For eDNA data, it is recommended to use an MD5 hash of the sequence and prepend it with “ASV:”. See also #[section 2.6].
+| Highly recommended, if DNA_sequence is not provided 
+
+| scientificName
+| Gadus morhua, BOLD:ACF1143
+| Latin name of the closest known taxon (species or higher) or an OTU identifier from BOLD or UNITE
+| Required
+
+| kingdom
+| Animalia
+| 
+| Highly recommended
+
+| phylum
+| Chordata
+| 
+| Recommended
+
+| class
+| Actinopterygii
+| 
+| Recommended
+
+| order 
+| Gadiformes
+| 
+| Recommended
+
+| family
+| Gadidae
+| 
+| Recommended
+
+| genus	
+| Gadus
+| 
+| Recommended
+|===
+
+.Recommended fields from the MIxS for Darwin Core extension (a selection) for metabarcoding data
+[cols=4*,options="header"]
+|===
+| Field name
+| Examples
+| Description
+| Required
+
+| DNA_sequence
+| TCTATCCTCAATTATAGGTCATAATTCACCATCAGTAGATTTAGGAATTTTCTCTATTCATATTGCAGGTGTATCATCAATTATAGGATCAATTAATTTTATTGTAACAATTTTAAATATACATACAAAAACTCATTCATTAAACTTTTTACCATTATTTTCATGATCAGTTCTAGTTACAGCAATTCTCCTTTTATTATCATTA
+| The DNA sequence (ASV). Taxonomic interpretation of the sequence depends on the technology and reference library available at the time of publication. Hence, the most objective taxonomic handle is the sequence which can be reinterpreted in the future.
+| Highly recommended
+
+| sop
+| https://www.protocols.io/view/emp-its-illumina-amplicon-protocol-pa7dihn
+| Standard operating procedures used in assembly and/or annotation of genomes, metagenomes or environmental sequences. +
+ +
+A reference to a well documented protocol, e.g. using https://protocols.io[protocols.io]
+| Recommended
+
+| target_gene
+| 16S rRNA, 18S rRNA, nif, amoA, rpo
+| Targeted gene or marker name for marker-based studies
+| Highly recommended
+
+| target_subfragment
+| V6, V9, ITS
+| Name of subfragment of a gene or markerImportant to e.g. identify special regions on marker genes like the hypervariable V6 region of the 16S rRNA gene
+| Highly recommended
+
+| pcr_primer_forward
+| GGACTACHVGGGTWTCTAAT
+| Forward PCR primer that was used to amplify the sequence of the targeted gene, locus or subfragment.
+| Highly recommended
+
+| pcr_primer_reverse
+| GGACTACHVGGGTWTCTAAT
+| Reverse PCR primer that was used to amplify the sequence of the targeted gene, locus or subfragment.
+| Highly recommended
+
+| pcr_primer_name_forward
+| jgLCO1490
+| Name of the forward PCR primer
+| Highly recommended
+
+| pcr_primer_name_reverse
+| jgHCO2198
+| Name of the reverse PCR primer
+| Highly recommended
+
+| pcr_primer_reference
+| https://doi.org/10.1186/1742-9994-10-34
+| Reference for the primers
+| Highly recommended
+
+| env_broad_scale
+| forest biome [ENVO:01000174]
+| *Equivalent to env_biome in MIxS v4* +
+In this field, report which major environmental system your sample or specimen came from. The systems identified should have a coarse spatial grain, to provide the general environmental context of where the sampling was done (e.g. were you in the desert or a rainforest?). We recommend using subclasses of ENVO´s biome class: +
+http://purl.obolibrary.org/obo/ENVO_00000428
+| Recommended
+
+| env_local_scale
+| litter layer [ENVO:01000338]
+| *Equivalent to env_feature in MIxS v4* +
+In this field, report the entity or entities which are in your sample or specimen´s local vicinity and which you believe have significant causal influences on your sample or specimen. Please use terms that are present in ENVO and which are of smaller spatial grain than your entry for env_broad_scale.
+| Recommended
+
+| env_medium	
+| soil[ENVO:00001998]
+| *Equivalent to env_material in MIxS v4* +
+In this field, report which environmental material or materials (pipe separated) immediately surrounded your sample or specimen prior to sampling, using one or more subclasses of ENVO´s environmental material class: + http://purl.obolibrary.org/obo/ENVO_00010483
+| Recommended
+
+| lib_layout
+| Paired
+| *Equivalent to lib_const_meth in MIxS v4* +
+Specify whether to expect single, paired, or other configuration of reads
+| Recommended
+|===
+
+==== Mapping ddPCR / qPCR data
+
+This section provides mapping recommendations for https://academic.oup.com/view-large/199871507[Category III].
+
+.Recommended fields for Occurrence core for ddPCR/qPCR data
+[cols=4*,options="header"]
+|===
+| Field name
+| Examples
+| Description
+| Required
+
+| basisOfRecord
+| MaterialSample
+| The specific nature of the data record - a subtype of the dcterms:type. For sequence-derived occurrences (see #[chapter 3 category IV]), use MaterialSample. For enriched occurrences (see #[chapter 3 category III]), use PreservedSpecimen or LivingSpecimen as appropriate.
+| Required
+
+| occurrenceStatus
+| Present, Absent
+| A statement about the presence or absence of a taxon at a location.
+| Required
+
+| eventID
+| urn:uuid:a964765b-22c4-439a-jkgt-2
+| An identifier for the set of information associated with an Event (something that occurs at a place and time). May be a global unique identifier or an identifier specific to the dataset.
+| Highly recommended
+
+| eventDate
+| 2020-01-05
+| 
+| Required
+
+| organismQuantity
+| 50
+| Number of positive droplets/chambers in the sample
+| Highly recommended for ddPCR, dPCR
+
+| organismQuantityType
+| ddPCR droplets +
+dPCR chambers
+| The partition type 
+| Highly recommended for ddPCR, dPCR
+
+| sampleSizeValue
+| 20000
+| The number of accepted partitions (n), e.g. meaning accepted droplets in ddPCR or chambers in dPCR.
+| Highly recommended for ddPCR, dPCR
+
+| sampleSizeUnit
+| ddPCR droplets +
+dPCR chambers
+| The partition type, should be equal to the value in organismQuantityType	
+| Highly recommended for ddPCR, dPCR
+
+| materialSampleID
+| https://www.ncbi.nlm.nih.gov/biosample/15224856 +
+ +
+urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03
+| An identifier for the MaterialSample (as opposed to a particular digital record of the material sample). Use the biosample ID if one was obtained from a nucleotide archive. In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the materialSampleID globally unique.	
+| Highly recommended
+
+| samplingProtocol
+| 
+| 
+| 
+
+| identificationRemarks
+| RDP annotation confidence (at lowest specified taxon): 0.96, against reference database: GTDB
+| Specification of taxonomic identification process, ideally including data on applied algorithm and reference database, as well as on level of confidence in the resulting identification. 
+| Recommended
+
+| identificationReferences
+| https://www.ebi.ac.uk/metagenomics/pipelines/4.1 +
+ + 
+https://github.com/terrimporter/CO1Classifier
+| 
+| Recommended
+
+| decimalLatitude
+| 60.545207
+| 
+| Highly recommended
+
+| decimalLongitude
+| 24.174556
+| 
+| Highly recommended
+
+| scientificName
+Gadus morhua, BOLD:ACF1143
+| Latin name of the closest known taxon (species or higher) or an OTU identifier from BOLD or UNITE
+| Required
+
+| kingdom
+| Animalia
+| 
+| Highly recommended
+
+| phylum	
+| Chordata
+| 
+| Recommended
+
+| class
+| Actinopterygii
+| 
+| Recommended
+
+| order
+| Gadiformes
+| 
+| Recommended
+
+| family
+| Gadidae
+| 
+| Recommended
+
+| genus
+| Gadus
+| 
+| Recommended
+|===
+
+.Recommended fields from the http://rs.gbif.org/sandbox/extension/mixs_sample_2020-05-14.xml[MIxS for Darwin Core extension] (a selection) for ddPCR/qPCR data
+[cols=4*,options="header"]
+|===
+| Field name
+| Examples
+| Description
+| Required
+
+| sop
+| https://www.protocols.io/view/protocol-for-dna-extraction-and-quantitative-pcr-d-vwie7ce +
+ +
+dx.doi.org/10.17504/protocols.io.vwie7ce
+| Standard operating procedures used in assembly and/or annotation of genomes, metagenomes or environmental sequences. +
+A reference to a well documented protocol, e.g. using https://protocols.io[protocols.io]
+| Highly recommended
+
+| annealingTemp
+| 60
+| The reaction temperature during the annealing phase of PCR.
+| Required if annealingTemp was supplied
+
+| annealingTempUnit
+| Degrees Celsius
+| 
+| Highly recommended
+
+| probeReporter
+| FAM
+| Type of fluorophore (reporter) used. Probe anneals within amplified target DNA. Polymerase activity degrades the probe that has annealed to the template, and the probe releases the fluorophore from it and breaks the proximity to the quencher, thus allowing fluorescence of the fluorophore.
+| Highly recommended
+
+| probeQuencher
+| NFQ-MGB
+| Type of quencher used. The quencher molecule quenches the fluorescence emitted by the fluorophore when excited by the cycler’s light source as long as fluorophore and the quencher are in proximity, quenching inhibits any fluorescence signals.
+| Highly recommended
+
+| ampliconSize
+| 83
+| The length of the amplicon in basepairs
+| Highly recommended
+
+| thresholdQuantificationCycle
+| 0.3
+| Threshold for change in fluorescence signal between cycles
+| Highly recommended
+
+| baselineValue
+| 15
+| The number of cycles when fluorescence signal from the target amplification is below background fluorescence not originated from the real target amplification.
+| Highly recommended
+
+| quantificationCycle
+| 37.9450950622558
+| The number of cycles required for the fluorescent signal to cross a given value threshold above the baseline. Quantification cycle (Cq), threshold cycle (Ct), crossing point (Cp), and take-off point (TOP) refer to the same value from the real-time instrument. Use of quantification cycle (Cq), is preferable according to the http://www.rdml.org[RDML (Real-Time PCR Data Markup Language) data standard]
+| 
+
+| automaticThresholdQuantificationCycle
+| no
+| Whether the threshold was set by instrument or manually
+| 
+
+| automaticBaselineValue
+| no
+| Whether baseline value was set by instrument or manually
+| 
+
+| contaminationAssessment
+| no
+| Whether DNA or RNA contamination assessment was done or not
+| 
+
+| partitionVolume
+| 1
+| An accurate estimation of partition volume. The sum of the partitions multiplied by the partition volume will enable the total volume of the reaction to be calculated.
+| 
+
+| partitionVolumeUnit
+| nl
+| Unit used for partition volume
+| 
+
+| estimatedNumberOfCopies
+| 10300
+| Number of target molecules per µl. Mean copies per partition (?) can be calculated using the number of partitions (n) and the estimated copy number in the total volume of all partitions (m) with a formula ?=m/n.
+| 
+
+| amplificationReactionVolume
+| 22
+| PCR reaction volume
+| 
+
+| amplificationReactionVolumeUnit
+| µl
+| Unit used for PCR reaction volume. Many of the instruments require preparation of a much larger initial sample volume than is actually analyzed.
+| 
+
+| pcr_analysis_software
+| BIO-RAD QuantaSoft
+| The program used to analyse the d(d)PCR runs.
+| 
+
+| experimentalVariance
+|
+| Multiple biological replicates are encouraged to assess total experimental variation. When single dPCR experiments are performed, a minimal estimate of variance due to counting error alone must be calculated from the binomial (or suitable equivalent) distribution.
+| 
+
+| target_gene
+| 16S rRNA, 18S rRNA, nif, amoA, rpo
+| Targeted gene or marker name for marker-based studies
+| Highly recommended
+
+| target_subfragment
+| V6, V9, ITS
+| Name of subfragment of a gene or markerImportant to identify, for example, special regions on marker genes like the hypervariable V6 region of the 16S rRNA gene
+| Highly recommended
+
+| pcr_primer_forward
+| GGACTACHVGGGTWTCTAAT
+| Forward PCR primer that was used to amplify the sequence of the targeted gene, locus or subfragment.
+| Highly recommended
+
+| pcr_primer_reverse
+| GGACTACHVGGGTWTCTAAT
+| Reverse PCR primer that was used to amplify the sequence of the targeted gene, locus or subfragment.
+| Highly recommended
+
+| pcr_primer_name_forward
+| jgLCO1490
+| Name of the forward PCR primer 
+| Highly recommended
+
+| pcr_primer_name_reverse
+| jgHCO2198
+| Name of the reverse PCR primer 
+| Highly recommended
+
+| pcr_primer_reference
+| https://doi.org/10.1186/1742-9994-10-34
+| Reference for the primers
+| Highly recommended
+
+| env_broad_scale
+| forest biome [ENVO:01000174]
+| *Equivalent to env_biome in MIxS v4* + 
+In this field, report which major environmental system your sample or specimen came from. The systems identified should have a coarse spatial grain, to provide the general environmental context of where the sampling was done (e.g. were you in the desert or a rainforest?). We recommend using subclasses of ENVO´s biome class: +
+http://purl.obolibrary.org/obo/ENVO_00000428
+| Recommended
+
+| env_local_scale	
+| litter layer [ENVO:01000338]
+| *Equivalent to env_feature in MIxS v4* +
+In this field, report the entity or entities which are in your sample or specimen´s local vicinity and which you believe have significant causal influences on your sample or specimen. Please use terms that are present in ENVO and which are of smaller spatial grain than your entry for env_broad_scale.
+| Recommended
+
+| env_medium
+| soil [ENVO:00001998]
+| *Equivalent to env_material in MIxS v4* +
+In this field, report which environmental material or materials (pipe separated) immediately surrounded your sample or specimen prior to sampling, using one or more subclasses of ENVO´s environmental material class: +
+http://purl.obolibrary.org/obo/ENVO_00010483
+| Recommended
+| 
+|===

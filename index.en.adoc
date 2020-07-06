@@ -1,5 +1,8 @@
-= GBIF Document Template
-Kyle Copas <communication@gbif.org> & Matthew Blissett
+= Publishing sequence-derived data
+through biodiversity discovery platforms
+Anders Andersson, Andrew Bissett, Anders G. Finstad, Frode Fossøy, Marie Grosjean, Michael Hope, Urmas Kõljalg, Daniel Lundin, R. Henrik Nilsson, Maria Prager, Thomas Stjernegaard, Cecilie Svenningsen & Dmitry Schigel.
+
+:toclevels: 3
 :revnumber: {git-metadata-branch}
 :revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
 :title-logo-image: img/web/photo.jpg
@@ -20,3 +23,16 @@ include::acknowledgements.en.adoc[]
 :sectnums:
 
 include::100.en.adoc[]
+
+include::200.en.adoc[]
+
+include::300.en.adoc[]
+
+:sectnums!:
+
+include::glossary.en.adoc[]
+
+include::acknowledgements.en.adoc[]
+
+include::bibliography.en.adoc[]
+

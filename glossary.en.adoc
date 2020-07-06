@@ -1,0 +1,89 @@
+[glossary]
+== Glossary
+
+[glossary]
+[[ala]]ALA:: asdf.
+[[asv]]Amplicon Sequence Variant (ASV):: Unique DNA sequence derived from high-throughput sequencing and denoising, and assumed to represent a biologically real sequence variant. See also _Operational Taxonomic Unit_ (OTU).
+[[api]]Application Programming Interface (API):: Set of protocols and tools for interaction and data transmission between different computer applications. 
+[[bins]]Barcode Index Numbers (BINs):: See also _Operational Taxonomic Unit (mOTU/OTU)_.
+[[biodiversity-discovery-platform]]Biodiversity discovery platform:: General online resource to discover and access biodiversity data derived from various sources, such as natural history collections, citizen science, ecology and monitoring projects, and genetic sequences. Can be global (GBIF) or national (ALA).
+[[clustering]]Clustering:: In taxonomic classification, the process of grouping organisms together according to some similarity criterion. See _Operational Taxonomic Unit_ (mOTU).
+[[community-dna]]Community (bulk) DNA:: DNA from bulk samples (e.g. plankton samples or Malaise trap samples consisting of several individuals from many species). For the purpose of this guide, bulk sample DNA is included in the eDNA concept.
+[[darwin-core-standard]]Darwin Core (DwC) standard:: asdf.
+[[darwin-core-archive]]Darwin Core Archive (DwC-A):: asdf.
+[[data-vocabulary]]Data vocabulary:: asdf.
+[[ddpcr]]ddPCR (droplet digital Polymerase Chain Reaction):: Droplet digital PCR. Method for measuring absolute amount of DNA (number of copies) of one marker in a sample. See also _qPCR_?
+[[denoising]]Denoising:: In metabarcoding, method for separation of true biological sequences (see ASVs) from spurious sequence variants caused by PCR amplification and sequencing error.
+[[doi]]Digital Object Identifier (DOI):: asdf.
+[[barcoding]]DNA barcoding and metabarcoding (amplicon sequencing):: Use of short, standardized DNA fragments to identify individual organisms via sequencing. Metabarcoding combines barcoding with high-throughput DNA sequencing, using universal primers to amplify and sequence large groups of organisms in eDNA samples.
+[[dna-marker]]DNA marker:: A DNA fragment used as a marker of some property (e.g., taxonomic affiliation). May, but does not have to, be a gene or a part of a gene.
+[[dna-probe]]DNA probe:: A short, synthetic single-stranded DNA fragment with fluorescent labeling that binds to a selected region of target DNA (marker) during PCR. Increases specificity and can be used in addition to primers in qPCR and ddPCR to detect and quantify a genetic marker
+[[embl]]EMBL:: asdf.
+[[edna]]Environmental DNA (eDNA):: DNA from an environmental sample, e.g. soil, water, air or host organism. An often used definition is that environmental DNA is the genetic material (DNA) obtained from environmental samples without any obvious evidence of biological source material (Thomsen and Willerslev 2015).
+[[ena]]European Nucleotide Archive (ENA):: European repository for nucleotide sequences, covering raw sequencing data, sequence assembly information and functional annotation. Part of International Nucleotide Sequence Database Collaboration (INSDC).
+[[fastq]]FASTQ:: asdf.
+[[gbif]]GBIF:: asdf.
+[[ggbn]]GGBN:: asdf.
+Global Positioning System (GPS)
+●	Satellite navigation system operated by the United States Space Force.
+
+High-throughput sequencing (HTS)
+●	Different technologies for massively parallel sequencing, producing millions of DNA sequence reads from library preparations of genetic material, rather than targeting single amplicons as in traditional Sanger sequencing.
+●	Also called Next Generation Sequencing (NGS).
+
+Ingestions
+●	See Importing
+
+Indexing
+●	
+
+Metagenomics
+●	PCR-free sequencing of random genomic fragments in a mixed sample.
+
+Minimum Information about any (x) Sequence (MIxS) standard
+●	Family of standards (checklists) for sequence metadata, developed by the Genomic Standards Consortium (GSC).
+
+molecular Operational Taxonomic Unit (mOTU)
+●	See Operational Taxonomic Unit (OTU)
+
+NCBI
+●	
+
+[[otu]]Operational Taxonomic Unit (OTU):: Cluster of organisms based on similarity in specific DNA marker sequence(s), used for taxonomic classification. Includes e.g. Species Hypothesis (SHs) in UNITE, and Barcode Index Numbers (BINs) in the Barcode of Life Data System (BOLD). Amplicon Sequence Variants (ASVs) may be considered analogous to zero radius OTUs (zOTUs).
+
+Pipeline
+●	
+
+Primer (PCR primer)
+●	A short, synthetic single stranded DNA fragment that binds to the selected region on the target DNA (marker) to initiate replication during PCR. A pair of primers is necessary for the polymerase enzyme to amplify the selected marker.
+
+qPCR (quantitative Polymerase Chain Reaction)
+●	Quantitative PCR. Method that measures relative DNA quantity of a marker in a sample.
+●	See also ddPCR
+
+Species Hypothesis (SH)
+●	See also Operational Taxonomic Unit (OTU)
+
+Occurrence 
+●	
+
+Sample
+●	
+
+Specimen
+●	
+
+SRA
+●	
+
+Target-capture sequencing
+●	Sequencing of DNA fragments isolated with hybridization probes.
+
+DNA metabarcoding database
+●	Database containing DNA sequences (DNA barcodes) from previously recovered or studied organisms. The reference sequences were ideally generated from individuals of described, well-studied species - with the type specimen serving as the ideal - or higher taxonomic level (e.g., genus, family), but may also stem from eDNA sequencing efforts.It is wise not to trust “reference sequences” blindly
+
+Zero radius otu (zOTU)
+●	See ASV
+
+
+<<<

@@ -1,24 +1,25 @@
+[[introduction]]
 == Preface
 
-// This section can contain not only a preface but other 'frontmatter' as well—particularly those called out in the AsciiDoctor user manual, including
+The work on this guide started from discussions at the biodiversity_next conference in 2019 [link to BISS 2019 collection] consolidating inputs from various resources, such as:
 
-=== Epigraph
+* https://docs.google.com/document/d/1xtgNwxp3Lek8hqFOBWPa8nCFLEc1S6YrYg1y_HLe5I4/edit?usp=sharing[Final Report on Environomics Future Science Platform Project]
+* https://www.ala.org.au/blogs-news/edna-records-now-available-on-ala[ALA blog post eDNA records now available on ALA]
+* https://www.ala.org.au/environmentaldna[Environmental DNA (eDNA) in the ALA]
+* https://www.ala.org.au/app/uploads/2019/04/Simple-template-for-eDNA-data-entry-to-ALA-v2-1.xlsx[ALA eDNA data template]
+* https://www.miljodirektoratet.no/globalassets/publikasjoner/m1638/m1638.pdf?fbclid=IwAR08bK8C15ebZoGjUmxPgGz364WgFnDq9uT4CKR6aDHR1sUcOfhu7AYO69M[Norwegian Criteria for depositing eDNA samples and data, including vouchered specimens]
+* https://biodiversitydata-se.github.io/mol-data[Molecular biodiversity data in SBDI, Sweden]
+* https://www.gbif.org/faq?question=how-can-i-publish-molecular-data-to-gbif[GBIF resources (How) can I publish molecular/sequence/DNA based data to GBIF?]
+* https://data-blog.gbif.org/post/gbif-molecular-data[Molecular data in GBIF]
+* https://www.gbif.org/publishing-data[GBIF quick guide to publishing data and detailed guides to publishing data]
+* https://github.com/gbif/ipt/wiki/howToPublish#instructions[How to publish data to GBIF], as well as DwC/extension field overview. 
 
-[quote, Tacitus]
-mihi, quanto plura recentium seu veterum revolvo, tanto magis ludibria rerum mortalium cunctis in negotiis obversantur.
+The authors are aware of but did not yet consult the http://www.boldsystems.org/index.php/Resource[BOLD Handbook], http://biom-format.org[BIOME format], http://edamontology.org/page, and https://bio.tools[ELIXIR project].
 
-=== Abstract
+== Abstract
 
-The special guide to something blar de blar blar blar.
+When a genetic sequence is generated, most users will foresee its use in the context of molecular ecology or phylogenetic research. It is important to realize that a sequence with coordinates and a timestamp is a valuable biodiversity occurrence which is useful in a much broader context than its original purpose. To realize this potential, sequence-derived data needs to be discoverable through biodiversity discovery platforms. 
 
-=== Preface
+This guide will teach you how. The key idea was to create a single clear explainer material in English to cover the principles and approaches of exposing “sequences with dates and coordinates” in the context of broader biodiversity data. Furthermore, the guide covers choices of particular schemas and terms, general dangers and best practice, rather than to go into platform specific details. 
 
-It was a dark and stormy night; the rain fell in torrents, except at occasional intervals, when it was checked by a violent gust of wind which swept up the streets (for it is in London that our scene lies), rattling along the house-tops, and fiercely agitating the scanty flame of the lamps that struggled against the darkness. Through one of the obscurest quarters of London, and among haunts little loved by the gentlemen of the police, a man, evidently of the lowest orders, was wending his solitary way.
-
-=== Acknowledgments
-
-This section may also be placed at the document's end.
-
-===	Dedication
-
-Once again to Zelda
+This guide will likely be beneficial for anyone interested in better exposure of sequence-derived data through general biodiversity data systems, including national biodiversity portals.
