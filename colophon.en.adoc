@@ -8,7 +8,7 @@ endif::backend-html5[]
 === Suggested citation
 
 Andersson A, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Kõljalg U, Lundin D, Nilsson RN, Prager M, Stjernegaard T, Svenningsen C & Schigel D (2020) Publishing sequence-derived data
-through biodiversity discovery platforms. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-xxxx-xxxx.
+through biodiversity discovery platforms. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22.
 
 == Authors
 
@@ -23,9 +23,9 @@ Valuable discussions with members of (GGBN), (GLOMICON), ELIXIR, (iBOL) and (OBI
 The document _Publishing sequence-derived data
 through biodiversity discovery platforms_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License].
 
-=== URI persistente
+=== Persistent URI
 
-https://doi.org/10.15468/doc-xxxx-xxxx
+https://doi.org/10.35035/doc-vf1a-nr22
 
 === Control de documentos
 
