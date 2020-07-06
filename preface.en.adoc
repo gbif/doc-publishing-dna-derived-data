@@ -1,7 +1,7 @@
 [[introduction]]
 == Preface
 
-The work on this guide started from discussions at the biodiversity_next conference in 2019 [link to BISS 2019 collection] consolidating inputs from various resources, such as:
+The work on this guide started from discussions at the https://biss.pensoft.net/collection/115/[biodiversity_next conference] in 2019 consolidating inputs from various resources, such as:
 
 * https://docs.google.com/document/d/1xtgNwxp3Lek8hqFOBWPa8nCFLEc1S6YrYg1y_HLe5I4/edit?usp=sharing[Final Report on Environomics Future Science Platform Project]
 * https://www.ala.org.au/blogs-news/edna-records-now-available-on-ala[ALA blog post eDNA records now available on ALA]
