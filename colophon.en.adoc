@@ -10,11 +10,11 @@ endif::backend-html5[]
 Andersson A, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Kõljalg U, Lundin D, Nilsson RN, Prager M, Stjernegaard T, Svenningsen C & Schigel D (2020) Publishing sequence-derived data
 through biodiversity discovery platforms. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22.
 
-== Authors
+=== Authors
 
 Anders Andersson, Andrew Bissett, https://orcid.org/0000-0003-4529-6266[Anders G. Finstad], https://orcid.org/0000-0002-7535-9574[Frode Fossøy], https://orcid.org/0000-0002-2685-8078[Marie Grosjean], Michael Hope, https://orcid.org/0000-0002-5171-1668[Urmas Kõljalg], Daniel Lundin, https://orcid.org/0000-0002-8052-0107[R. Henrik Nilsson], https://orcid.org/0000-0003-4897-8422[Maria Prager], https://orcid.org/0000-0003-1691-239X[Thomas Stjernegaard], https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen] & https://orcid.org/0000-0002-2919-1168[Dmitry Schigel].
 
-== Contributors
+=== Contributors
 
 Valuable discussions with members of (GGBN), (GLOMICON), ELIXIR, (iBOL) and (OBIS) networks contributed to compilation of this draft. We are especially grateful for inputs and encouragement from Kessy Abarenkov, Torbjørn Ekrem, Hamish Holewa, Tobias Frøslev, Corinna Paeper, Tim Robertson, Andrew Young and others listed below who have contributed to the GBIF community review process.
 
@@ -32,7 +32,7 @@ https://doi.org/10.35035/doc-vf1a-nr22
 Published for community peer review, July 2020
 
 
-== Abstract
+=== Abstract
 
 When a genetic sequence is generated, most users will foresee its use in the context of molecular ecology or phylogenetic research. It is important to realize that a sequence with coordinates and a timestamp is a valuable biodiversity occurrence which is useful in a much broader context than its original purpose. To realize this potential, sequence-derived data needs to be discoverable through biodiversity discovery platforms. 
 
