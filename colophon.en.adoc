@@ -8,7 +8,7 @@ endif::backend-html5[]
 === Suggested citation
 
 Andersson A, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Kõljalg U, Lundin D, Nilsson RN, Prager M, Stjernegaard T, Svenningsen C & Schigel D (2020) Publishing sequence-derived data
-through biodiversity discovery platforms. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22.
+through biodiversity data platforms. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22.
 
 === Authors
 
@@ -21,7 +21,7 @@ Valuable discussions with members of (GGBN), (GLOMICON), ELIXIR, (iBOL) and (OBI
 === Licence
 
 The document _Publishing sequence-derived data
-through biodiversity discovery platforms_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License].
+through biodiversity data platforms_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License].
 
 === Persistent URI
 
@@ -34,7 +34,7 @@ Published for community peer review, July 2020
 
 === Abstract
 
-When a genetic sequence is generated, most users will foresee its use in the context of molecular ecology or phylogenetic research. It is important to realize that a sequence with coordinates and a timestamp is a valuable biodiversity occurrence which is useful in a much broader context than its original purpose. To realize this potential, sequence-derived data needs to be discoverable through biodiversity discovery platforms. 
+When a genetic sequence is generated, most users will foresee its use in the context of molecular ecology or phylogenetic research. It is important to realize that a sequence with coordinates and a timestamp is a valuable biodiversity occurrence which is useful in a much broader context than its original purpose. To realize this potential, sequence-derived data needs to be discoverable through biodiversity data platforms. 
 
 This guide will teach you how. The key idea was to create a single clear explainer material in English to cover the principles and approaches of exposing “sequences with dates and coordinates” in the context of broader biodiversity data. Furthermore, the guide covers choices of particular schemas and terms, general dangers and best practice, rather than to go into platform specific details. 
 
