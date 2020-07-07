@@ -1,6 +1,6 @@
 == Future prospects
 
-It is very likely that exposing sequence-derived data through biodiversity discovery platforms will remain in demand and grow; at the moment of writing the interest for this in the biodiversity informatics community is very high. We expect that mapping recommendations provided here will remain valid and evolve slowly, while packaging and indexing by biodiversity data platforms will develop rapidly.
+It is very likely that exposing sequence-derived data through biodiversity data platforms will remain in demand and grow; at the moment of writing the interest for this in the biodiversity informatics community is very high. We expect that mapping recommendations provided here will remain valid and evolve slowly, while packaging and indexing by biodiversity data platforms will develop rapidly.
 
 We suggest that data discovery platforms such as ALA and GBIF work towards adopting data formats that support more complex relational and hierarchical data. Examples could be the https://frictionlessdata.io/[Frictionless Data Format] and the more domain specific https://biom-format.org/[Biological Observation Matrix] (BIOM) format. The latter is used by several bioinformatic tools (QIIME, Mothur, USEARCH etc.) and hence this could help publishers skip a conversion step into DwC archives. A more flexible data format than the current DwC star schema is crucial for allowing hierarchical sampling events and material samples as well as attaching sequence data to individual occurrences within a sampling event. 
 
