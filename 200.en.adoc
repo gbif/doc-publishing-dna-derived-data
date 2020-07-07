@@ -1,6 +1,6 @@
 == Data packaging and mapping
 
-This chapter focuses on practical details on turning your data export into a dataset indexed by a biodiversity discovery platform. <<#,Section 3.1>> will help you understand what is the optimal mapping schema for your data at hand. <<#,Section 3.2>> describes these mappings in detail.
+This chapter focuses on practical details on turning your data export into a dataset indexed by a biodiversity data platform. <<#,Section 3.1>> will help you understand what is the optimal mapping schema for your data at hand. <<#,Section 3.2>> describes these mappings in detail.
 
 This guide combines the standards for general biodiversity data publishing with genetic sequence-derived biodiversity data (<<figure-05,Figure 5>>). This “do-section” stops at providing mapping recommendations for different types of sequence-derived data.
 
@@ -8,7 +8,7 @@ Data packaging and publishing pathways vary from platform to platform and are de
 
 [[figure-05]]
 image::img/web/figure-05.png[]
-.Figure 5. Zoom in of DwC-A / IPT from figure ? in chapter 2.4. The choice of core entity is mainly a matter of fitting data to the data import mechanism (ingestion) of the biodiversity discovery platforms. Most data could be formulated as either Occurrence, Event or Taxon core, but as only the core can have extensions, this will affect the choice. It is for example not possible to extend occurrences with DNA sequences if data is packaged using Event core.
+.Figure 5. Zoom in of DwC-A / IPT from figure ? in chapter 2.4. The choice of core entity is mainly a matter of fitting data to the data import mechanism (ingestion) of the biodiversity data platforms. Most data could be formulated as either Occurrence, Event or Taxon core, but as only the core can have extensions, this will affect the choice. It is for example not possible to extend occurrences with DNA sequences if data is packaged using Event core.
 
 === Categorization of your data
 
