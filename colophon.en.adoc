@@ -7,8 +7,7 @@ endif::backend-html5[]
 
 === Suggested citation
 
-Andersson A, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Kõljalg U, Lundin D, Nilsson RN, Prager M, Stjernegaard T, Svenningsen C & Schigel D (2020) Publishing sequence-derived data
-through biodiversity data platforms. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22.
+Andersson A, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Kõljalg U, Lundin D, Nilsson RN, Prager M, Stjernegaard T, Svenningsen C & Schigel D (2020) Publishing sequence-derived data through biodiversity data platforms [Community review draft]. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22.
 
 === Authors
 
