@@ -27,7 +27,7 @@ through biodiversity data platforms_ is licensed under https://creativecommons.o
 
 https://doi.org/10.35035/doc-vf1a-nr22
 
-=== Control de documentos
+=== Document control
 
 Published for community peer review, July 2020
 
