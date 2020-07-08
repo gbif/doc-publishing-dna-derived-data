@@ -1,6 +1,8 @@
 = Publishing sequence-derived data through biodiversity data platforms
 Anders Andersson; Andrew Bissett; Anders G. Finstad; Frode Fossøy; Marie Grosjean; Michael Hope; Urmas Kõljalg; Daniel Lundin; R. Henrik Nilsson; Maria Prager; Thomas Stjernegaard; Cecilie Svenningsen; Dmitry Schigel.
+:toc: left
 :toclevels: 3
+:numbered:
 :revnumber: {git-metadata-branch}
 :revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
 :title-logo-image: img/web/photo.jpg
