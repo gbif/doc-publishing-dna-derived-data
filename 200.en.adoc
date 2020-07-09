@@ -7,20 +7,20 @@ This guide combines the standards for general biodiversity data publishing with 
 Data packaging and publishing pathways vary from platform to platform and are described in general documentation. One of the widespread ways to package data files is DwC-A, where data tables are arranged in a star schema, with records (rows) in peripheral extension files pointing to a single record in the central core file (<<figure-05,Figure 5>>). There are different types of core files, e.g. occurrence and sampling-event, corresponding to different classes of datasets. Although sequence-derived datasets often are event-based in nature, i.e. hundreds or even thousands of quantified sequence occurrences may derive from a single sampling event and thus share most metadata attributes., The current recommendation is to publish data as Occurrence core (Category I or II) with the MIxS for Darwin Core extension. This is due to limitations in the DwC star schema, which would not allow any occurrence-level data in extension files, e.g. processed barcode sequences, to point to records in an event core file. We do, however, recommend including an eventID for each core record, to provide some association between occurrences derived from the same sampling event.
 
 [[figure-05]]
+.Zoom in of DwC-A / IPT from figure ? in chapter 2.4. The choice of core entity is mainly a matter of fitting data to the data import mechanism (ingestion) of the biodiversity data platforms. Most data could be formulated as either Occurrence, Event or Taxon core, but as only the core can have extensions, this will affect the choice. It is for example not possible to extend occurrences with DNA sequences if data is packaged using Event core.
 image::img/web/figure-05.png[]
-.Figure 5. Zoom in of DwC-A / IPT from figure ? in chapter 2.4. The choice of core entity is mainly a matter of fitting data to the data import mechanism (ingestion) of the biodiversity data platforms. Most data could be formulated as either Occurrence, Event or Taxon core, but as only the core can have extensions, this will affect the choice. It is for example not possible to extend occurrences with DNA sequences if data is packaged using Event core.
 
 === Categorization of your data
 
 For the purpose of this guide, we categorize data into five categories, linked by a key ID field (_eventID_), equivalent to the standards for general biodiversity data, and include fields relevant for genetic sequence-derived data (see <<Chapter 3.2 Data mapping>>). Our five categories seek to reflect the most commonly used molecular approaches to biodiversity characterization and are I) sequence-derived occurrences, II) enriched occurrences, III) targeted species detection, IV) name references and V) metadata only. Examine the decision tree (<<figure-06,Figure 6>>) and proceed to the correct section below.
 
 [[figure-06]]
+.A decision tree for sequence-derived data categorization. 
 image::img/web/figure-06.png[]
-.Figure 6. A decision tree for sequence-derived data categorization. 
 
 [[figure-07]]
-image::img/web/figure-07.png[]
-.Figure 7. Visual representation of categories I-V.
+.Visual representation of categories I-V.
+image::img/web/eDNA_categories.svg[]
 
 ==== Category I: Sequence-derived occurrences
 
@@ -57,7 +57,7 @@ For guidance on how to format and share these datasets, see section 3.2.2. Gener
 
 ==== Category IV: Name references
 
-This category corresponds to sequence-derived names, derived from clustering or denoising (error-correction based models), such as stable non-Linnaean Operational Taxonomic Units (OTU), Amplicon Sequence Variant (ASV) and Barcode Index Numbers (BIN). In other words, any reference to taxa or provisional names that are defined outside of the Linnaean taxonomy. Numerous projects produce local, project- or study-specific libraries of OTUs, and even though publishing those as checklists is technically possible, we see little data linking or interpretational value in such checklists, and we disencourage publishing them through biodiversity discoverable platforms. On the contrary, inclusion of the global, widely-adopted, stable, digitally referrable OTUs into the taxonomic backbones is critically important to index unnamed “dark” biodiversity. GBIF have accumulated experience in integrating such large and global reference libraries of OTUs into the GBIF taxonomic backbone, which allows to display OTUs under the nearest parent taxon which has a Latin name <<figure-08,Figure 8). 
+This category corresponds to sequence-derived names, derived from clustering or denoising (error-correction based models), such as stable non-Linnaean Operational Taxonomic Units (OTU), Amplicon Sequence Variant (ASV) and Barcode Index Numbers (BIN). In other words, any reference to taxa or provisional names that are defined outside of the Linnaean taxonomy. Numerous projects produce local, project- or study-specific libraries of OTUs, and even though publishing those as checklists is technically possible, we see little data linking or interpretational value in such checklists, and we disencourage publishing them through biodiversity discoverable platforms. On the contrary, inclusion of the global, widely-adopted, stable, digitally referrable OTUs into the taxonomic backbones is critically important to index unnamed “dark” biodiversity. GBIF have accumulated experience in integrating such large and global reference libraries of OTUs into the GBIF taxonomic backbone, which allows to display OTUs under the nearest parent taxon which has a Latin name <<figure-08,Figure 8>>). 
 
 ===== Examples of Name references checklists
 
