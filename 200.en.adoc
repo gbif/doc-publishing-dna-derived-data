@@ -30,7 +30,7 @@ This category concerns data where a sequence is the only evidence for the presen
 
 * MGnify (2019) Impact of rainforest transformation on phylogenetic and functional diversity of soil prokaryotic communities in Sumatra (Indonesia). Sampling event dataset https://doi.org/10.15468/osp7hi accessed via GBIF.org on 2020-04-16.
 * MGnify (2020) Marine metagenomes from the bioGEOTRACES project. Sampling event dataset https://doi.org/10.15468/oifcho accessed via GBIF.org on 2020-04-16.
-* Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74 (accessed via https://collections.ala.org.au/public/show/dr14581)
+* Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr14581. Accessed 24 June 2020)
 
 For guidance on how to format and share these datasets, see <<section 3.2.1>>. General guidelines for Darwin Core occurrence datasets: https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences].
 
@@ -42,7 +42,7 @@ If some genetic material is, or can be, associated with an observation or a spec
 
 * The International Barcode of Life Consortium (2016) International Barcode of Life project (iBOL). Occurrence dataset https://doi.org/10.15468/inygc6 accessed via GBIF.org on 2020-04-16.
 * Takamura K (2019) Chironomid Specimen records in the Chironomid DNA Barcode Database. Version 1.9. National Institute of Genetics, ROIS. Occurrence dataset https://doi.org/10.15468/hxhow5 accessed via GBIF.org on 2020-04-16.
-* Bessey C, Jarman SN, Stat M, Rohner CA, Bunce M, Koziol A, Power M, Rambahiniarison JM, Ponzo A, Richardson AJ & Berry O (2019) DNA metabarcoding assays reveal a diverse prey assemblage for Mobula rays in the Bohol Sea, Philippines. Ecology and Evolution 9 (5) 2459-2474. https://doi.org/10.1002/ece3.4858, (accessed via https://collections.ala.org.au/public/show/dr11663)
+* Bessey C, Jarman SN, Stat M, Rohner CA, Bunce M, Koziol A, Power M, Rambahiniarison JM, Ponzo A, Richardson AJ & Berry O (2019) DNA metabarcoding assays reveal a diverse prey assemblage for Mobula rays in the Bohol Sea, Philippines. Ecology and Evolution 9 (5) 2459-2474. https://doi.org/10.1002/ece3.4858, (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr11663. Accessed 24 June 2020)
 
 For guidance on how to format and share these datasets, see section 3.2.1. General guidelines for Darwin Core occurrence datasets: https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences{Data quality requirements for occurrences].
 
@@ -51,7 +51,7 @@ For guidance on how to format and share these datasets, see section 3.2.1. Gener
 This category concerns data where a specific (PCR) assay is used to detect the presence (or absence) of a DNA sequence specific to the target organism in an environmental sample. In this case the occurrence record may not even contain sequence data as it is the process itself that determines the occurrence.
 
 ===== Examples of targeted species occurrence datasets
-* Strzelecki, Joanna; Feng, Ming; Berry, Olly; Zhong, Liejun; Keesing, John; Fairclough, David; Pearce, Alan; Slawinski, Dirk; Mortimer, Nick. Location and transport of early life stages of Western Australian Dhufish Glaucosoma hebraicum. Floreat, WA: Fisheries Research and Development Corporation; 2013. http://hdl.handle.net/102.100.100/97533 (accessed via https://collections.ala.org.au/public/show/dr8131)
+* Strzelecki, Joanna; Feng, Ming; Berry, Olly; Zhong, Liejun; Keesing, John; Fairclough, David; Pearce, Alan; Slawinski, Dirk; Mortimer, Nick. Location and transport of early life stages of Western Australian Dhufish Glaucosoma hebraicum. Floreat, WA: Fisheries Research and Development Corporation; 2013. http://hdl.handle.net/102.100.100/97533?index=1 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr8131. Accessed 22 July 2020)
 
 For guidance on how to format and share these datasets, see section 3.2.2. General guidelines for Darwin Core occurrence datasets: https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences].
 
