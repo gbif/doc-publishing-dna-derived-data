@@ -18,8 +18,6 @@ include::colophon.en.adoc[]
 
 include::preface.en.adoc[]
 
-include::acknowledgements.en.adoc[]
-
 :sectnums:
 
 include::100.en.adoc[]
@@ -31,8 +29,6 @@ include::300.en.adoc[]
 :sectnums!:
 
 include::glossary.en.adoc[]
-
-include::acknowledgements.en.adoc[]
 
 include::bibliography.en.adoc[]
 
