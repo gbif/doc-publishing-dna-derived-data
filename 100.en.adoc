@@ -64,7 +64,7 @@ Note that most holders of genetic sequence data are expected to upload and archi
 
 === Processing workflows: from sample to ingestible data 
 
-Metabarcoding data can be produced with a number of different sequencing platforms (Illumina, PacBio, Oxford Nanopore, Ion Torrent, etc.) that rely on different principles for readout and generation of data that differ with respect to read length, error profile, whether sequences are single or paired-end, etc. Currently the Illumina short read platform is the most developed and as such is the basis of the below descriptions, however, the bioinformatics processing of the data follows the same general principles (QC, denoising, classification) regardless of the sequencing technology used (https://doi.org/10.3389/fmicb.2017.0156[Hugerth et al. 2017^], [figure-02,Figure 2]).
+Metabarcoding data can be produced with a number of different sequencing platforms (Illumina, PacBio, Oxford Nanopore, Ion Torrent, etc.) that rely on different principles for readout and generation of data that differ with respect to read length, error profile, whether sequences are single or paired-end, etc. Currently the Illumina short read platform is the most developed and as such is the basis of the below descriptions, however, the bioinformatics processing of the data follows the same general principles (QC, denoising, classification) regardless of the sequencing technology used (https://doi.org/10.3389/fmicb.2017.0156[Hugerth et al. 2017^], <<figure-02,Figure 2>>).
 
 [[figure-04]]
 .Outline of bioinformatic processing of metabarcoding data.
