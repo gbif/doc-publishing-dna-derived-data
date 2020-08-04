@@ -53,7 +53,7 @@ This category concerns data where a specific (PCR) assay is used to detect the p
 ===== Examples of targeted species occurrence datasets
 * Strzelecki, Joanna; Feng, Ming; Berry, Olly; Zhong, Liejun; Keesing, John; Fairclough, David; Pearce, Alan; Slawinski, Dirk; Mortimer, Nick. Location and transport of early life stages of Western Australian Dhufish Glaucosoma hebraicum. Floreat, WA: Fisheries Research and Development Corporation; 2013. http://hdl.handle.net/102.100.100/97533?index=1 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr8131. Accessed 22 July 2020)
 
-For guidance on how to format and share these datasets, see <<mapping-ddpcr-qpcr-data,§2.2.2>. General guidelines for Darwin Core occurrence datasets are also available through the https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences].
+For guidance on how to format and share these datasets, see <<mapping-ddpcr-qpcr-data,§2.2.2>>. General guidelines for Darwin Core occurrence datasets are also available through the https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences].
 
 ==== Category IV: Name references
 
@@ -64,7 +64,7 @@ This category corresponds to sequence-derived names, derived from clustering or 
 *	The International Barcode of Life Consortium (2016). International Barcode of Life project (iBOL) Barcode Index Numbers (BINs). Checklist dataset https://doi.org/10.15468/wvfqoi accessed via GBIF.org on 2020-04-16.
 *	PlutoF (2019). UNITE - Unified system for the DNA based fungal species linked to the classification. Version 1.2. Checklist dataset https://doi.org/10.15468/mkpcy3 accessed via GBIF.org on 2020-04-16.
 
-This guide does not provide mapping recommendations for global OTU checklists / reference libraries (Category IV), and publishing referenceablel (project- or study-specific) OTU libraries as checklists is discouraged. For guidance on how to format and share OTU checklists, see the following general Darwin Core guidelines in https://github.com/gbif/ipt/wiki/checklistData#templates[DwC-A template for checklists] and https://www.gbif.org/data-quality-requirements-checklists[Data quality requirements for checklists]. https://www.ebi.ac.uk/ena/submit/mixs-checklists[General guidelines for MIxS checklists]. For advice on how to map global reference libraries of OTUs for inclusion in the GBIF taxonomic backbone, contact the mailto:helpdesk@gbif.org[GBIF help desk].
+This guide does not provide mapping recommendations for global OTU checklists / reference libraries (Category IV), and publishing referenceable (project- or study-specific) OTU libraries as checklists is discouraged. For guidance on how to format and share OTU checklists, see the following general Darwin Core guidelines in https://github.com/gbif/ipt/wiki/checklistData#templates[DwC-A template for checklists] and https://www.gbif.org/data-quality-requirements-checklists[Data quality requirements for checklists]. https://www.ebi.ac.uk/ena/submit/mixs-checklists[General guidelines for MIxS checklists]. For advice on how to map global reference libraries of OTUs for inclusion in the GBIF taxonomic backbone, contact the mailto:helpdesk@gbif.org[GBIF help desk].
 
 ==== Category V: Metadata-only datasets
 
@@ -101,7 +101,7 @@ This section provides mapping recommendations for Categories I and II.
 
 | term:dwc[basisOfRecord]
 | MaterialSample
-| The specific nature of the data record - a subtype of the http://rs.gbif.org/vocabulary/dwc/basis_of_record.xml[dcterms:type]. For sequence-derived occurrences, (see <<category-iv-name-references,Category IV>>) use MaterialSample. For enriched occurrences (see <<category-iii-targeted-species-detection-qpcr,Category III]), use PreservedSpecimen or LivingSpecimen as appropriate.
+| The specific nature of the data record - a subtype of the http://rs.gbif.org/vocabulary/dwc/basis_of_record.xml[dcterms:type]. For sequence-derived occurrences, (see <<category-iv-name-references,Category IV>>) use MaterialSample. For enriched occurrences (see <<category-iii-targeted-species-detection-qpcr,Category III>>), use PreservedSpecimen or LivingSpecimen as appropriate.
 | Required
 
 | term:dwc[occurrenceStatus]
