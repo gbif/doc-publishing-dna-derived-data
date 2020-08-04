@@ -101,7 +101,7 @@ This section provides mapping recommendations for Categories I and II.
 
 | term:dwc[basisOfRecord]
 | MaterialSample
-| The specific nature of the data record - a subtype of the http://rs.gbif.org/vocabulary/dwc/basis_of_record.xml[dcterms:type]. For sequence-derived occurrences (see #[chapter 3 category IV]) use MaterialSample. For enriched occurrences (see #[chapter 3 category III]) use PreservedSpecimen or LivingSpecimen as appropriate.
+| The specific nature of the data record - a subtype of the http://rs.gbif.org/vocabulary/dwc/basis_of_record.xml[dcterms:type]. For sequence-derived occurrences, (see <<category-iv-name-references,Category IV>>) use MaterialSample. For enriched occurrences (see <<category-iii-targeted-species-detection-qpcr,Category III]), use PreservedSpecimen or LivingSpecimen as appropriate.
 | Required
 
 | term:dwc[occurrenceStatus]
@@ -141,6 +141,7 @@ This section provides mapping recommendations for Categories I and II.
 
 | term:dwc[materialSampleID]
 | https://www.ncbi.nlm.nih.gov/biosample/15224856 +
+ +
 urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03
 | An identifier for the MaterialSample (as opposed to a particular digital record of the material sample). Use the biosample ID if one was obtained from a nucleotide archive. In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the materialSampleID globally unique.
 | Highly recommended
@@ -185,7 +186,7 @@ https://github.com/terrimporter/CO1Classifier
 
 | term:dwc[taxonID]
 | ASV:7bdb57487bee022ba30c03c3e7ca50e1
-| For eDNA data, it is recommended to use an MD5 hash of the sequence and prepend it with “ASV:”. See also #[section 2.6].
+| For eDNA data, it is recommended to use an MD5 hash of the sequence and prepend it with “ASV:”. See also <<taxonomy-of-sequences,§1.6>>.
 | Highly recommended, if DNA_sequence is not provided 
 
 | term:dwc[scientificName]
@@ -321,7 +322,7 @@ This section provides mapping recommendations for https://academic.oup.com/view-
 
 | term:dwc[basisOfRecord]
 | MaterialSample
-| The specific nature of the data record - a subtype of the dcterms:type. For sequence-derived occurrences (see #[chapter 3 category IV]), use MaterialSample. For enriched occurrences (see #[chapter 3 category III]), use PreservedSpecimen or LivingSpecimen as appropriate.
+| The specific nature of the data record - a subtype of the dcterms:type. For sequence-derived occurrences (see <<category-iv-name-references,Category IV>>), use MaterialSample. For enriched occurrences (see <<category-iii-targeted-species-detection-qpcr,Category III>>), use PreservedSpecimen or LivingSpecimen as appropriate.
 | Required
 
 | term:dwc[occurrenceStatus]
@@ -442,7 +443,7 @@ https://github.com/terrimporter/CO1Classifier
 | term:mixs[sop]
 | https://www.protocols.io/view/protocol-for-dna-extraction-and-quantitative-pcr-d-vwie7ce +
  +
-dx.doi.org/10.17504/protocols.io.vwie7ce
+https://doi.org/10.17504/protocols.io.vwie7ce
 | Standard operating procedures used in assembly and/or annotation of genomes, metagenomes or environmental sequences. +
 A reference to a well documented protocol, e.g. using https://protocols.io[protocols.io]
 | Highly recommended
