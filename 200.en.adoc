@@ -170,7 +170,7 @@ https://github.com/terrimporter/CO1Classifier
 
 // The {vbar} is to allow us to have | in a table cell, and the {zwsp} (zero-width space) is to allow word breaks rather than stretching the cell.
 | term:dwc[previousIdentifications]
-| Identified by data provider as: Bacteria{vbar}{zwsp}Verrucomicrobia{vbar}{zwsp}Spartobacteria{vbar}{zwsp}Spartobacteria_genera_incertae_sedis{vbar}{zwsp}Spartobacteria_genera_incertae_sedis{vbar}{zwsp}Spartobacteria_genera_incertae_sedis{vbar}{zwsp}{vbar}{zwsp}
+| Identified by data provider as: Bacteria{vbar}{zwsp}Verrucomicrobia{vbar}{zwsp}Spartobacteria{vbar}{zwsp}Spartobacteria_genera_{zwsp}incertae_sedis{vbar}{zwsp}Spartobacteria_genera_{zwsp}incertae_sedis{vbar}{zwsp}Spartobacteria_genera_{zwsp}incertae_sedis{vbar}{zwsp}{vbar}{zwsp}
 | This can be used for the raw output from the classifier (Note: may also be used by national platforms for storing user-provided identification when this has been replaced with a 'standard' taxonomic annotation for a particular group of organisms.)
 | Recommended
 
@@ -184,8 +184,9 @@ https://github.com/terrimporter/CO1Classifier
 | 
 | Highly recommended
 
+// The [.break-all]#ASV:…# is to allow the identifier to be broken at any character, rather than stretching the text cell.
 | term:dwc[taxonID]
-| ASV:7bdb57487bee022ba30c03c3e7ca50e1
+| [.break-all]#ASV:7bdb57487bee022ba30c03c3e7ca50e1#
 | For eDNA data, it is recommended to use an MD5 hash of the sequence and prepend it with “ASV:”. See also <<taxonomy-of-sequences,§1.6>>.
 | Highly recommended, if DNA_sequence is not provided 
 
