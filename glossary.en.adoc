@@ -2,7 +2,7 @@
 == Glossary
 
 [glossary]
-[[ala]]Atlas of Living Australia (ALA):: asdf.
+[[ala]]Atlas of Living Australia (ALA):: The ALA is a web-based platform that pulls together Australian biodiversity data from multiple sources, making it accessible and reusable to anyone (see https://www.ala.org.au/about-ala/). The open infrastructure platform developed by the ALA is also used by several other countries for their own national biodiversity data platform (see https://living-atlases.gbif.org/).
 [[asv]]Amplicon Sequence Variant (ASV):: Unique DNA sequence derived from high-throughput sequencing and denoising, and assumed to represent a biologically real sequence variant. See also <<otu,Operational Taxonomic Unit (OTU)>>.
 [[api]]Application Programming Interface (API):: Set of protocols and tools for interaction and data transmission between different computer applications. 
 [[bins]]Barcode Index Numbers (BINs):: See also <<otu,Operational Taxonomic Unit (OTU)>>.
