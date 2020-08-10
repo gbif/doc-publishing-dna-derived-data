@@ -11,11 +11,11 @@ Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Kõljalg U, 
 
 === Authors
 
-https://orcid.org/0000-0002-3627-6899[Anders F. Andersson], https://orcid.org/0000-0001-7396-1484[Andrew Bissett], https://orcid.org/0000-0003-4529-6266[Anders G. Finstad], https://orcid.org/0000-0002-7535-9574[Frode Fossøy], https://orcid.org/0000-0002-2685-8078[Marie Grosjean], https://orcid.org/0000-0002-4827-3310[Michael Hope], https://orcid.org/0000-0002-5171-1668[Urmas Kõljalg], https://orcid.org/0000-0002-8779-6464[Daniel Lundin], https://orcid.org/0000-0002-8052-0107[R. Henrik Nilsson], https://orcid.org/0000-0003-4897-8422[Maria Prager], https://orcid.org/0000-0003-1691-239X[Thomas Stjernegaard], https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen] & https://orcid.org/0000-0002-2919-1168[Dmitry Schigel].
+https://orcid.org/0000-0002-3627-6899[Anders F. Andersson], https://orcid.org/0000-0001-7396-1484[Andrew Bissett], https://orcid.org/0000-0003-4529-6266[Anders G. Finstad], https://orcid.org/0000-0002-7535-9574[Frode Fossøy], https://orcid.org/0000-0002-2685-8078[Marie Grosjean], https://orcid.org/0000-0002-4827-3310[Michael Hope], https://orcid.org/0000-0002-5171-1668[Urmas Kõljalg], https://orcid.org/0000-0002-8779-6464[Daniel Lundin], https://orcid.org/0000-0002-8052-0107[R. Henrik Nilsson], https://orcid.org/0000-0003-4897-8422[Maria Prager], https://orcid.org/0000-0003-1691-239X[Thomas Stjernegaard Jeppesen], https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen] & https://orcid.org/0000-0002-2919-1168[Dmitry Schigel].
 
 === Contributors
 
-Valuable discussions with members of (GGBN), (GLOMICON), ELIXIR, (iBOL) and (OBIS) networks contributed to compilation of this draft. We are especially grateful for inputs and encouragement from Kessy Abarenkov, Torbjørn Ekrem, Hamish Holewa, Tobias Frøslev, Corinna Paeper, Tim Robertson, Andrew Young, Tim Hirsch and others listed below who have contributed to the GBIF community review process.
+Valuable discussions with members of (GGBN), (GLOMICON), ELIXIR, (iBOL) and (OBIS) networks contributed to compilation of this draft. We are especially grateful for inputs and encouragement from Kessy Abarenkov, Torbjørn Ekrem, Hamish Holewa, Tobias Guldberg Frøslev, Corinna Paeper, Tim Robertson, Andrew Young, Tim Hirsch and others listed below who have contributed to the GBIF community review process.
 
 === Licence
 
