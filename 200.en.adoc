@@ -152,7 +152,9 @@ urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03
 | 
 
 | term:dwc[associatedSequences]
-| https://www.ebi.ac.uk/ena/browser/view/SAMEA3724543
+| https://www.ebi.ac.uk/ena/browser/view/SAMEA3724543 +
+ +
+https://www.ncbi.nlm.nih.gov/nuccore/MK405371
 | A list (concatenated and separated) of identifiers (publication, global unique identifier, URI) of genetic sequence information associated with the Occurrence. Could be used for linking to archived (raw) sequence reads, e.g. in a public repository.
 | Recommended
 
