@@ -1,12 +1,36 @@
 = Publishing sequence-derived data through biodiversity data platforms [Community review draft]
 Anders F. Andersson; Andrew Bissett; Anders G. Finstad; Frode Fossøy; Marie Grosjean; Michael Hope; Urmas Kõljalg; Daniel Lundin; R. Henrik Nilsson; Maria Prager; Thomas Stjernegaard; Cecilie Svenningsen; Dmitry Schigel
+
+:authorcount: 13
+:author_1: Anders F. Andersson
+:author_2: Andrew Bissett
+:author_3: Anders G. Finstad
+:author_4: Frode Fossøy
+:author_5: Marie Grosjean
+:author_6: Michael Hope
+:author_7: Urmas Kõljalg
+:author_8: Daniel Lundin
+:author_9: R. Henrik Nilsson
+:author_10: Maria Prager
+:author_11: Thomas Stjernegaard
+:author_12: Cecilie Svenningsen
+:author_13: Dmitry Schigel
+:license: https://creativecommons.org/licenses/by-sa/4.0/
+// Title
+:title-logo-image: img/web/photo.jpg
+// Revision
+:revnumber: {git-metadata-sha-short}
+:revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
+// Contents, sections
 :toc: left
 :toclevels: 3
 :numbered:
-:revnumber: {git-metadata-branch}
-:revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
-:title-logo-image: img/web/photo.jpg
-:license: https://creativecommons.org/licenses/by-sa/4.0/
+:sectnumlevels: 2
+:pagenums:
+:xrefstyle: basic
+:icons: font
+:xrefstyle: short
+:section-refsig: §
 
 ifdef::backend-html5[]
 languageLinks:combined[]
