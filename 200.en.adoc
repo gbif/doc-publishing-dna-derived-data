@@ -18,7 +18,8 @@ For the purpose of this guide, we categorize data into five categories, linked b
 .A decision tree for sequence-derived data categorization.
 [cols="4*^.<1a,^.<2a",stripes=none,grid=cols,frame=all]
 |===
-5+|icon:question-circle[] _Is your data metabarcoding or qPCR based?_
+5+|
+icon:question-circle[] _Is your data metabarcoding or qPCR based?_
 
 4+|Metabarcoding +
 ↓
