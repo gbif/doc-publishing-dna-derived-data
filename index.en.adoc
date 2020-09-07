@@ -1,6 +1,4 @@
 = Publishing sequence-derived data through biodiversity data platforms [Community review draft]
-Anders F. Andersson; Andrew Bissett; Anders G. Finstad; Frode Fossøy; Marie Grosjean; Michael Hope; Urmas Kõljalg; Daniel Lundin; R. Henrik Nilsson; Maria Prager; Thomas Stjernegaard; Cecilie Svenningsen; Dmitry Schigel
-
 :authorcount: 13
 :author_1: Anders F. Andersson
 :author_2: Andrew Bissett
