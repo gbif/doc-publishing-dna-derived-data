@@ -14,4 +14,4 @@ The work on this guide started from discussions at the https://biss.pensoft.net/
 * https://www.gbif.org/publishing-data[GBIF quick guide to publishing data and detailed guides to publishing data]
 * https://github.com/gbif/ipt/wiki/howToPublish#instructions[How to publish data to GBIF], as well as DwC/extension field overview. 
 
-The authors are aware of but did not yet consult the http://www.boldsystems.org/index.php/Resource[BOLD Handbook], http://biom-format.org[BIOME format], http://edamontology.org/page, and https://bio.tools[ELIXIR project].
+The authors are aware of but did not yet consult the http://www.boldsystems.org/index.php/Resource[BOLD Handbook], http://biom-format.org[BIOME format] and http://edamontology.org/page.
