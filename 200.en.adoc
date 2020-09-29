@@ -377,18 +377,6 @@ urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03
 | 
 | 
 
-| term:dwc[identificationRemarks]
-| RDP annotation confidence (at lowest specified taxon): 0.96, against reference database: GTDB
-| Specification of taxonomic identification process, ideally including data on applied algorithm and reference database, as well as on level of confidence in the resulting identification. 
-| Recommended
-
-| term:dwc[identificationReferences]
-| https://www.ebi.ac.uk/metagenomics/pipelines/4.1 +
- + 
-https://github.com/terrimporter/CO1Classifier
-| 
-| Recommended
-
 | term:dwc[decimalLatitude]
 | 60.545207
 | 
@@ -461,6 +449,11 @@ A reference to a well documented protocol, e.g. using https://protocols.io[proto
 | 
 | Highly recommended
 
+| term:mixs[pcr_cond]
+| initial denaturation:94_3;annealing:50_1;elongation:72_1.5;final elongation:72_10;35
+| Description of reaction conditions and components of PCR in the form of "initial denaturation:94degC_1.5min; annealing=..."
+| Highly recommended
+
 | term:mixs[probeReporter]
 | FAM
 | Type of fluorophore (reporter) used. Probe anneals within amplified target DNA. Polymerase activity degrades the probe that has annealed to the template, and the probe releases the fluorophore from it and breaks the proximity to the quencher, thus allowing fluorescence of the fluorophore.
@@ -479,12 +472,12 @@ A reference to a well documented protocol, e.g. using https://protocols.io[proto
 | term:mixs[thresholdQuantificationCycle]
 | 0.3
 | Threshold for change in fluorescence signal between cycles
-| Highly recommended
+| qPCR: Highly recommended
 
 | term:mixs[baselineValue]
 | 15
 | The number of cycles when fluorescence signal from the target amplification is below background fluorescence not originated from the real target amplification.
-| Highly recommended
+| qPCR: Highly recommended
 
 | term:mixs[quantificationCycle]
 | 37.9450950622558
@@ -504,16 +497,6 @@ A reference to a well documented protocol, e.g. using https://protocols.io[proto
 | term:mixs[contaminationAssessment]
 | no
 | Whether DNA or RNA contamination assessment was done or not
-| 
-
-| term:mixs[partitionVolume]
-| 1
-| An accurate estimation of partition volume. The sum of the partitions multiplied by the partition volume will enable the total volume of the reaction to be calculated.
-| 
-
-| term:mixs[partitionVolumeUnit]
-| nl
-| Unit used for partition volume
 | 
 
 | term:mixs[estimatedNumberOfCopies]
@@ -594,6 +577,56 @@ In this field, report the entity or entities which are in your sample or specime
 | *Equivalent to env_material in MIxS v4* +
 In this field, report which environmental material or materials (pipe separated) immediately surrounded your sample or specimen prior to sampling, using one or more subclasses of ENVO´s environmental material class: +
 http://purl.obolibrary.org/obo/ENVO_00010483
+| Recommended
+
+| term:mixs[concentration]
+| 67.5
+| Concentration of DNA (weight ng/volume µl) see also http://terms.tdwg.org/wiki/ggbn:concentration
+| Recommended
+
+| term:mixs[concentrationUnit]
+| ng/µl
+| Unit used for concentration measurement see also http://terms.tdwg.org/wiki/ggbn:concentrationUnit
+| Recommended
+
+| term:mixs[methodDeterminationConcentrationAndRatios]
+| Nanodrop, Qubit
+| Description of method used for concentration measurement see also http://terms.tdwg.org/wiki/ggbn:methodDeterminationConcentrationAndRatios
+| Recommended	
+
+| term:mixs[ratioOfAbsorbance260_230]
+| 1.89
+| Ratio of absorbance at 260 nm and 230 nm assessing DNA purity (mostly secondary measure, indicates mainly EDTA, carbohydrates, phenol), (DNA samples only). see also http://terms.tdwg.org/wiki/ggbn:ratioOfAbsorbance260_230
+| Recommended
+
+| term:mixs[ratioOfAbsorbance260_280]
+| 1.91
+| Ratio of absorbance at 280 nm and 230 nm assessing DNA purity (mostly secondary measure, indicates mainly EDTA, carbohydrates, phenol), (DNA samples only). see also http://terms.tdwg.org/wiki/ggbn:ratioOfAbsorbance260_280
+| Recommended
+
+| term:mixs[samp_collect_device]
+| biopsy, niskin bottle, push core
+| The method or device employed for collecting the sample
+| Recommended
+
+| term:mixs[samp_mat_process]
+| filtering of seawater, storing samples in ethanol
+| Any processing applied to the sample during or after retrieving the sample from environment. This field accepts OBI, for a browser of OBI (v 2018-02-12) terms please see http://purl.bioontology.org/ontology/OBI
+| Recommended
+
+| term:mixs[sampleVolume]
+| 5
+| A numeric value for a measurement of the volume of the sample that was collected
+| Recommended
+
+| term:mixs[sampleVolumeUnit]
+| liter
+| The unit of measurement of the volume of a sample
+| Recommended
+
+| term:mixs[size_frac]
+| 0-0.22 micrometer
+| Filtering pore size used in sample preparation
 | Recommended
 | 
 |===
