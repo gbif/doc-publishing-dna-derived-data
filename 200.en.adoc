@@ -15,8 +15,51 @@ image::img/web/figure-05.png[]
 For the purpose of this guide, we categorize data into five categories, linked by a key ID field (_eventID_), equivalent to the standards for general biodiversity data, and include fields relevant for genetic sequence-derived data (see <<data-mapping,§2.2 Data mapping>>). These five categories seek to reflect the most commonly used molecular approaches to biodiversity characterization and are I) sequence-derived occurrences, II) enriched occurrences, III) targeted species detection, IV) name references and V) metadata only. Examine the decision tree (<<figure-06,Figure 6>>) and proceed to the correct section below.
 
 [[figure-06]]
-.A decision tree for sequence-derived data categorization. 
-image::img/web/figure-06.png[]
+.A decision tree for sequence-derived data categorization.
+[cols="4*^.<1a,^.<2a",stripes=none,grid=cols,frame=all]
+|===
+5+|
+icon:question-circle[] _Is your data metabarcoding or qPCR based?_
+
+4+|Metabarcoding +
+↓
+|qCPR +
+↓
+
+4+|icon:question-circle[] _Does data consist of digitized genetic material, or sequences, associated with location and time?_
+|*<<category-iii-targeted-species-detection-qpcr,Category III>>* +
+Targeted species detection
+
+2+|No +
+↓
+2+|Yes +
+↓
+|
+
+2+.^|icon:question-circle[] _Is the dataset a list of sequence-based names?_
+2+.^|icon:question-circle[] _Is the genetic material the *only* evidence of a given organism or community?_
+|
+
+|No +
+↓
+|Yes +
+↓
+|No +
+↓
+|Yes +
+↓
+|
+
+.<|*<<category-v-metadata-only-datasets,Category V>>* +
+Metadata-only
+.<|*<<category-iv-name-references,Category IV>>* +
+Name references
+.<|*<<category-ii-enriched-occurrences,Category II>>* +
+Enriched occurrences
+.<|*<<category-i-sequence-derived-occurrences,Category I>>* +
+Sequence-based occurrences
+|
+|===
 
 [[figure-07]]
 .Visual representation of categories I-V.
