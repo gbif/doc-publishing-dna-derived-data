@@ -170,12 +170,6 @@ https://github.com/terrimporter/CO1Classifier
 | 
 | Recommended
 
-// The {vbar} is to allow us to have | in a table cell, and the {zwsp} (zero-width space) is to allow word breaks rather than stretching the cell.
-| term:dwc[previousIdentifications]
-| Identified by data provider as: Bacteria{vbar}{zwsp}Verrucomicrobia{vbar}{zwsp}Spartobacteria{vbar}{zwsp}Spartobacteria_genera_{zwsp}incertae_sedis{vbar}{zwsp}Spartobacteria_genera_{zwsp}incertae_sedis{vbar}{zwsp}Spartobacteria_genera_{zwsp}incertae_sedis{vbar}{zwsp}{vbar}{zwsp}
-| This can be used for the raw output from the classifier (Note: may also be used by national platforms for storing user-provided identification when this has been replaced with a 'standard' taxonomic annotation for a particular group of organisms.)
-| Recommended
-
 | term:dwc[decimalLatitude]
 | 60.545207
 | 
