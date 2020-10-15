@@ -1,4 +1,4 @@
-= Publishing sequence-derived data through biodiversity data platforms [Community review draft]
+= Publishing DNA-derived data through biodiversity data platforms [Community review draft]
 :authorcount: 13
 :author_1: Anders F. Andersson
 :author_2: Andrew Bissett
