@@ -30,7 +30,7 @@ with specific, well-defined meanings and interrelationships, facilitating data e
 [[gps]]Global Positioning System (GPS):: Satellite navigation system operated by the United States Space Force.
 [[hts]]High-throughput sequencing (HTS):: Different technologies for massively parallel sequencing, producing millions of DNA sequence reads from library preparations of genetic material, rather than targeting single amplicons as in traditional Sanger sequencing. Also called Next Generation Sequencing (NGS).
 [[ingest]]Ingestion:: Process of importing data from heterogeneous sources, such as local databases, text files or spreadsheets, to a common destination system, such as an online <<biodiversity-data-platform, biodiversity data platform>>, for storage and further analysis. Typically includes steps of extraction, transformation (cleaning) and loading (ETL).
-[[index]]Indexing:: asdf.
+[[index]]Indexing:: Organisation of information in accordance with a specific schema or structure, making data easier to access and present.
 [[insdc]]International Nucleotide Sequence Database Collaboration (INSDC):: asdf.
 [[metagenomics]]Metagenomics:: PCR-free sequencing of random genomic fragments in a mixed sample.
 [[mixs]]Minimum Information about any (x) Sequence (MIxS) standard:: Family of standards (checklists) for sequence metadata, developed by the Genomic Standards Consortium (GSC).
