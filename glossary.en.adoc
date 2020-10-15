@@ -40,7 +40,7 @@ with specific, well-defined meanings and interrelationships, facilitating data e
 [[occurrence]]Occurrence:: asdf.
 [[otu]]Operational Taxonomic Unit (OTU):: Cluster of organisms based on similarity in specific DNA marker sequence(s), used for taxonomic classification. Includes, for example, <<sh,Species Hypothesis>> in UNITE, and <<bins,Barcode Index Numbers>> in the Barcode of Life Data System (BOLD). <<asv,Amplicon Sequence Variants (ASVs)>> may be considered analogous to <<zotu,zero radius OTUs (zOTUs)>>.
 [[pcr]]Polymerase Chain Reaction (PCR):: Technique for fast amplification and detection of specific fragments of target DNA (or RNA) sequences. Amplified regions are determined by the pair of <<primer,PCR primers>> used in the reaction.
-[[pipeline]]Pipeline:: asdf.
+[[pipeline]]Pipeline:: In bioinformatics, a set of algorithms or tools applied in a predefined workflow to process e.g. <<hts,High-throughput sequencing (HTS)>> data.
 [[primer]]Primers (PCR primers):: Short, synthetic, single-stranded DNA fragments that bind to a selected region of target DNA (marker) to initiate replication during <<pcr,PCR>>. A pair of primers is necessary for the polymerase enzyme to amplify the selected marker.
 [[qpcr]]qPCR (quantitative Polymerase Chain Reaction):: Quantitative <<pcr,PCR>>. Method that measures relative DNA quantity of a marker in a sample. See also <<ddpcr,ddPCR>>.
 [[sample]]Sample:: asdf.
