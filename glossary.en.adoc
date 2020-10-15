@@ -16,7 +16,7 @@
 with specific, well-defined meanings and interrelationships, facilitating data exchange and reuse.
 [[ddpcr]]ddPCR (droplet digital Polymerase Chain Reaction):: Droplet digital <<pcr,PCR>>. Method for measuring absolute amount of DNA (number of copies) of one marker in a sample. See also <<qpcr,qPCR>>.
 [[denoising]]Denoising:: In metabarcoding, method for separation of true biological sequences (see <<asv,ASVs>>) from spurious sequence variants caused by PCR amplification and sequencing error.
-[[doi]]Digital Object Identifier (DOI):: asdf.
+[[doi]]Digital Object Identifier (DOI):: Long-lasting reference used to uniquely identify (and locate) digital information objects, such as a biodiversity data set or a scientific publication.
 [[barcoding]]DNA barcoding and metabarcoding (amplicon sequencing):: Use of short, standardized DNA fragments to identify individual organisms via sequencing. Metabarcoding combines barcoding with high-throughput DNA sequencing, using universal primers to amplify and sequence large groups of organisms in eDNA samples.
 [[dna-marker]]DNA marker:: A DNA fragment used as a marker of some property (e.g., taxonomic affiliation). May, but does not have to, be a gene or a part of a gene.
 [[dna-db]]DNA metabarcoding database:: Database containing DNA sequences (DNA barcodes) from previously recovered or studied organisms. The reference sequences were ideally generated from individuals of described, well-studied species-with the type specimen serving as the ideal-or higher taxonomic level (e.g., genus, family), but may also stem from eDNA sequencing efforts.It is wise not to trust “reference sequences” blindly.
