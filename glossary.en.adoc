@@ -24,7 +24,7 @@ with specific, well-defined meanings and interrelationships, facilitating data e
 [[embl]]European Bioinformatics Institute (EMBL-EBI):: Intergovernmental organization for bioinformatics research and services, part of the European Molecular Biology Laboratory (EMBL), providing eg. (raw) sequence reads and assembly data via <<ena,the Europena Nucleotide Archive (ENA)>>.
 [[edna]]Environmental DNA (eDNA):: DNA from an environmental sample, e.g. soil, water, air or host organism. An often used definition is that environmental DNA is the genetic material (DNA) obtained from environmental samples without any obvious evidence of biological source material (https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen and Willerslev 2015^]).
 [[ena]]European Nucleotide Archive (ENA):: European repository for nucleotide sequences, covering raw sequencing data, sequence assembly information and functional annotation. Includes the <<sra,Sequence Read Archive (SRA)>>, and is maintained by the European Bioinformatics Institute (EMBL-EBI), as part of <<insdc, the International Nucleotide Sequence Database Collaboration (INSDC)>>.
-[[fastq]]FASTQ:: Text-based standard for storing molecular sequences and associated quality measures deriving from <<hts,High-throughput sequencing (HTS)>>. For each sequence position, single ASCII-characters are used to represent base call (identified nuctleotide) and score, respectively. 
+[[fastq]]FASTQ:: Text-based standard for storing molecular sequences and associated quality measures deriving from <<hts,High-throughput sequencing (HTS)>>. For each sequence position, single ASCII-characters are used to represent base call (identified nuctleotide) and score, respectively.
 [[gbif]]GBIF:: asdf.
 [[ggbn]]Global Genome Biodiversity Network (GGBN)::International network of institutions concerned with efficient sharing and usage of genomic biodiversity samples and associated metadata, e.g. promoting the Darwin Core-compatible GGBN Data Standard.
 [[gps]]Global Positioning System (GPS):: Satellite navigation system operated by the United States Space Force.
@@ -35,14 +35,9 @@ with specific, well-defined meanings and interrelationships, facilitating data e
 [[metagenomics]]Metagenomics:: PCR-free sequencing of random genomic fragments in a mixed sample.
 [[mixs]]Minimum Information about any (x) Sequence (MIxS) standard:: Family of standards (checklists) for sequence metadata, developed by the Genomic Standards Consortium (GSC).
 [[motu]]molecular Operational Taxonomic Unit (mOTU):: See <<otu,Operational Taxonomic Unit (OTU)>>.
-<<<<<<< HEAD
-[[ncbi]]NCBI:: asdf.
-[[occurrence]]Occurrence:: asdf.
-=======
-[[ncbi]]National Center for Biotechnology Information (NCBI):: Division of United States National Library of Medicine (NLM) housing important bioinformatics resources, such as the GenBank database of DNA sequences, and the <<sra,Sequence Read Archive (SRA)>> of high throughput sequencing data. 
+[[ncbi]]National Center for Biotechnology Information (NCBI):: Division of United States National Library of Medicine (NLM) housing important bioinformatics resources, such as the GenBank database of DNA sequences, and the <<sra,Sequence Read Archive (SRA)>> of high throughput sequencing data.
 [[ngs]]Next Generation Sequencing (NGS):: See <<hts,High-throughput sequencing (HTS)>>.
-[[occurrence]]Occurrence:: asdf.	
->>>>>>> upstream/1.0
+[[occurrence]]Occurrence:: asdf.
 [[otu]]Operational Taxonomic Unit (OTU):: Cluster of organisms based on similarity in specific DNA marker sequence(s), used for taxonomic classification. Includes, for example, <<sh,Species Hypothesis>> in UNITE, and <<bins,Barcode Index Numbers>> in the Barcode of Life Data System (BOLD). <<asv,Amplicon Sequence Variants (ASVs)>> may be considered analogous to <<zotu,zero radius OTUs (zOTUs)>>.
 [[pcr]]Polymerase Chain Reaction (PCR):: Technique for fast amplification and detection of specific fragments of target DNA (or RNA) sequences. Amplified regions are determined by the pair of <<primer,PCR primers>> used in the reaction.
 [[pipeline]]Pipeline:: asdf.
