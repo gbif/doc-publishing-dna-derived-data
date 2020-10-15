@@ -37,7 +37,7 @@ Targeted species detection
 |
 
 2+.^|icon:question-circle[] _Is the genetic material the *only* evidence of a given organism or community?_
-2+.^|icon:question-circle[] _Is the dataset a list of DNA sequence-based names?_
+2+.^|icon:question-circle[] _Is the dataset a list of DNA-based names?_
 |
 
 |Yes +
@@ -50,7 +50,7 @@ Targeted species detection
 ↓
 |
 
-.<|*<<category-i-sequence-derived-occurrences,Category I>>* +
+.<|*<<category-i-dna-derived-occurrences,Category I>>* +
 DNA-based occurrences
 .<|*<<category-ii-enriched-occurrences,Category II>>* +
 Enriched occurrences
@@ -362,7 +362,7 @@ This section provides mapping recommendations for https://academic.oup.com/view-
 
 | term:dwc[basisOfRecord]
 | MaterialSample
-| The specific nature of the data record - a subtype of the dcterms:type. For sequence-derived occurrences (see <<category-iv-name-references,Category IV>>), use MaterialSample. For enriched occurrences (see <<category-iii-targeted-species-detection-qpcr,Category III>>), use PreservedSpecimen or LivingSpecimen as appropriate.
+| The specific nature of the data record - a subtype of the dcterms:type. For DNA-derived occurrences (see <<category-iv-name-references,Category IV>>), use MaterialSample. For enriched occurrences (see <<category-iii-targeted-species-detection-qpcr,Category III>>), use PreservedSpecimen or LivingSpecimen as appropriate.
 | Required
 
 | term:dwc[occurrenceStatus]
