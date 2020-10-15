@@ -14,7 +14,7 @@
 [[dwc-standard]]Darwin Core (DwC) standard:: Standard for sharing and publishing biodiversity data, originating from the Biodiversity Information Standards (TDWG) community. In principle, a set of terms used for describing different entities of biodiversity observations, such as sampling events, occurrences and taxa. Current Darwin Core terms are described in the https://dwc.tdwg.org/terms/[Quick Reference Guide].
 [[data-vocabulary]]Data vocabulary:: Set of preferred terms or concepts
 with specific, well-defined meanings and interrelationships, facilitating data exchange and reuse.
-[[ddpcr]]ddPCR (droplet digital Polymerase Chain Reaction):: Droplet digital PCR. Method for measuring absolute amount of DNA (number of copies) of one marker in a sample. See also <<qpcr,qPCR>>.
+[[ddpcr]]ddPCR (droplet digital Polymerase Chain Reaction):: Droplet digital <<pcr,PCR>>. Method for measuring absolute amount of DNA (number of copies) of one marker in a sample. See also <<qpcr,qPCR>>.
 [[denoising]]Denoising:: In metabarcoding, method for separation of true biological sequences (see <<asv,ASVs>>) from spurious sequence variants caused by PCR amplification and sequencing error.
 [[doi]]Digital Object Identifier (DOI):: asdf.
 [[barcoding]]DNA barcoding and metabarcoding (amplicon sequencing):: Use of short, standardized DNA fragments to identify individual organisms via sequencing. Metabarcoding combines barcoding with high-throughput DNA sequencing, using universal primers to amplify and sequence large groups of organisms in eDNA samples.
@@ -38,9 +38,10 @@ with specific, well-defined meanings and interrelationships, facilitating data e
 [[ncbi]]NCBI:: asdf.
 [[occurrence]]Occurrence:: asdf.
 [[otu]]Operational Taxonomic Unit (OTU):: Cluster of organisms based on similarity in specific DNA marker sequence(s), used for taxonomic classification. Includes, for example, <<sh,Species Hypothesis>> in UNITE, and <<bins,Barcode Index Numbers>> in the Barcode of Life Data System (BOLD). <<asv,Amplicon Sequence Variants (ASVs)>> may be considered analogous to <<zotu,zero radius OTUs (zOTUs)>>.
+[[pcr]]Polymerase Chain Reaction (PCR)::Technique for fast amplification and detection of specific fragments of target DNA (or RNA) sequences. Amplified regions are determined by the pair of <<primer,PCR primers>> used in the reaction.
 [[pipeline]]Pipeline:: asdf.
-[[primer]]Primer (PCR primer):: A short, synthetic single stranded DNA fragment that binds to the selected region on the target DNA (marker) to initiate replication during PCR. A pair of primers is necessary for the polymerase enzyme to amplify the selected marker.
-[[qpcr]]qPCR (quantitative Polymerase Chain Reaction):: Quantitative PCR. Method that measures relative DNA quantity of a marker in a sample. See also <<ddpcr,ddPCR>>.
+[[primer]]Primers (PCR primers):: Short, synthetic, single-stranded DNA fragments that bind to a selected region of target DNA (marker) to initiate replication during <<pcr,PCR>>. A pair of primers is necessary for the polymerase enzyme to amplify the selected marker.
+[[qpcr]]qPCR (quantitative Polymerase Chain Reaction):: Quantitative <<pcr,PCR>>. Method that measures relative DNA quantity of a marker in a sample. See also <<ddpcr,ddPCR>>.
 [[sample]]Sample:: asdf.
 [[sh]]Species Hypothesis (SH):: See also <<otu,Operational Taxonomic Unit (OTU)>>.
 [[specimen]]Specimen:: asdf.
