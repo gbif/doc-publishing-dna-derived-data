@@ -2,9 +2,9 @@
 
 This chapter focuses on practical details on turning your data export into a dataset indexed by a biodiversity data platform. <<#,Section 3.1>> will help you understand what is the optimal mapping schema for your data at hand. <<#,Section 3.2>> describes these mappings in detail.
 
-This guide combines the standards for general biodiversity data publishing with genetic sequence-derived biodiversity data (<<figure-05,Figure 5>>). This “do-section” stops at providing mapping recommendations for different types of sequence-derived data.
+This guide combines the standards for general biodiversity data publishing with genetic DNA-derived biodiversity data (<<figure-05,Figure 5>>). This “do-section” stops at providing mapping recommendations for different types of DNA-derived data.
 
-Data packaging and publishing pathways vary from platform to platform and are described in general documentation. One of the widespread ways to package data files is DwC-A, where data tables are arranged in a star schema, with records (rows) in peripheral extension files pointing to a single record in the central core file (<<figure-05,Figure 5>>). The different types of core files (e.g. occurrence and sampling-event) correspond to different classes of datasets. Although sequence-derived datasets often are event-based in nature, i.e. hundreds or even thousands of quantified sequence occurrences may derive from a single sampling event and thus share most metadata attributes., The current recommendation is to publish data as Occurrence core (Category I or II) with the MIxS for Darwin Core extension. This approach compensates for limitations of the DwC star schema, which would not allow any occurrence-level data in extension files (such as processed barcode sequences) to point to records in an event core file. We do, however, recommend including an eventID for each core record, to indicate the association between occurrences derived from the same sampling event.
+Data packaging and publishing pathways vary from platform to platform and are described in general documentation. One of the widespread ways to package data files is DwC-A, where data tables are arranged in a star schema, with records (rows) in peripheral extension files pointing to a single record in the central core file (<<figure-05,Figure 5>>). The different types of core files (e.g. occurrence and sampling-event) correspond to different classes of datasets. Although DNA-derived datasets often are event-based in nature, i.e. hundreds or even thousands of quantified sequence occurrences may derive from a single sampling event and thus share most metadata attributes., The current recommendation is to publish data as Occurrence core (Category I or II) with the DNA derived data extension. This approach compensates for limitations of the DwC star schema, which would not allow any occurrence-level data in extension files (such as processed barcode sequences) to point to records in an event core file. We do, however, recommend including an eventID for each core record, to indicate the association between occurrences derived from the same sampling event.
 
 [[figure-05]]
 .Zoom in of DwC-A / IPT from figure ? in chapter 2.4. The choice of core entity is mainly a matter of fitting data to the data import mechanism (ingestion) of the biodiversity data platforms. Most data could be formulated as either Occurrence, Event or Taxon core, but as only the core can have extensions, this will affect the choice. It is for example not possible to extend occurrences with DNA sequences if data is packaged using Event core.
@@ -12,10 +12,10 @@ image::img/web/figure-05.png[]
 
 === Categorization of your data
 
-For the purpose of this guide, we categorize data into five categories, linked by a key ID field (_eventID_), equivalent to the standards for general biodiversity data, and include fields relevant for genetic sequence-derived data (see <<data-mapping,§2.2 Data mapping>>). These five categories seek to reflect the most commonly used molecular approaches to biodiversity characterization and are I) sequence-derived occurrences, II) enriched occurrences, III) targeted species detection, IV) name references and V) metadata only. Examine the decision tree and proceed to the correct section below.
+For the purpose of this guide, we categorize data into five categories, linked by a key ID field (_eventID_), equivalent to the standards for general biodiversity data, and include fields relevant for DNA-derived data (see <<data-mapping,§2.2 Data mapping>>). These five categories seek to reflect the most commonly used molecular approaches to biodiversity characterization and are I) DNA-derived occurrences, II) enriched occurrences, III) targeted species detection, IV) name references and V) metadata only. Examine the decision tree and proceed to the correct section below.
 
 [[decision-tree]]
-.A decision tree for sequence-derived data categorization.
+.A decision tree for DNA-derived data categorization.
 [cols="4*^.<1a,^.<2a",stripes=none,grid=cols,frame=all]
 |===
 5+|
@@ -37,7 +37,7 @@ Targeted species detection
 |
 
 2+.^|icon:question-circle[] _Is the genetic material the *only* evidence of a given organism or community?_
-2+.^|icon:question-circle[] _Is the dataset a list of sequence-based names?_
+2+.^|icon:question-circle[] _Is the dataset a list of DNA-based names?_
 |
 
 |Yes +
@@ -50,8 +50,8 @@ Targeted species detection
 ↓
 |
 
-.<|*<<category-i-sequence-derived-occurrences,Category I>>* +
-Sequence-based occurrences
+.<|*<<category-i-dna-derived-occurrences,Category I>>* +
+DNA-based occurrences
 .<|*<<category-ii-enriched-occurrences,Category II>>* +
 Enriched occurrences
 .<|*<<category-iv-name-references,Category IV>>* +
@@ -65,11 +65,11 @@ Metadata-only
 .Visual representation of categories I-V.
 image::img/web/eDNA_categories.svg[]
 
-==== Category I: Sequence-derived occurrences
+==== Category I: DNA-derived occurrences
 
-This category concerns data where a sequence is the only evidence for the presence of a given organism or community. In other words, the data cannot be traced back to an observable specimen. This is the case for most metagenomics, metabarcoding and eDNA studies.
+This category concerns data where a DNA sequence or detection through PCR is the only evidence for the presence of a given organism or community. In other words, the data cannot be traced back to an observable specimen. This is the case for most metagenomics, metabarcoding and eDNA studies.
 
-===== Examples of sequence-derived occurrence datasets
+===== Examples of DNA-derived occurrence datasets
 
 * MGnify (2019) Impact of rainforest transformation on phylogenetic and functional diversity of soil prokaryotic communities in Sumatra (Indonesia). Sampling event dataset https://doi.org/10.15468/osp7hi accessed via GBIF.org on 2020-04-16.
 * MGnify (2020) Marine metagenomes from the bioGEOTRACES project. Sampling event dataset https://doi.org/10.15468/oifcho accessed via GBIF.org on 2020-04-16.
@@ -100,7 +100,7 @@ For guidance on how to format and share these datasets, see <<mapping-ddpcr-qpcr
 
 ==== Category IV: Name references
 
-This category corresponds to sequence-derived names, derived from clustering or denoising (error-correction based models), such as stable non-Linnaean Operational Taxonomic Units (OTU), Amplicon Sequence Variant (ASV) and Barcode Index Numbers (BIN)—in other words, any reference to taxa or provisional names that are defined outside of the Linnaean taxonomy. Numerous projects produce local project- or study-specific libraries of OTUs, and although it is technically possible to publish these as checklists, they have limited to no value for data linking or interpretation; as a result, we do not encourage their publication through biodiversity data platforms. However, the inclusion of the widely adopted, stable, global, digitally referenceable OTUs into Linnaean taxonomic backbones is critically important for indexing unnamed “dark” biodiversity. GBIF have accumulated experience in integrating such large and global reference libraries of OTUs into the GBIF taxonomic backbone, which allows the display of OTUs under the nearest parent taxon which has a Latin name (<<figure-08,Figure 8>>). 
+This category corresponds to DNA-derived names, derived from clustering or denoising (error-correction based models), such as stable non-Linnaean Operational Taxonomic Units (OTU), Amplicon Sequence Variant (ASV) and Barcode Index Numbers (BIN)—in other words, any reference to taxa or provisional names that are defined outside of the Linnaean taxonomy. Numerous projects produce local project- or study-specific libraries of OTUs, and although it is technically possible to publish these as checklists, they have limited to no value for data linking or interpretation; as a result, we do not encourage their publication through biodiversity data platforms. However, the inclusion of the widely adopted, stable, global, digitally referenceable OTUs into Linnaean taxonomic backbones is critically important for indexing unnamed “dark” biodiversity. GBIF have accumulated experience in integrating such large and global reference libraries of OTUs into the GBIF taxonomic backbone, which allows the display of OTUs under the nearest parent taxon which has a Latin name (<<figure-08,Figure 8>>). 
 
 ===== Examples of Name references checklists
 
@@ -118,11 +118,11 @@ Metadata is data about the data and is a description of the dataset in broad ter
 *	Collins E, Sweetlove M (2019). Arctic Ocean microbial metagenomes sampled aboard CGC Healy during the 2015 GEOTRACES Arctic research cruise. SCAR - Microbial Antarctic Resource System. Metadata dataset https://doi.org/10.15468/iljmun accessed via GBIF.org on 2020-04-16.
 *	Cary S C (2015). New Zealand Terrestrial Biocomplexity Survey. SCAR - Microbial Antarctic Resource System. Metadata dataset https://doi.org/10.15468/xnzrhq accessed via GBIF.org on 2020-04-16.
 
-Mapping recommendations for metadata-only sequence-derived datasets (Category V) is the same as for any other metadata-only datasets, and this guide does not provide any specific mapping recommendations for metadata. Please follow general recommendations of biodiversity data portals, paying attention to https://github.com/gbif/ipt/wiki/resourceMetadata[required and recommended metadata]. Descriptions of field, lab, and bioinformatics steps should be as detailed as possible. Describing your methods as method steps in the EML metadata makes them display on the dataset homepage in GBIF (example). However, if a structured and possibly more detailed method description is already published somewhere (e.g. at https://protocols.io[protocols.io]), it is straightforward to provide a link through the MIxS SOP field (see <<mapping-metabarcoding-edna-and-barcoding-data,§2.2.1>>).
+Mapping recommendations for metadata-only DNA-derived datasets (Category V) is the same as for any other metadata-only datasets, and this guide does not provide any specific mapping recommendations for metadata. Please follow general recommendations of biodiversity data portals, paying attention to https://github.com/gbif/ipt/wiki/resourceMetadata[required and recommended metadata]. Descriptions of field, lab, and bioinformatics steps should be as detailed as possible. Describing your methods as method steps in the EML metadata makes them display on the dataset homepage in GBIF (example). However, if a structured and possibly more detailed method description is already published somewhere (e.g. at https://protocols.io[protocols.io]), it is straightforward to provide a link through the MIxS SOP field (see <<mapping-metabarcoding-edna-and-barcoding-data,§2.2.1>>).
 
 === Data mapping
 
-While core files store ubiquitous data on the 'what, where and when' of a record, extension files are used to describe the specifics of a certain type of observation. We propose using the http://rs.gbif.org/sandbox/extension/mixs_sample_2020-06-15.xml[MIxS for Darwin Core extension] to complement occurrence data derived from either barcoding, metabarcoding (eDNA) or qPCR/ddPCR. The MIxS extension builds on the https://gensc.org/mixs/[Minimum information standards] developed by the Genomic Standards Consortium (GSC) and applied by the [ena,ENA] for https://www.ebi.ac.uk/ena/submit/mixs-checklists[submission of eDNA sample metadata], for example. To improve indexing and search we have opted to split some MIxS terms, for instance separating forward and reverse primer sequences and names. Furthermore, some fields from the GGBN standard and fields for qPCR and ddPCR data have been included to make it applicable for a wide range of DNA-derived data.
+While core files store ubiquitous data on the 'what, where and when' of a record, extension files are used to describe the specifics of a certain type of observation. We propose using the http://rs.gbif.org/sandbox/extension/dna_derived_data.xml[DNA derived data extension] to complement occurrence data derived from either barcoding, metabarcoding (eDNA) or qPCR/ddPCR. The DNA derived data extension builds on the https://gensc.org/mixs/[Minimum information standards] developed by the Genomic Standards Consortium (GSC) and applied by the [ena,ENA] for https://www.ebi.ac.uk/ena/submit/mixs-checklists[submission of eDNA sample metadata], for example. To improve indexing and search we have opted to split some MIxS terms, for instance separating forward and reverse primer sequences and names. Furthermore, some fields from the GGBN standard and fields from the MIQE  (minimum information for the publication of quantitative real-time PCR) guidelines for qPCR and ddPCR data have been included to make it applicable for a wide range of DNA-derived data.
 
 As a first step in preparing your data for publishing, you should make sure your field names / column headers follow the https://dwc.tdwg.org/terms/[Darwin Core data standard]. In many cases this is straightforward, such as renaming your `lat` or `latitude` field to `decimalLatitude`. However, the Darwin Core Standard is quite flexible and some terms are used in different ways, depending on the type of data. An example of this are the fields term:dwc[organismQuantity] and term:dwc[organismQuantityType], which could be used to describe the number of individuals, per cent biomass or a score on the Braun-Blanquet Scale, as well as the number of reads of an ASV within a sample. Therefore, we here provide tables of required and recommended fields with descriptions and examples (<<table-01,Table 1>> and <<table-02, Table 2>>). Additional fields and extensions (such as http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]) are applicable. Perhaps the most important recommendation is to use globally unique (when available) and other permanent identifiers for as many data fields and parameters as possible (in all ID fields in the tables below).
 
@@ -144,7 +144,7 @@ This section provides mapping recommendations for Categories I and II.
 
 | term:dwc[basisOfRecord]
 | MaterialSample
-| The specific nature of the data record - a subtype of the http://rs.gbif.org/vocabulary/dwc/basis_of_record.xml[dcterms:type]. For sequence-derived occurrences, (see <<category-iv-name-references,Category IV>>) use MaterialSample. For enriched occurrences (see <<category-iii-targeted-species-detection-qpcr,Category III>>), use PreservedSpecimen or LivingSpecimen as appropriate.
+| The specific nature of the data record - a subtype of the http://rs.gbif.org/vocabulary/dwc/basis_of_record.xml[dcterms:type]. For DNA-derived occurrences, (see <<category-iv-name-references,Category IV>> and <<category-iii-targeted-species-detection-qpcr,Category III>>) use MaterialSample. For enriched occurrences use PreservedSpecimen or LivingSpecimen as appropriate.
 | Required
 
 | term:dwc[occurrenceStatus]
@@ -266,7 +266,7 @@ https://github.com/terrimporter/CO1Classifier
 |===
 
 [[table-02]]
-.Recommended fields from the MIxS for Darwin Core extension (a selection) for metabarcoding data
+.Recommended fields from the DNA derived data extension (a selection) for metabarcoding data
 [cols="1,1,4,1",options="header"]
 |===
 | Field name
@@ -362,7 +362,7 @@ This section provides mapping recommendations for https://academic.oup.com/view-
 
 | term:dwc[basisOfRecord]
 | MaterialSample
-| The specific nature of the data record - a subtype of the dcterms:type. For sequence-derived occurrences (see <<category-iv-name-references,Category IV>>), use MaterialSample. For enriched occurrences (see <<category-iii-targeted-species-detection-qpcr,Category III>>), use PreservedSpecimen or LivingSpecimen as appropriate.
+| The specific nature of the data record - a subtype of the dcterms:type. For DNA-derived occurrences (see <<category-iv-name-references,Category IV>>), use MaterialSample. For enriched occurrences (see <<category-iii-targeted-species-detection-qpcr,Category III>>), use PreservedSpecimen or LivingSpecimen as appropriate.
 | Required
 
 | term:dwc[occurrenceStatus]
@@ -414,18 +414,6 @@ urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03
 | 
 | 
 
-| term:dwc[identificationRemarks]
-| RDP annotation confidence (at lowest specified taxon): 0.96, against reference database: GTDB
-| Specification of taxonomic identification process, ideally including data on applied algorithm and reference database, as well as on level of confidence in the resulting identification. 
-| Recommended
-
-| term:dwc[identificationReferences]
-| https://www.ebi.ac.uk/metagenomics/pipelines/4.1 +
- + 
-https://github.com/terrimporter/CO1Classifier
-| 
-| Recommended
-
 | term:dwc[decimalLatitude]
 | 60.545207
 | 
@@ -472,7 +460,7 @@ https://github.com/terrimporter/CO1Classifier
 | Recommended
 |===
 
-.Recommended fields from the http://rs.gbif.org/sandbox/extension/mixs_sample_2020-05-14.xml[MIxS for Darwin Core extension] (a selection) for ddPCR/qPCR data
+.Recommended fields from the http://rs.gbif.org/sandbox/extension/dna_derived_data.xml[DNA derived data extension] (a selection) for ddPCR/qPCR data
 [cols="1,1,4,1",options="header"]
 |===
 | Field name
@@ -498,6 +486,11 @@ A reference to a well documented protocol, e.g. using https://protocols.io[proto
 | 
 | Highly recommended
 
+| term:mixs[pcr_cond]
+| initial denaturation:94_3;annealing:50_1;elongation:72_1.5;final elongation:72_10;35
+| Description of reaction conditions and components of PCR in the form of "initial denaturation:94degC_1.5min; annealing=..."
+| Highly recommended
+
 | term:mixs[probeReporter]
 | FAM
 | Type of fluorophore (reporter) used. Probe anneals within amplified target DNA. Polymerase activity degrades the probe that has annealed to the template, and the probe releases the fluorophore from it and breaks the proximity to the quencher, thus allowing fluorescence of the fluorophore.
@@ -516,12 +509,12 @@ A reference to a well documented protocol, e.g. using https://protocols.io[proto
 | term:mixs[thresholdQuantificationCycle]
 | 0.3
 | Threshold for change in fluorescence signal between cycles
-| Highly recommended
+| qPCR: Highly recommended
 
 | term:mixs[baselineValue]
 | 15
 | The number of cycles when fluorescence signal from the target amplification is below background fluorescence not originated from the real target amplification.
-| Highly recommended
+| qPCR: Highly recommended
 
 | term:mixs[quantificationCycle]
 | 37.9450950622558
@@ -541,16 +534,6 @@ A reference to a well documented protocol, e.g. using https://protocols.io[proto
 | term:mixs[contaminationAssessment]
 | no
 | Whether DNA or RNA contamination assessment was done or not
-| 
-
-| term:mixs[partitionVolume]
-| 1
-| An accurate estimation of partition volume. The sum of the partitions multiplied by the partition volume will enable the total volume of the reaction to be calculated.
-| 
-
-| term:mixs[partitionVolumeUnit]
-| nl
-| Unit used for partition volume
 | 
 
 | term:mixs[estimatedNumberOfCopies]
@@ -631,6 +614,56 @@ In this field, report the entity or entities which are in your sample or specime
 | *Equivalent to env_material in MIxS v4* +
 In this field, report which environmental material or materials (pipe separated) immediately surrounded your sample or specimen prior to sampling, using one or more subclasses of ENVO´s environmental material class: +
 http://purl.obolibrary.org/obo/ENVO_00010483
+| Recommended
+
+| term:mixs[concentration]
+| 67.5
+| Concentration of DNA (weight ng/volume µl) see also http://terms.tdwg.org/wiki/ggbn:concentration
+| Recommended
+
+| term:mixs[concentrationUnit]
+| ng/µl
+| Unit used for concentration measurement see also http://terms.tdwg.org/wiki/ggbn:concentrationUnit
+| Recommended
+
+| term:mixs[methodDeterminationConcentrationAndRatios]
+| Nanodrop, Qubit
+| Description of method used for concentration measurement see also http://terms.tdwg.org/wiki/ggbn:methodDeterminationConcentrationAndRatios
+| Recommended	
+
+| term:mixs[ratioOfAbsorbance260_230]
+| 1.89
+| Ratio of absorbance at 260 nm and 230 nm assessing DNA purity (mostly secondary measure, indicates mainly EDTA, carbohydrates, phenol), (DNA samples only). see also http://terms.tdwg.org/wiki/ggbn:ratioOfAbsorbance260_230
+| Recommended
+
+| term:mixs[ratioOfAbsorbance260_280]
+| 1.91
+| Ratio of absorbance at 280 nm and 230 nm assessing DNA purity (mostly secondary measure, indicates mainly EDTA, carbohydrates, phenol), (DNA samples only). see also http://terms.tdwg.org/wiki/ggbn:ratioOfAbsorbance260_280
+| Recommended
+
+| term:mixs[samp_collect_device]
+| biopsy, niskin bottle, push core
+| The method or device employed for collecting the sample
+| Recommended
+
+| term:mixs[samp_mat_process]
+| filtering of seawater, storing samples in ethanol
+| Any processing applied to the sample during or after retrieving the sample from environment. This field accepts OBI, for a browser of OBI (v 2018-02-12) terms please see http://purl.bioontology.org/ontology/OBI
+| Recommended
+
+| term:mixs[sampleVolume]
+| 5
+| A numeric value for a measurement of the volume of the sample that was collected
+| Recommended
+
+| term:mixs[sampleVolumeUnit]
+| liter
+| The unit of measurement of the volume of a sample
+| Recommended
+
+| term:mixs[size_frac]
+| 0-0.22 micrometer
+| Filtering pore size used in sample preparation
 | Recommended
 | 
 |===

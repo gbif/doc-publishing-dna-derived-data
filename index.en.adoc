@@ -1,4 +1,4 @@
-= Publishing sequence-derived data through biodiversity data platforms [Community review draft]
+= Publishing DNA-derived data through biodiversity data platforms [Community review draft]
 :authorcount: 13
 :author_1: Anders F. Andersson
 :author_2: Andrew Bissett
@@ -6,11 +6,11 @@
 :author_4: Frode Fossøy
 :author_5: Marie Grosjean
 :author_6: Michael Hope
-:author_7: Urmas Kõljalg
-:author_8: Daniel Lundin
-:author_9: R. Henrik Nilsson
-:author_10: Maria Prager
-:author_11: Thomas Stjernegaard
+:author_7: Thomas S. Jeppesen
+:author_8: Urmas Kõljalg
+:author_9: Daniel Lundin
+:author_10: R. Henrik Nilsson
+:author_11: Maria Prager
 :author_12: Cecilie Svenningsen
 :author_13: Dmitry Schigel
 :license: https://creativecommons.org/licenses/by-sa/4.0/
