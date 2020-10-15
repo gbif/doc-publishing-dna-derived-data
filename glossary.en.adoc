@@ -4,15 +4,16 @@
 [glossary]
 [[ala]]Atlas of Living Australia (ALA):: The ALA is a web-based platform that pulls together Australian biodiversity data from multiple sources, making it accessible and reusable to anyone (see https://www.ala.org.au/about-ala/). The open infrastructure platform developed by the ALA is also used by several other countries for their own national biodiversity data platform (see https://living-atlases.gbif.org/).
 [[asv]]Amplicon Sequence Variant (ASV):: Unique DNA sequence derived from high-throughput sequencing and denoising, and assumed to represent a biologically real sequence variant. See also <<otu,Operational Taxonomic Unit (OTU)>>.
-[[api]]Application Programming Interface (API):: Set of protocols and tools for interaction and data transmission between different computer applications. 
-[[bins]]Barcode Index Numbers (BINs):: See also <<otu,Operational Taxonomic Unit (OTU)>>.
-[[bold]]Barcode of Life Data System (BOLD):: asdf.
+[[api]]Application Programming Interface (API):: Set of protocols and tools for interaction and data transmission between different computer applications.
+[[bins]]Barcode Index Numbers (BINs):: Species-level <<otu,Operational Taxonomic Units (OTUs)>> derived from clustering of the cytochrome c oxidase I (COI) gene in animals. Each BIN is assigned a globally unique identifier, and is made available in searchable database within the <<bold,Barcode of Life Data System (BOLD)>>.
+[[bold]]Barcode of Life Data System (BOLD):: Freely available sequence repository and informatics workbench for DNA barcoding data, maintained by the International Barcode of Life project (iBOL). Includes a searchable database of <<bins,Barcode Index Numbers (BINs)>>.
 [[biodiversity-data-platform]]Biodiversity data platform:: General online resource to discover and access biodiversity data derived from various sources, such as natural history collections, citizen science, ecology and monitoring projects, and genetic sequences. Can be global (<<gbif,GBIF>>) or national (<<ala,ALA>>).
 [[clustering]]Clustering:: In taxonomic classification, the process of grouping organisms together according to some similarity criterion. See <<otu,Operational Taxonomic Unit>>.
 [[community-dna]]Community (bulk) DNA:: DNA from bulk samples (e.g. plankton samples or Malaise trap samples consisting of several individuals from many species). For the purpose of this guide, bulk sample DNA is included in the eDNA concept.
-[[dwc-a]]Darwin Core Archive (DwC-A):: asdf.
-[[dwc-standard]]Darwin Core (DwC) standard:: asdf.
-[[data-vocabulary]]Data vocabulary:: asdf.
+[[dwc-a]]Darwin Core Archive (DwC-A):: Compressed (ZIP) file format for exchange of biodiversity data compiled in accordance with the <<dwc-standard,Darwin Core (DwC) standard>>. Essentially a self-contained set of interconnected CSV files and an XML document describing including files and data columns, and their mutal relationships.
+[[dwc-standard]]Darwin Core (DwC) standard:: Evolving standard for sharing and publishing biodiversity data, originating from the Biodiversity Information Standards (TDWG) community. In principle, a set of clearly defined terms, used for describing different entities of biodiversity observations, such as sampling events, occurrencies and taxa. The full set of current Darwin Core terms with their descriptions is available in the <<http://rs.tdwg.org/dwc/terms/, Quick Reference Guide>>.
+[[data-vocabulary]]Data vocabulary:: Set of preferred terms or concepts
+with specific, well-defined meanings and interrelationships, facilitating data exchange and reuse.
 [[ddpcr]]ddPCR (droplet digital Polymerase Chain Reaction):: Droplet digital PCR. Method for measuring absolute amount of DNA (number of copies) of one marker in a sample. See also <<qpcr,qPCR>>.
 [[denoising]]Denoising:: In metabarcoding, method for separation of true biological sequences (see <<asv,ASVs>>) from spurious sequence variants caused by PCR amplification and sequencing error.
 [[doi]]Digital Object Identifier (DOI):: asdf.
@@ -35,7 +36,7 @@
 [[mixs]]Minimum Information about any (x) Sequence (MIxS) standard:: Family of standards (checklists) for sequence metadata, developed by the Genomic Standards Consortium (GSC).
 [[motu]]molecular Operational Taxonomic Unit (mOTU):: See <<otu,Operational Taxonomic Unit (OTU)>>.
 [[ncbi]]NCBI:: asdf.
-[[occurrence]]Occurrence:: asdf.	
+[[occurrence]]Occurrence:: asdf.
 [[otu]]Operational Taxonomic Unit (OTU):: Cluster of organisms based on similarity in specific DNA marker sequence(s), used for taxonomic classification. Includes, for example, <<sh,Species Hypothesis>> in UNITE, and <<bins,Barcode Index Numbers>> in the Barcode of Life Data System (BOLD). <<asv,Amplicon Sequence Variants (ASVs)>> may be considered analogous to <<zotu,zero radius OTUs (zOTUs)>>.
 [[pipeline]]Pipeline:: asdf.
 [[primer]]Primer (PCR primer):: A short, synthetic single stranded DNA fragment that binds to the selected region on the target DNA (marker) to initiate replication during PCR. A pair of primers is necessary for the polymerase enzyme to amplify the selected marker.
