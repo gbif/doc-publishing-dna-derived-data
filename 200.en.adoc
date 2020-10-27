@@ -67,7 +67,7 @@ image::img/web/eDNA_categories.svg[]
 
 ==== Category I: DNA-derived occurrences
 
-This category concerns data where a DNA sequence or detection through PCR is the only evidence for the presence of a given organism or community. In other words, the data cannot be traced back to an observable specimen. This is the case for most metagenomics, metabarcoding and eDNA studies.
+This category concerns data where a DNA sequence or detection through PCR is the only evidence for the presence of a given organism or community. In other words, the data cannot be traced back to an observable specimen. This is the case for many metagenomics, metabarcoding and eDNA studies.
 
 ===== Examples of DNA-derived occurrence datasets
 
