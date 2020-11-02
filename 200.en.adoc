@@ -346,6 +346,26 @@ In this field, report which environmental material or materials (pipe separated)
 | *Equivalent to lib_const_meth in MIxS v4* +
 Specify whether to expect single, paired, or other configuration of reads
 | Recommended
+
+| term:mixs[seq_meth]
+| Illumina HiSeq 1500
+| Sequencing method used; e.g. Sanger, pyrosequencing, ABI-solid
+| Highly recommended
+
+| term:mixs[votu_class_appr]
+| "95% ANI;85% AF; greedy incremental clustering"
+| Cutoffs and approach used when clustering new UViGs in "species-level" vOTUs. Note that results from standard 95% ANI / 85% AF clustering should be provided alongside vOTUS defined from another set of thresholds, even if the latter are the ones primarily used during the analysis
+| Highly recommended
+
+| term:mixs[votu_seq_comp_appr]
+| "blastn;2.6.0+;e-value cutoff: 0.001"
+| Tool and thresholds used to compare sequences when computing "species-level" vOTUs
+| Highly recommended
+
+| term:mixs[votu_db]
+| "NCBI Viral RefSeq;83", "UNITE;8.2"
+| Reference database (i.e. sequences not generated as part of the current study) used to cluster new genomes in species-level" vOTUs, if any
+| Highly recommended
 |===
 
 ==== Mapping ddPCR / qPCR data
