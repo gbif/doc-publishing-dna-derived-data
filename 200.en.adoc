@@ -89,7 +89,7 @@ If some genetic material is, or can be, associated with an observation or a spec
 
 For guidance on how to format and share these datasets, see <<mapping-metabarcoding-edna-and-barcoding-data,§2.2.1>>. General guidelines for Darwin Core occurrence datasets are also available through the https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences{Data quality requirements for occurrences].
 
-==== Category III: Targeted species detection (qPCR)
+==== Category III: Targeted species detection (PCR)
 
 This category concerns data where a specific (PCR) assay is used to detect the presence (or absence) of a DNA sequence specific to the target organism in an environmental sample. In this case the occurrence record may not even contain sequence data, as it is the process itself that determines the occurrence.
 
@@ -146,11 +146,6 @@ This section provides mapping recommendations for Categories I and II.
 | MaterialSample
 | The specific nature of the data record - a subtype of the http://rs.gbif.org/vocabulary/dwc/basis_of_record.xml[dcterms:type]. For DNA-derived occurrences, (see <<category-iv-name-references,Category IV>> and <<category-iii-targeted-species-detection-qpcr,Category III>>) use MaterialSample. For enriched occurrences use PreservedSpecimen or LivingSpecimen as appropriate.
 | Required
-
-| term:dwc[occurrenceStatus]
-| Present, Absent
-| A statement about the presence or absence of a Taxon at a Location.
-| Required for ddPCR / qPCR
 
 | term:dwc[eventID]
 | urn:uuid:a964765b-22c4-439a-jkgt-2
@@ -346,6 +341,26 @@ In this field, report which environmental material or materials (pipe separated)
 | *Equivalent to lib_const_meth in MIxS v4* +
 Specify whether to expect single, paired, or other configuration of reads
 | Recommended
+
+| term:mixs[seq_meth]
+| Illumina HiSeq 1500
+| Sequencing method used; e.g. Sanger, pyrosequencing, ABI-solid
+| Highly recommended
+
+| term:mixs[votu_class_appr]
+| "95% ANI;85% AF; greedy incremental clustering"
+| Cutoffs and approach used when clustering new UViGs in "species-level" vOTUs. Note that results from standard 95% ANI / 85% AF clustering should be provided alongside vOTUS defined from another set of thresholds, even if the latter are the ones primarily used during the analysis
+| Highly recommended
+
+| term:mixs[votu_seq_comp_appr]
+| "blastn;2.6.0+;e-value cutoff: 0.001"
+| Tool and thresholds used to compare sequences when computing "species-level" vOTUs
+| Highly recommended
+
+| term:mixs[votu_db]
+| "NCBI Viral RefSeq;83", "UNITE;8.2"
+| Reference database (i.e. sequences not generated as part of the current study) used to cluster new genomes in species-level" vOTUs, if any
+| Highly recommended
 |===
 
 ==== Mapping ddPCR / qPCR data
