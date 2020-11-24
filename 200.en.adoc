@@ -158,8 +158,8 @@ This section provides mapping recommendations for Categories I and II.
 | Required
 
 | term:dwc[recordedBy]
-| "Oliver P. Pearson | Anita K. Pearson"
-| A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original Occurrence. The primary collector or observer, especially one who applies a personal identifier (recordNumber), should be listed first. The recommended best practice is to separate the values with a vertical bar (' | '). Including information the observer improves the scientific reproducibility ((https://doi.org/10.1093/database/baaa072[Groom et al. 2020^]).
+| "Oliver P. Pearson \| Anita K. Pearson"
+| A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original Occurrence. The primary collector or observer, especially one who applies a personal identifier (recordNumber), should be listed first. The recommended best practice is to separate the values with a vertical bar (' \| '). Including information the observer improves the scientific reproducibility ((https://doi.org/10.1093/database/baaa072[Groom et al. 2020^]).
 | Highly recommended
 
 | term:dwc[organismQuantity]
@@ -401,8 +401,8 @@ This section provides mapping recommendations for https://academic.oup.com/view-
 | Required
 
 | term:dwc[recordedBy]
-| "Oliver P. Pearson | Anita K. Pearson"
-| A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original Occurrence. The primary collector or observer, especially one who applies a personal identifier (recordNumber), should be listed first. The recommended best practice is to separate the values with a vertical bar (' | '). Including information the observer improves the scientific reproducibility ((https://doi.org/10.1093/database/baaa072[Groom et al. 2020^]).
+| "Oliver P. Pearson \| Anita K. Pearson"
+| A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original Occurrence. The primary collector or observer, especially one who applies a personal identifier (recordNumber), should be listed first. The recommended best practice is to separate the values with a vertical bar (' \| '). Including information the observer improves the scientific reproducibility ((https://doi.org/10.1093/database/baaa072[Groom et al. 2020^]).
 | Highly recommended
 
 | term:dwc[organismQuantity]
