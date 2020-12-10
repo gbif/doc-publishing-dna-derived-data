@@ -89,9 +89,9 @@ If some genetic material is, or can be, associated with an observation or a spec
 
 For guidance on how to format and share these datasets, see <<mapping-metabarcoding-edna-and-barcoding-data,§2.2.1>>. General guidelines for Darwin Core occurrence datasets are also available through the https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences{Data quality requirements for occurrences].
 
-==== Category III: Targeted species detection (PCR)
+==== Category III: Targeted species detection (qPCR/ddPCR)
 
-This category concerns data where a specific (PCR) assay is used to detect the presence (or absence) of a DNA sequence specific to the target organism in an environmental sample. In this case the occurrence record may not even contain sequence data, as it is the process itself that determines the occurrence.
+This category concerns data where a specific ( qPCR/ddPCR) assay is used to detect the presence (or absence) of a DNA sequence specific to the target organism in an environmental sample. In this case the occurrence record may not even contain sequence data, as it is the process itself that determines the occurrence. With qPCR/ddPCR analyses for targeted species detection, many studies also report absence of that specific species for a given sample. Absence data is highly dependent on the detection limit of the specific assay, as well as field and lab protocols. As for DNA-metabarcoding data there is an issue of both false negatives and false positives, and it is important that sufficient information is reported for evaluating the records.
 
 ===== Examples of targeted species occurrence datasets
 * Strzelecki, Joanna; Feng, Ming; Berry, Olly; Zhong, Liejun; Keesing, John; Fairclough, David; Pearce, Alan; Slawinski, Dirk; Mortimer, Nick. Location and transport of early life stages of Western Australian Dhufish Glaucosoma hebraicum. Floreat, WA: Fisheries Research and Development Corporation; 2013. http://hdl.handle.net/102.100.100/97533?index=1 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr8131. Accessed 22 July 2020)
@@ -690,6 +690,16 @@ http://purl.obolibrary.org/obo/ENVO_00010483
 | 0-0.22 micrometer
 | Filtering pore size used in sample preparation
 | Recommended
+
+| term:mixs[pcr_primer_lod]
+| 51
+| The assay's ability to detect the target at low levels
+| Highly recommended
+
+| term:mixs[pcr_primer_loq]
+| 184
+| The assay's ability to quantify copy number at low levels
+| Highly recommended
 | 
 |===
 
