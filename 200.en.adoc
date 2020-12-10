@@ -144,7 +144,7 @@ This section provides mapping recommendations for Categories I and II.
 
 | term:dwc[basisOfRecord]
 | MaterialSample
-| The specific nature of the data record - a subtype of the http://rs.gbif.org/vocabulary/dwc/basis_of_record.xml[dcterms:type]. For DNA-derived occurrences, (see <<category-iv-name-references,Category IV>> and <<category-iii-targeted-species-detection-qpcr,Category III>>) use MaterialSample. For enriched occurrences use PreservedSpecimen or LivingSpecimen as appropriate.
+| The specific nature of the data record - a subtype of the http://rs.gbif.org/vocabulary/dwc/basis_of_record.xml[dcterms:type]. For DNA-derived occurrences, (see <<category-i-dna-derived-occurrences,Category I>> and <<category-iii-targeted-species-detection-qpcr,Category III>>) use MaterialSample. For enriched occurrences use PreservedSpecimen or LivingSpecimen as appropriate.
 | Required
 
 | term:dwc[eventID]
@@ -382,7 +382,7 @@ This section provides mapping recommendations for https://academic.oup.com/view-
 
 | term:dwc[basisOfRecord]
 | MaterialSample
-| The specific nature of the data record - a subtype of the dcterms:type. For DNA-derived occurrences (see <<category-iv-name-references,Category IV>>), use MaterialSample. For enriched occurrences (see <<category-iii-targeted-species-detection-qpcr,Category III>>), use PreservedSpecimen or LivingSpecimen as appropriate.
+| The specific nature of the data record - a subtype of the dcterms:type. For DNA-derived occurrences (see <<category-i-dna-derived-occurrences,Category I>> and <<category-iii-targeted-species-detection-qpcr,Category III>>), use MaterialSample.
 | Required
 
 | term:dwc[occurrenceStatus]
