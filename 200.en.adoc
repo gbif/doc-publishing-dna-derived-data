@@ -189,6 +189,8 @@ This section provides mapping recommendations for Categories I and II.
 | term:dwc[materialSampleID]
 | https://www.ncbi.nlm.nih.gov/biosample/15224856 +
  +
+https://www.ebi.ac.uk/ena/browser/view/SAMEA3724543 +
+ +
 urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03
 | An identifier for the MaterialSample (as opposed to a particular digital record of the material sample). Use the biosample ID if one was obtained from a nucleotide archive. In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the materialSampleID globally unique.
 | Highly recommended
@@ -199,10 +201,8 @@ urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03
 | 
 
 | term:dwc[associatedSequences]
-| https://www.ebi.ac.uk/ena/browser/view/SAMEA3724543 +
- +
-https://www.ncbi.nlm.nih.gov/nuccore/MK405371
-| A list (concatenated and separated) of identifiers (publication, global unique identifier, URI) of genetic sequence information associated with the Occurrence. Could be used for linking to archived (raw) sequence reads, e.g. in a public repository.
+| https://www.ncbi.nlm.nih.gov/nuccore/MK405371
+| A list (concatenated and separated) of identifiers (publication, global unique identifier, URI) of genetic sequence information associated with the Occurrence. Could be used for linking to archived raw barcode reads and/or associated genome sequences, e.g. in a public repository.
 | Recommended
 
 | term:dwc[identificationRemarks]
