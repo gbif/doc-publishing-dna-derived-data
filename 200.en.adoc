@@ -682,14 +682,9 @@ http://purl.obolibrary.org/obo/ENVO_00010483
 | Any processing applied to the sample during or after retrieving the sample from environment. This field accepts OBI, for a browser of OBI (v 2018-02-12) terms please see http://purl.bioontology.org/ontology/OBI
 | Recommended
 
-| term:mixs[sampleVolume]
+| term:mixs[samp_size]
 | 5
-| A numeric value for a measurement of the volume of the sample that was collected
-| Recommended
-
-| term:mixs[sampleVolumeUnit]
-| liter
-| The unit of measurement of the volume of a sample
+| Amount or size of sample (volume, mass or area) that was collected
 | Recommended
 
 | term:mixs[size_frac]
