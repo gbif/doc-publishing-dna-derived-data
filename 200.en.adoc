@@ -683,7 +683,7 @@ http://purl.obolibrary.org/obo/ENVO_00010483
 | Recommended
 
 | term:mixs[samp_size]
-| 5
+| 5 liter
 | Amount or size of sample (volume, mass or area) that was collected
 | Recommended
 
