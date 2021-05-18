@@ -20,7 +20,7 @@ The <<figure-workflow,flowchart>> outlines the processing steps involved in publ
 
 [[figure-workflow]]
 .Overall workflow for DNA sequence-derived biodiversity data as described in this guide.
-image::img/web/figure-01.png[]
+image::img/web/sequence-publishing-guide.en.svg[]
 
 We have done our best to present the information in this guide so that it is useful for each of the audiences described above, but background reading (e.g. https://www.gbif.org/publishing-data[GBIF quick guide to data publishing]) may be required in certain cases.
 
