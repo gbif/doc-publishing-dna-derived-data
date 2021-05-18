@@ -23,7 +23,7 @@ icon:question-circle[] _Is your data (meta)barcoding or qPCR based?_
 
 4+|(Meta)barcoding +
 ↓
-|qCPR +
+|qPCR +
 ↓
 
 4+|icon:question-circle[] _Does data consist of digitized genetic material, or sequences, associated with location and time?_
@@ -579,7 +579,7 @@ A reference to a well documented protocol, e.g. using https://protocols.io[proto
 
 | term:mixs[amplificationReactionVolumeUnit]
 | µl
-| Unit used for PCR reaction volume. Many of the instruments require preparation of a much larger initial sample volume than is actually analyzed.
+| Unit used for PCR reaction volume. Many of the instruments require preparation of a much larger initial sample volume than is actually analysed.
 | 
 
 | term:mixs[pcr_analysis_software]
@@ -683,7 +683,7 @@ http://purl.obolibrary.org/obo/ENVO_00010483
 | Recommended
 
 | term:mixs[samp_size]
-| 5 liter
+| 5 litre
 | Amount or size of sample (volume, mass or area) that was collected
 | Recommended
 

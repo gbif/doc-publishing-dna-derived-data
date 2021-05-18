@@ -7,9 +7,9 @@ This formal statement recognizes individuals and institutions that made direct c
 * Those who provided you with facilities or equipment
 * Those who participated in discussions
 * Technicians, lab assistants, students and interns
-* Host or hosting institions and funding agencies (with grant number, if required)
+* Host or hosting institutions and funding agencies (with grant number, if required)
 
-You may also wish to acknowledge the non-techincal contributions of:
+You may also wish to acknowledge the non-technical contributions of:
 
 * Graphic designers
 * Photographers
