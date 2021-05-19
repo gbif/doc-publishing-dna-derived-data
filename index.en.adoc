@@ -25,7 +25,6 @@
 :numbered:
 :sectnumlevels: 3
 :pagenums:
-:xrefstyle: basic
 :icons: font
 :xrefstyle: short
 :section-refsig: §
