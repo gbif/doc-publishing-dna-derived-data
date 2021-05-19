@@ -15,7 +15,7 @@ https://orcid.org/0000-0002-3627-6899[Anders F. Andersson], https://orcid.org/00
 
 === Contributors
 
-Valuable discussions with members of (GGBN), (GLOMICON), ELIXIR, (iBOL) and (OBIS) networks contributed to compilation of this draft. We are especially grateful for inputs and encouragement from Kessy Abarenkov, Torbjørn Ekrem, Hamish Holewa, Tobias Guldberg Frøslev, Corinna Paeper, Tim Robertson, Andrew Young, Tim Hirsch and others listed below who have contributed to the GBIF community review process.
+Valuable discussions with members of GGBN, GLOMICON, ELIXIR, iBOL and OBIS networks contributed to compilation of this draft. We are especially grateful for inputs and encouragement from Kessy Abarenkov, Andrew Bentley, Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, Gabriele Dröge, Torbjørn Ekrem, Tobias Guldberg Frøslev, Birgit Gemeinholzer, Quentin Groom, Tim Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris Mungall, Daniel Noesgaard, Corinna Paeper, Pieter Provoost, Tim Robertson, Saara Suominen, Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger who have contributed to the GBIF community review process.
 
 === License
 
