@@ -11,11 +11,23 @@ Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS,
 
 === Authors
 
-https://orcid.org/0000-0002-3627-6899[Anders F. Andersson], https://orcid.org/0000-0001-7396-1484[Andrew Bissett], https://orcid.org/0000-0003-4529-6266[Anders G. Finstad], https://orcid.org/0000-0002-7535-9574[Frode Fossøy], https://orcid.org/0000-0002-2685-8078[Marie Grosjean], https://orcid.org/0000-0002-4827-3310[Michael Hope], https://orcid.org/0000-0003-1691-239X[Thomas S. Jeppesen], https://orcid.org/0000-0002-5171-1668[Urmas Kõljalg], https://orcid.org/0000-0002-8779-6464[Daniel Lundin], https://orcid.org/0000-0002-8052-0107[R. Henrik Nilsson], https://orcid.org/0000-0003-4897-8422[Maria Prager], https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen] & https://orcid.org/0000-0002-2919-1168[Dmitry Schigel].
+* https://orcid.org/0000-0002-3627-6899[Anders F. Andersson], mailto:anders.andersson@scilifelab.se[email], Science for Life Laboratory, Department of Gene Technology, KTH Royal Institute of Technology, 17121 Stockholm, Sweden
+* https://orcid.org/0000-0001-7396-1484[Andrew Bissett], mailto:Andrew.Bissett@csiro.au[email], CSIRO O&A, GPO box 1533, Hobart, Tasmania, 7000, Australia
+* https://orcid.org/0000-0003-4529-6266[Anders G. Finstad], mailto:anders.finstad@ntnu.no[emial], Department of Natural History, Centre for Biodiversity Dymamics, Norwegian University of Science and Technology, Trondheim, Norway
+* https://orcid.org/0000-0002-7535-9574[Frode Fossøy], mailto:Frode.Fossoy@nina.no[email], Norwegian institute for nature research (NINA), P.O. Box 5685 Torgarden, NO-7485 Trondheim, Norway
+* https://orcid.org/0000-0002-2685-8078[Marie Grosjean], mailto:mgrosjean@gbif.org[email], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark
+* https://orcid.org/0000-0002-4827-3310[Michael Hope], mailto:Michael.Hope@csiro.au[email], Atlas of Living Australia, CSIRO National Collections & Marine Infrastructure, GPO Box 1700, Canberra ACT 2601, Australia.
+* https://orcid.org/0000-0003-1691-239X[Thomas S. Jeppesen], mailto:tsjeppesene@gbif.org[email], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark
+* https://orcid.org/0000-0002-5171-1668[Urmas Kõljalg], mailto:urmas.koljalg@ut.ee[email], Natural History Museum and Botanical Garden, University of Tartu, 46 Vanemuise Street, 51003 Tartu, Estonia.
+* https://orcid.org/0000-0002-8779-6464[Daniel Lundin], mailto:daniel.lundin@lnu.se[email], Centre for Ecology and Evolution in Microbial model Systems - EEMiS, Linnaeus University, SE-39182 Kalmar, Sweden
+* https://orcid.org/0000-0002-8052-0107[R. Henrik Nilsson], mailto:henrik.nilsson@bioenv.gu.se[email], University of Gothenburg, Department of Biological and Environmental Sciences, Box 461, 405 30 Göteborg, Sweden
+* https://orcid.org/0000-0003-4897-8422[Maria Prager], mailto:maria.prager@scilifelab.se[email], Science for Life Laboratory, Department of Ecology, Environment and Plant Sciences, Stockholm University; Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet
+* https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen], mailto:cssvenningsen@snm.ku.dk[email], Natural History Museum of Denmark, University of Copenhagen, Øster Voldgade 5-7, 1350 Copenhagen, Denmark
+* https://orcid.org/0000-0002-2919-1168[Dmitry Schigel], mailto:dschigel@gbif.org[email], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark
 
 === Contributors
 
-Valuable discussions with members of GGBN, GLOMICON, ELIXIR, iBOL and OBIS networks contributed to compilation of this draft. We are especially grateful for inputs and encouragement from Kessy Abarenkov, Andrew Bentley, Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, Gabriele Dröge, Torbjørn Ekrem, Tobias Guldberg Frøslev, Birgit Gemeinholzer, Quentin Groom, Tim Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris Mungall, Daniel Noesgaard, Corinna Paeper, Pieter Provoost, Tim Robertson, Saara Suominen, Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger who have contributed to the GBIF community review process.
+Valuable discussions with members of ELIXIR, iBOL, GGBN, GLOMICON, and OBIS networks contributed to compilation of this draft. We are especially grateful for inputs and encouragement from Kessy Abarenkov, Andrew Bentley, Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, Gabriele Dröge, Torbjørn Ekrem, Tobias Guldberg Frøslev, Birgit Gemeinholzer, Quentin Groom, Tim Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris Mungall, Daniel Noesgaard, Corinna Paeper, Pieter Provoost, Tim Robertson, Saara Suominen, Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger who have contributed to the GBIF community review process.
 
 === License
 
