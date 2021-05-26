@@ -362,19 +362,19 @@ Specify whether to expect single, paired, or other configuration of reads
 | Sequencing method used; e.g. Sanger, pyrosequencing, ABI-solid
 | Highly recommended
 
-| term:mixs[votu_class_appr]
+| term:mixs[otu_class_appr]
 | "95% ANI;85% AF; greedy incremental clustering"
-| Cutoffs and approach used when clustering new UViGs in "species-level" vOTUs. Note that results from standard 95% ANI / 85% AF clustering should be provided alongside vOTUS defined from another set of thresholds, even if the latter are the ones primarily used during the analysis
+| Cutoffs and approach used when clustering new UViGs in "species-level" OTUs. Note that results from standard 95% ANI / 85% AF clustering should be provided alongside OTUS defined from another set of thresholds, even if the latter are the ones primarily used during the analysis
 | Highly recommended
 
-| term:mixs[votu_seq_comp_appr]
+| term:mixs[otu_seq_comp_appr]
 | "blastn;2.6.0+;e-value cutoff: 0.001"
-| Tool and thresholds used to compare sequences when computing "species-level" vOTUs
+| Tool and thresholds used to compare sequences when computing "species-level" OTUs
 | Highly recommended
 
-| term:mixs[votu_db]
+| term:mixs[otu_db]
 | "NCBI Viral RefSeq;83", "UNITE;8.2"
-| Reference database (i.e. sequences not generated as part of the current study) used to cluster new genomes in species-level" vOTUs, if any
+| Reference database (i.e. sequences not generated as part of the current study) used to cluster new genomes in "species-level" OTUs, if any
 | Highly recommended
 |===
 
