@@ -274,6 +274,8 @@ https://github.com/terrimporter/CO1Classifier
 | Recommended
 |===
 
+<<<
+
 [[table-02]]
 .Recommended fields from the DNA derived data extension (a selection) for metabarcoding data
 [cols="1,1,4,1",options="header"]
@@ -377,6 +379,8 @@ Specify whether to expect single, paired, or other configuration of reads
 | Reference database (i.e. sequences not generated as part of the current study) used to cluster new genomes in "species-level" OTUs, if any
 | Highly recommended
 |===
+
+<<<
 
 ==== Mapping ddPCR / qPCR data
 
@@ -495,6 +499,8 @@ urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03
 | 
 | Recommended
 |===
+
+<<<
 
 [[table-04]]
 .Recommended fields from the http://rs.gbif.org/sandbox/extension/dna_derived_data_2021-05-14.xml[DNA derived data extension] (a selection) for ddPCR/qPCR data
