@@ -20,7 +20,12 @@ The <<figure-workflow,flowchart>> outlines the processing steps involved in publ
 
 [[figure-workflow]]
 .Overall workflow for DNA sequence-derived biodiversity data as described in this guide.
+ifdef::backend-pdf[]
+image::img/print/sequence-publishing-guide.en.png[]
+endif::backend-pdf[]
+ifndef::backend-pdf[]
 image::img/web/sequence-publishing-guide.en.svg[]
+endif::backend-pdf[]
 
 We have done our best to present the information in this guide so that it is useful for each of the audiences described above, but background reading (e.g. https://www.gbif.org/publishing-data[GBIF quick guide to data publishing]) may be required in certain cases.
 
@@ -34,7 +39,12 @@ Environmental DNA has been in use as a term since 1987, when it was first used t
 
 [[figure-sampling-processes]]
 .Caricature of sampling processes comparing data collection by A) traditional ecological/biodiversity sampling methods, and B) eDNA-based studies, here exemplified by metabarcoding. This is a simplified representation. For eDNA, most of the steps up to sequencing will involve technical or biological replications to identify contamination and false positives as well as false negative results, making the structure of data and metadata hierarchical. However, studies will often include both types of sampling. For example, if the 'Reference Library' used in B) does not contain all relevant species from a given group of organisms, it will be necessary to go back to A). It may also be that 'Resolving against Reference Library' produced unexpected or unlikely results, in which case further studies using traditional methodology will be required to determine whether the species identified by bioinformatic analysis can be verified.
-image::img/web/figure-02.png[]
+ifdef::backend-pdf[]
+image::img/print/sampling-processes.en.png[]
+endif::backend-pdf[]
+ifndef::backend-pdf[]
+image::img/web/sampling-processes.en.svg[]
+endif::backend-pdf[]
 
 eDNA is thus a sample type, not a method, including DNA derived from any environmental sample rather than from the capture and sequencing of a targeted individual. Such sample types includes water, soil, sediment and air, but also gut content samples and tissue (plant/animal) where the host DNA is not targeted (https://doi.org/10.1093/oso/9780198767220.001.0001[Taberlet et al. 2018^]). A number of analytical methods exist for studying environmental DNA. These can be divided into two main classes: 1) those which aim to detect a specific organism and 2) those which describe a community of a range of organisms. Different methods of analysis will generate different types and volumes of data. Most often DNA concentrations are low, and technical and biological replicates should be used to validate species detection.
 
@@ -66,7 +76,7 @@ A central part of the standardization process is the mapping of fields, which is
 
 [[figure-publication]]
 .Outline of a platform for reporting and publishing DNA sequences and associated metadata (green box) based on existing systems and data standards (gray boxes). An envisioned system for regular (based on machine-to-machine reading of data) update of results (white box) can either read and update the Darwin Core Archive or various administration systems. The data transfer between the various elements (black arrows) will require various degrees of data transformation and harmonization and may include either mechanical or human quality assessment.
-image::img/web/figure-03-translated.png[]
+image::img/web/figure-03-translated.en.png[]
 
 Once a dataset has been through these standardization and data quality processes, it should be placed in an accessible online location and associated with relevant metadata. Metadata–data or information about the dataset includes key parameters that describe the dataset and further improve its discoverability and reuse. Metadata should include other important elements such as authorship, Digital Object Identifiers (DOIs), organizational affiliations and other provenance information, as well as procedural and methodological information about how the dataset was collected and curated. We encourage to provide a description of workflow details and versions including quality control in the https://eml.ecoinformatics.org/schema/eml-dataset_xsd.html#DatasetType_methods[methods section] in the EML file.
 
@@ -80,7 +90,7 @@ Metabarcoding data can be produced from a number of different sequencing platfor
 
 [[figure-processing]]
 .Outline of bioinformatic processing of metabarcoding data.
-image::img/web/figure-04.png[]
+image::img/web/figure-04.en.png[]
 
 Typically, the DNA sequences are first pre-processed by removing primer sequences and, depending on the sequencing method used, low quality bases, usually toward the 5’ and 3’ sequence ends. Sequences not fulfilling requirements on length, overall quality, presence of primers, tags etc. are removed.
 

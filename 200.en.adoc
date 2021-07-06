@@ -8,7 +8,7 @@ Data packaging and publishing pathways vary from platform to platform and are de
 
 [[figure-dwca-ipt]]
 .Zoom in of DwC-A / IPT from figure ? in chapter 2.4. The choice of core entity is mainly a matter of fitting data to the data import mechanism (ingestion) of the biodiversity data platforms. Most data could be formulated as either Occurrence, Event or Taxon core, but as only the core can have extensions, this will affect the choice. It is for example not possible to extend occurrences with DNA sequences if data are packaged using Event core.
-image::img/web/figure-05.png[]
+image::img/web/figure-05.en.png[]
 
 === Categorization of your data
 
@@ -63,7 +63,7 @@ Metadata-only
 
 [[figure-categories]]
 .Visual representation of categories I-V.
-image::img/web/eDNA_categories.svg[]
+image::img/web/eDNA_categories.en.svg[]
 
 [[category-i]]
 ==== Category I: DNA-derived occurrences
@@ -108,7 +108,7 @@ This category corresponds to DNA-derived names, derived from clustering or denoi
 
 [[figure-otus]]
 .OTUs from UNITE (fungi, above) and from BOLD (arthropods, below) are displayed in the GBIF backbone taxonomy under their corresponding parent taxa which have Latin names. Multiple individually observed occurrences of cryptic biodiversity become discoverable together with non-genetic evidence through a single access point.
-image::img/web/figure-06.png[]
+image::img/web/figure-06.en.png[]
 
 ===== Examples of Name references checklists
 
