@@ -7,7 +7,7 @@ endif::backend-html5[]
 
 === Suggested citation
 
-Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Svenningsen C & Schigel D (2020) Publishing DNA-derived data through biodiversity data platforms [Community review draft]. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22.
+Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Svenningsen C & Schigel D (2020) Publishing DNA-derived data through biodiversity data platforms. v1.0 Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22.
 
 === Authors
 
@@ -40,7 +40,7 @@ https://doi.org/10.35035/doc-vf1a-nr22
 
 === Document control
 
-Published for community peer review, August 2020
+Published for community peer review, August 2020. Version 1.0 released on 7 July 2021.
 
 === Abstract
 
