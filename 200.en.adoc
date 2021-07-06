@@ -163,7 +163,7 @@ This section provides mapping recommendations for Categories I and II.
 
 | term:dwc[eventDate]
 | 2020-01-05
-| 
+| Date when the event was recorded. Recommended best practice is to use a date that conforms to ISO 8601-1:2019. For more information, check https://dwc.tdwg.org/terms/#dwc:eventDate
 | Required
 
 | term:dwc[recordedBy]
@@ -201,9 +201,9 @@ urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03
 | Highly recommended
 
 | term:dwc[samplingProtocol]
-| 
-| 
-| 
+| UV light trap
+| The name of, reference to, or description of the method or protocol used during a sampling Event. https://dwc.tdwg.org/terms/#dwc:samplingProtocol
+| Recommended
 
 | term:dwc[associatedSequences]
 | https://www.ncbi.nlm.nih.gov/nuccore/MK405371
@@ -219,17 +219,17 @@ urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03
 | https://www.ebi.ac.uk/metagenomics/pipelines/4.1 + 
  +
 https://github.com/terrimporter/CO1Classifier
-| 
+| A list (concatenated and separated) of references (publication, global unique identifier, URI) used in the Identification. Recommended best practice is to separate the values in a list with space vertical bar space ( | ).
 | Recommended
 
 | term:dwc[decimalLatitude]
 | 60.545207
-| 
+| The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.
 | Highly recommended
 
 | term:dwc[decimalLongitude]
 | 24.174556
-| 
+| The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.
 | Highly recommended
 
 // The [.break-all]#ASV:…# is to allow the identifier to be broken at any character, rather than stretching the text cell.
@@ -245,32 +245,32 @@ https://github.com/terrimporter/CO1Classifier
 
 | term:dwc[kingdom]
 | Animalia
-| 
+| Higher taxonomy
 | Highly recommended
 
 | term:dwc[phylum]
 | Chordata
-| 
+| Higher taxonomy
 | Recommended
 
 | term:dwc[class]
 | Actinopterygii
-| 
+| Higher taxonomy
 | Recommended
 
 | term:dwc[order]
 | Gadiformes
-| 
+| Higher taxonomy
 | Recommended
 
 | term:dwc[family]
 | Gadidae
-| 
+| Higher taxonomy
 | Recommended
 
 | term:dwc[genus]
 | Gadus
-| 
+| Higher taxonomy
 | Recommended
 |===
 
@@ -412,7 +412,7 @@ This section provides mapping recommendations for https://academic.oup.com/view-
 
 | term:dwc[eventDate]
 | 2020-01-05
-| 
+| Date when the event was recorded. Recommended best practice is to use a date that conforms to ISO 8601-1:2019. For more information, check https://dwc.tdwg.org/terms/#dwc:eventDate
 | Required
 
 | term:dwc[recordedBy]
@@ -450,18 +450,18 @@ urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03
 | Highly recommended
 
 | term:dwc[samplingProtocol]
-| 
-| 
-| 
+| UV light trap
+| The name of, reference to, or description of the method or protocol used during a sampling Event. https://dwc.tdwg.org/terms/#dwc:samplingProtocol
+| Recommended
 
 | term:dwc[decimalLatitude]
 | 60.545207
-| 
+| The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.
 | Highly recommended
 
 | term:dwc[decimalLongitude]
 | 24.174556
-| 
+| The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.
 | Highly recommended
 
 | term:dwc[scientificName]
@@ -471,32 +471,32 @@ urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03
 
 | term:dwc[kingdom]
 | Animalia
-| 
+| Higher taxonomy
 | Highly recommended
 
 | term:dwc[phylum]
 | Chordata
-| 
+| Higher taxonomy
 | Recommended
 
 | term:dwc[class]
 | Actinopterygii
-| 
+| Higher taxonomy
 | Recommended
 
 | term:dwc[order]
 | Gadiformes
-| 
+| Higher taxonomy
 | Recommended
 
 | term:dwc[family]
 | Gadidae
-| 
+| Higher taxonomy
 | Recommended
 
 | term:dwc[genus]
 | Gadus
-| 
+| Higher taxonomy
 | Recommended
 |===
 
