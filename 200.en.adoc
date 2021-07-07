@@ -465,7 +465,7 @@ urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03
 | Highly recommended
 
 | term:dwc[scientificName]
-| Gadus morhua L. 1758, BOLD:ACF1143
+| _Gadus morhua_ L. 1758, BOLD:ACF1143
 | Latin name of the closest known taxon (species or higher) or an OTU identifier from BOLD or UNITE
 | Required
 
@@ -495,7 +495,7 @@ urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03
 | Recommended
 
 | term:dwc[genus]
-| Gadus
+| _Gadus_
 | Higher taxonomy
 | Recommended
 |===
