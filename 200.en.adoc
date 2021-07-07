@@ -239,7 +239,7 @@ https://github.com/terrimporter/CO1Classifier
 | Highly recommended, if DNA_sequence is not provided 
 
 | term:dwc[scientificName]
-| Gadus morhua L. 1758, BOLD:ACF1143
+| _Gadus morhua_ L. 1758, BOLD:ACF1143
 | Latin name of the closest known taxon (species or higher) or an OTU identifier from BOLD or UNITE
 | Required
 
