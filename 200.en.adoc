@@ -81,7 +81,7 @@ For guidance on how to format and share these datasets, see <<mapping-metabarcod
 [[category-ii]]
 ==== Category II: Enriched occurrences
 
-If some genetic material is, or can be, associated with an observation or a specimen, we will categorize this type of data as “enriched occurrences”. In this context, the sequences are not the only evidence of occurrences. One can always trace the information back to a vouchered specimen or observed organism. This category includes barcoding datasets and some DNA metabarcoding datasets with reference material for example. For more guidance on barcoding, follow (https://www.cbd.int/doc/publications/cbd-ts-94-en.pdf Centre for Biodiversity Genomics, University of Guelph (2021)) 
+If some genetic material is, or can be, associated with an observation or a specimen, we will categorize this type of data as “enriched occurrences”. In this context, the sequences are not the only evidence of occurrences. One can always trace the information back to a vouchered specimen or observed organism. This category includes barcoding datasets and some DNA metabarcoding datasets with reference material for example. For more guidance on barcoding, follow https://www.cbd.int/doc/publications/cbd-ts-94-en.pdf[Centre for Biodiversity Genomics, University of Guelph (2021)].
 
 ===== Examples of Enriched occurrence datasets
 
