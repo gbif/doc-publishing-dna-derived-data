@@ -269,7 +269,7 @@ https://github.com/terrimporter/CO1Classifier
 | Recommended
 
 | term:dwc[genus]
-| Gadus
+| _Gadus_
 | Higher taxonomy
 | Recommended
 |===
