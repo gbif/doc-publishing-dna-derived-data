@@ -156,9 +156,14 @@ This section provides mapping recommendations for Categories I and II.
 | The specific nature of the data record - a subtype of the http://rs.gbif.org/vocabulary/dwc/basis_of_record.xml[dcterms:type]. For DNA-derived occurrences, (see <<category-i,Category I>> and <<category-iii,Category III>>) use MaterialSample. For enriched occurrences use PreservedSpecimen or LivingSpecimen as appropriate.
 | Required
 
+| term:dwc[occurrenceID]
+| urn:catalog:UWBM:Bird:89776
+| A unique identifier for the occurrence, allowing the same occurrence to be recognized across dataset versions as well as through data downloads and use. May be a global unique identifier or an identifier specific to the data set.
+| Required
+
 | term:dwc[eventID]
 | urn:uuid:a964765b-22c4-439a-jkgt-2
-| An identifier for the set of information associated with an Event (something that occurs at a place and time). May be a global unique identifier or an identifier specific to the data set
+| An identifier for the set of information associated with an Event (something that occurs at a place and time). May be a global unique identifier or an identifier specific to the data set.
 | Highly recommended
 
 | term:dwc[eventDate]
