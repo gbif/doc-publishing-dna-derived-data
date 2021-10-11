@@ -1,0 +1,5 @@
+= Contributing translations
+
+Improvements or changes to translations should be made in the Crowdin system:
+
+https://crowdin.com/project/publishing-ddd
