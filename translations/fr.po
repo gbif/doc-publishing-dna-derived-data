@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2021-10-12 15:55\n"
+"PO-Revision-Date: 2021-10-18 08:13\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -463,7 +463,7 @@ msgstr "Une fois qu'un jeu de données a été soumis aux processus de normalisa
 #. type: Plain text
 #: 100.en.adoc:84
 msgid "Datasets and their associated metadata are indexed by each data portal: this process enables users to query, filter and process data through APIs and web portals. Unlike journal publications, datasets may be dynamic products that go through multiple versions, with an evolving number of records and mutable metadata fields under the same title and DOI."
-msgstr ""
+msgstr "Les jeux de données et les métadonnées associées sont indexés par chaque portail de données : ce processus permet aux utilisateurs d'interroger, de filtrer et de traiter les données à travers les API et les portails web. Contrairement aux publications scientifiques, les jeux de données peuvent être des produits dynamiques qui passent par de multiples versions, avec un nombre évolutif d'enregistrements et de métadonnées remplaçables sous le même titre et le même DOI."
 
 #. type: Plain text
 #: 100.en.adoc:86
