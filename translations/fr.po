@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2021-11-02 09:05\n"
+"PO-Revision-Date: 2021-11-02 12:03\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -54,7 +54,7 @@ msgstr ""
 #: colophon.en.adoc:12
 #, no-wrap
 msgid "Authors"
-msgstr ""
+msgstr "Auteurs"
 
 #. type: Plain text
 #: colophon.en.adoc:15
@@ -125,7 +125,7 @@ msgstr ""
 #: colophon.en.adoc:28
 #, no-wrap
 msgid "Contributors"
-msgstr ""
+msgstr "Contributeurs"
 
 #. type: Plain text
 #: colophon.en.adoc:31
@@ -136,7 +136,7 @@ msgstr ""
 #: colophon.en.adoc:32
 #, no-wrap
 msgid "License"
-msgstr ""
+msgstr "Licence"
 
 #. type: Plain text
 #: colophon.en.adoc:36
@@ -169,7 +169,7 @@ msgstr ""
 #: colophon.en.adoc:45
 #, no-wrap
 msgid "Abstract"
-msgstr ""
+msgstr "Résumé"
 
 #. type: Plain text
 #: colophon.en.adoc:48
@@ -1480,7 +1480,7 @@ msgstr ""
 #: glossary.en.adoc:2
 #, no-wrap
 msgid "Glossary"
-msgstr ""
+msgstr "Glossaire"
 
 #. type: Labeled list
 #: glossary.en.adoc:5
@@ -2014,7 +2014,7 @@ msgstr ""
 #: bibliography.en.adoc:2
 #, no-wrap
 msgid "References"
-msgstr ""
+msgstr "Références"
 
 #. type: Plain text
 #: bibliography.en.adoc:5
