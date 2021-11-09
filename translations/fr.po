@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2021-11-02 12:03\n"
+"PO-Revision-Date: 2021-11-09 09:10\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -20,12 +20,12 @@ msgstr ""
 #: index.en.adoc:1
 #, no-wrap
 msgid "Publishing DNA-derived data through biodiversity data platforms"
-msgstr ""
+msgstr "Publier des données dérivées de l'ADN sur les plateformes de données sur la biodiversité"
 
 #. type: Plain text
 #: index.en.adoc:34
 msgid "languageLinks:combined[]"
-msgstr ""
+msgstr "liensLangues:combiné[]"
 
 #. type: Target for macro image
 #: colophon.en.adoc:3
