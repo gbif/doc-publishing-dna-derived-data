@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2021-11-10 08:30\n"
+"PO-Revision-Date: 2021-11-10 09:46\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -278,17 +278,17 @@ msgstr "Les données dérivées de l’ADN nous permettent d’enregistrer des t
 #. type: Plain text
 #: 100.en.adoc:10
 msgid "DNA-derived occurrence data of species should be as standardized and reproducible as possible, regardless of whether or not the detected species have formal scientific names. In some cases, such occurrence records will hint at previously unknown geographical and ecological properties of described species, thus enriching our body of knowledge on these taxa. In other cases, the data may allow us to amalgamate and visualize information on currently undescribed species, potentially speeding up their eventual formal description. The ability to collect usable data even for unnamed species adds significantly to the many ways in which GBIF and other biodiversity data platforms index the living world, and make this knowledge available to all and for a variety of purposes, including biodiversity conservation. Recent estimates suggest that at least 85 per cent of all extant species are undescribed (https://doi.org/10.1371/journal.pbio.1001127[Mora et al. 2011^]; https://doi.org/10.1111/cobi.12285[Tedesco et al. 2014^]). Existing data standards have been designed for the minority of taxa that have been described. Good practices for dealing with DNA-derived data will help to characterize occurrences of all organisms, whether described or not."
-msgstr ""
+msgstr "Les données d'occurrence dérivées de l'ADN des espèces devraient être aussi normalisées et reproductibles que possible, que l'espèce détectée ait ou non des noms scientifiques formels. Dans certains cas, ces occurrences indiqueront des propriétés géographiques et écologiques des espèces décrites précédemment inconnues, enrichissant ainsi notre corpus de connaissances sur ces taxons. Dans d'autres cas, les données peuvent nous permettre de fusionner et de visualiser des informations sur les espèces actuellement non décrites, ce qui peut éventuellement accélérer leur description formelle. La capacité de collecter des données utilisables, même pour les espèces non nommées, ajoute de manière significative aux nombreuses façons dont le GBIF et d'autres plateformes de données sur la biodiversité indexent le monde vivant et rendent ces connaissances disponibles à tous et à des fins diverses, y compris la conservation de la biodiversité. Selon des estimations récentes, au moins 85 % de toutes les espèces existantes ne sont pas décrites (https://doi. rg/10.1371/journal.pbio.1001127[Mora et al. 2011^]; https://doi.org/10.1111/cobi.12285[Tedesco et al. 2014^]). Les standards de données existants ont été conçus pour la minorité de taxons qui ont été décrits. De bonnes pratiques pour traiter les données dérivées de l'ADN aideront à caractériser les occurrences de tous les organismes, qu'ils soient décrits ou non."
 
 #. type: Plain text
 #: 100.en.adoc:12
 msgid "This guide sets out the ways in which DNA-derived occurrence data should be reported for standardized inclusion in GBIF and other biodiversity data platforms. It does not express any view on the issue of access and benefit sharing for digital sequence information, the subject of extensive discussion through the https://www.cbd.int/abs/[Convention on Biological Diversity^] (CBD). However, it is worth noting that genetic barcodes and metabarcodes are typically genes or non-coding DNA fragments, which are not suitable for commercial exploitation. As the archiving of sequences through http://www.insdc.org/[International Nucleotide Sequence Database Collaboration (INDSC)^] is a widespread norm in sequence-based research, publication of occurrence data originating from sequences does not involve publishing new sequences. In most cases these have already been placed in a public genetic repository. This guide therefore addresses the added value possible from deriving spatio-temporal occurrence data and dna-based names from dna data, rather than the value of the genetic information itself. In addition to dealing with sequence-derived data, this guide also includes suggestions for publishing occurrence data of species derived from qPCR or ddPCR analyses."
-msgstr ""
+msgstr "Ce guide explique comment les données d'occurrence dérivées d'ADN doivent être rapportées pour être intégrées de manière standardisée au GBIF et à d'autres plates-formes de données sur la biodiversité. Il n'exprime aucune opinion sur la question de l'accès et du partage des bénéfices pour les informations sur la séquence numérique, sujet d'une discussion approfondie à travers la https://www. bd.int/abs/[Convention sur la diversité biologique^] (CBD). Il convient toutefois de noter que les code-barres génétiques et les méta code-barres sont généralement des gènes ou des fragments d'ADN non codés qui ne sont pas adaptés à l'exploitation commerciale. Comme l'archivage des séquences à travers la http://www.insdc.org/[Collaboration internationale de base de données sur les séquences nucléotides (INDSC)^] est une norme répandue dans la recherche séquentielle, la publication de données d'occurrence provenant de séquences n'implique pas la publication de nouvelles séquences. Dans la plupart des cas, ceux-ci ont déjà été placés dans un dépôt génétique public. Ce guide aborde donc la valeur ajoutée possible de la dérivation des données spatio-temporelles d'occurrence et des noms basés sur l'ADN plutôt que la valeur de l'information génétique elle-même. En plus de traiter les données dérivées de séquence, ce guide contient également des suggestions pour la publication de données sur les occurrences d'espèces dérivées de qPCR ou d'analyses ddCR."
 
 #. type: Plain text
 #: 100.en.adoc:14
 msgid "Reporting DNA-derived occurrences in an open and reproducible way brings many benefits: notably, it increases citability, highlights the taxa concerned in the context of biological conservation and contributes to taxonomic and ecological knowledge. Additionally, it also provides a mechanism to store occurrence records of undescribed species. When this yet to be described taxon is finally linked to a new Linnaean name, all these linked occurrence records will be immediately available. Each of these benefits provides a strong rationale for professionals to adopt the practices outlined in this guide, helping them to highlight a significant proportion of extant biodiversity, hasten its discovery and integrate it into biological conservation and policy-making."
-msgstr ""
+msgstr "Le fait de rapporter les occurrences dérivées d'ADN de manière ouverte et reproductible apporte de nombreux avantages : notamment, cela accroit la possibilité de citation, met en évidence les taxons concernés dans le contexte de la conservation biologique et contribue à la connaissance taxonomique et écologique. De plus, il fournit également un mécanisme pour stocker les occurrences d'espèces non décrites. Quand ce taxon, qui n'est pas encore décrit, est enfin lié à un nouveau nom linnéen, tous les enregistrements d'occurrences qui lui sont liés seront immédiatement disponibles. Chacun de ces avantages fournit une justification solide pour que les professionnels adoptent les pratiques décrites dans ce guide, les aider à mettre en valeur une part importante de la biodiversité existante, à accélérer sa découverte et à l’intégrer dans la conservation biologique et l’élaboration des politiques."
 
 #. type: Title ===
 #: 100.en.adoc:15
@@ -316,13 +316,13 @@ msgstr "Flux de travail global pour les données sur la biodiversité dérivées
 #: 100.en.adoc:24
 #, no-wrap
 msgid "img/print/sequence-publishing-guide.en.png"
-msgstr ""
+msgstr "img/print/sequence-publishing-guide.fr.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:27
 #, no-wrap
 msgid "img/web/sequence-publishing-guide.en.svg"
-msgstr ""
+msgstr "img/web/sequence-publishing-guide.fr.svg"
 
 #. type: Plain text
 #: 100.en.adoc:31
@@ -361,13 +361,13 @@ msgstr "Représentation simplifiée des processus d'échantillonnage comparant l
 #: 100.en.adoc:43
 #, no-wrap
 msgid "img/print/sampling-processes.en.png"
-msgstr ""
+msgstr "img/print/sampling-processes.fr.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:46
 #, no-wrap
 msgid "img/web/sampling-processes.en.svg"
-msgstr ""
+msgstr "img/web/sampling-processes.fr.svg"
 
 #. type: Plain text
 #: 100.en.adoc:50
@@ -453,7 +453,7 @@ msgstr "Esquisse d'une plateforme pour le signalement et la publication de séqu
 #: 100.en.adoc:79
 #, no-wrap
 msgid "img/web/figure-03-translated.en.png"
-msgstr ""
+msgstr "img/web/figure-03-translated.fr.png"
 
 #. type: Plain text
 #: 100.en.adoc:82
