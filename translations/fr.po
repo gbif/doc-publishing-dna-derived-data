@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2021-11-15 15:00\n"
+"PO-Revision-Date: 2021-11-15 18:03\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -602,7 +602,7 @@ msgstr ""
 #: 200.en.adoc:1
 #, no-wrap
 msgid "Data packaging and mapping"
-msgstr ""
+msgstr "Préparation et mapping des données"
 
 #. type: Plain text
 #: 200.en.adoc:4
@@ -612,18 +612,18 @@ msgstr "Ce chapitre se concentre sur les détails pratiques pour transformer vot
 #. type: Plain text
 #: 200.en.adoc:6
 msgid "This guide combines the standards for general biodiversity data publishing with genetic DNA-derived biodiversity data (<<figure-dwca-ipt>>). This “do-section” stops at providing mapping recommendations for different types of DNA-derived data."
-msgstr ""
+msgstr "Ce guide combine les standards pour la publication de données générales sur la biodiversité avec les données génétiques sur la biodiversité dérivées de l'ADN (<figure-dwca-ipt>). Cette section \"à faire\" fournit des recommandations de mapping pour différents types de données dérivées de l'ADN."
 
 #. type: Plain text
 #: 200.en.adoc:8
 msgid "Data packaging and publishing pathways vary from platform to platform and are described in general documentation. One of the widespread ways to package data files is currently DwC-A, where data tables are arranged in a star schema, with records (rows) in peripheral extension files pointing to a single record in the central core file (<<figure-dwca-ipt>>). The different types of core files (e.g. occurrence and sampling-event) correspond to different classes of datasets. Although DNA-derived datasets often are event-based in nature, i.e. hundreds or even thousands of quantified sequence occurrences may derive from a single sampling event and thus share most metadata attributes, the current recommendation is to publish data as Occurrence core (Category I or II) with the DNA derived data extension. This approach compensates for limitations of the DwC star schema, which would not allow any occurrence-level data in extension files (such as processed barcode sequences) to point to records in an event core file. We do, however, recommend including an eventID for each core record, to indicate the association between occurrences derived from the same sampling event."
-msgstr ""
+msgstr "Les modes de préparation et de publication des données varient d'une plateforme à l'autre et sont décrites dans la documentation générale. Actuellement, une des manières les plus répandues de préparer les fichiers de données est DwC-A, où les tableaux de données sont disposés selon un schéma en étoile, et les enregistrements (lignes) des fichiers d'extension périphériques pointent vers un seul enregistrement du fichier central (<<figure-dwca-ipt>>). Les différents types de fichiers centraux (par exemple, occurrence et événement d'échantillonnage) correspondent à différentes classes de jeux de données. Bien que les jeux de données dérivées de l'ADN soient souvent de nature événementielle, c'est-à-dire que des centaines, voire des milliers d'occurrences de séquences ADN peuvent provenir d'un même événement d'échantillonnage et donc partager la plupart des attributs des métadonnées, la recommandation actuelle est de publier les données en tant qu'Occurrences (catégorie I ou II) avec l'extension pour les données dérivées de l'ADN. Cette approche compense les limites du schéma en étoile du DwC, qui ne permet pas aux données relatives aux occurrences dans les fichiers d'extension (telles que les séquences de codes-barres traitées) de pointer vers les enregistrements d'un fichier événement. Nous recommandons cependant d'inclure un eventID pour chaque enregistrement central, afin d'indiquer l'association entre les occurrences dérivées du même événement d'échantillonnage."
 
 #. type: Block title
 #: 200.en.adoc:10
 #, no-wrap
 msgid "Zoom in of DwC-A / IPT from figure 3 in chapter 1.2. The choice of core entity is mainly a matter of fitting data to the data import mechanism (ingestion) of the biodiversity data platforms. Most data could be formulated as either Occurrence, Event or Taxon core, but as only the core can have extensions, this will affect the choice. It is for example not possible to extend occurrences with DNA sequences if data are packaged using Event core."
-msgstr ""
+msgstr "Figure 5. Zoom sur le DwC-A / IPT de la figure 3 du chapitre 1.2. Le choix de l'entité centrale est principalement une question d'adaptation des données au mécanisme d'importation de données (ingestion) des plateformes de données sur la biodiversité. La plupart des données pourraient être formulées en tant qu'Occurrence, Evénement ou de Taxon, mais comme seul le noyau peut avoir des extensions, cela affectera forcément le choix. Par exemple, ce n'est pas possible d'ajouter des séquences d'ADN aux occurrences si les données sont présentées sous forme d'événements."
 
 #. type: Target for macro image
 #: 200.en.adoc:11
@@ -635,18 +635,18 @@ msgstr ""
 #: 200.en.adoc:13
 #, no-wrap
 msgid "Categorization of your data"
-msgstr ""
+msgstr "2.1 Catégorisation des données"
 
 #. type: Plain text
 #: 200.en.adoc:16
 msgid "For the purpose of this guide, we categorize data into five categories, linked by a key ID field (_eventID_), equivalent to the standards for general biodiversity data, and include fields relevant for DNA-derived data (see xref:data-mapping[xrefstyle=\"full\"]). These five categories seek to reflect the most commonly used molecular approaches to biodiversity characterization and are I) DNA-derived occurrences, II) enriched occurrences, III) targeted species detection, IV) name references and V) metadata only. Examine the decision tree and proceed to the correct section below."
-msgstr ""
+msgstr "Pour la finalité de ce guide, nous classons les données en cinq catégories, reliées par un champ d'identification clé (_eventID_), qui correspondent aux standards applicables aux données générales sur la biodiversité, en incluant des champs pertinents pour les données dérivées de l'ADN (see xref:data-mapping[xrefstyle=\"full\"]). Ces cinq catégories représentent les approches moléculaires les plus couramment utilisées pour la caractérisation de la biodiversité et sont les suivantes : I) occurrences dérivées de l'ADN, II) occurrences enrichies, III) détection ciblée d'espèces, IV) références de noms et V) métadonnées. Examinez l'arbre de décision ci-dessous et allez directement à la section qui correspond à vos données."
 
 #. type: Block title
 #: 200.en.adoc:18
 #, no-wrap
 msgid "A decision tree for DNA-derived data categorization."
-msgstr ""
+msgstr "Arbre de décision pour la catégorisation des données dérivées de l'ADN."
 
 #. type: Table
 #: 200.en.adoc:53
@@ -677,57 +677,82 @@ msgid "5+|\n"
 "|No +\n"
 "↓\n"
 "|\n\n"
-msgstr ""
+msgstr "5+|\n"
+"icon:question-circle[] _Est-ce que vos données sont basées sur le (méta)barcoding ou sur la qPCR ?\n\n"
+"+|(Méta)barcoding +\n"
+"Ω\n"
+"|qPCR +\n"
+"Ω\n\n"
+"4+|icon:question-cercle[] _Est-ce que vos données consistent de matériel génétique numérisé ou de séquences ADN, associés à un endroit et à une date ?\n"
+"|*<<category-iii,Category III>>* +\n"
+"Détection ciblée d'espèces\n\n"
+"2+|Oui +\n"
+"Ω\n"
+"2+|Non +\n"
+"Ω\n"
+"| \n\n"
+" 2+. |icon:question-cercle[] _Est-ce que le matériel génétique est la \"seule\" évidence d'un organisme ou d'une communauté ?_\n"
+"2+. |icon:question-circle[] _Est-ce que le jeu de données consiste en une liste de noms basés sur l'ADN ?\n"
+"|\n\n"
+"|Oui +\n"
+"Ω\n"
+"|Non +\n"
+"Ω\n"
+"|Oui +\n"
+"Ω\n"
+"|Non +\n"
+"Ω\n"
+"|\n\n"
 
 #. type: Block title
 #: 200.en.adoc:53
 #, no-wrap
 msgid "<|*<<category-i,Category I>>* +"
-msgstr ""
+msgstr "<category-i,Category I>"
 
 #. type: Table
 #: 200.en.adoc:55
 msgid "DNA-based occurrences"
-msgstr ""
+msgstr "Occurrences dérivées de l'ADN"
 
 #. type: Block title
 #: 200.en.adoc:55
 #, no-wrap
 msgid "<|*<<category-ii,Category II>>* +"
-msgstr ""
+msgstr "<category-ii,Category II>"
 
 #. type: Table
 #: 200.en.adoc:57
 msgid "Enriched occurrences"
-msgstr ""
+msgstr "Occurrences enrichies"
 
 #. type: Block title
 #: 200.en.adoc:57
 #, no-wrap
 msgid "<|*<<category-iv,Category IV>>* +"
-msgstr ""
+msgstr "<category-iv,Category IV>"
 
 #. type: Table
 #: 200.en.adoc:59
 msgid "Name references"
-msgstr ""
+msgstr "Références de noms"
 
 #. type: Block title
 #: 200.en.adoc:59
 #, no-wrap
 msgid "<|*<<category-v,Category V>>* +"
-msgstr ""
+msgstr "<category-v,Category V>"
 
 #. type: Table
 #: 200.en.adoc:62
 msgid "Metadata-only |"
-msgstr ""
+msgstr "Métadonnées"
 
 #. type: Block title
 #: 200.en.adoc:65
 #, no-wrap
 msgid "Visual representation of categories I-V."
-msgstr ""
+msgstr "Représentation visuelle des catégories I-V."
 
 #. type: Target for macro image
 #: 200.en.adoc:66
@@ -739,44 +764,44 @@ msgstr ""
 #: 200.en.adoc:69
 #, no-wrap
 msgid "Category I: DNA-derived occurrences"
-msgstr ""
+msgstr "Catégorie I : occurrences dérivées de l'ADN"
 
 #. type: Plain text
 #: 200.en.adoc:72
 msgid "This category concerns data where a DNA sequence or detection through PCR is the only evidence for the presence of a given organism or community. In other words, the data cannot be traced back to an observable specimen. This is the case for many metagenomics, metabarcoding and eDNA studies."
-msgstr ""
+msgstr "Cette catégorie concerne les données pour lesquelles une séquence d'ADN ou une détection par PCR est la seule preuve de la présence d'un organisme ou d'une communauté donnée. En d'autres termes, les données ne peuvent pas être rattachées à un spécimen observable. C'est le cas de nombreuses études de métagénomique, de métabarcoding et d'eADN."
 
 #. type: Title =====
 #: 200.en.adoc:73
 #, no-wrap
 msgid "Examples of DNA-derived occurrence datasets"
-msgstr ""
+msgstr "Exemples de jeux de données d'occurrences dérivées de l'ADN"
 
 #. type: Plain text
 #: 200.en.adoc:76
 msgid "MGnify (2019) Impact of rainforest transformation on phylogenetic and functional diversity of soil prokaryotic communities in Sumatra (Indonesia). Sampling event dataset https://doi.org/10.15468/osp7hi accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "MGnify (2019) Impact of rainforest transformation on phylogenetic and functional diversity of soil prokaryotic communities in Sumatra (Indonésie). Ensemble de données d'événements d'échantillonnage https://doi.org/10.15468/osp7hi accédé sur GBIF.org le 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:77
 msgid "MGnify (2020) Marine metagenomes from the bioGEOTRACES project. Sampling event dataset https://doi.org/10.15468/oifcho accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "MGnify (2020) Métagénomes marins du projet bioGEOTRACES. Ensemble de données sur les événements d'échantillonnage https://doi.org/10.15468/oifcho accessible via GBIF.org le 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:78
 msgid "Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr14581. Accessed 24 June 2020)"
-msgstr ""
+msgstr "Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi. rg/10.1002/edn3.74 (site internet Atlas of Living Australia sur https://collections.ala.org.au/public/show/dr14581. Accessible le 24 juin 2020)"
 
 #. type: Plain text
 #: 200.en.adoc:80 200.en.adoc:93
 msgid "For guidance on how to format and share these datasets, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
-msgstr ""
+msgstr "Pour des conseils sur la façon de formater et de partager les jeux de données, voir <mapping-metabarcoding-edna-and-barcoding-data>. Les directives générales pour les jeux de données d'occurrence Darwin Core sont également disponibles via https://github. om/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] et https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
 
 #. type: Title ====
 #: 200.en.adoc:82
 #, no-wrap
 msgid "Category II: Enriched occurrences"
-msgstr ""
+msgstr "Catégorie II: Occurrences enrichies"
 
 #. type: Plain text
 #: 200.en.adoc:85
