@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2021-11-10 09:46\n"
+"PO-Revision-Date: 2021-11-15 15:00\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -607,7 +607,7 @@ msgstr ""
 #. type: Plain text
 #: 200.en.adoc:4
 msgid "This chapter focuses on practical details on turning your data export into a dataset indexed by a biodiversity data platform. <<categorization-of-your-data>> will help you understand what is the optimal mapping schema for your data at hand. <<data-mapping>> describes these mappings in detail."
-msgstr ""
+msgstr "Ce chapitre se concentre sur les détails pratiques pour transformer votre export de données en un jeu de données indexé par une plateforme de données sur la biodiversité. <categorization-of-your-data> vous aidera à décider quel est le schéma de mapping optimal pour les données à votre disposition.<data-mapping> décrit ces mappings en détail."
 
 #. type: Plain text
 #: 200.en.adoc:6
