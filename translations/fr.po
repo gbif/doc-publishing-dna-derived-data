@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2021-11-15 18:03\n"
+"PO-Revision-Date: 2021-11-22 15:59\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -806,28 +806,28 @@ msgstr "Catégorie II: Occurrences enrichies"
 #. type: Plain text
 #: 200.en.adoc:85
 msgid "If some genetic material is, or can be, associated with an observation or a specimen, we will categorize this type of data as “enriched occurrences”. In this context, the sequences are not the only evidence of occurrences. One can always trace the information back to a vouchered specimen or observed organism. This category includes barcoding datasets and some DNA metabarcoding datasets with reference material for example. For more guidance on barcoding, follow https://www.cbd.int/doc/publications/cbd-ts-94-en.pdf[Centre for Biodiversity Genomics, University of Guelph (2021)]."
-msgstr ""
+msgstr "Si du matériel génétique est, ou peut être, associé à une observation ou à un spécimen, nous qualifierons ce type de données d'\"occurrences enrichies\". Dans ce contexte, les séquences ne sont pas la seule preuve d’occurrences. On peut toujours remonter l'information jusqu'à un spécimen ou un organisme observé. Cette catégorie comprend les jeux de données de codes-barres ADN et certains jeux de données de métabarcoding de l'ADN avec du matériel de référence, par exemple. Pour plus de conseils sur les codes-barres ADN, suivez le https://www.cbd.int/doc/publications/cbd-ts-94-en.pdf[Centre for Biodiversity Genomics, University of Guelph (2021)]."
 
 #. type: Title =====
 #: 200.en.adoc:86
 #, no-wrap
 msgid "Examples of Enriched occurrence datasets"
-msgstr ""
+msgstr "Exemples de jeux de données d'occurrences enrichies"
 
 #. type: Plain text
 #: 200.en.adoc:89
 msgid "The International Barcode of Life Consortium (2016) International Barcode of Life project (iBOL). Occurrence dataset https://doi.org/10.15468/inygc6 accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "The International Barcode of Life Consortium (2016) International Barcode of Life project (iBOL). Jeu de données sur les occurrences  https://doi.org/10.15468/inygc6 accessible via GBIF.org le 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:90
 msgid "Takamura K (2019) Chironomid Specimen records in the Chironomid DNA Barcode Database. Version 1.9. National Institute of Genetics, ROIS. Occurrence dataset https://doi.org/10.15468/hxhow5 accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "Takamura K (2019) Chironomid Specimen records in the Chironomid DNA Barcode Database. Version 1.9. National Institute of Genetics, ROIS. Jeu de données sur les occurrences https://doi.org/10.15468/hxhow5 accessible via GBIF.org le 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:91
 msgid "Bessey C, Jarman SN, Stat M, Rohner CA, Bunce M, Koziol A, Power M, Rambahiniarison JM, Ponzo A, Richardson AJ & Berry O (2019) DNA metabarcoding assays reveal a diverse prey assemblage for Mobula rays in the Bohol Sea, Philippines. Ecology and Evolution 9 (5) 2459-2474. https://doi.org/10.1002/ece3.4858, (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr11663. Accessed 24 June 2020)"
-msgstr ""
+msgstr "Bessey C, Jarman SN, Stat M, Rohner CA, Bunce M, Koziol A, Power M, Rambahiniarison JM, Ponzo A, Richardson AJ & Berry O (2019) DNA metabarcoding assays reveal a diverse prey assemblage for Mobula rays in the Bohol sea, Philippines. Ecology and Evolution 9 (5) 2459-2474. https://doi.org/10.1002/ece3.4858, (Site internet de l'Atlas of Living Australia à https://collections.ala.org.au/public/show/dr11663. Accessible le 24 juin 2020)."
 
 #. type: Title ====
 #: 200.en.adoc:95
