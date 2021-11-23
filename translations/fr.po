@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2021-11-23 10:19\n"
+"PO-Revision-Date: 2021-11-23 12:08\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -946,7 +946,7 @@ msgstr "Alors que les fichiers de base stockent des données omniprésentes sur 
 #. type: Plain text
 #: 200.en.adoc:137
 msgid "As a first step in preparing your data for publishing, you should make sure your field names / column headers follow the https://dwc.tdwg.org/terms/[Darwin Core data standard]. In many cases this is straightforward, such as renaming your `lat` or `latitude` field to `decimalLatitude`. However, the Darwin Core Standard is quite flexible and some terms are used in different ways, depending on the type of data. An example of this are the fields term:dwc[organismQuantity] and term:dwc[organismQuantityType], which could be used to describe the number of individuals, per cent biomass or a score on the Braun-Blanquet Scale, as well as the number of reads of an ASV within a sample. Therefore, we here provide tables of required and recommended fields with descriptions and examples (<<table-01,Table 1>>, <<table-02,Table 2>>, <<table-03,Table 3>> and <<table-04, Table 4>>). Additional fields and extensions (such as http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]) are applicable. When a sequence is derived from an organism (e.g. a parasite, gut contents, epibiont etc.) the observation may be linked to the observation of the host organism. This can be achieved using the (https://dwc.tdwg.org/terms/#resourcerelationship[Resource Relation extension^]) of Darwin Core (e.g. https://www.gbif.org/species/143610775/verbatim). Perhaps the most important recommendation is to use globally unique (when available) and other permanent identifiers for as many data fields and parameters as possible (in all ID fields in the tables below)."
-msgstr ""
+msgstr "La première étape de la préparation de vos données pour la publication consiste à vous assurer que les noms de vos champs et les en-têtes de vos colonnes respectent les https://dwc.tdwg.org/terms/[Darwin Core data standard]. Dans de nombreux cas c’est assez simple, comme par exemple de renommer votre champ « lat » ou « latitude » en « decimalLatitude ». Toutefois, le standard Darwin Core est assez souple et certains termes sont utilisés de différentes manières, selon le type de données. Par exemple, les champsterm:dwc[organismQuantity] et term:dwc[organismQuantityType] peuvent être utilisés pour décrire le nombre d'individus, le pourcentage de biomasse ou un score sur l'échelle de Braun-Blanquet, ainsi que le nombre de lectures d'un ASV dans un échantillon. Par conséquent, nous fournissons ici des tableaux avec les champs obligatoires et recommandés avec des descriptions et des exemples (<table-01,Table 2>, <table-02,Table 3>, <table-03,Table 4> et <table-04, Table 5>). Des champs supplémentaires et des extensions (comme http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]) sont applicables. Lorsqu'une séquence est issue d'un organisme hôte (par exemple un parasite, le contenu intestinal, un épibion, etc.), l'observation peut être liée à l'observation de l'organisme hôte. Ça peut être réalisé en utilisant (https://dwc.tdwg.org/terms/#resourcerelationship[Resource Relation extension^]) de Darwin Core (par exemple https://www.gbif.org/species/143610775/verbatim). La recommandation la plus importante est probablement celle d'utiliser des identifiants uniques au niveau mondial (lorsqu'ils sont disponibles) et d'autres identifiants permanents pour autant de champs de données et de paramètres que possible (dans tous les champs d'identification des tableaux ci-dessous)."
 
 #. type: Plain text
 #: 200.en.adoc:140 200.en.adoc:283 200.en.adoc:389 200.en.adoc:509
@@ -1469,37 +1469,37 @@ msgstr ""
 #: 300.en.adoc:1
 #, no-wrap
 msgid "Future prospects"
-msgstr ""
+msgstr "Perspectives futures"
 
 #. type: Plain text
 #: 300.en.adoc:4
 msgid "The present interest in exposing DNA-derived data through biodiversity data platforms is very high, and it is very likely that the demand will grow. Our aim is for the mapping recommendations provided here to remain valid and evolve slowly, even as packaging and indexing by biodiversity data platforms may develop more rapidly. The authors are aware of but did not yet consult the https://v3.boldsystems.org/index.php/resources/handbook[BOLD Handbook], http://biom-format.org[BIOM format] and http://edamontology.org/page."
-msgstr ""
+msgstr "L'intérêt actuel à exposer les données dérivées de l'ADN par le biais des plateformes de données sur la biodiversité est énorme, et probablement la demande va encore augmenter. Notre objectif est que les recommandations de mapping fournies ici restent valables et évoluent lentement, même si la préparation et l'indexation par les plateformes de données sur la biodiversité se développent plus rapidement. Les auteurs ont connaissance de https://v3.boldsystems.org/index.php/resources/handbook[BOLD Handbook], http://biom-format.org[BIOM format] et http://edamontology.org/page, mais ne les ont pas encore consultés."
 
 #. type: Plain text
 #: 300.en.adoc:6
 msgid "We suggest that data platforms such as ALA and GBIF work towards adopting data formats that support more complex relational and hierarchical data. Examples could be the https://frictionlessdata.io/[Frictionless Data Format^] and the more domain-specific https://biom-format.org/[Biological Observation Matrix^] (BIOM) format. The latter is used by several bioinformatic tools (https://doi.org/10.1038/s41587-019-0209-9[QIIME2^], https://doi.org/10.1128/AEM.01541-09[Mothur^], https://doi.org/10.1093/bioinformatics/btq461[USEARCH^] etc.), and hence could help publishers skip a step in converting data into DwC-A format. A more flexible data format than the current DwC star schema is crucial for allowing hierarchical sampling events and material samples as well as attaching sequence data to individual occurrences within a sampling event."
-msgstr ""
+msgstr "Nous proposons que les plateformes de données telles que l’ALA et le GBIF s'efforcent d'adopter des formats de données qui prennent en compte des données relationnelles et hiérarchiques plus complexes. Des exemples pourraient être le https://frictionlessdata.io/[Frictionless Data Format^] et le format plus spécifique au domaine https://biom-format.org/[Biological Observation Matrix^] (BIOM) format. Ce dernier est utilisé par plusieurs outils bioinformatiques (https://doi.org/10.1038/s41587-019-0209-9[QIIME2^], https://doi.org/10.1128/AEM.01541-09[Mothur^], https://doi.org/10.1093/bioinformatics/btq461[USEARCH^] etc.) et pourrait donc aider les éditeurs à sauter une étape dans la conversion des données au format DwC-A. Un format de données plus flexible que le schéma actuel DwC en étoile est essentiel pour permettre des événements d'échantillonnage hiérarchiques et des échantillons de matériaux, ainsi que pour lier des données de séquence ADN à des occurrences individuelles dans un même événement d'échantillonnage."
 
 #. type: Plain text
 #: 300.en.adoc:8
 msgid "Biodiversity data platforms will also need to enable researchers to easily include or exclude DNA-derived occurrence data from their query results. The data formats suggested above could open opportunities for a richer classification of the types of evidence on which a specific occurrence record is based. However, for the time being there is a lack of an appropriate value in the BasisOfRecord vocabulary for these data types. We suggest, as a pragmatic immediate solution, that the BasisOfRecord is extended with a value such as “DNA”, “DNA-derived”, or similar. As described above, DNA-derived data may come from well-documented sampling or individual organisms, may be backed by preserved physical material or not, and may result from genetic sequencing or other DNA detection methods, such as qPCR. Biodiversity data platforms and TDWG should provide the means of differentiating between these data types and their origins."
-msgstr ""
+msgstr "Les plateformes de données sur la biodiversité devront également permettre aux utilisateurs d'inclure ou d'exclure facilement les données d'occurrence dérivées de l'ADN dans les résultats de leurs recherches. Les formats de données suggérés ci-dessus pourraient ouvrir la voie à une classification plus riche des types d’évidence sur lesquelles repose un enregistrement d'occurrence spécifique. Toutefois, pour l'instant, il manque une valeur appropriée dans le vocabulaire BasisOfRecord pour ces types de données. Nous suggérons, à titre de solution pragmatique immédiate, d'ajouter à la base de données BasisOfRecord une valeur telle que \"ADN\", \"dérivé de l'ADN\" ou similaire. Comme décrit ci-dessus, les données dérivées de l'ADN peuvent provenir d'un échantillonnage bien documenté ou d'organismes individuels, peuvent être soutenues par du matériel physique préservé ou non, ou peuvent résulter d'un séquençage génétique ou d'autres méthodes de détection de l'ADN, comme la qPCR. Les plateformes de données sur la biodiversité et le TDWG devraient fournir les moyens de différencier ces types de données et leurs origines."
 
 #. type: Plain text
 #: 300.en.adoc:10
 msgid "We also recommend that the data platforms index the actual sequences, or at least a MD5 checksum of these, to facilitate searches for ASVs across datasets. If ASVs are provided, MD5s should be generated by the biodiversity discovery platforms; if ASVs are not provided, MD5s need to be mandatory."
-msgstr ""
+msgstr "Nous recommandons également que les plateformes de données indexent les vraies séquences ADN, ou au moins un checksum MD5 de celles-ci, afin de faciliter les recherches d'ASVs dans les jeux de données. Si les ASVs sont fournis, les MD5 devraient être générés par les plateformes de données sur la biodiversité ; si les ASVs ne sont pas fournis, les MD5 doivent être obligatoires."
 
 #. type: Plain text
 #: 300.en.adoc:12
 msgid "As mentioned in <<taxonomy-of-sequences>> and <<category-iv>>, we encourage the biodiversity data platforms to continue work on adopting relevant molecular taxonomic reference databases into their taxonomic backbones."
-msgstr ""
+msgstr "Comme mentionné dans <taxonomy-of-sequences> et <category-iv>, nous encourageons les plateformes de données sur la biodiversité à poursuivre leur travail d'adoption de bases de données de référence en taxonomie moléculaire dans leurs structures taxonomiques centrales."
 
 #. type: Plain text
 #: 300.en.adoc:13
 msgid "Broader application of other methods and technologies, such as Oxford Nanopore, PacBio and shotgun sequencing, will likely trigger the need for adjustments to this guide to accommodate specific new data and metadata fields."
-msgstr ""
+msgstr "L'application plus large d'autres méthodes et technologies, telles que Oxford Nanopore, PacBio et le séquençage shotgun, rendra probablement nécessaire l'adaptation du présent guide à de nouveaux champs de données et de métadonnées spécifiques."
 
 #. type: Title ==
 #: glossary.en.adoc:2
@@ -1522,12 +1522,12 @@ msgstr ""
 #: glossary.en.adoc:6
 #, no-wrap
 msgid "[[asv]]Amplicon Sequence Variant (ASV)"
-msgstr ""
+msgstr "Variant de séquences d'amplicon"
 
 #. type: Plain text
 #: glossary.en.adoc:7
 msgid "Unique DNA sequence derived from high-throughput sequencing and denoising, and assumed to represent a biologically real sequence variant. See also <<otu,Operational Taxonomic Unit (OTU)>> and https://doi.org/10.1038/ismej.2017.119[(Callahan et al. 2017)^]."
-msgstr ""
+msgstr "Séquence d’ADN individuelle produite par séquençage à haut débit d’amplicons ou par denoising, et et supposée représenter une variante de séquence biologiquement réelle. Voir également <otu,Operational Taxonomic Unit (OTU)> et https://doi.org/10.1038/ismej.2017.119[(Callahan et al. 2017)^]."
 
 #. type: Labeled list
 #: glossary.en.adoc:7
@@ -1544,7 +1544,7 @@ msgstr ""
 #: glossary.en.adoc:8
 #, no-wrap
 msgid "[[bins]]Barcode Index Numbers (BINs)"
-msgstr ""
+msgstr "[[bins]]Numéros d'index de codes-barres (BINs)"
 
 #. type: Plain text
 #: glossary.en.adoc:9
