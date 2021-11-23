@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2021-11-23 12:08\n"
+"PO-Revision-Date: 2021-11-23 16:57\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -1522,7 +1522,7 @@ msgstr ""
 #: glossary.en.adoc:6
 #, no-wrap
 msgid "[[asv]]Amplicon Sequence Variant (ASV)"
-msgstr "Variant de séquences d'amplicon"
+msgstr "[[asv]]Variant de séquences d'amplicon (ASV)"
 
 #. type: Plain text
 #: glossary.en.adoc:7
