@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2021-11-23 07:16\n"
+"PO-Revision-Date: 2021-11-23 10:19\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -838,40 +838,40 @@ msgstr "Catégorie III: Détection ciblée d'espèces (qPCR/dPCR)"
 #. type: Plain text
 #: 200.en.adoc:98
 msgid "This category concerns data where a specific (qPCR/ddPCR) assay is used to detect the presence (or absence) of a DNA sequence specific to the target organism in an environmental sample. In this case the occurrence record may not even contain sequence data, as it is the process itself that determines the occurrence. With qPCR/ddPCR analyses for targeted species detection, many studies also report absence of that specific species for a given sample. Absence data is highly dependent on the detection limit of the specific assay, as well as field and lab protocols. As for DNA-metabarcoding data there is an issue of both false negatives and false positives, and it is important that sufficient information is reported for evaluating the records."
-msgstr ""
+msgstr "Cette catégorie concerne les données pour lesquelles un test spécifique (qPCR/dPCR) est utilisé pour détecter la présence (ou l'absence) d'une séquence d'ADN spécifique à l'organisme cible dans un échantillon environnemental. Dans ce cas, l'enregistrement de l’occurrence peut même ne pas contenir de données de séquence, car c'est le processus lui-même qui détermine l’occurrence. Avec les analyses qPCR/dPCR pour la détection ciblée d'espèces, de nombreuses études rapportent également l'absence de l’espèce spécifique pour un échantillon donné. Les données d'absence dépendent fortement de la limite de détection de l'analyse spécifique, ainsi que des protocoles de terrain et de laboratoire. Comme pour les données de métabarcoding de l'ADN, il existe un problème de faux négatifs et de faux positifs, et il est important que des informations suffisantes soient rapportées pour évaluer les enregistrements."
 
 #. type: Title =====
 #: 200.en.adoc:99
 #, no-wrap
 msgid "Examples of targeted species occurrence datasets"
-msgstr ""
+msgstr "Exemples de jeux de données d’occurrences d’espèces ciblées"
 
 #. type: Plain text
 #: 200.en.adoc:101
 msgid "Strzelecki, Joanna; Feng, Ming; Berry, Olly; Zhong, Liejun; Keesing, John; Fairclough, David; Pearce, Alan; Slawinski, Dirk; Mortimer, Nick. Location and transport of early life stages of Western Australian Dhufish Glaucosoma hebraicum. Floreat, WA: Fisheries Research and Development Corporation; 2013. http://hdl.handle.net/102.100.100/97533 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr8131. Accessed 22 July 2020)"
-msgstr ""
+msgstr "Strzelecki, Joanna ; Feng, Ming; Berry, Olly; Zhong, Liejun; Keesing, John; Fairclough, David; Pearce, Alan; Slawinski, Dirk; Mortimer, Nick. Location and transport of early life stages of Western Australian Dhufish Glaucosoma hebraicum. Floreat, WA: Fisheries Research and Development Corporation; 2013. http://hdl.handle.net/102.100.100/97533 (Atlas of Living Australia site at https://collections.ala.org.au/public/show/dr8131. Accessible le 22 juillet 2020)."
 
 #. type: Plain text
 #: 200.en.adoc:103
 msgid "For guidance on how to format and share these datasets, see <<mapping-ddpcr-qpcr-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
-msgstr ""
+msgstr "Pour des conseils sur la manière de formater et de partager ces jeux de données, voir <mapping-ddpcr-qpcr-data>. Les directives générales pour les jeux de données sur les occurrences Darwin Core sont également disponibles via https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
 
 #. type: Title ====
 #: 200.en.adoc:105
 #, no-wrap
 msgid "Category IV: Name references"
-msgstr ""
+msgstr "Catégorie IV: Noms de référence"
 
 #. type: Plain text
 #: 200.en.adoc:108
 msgid "This category corresponds to DNA-derived names, derived from clustering or denoising (error-correction based models), such as stable non-Linnaean Operational Taxonomic Units (OTU), Amplicon Sequence Variant (ASV) and Barcode Index Numbers (BIN)—in other words, any reference to taxa or provisional names that are defined outside of the Linnaean taxonomy. Numerous projects produce local project- or study-specific libraries of OTUs, and although it is technically possible to publish these as checklists, they have limited to no value for data linking or interpretation; as a result, we do not encourage their publication through biodiversity data platforms. However, the inclusion of the widely adopted, stable, global, digitally referenceable OTUs into Linnaean taxonomic backbones is critically important for indexing unnamed “dark” biodiversity. GBIF have accumulated experience in integrating such large and global reference libraries of OTUs into the GBIF taxonomic backbone, which allows the display of OTUs under the nearest parent taxon which has a Latin name (<<figure-otus>>)."
-msgstr ""
+msgstr "Cette catégorie correspond aux noms dérivés de l'ADN, issus du clustering ou du denoising (modèles basés sur la correction d'erreurs), tels que les unités taxonomiques opérationnelles (OTU) stables non linnéennes, les variantes de séquence d'amplicons (ASV) et les numéros d'index de code-barres (BIN) - en d'autres termes, toute référence à des taxons ou à des noms provisoires définis en dehors de la taxonomie linnéenne. De nombreux projets produisent des bibliothèques locales d'OTUs spécifiques à un projet ou à une étude, et bien qu'il soit techniquement possible de les publier sous forme de checklists, elles n'ont qu'une valeur limitée, voire nulle, pour la mise en relation ou l'interprétation des données ; par conséquent, nous n'encourageons pas leur publication par le biais de plateformes de données sur la biodiversité. Cependant, l'inclusion des OTUs largement adoptées, stables, globales et numériquement référençables dans les bases taxonomiques linnéennes est d'une importance critique pour l'indexation de la biodiversité \"sombre\" sans nom. Le GBIF a accumulé de l'expérience dans l'intégration de ces grandes bibliothèques mondiales de référence d'OTUs dans la colonne vertébrale taxonomique du GBIF, qui permet l'affichage des OTUs sous le taxon parent le plus proche qui a un nom latin (<figure-otus>)."
 
 #. type: Block title
 #: 200.en.adoc:110
 #, no-wrap
 msgid "OTUs from UNITE (fungi, above) and from BOLD (arthropods, below) are displayed in the GBIF backbone taxonomy under their corresponding parent taxa which have Latin names. Multiple individually observed occurrences of cryptic biodiversity become discoverable together with non-genetic evidence through a single access point."
-msgstr ""
+msgstr "Les OTUs de UNITE (champignons, en haut) et de BOLD (arthropodes, en bas) sont affichés dans la taxonomie principale du GBIF sous leurs taxons parents correspondants qui ont des noms latins. De multiples occurrences de biodiversité cryptique observées individuellement peuvent être découvertes avec des preuves non génétiques via un point d'accès unique."
 
 #. type: Target for macro image
 #: 200.en.adoc:111
@@ -883,65 +883,65 @@ msgstr ""
 #: 200.en.adoc:113
 #, no-wrap
 msgid "Examples of Name references checklists"
-msgstr ""
+msgstr "Exemples de checklists de noms de référence"
 
 #. type: Plain text
 #: 200.en.adoc:116
 msgid "The International Barcode of Life Consortium (2016). International Barcode of Life project (iBOL) Barcode Index Numbers (BINs). Checklist dataset https://doi.org/10.15468/wvfqoi accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "The International Barcode of Life Consortium (2016) International Barcode of Life project (iBOL). Jeu de données sur les occurrences https://doi.org/10.15468/wvfqoi accessible via GBIF.org le 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:117
 msgid "PlutoF (2019). UNITE - Unified system for the DNA based fungal species linked to the classification. Version 1.2. Checklist dataset https://doi.org/10.15468/mkpcy3 accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "PlutoF (2019) - Système unifié pour les espèces fongiques basées sur l'ADN liées à la classification. Version 1.2. Jeu de données de la checklist https://doi.org/10.15468/mkpcy3 accédé via GBIF.org le 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:119
 msgid "This guide does not provide mapping recommendations for global OTU checklists / reference libraries (Category IV), and publishing referenceable (project- or study-specific) OTU libraries as checklists is discouraged. For guidance on how to format and share OTU checklists, see the following general Darwin Core guidelines in https://github.com/gbif/ipt/wiki/checklistData#templates[DwC-A template for checklists] and https://www.gbif.org/data-quality-requirements-checklists[Data quality requirements for checklists]. https://www.ebi.ac.uk/ena/submit/mixs-checklists[General guidelines for MIxS checklists]. For advice on how to map global reference libraries of OTUs for inclusion in the GBIF taxonomic backbone, contact the mailto:helpdesk@gbif.org[GBIF help desk]."
-msgstr ""
+msgstr "Ce guide ne fournit pas de recommandations de mapping pour les checklists globales d’OTUs / bibliothèques de référence (Catégorie IV), et il est déconseillé de publier des bibliothèques OTU référençables (spécifiques à un projet ou à une étude) sous forme de checklists. Pour obtenir des conseils sur la façon de formater et de partager les checklists d’OTUs, consultez les directives directives de Darwin Core suivantes sur https://github.com/gbif/ipt/wiki/checklistData#templates[DwC-A template for checklists] et https://www.gbif.org/data-quality-requirements-checklists[Data quality requirements for checklists]. https://www.ebi.ac.uk/ena/submit/mixs-checklists[General guidelines for MIxS checklists]. Pour obtenir des conseils sur la façon de mapper les bibliothèques de référence mondiales d'OTUs pour les inclure dans la colonne vertébrale taxonomique du GBIF, contactez le mailto:helpdesk@gbif.org[GBIF help desk]."
 
 #. type: Title ====
 #: 200.en.adoc:121
 #, no-wrap
 msgid "Category V: Metadata-only datasets"
-msgstr ""
+msgstr "Catégorie V : jeux de metadonnées uniquement"
 
 #. type: Plain text
 #: 200.en.adoc:124
 msgid "Metadata are data about the data and is a description of the dataset in broad terms, such as authors, author affiliations, original research purpose of the dataset, DOI(s), taxonomic scope, temporal scope, and geographical scope. Information regarding laboratory methods and general sequencing methods is included in this category. This category includes datasets or collections that cannot be made available online at the moment, e.g. undigitized work."
-msgstr ""
+msgstr "Les métadonnées sont des données sur les données et consistent en une description du jeu de données en termes généraux, tels que les auteurs, les affiliations des auteurs, l'objectif original de la recherche liée au jeu de données, les DOI, la portée taxonomique, la portée temporelle, et la portée géographique. Les informations concernant les méthodes de laboratoire et les méthodes générales de séquençage sont incluses dans cette catégorie. Cette catégorie comprend des jeux de données ou des collections qui ne peuvent pas être mis en ligne pour le moment, comme par exemple les travaux non numérisés."
 
 #. type: Title =====
 #: 200.en.adoc:125
 #, no-wrap
 msgid "Examples of Metadata-only datasets"
-msgstr ""
+msgstr "Exemples de jeux de metadonnées uniquement"
 
 #. type: Plain text
 #: 200.en.adoc:128
 msgid "Collins E, Sweetlove M (2019). Arctic Ocean microbial metagenomes sampled aboard CGC Healy during the 2015 GEOTRACES Arctic research cruise. SCAR - Microbial Antarctic Resource System. Metadata dataset https://doi.org/10.15468/iljmun accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "Collins E, Sweetlove M (2019). Arctic Ocean microbial metagenomes sampled aboard CGC Healy during the 2015 GEOTRACES Arctic research cruise. SCAR - Microbial Antarctic Resource System. Jeu de métadonnées https://doi.org/10.15468/iljmun accessible via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:129
 msgid "Cary S C (2015). New Zealand Terrestrial Biocomplexity Survey. SCAR - Microbial Antarctic Resource System. Metadata dataset https://doi.org/10.15468/xnzrhq accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "Cary S C (2015). New Zealand Terrestrial Biocomplexity Survey. SCAR - Microbial Antarctic Resource System. Jeu de métadonnées https://doi.org/10.15468/xnzrhq accessible via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:131
 msgid "Mapping recommendations for metadata-only DNA-derived datasets (Category V) is the same as for any other metadata-only datasets, and this guide does not provide any specific mapping recommendations for metadata. Please follow general recommendations of biodiversity data portals, paying attention to https://github.com/gbif/ipt/wiki/resourceMetadata[required and recommended metadata]. Descriptions of field, lab, and bioinformatics steps should be as detailed as possible. Describing your methods as method steps in the EML metadata makes them display on the dataset homepage in GBIF (https://www.gbif.org/dataset/3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f#methodology Frøslev T, Ejrnæs R (2018). BIOWIDE eDNA Fungi dataset. Danish Biodiversity Information Facility. Occurrence dataset https://doi.org/10.15468/nesbvx accessed via GBIF.org on 2021-07-06). However, if a structured and possibly more detailed method description is already published somewhere (e.g. at https://protocols.io[protocols.io] or https://www.neonscience.org/data-collection[NEON protocols collection]), it is straightforward to provide a link through the MIxS SOP field (see <<mapping-metabarcoding-edna-and-barcoding-data>>)."
-msgstr ""
+msgstr "Les recommandations de mapping pour les jeux de données dérivées de l'ADN (catégorie V) ne comportant que des métadonnées sont les mêmes que pour tous les autres jeux de données qui incluent que des métadonnées, et ce guide ne fournit pas de recommandations de mapping plus spécifiques. Veuillez suivre les recommandations générales des portails de données sur la biodiversité, en prêtant attention à https://github.com/gbif/ipt/wiki/resourceMetadata[required and recommended metadata]. Les descriptions des étapes de terrain, de laboratoire et de bioinformatique doivent être aussi détaillées que possible. La description de vos méthodes en tant qu'étapes de méthode dans les métadonnées EML permet de les afficher sur la page d'accueil du GBIF (https://www.gbif.org/dataset/3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f#methodology Frøslev T, Ejrnæs R (2018). BIOWIDE eDNA Fungi dataset. Danish Biodiversity Information Facility. Occurrence dataset https://doi.org/10.15468/nesbvx accessed via GBIF.org on 2021-07-06). Cependant, si une description structurée et éventuellement plus détaillée de la méthode est déjà publiée quelque part (par exemple, sur https://protocols.io[protocols.io] ou dans https://www.neonscience.org/data-collection[NEON protocols collection]), c'est facile de fournir un lien via le champ MIxS SOP (voir <mapping-metabarcoding-edna-and-barcoding-data>)."
 
 #. type: Title ===
 #: 200.en.adoc:132
 #, no-wrap
 msgid "Data mapping"
-msgstr ""
+msgstr "Mapping des données"
 
 #. type: Plain text
 #: 200.en.adoc:135
 msgid "While core files store ubiquitous data on the 'what, where and when' of a record, extension files are used to describe the specifics of a certain type of observation. We propose using the https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml[DNA derived data extension] to complement occurrence data derived from either barcoding, metabarcoding (eDNA) or qPCR/ddPCR. The DNA derived data extension builds on the https://gensc.org/mixs/[Minimum information standards] developed by the Genomic Standards Consortium (GSC) and applied by the https://www.ebi.ac.uk/ena/browser/home[ENA] for https://www.ebi.ac.uk/ena/submit/mixs-checklists[submission of eDNA sample metadata], for example. We are following and have contributed to the guidelines proposed by the https://github.com/tdwg/gbwg/tree/main/dwc-mixs[Sustainable DwC-MIxS interoperability task group under TDWG]. To improve indexing and search we have opted to split some MIxS terms, for instance separating forward and reverse primer sequences and names. Furthermore, some fields from the GGBN standard and fields from the https://rdml.org/miqe.html[MIQE] (minimum information for the publication of quantitative real-time PCR) guidelines for qPCR and ddPCR data have been included to make it applicable for a wide range of DNA-derived data."
-msgstr ""
+msgstr "Alors que les fichiers de base stockent des données omniprésentes sur le \"quoi, où et quand\" d'un enregistrement, les fichiers d'extension sont utilisés pour décrire les spécificités d'un certain type d'observation. Nous proposons d'utiliser https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml[DNA derived data extension] pour compléter les données d'occurrence dérivées soit du barcoding, du metabarcoding (eDNA) ou de la qPCR/dPCR. L'extension des données dérivées de l'ADN s'appuie sur https://gensc.org/mixs/[Minimum information standards] développés par le Genomic Standards Consortium (GSC) et appliqués par https://www.ebi.ac.uk/ena/browser/home[ENA] pour https://www.ebi.ac.uk/ena/submit/mixs-checklists[submission of eDNA sample metadata], par exemple. Nous suivons et avons contribué aux directives proposées par https://github.com/tdwg/gbwg/tree/main/dwc-mixs[Sustainable DwC-MIxS interoperability task group under TDWG]. Afin d’améliorer l'indexation et la recherche, nous avons choisi de séparer certains termes MIxS, par exemple en partageant les séquences et les noms des amorces forward et reverse. De plus, afin de rendre le système applicable à un large éventail de données, nous avons inclus certains champs des standards GGBN, et des champs dehttps://rdml.org/miqe.html[MIQE] (informations minimales pour la publication de la PCR quantitative en temps réel) pour les données qPCR et dPCR."
 
 #. type: Plain text
 #: 200.en.adoc:137
