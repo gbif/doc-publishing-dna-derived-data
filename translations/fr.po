@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2021-11-22 15:59\n"
+"PO-Revision-Date: 2021-11-23 07:16\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -833,7 +833,7 @@ msgstr "Bessey C, Jarman SN, Stat M, Rohner CA, Bunce M, Koziol A, Power M, Ramb
 #: 200.en.adoc:95
 #, no-wrap
 msgid "Category III: Targeted species detection (qPCR/ddPCR)"
-msgstr ""
+msgstr "Catégorie III: Détection ciblée d'espèces (qPCR/dPCR)"
 
 #. type: Plain text
 #: 200.en.adoc:98
