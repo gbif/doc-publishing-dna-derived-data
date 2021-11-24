@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2021-11-23 16:57\n"
+"PO-Revision-Date: 2021-11-24 07:59\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -1951,7 +1951,7 @@ msgstr ""
 #: glossary.en.adoc:46
 #, no-wrap
 msgid "[[sample]]Sample"
-msgstr ""
+msgstr "[[sample]]Échantillon"
 
 #. type: Plain text
 #: glossary.en.adoc:47
@@ -1984,7 +1984,7 @@ msgstr ""
 #: glossary.en.adoc:49
 #, no-wrap
 msgid "[[specimen]]Specimen"
-msgstr ""
+msgstr "[[specimen]]Spécimen"
 
 #. type: Plain text
 #: glossary.en.adoc:50
@@ -2033,7 +2033,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:54
 msgid "See <<asv,ASV>>."
-msgstr ""
+msgstr "Voir <<asv,ASV>>."
 
 #. type: Title ==
 #: bibliography.en.adoc:2
