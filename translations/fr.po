@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2021-11-24 07:59\n"
+"PO-Revision-Date: 2021-12-15 16:54\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -474,7 +474,7 @@ msgstr "Il convient de noter que les détenteurs de données de séquences gén�
 #: 100.en.adoc:87
 #, no-wrap
 msgid "Processing workflows: from sample to ingestible data "
-msgstr ""
+msgstr "Flux de travail : de l'échantillon aux données indexables "
 
 #. type: Plain text
 #: 100.en.adoc:90
