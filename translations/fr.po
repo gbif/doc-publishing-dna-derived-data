@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2021-12-21 14:12\n"
+"PO-Revision-Date: 2021-12-21 21:30\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -501,7 +501,7 @@ msgstr "Généralement, les séquences ADN sont d'abord prétraitées en supprim
 #. type: Plain text
 #: 100.en.adoc:98
 msgid "The pre-processed sequences can then be assigned a taxon by comparing them against reference databases. When reference databases are incomplete, sequences classification can be done without taxonomic identifications, either by clustering sequences into operational taxonomic units based on their similarity (OTUs; https://doi.org/10.1098/rstb.2005.1725[Blaxter et al. 2005^]) or by denoising the data, i.e. explicitly detecting and excluding PCR/sequencing errors sequences to produce amplicon sequence variants (ASV; also referred to as zero radius OTU (zOTU)). Denoising attempts to correct errors that have been introduced in the PCR and/or sequencing steps, such that the denoised sequences are the set of unique biologically real sequences present in the original sequence mixture. In case of paired-end sequences, the forward and reverse sequences may be denoised separately before merging or else merged prior to denoising. ASVs in the resulting set can differ by as little as one base which is indicative of inter- or intraspecific species variation. Operationally, ASVs may be thought of as OTUs without defined radius and while denoising algorithms are typically very good, they do not entirely remove the problems of over-splitting or lumping sequences."
-msgstr ""
+msgstr "Les séquences prétraitées peuvent ensuite être assignées à un taxon en les comparant aux bases de données de références. Lorsque les bases de données de référence sont incomplètes, la classification des séquences peut être effectuée sans identification taxonomique, soit en regroupant des séquences en unités taxonomiques opérationnelles basées sur leur similitude (OTU ; https://doi. rg/10.1098/rstb.2005.1725[Blaxter et al. 2005^]) ou en supprimant le bruit dans les données, c.-à-d. détecter et exclure explicitement les erreurs introduites dans les séquences lors des PCRs ou du séquençage afin de produire des variants de séquence d'amplicon (ASV; aussi appelé zéro rayon OTU (zOTU)). La suppression du bruit tente de corriger les erreurs introduites pendant la PCR et/ou les étapes de séquençage, de sorte que les séquences nettoyées sont l'ensemble de séquences biologiques uniques présentes dans le mélange original de séquence. Dans le cas de séquences double-brins, les séquences sens et anti-sens peuvent être nettoyées séparément avant d'être combinées ou bien combinées avant le nettoyage. Les ASVs dans les ensembles de résultats peuvent différer d'aussi peu qu'une seule base, ce qui est indicatif de variations inter- ou intra-spécifiques. Sur le plan pratique, les ASVs peuvent être considérés comme des UTOs sans rayon défini et bien que les algorithmes de nettoyage soient généralement très efficaces, ils ne suppriment pas entièrement les problèmes de fractionnement ou de regroupement de séquences."
 
 #. type: Plain text
 #: 100.en.adoc:100
