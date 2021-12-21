@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2021-12-21 11:12\n"
+"PO-Revision-Date: 2021-12-21 14:12\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -1081,7 +1081,113 @@ msgid "| Field name\n"
 "| _Gadus_\n"
 "| Higher taxonomy\n"
 "| Recommended\n"
-msgstr ""
+msgstr "| Nom du champ\n"
+"| Exemples\n"
+"| Description\n"
+"| Requis\n\n"
+"| terme : dwc[basisOfRecord]\n"
+"| MaterialSample\n"
+"| La nature spécifique de l'enregistrement des données - une sous-catégorie de\n"
+" http://rs.gbif.org/vocabulary/dwc/basis_of_record.xml[dcterms:type]. Pour les occurrences dérivées de l'ADN, (voir <<category-i,Category I>> et<<category-iii,Category III>>) utiliser MaterialSample. Pour les occurrences enrichies utiliser PreservedSpecimen ou LivingSpecimen, selon le cas.\n"
+"| Requis\n\n"
+"| terme : dwc[occurrenceID]\n"
+"| urn:catalog:UWBM:Bird:89776\n"
+"| Identifiant unique pour l'occurrence, permettant de reconnaître la même occurrence dans toutes les versions du jeu de données ainsi que lors des téléchargements et de l'utilisation des données. Il peut s'agir d'un identifiant unique au niveau mondial ou d'un identifiant spécifique au jeu de données.\n"
+"| Requis\n\n"
+"| terme : dwc[eventID]\n"
+"| urn:uuid:a964765b-22c4-439a-jkgt-2\n"
+"| Identifiant pour l'ensemble des informations associées à un événement (quelque chose qui se produit à un endroit et à un moment donnés). Il peut s'agir d'un identifiant unique au niveau mondial ou d'un identifiant spécifique au jeu de données.\n"
+"| Fortement recommandé\n\n"
+"| terme : dwc[eventDate]\n"
+"| 2020-01-05\n"
+"| Date à laquelle l'événement a été enregistré. La meilleure pratique recommandée est d'utiliser une date conforme à la norme ISO 8601-1:2019. Pour plus d'informations, consultez le site https://dwc.tdwg.org/terms/#dwc:eventDate.\n"
+"| Requis\n\n"
+"| terme : dwc[recordedBy]\n"
+"| \"Oliver P. Pearson \\| Anita K. Pearson\"\n"
+"| Liste (concaténée et séparée) des noms des personnes, groupes ou organisations responsables pour l'enregistrement de l'Occurrence originale. La meilleure pratique recommandée est de séparer les valeurs par une barre verticale (' \\| '). L'inclusion d'informations sur l'observateur améliore la reproductibilité scientifique. (https://doi.org/10.1093/database/baaa072[Groom et al. 2020^]).\n"
+"| Fortement recommandé\n\n"
+"| terme : dwc[organismQuantity]\n"
+"| 33\n"
+"| Nombre de lectures de ce variant de séquence dans l'échantillon\n"
+"| Fortement recommandé\n\n"
+"| terme : dwc[organismQuantityType]\n"
+"| DNA sequence reads\n"
+"| Devrait toujours être “DNA sequence reads”\n"
+"| Fortement recommandé\n\n"
+"| terme : dwc[sampleSizeValue]\n"
+"| 1233890\n"
+"| Nombre total de lectures dans l'échantillon. Ce chiffre est important car il permet de calculer l'abondance relative du variant de séquence dans l'échantillon.\n"
+"| Fortement recommandé\n\n"
+"| terme : dwc[sampleSizeUnit]\n"
+"| DNA sequence reads\n"
+"| Devrait toujours être “DNA sequence reads”\n"
+"| Fortement recommandé\n\n"
+"| terme : dwc[materialSampleID]\n"
+"| https://www.ncbi.nlm.nih.gov/biosample/15224856 +\n"
+" +\n"
+"https://www.ebi.ac.uk/ena/browser/view/SAMEA3724543 +\n"
+" +\n"
+"urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03\n"
+"| Identifiant pour le MaterialSample (par opposition à un enregistrement numérique particulier de l'échantillon). Utilisez l'ID biosample s'il a été obtenu à partir d'un archive moléculaire. En l'absence d'un identifiant unique mondial persistant, en construire un à partir d'une combinaison d'identifiants dans l'enregistrement qui rendra l'identifiant materialSampleID mondialement unique.\n"
+"| Fortement recommandé\n\n"
+"| terme : dwc[samplingProtocol]\n"
+"| UV light trap\n"
+"| Nom, référence ou description de la méthode ou du protocole utilisé lors d'un événement d'échantillonnage. https://dwc.tdwg.org/terms/#dwc:samplingProtocol\n"
+"| Recommandé\n\n"
+"| terme : dwc[associatedSequences]\n"
+"| https://www.ncbi.nlm.nih.gov/nuccore/MK405371\n"
+"| Liste (concaténée et séparée) d'identifiants (publication, identifiant unique mondial, URI) des informations sur la séquence génétique associée à l'Occurrence. Cette liste peut être utilisée pour établir un lien avec des séquences brutes archivées de codes-barres et/ou des séquences génomiques associées, par exemple dans une plateforme publique.\n"
+"| Recommandé\n\n"
+"| terme : dwc[identificationRemarks]\n"
+"| RDP annotation confidence (at lowest specified taxon): 0.96, against reference database: GTDB\n"
+"| Spécification du processus d'identification taxonomique, comprenant idéalement des données sur l'algorithme appliqué et la base de données de référence, ainsi que sur le niveau de confiance dans l'identification résultante.\n"
+"| Recommandé\n\n"
+"| terme : dwc[identificationReferences]\n"
+"| https://www.ebi.ac.uk/metagenomics/pipelines/4.1 + \n"
+" +\n"
+"https://github.com/terrimporter/CO1Classifier\n"
+"| Liste (concaténée et séparée) des références (publication, identifiant unique mondial, URI) utilisées dans l'identification. La meilleure pratique recommandée est de séparer les valeurs dans une liste par un espace barre verticale ( \\| ).\n"
+"| Recommandé\n\n"
+"| terme : dwc[decimalLatitude]\n"
+"| 60.545207\n"
+"| Latitude géographique (en degrés décimaux, selon le système de référence spatiale indiqué dans geodeticDatum) du centre géographique d'un lieu. Les valeurs positives correspondent au nord de l'équateur, les valeurs négatives au sud. Les valeurs légales sont comprises entre -90 et 90, y compris.\n"
+"| Fortement recommandé\n\n"
+"| terme : dwc[decimalLongitude]\n"
+"| 24.174556\n"
+"| Longitude géographique (en degrés décimaux, selon le système de référence spatiale indiqué dans geodeticDatum) du centre géographique d'un lieu. Les valeurs positives sont à l'est du méridien de Greenwich, les valeurs négatives sont à l'ouest de celui-ci. Les valeurs légales sont comprises entre -180 et 180, y compris.\n"
+"| Fortement recommandé\n\n"
+"| terme : dwc[taxonID]\n"
+"| [.break-all]#ASV:7bdb57487bee022ba30c03c3e7ca50e1#\n"
+"| Pour les données d'ADNe, il est recommandé d'utiliser un hachage MD5 de la séquence et de le faire précéder de \"ASV :\". Voir aussi <<taxonomy-of-sequences>>.\n"
+"| Fortement recommandé, si la séquence ADN (DNA_sequence) n'est pas fournie \n\n"
+"| terme : dwc[scientificName]\n"
+"| _Gadus morhua_ L. 1758, BOLD:ACF1143\n"
+"| Nom latin du taxon connu le plus proche (espèce ou supérieur) ou un identifiant OTU de BOLD ou UNITE.\n"
+"| Requis\n\n"
+"| terme : dwc[kingdom]\n"
+"| Animalia\n"
+"| Taxonomie supérieure\n"
+"| Fortement recommandé\n\n"
+"| terme : dwc[phylum]\n"
+"| Chordata\n"
+"| Taxonomie supérieure\n"
+"| Recommandé\n\n"
+"| terme : dwc[class]\n"
+"| Actinopterygii\n"
+"| Taxonomie supérieure\n"
+"| Recommandé\n\n"
+"| terme : dwc[order]\n"
+"| Gadiformes\n"
+"| Taxonomie supérieure\n"
+"| Recommandé\n\n"
+"| terme : dwc[family]\n"
+"| Gadidae\n"
+"| Taxonomie supérieure\n"
+"| Recommandé\n\n"
+"| terme : dwc[genus]\n"
+"| _Gadus_\n"
+"| Taxonomie supérieure\n"
+"| Recommandé\n"
 
 #. type: Block title
 #: 200.en.adoc:285
@@ -1632,78 +1738,78 @@ msgstr "Ensemble privilégié de termes ou de concepts avec des significations e
 #: glossary.en.adoc:17
 #, no-wrap
 msgid "[[ddpcr]]ddPCR (droplet digital Polymerase Chain Reaction)"
-msgstr ""
+msgstr "[[ddpcr]]ddPCR (Polymerase Chain Reaction numérique par goutelette)"
 
 #. type: Plain text
 #: glossary.en.adoc:18
 msgid "Droplet digital <<pcr,PCR>>. Method for measuring absolute amount of DNA (number of copies) of one marker in a sample. See also <<qpcr,qPCR>>."
-msgstr ""
+msgstr "Droplet digital <pcr,PCR>. Méthode permettant de mesurer la quantité absolue d'ADN (nombre de copies) d'un marqueur dans un échantillon. Voir également <qpcr,qPCR>."
 
 #. type: Labeled list
 #: glossary.en.adoc:18
 #, no-wrap
 msgid "[[denoising]]Denoising"
-msgstr ""
+msgstr "[[denoising]]Denoising"
 
 #. type: Plain text
 #: glossary.en.adoc:19
 msgid "In metabarcoding, method for separation of true biological sequences (see <<asv,ASVs>>) from spurious sequence variants caused by PCR amplification and sequencing error."
-msgstr ""
+msgstr "En métabarcoding, méthode de séparation des véritables séquences biologiques (voir <asv,ASVs>) des variantes de séquences parasites causées par l'amplification par PCR et l'erreur de séquençage."
 
 #. type: Labeled list
 #: glossary.en.adoc:19
 #, no-wrap
 msgid "[[doi]]Digital Object Identifier (DOI)"
-msgstr ""
+msgstr "[[doi]]Identifiant d'objet numérique (DOI)"
 
 #. type: Plain text
 #: glossary.en.adoc:20
 msgid "Long-lasting reference used to uniquely identify (and locate) digital information objects, such as a biodiversity data set or a scientific publication."
-msgstr ""
+msgstr "Référence pérenne utilisée pour identifier (et localiser) de façon unique des objets d'information numérique, comme un jeu de données sur la biodiversité ou une publication scientifique."
 
 #. type: Labeled list
 #: glossary.en.adoc:20
 #, no-wrap
 msgid "[[barcoding]]DNA barcoding and metabarcoding (amplicon sequencing)"
-msgstr ""
+msgstr "[[barcoding]] barcoding ADN et métabarcoding (séquence amplicon)"
 
 #. type: Plain text
 #: glossary.en.adoc:21
 msgid "Use of short, standardized DNA fragments to identify individual organisms via sequencing. Metabarcoding combines barcoding with high-throughput DNA sequencing, using universal primers to amplify and sequence large groups of organisms in eDNA samples."
-msgstr ""
+msgstr "Utilisation de fragments d'ADN courts et standardisés pour identifier des organismes individuels par séquençage. Le métabarcoding combine l'utilisation des codes-barres ADN avec le séquençage à haut débit, en utilisant des amorces universelles pour amplifier et séquencer de grands groupes d'organismes dans des échantillons d'ADN environnemental."
 
 #. type: Labeled list
 #: glossary.en.adoc:21
 #, no-wrap
 msgid "[[dna-marker]]DNA marker"
-msgstr ""
+msgstr "[[dna-marker]]marqueur ADN"
 
 #. type: Plain text
 #: glossary.en.adoc:22
 msgid "A DNA fragment used as a marker of some property (e.g., taxonomic affiliation). May, but does not have to, be a gene or a part of a gene."
-msgstr ""
+msgstr "Fragment d'ADN utilisé pour différentier certaines propriétés (par exemple, l'affiliation taxonomique). Peut être un gène ou une partie d'un gène, mais ce n'est pas obligatoire."
 
 #. type: Labeled list
 #: glossary.en.adoc:22
 #, no-wrap
 msgid "[[dna-db]]DNA metabarcoding database"
-msgstr ""
+msgstr "[[dna-db]]base de données de métabarcoding ADN"
 
 #. type: Plain text
 #: glossary.en.adoc:23
 msgid "Database containing DNA sequences (DNA barcodes) from previously recovered or studied organisms. The reference sequences were ideally generated from individuals of described, well-studied species-with the type specimen serving as the ideal-or higher taxonomic level (e.g., genus, family), but may also stem from eDNA sequencing efforts. It is wise not to trust “reference sequences” blindly."
-msgstr ""
+msgstr "Base de données contenant des séquences ADN (codes-barres ADN) d'organismes précédemment récupérés ou étudiés. Les séquences de référence ont été idéalement générées à partir d'individus d'espèces décrites et bien étudiées - le spécimen type servant de référence idéale - ou d'un niveau taxonomique supérieur (par exemple, le genre, la famille), mais elles peuvent également provenir d'efforts de séquençage d'ADNe. Il est recommandé de ne pas se fier aveuglément aux « séquences de référence »."
 
 #. type: Labeled list
 #: glossary.en.adoc:23
 #, no-wrap
 msgid "[[dna-probe]]DNA probe"
-msgstr ""
+msgstr "[[dna-probe]]sonde ADN"
 
 #. type: Plain text
 #: glossary.en.adoc:24
 msgid "A short, synthetic single-stranded DNA fragment with fluorescent labelling that binds to a selected region of target DNA (marker) during PCR. Increases specificity and can be used in addition to primers in <<qpcr,qPCR>> and <<ddpcr,ddPCR>> to detect and quantify a genetic marker."
-msgstr ""
+msgstr "Fragment d'ADN court, simple brin synthétisé avec un marquage fluorescent qui se lie à une région sélectionnée de l'ADN cible (marqueur) pendant la PCR. Augmente la spécificité et peut être utilisée en plus des amorces dans <qpcr,qPCR> et <ddpcr,ddPCR> pour détecter et quantifier un marqueur génétique."
 
 #. type: Labeled list
 #: glossary.en.adoc:24
@@ -1720,12 +1826,12 @@ msgstr ""
 #: glossary.en.adoc:25
 #, no-wrap
 msgid "[[edna]]Environmental DNA (eDNA)"
-msgstr ""
+msgstr "[[edna]]ADN environnemental (ADNe)"
 
 #. type: Plain text
 #: glossary.en.adoc:26
 msgid "DNA from an environmental sample, e.g. soil, water, air or host organism. An often used definition is that environmental DNA is the genetic material (DNA) obtained from environmental samples without any obvious evidence of biological source material (https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen and Willerslev 2015^])."
-msgstr ""
+msgstr "ADN provenant d'un échantillon environnemental, par exemple le sol, l'eau, l'air ou l'organisme hôte. Une définition souvent utilisée est que l'ADN environnemental est le matériel génétique (ADN) obtenu à partir d'échantillons environnementaux sans preuve évidente de matériel biologique source."
 
 #. type: Labeled list
 #: glossary.en.adoc:26
@@ -1742,12 +1848,12 @@ msgstr ""
 #: glossary.en.adoc:27
 #, no-wrap
 msgid "[[fastq]]FASTQ"
-msgstr ""
+msgstr "[[fastq]]FASTQ"
 
 #. type: Plain text
 #: glossary.en.adoc:28
 msgid "Text-based standard for storing molecular sequences and associated quality measures deriving from <<hts,High-throughput sequencing (HTS)>>. For each sequence position, single ASCII-characters are used to represent base call (identified nucleotide) and score, respectively."
-msgstr ""
+msgstr "Standard textuel pour le stockage des séquences moléculaires et des mesures de qualité associées dérivant de <hts,High-throughput sequencing (HTS)>. Pour chaque position de séquence, des caractères ASCII uniques sont utilisés pour représenter l'appel de base (nucléotide identifié) et le score, respectivement."
 
 #. type: Labeled list
 #: glossary.en.adoc:28
@@ -1786,12 +1892,12 @@ msgstr ""
 #: glossary.en.adoc:31
 #, no-wrap
 msgid "[[hts]]High-throughput sequencing (HTS)"
-msgstr ""
+msgstr "[[hts]]séquençage à haut débit (HTS)"
 
 #. type: Plain text
 #: glossary.en.adoc:32
 msgid "Different technologies for massively parallel sequencing, producing millions of DNA sequence reads from library preparations of genetic material, rather than targeting single amplicons as in traditional Sanger sequencing. Also called Next Generation Sequencing (NGS)."
-msgstr ""
+msgstr "Différentes technologies pour le séquençage massivement parallèle, produisant des millions de séquences d'ADN à partir de la préparation de la librairie de matériel génétique, plutôt que de cibler des amplicons simples comme dans le séquençage Sanger traditionnel. Également appelé séquençage nouvelle génération (NGS)."
 
 #. type: Labeled list
 #: glossary.en.adoc:32
@@ -1830,12 +1936,12 @@ msgstr ""
 #: glossary.en.adoc:35
 #, no-wrap
 msgid "[[metagenomics]]Metagenomics"
-msgstr ""
+msgstr "[[metagenomics]]Métagénomique"
 
 #. type: Plain text
 #: glossary.en.adoc:36
 msgid "PCR-free sequencing of random genomic fragments in a mixed sample."
-msgstr ""
+msgstr "Séquençage sans PCR de fragments génomiques aléatoires dans un échantillon mixte."
 
 #. type: Labeled list
 #: glossary.en.adoc:36
@@ -1852,12 +1958,12 @@ msgstr ""
 #: glossary.en.adoc:37
 #, no-wrap
 msgid "[[motu]]molecular Operational Taxonomic Unit (mOTU)"
-msgstr ""
+msgstr "[[motu]]unité taxonomique opérationnelle moléculaire (mOTU)"
 
 #. type: Plain text
 #: glossary.en.adoc:38
 msgid "See <<otu,Operational Taxonomic Unit (OTU)>>."
-msgstr ""
+msgstr "Voir <otu,Operational Taxonomic Unit (OTU)>."
 
 #. type: Labeled list
 #: glossary.en.adoc:38
@@ -1874,12 +1980,12 @@ msgstr ""
 #: glossary.en.adoc:39
 #, no-wrap
 msgid "[[ngs]]Next Generation Sequencing (NGS)"
-msgstr ""
+msgstr "[[ngs]]Séquençage nouvelle génération (NGS)"
 
 #. type: Plain text
 #: glossary.en.adoc:40
 msgid "See <<hts,High-throughput sequencing (HTS)>>."
-msgstr ""
+msgstr "Voir <hts,High-throughput sequencing (HTS)>."
 
 #. type: Labeled list
 #: glossary.en.adoc:40
@@ -1896,56 +2002,56 @@ msgstr ""
 #: glossary.en.adoc:41
 #, no-wrap
 msgid "[[otu]]Operational Taxonomic Unit (OTU)"
-msgstr ""
+msgstr "[[otu]]Unité taxonomique opérationnelle (OTU)"
 
 #. type: Plain text
 #: glossary.en.adoc:42
 msgid "Cluster of organisms based on similarity in specific DNA marker sequence(s), used for taxonomic classification. Includes, for example, <<sh,Species Hypothesis>> in UNITE, and <<bins,Barcode Index Numbers>> in the Barcode of Life Data System (BOLD). <<asv,Amplicon Sequence Variants (ASVs)>> may be considered analogous to <<zotu,zero radius OTUs (zOTUs)>>."
-msgstr ""
+msgstr "Regroupement d'organismes basé sur la similarité d'une ou de plusieurs séquences de marqueurs d'ADN spécifiques, utilisé pour la classification taxonomique. Comprend, par exemple, <sh,Species Hypothesis> dans UNITE, et <bins,Barcode Index Numbers> dans le Barcode of Life Data System (BOLD). <asv,Amplicon Sequence Variants (ASVs)> peuvent être considérés comme analogues à <zotu,zero radius OTUs (zOTUs)>."
 
 #. type: Labeled list
 #: glossary.en.adoc:42
 #, no-wrap
 msgid "[[pcr]]Polymerase Chain Reaction (PCR)"
-msgstr ""
+msgstr "[[pcr]]Amplification en chaîne par polymérase (PCR)"
 
 #. type: Plain text
 #: glossary.en.adoc:43
 msgid "Technique for fast amplification and detection of specific fragments of target DNA (or RNA) sequences. Amplified regions are determined by the pair of <<primer,PCR primers>> used in the reaction."
-msgstr ""
+msgstr "Technique pour l'amplification rapide et la détection de fragments spécifiques de séquences d'ADN (ou ARN). Les régions amplifiées sont déterminées par la paire de <primer,PCR primers> utilisée dans la réaction."
 
 #. type: Labeled list
 #: glossary.en.adoc:43
 #, no-wrap
 msgid "[[pipeline]]Pipeline"
-msgstr ""
+msgstr "[[pipeline]]Pipeline"
 
 #. type: Plain text
 #: glossary.en.adoc:44
 msgid "In bioinformatics, a set of algorithms or tools applied in a predefined workflow to process e.g. <<hts,High-throughput sequencing (HTS)>> data."
-msgstr ""
+msgstr "En bioinformatique, ensemble d'algorithmes ou d'outils appliqués dans un flux de travail prédéfini pour traiter, par exemple, des données <hts,High-throughput sequencing (HTS)>."
 
 #. type: Labeled list
 #: glossary.en.adoc:44
 #, no-wrap
 msgid "[[primer]]Primers (PCR primers)"
-msgstr ""
+msgstr "[[primer]]Amorces (PCR primers)"
 
 #. type: Plain text
 #: glossary.en.adoc:45
 msgid "Short, synthetic, single-stranded DNA fragments that bind to a selected region of target DNA (marker) to initiate replication during <<pcr,PCR>>. A pair of primers is necessary for the polymerase enzyme to amplify the selected marker."
-msgstr ""
+msgstr "Fragments d'ADN courts, simple brin qui se lient à une région sélectionnée de l'ADN cible (marqueur) pour initier la réplication pendant <pcr,PCR>. Une paire d'amorces est généralement utilisée pour que l'enzyme polymérase amplifie le marqueur sélectionné."
 
 #. type: Labeled list
 #: glossary.en.adoc:45
 #, no-wrap
 msgid "[[qpcr]]qPCR (quantitative Polymerase Chain Reaction)"
-msgstr ""
+msgstr "[[qpcr]]qPCR (amplification quantitative en chaîne par polymérase)"
 
 #. type: Plain text
 #: glossary.en.adoc:46
 msgid "Quantitative <<pcr,PCR>>. Method that measures relative DNA quantity of a marker in a sample. See also <<ddpcr,ddPCR>>."
-msgstr ""
+msgstr "PCR quantitative <pcr,PCR>. Méthode qui mesure la quantité relative d'ADN d'un marqueur dans un échantillon. Voir aussi <ddpcr,ddPCR>."
 
 #. type: Labeled list
 #: glossary.en.adoc:46
@@ -1962,23 +2068,23 @@ msgstr "Matériel (eau, sol, contenu intestinal, etc.) obtenu pour analyse."
 #: glossary.en.adoc:47
 #, no-wrap
 msgid "[[seq-align]]Sequence alignment"
-msgstr ""
+msgstr "[[seq-align]]Alignement des séquences"
 
 #. type: Plain text
 #: glossary.en.adoc:48
 msgid "Bioinformatic process of comparing and arranging two or more molecular (DNA, RNA or protein) sequences to detect similarities caused by e.g. evolutionary relatedness."
-msgstr ""
+msgstr "Processus bioinformatique de comparaison et de disposition de deux ou plusieurs séquences moléculaires (ADN, ARN ou protéine) pour détecter les similitudes causées par exemple par une relation évolutive."
 
 #. type: Labeled list
 #: glossary.en.adoc:48
 #, no-wrap
 msgid "[[sh]]Species Hypothesis (SH)"
-msgstr ""
+msgstr "[[sh]]Hypothèse des espèces (SH)"
 
 #. type: Plain text
 #: glossary.en.adoc:49
 msgid "Species-level <<otu,Operational Taxonomic Unit (OTU)>> as defined in the UNITE database and sequence management environment, for Fungi."
-msgstr ""
+msgstr "Niveau d'espèce <otu,Operational Taxonomic Unit (OTU)> tel que défini dans la base de données UNITE et l'environnement de gestion des séquences, pour les champignons."
 
 #. type: Labeled list
 #: glossary.en.adoc:49
@@ -1995,40 +2101,40 @@ msgstr "Un animal, plante, champignon, etc utilisé comme exemple de son espèce
 #: glossary.en.adoc:50
 #, no-wrap
 msgid "[[sra]]Sequence Read Archive (SRA)"
-msgstr ""
+msgstr "[[sra]]Archive de lectures de séquences (SRA)"
 
 #. type: Plain text
 #: glossary.en.adoc:51
 msgid "Public repository of high throughput (<<ngs,NGS>>) sequencing data, with instances operated by <<ncbi,the National Center for Biotechnology Information (NCBI)>>, <<embl,the European Bioinformatics Institute (EMBL-EBI)>>, and the DNA Data Bank of Japan (DDBJ). Includes both raw (non-denoised) sequencing output and <<seq-align,sequence alignments>>. One of three components of <<ena, the European Nucleotide Archive (ENA)>>, and previously known as the Short Read Archive."
-msgstr ""
+msgstr "Dépôt public de données de séquençage à haut débit (<ngs,NGS>) avec des instances opérées par <ncbi,the National Center for Biotechnology Information (NCBI)>, <embl,the European Bioinformatics Institute (EMBL-EBI)>, et la banque de données ADN du Japon (DDBJ). Inclut à la fois les séquences brutes (sans application du denoising) et <seq-align,sequence alignments>. L'une des trois composantes de <ena, the European Nucleotide Archive (ENA)>, et précédemment connue sous le nom d'archive de lectures courtes."
 
 #. type: Labeled list
 #: glossary.en.adoc:51
 #, no-wrap
 msgid "[[tcs]]Target-capture sequencing"
-msgstr ""
+msgstr "[[tcs]]Séquençage de cibles capturées"
 
 #. type: Plain text
 #: glossary.en.adoc:52
 msgid "Sequencing of DNA fragments isolated with hybridization probes."
-msgstr ""
+msgstr "Séquençage de fragments d'ADN isolés par des sondes d'hybridation."
 
 #. type: Labeled list
 #: glossary.en.adoc:52
 #, no-wrap
 msgid "[[unite]]UNITE"
-msgstr ""
+msgstr "[[unite]]UNITE"
 
 #. type: Plain text
 #: glossary.en.adoc:53
 msgid "UNITE is a web-based sequence management environment centred on the eukaryotic nuclear ribosomal ITS region. All public sequences are clustered into species hypotheses (SHs), which are assigned unique DOIs. An SH-matching service outputs various elements of information, including what species are present in eDNA samples, whether these species are potentially undescribed new species, other studies in which they were recovered, whether the species are alien to a region, and whether they are threatened. The DOIs are connected to the taxonomic backbone of the https://plutof.ut.ee/[PlutoF platform^] and https://www.gbif.org[GBIF^], such that they are accompanied by a taxon name where available. The data used in UNITE are hosted and managed in PlutoF. Data are represented through a range of standards, primarily https://dwc.tdwg.org/[Darwin Core^], https://gensc.org/mixs/[MIxS^], and https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard[DMP Common Standard^]; partial support is available for https://www.dcc.ac.uk/resources/metadata-standards/eml-ecological-metadata-language[EML^], https://pubmed.ncbi.nlm.nih.gov/20211251/[MCL^], and https://terms.tdwg.org/wiki/GGBN_Data_Standard[GGBN^]. PlutoF exports data primarily through the CSV and FASTA formats. PlutoF can also be used to publish data in GBIF (using the DwC format) and to prepare GenBank submission files. It is furthermore possible to download species lists from your data and download your project as a https://www.json.org/json-en.html[JSON] document with project data in hierarchically structured."
-msgstr ""
+msgstr "UNITE est un environnement basé sur le web de gestion des séquences, centré sur la région nucléaire ITS du ribosome eucaryote. Toutes les séquences publiques sont regroupées en hypothèses d'espèces (SH), auxquelles sont attribuées des DOI uniques. Un service de mise en correspondance des SH produit divers éléments d'information, notamment les espèces présentes dans les échantillons d'ADNe, si ces espèces sont potentiellement de nouvelles espèces non décrites, les autres études dans lesquelles elles ont été récupérées, si les espèces sont étrangères à une région et si elles sont menacées. Les DOI sont connectés au backbone taxonomique de la https://plutof.ut.ee/ [plateforme PlutoF^] et de la https://www.gbif.org [GBIF^], de sorte qu'ils sont accompagnés d'un nom de taxon lorsqu'il est disponible. Les données utilisées dans UNITE sont hébergées et gérées dans PlutoF. Les données sont représentées par une série de standards, principalement https://dwc.tdwg.org/ [Darwin Core^], https://gensc.org/mixs/ [MIxS^], et https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard [DMP Common Standard^] ; un support partiel est disponible pour https://www.dcc.ac.uk/resources/metadata-standards/eml-ecological-metadata-language [EML^], https://pubmed.ncbi.nlm.nih.gov/20211251/ [MCL^], et https://terms.tdwg.org/wiki/GGBN_Data_Standard [GGBN^]. PlutoF exporte les données principalement via les formats CSV et FASTA. PlutoF peut également être utilisé pour publier des données dans GBIF (en utilisant le format DwC) et pour préparer des fichiers de soumission GenBank. Il est en outre possible de télécharger des listes d'espèces à partir de vos données et de télécharger votre projet sous forme de document https://www.json.org/json-en.html [JSON] avec les données du projet dans une structure hiérarchique."
 
 #. type: Labeled list
 #: glossary.en.adoc:53
 #, no-wrap
 msgid "[[zotu]]Zero radius otu (zOTU)"
-msgstr ""
+msgstr "[[zotu]]Zero radius otu (zOTU)"
 
 #. type: Plain text
 #: glossary.en.adoc:54
