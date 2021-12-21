@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2021-12-21 07:58\n"
+"PO-Revision-Date: 2021-12-21 11:12\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -629,7 +629,7 @@ msgstr "Figure 5. Zoom sur le DwC-A / IPT de la figure 3 du chapitre 1.2. Le cho
 #: 200.en.adoc:11
 #, no-wrap
 msgid "img/web/figure-05.en.png"
-msgstr ""
+msgstr "img/web/figure-05.en.png"
 
 #. type: Title ===
 #: 200.en.adoc:13
@@ -758,7 +758,7 @@ msgstr "Représentation visuelle des catégories I-V."
 #: 200.en.adoc:66
 #, no-wrap
 msgid "img/web/eDNA_categories.en.svg"
-msgstr ""
+msgstr "img/web/eDNA_categories.en.svg"
 
 #. type: Title ====
 #: 200.en.adoc:69
@@ -877,7 +877,7 @@ msgstr "Les OTUs de UNITE (champignons, en haut) et de BOLD (arthropodes, en bas
 #: 200.en.adoc:111
 #, no-wrap
 msgid "img/web/figure-06.en.png"
-msgstr ""
+msgstr "img/web/figure-06.en.png"
 
 #. type: Title =====
 #: 200.en.adoc:113
@@ -952,24 +952,24 @@ msgstr "La première étape de la préparation de vos données pour la publicati
 #: 200.en.adoc:140 200.en.adoc:283 200.en.adoc:389 200.en.adoc:509
 #: 200.en.adoc:725 glossary.en.adoc:55 bibliography.en.adoc:71
 msgid "<<<"
-msgstr ""
+msgstr "<<<"
 
 #. type: Title ====
 #: 200.en.adoc:141
 #, no-wrap
 msgid "Mapping metabarcoding (eDNA) and barcoding data"
-msgstr ""
+msgstr "Mapping du métabarcoding (eDNA) et des données de codes-barres ADN"
 
 #. type: Plain text
 #: 200.en.adoc:144
 msgid "This section provides mapping recommendations for Categories I and II."
-msgstr ""
+msgstr "Cette section fournit des recommandations de mapping pour les catégories I et II."
 
 #. type: Block title
 #: 200.en.adoc:146
 #, no-wrap
 msgid "Recommended fields for http://rs.gbif.org/core/dwc_occurrence_2020-04-15.xml[Occurrence core] for Metabarcoding data"
-msgstr ""
+msgstr "Champs recommandés pour http://rs.gbif.org/core/dwc_occurrence_2020-04-15.xml[Occurrence core] pour les données de métabarcoding"
 
 #.  The [.break-all]#ASV:…# is to allow the identifier to be broken at any character, rather than stretching the text cell.
 #. type: Table
@@ -1087,7 +1087,7 @@ msgstr ""
 #: 200.en.adoc:285
 #, no-wrap
 msgid "Recommended fields from the DNA derived data extension (a selection) for metabarcoding data"
-msgstr ""
+msgstr "Champs recommandés de l'extension de données dérivées de l'ADN (une sélection) pour les données de métabarcoding"
 
 #.  The [.break-all]#TCTA…# is to allow the sequence to be broken at any character, rather than stretching the text cell.
 #. type: Table
@@ -1179,18 +1179,18 @@ msgstr ""
 #: 200.en.adoc:390
 #, no-wrap
 msgid "Mapping ddPCR / qPCR data"
-msgstr ""
+msgstr "Mapping des données ddPCR / qPCR"
 
 #. type: Plain text
 #: 200.en.adoc:393
 msgid "This section provides mapping recommendations for https://academic.oup.com/view-large/199871507[Category III]."
-msgstr ""
+msgstr "Cette section fournit des recommandations de mapping pour la catégorie III https://academic.oup.com/view-large/199871507[Category III]."
 
 #. type: Block title
 #: 200.en.adoc:395
 #, no-wrap
 msgid "Recommended fields for Occurrence core for ddPCR/qPCR data"
-msgstr ""
+msgstr "Champs recommandés pour l'Occurrence core pour les données ddPCR / qPCR"
 
 #. type: Table
 #: 200.en.adoc:506
@@ -1289,7 +1289,7 @@ msgstr ""
 #: 200.en.adoc:511
 #, no-wrap
 msgid "Recommended fields from the https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml[DNA derived data extension] (a selection) for ddPCR/qPCR data"
-msgstr ""
+msgstr "Champs recommandés de l'extension de données dérivées de l'ADN https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml[DNA derived data extension] (une sélection) pour les données ddPCR / qPCR"
 
 #. type: Table
 #: 200.en.adoc:722
@@ -1555,56 +1555,56 @@ msgstr "Unité taxonomique opérationnelle au niveau de l'espèce <<otu,Operatio
 #: glossary.en.adoc:9
 #, no-wrap
 msgid "[[bold]]Barcode of Life Data System (BOLD)"
-msgstr "[bold]Système Barcode of Life Data"
+msgstr "[bold]Système Barcode of Life Data (BOLD)"
 
 #. type: Plain text
 #: glossary.en.adoc:10
 msgid "http://www.boldsystems.org/[BOLD^] is the reference database maintained by the Centre for Biodiversity Genomics in Guelph on behalf of the International Barcode of Life Consortium (https://ibol.org/[IBOL^]). It hosts data on barcode reference specimens and sequences for eukaryote species, particularly COI for animals, and maintains the Barcode Index Number (http://www.boldsystems.org/index.php/Public_BarcodeIndexNumber_Home[BIN^]; https://doi.org/10.1371/journal.pone.0066213[Ratnasingham & Hebert 2013^]) system, identifiers for OTUs of approximately species rank, based on clusters of closely similar sequences."
-msgstr ""
+msgstr "http://www.boldsystems.org/[BOLD^] est la base de données de référence maintenue par le Centre for Biodiversity Genomics à Guelph au nom du Consortium international Barcode of Life (https://ibol.org/[IBOL^]). Elle héberge des données sur les spécimens et les séquences de référence des codes-barres ADN pour les espèces d'eukaryotes, en particulier le COI pour les animaux, et maintient le système des numéros d'index de codes-barres (http://www.boldsystems.org/index.php/Public_BarcodeIndexNumber_Home[BIN^]; https://doi.org/10.1371/journal.pone.0066213[Ratnasingham & Hebert 2013^]), identifiants pour les OTUs des rangs approximatifs d'espèces, basés sur des groupes de séquences étroitement similaires."
 
 #. type: Labeled list
 #: glossary.en.adoc:10
 #, no-wrap
 msgid "[[biodiversity-data-platform]]Biodiversity data platform"
-msgstr ""
+msgstr "[[biodiversity-data-platform]]Plateforme de données sur la biodiversité"
 
 #. type: Plain text
 #: glossary.en.adoc:11
 msgid "General online resource to discover and access biodiversity data derived from various sources, such as natural history collections, citizen science, ecology and monitoring projects, and genetic sequences. Can be global (<<gbif,GBIF>>) or national (<<ala,ALA>>)."
-msgstr ""
+msgstr "Ressource générale en ligne permettant de découvrir et d'accéder aux données sur la biodiversité provenant de diverses sources, comme les collections d'histoire naturelle, les projets de science citoyenne, d'écologie et de surveillance, et de séquençage génétique. Peut être mondial (<gbif,GBIF>) ou national (<ala,ALA>)."
 
 #. type: Labeled list
 #: glossary.en.adoc:11
 #, no-wrap
 msgid "[[clustering]]Clustering"
-msgstr ""
+msgstr "[[clustering]]Clustering"
 
 #. type: Plain text
 #: glossary.en.adoc:12
 msgid "In taxonomic classification, the process of grouping organisms together according to some similarity criterion. See <<otu,Operational Taxonomic Unit>>."
-msgstr ""
+msgstr "Dans la classification taxonomique, le processus de regroupement des séquences ADN selon certains critères de similarité. Voir <otu,Operational Taxonomic Unit>."
 
 #. type: Labeled list
 #: glossary.en.adoc:12
 #, no-wrap
 msgid "[[community-dna]]Community (bulk) DNA"
-msgstr ""
+msgstr "[[community-dna]] ADN de la communauté (échantillons mixtes)"
 
 #. type: Plain text
 #: glossary.en.adoc:13
 msgid "DNA from bulk samples (e.g. plankton samples or Malaise trap samples consisting of several individuals from many species). For the purpose of this guide, bulk sample DNA is included in the eDNA concept."
-msgstr ""
+msgstr "ADN provenant d'échantillons mixtes (par exemple, des échantillons de plancton ou des échantillons de pièges de Malaise composés de plusieurs individus provenant de nombreuses espèces). Dans le but de ce guide, des échantillons d'ADN mixte sont inclus dans le concept d'ADNe."
 
 #. type: Labeled list
 #: glossary.en.adoc:13
 #, no-wrap
 msgid "[[dwc-a]]Darwin Core Archive (DwC-A)"
-msgstr ""
+msgstr "[[dwc-a]]Archive Darwin Core (DwC-A)"
 
 #. type: Plain text
 #: glossary.en.adoc:14
 msgid "Compressed (ZIP) file format for exchange of biodiversity data compiled in accordance with the <<dwc-standard,Darwin Core (DwC) standard>>. Essentially a self-contained set of interconnected CSV files and an XML document describing included files and data columns, and their mutual relationships."
-msgstr ""
+msgstr "Format de fichier compressé (ZIP) pour l'échange de données sur la biodiversité compilées conformément au standard <<dwc-standard,Darwin Core (DwC) standard>>. Essentiellement un ensemble autonome de fichiers CSV interconnectés et un document XML décrivant les fichiers et les colonnes de données, ainsi que leurs relations mutuelles."
 
 #. type: Labeled list
 #: glossary.en.adoc:14
@@ -1621,12 +1621,12 @@ msgstr ""
 #: glossary.en.adoc:15
 #, no-wrap
 msgid "[[data-vocabulary]]Data vocabulary"
-msgstr ""
+msgstr "[[data-vocabulary]]Vocabulaire des données"
 
 #. type: Plain text
 #: glossary.en.adoc:17
 msgid "Set of preferred terms or concepts with specific, well-defined meanings and interrelationships, facilitating data exchange and reuse."
-msgstr ""
+msgstr "Ensemble privilégié de termes ou de concepts avec des significations et des relations spécifiques et bien définies, facilitant l'échange et la réutilisation des données."
 
 #. type: Labeled list
 #: glossary.en.adoc:17
@@ -1956,7 +1956,7 @@ msgstr "[[sample]]Échantillon"
 #. type: Plain text
 #: glossary.en.adoc:47
 msgid "Material (water, soil, gut content, etc) obtained for analysis."
-msgstr ""
+msgstr "Matériel (eau, sol, contenu intestinal, etc.) obtenu pour analyse."
 
 #. type: Labeled list
 #: glossary.en.adoc:47
@@ -1989,7 +1989,7 @@ msgstr "[[specimen]]Spécimen"
 #. type: Plain text
 #: glossary.en.adoc:50
 msgid "An individual animal, plant, fungus, etc. used as an example of its species or type for scientific study or display."
-msgstr ""
+msgstr "Un animal, plante, champignon, etc utilisé comme exemple de son espèce ou de son type pour l'étude ou exposition scientifique."
 
 #. type: Labeled list
 #: glossary.en.adoc:50
@@ -2044,330 +2044,330 @@ msgstr "Références"
 #. type: Plain text
 #: bibliography.en.adoc:5
 msgid "[[amid]] Amid C, Alako BT, Balavenkataraman Kadhirvelu V, Burdett T, Burgin J, Fan J, Harrison PW, Holt S, Hussein A, Ivanov E & Jayathilaka S (2020) The European Nucleotide Archive in 2019. Nucleic acids research 48(D1): D70-D76. https://doi.org/10.1093/nar/gkz1063"
-msgstr ""
+msgstr "[[amid]] Amid C, Alako BT, Balavenkataraman Kadhirvelu V, Burdett T, Burgin J, Fan J, Harrison PW, Holt S, Hussein A, Ivanov E & Jayathilaka S (2020) The European Nucleotide Archive in 2019. Nucleic acids research 48(D1): D70-D76. https://doi.org/10.1093/nar/gkz1063"
 
 #. type: Plain text
 #: bibliography.en.adoc:6
 msgid "[[andersen]] Andersen K, Bird KL, Rasmussen M, Haile J, Breuning-Madsen H, Kjaer KH, Orlando L, Gilbert MTP and Willerslev E (2012) Meta-Barcoding of ‘Dirt’ DNA from Soil Reflects Vertebrate Biodiversity. Molecular Ecology 21(8): 1966–79. https://doi.org/10.1111/j.1365-294X.2011.05261.x"
-msgstr ""
+msgstr "[[andersen]] Andersen K, Bird KL, Rasmussen M, Haile J, Breuning-Madsen H, Kjaer KH, Orlando L, Gilbert MTP and Willerslev E (2012) Meta-Barcoding of ‘Dirt’ DNA from Soil Reflects Vertebrate Biodiversity. Molecular Ecology 21(8): 1966–79. https://doi.org/10.1111/j.1365-294X.2011.05261.x"
 
 #. type: Plain text
 #: bibliography.en.adoc:7
 msgid "[[benson]] Benson DA, Karsch-Mizrachi I, Lipman DJ, Ostell J, Wheeler DL (2006) GenBank, Nucleic Acids Research, 34(1): D16–D20, https://doi.org/10.1093/nar/gkj157"
-msgstr ""
+msgstr "[[benson]] Benson DA, Karsch-Mizrachi I, Lipman DJ, Ostell J, Wheeler DL (2006) GenBank, Nucleic Acids Research, 34(1): D16–D20, https://doi.org/10.1093/nar/gkj157"
 
 #. type: Plain text
 #: bibliography.en.adoc:8
 msgid "[[bessey]] Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74"
-msgstr ""
+msgstr "[[bessey]] Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74"
 
 #. type: Plain text
 #: bibliography.en.adoc:9
 msgid "[[biggs]] Biggs J, Ewald N, Valentini A, Gaboriaud C, Dejean T, Griffiths RA, Foster J, et al. (2015) Using eDNA to Develop a National Citizen Science-Based Monitoring Programme for the Great Crested Newt (_Triturus cristatus_). Biological Conservation 183: 19–28. https://doi.org/10.1016/j.biocon.2014.11.029"
-msgstr ""
+msgstr "[[biggs]] Biggs J, Ewald N, Valentini A, Gaboriaud C, Dejean T, Griffiths RA, Foster J, et al. (2015) Using eDNA to Develop a National Citizen Science-Based Monitoring Programme for the Great Crested Newt (_Triturus cristatus_). Biological Conservation 183: 19–28. https://doi.org/10.1016/j.biocon.2014.11.029"
 
 #. type: Plain text
 #: bibliography.en.adoc:10
 msgid "[[blaxter]] Blaxter M, Mann J, Chapman T, Thomas F, Whitton C, Floyd R & Abebe E (2005) Defining operational taxonomic units using DNA barcode data. Philosophical Transactions of the Royal Society B: Biological Sciences 360(1462): 1935-1943. https://doi.org/10.1098/rstb.2005.1725"
-msgstr ""
+msgstr "[[blaxter]] Blaxter M, Mann J, Chapman T, Thomas F, Whitton C, Floyd R & Abebe E (2005) Defining operational taxonomic units using DNA barcode data. Philosophical Transactions of the Royal Society B: Biological Sciences 360(1462): 1935-1943. https://doi.org/10.1098/rstb.2005.1725"
 
 #. type: Plain text
 #: bibliography.en.adoc:11
 msgid "[[bolyen]] Bolyen E, Rideout JR, Dillon MR et al. (2019) Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2. Nat Biotechnol 37: 852–857. https://doi.org/10.1038/s41587-019-0209-9"
-msgstr ""
+msgstr "[[bolyen]] Bolyen E, Rideout JR, Dillon MR et al. (2019) Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2. Nat Biotechnol 37: 852–857. https://doi.org/10.1038/s41587-019-0209-9"
 
 #. type: Plain text
 #: bibliography.en.adoc:12
 msgid "[[boussarie]] Boussarie G, Bakker J, Wangensteen OS, Mariani S, Bonnin L, Juhel JB, Kiszka JJ, Kulbicki M, Manel S, Robbins WD & Vigliola L (2018) Environmental DNA illuminates the dark diversity of sharks. Science Advances 4(5): eaap9661. https://doi.org/10.1126/sciadv.aap9661"
-msgstr ""
+msgstr "[[boussarie]] Boussarie G, Bakker J, Wangensteen OS, Mariani S, Bonnin L, Juhel JB, Kiszka JJ, Kulbicki M, Manel S, Robbins WD & Vigliola L (2018) Environmental DNA illuminates the dark diversity of sharks. Science Advances 4(5): eaap9661. https://doi.org/10.1126/sciadv.aap9661"
 
 #. type: Plain text
 #: bibliography.en.adoc:13
 msgid "[[bustin]] Bustin SA, Benes V, Garson JA, Hellemans J, Huggett J, Kubista M, ... & Wittwer CT (2009). The MIQE Guidelines: M inimum I nformation for Publication of Q uantitative Real-Time PCR E xperiments. https://doi.org/10.1373/clinchem.2008.112797"
-msgstr ""
+msgstr "[[bustin]] Bustin SA, Benes V, Garson JA, Hellemans J, Huggett J, Kubista M, ... & Wittwer CT (2009). The MIQE Guidelines: M inimum I nformation for Publication of Q uantitative Real-Time PCR E xperiments. https://doi.org/10.1373/clinchem.2008.112797"
 
 #. type: Plain text
 #: bibliography.en.adoc:14
 msgid "[[callahan]] Callahan B, McMurdie P & Holmes S (2017) Exact sequence variants should replace operational taxonomic units in marker-gene data analysis. The ISME Journal 11: 2639–2643. https://doi.org/10.1038/ismej.2017.119"
-msgstr ""
+msgstr "[[callahan]] Callahan B, McMurdie P & Holmes S (2017) Exact sequence variants should replace operational taxonomic units in marker-gene data analysis. The ISME Journal 11: 2639–2643. https://doi.org/10.1038/ismej.2017.119"
 
 #. type: Plain text
 #: bibliography.en.adoc:15
 msgid "[[callahan2]] Callahan B, McMurdie P, Rosen M et al. (2016) DADA2: High-resolution sample inference from Illumina amplicon data. Nat Methods 13, 581–583. https://doi.org/10.1038/nmeth.3869"
-msgstr ""
+msgstr "[[callahan2]] Callahan B, McMurdie P, Rosen M et al. (2016) DADA2: High-resolution sample inference from Illumina amplicon data. Nat Methods 13, 581–583. https://doi.org/10.1038/nmeth.3869"
 
 #. type: Plain text
 #: bibliography.en.adoc:16
 msgid "[[guelf]] Centre for Biodiversity Genomics, University of Guelph (2021) The Global Taxonomy Initiative 2020: A Step-by-Step Guide for DNA Barcoding. Technical Series No. 94. Secretariat of the Convention on Biological Diversity, Montreal, 66 pp. https://www.cbd.int/doc/publications/cbd-ts-94-en.pdf"
-msgstr ""
+msgstr "[[guelf]] Centre for Biodiversity Genomics, University of Guelph (2021) The Global Taxonomy Initiative 2020: A Step-by-Step Guide for DNA Barcoding. Technical Series No. 94. Secretariat of the Convention on Biological Diversity, Montreal, 66 pp. https://www.cbd.int/doc/publications/cbd-ts-94-en.pdf"
 
 #. type: Plain text
 #: bibliography.en.adoc:17
 msgid "[[cbd]] Convention on Biological Diversity (2020) Report of the ad hoc Technical Expert Group on Digital Sequence Information On Genetic Resources, 17-20 March 2020. Montreal, Canada. https://www.cbd.int/doc/c/ba60/7272/3260b5e396821d42bc21035a/dsi-ahteg-2020-01-07-en.pdf"
-msgstr ""
+msgstr "[[cbd]] Convention on Biological Diversity (2020) Report of the ad hoc Technical Expert Group on Digital Sequence Information On Genetic Resources, 17-20 March 2020. Montreal, Canada. https://www.cbd.int/doc/c/ba60/7272/3260b5e396821d42bc21035a/dsi-ahteg-2020-01-07-en.pdf"
 
 #. type: Plain text
 #: bibliography.en.adoc:18
 msgid "[[debroas]] Debroas D, Domaizon I, Humbert JF, Jardillier L, Lepère C, Oudart A & Taïb N (2017) Overview of freshwater microbial eukaryotes diversity: a first analysis of publicly available metabarcoding data. FEMS Microbiology Ecology 93(4): fix023. https://doi.org/10.1093/femsec/fix023"
-msgstr ""
+msgstr "[[debroas]] Debroas D, Domaizon I, Humbert JF, Jardillier L, Lepère C, Oudart A & Taïb N (2017) Overview of freshwater microbial eukaryotes diversity: a first analysis of publicly available metabarcoding data. FEMS Microbiology Ecology 93(4): fix023. https://doi.org/10.1093/femsec/fix023"
 
 #. type: Plain text
 #: bibliography.en.adoc:19
 msgid "[[doi]] Doi H, Fukaya K, Oka SI, Sato K, Kondoh M & Miya M (2019) Evaluation of Detection Probabilities at the Water-Filtering and Initial PCR Steps in Environmental DNA Metabarcoding Using a Multispecies Site Occupancy Model. Scientific Reports 9(1): 3581. https://doi.org/10.1038/s41598-019-40233-1"
-msgstr ""
+msgstr "[[doi]] Doi H, Fukaya K, Oka SI, Sato K, Kondoh M & Miya M (2019) Evaluation of Detection Probabilities at the Water-Filtering and Initial PCR Steps in Environmental DNA Metabarcoding Using a Multispecies Site Occupancy Model. Scientific Reports 9(1): 3581. https://doi.org/10.1038/s41598-019-40233-1"
 
 #. type: Plain text
 #: bibliography.en.adoc:20
 msgid "[[durkin]] Durkin L, Jansson T, Sanchez M, Khomich M, Ryberg M, Kristiansson E, Nilsson RH (2020) When mycologists describe new species, not all relevant information is provided (clearly enough). MycoKeys 72: 109-128. https://doi.org/10.3897/mycokeys.72.56691"
-msgstr ""
+msgstr "[[durkin]] Durkin L, Jansson T, Sanchez M, Khomich M, Ryberg M, Kristiansson E, Nilsson RH (2020) When mycologists describe new species, not all relevant information is provided (clearly enough). MycoKeys 72: 109-128. https://doi.org/10.3897/mycokeys.72.56691"
 
 #. type: Plain text
 #: bibliography.en.adoc:21
 msgid "[[edgar]] Edgar RC (2010) Search and clustering orders of magnitude faster than BLAST, Bioinformatics 26(19): 2460–2461, https://doi.org/10.1093/bioinformatics/btq461"
-msgstr ""
+msgstr "[[edgar]] Edgar RC (2010) Search and clustering orders of magnitude faster than BLAST, Bioinformatics 26(19): 2460–2461, https://doi.org/10.1093/bioinformatics/btq461"
 
 #. type: Plain text
 #: bibliography.en.adoc:22
 msgid "[[ekrem]] Ekrem T & Majaneva M (2019) DNA-Metastrekkoding Til Undersøkelser Av Invertebrater I Ferskvann. NTNU Vitenskapsmuseet Naturhistorisk Notat. https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2612638."
-msgstr ""
+msgstr "[[ekrem]] Ekrem T & Majaneva M (2019) DNA-Metastrekkoding Til Undersøkelser Av Invertebrater I Ferskvann. NTNU Vitenskapsmuseet Naturhistorisk Notat. https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2612638."
 
 #. type: Plain text
 #: bibliography.en.adoc:23
 msgid "[[elbrecht]] Elbrecht V & Leese F (2015) Can DNA-based ecosystem assessments quantify species abundance? Testing primer bias and biomass—sequence relationships with an innovative metabarcoding protocol. PLoS ONE 10(7): e0130324. https://doi.org/10.1371/journal.pone.0130324"
-msgstr ""
+msgstr "[[elbrecht]] Elbrecht V & Leese F (2015) Can DNA-based ecosystem assessments quantify species abundance? Testing primer bias and biomass—sequence relationships with an innovative metabarcoding protocol. PLoS ONE 10(7): e0130324. https://doi.org/10.1371/journal.pone.0130324"
 
 #. type: Plain text
 #: bibliography.en.adoc:24
 msgid "[[ficetola]] Ficetola GF, Miaud C, Pompanon F, & Taberlet P (2008). Species detection using environmental DNA from water samples. Biology letters, 4(4), 423-425. https://doi.org/10.1098/rsbl.2008.0118"
-msgstr ""
+msgstr "[[ficetola]] Ficetola GF, Miaud C, Pompanon F, & Taberlet P (2008). Species detection using environmental DNA from water samples. Biology letters, 4(4), 423-425. https://doi.org/10.1098/rsbl.2008.0118"
 
 #. type: Plain text
 #: bibliography.en.adoc:25
 msgid "[[fossoey]] Fossøy F, Brandsegg H, Sivertsgård R, Pettersen O, Sandercock BK, Solem Ø, Hindar K & Tor AM (2019) Monitoring Presence and Abundance of Two Gyrodactylid Ectoparasites and Their Salmonid Hosts Using Environmental DNA. Environmental DNA. https://doi.org/10.1002/edn3.45."
-msgstr ""
+msgstr "[[fossoey]] Fossøy F, Brandsegg H, Sivertsgård R, Pettersen O, Sandercock BK, Solem Ø, Hindar K & Tor AM (2019) Monitoring Presence and Abundance of Two Gyrodactylid Ectoparasites and Their Salmonid Hosts Using Environmental DNA. Environmental DNA. https://doi.org/10.1002/edn3.45."
 
 #. type: Plain text
 #: bibliography.en.adoc:26
 msgid "[[froslev]] Frøslev TG, Kjøller R, Bruun HH et al. (2017) Algorithm for post-clustering curation of DNA amplicon data yields reliable biodiversity estimates. Nat Commun 8, 1188 . https://doi.org/10.1038/s41467-017-01312-x"
-msgstr ""
+msgstr "[[froslev]] Frøslev TG, Kjøller R, Bruun HH et al. (2017) Algorithm for post-clustering curation of DNA amplicon data yields reliable biodiversity estimates. Nat Commun 8, 1188 . https://doi.org/10.1038/s41467-017-01312-x"
 
 #. type: Plain text
 #: bibliography.en.adoc:27
 msgid "[[Groom]] Groom Q, Güntsch A, Huybrechts P, Kearney N, Leachman S, Nicolson N, Page RDM, Shorthouse DP, Thessen, AE, Haston E. People are essential to linking biodiversity data. 2020. Database 2020:baaa072 https://doi.org/10.1093/database/baaa072."
-msgstr ""
+msgstr "[[Groom]] Groom Q, Güntsch A, Huybrechts P, Kearney N, Leachman S, Nicolson N, Page RDM, Shorthouse DP, Thessen, AE, Haston E. People are essential to linking biodiversity data. 2020. Database 2020:baaa072 https://doi.org/10.1093/database/baaa072."
 
 #. type: Plain text
 #: bibliography.en.adoc:28
 msgid "[[hernandez]] Hernandez C, Bougas B, Perreault‐Payette A, Simard A, Côté G, & Bernatchez L (2020). 60 specific eDNA qPCR assays to detect invasive, threatened, and exploited freshwater vertebrates and invertebrates in Eastern Canada. Environmental DNA, 2(3): 373-386. https://doi.org/10.1002/edn3.89"
-msgstr ""
+msgstr "[[hernandez]] Hernandez C, Bougas B, Perreault‐Payette A, Simard A, Côté G, & Bernatchez L (2020). 60 specific eDNA qPCR assays to detect invasive, threatened, and exploited freshwater vertebrates and invertebrates in Eastern Canada. Environmental DNA, 2(3): 373-386. https://doi.org/10.1002/edn3.89"
 
 #. type: Plain text
 #: bibliography.en.adoc:29
 msgid "[[hofstetter]] Hofstetter, V, Buyck, B, Eyssartier, G, Schnee S, Gindro K (2019) The unbearable lightness of sequenced-based identification. Fungal Diversity 96, 243–284. https://doi.org/10.1007/s13225-019-00428-3"
-msgstr ""
+msgstr "[[hofstetter]] Hofstetter, V, Buyck, B, Eyssartier, G, Schnee S, Gindro K (2019) The unbearable lightness of sequenced-based identification. Fungal Diversity 96, 243–284. https://doi.org/10.1007/s13225-019-00428-3"
 
 #. type: Plain text
 #: bibliography.en.adoc:30
 msgid "[[huggett]] Huggett JF, Foy CA, Benes V, Emslie K, Garson JA, Haynes R, ... & Bustin SA (2013). The Digital MIQE Guidelines: M inimum I nformation for Publication of Q uantitative Digital PCR E xperiments. Clinical chemistry, 59(6), 892-902. https://doi.org/10.1373/clinchem.2013.206375"
-msgstr ""
+msgstr "[[huggett]] Huggett JF, Foy CA, Benes V, Emslie K, Garson JA, Haynes R, ... & Bustin SA (2013). The Digital MIQE Guidelines: M inimum I nformation for Publication of Q uantitative Digital PCR E xperiments. Clinical chemistry, 59(6), 892-902. https://doi.org/10.1373/clinchem.2013.206375"
 
 #. type: Plain text
 #: bibliography.en.adoc:31
 msgid "[[hugerth]] Hugerth LW, Andersson AF (2017) Analysing Microbial Community Composition through Amplicon Sequencing: From Sampling to Hypothesis Testing. Frontiers in Microbiology 8: 1561. https://doi.org/10.3389/fmicb.2017.01561"
-msgstr ""
+msgstr "[[hugerth]] Hugerth LW, Andersson AF (2017) Analysing Microbial Community Composition through Amplicon Sequencing: From Sampling to Hypothesis Testing. Frontiers in Microbiology 8: 1561. https://doi.org/10.3389/fmicb.2017.01561"
 
 #. type: Plain text
 #: bibliography.en.adoc:32
 msgid "[[knudsen]] Knudsen SW, Ebert RB, Hesselsøe M, Kuntke F, Hassingboe J, Mortensen PB, Thomsen PF et al (2019) Species-Specific Detection and Quantification of Environmental DNA from Marine Fishes in the Baltic Sea. Journal of Experimental Marine Biology and Ecology 510: 31–45. https://doi.org/10.1016/j.jembe.2018.09.004"
-msgstr ""
+msgstr "[[knudsen]] Knudsen SW, Ebert RB, Hesselsøe M, Kuntke F, Hassingboe J, Mortensen PB, Thomsen PF et al (2019) Species-Specific Detection and Quantification of Environmental DNA from Marine Fishes in the Baltic Sea. Journal of Experimental Marine Biology and Ecology 510: 31–45. https://doi.org/10.1016/j.jembe.2018.09.004"
 
 #. type: Plain text
 #: bibliography.en.adoc:33
 msgid "[[lacoursiere]] Lacoursière-Roussel A, Rosabal M & Bernatchez L (2016) Estimating Fish Abundance and Biomass from eDNA Concentrations: Variability among Capture Methods and Environmental Conditions. Molecular Ecology Resources 16(6): 1401–14. https://doi.org/10.1111/1755-0998.12522"
-msgstr ""
+msgstr "[[lacoursiere]] Lacoursière-Roussel A, Rosabal M & Bernatchez L (2016) Estimating Fish Abundance and Biomass from eDNA Concentrations: Variability among Capture Methods and Environmental Conditions. Molecular Ecology Resources 16(6): 1401–14. https://doi.org/10.1111/1755-0998.12522"
 
 #. type: Plain text
 #: bibliography.en.adoc:34
 msgid "[[leebens]] Leebens-Mack J, Vision T, Brenner E, Bowers JE, Cannon S, Clement MJ, Cunningham CW, DePamphilis C, DeSalle R, Doyle JJ & Eisen JA (2006) Taking the first steps towards a standard for reporting on phylogenies: Minimum Information About a Phylogenetic Analysis (MIAPA). Omics: a journal of integrative biology 10(2): 231-237. https://doi.org/10.1089/omi.2006.10.231"
-msgstr ""
+msgstr "[[leebens]] Leebens-Mack J, Vision T, Brenner E, Bowers JE, Cannon S, Clement MJ, Cunningham CW, DePamphilis C, DeSalle R, Doyle JJ & Eisen JA (2006) Taking the first steps towards a standard for reporting on phylogenies: Minimum Information About a Phylogenetic Analysis (MIAPA). Omics: a journal of integrative biology 10(2): 231-237. https://doi.org/10.1089/omi.2006.10.231"
 
 #. type: Plain text
 #: bibliography.en.adoc:35
 msgid "[[leinonen]] Leinonen R, Sugawara H, Shumway M & International Nucleotide Sequence Database Collaboration (2011) The sequence read archive. Nucleic Acids Research 39(suppl_1): D19-D21. https://doi.org/10.1093/nar/gkq1019"
-msgstr ""
+msgstr "[[leinonen]] Leinonen R, Sugawara H, Shumway M & International Nucleotide Sequence Database Collaboration (2011) The sequence read archive. Nucleic Acids Research 39(suppl_1): D19-D21. https://doi.org/10.1093/nar/gkq1019"
 
 #. type: Plain text
 #: bibliography.en.adoc:36
 msgid "[[mahe]] Mahé F, Rognes T, Quince C, de Vargas C, Dunthorn M. (2014) Swarm: robust and fast clustering method for amplicon-based studies. PeerJ 2:e593 https://doi.org/10.7717/peerj.593"
-msgstr ""
+msgstr "[[mahe]] Mahé F, Rognes T, Quince C, de Vargas C, Dunthorn M. (2014) Swarm: robust and fast clustering method for amplicon-based studies. PeerJ 2:e593 https://doi.org/10.7717/peerj.593"
 
 #. type: Plain text
 #: bibliography.en.adoc:37
 msgid "[[mcdonald]] McDonald D, Clemente JC, Kuczynski J, Rideout JR, Stombaugh J, Wendel D, ... & Caporaso JG (2012). The Biological Observation Matrix (BIOM) format or: how I learned to stop worrying and love the ome-ome. Gigascience, 1(1), 2047-217X. https://doi.org/10.1186/2047-217X-1-7"
-msgstr ""
+msgstr "[[mcdonald]] McDonald D, Clemente JC, Kuczynski J, Rideout JR, Stombaugh J, Wendel D, ... & Caporaso JG (2012). The Biological Observation Matrix (BIOM) format or: how I learned to stop worrying and love the ome-ome. Gigascience, 1(1), 2047-217X. https://doi.org/10.1186/2047-217X-1-7"
 
 #. type: Plain text
 #: bibliography.en.adoc:38
 msgid "[[miralles]] Miralles A, Bruy T, Wolcott K, Scherz MD, Begerow D, Beszteri B, Bonkowski M, Felden J, Gemeinholzer B, Glaw F & Glöckner FO (2020) Repositories for Taxonomic Data: Where We Are and What is Missing. Systematic Biology: syaa026.  https://doi.org/10.1093/sysbio/syaa026"
-msgstr ""
+msgstr "[[miralles]] Miralles A, Bruy T, Wolcott K, Scherz MD, Begerow D, Beszteri B, Bonkowski M, Felden J, Gemeinholzer B, Glaw F & Glöckner FO (2020) Repositories for Taxonomic Data: Where We Are and What is Missing. Systematic Biology: syaa026.  https://doi.org/10.1093/sysbio/syaa026"
 
 #. type: Plain text
 #: bibliography.en.adoc:39
 msgid "[[mora]] Mora C, Tittensor DP, Adl S, Simpson AG & Worm B (2011) How many species are there on Earth and in the ocean? PLoS Biology 9(8): e1001127.  https://doi.org/10.1371/journal.pbio.1001127"
-msgstr ""
+msgstr "[[mora]] Mora C, Tittensor DP, Adl S, Simpson AG & Worm B (2011) How many species are there on Earth and in the ocean? PLoS Biology 9(8): e1001127.  https://doi.org/10.1371/journal.pbio.1001127"
 
 #. type: Plain text
 #: bibliography.en.adoc:40
 msgid "[[nilsson]] Nilsson RH, Tedersoo L, Abarenkov K, Ryberg M, Kristiansson E, Hartmann M, Schoch CL, Nylander JA, Bergsten J, Porter TM & Jumpponen A (2012) Five simple guidelines for establishing basic authenticity and reliability of newly generated fungal ITS sequences. MycoKeys 4: 37-63. https://doi.org/10.3897/mycokeys.4.3606"
-msgstr ""
+msgstr "[[nilsson]] Nilsson RH, Tedersoo L, Abarenkov K, Ryberg M, Kristiansson E, Hartmann M, Schoch CL, Nylander JA, Bergsten J, Porter TM & Jumpponen A (2012) Five simple guidelines for establishing basic authenticity and reliability of newly generated fungal ITS sequences. MycoKeys 4: 37-63. https://doi.org/10.3897/mycokeys.4.3606"
 
 #. type: Plain text
 #: bibliography.en.adoc:41
 msgid "[[nilsson2]] Nilsson RH, Larsson KH, Taylor AFS, Bengtsson-Palme J, Jeppesen TS, Schigel D, Kennedy P, Picard K, Glöckner FO, Tedersoo L, Saar I, Kõljalg U, Abarenkov K (2019) The UNITE database for molecular identification of fungi: handling dark taxa and parallel taxonomic classifications. Nucleic Acids Research, Volume 47, Issue D1, D259–D264. https://doi.org/10.1093/nar/gky1022"
-msgstr ""
+msgstr "[[nilsson2]] Nilsson RH, Larsson KH, Taylor AFS, Bengtsson-Palme J, Jeppesen TS, Schigel D, Kennedy P, Picard K, Glöckner FO, Tedersoo L, Saar I, Kõljalg U, Abarenkov K (2019) The UNITE database for molecular identification of fungi: handling dark taxa and parallel taxonomic classifications. Nucleic Acids Research, Volume 47, Issue D1, D259–D264. https://doi.org/10.1093/nar/gky1022"
 
 #. type: Plain text
 #: bibliography.en.adoc:42
 msgid "[[ogram]] Ogram A, Sayler GS, Barkay T (1987) The Extraction and Purification of Microbial DNA from Sediments. Journal of Microbiological Methods. https://doi.org/10.1016/0167-7012(87)90025-x."
-msgstr ""
+msgstr "[[ogram]] Ogram A, Sayler GS, Barkay T (1987) The Extraction and Purification of Microbial DNA from Sediments. Journal of Microbiological Methods. https://doi.org/10.1016/0167-7012(87)90025-x."
 
 #. type: Plain text
 #: bibliography.en.adoc:43
 msgid "[[ovaskainen]] Ovaskainen O, Schigel D, Ali-Kovero H et al. (2013) Combining high-throughput sequencing with fruit body surveys reveals contrasting life-history strategies in fungi. The ISME Journal 7: 1696–1709. https://doi.org/10.1038/ismej.2013.61"
-msgstr ""
+msgstr "[[ovaskainen]] Ovaskainen O, Schigel D, Ali-Kovero H et al. (2013) Combining high-throughput sequencing with fruit body surveys reveals contrasting life-history strategies in fungi. The ISME Journal 7: 1696–1709. https://doi.org/10.1038/ismej.2013.61"
 
 #. type: Plain text
 #: bibliography.en.adoc:44
 msgid "[[parks]] Parks, DH, Chuvochina, M, Chaumeil, P, Rinke C, Mussig AJ, Hugenholtz P (2020) A complete domain-to-species taxonomy for Bacteria and Archaea. Nat Biotechnol 38, 1079–1086. https://doi.org/10.1038/s41587-020-0501-8"
-msgstr ""
+msgstr "[[parks]] Parks, DH, Chuvochina, M, Chaumeil, P, Rinke C, Mussig AJ, Hugenholtz P (2020) A complete domain-to-species taxonomy for Bacteria and Archaea. Nat Biotechnol 38, 1079–1086. https://doi.org/10.1038/s41587-020-0501-8"
 
 #. type: Plain text
 #: bibliography.en.adoc:45
 msgid "[[pearson]] Pearson, WR & Lipman DJ (1988) Improved tools for biological sequence comparison. Proceedings of the National Academy of Sciences 85(8): 2444-2448. https://dx.doi.org/10.1073%2Fpnas.85.8.2444"
-msgstr ""
+msgstr "[[pearson]] Pearson, WR & Lipman DJ (1988) Improved tools for biological sequence comparison. Proceedings of the National Academy of Sciences 85(8): 2444-2448. https://dx.doi.org/10.1073%2Fpnas.85.8.2444"
 
 #. type: Plain text
 #: bibliography.en.adoc:46
 msgid "[[penew]] Penev P, Mietchen D, Chavan VS, Hagedorn G, Smith VS, Shotton D, Tuama ÉÓ, Senderov V, Georgiev T, Stoev P, Groom QJ, Remsen D, Edmunds SC (2017) Strategies and guidelines for scholarly publishing of biodiversity data. Research ideas and outcomes 3: e12431, https://doi.org/10.3897/rio.3.e12431"
-msgstr ""
+msgstr "[[penew]] Penev P, Mietchen D, Chavan VS, Hagedorn G, Smith VS, Shotton D, Tuama ÉÓ, Senderov V, Georgiev T, Stoev P, Groom QJ, Remsen D, Edmunds SC (2017) Strategies and guidelines for scholarly publishing of biodiversity data. Research ideas and outcomes 3: e12431, https://doi.org/10.3897/rio.3.e12431"
 
 #. type: Plain text
 #: bibliography.en.adoc:47
 msgid "[[pietramellara]] Pietramellara G, Ascher J, Borgogni F, Ceccherini MT, Guerri G & Nannipieri P (2009) Extracellular DNA in Soil and Sediment: Fate and Ecological Relevance. Biology and Fertility of Soils 45: 219-235. https://doi.org/10.1007/s00374-008-0345-8."
-msgstr ""
+msgstr "[[pietramellara]] Pietramellara G, Ascher J, Borgogni F, Ceccherini MT, Guerri G & Nannipieri P (2009) Extracellular DNA in Soil and Sediment: Fate and Ecological Relevance. Biology and Fertility of Soils 45: 219-235. https://doi.org/10.1007/s00374-008-0345-8."
 
 #. type: Plain text
 #: bibliography.en.adoc:48
 msgid "[[Ratnasingham]] Ratnasingham S, Hebert PDN (2007) BOLD: The Barcode of Life Data System. Molecular Ecology Notes, 7: 355-364. https://doi.org/10.1111/j.1471-8286.2007.01678.x"
-msgstr ""
+msgstr "[[Ratnasingham]] Ratnasingham S, Hebert PDN (2007) BOLD: The Barcode of Life Data System. Molecular Ecology Notes, 7: 355-364. https://doi.org/10.1111/j.1471-8286.2007.01678.x"
 
 #. type: Plain text
 #: bibliography.en.adoc:49
 msgid "[[Ratnasingham13]] Ratnasingham S, Hebert PDN (2013). A DNA-based registry for all animal species: the Barcode Index Number (BIN) system. PloS one, 8(7), e66213. https://doi.org/10.1371/journal.pone.0066213"
-msgstr ""
+msgstr "[[Ratnasingham13]] Ratnasingham S, Hebert PDN (2013). A DNA-based registry for all animal species: the Barcode Index Number (BIN) system. PloS one, 8(7), e66213. https://doi.org/10.1371/journal.pone.0066213"
 
 #. type: Plain text
 #: bibliography.en.adoc:50
 msgid "[[Ruppert]] Ruppert KM, Kline RJ, Rahman MS (2019). Past, present, and future perspectives of environmental DNA (eDNA) metabarcoding: A systematic review in methods, monitoring, and applications of global eDNA. Global Ecology and Conservation, 17, e00547. https://doi.org/10.1016/j.gecco.2019.e00547"
-msgstr ""
+msgstr "[[Ruppert]] Ruppert KM, Kline RJ, Rahman MS (2019). Past, present, and future perspectives of environmental DNA (eDNA) metabarcoding: A systematic review in methods, monitoring, and applications of global eDNA. Global Ecology and Conservation, 17, e00547. https://doi.org/10.1016/j.gecco.2019.e00547"
 
 #. type: Plain text
 #: bibliography.en.adoc:51
 msgid "[[schloss]] Schloss PD, Westcott SL, Ryabin T, Hall JR, Hartmann M, Hollister EB, ... & Weber CF (2009). Introducing mothur: open-source, platform-independent, community-supported software for describing and comparing microbial communities. Applied and environmental microbiology, 75(23), 7537-7541. https://doi.org/10.1128/AEM.01541-09"
-msgstr ""
+msgstr "[[schloss]] Schloss PD, Westcott SL, Ryabin T, Hall JR, Hartmann M, Hollister EB, ... & Weber CF (2009). Introducing mothur: open-source, platform-independent, community-supported software for describing and comparing microbial communities. Applied and environmental microbiology, 75(23), 7537-7541. https://doi.org/10.1128/AEM.01541-09"
 
 #. type: Plain text
 #: bibliography.en.adoc:52
 msgid "[[Sigsgaard]] Sigsgaard EE, Jensen MR, Winkelmann IE, Møller PR, Hansen MM, Thomsen PF (2020). Population‐level inferences from environmental DNA—Current status and future perspectives. Evolutionary Applications, 13(2), 245-262. https://doi.org/10.1111/eva.12882"
-msgstr ""
+msgstr "[[Sigsgaard]] Sigsgaard EE, Jensen MR, Winkelmann IE, Møller PR, Hansen MM, Thomsen PF (2020). Population‐level inferences from environmental DNA—Current status and future perspectives. Evolutionary Applications, 13(2), 245-262. https://doi.org/10.1111/eva.12882"
 
 #. type: Plain text
 #: bibliography.en.adoc:53
 msgid "[[somervuo]] Somervuo P, Koskela S, Pennanen J, Nilsson RH, Ovaskainen O (2016) Unbiased probabilistic taxonomic classification for DNA barcoding. Bioinformatics 32(19):2920–2927, https://doi.org/10.1093/bioinformatics/btw346"
-msgstr ""
+msgstr "[[somervuo]] Somervuo P, Koskela S, Pennanen J, Nilsson RH, Ovaskainen O (2016) Unbiased probabilistic taxonomic classification for DNA barcoding. Bioinformatics 32(19):2920–2927, https://doi.org/10.1093/bioinformatics/btw346"
 
 #. type: Plain text
 #: bibliography.en.adoc:54
 msgid "[[strand]] Strand DA, Johnsen SI, Rusch JC, Agersnap S, Larsen WB, Knudsen SW, Møller PR & Vrålstad T (2019) Monitoring a Norwegian Freshwater Crayfish Tragedy: eDNA Snapshots of Invasion, Infection and Extinction. Journal of Applied Ecology 56(7): 1661-1673. https://doi.org/10.1111/1365-2664.13404."
-msgstr ""
+msgstr "[[strand]] Strand DA, Johnsen SI, Rusch JC, Agersnap S, Larsen WB, Knudsen SW, Møller PR & Vrålstad T (2019) Monitoring a Norwegian Freshwater Crayfish Tragedy: eDNA Snapshots of Invasion, Infection and Extinction. Journal of Applied Ecology 56(7): 1661-1673. https://doi.org/10.1111/1365-2664.13404."
 
 #. type: Plain text
 #: bibliography.en.adoc:55
 msgid "[[taberlet-2018]] Taberlet P, Bonin A, Coissac E & Zinger L (2018) Environmental DNA: For Biodiversity Research and Monitoring. Oxford, UK: Oxford University Press. https://doi.org/10.1093/oso/9780198767220.001.0001"
-msgstr ""
+msgstr "[[taberlet-2018]] Taberlet P, Bonin A, Coissac E & Zinger L (2018) Environmental DNA: For Biodiversity Research and Monitoring. Oxford, UK: Oxford University Press. https://doi.org/10.1093/oso/9780198767220.001.0001"
 
 #. type: Plain text
 #: bibliography.en.adoc:56
 msgid "[[taberlet-2012]] Taberlet P, Coissac E, Hajibabaei M & Rieseberg LH (2012) Environmental DNA. Molecular Ecology 21(8): 1789–93. https://doi.org/10.1111/j.1365-294X.2012.05542.x"
-msgstr ""
+msgstr "[[taberlet-2012]] Taberlet P, Coissac E, Hajibabaei M & Rieseberg LH (2012) Environmental DNA. Molecular Ecology 21(8): 1789–93. https://doi.org/10.1111/j.1365-294X.2012.05542.x"
 
 #. type: Plain text
 #: bibliography.en.adoc:57
 msgid "[[takahara]] Takahara T, Minamoto T, Yamanaka H, Doi H & Kawabata Z (2012) Estimation of Fish Biomass Using Environmental DNA. PLoS ONE 7(4): e35868. https://doi.org/10.1371/journal.pone.0035868"
-msgstr ""
+msgstr "[[takahara]] Takahara T, Minamoto T, Yamanaka H, Doi H & Kawabata Z (2012) Estimation of Fish Biomass Using Environmental DNA. PLoS ONE 7(4): e35868. https://doi.org/10.1371/journal.pone.0035868"
 
 #. type: Plain text
 #: bibliography.en.adoc:58
 msgid "[[tedersoo]] Tedersoo, L, Bahram M, Puusepp R, Nilsson RH & James TY (2017) Novel soil-inhabiting clades fill gaps in the fungal tree of life. Microbiome 5: 42. https://doi.org/10.1186/s40168-017-0259-5"
-msgstr ""
+msgstr "[[tedersoo]] Tedersoo, L, Bahram M, Puusepp R, Nilsson RH & James TY (2017) Novel soil-inhabiting clades fill gaps in the fungal tree of life. Microbiome 5: 42. https://doi.org/10.1186/s40168-017-0259-5"
 
 #. type: Plain text
 #: bibliography.en.adoc:59
 msgid "[[tedesco]] Tedesco PA, Bigorne R, Bogan AE, Giam X, Jézéquel C & Hugueny B (2014) Estimating how many undescribed species have gone extinct. Conservation Biology 28(5): 1360-1370. https://doi.org/10.1111/cobi.12285"
-msgstr ""
+msgstr "[[tedesco]] Tedesco PA, Bigorne R, Bogan AE, Giam X, Jézéquel C & Hugueny B (2014) Estimating how many undescribed species have gone extinct. Conservation Biology 28(5): 1360-1370. https://doi.org/10.1111/cobi.12285"
 
 #. type: Plain text
 #: bibliography.en.adoc:60
 msgid "[[Thalinger]] Thalinger B, Deiner K, Harper LR, Rees HC, Blackman RC, Sint D, ... & Bruce K (2021). A validation scale to determine the readiness of environmental DNA assays for routine species monitoring. Environmental DNA. https://doi.org/10.1101/2020.04.27.063990"
-msgstr ""
+msgstr "[[Thalinger]] Thalinger B, Deiner K, Harper LR, Rees HC, Blackman RC, Sint D, ... & Bruce K (2021). A validation scale to determine the readiness of environmental DNA assays for routine species monitoring. Environmental DNA. https://doi.org/10.1101/2020.04.27.063990"
 
 #. type: Plain text
 #: bibliography.en.adoc:61
 msgid "[[thomsen-2012]] Thomsen PF, Kielgast JOS, Iversen LL, Wiuf C, Rasmussen M, Gilbert MTP Orlando L & Willerslev E (2012) Monitoring Endangered Freshwater Biodiversity Using Environmental DNA. Molecular Ecology 21(11): 2565–73. https://doi.org/10.1111/j.1365-294X.2011.05418.x"
-msgstr ""
+msgstr "[[thomsen-2012]] Thomsen PF, Kielgast JOS, Iversen LL, Wiuf C, Rasmussen M, Gilbert MTP Orlando L & Willerslev E (2012) Monitoring Endangered Freshwater Biodiversity Using Environmental DNA. Molecular Ecology 21(11): 2565–73. https://doi.org/10.1111/j.1365-294X.2011.05418.x"
 
 #. type: Plain text
 #: bibliography.en.adoc:62
 msgid "[[thomsen-2016]] Thomsen PF, Møller PR, Sigsgaard EE, Knudsen SW, Jørgensen OA & Willerslev E (2016) Environmental DNA from Seawater Samples Correlate with Trawl Catches of Subarctic, Deepwater Fishes. PLoS ONE 11(11): e0165252. https://doi.org/10.1371/journal.pone.0165252"
-msgstr ""
+msgstr "[[thomsen-2016]] Thomsen PF, Møller PR, Sigsgaard EE, Knudsen SW, Jørgensen OA & Willerslev E (2016) Environmental DNA from Seawater Samples Correlate with Trawl Catches of Subarctic, Deepwater Fishes. PLoS ONE 11(11): e0165252. https://doi.org/10.1371/journal.pone.0165252"
 
 #. type: Plain text
 #: bibliography.en.adoc:63
 msgid "[[thomsen-2015]] Thomsen PF & Willerslev E (2015) Environmental DNA – An Emerging Tool in Conservation for Monitoring Past and Present Biodiversity. Biological Conservation 183: 4–18. https://doi.org/10.1016/j.biocon.2014.11.019"
-msgstr ""
+msgstr "[[thomsen-2015]] Thomsen PF & Willerslev E (2015) Environmental DNA – An Emerging Tool in Conservation for Monitoring Past and Present Biodiversity. Biological Conservation 183: 4–18. https://doi.org/10.1016/j.biocon.2014.11.019"
 
 #. type: Plain text
 #: bibliography.en.adoc:64
 msgid "[[tyson]] Tyson, GW & Hugenholtz, P (2005). Environmental shotgun sequencing. Encyclopedia of genetics, genomics, proteomics, and bioinformatics. Edited by Lynn B. Jorde. West Sussex, UK: John Wiley & Sons.1386-1391. https://doi.org/10.1002/047001153X.g205313"
-msgstr ""
+msgstr "[[tyson]] Tyson, GW & Hugenholtz, P (2005). Environmental shotgun sequencing. Encyclopedia of genetics, genomics, proteomics, and bioinformatics. Edited by Lynn B. Jorde. West Sussex, UK: John Wiley & Sons.1386-1391. https://doi.org/10.1002/047001153X.g205313"
 
 #. type: Plain text
 #: bibliography.en.adoc:65
 msgid "[[valentini]] Valentini A, Taberlet P, Miaud C, Civade R, Herder J, Thomsen PF, Bellemain E et al. (2016) Next-Generation Monitoring of Aquatic Biodiversity Using Environmental DNA Metabarcoding. Molecular Ecology 25(4): 929–42. https://doi.org/10.1111/mec.13428"
-msgstr ""
+msgstr "[[valentini]] Valentini A, Taberlet P, Miaud C, Civade R, Herder J, Thomsen PF, Bellemain E et al. (2016) Next-Generation Monitoring of Aquatic Biodiversity Using Environmental DNA Metabarcoding. Molecular Ecology 25(4): 929–42. https://doi.org/10.1111/mec.13428"
 
 #. type: Plain text
 #: bibliography.en.adoc:66
 msgid "[[wacker]] Wacker S, Fossøy F, Larsen BM, Brandsegg H, Sivertsgård R, & Karlsson S (2019). Downstream transport and seasonal variation in freshwater pearl mussel (Margaritifera margaritifera) eDNA concentration. Environmental DNA, 1(1), 64-73. https://doi.org/10.1002/edn3.10"
-msgstr ""
+msgstr "[[wacker]] Wacker S, Fossøy F, Larsen BM, Brandsegg H, Sivertsgård R, & Karlsson S (2019). Downstream transport and seasonal variation in freshwater pearl mussel (Margaritifera margaritifera) eDNA concentration. Environmental DNA, 1(1), 64-73. https://doi.org/10.1002/edn3.10"
 
 #. type: Plain text
 #: bibliography.en.adoc:67
 msgid "[[wilkinson]] Wilkinson M, Dumontier M, Aalbersberg I et al. (2016) The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3: 160018. https://doi.org/10.1038/sdata.2016.18"
-msgstr ""
+msgstr "[[wilkinson]] Wilkinson M, Dumontier M, Aalbersberg I et al. (2016) The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3: 160018. https://doi.org/10.1038/sdata.2016.18"
 
 #. type: Plain text
 #: bibliography.en.adoc:68
 msgid "[[wittwer]] Wittwer C, Stoll S, Strand D, Vrålstad T, Nowak C, & Thines M (2018). eDNA-based crayfish plague monitoring is superior to conventional trap-based assessments in year-round detection probability. Hydrobiologia, 807(1), 87-97. https://doi.org/10.1007/s10750-017-3408-8"
-msgstr ""
+msgstr "[[wittwer]] Wittwer C, Stoll S, Strand D, Vrålstad T, Nowak C, & Thines M (2018). eDNA-based crayfish plague monitoring is superior to conventional trap-based assessments in year-round detection probability. Hydrobiologia, 807(1), 87-97. https://doi.org/10.1007/s10750-017-3408-8"
 
 #. type: Plain text
 #: bibliography.en.adoc:69
 msgid "[[yates]] Yates MC, Fraser DJ & Derry AM (2019) Meta‐analysis Supports Further Refinement of eDNA for Monitoring Aquatic Species‐specific Abundance in Nature. Environmental DNA. https://doi.org/10.1002/edn3.7."
-msgstr ""
+msgstr "[[yates]] Yates MC, Fraser DJ & Derry AM (2019) Meta‐analysis Supports Further Refinement of eDNA for Monitoring Aquatic Species‐specific Abundance in Nature. Environmental DNA. https://doi.org/10.1002/edn3.7."
 
 #. type: Plain text
 #: bibliography.en.adoc:70
 msgid "[[yilmaz]] Yilmaz P, Kottmann R, Field D, Knight R, Cole JR, Amaral-Zettler L, Gilbert JA, Karsch-Mizrachi I, Johnston A, Cochrane G & Vaughan R (2011) Minimum information about a marker gene sequence (MIMARKS) and minimum information about any (x) sequence (MIxS) specifications. Nature Biotechnology 29(5): 415. https://doi.org/10.1038/nbt.1823"
-msgstr ""
+msgstr "[[yilmaz]] Yilmaz P, Kottmann R, Field D, Knight R, Cole JR, Amaral-Zettler L, Gilbert JA, Karsch-Mizrachi I, Johnston A, Cochrane G & Vaughan R (2011) Minimum information about a marker gene sequence (MIMARKS) and minimum information about any (x) sequence (MIxS) specifications. Nature Biotechnology 29(5): 415. https://doi.org/10.1038/nbt.1823"
 
