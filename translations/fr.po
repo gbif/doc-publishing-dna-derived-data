@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2021-12-21 21:30\n"
+"PO-Revision-Date: 2021-12-22 00:47\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -506,12 +506,12 @@ msgstr "Les séquences prétraitées peuvent ensuite être assignées à un taxo
 #. type: Plain text
 #: 100.en.adoc:100
 msgid "The PCR used for generating the sequencing library can result in the generation of artefactual sequences in the form of chimeras; a single sequence that originates from multiple parent sequences. Such sequences can be detected bioinformatically and removed, and this is typically done after OTU clustering or denoising."
-msgstr ""
+msgstr "La PCR utilisée pour générer la bibliothèque de séquençage peut entraîner la génération de séquences artéfactuelles sous la forme de chimères ; une séquence unique qui provient de plusieurs séquences parentales. De telles séquences peuvent être détectées à l'aide d'outils bio-informatique, et cela se fait généralement après le regroupement ou la suppression du bruit des UTOs."
 
 #. type: Plain text
 #: 100.en.adoc:102
 msgid "Finally, the pre-processed sequences, OTUs or ASVs, are taxonomically classified by comparing them to a database of annotated sequences (often referred to as reference libraries, see <<taxonomy-of-sequences>>). As with the previous steps, several alternative methods are available. Most of these are either based on aligning the metabarcoding sequences to the reference sequences or on counting shared k-mers (short exact sequences)."
-msgstr ""
+msgstr "Enfin, les séquences prétraitées, OTUs ou ASVs, sont classées taxonomiquement en les comparant à une base de données de séquences annotées (souvent appelées bibliothèques de références, voir <<taxonomie-de-séquences>>). Comme pour les étapes précédentes, plusieurs méthodes alternatives sont disponibles. La plupart d'entre elles sont basés soit sur l'alignement des séquences de métabarcodage sur les séquences de référence, soit sur le nombre de k-mers partagées (séquences courtes exactes)."
 
 #. type: Plain text
 #: 100.en.adoc:104
