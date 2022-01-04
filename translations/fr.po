@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2022-01-04 20:20\n"
+"PO-Revision-Date: 2022-01-04 23:42\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -547,56 +547,56 @@ msgstr "La plupart des plateformes actuelles de données sur la biodiversité so
 #. type: Plain text
 #: 100.en.adoc:116
 msgid "In contrast to classical taxonomy, which is a heavily manual process, clustering DNA sequences into taxonomic concepts relies on algorithmic analysis of similarity and other signals (such as phylogeny and probability), as well as some human editing. The resulting OTUs vary in stability, presence of reference sequences and physical material, alignments and cut-off values, and OTU identifiers such as DOIs (https://doi.org/10.1093/nar/gky1022[Nilsson et al. 2019^]). Even more importantly, they vary in scale, from local study- or project-specific libraries to global databases that enable broader cross-study comparison. In contrast to the centralization and codification of Linnaean taxa that are formally described in research publications, OTUs are distributed across multiple evolving digital reference libraries that differ in taxonomic focus, barcode genes and other factors. By associating standard sequences with identified reference specimens, BOLD and UNITE are establishing an essential mapping layer for linking ASVs and OTUs with the foundations of the Linnaean taxonomic framework. The GBIF backbone taxonomy includes identifiers for UNITE Species Hypotheses as well as Barcode index numbers which allows indexing of species occurrence data taxonomically annotated at the OTU level for Fungi and Animals (https://www.gbif.org/news/2LrgV5t3ZuGeU2WIymSEuk/adding-sequence-based-identifiers-to-backbone-taxonomy-reveals-dark-taxa-fungi[GBIF secretariat 2018^], https://data-blog.gbif.org/post/gbif-backbone-taxonomy[Grosjean 2019^])."
-msgstr ""
+msgstr "Contrairement à la taxonomie classique, qui est un processus fortement manuel, regrouper des séquences d'ADN dans des concepts taxonomiques repose sur l'analyse algorithmique de similarité et d'autres signaux (comme la phylogénie et la probabilité), ainsi que sur quelques modifications humaines. Les UTOs qui en résultent varient en stabilité, présence de séquences de référence et de matériel physique, alignements et valeurs de coupure et en identifiants OTU tels que les DOI (https://doi.org/10.1093/nar/gky1022[Nilsson et al. 2019^]). Plus important encore, elles varient en échelle, allant de bibliothèques spécifiques à l'étude ou au projet local, aux bases de données globales qui permettent une comparaison plus large entre les études. Contrairement à la centralisation et à la codification des taxons Linnéens qui sont formellement décrits dans les publications de recherche, les UTOs sont répartis dans de nombreuses bibliothèques de référence numériques en constante évolution, qui diffèrent en fonction du focus taxonomique, des gènes de code-barres et d'autres facteurs. En associant des séquences standards à des spécimens de référence identifiés, BOLD et UNITE établissent une couche de cartographie essentielle pour relier les ASVs et OTUs aux fondations de la structure taxonomique Linnéenne. La taxonomie de base du GBIF inclut des identifiants pour les Hypothèses d'espèces UNITE ainsi que des numéros d'index de code-barres qui permettent l'indexation des données d'occurrence d'espèces annotées taxonomiquement au niveau de l'OTU pour les champignons et les animaux (https://www.gbif.org/news/2LrgV5t3ZuGeU2WIymSEuk/adding-sequence-based-identifiers-to-backbone-taxonomy-reveals-dark-taxa-fungi[secrétariat du GBIF 2018^], https://data-blog.gbif.org/post/gbif-backbone-taxonomy[Grosjean 2019^])."
 
 #. type: Plain text
 #: 100.en.adoc:118
 msgid "Algorithms for taxonomic annotation of eDNA will typically assign each unique sequence to the nearest taxonomic group in a reference set, based on some criteria for relatedness and confidence. For poorly known groups of organisms, such as prokaryotes, insects and fungi, the annotation may be a non-Linnaean placeholder name for a (cluster-based) taxon, and this taxon may represent a species or even a taxonomic unit above the species level. No reference database contains all species in a given group due to the many unknown, unidentified, and yet undescribed species on earth. Frequent neglections of this fact has been the source of numerous taxonomic misidentifications during the last 30 years."
-msgstr ""
+msgstr "Les algorithmes d'annotation taxonomique de l'eADN assigneront généralement chaque séquence unique au groupe taxonomique le plus proche dans un ensemble de références, sur la base de certains critères de parenté et de confiance. Pour les groupes d'organismes mal connus, tels que les prokaryotes, les insectes et les champignons, l'annotation peut être un nom réservé non Linnéen pour un taxon (basé sur le cluster), et ce taxon peut représenter une espèce ou même une unité taxonomique au-dessus du niveau de l'espèce. Aucune base de données de référence ne contient toutes les espèces d'un groupe donné en raison des nombreuses espèces inconnues, non identifiées et non encore décrites sur terre. L'omission fréquente de ce fait ont été la source de nombreuses erreurs taxonomiques au cours des 30 dernières années."
 
 #. type: Plain text
 #: 100.en.adoc:120
 msgid "During import into the biodiversity platform, the taxonomic resolution for these occurrences may be reduced even further, as the reference set used for annotation may not be included in the taxonomic index of that platform. Records assigned to a well defined cluster within a genus are likely to be treated as undefined records of that genus. The inclusion of the underlying sequence within or by reference in each record will allow future users to potentially identify the organism to a greater level of granularity, particularly as reference libraries improve over time. In cases where the underlying sequence cannot be included as part of the submitted data, we advocate deposition of a (scientific or placeholder) name of the taxon plus an MD5 checksum of the sequence as a unique taxon ID (see xref:data-mapping[xrefstyle=\"full\"]). MD5 checksums are unidirectional hash algorithms commonly used for verifying file integrity (ref). In this case, they would provide a unique and repeatable representation of the original sequence that would nevertheless not allow the sequence itself to be recovered. This may be required in cases where sensitivity exists around access. MD5 checksums enable efficient query to determine whether the same exact sequence has been recovered in other eDNA efforts, but it is not a complete replacement of the sequence as MD5s do not enable further analyses. Two sequences differing by even a single base will get two completely different MD5 checksums, such that BLAST-style sequence similarity searches will not work."
-msgstr ""
+msgstr "Lors de l'importation dans la plateforme de données de biodiversité, la résolution taxonomique pour ces occurrences pourrait être réduite encore davantage, car le jeu de référence utilisé pour l'annotation peut ne pas être inclus dans l'index taxonomique de cette plateforme. Les enregistrements assignés à un groupe bien défini dans un genre sont susceptibles d'être traités comme des enregistrements indéterminés de ce genre. L'inclusion de la séquence sous-jacente à l'intérieur ou en référence à chaque enregistrement permettra potentiellement aux futurs utilisateurs d'identifier l'organisme à un plus grand niveau de granularité, puisque les bibliothèques de référence s'améliorent au fil du temps. Dans les cas où la séquence sous-jacente ne peut pas être incluse dans les données soumises, nous préconisons le dépôt d'un nom (scientifique ou nom fictif) du taxon plus une somme de contrôle MD5 de la séquence en tant qu'identifiant unique de taxon (voir xref:data-mapping[xrefstyle=\"full\"]). Les sommes de contrôle MD5 sont des algorithmes de hachage unidirectionnel couramment utilisés pour vérifier l'intégrité du fichier (ref). Dans ce cas, elles fourniraient une représentation unique et répétable de la séquence originale qui ne permettrait toutefois pas de récupérer la séquence elle-même. Cela pourrait-être nécessaire dans les cas où l'accès à ces données est sensible. Les sommes de contrôle MD5 permettent une recherche efficace pour déterminer si la même exacte séquence a été récupérée dans d'autres efforts d'eDNA, mais ce n'est pas un remplacement complet de la séquence car les MD5 ne permettent pas de nouvelles analyses. Deux séquences ne différant que par une seule base auront deux sommes de contrôle MD5 complètement différentes, de sorte que les recherches de similitude de séquence de type BLAST ne fonctionneront pas."
 
 #. type: Title ===
 #: 100.en.adoc:121
 #, no-wrap
 msgid "Outputs"
-msgstr ""
+msgstr "Résultats"
 
 #. type: Plain text
 #: 100.en.adoc:124
 msgid "The purpose of exposing DNA-derived data through biodiversity platforms is to enable reuse of these data alongside other biodiversity data types. It is very important to keep this reuse in mind when preparing your data for publication. Ideally, the metadata and data should tell a complete story in such a way that new, uninformed users can use this evidence without any additional consultations or correspondence. Biodiversity data platforms provide search, filtering, browsing, visualizations, data access, and data citation functionality. For metabarcoding data we encourage users to configure filters for organismQuantity, organismQuantityType, sampleSizeValue, sampleSizeUnit. These can be used exclude singletons and/or set thresholds for relative number of sequence reads within a sample (<<mapping-metabarcoding-edna-and-barcoding-data>>). Users can often choose data-output formats (e.g. DwC-A, CSV) and then process, clean and transform data into the shape and format needed for the analyses."
-msgstr ""
+msgstr "L’objectif d'exposer des données dérivées de l’ADN par le biais de plateformes sur la biodiversité est de permettre la réutilisation de ces données parallèlement aux autres types de données sur la biodiversité. Il est très important de garder cette réutilisation à l'esprit lors de la préparation de vos données pour publication. Idéalement, les métadonnées et les données devraient raconter une histoire complète de telle manière que des utilisateurs nouveaux, non informés pourront utiliser cette preuve sans consultations ni correspondances additionnelles. Les plateformes de données sur la biodiversité fournissent des fonctionnalités de recherche, filtrage, navigation, visualisations, accès aux données et citation des données. Pour les données de métabarcodage, nous encourageons les utilisateurs à configurer des filtres pour organismQuantity, organismQuantityType, sampleSizeValue, sampleSizeUnit. Ces filtres peuvent être utilisées pour exclure les exemplaires uniques (singletons) et/ou fixer des seuils pour le nombre relatif de lectures de séquence dans un échantillon (<<mapping-metabarcoding-edna-and-barcoding-data>>). Les utilisateurs peuvent souvent choisir le format de sortie de données (par exemple DwC-A, CSV) et ensuite traiter, nettoyer et transformer les données dans la configuration et le format nécessaires aux analyses."
 
 #. type: Plain text
 #: 100.en.adoc:126
 msgid "At GBIF.org or through the GBIF API, registered users can search, filter, and download biodiversity data in the following three formats:"
-msgstr ""
+msgstr "Sur GBIF.org ou via l'API GBIF, les utilisateurs enregistrés peuvent chercher, filtrer et télécharger des données sur la biodiversité dans les trois formats suivants :"
 
 #. type: Plain text
 #: 100.en.adoc:128
 #, no-wrap
 msgid "*Simple*: a simple, tab-delimited format which includes only the GBIF-interpreted version of the data, as a result of the indexing process. This is suitable for quick tests and direct import into spreadsheets. \n"
-msgstr ""
+msgstr "*Simple* : un format simple, délimité par des tabulations qui n'inclut que la version interprétée par GBIF des données, à la suite du processus d'indexation. Ceci est approprié pour les tests rapides et l'importation directe dans les feuilles de calcul. \n"
 
 #. type: Plain text
 #: 100.en.adoc:129
 #, no-wrap
 msgid "*Darwin Core Archive*: richer format that includes both the interpreted data and the original verbatim version provided by the publisher (prior to indexing and interpretation by GBIF). Because it includes all the metadata and issue flags, this format provides a richer view of the downloaded dataset. \n"
-msgstr ""
+msgstr "*Darwin Core Archive* : format plus riche qui inclut à la fois les données interprétées et la version originale verbatim fournie par l'éditeur (avant l'indexation et l'interprétation par GBIF). Puisqu'il inclut toutes les métadonnées et les indicateurs de problème, ce format fournit une vue plus riche du jeu de données téléchargé. \n"
 
 #. type: Plain text
 #: 100.en.adoc:130
 #, no-wrap
 msgid "*Species list*: a simple table format that includes only an interpreted list of unique species names from a dataset or query result. \n"
-msgstr ""
+msgstr "*Liste d'espèces* : un format de table simple qui ne comprend qu'une liste interprétée de noms d'espèces uniques à partir d'un jeu de données ou d'un résultat de requête. \n"
 
 #. type: Plain text
 #: 100.en.adoc:131
 msgid "Regardless of the selected format, each GBIF user download receives a reusable link to the query and a data citation that includes a DOI. This DOI-based citation system provides the means of recognizing and crediting uses to datasets and data originators, improving both the credibility and transparency of the findings based on the data. It is essential to follow data citation recommendations and use DOIs, as good data citation culture is not only the academic norm, but also a powerful mechanism for crediting acknowledging and, therefore, incentivizing data publishers."
-msgstr ""
+msgstr "Quel que soit le format sélectionné, chaque téléchargement d'utilisateur du GBIF reçoit un lien réutilisable vers la requête et une citation des données incluant un DOI. Ce système de référence basé sur le DOI fournit un moyen permettant de reconnaître et de créditer les utilisations des jeux de données et des fournisseurs de données, améliorant à la fois la crédibilité et la transparence des résultats basés sur ces données. Il est essentiel de suivre les recommandations de citation de données et d'utiliser les DOIs, une bonne culture de citation de données n'étant pas seulement la norme académique, mais aussi un mécanisme puissant pour créditer, reconnaitre et, par conséquent, encourager les éditeurs de données."
 
 #. type: Title ==
 #: 200.en.adoc:1
@@ -1617,7 +1617,7 @@ msgstr "Glossaire"
 #: glossary.en.adoc:5
 #, no-wrap
 msgid "[[ala]]Atlas of Living Australia (ALA)"
-msgstr ""
+msgstr "[[ala]]Atlas of Living Australia (ALA)"
 
 #. type: Plain text
 #: glossary.en.adoc:6
@@ -1969,12 +1969,12 @@ msgstr "Voir <otu,Operational Taxonomic Unit (OTU)>."
 #: glossary.en.adoc:38
 #, no-wrap
 msgid "[[ncbi]]National Center for Biotechnology Information (NCBI)"
-msgstr ""
+msgstr "[[ncbi]]Centre National d'Information sur la Biotechnologie (NCBI)"
 
 #. type: Plain text
 #: glossary.en.adoc:39
 msgid "Division of United States National Library of Medicine (NLM) housing important bioinformatics resources, such as the GenBank database of DNA sequences, and the <<sra,Sequence Read Archive (SRA)>> of high throughput sequencing data."
-msgstr ""
+msgstr "Division de la Bibliothèque Nationale de Médecine des États-Unis (NLM) hébergeant d'importantes ressources bio-informatiques, comme la base de données GenBank des séquences d'ADN, et le <<sra,Sequence Read Archive (SRA)>> des données de séquence à haut débit."
 
 #. type: Labeled list
 #: glossary.en.adoc:39
@@ -1991,12 +1991,12 @@ msgstr "Voir <hts,High-throughput sequencing (HTS)>."
 #: glossary.en.adoc:40
 #, no-wrap
 msgid "[[occurrence]]Occurrence"
-msgstr ""
+msgstr "[[occurrence]]Occurrence"
 
 #. type: Plain text
 #: glossary.en.adoc:41
 msgid "An existence of an Organism (sensu http://rs.tdwg.org/dwc/terms/Organism) at a particular place at a particular time."
-msgstr ""
+msgstr "Une existence d'un Organisme (sensu http://rs.tdwg.org/dwc/terms/Organism) à un endroit particulier à un moment donné."
 
 #. type: Labeled list
 #: glossary.en.adoc:41
