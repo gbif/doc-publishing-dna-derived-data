@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2022-01-04 23:42\n"
+"PO-Revision-Date: 2022-01-05 22:00\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -1622,7 +1622,7 @@ msgstr "[[ala]]Atlas of Living Australia (ALA)"
 #. type: Plain text
 #: glossary.en.adoc:6
 msgid "The ALA is a web-based platform that pulls together Australian biodiversity data from multiple sources, making it accessible and reusable to anyone (see https://www.ala.org.au/about-ala/). The open infrastructure platform developed by the ALA is also used by several other countries for their own national biodiversity data platform (see https://living-atlases.gbif.org/)."
-msgstr ""
+msgstr "ALA est une plateforme web qui rassemble des données sur la biodiversité australienne provenant de sources multiples, ce qui la rend accessible et réutilisable pour tout le monde (voir https://www.ala.org.au/about-ala/). La plateforme d'infrastructure ouverte développée par ALA est également utilisée par plusieurs autres pays pour leur propre plateforme nationale de données sur la biodiversité (voir https://living-atlases.gbif.org/)."
 
 #. type: Labeled list
 #: glossary.en.adoc:6
