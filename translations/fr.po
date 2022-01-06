@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2022-01-05 22:00\n"
+"PO-Revision-Date: 2022-01-06 01:01\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -1639,12 +1639,12 @@ msgstr "Séquence d’ADN individuelle produite par séquençage à haut débit 
 #: glossary.en.adoc:7
 #, no-wrap
 msgid "[[api]]Application Programming Interface (API)"
-msgstr ""
+msgstr "[[api]]Interface de Programmation d'Applications (API)"
 
 #. type: Plain text
 #: glossary.en.adoc:8
 msgid "Set of protocols and tools for interaction and data transmission between different computer applications."
-msgstr ""
+msgstr "Ensemble de protocoles et d'outils pour l'interaction et la transmission de données entre différentes applications informatiques."
 
 #. type: Labeled list
 #: glossary.en.adoc:8
@@ -1716,12 +1716,12 @@ msgstr "Format de fichier compressé (ZIP) pour l'échange de données sur la bi
 #: glossary.en.adoc:14
 #, no-wrap
 msgid "[[dwc-standard]]Darwin Core (DwC) standard"
-msgstr ""
+msgstr "[[dwc-standard]]Standar Darwin Core (DwC)"
 
 #. type: Plain text
 #: glossary.en.adoc:15
 msgid "Standard for sharing and publishing biodiversity data, originating from the Biodiversity Information Standards (TDWG) community. In principle, a set of terms used for describing different entities of biodiversity observations, such as sampling events, occurrences and taxa. Current Darwin Core terms are described in the https://dwc.tdwg.org/terms/[Quick Reference Guide]."
-msgstr ""
+msgstr "Norme de partage et de publication des données sur la biodiversité, provenant de la communauté des Normes d'Information sur la Biodiversité (Biodiversity Information Standards, TDWG). En principe, un ensemble de termes utilisés pour décrire les différentes entités d’observations de la biodiversité, telles que les événements d’échantillonnage, les occurrences et les taxa. Les termes actuels du Darwin Core sont décrits dans le https://dwc.tdwg.org/terms/[Guide de référence rapide]."
 
 #. type: Labeled list
 #: glossary.en.adoc:15
@@ -1815,12 +1815,12 @@ msgstr "Fragment d'ADN court, simple brin synthétisé avec un marquage fluoresc
 #: glossary.en.adoc:24
 #, no-wrap
 msgid "[[embl]]European Bioinformatics Institute (EMBL-EBI)"
-msgstr ""
+msgstr "[[embl]]Institut de Bio-informatique Européen (EMBL-EBI)"
 
 #. type: Plain text
 #: glossary.en.adoc:25
 msgid "Intergovernmental organization for bioinformatics research and services, part of the European Molecular Biology Laboratory (EMBL), providing eg. (raw) sequence reads and assembly data via <<ena,the European Nucleotide Archive (ENA)>>."
-msgstr ""
+msgstr "Organisation intergouvernementale pour la recherche et les services en bio-informatique, faisant partie du Laboratoire Européen de biologie moléculaire (EMBL), fournissant par exemple des séquences (brutes) et des données d'assemblage via <<ena, Archives européennes de nucléotides (ENA)>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:25
@@ -1837,7 +1837,7 @@ msgstr "ADN provenant d'un échantillon environnemental, par exemple le sol, l'e
 #: glossary.en.adoc:26
 #, no-wrap
 msgid "[[ena]]European Nucleotide Archive (ENA)"
-msgstr ""
+msgstr "[[ena]]Archives européennes de nucléotides (ENA)"
 
 #. type: Plain text
 #: glossary.en.adoc:27
