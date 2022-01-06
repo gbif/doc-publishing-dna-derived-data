@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2022-01-06 01:01\n"
+"PO-Revision-Date: 2022-01-06 03:59\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -1842,7 +1842,7 @@ msgstr "[[ena]]Archives européennes de nucléotides (ENA)"
 #. type: Plain text
 #: glossary.en.adoc:27
 msgid "European repository for nucleotide sequences, covering raw sequencing data, sequence assembly information and functional annotation. Includes the <<sra,Sequence Read Archive (SRA)>>, and is maintained by the European Bioinformatics Institute (EMBL-EBI), as part of <<insdc, the International Nucleotide Sequence Database Collaboration (INSDC)>>."
-msgstr ""
+msgstr "Dépôt européen de séquences de nucléotides, couvrant les données de séquençage brutes, les informations d'assemblage de séquences et les annotations fonctionnelles. Inclut le <<sra,Sequence Read Archive (SRA)>>, et est maintenu par l'Institut Européen de Bioinformatique (EMBL-EBI), dans le cadre de la <<insdc, International Nucleotide Sequence Database Collaboration (INSDC)>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:27
@@ -1859,34 +1859,34 @@ msgstr "Standard textuel pour le stockage des séquences moléculaires et des me
 #: glossary.en.adoc:28
 #, no-wrap
 msgid "[[gbif]]Global Biodiversity Information Facility (GBIF)"
-msgstr ""
+msgstr "[[gbif]]Système mondial d'information sur la biodiversité (GBIF)"
 
 #. type: Plain text
 #: glossary.en.adoc:29
 msgid "International network and research infrastructure, mainly focused on mobilizing and providing open access to global biodiversity data."
-msgstr ""
+msgstr "Réseau international et infrastructure de recherche, principalement axé sur la mobilisation et la publication en accès libre aux données mondiales sur la biodiversité."
 
 #. type: Labeled list
 #: glossary.en.adoc:29
 #, no-wrap
 msgid "[[ggbn]]Global Genome Biodiversity Network (GGBN)"
-msgstr ""
+msgstr "[[ggbn]]Réseau mondial sur la biodiversité génomique (Global Genome Biodiversity Network, GGBN)"
 
 #. type: Plain text
 #: glossary.en.adoc:30
 msgid "International network of institutions concerned with efficient sharing and usage of genomic biodiversity samples and associated metadata, e.g. promoting the Darwin Core-compatible GGBN Data Standard."
-msgstr ""
+msgstr "Réseau international d'institutions soucieuses du partage et de l'utilisation efficaces d'échantillons génomiques sur la biodiversité et des métadonnées associées, faisant par exemple la promotion du standard de données GGBN compatible avec Darwin Core."
 
 #. type: Labeled list
 #: glossary.en.adoc:30
 #, no-wrap
 msgid "[[gps]]Global Positioning System (GPS)"
-msgstr ""
+msgstr "[[gps]]Système de positionnement global (GPS)"
 
 #. type: Plain text
 #: glossary.en.adoc:31
 msgid "Satellite navigation system operated by the United States Space Force."
-msgstr ""
+msgstr "Système de navigation par satellite exploité par la Force spatiale américaine."
 
 #. type: Labeled list
 #: glossary.en.adoc:31
@@ -1903,23 +1903,23 @@ msgstr "Différentes technologies pour le séquençage massivement parallèle, p
 #: glossary.en.adoc:32
 #, no-wrap
 msgid "[[ingest]]Ingestion"
-msgstr ""
+msgstr "[[ingest]]Ingestion"
 
 #. type: Plain text
 #: glossary.en.adoc:33
 msgid "Process of importing data from heterogeneous sources, such as local databases, text files or spreadsheets, to a common destination system, such as an online <<biodiversity-data-platform, biodiversity data platform>>, for storage and further analysis. Typically includes steps of extraction, transformation (cleaning) and loading (ETL)."
-msgstr ""
+msgstr "Processus d'importation de données à partir de sources hétérogènes, telles que des bases de données locales, des fichiers texte ou des feuilles de calcul, vers un système de destination commun, tel qu'une <<biodiversity-data-platform, plateforme de données de biodiversité>> en ligne, pour stockage et analyse ultérieure. Inclut généralement les étapes d'extraction, de transformation (nettoyage) et de chargement (ETL)."
 
 #. type: Labeled list
 #: glossary.en.adoc:33
 #, no-wrap
 msgid "[[index]]Indexing"
-msgstr ""
+msgstr "[[index]]Indexation"
 
 #. type: Plain text
 #: glossary.en.adoc:34
 msgid "Organization of information in accordance with a specific schema or structure, making data easier to access and present."
-msgstr ""
+msgstr "Organisation des informations selon un schéma ou une structure spécifique, facilitant l'accès et la présentation des données."
 
 #. type: Labeled list
 #: glossary.en.adoc:34
