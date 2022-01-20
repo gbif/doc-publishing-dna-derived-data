@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2022-01-19 17:29\n"
+"PO-Revision-Date: 2022-01-20 09:40\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -185,7 +185,7 @@ msgstr "Image de couverture"
 #. type: Plain text
 #: colophon.en.adoc:51
 msgid "Velvet shank (_Flammulina velutipes_), Kursk, Russian Federation. Photo 2020 Oleg Ryzhkov via https://www.gbif.org/occurrence/2550027893[iNaturalist research-grade observations], licensed under http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0]."
-msgstr "Collybie à pied velouté (_Flammulina velutipes_), Kursk, Russian Federation. Photo 2020 Oleg Ryzhkov via https://www.gbif.org/occurrence/2550027893[iNaturalist research-grade observations], licensed under http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0]."
+msgstr "Collybie à pied velouté (_Flammulina velutipes_), Kursk, Russian Federation. Photo 2020 Oleg Ryzhkov via https://www.gbif.org/occurrence/2550027893[iNaturalist research-grade observations], sous licence http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0]."
 
 #. type: Title ==
 #: preface.en.adoc:2
@@ -299,7 +299,7 @@ msgstr "Public cible"
 #. type: Plain text
 #: 100.en.adoc:18
 msgid "This guide has been developed for multiple target audiences: students planning a first DNA-based study, researchers with old sequences and abundance tables they want to revive or preserve, biodiversity data specialists who are new to DNA-derived occurrences, and bioinformaticians familiar with sequence data but new to biodiversity data platforms. The guide does not directly target users of molecular data in biodiversity data platforms, but such users may find <<outputs,section 1.7 on Outputs>> particularly interesting. The authors' intention is to provide guidance on publishing data and associated attributes from genetic sequence through general biodiversity data platforms."
-msgstr "Ce guide a été élaboré à l'intention de plusieurs publics cibles : les étudiants qui planifient une première étude basée sur l'ADN, les chercheurs qui possèdent d'anciennes séquences et d'anciens tableaux d'abondance qu'ils souhaitent faire revivre ou préserver, les spécialistes des données sur la biodiversité qui s’initient aux occurrences dérivées de l'ADN, et les bioinformaticiens qui sont familiers avec les séquences ADN, mais qui ne connaissent pas les plateformes de données sur la biodiversité. Le guide ne s'adresse pas directement aux utilisateurs des données moléculaires dans les plateformes de données sur la biodiversité, mais ces utilisateurs pourront trouver un intérêt particulier à la section <outputs,section 1.7 on Outputs> sur la sortie des données. L’intention des auteurs est de conseiller et d’instruire sur la publication des données et des attributs associés aux séquences génétiques par le biais de plateformes générales de données sur la biodiversité."
+msgstr "Ce guide a été élaboré à l'intention de plusieurs publics cibles : les étudiants qui planifient une première étude basée sur l'ADN, les chercheurs qui possèdent d'anciennes séquences et d'anciens tableaux d'abondance qu'ils souhaitent faire revivre ou préserver, les spécialistes des données sur la biodiversité qui s’initient aux occurrences dérivées de l'ADN, et les bioinformaticiens qui sont familiers avec les séquences ADN, mais qui ne connaissent pas les plateformes de données sur la biodiversité. Le guide ne s'adresse pas directement aux utilisateurs des données moléculaires dans les plateformes de données sur la biodiversité, mais ces utilisateurs pourront trouver un intérêt particulier à la section <<outputs,section 1.7 on Outputs>> sur la sortie des données. L’intention des auteurs est de conseiller et d’instruire sur la publication des données et des attributs associés aux séquences génétiques par le biais de plateformes générales de données sur la biodiversité."
 
 #. type: Plain text
 #: 100.en.adoc:20
