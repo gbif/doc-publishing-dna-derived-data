@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2022-02-11 11:09\n"
+"PO-Revision-Date: 2022-02-11 14:11\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -130,7 +130,7 @@ msgstr "Contributeurs"
 #. type: Plain text
 #: colophon.en.adoc:31
 msgid "Valuable discussions with members of ELIXIR, iBOL, GGBN, GLOMICON, and OBIS networks contributed to compilation of this draft. We are especially grateful for inputs and encouragement from Kessy Abarenkov, Andrew Bentley, Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, Gabriele Dröge, Torbjørn Ekrem, Tobias Guldberg Frøslev, Birgit Gemeinholzer, Quentin Groom, Tim Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris Mungall, Daniel Noesgaard, Corinna Paeper, Pieter Provoost, Tim Robertson, Saara Suominen, Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger who have contributed to the GBIF community review process."
-msgstr "De précieuses discussions avec les membres des réseaux ELIXIR, iBOL, GGBN, GLOMICON, et OBIS ont contribué à la compilation de ce projet. Nous sommes particulièrement reconnaissants pour les contributions et les encouragements de Kessy Abarenkov, Andrew Bentley, Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, Gabriele Dröge, Torbjørn Ekrem, Tobias Guldberg Frøslev, Birgit Gemeinholzer, Quentin Groom, Tim Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris Mungall, Daniel Noesgaard, Corinna Paeper, Pieter Provoost, Tim Robertson, Saara Suominen, Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger qui ont contribué à la relecture de la communauté du GBIF."
+msgstr "De précieuses discussions avec les membres des réseaux ELIXIR, iBOL, GGBN, GLOMICON, et OBIS ont contribué à la compilation de ce projet. Nous sommes particulièrement reconnaissants pour les contributions et les encouragements de Kessy Abarenkov, Andrew Bentley, Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, Gabriele Dröge, Torbjørn Ekrem, Tobias Guldberg Frøslev, Birgit Gemeinholzer, Quentin Groom, Tim Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris Mungall, Daniel Noesgaard, Corinna Paeper, Pieter Provoost, Tim Robertson, Saara Suominen, Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger qui ont contribué au processus de relecture par la communauté GBIF."
 
 #. type: Title ===
 #: colophon.en.adoc:32
@@ -211,12 +211,12 @@ msgstr "https://www.ala.org.au/blogs-news/edna-records-now-available-on-ala[ALA 
 #. type: Plain text
 #: preface.en.adoc:9
 msgid "https://www.ala.org.au/environmentaldna[Environmental DNA (eDNA) in the ALA]"
-msgstr "https://www.ala.org.au/environmentaldna[ADN de l'environnement (eDNA) dans l'ALA]"
+msgstr "https://www.ala.org.au/environmentaldna[ADN environnemental (eDNA) dans ALA]"
 
 #. type: Plain text
 #: preface.en.adoc:10
 msgid "https://www.ala.org.au/app/uploads/2019/04/Simple-template-for-eDNA-data-entry-to-ALA-v2-1.xlsx[ALA eDNA data template]"
-msgstr "https://www.ala.org.au/app/uploads/2019/04/Simple-templatefor-eDNA-data-entry-to-ALA-v2-1.xlsx[Modèle de données eDNA ALA eDNA]"
+msgstr "https://www.ala.org.au/app/uploads/2019/04/Simple-template-for-eDNA-data-entry-to-ALA-v2-1.xlsx[Modèle de données eDNA ALA]"
 
 #. type: Plain text
 #: preface.en.adoc:11
@@ -231,7 +231,7 @@ msgstr "https://biodiversitydata-se.github.io/mol-data[Données sur la biodivers
 #. type: Plain text
 #: preface.en.adoc:13
 msgid "https://www.gbif.org/faq?question=how-can-i-publish-molecular-data-to-gbif[GBIF resources (How) can I publish molecular/sequence/DNA based data to GBIF?]"
-msgstr "https://www.gbif.org/faq?question=comment-can-i-publish-molecular-data-to-gbif[Ressources du GBIF (Comment) puis-je publier des données basées sur des moléculaires/séquence/ADN au GBIF?]"
+msgstr "https://www.gbif.org/faq?question=how-can-i-publish-molecular-data-to-gbif[Ressources du GBIF (Comment) puis-je publier des données basées sur des moléculaires/séquence/ADN au GBIF?]"
 
 #. type: Plain text
 #: preface.en.adoc:14
