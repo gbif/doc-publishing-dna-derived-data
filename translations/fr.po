@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2022-02-11 17:30\n"
+"PO-Revision-Date: 2022-02-14 13:29\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -25,7 +25,7 @@ msgstr "Publier des données dérivées de l'ADN sur les plateformes de données
 #. type: Plain text
 #: index.en.adoc:34
 msgid "languageLinks:combined[]"
-msgstr "liensLangues:combiné[]"
+msgstr ""
 
 #. type: Target for macro image
 #: colophon.en.adoc:3
