@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
-"POT-Creation-Date: 2021-10-11 13:48+0000\n"
-"PO-Revision-Date: 2022-02-14 14:50\n"
+"POT-Creation-Date: 2022-02-14 15:03+0000\n"
+"PO-Revision-Date: 2022-02-14 15:05\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -488,113 +488,119 @@ msgid "Outline of bioinformatic processing of metabarcoding data."
 msgstr "Aperçu du traitement bio-informatique des données du métabarcodage."
 
 #. type: Target for macro image
-#: 100.en.adoc:93
+#: 100.en.adoc:94
 #, no-wrap
-msgid "img/web/figure-04.en.png"
-msgstr "img/web/figure-04.fr.png"
+msgid "img/print/outline-of-bioinformatic-processing.en.png"
+msgstr ""
+
+#. type: Target for macro image
+#: 100.en.adoc:97
+#, no-wrap
+msgid "img/web/outline-of-bioinformatic-processing.en.svg"
+msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:96
+#: 100.en.adoc:101
 msgid "Typically, the DNA sequences are first pre-processed by removing primer sequences and, depending on the sequencing method used, low quality bases, usually toward the 5’ and 3’ sequence ends. Sequences not fulfilling requirements on length, overall quality, presence of primers, tags etc. are removed."
 msgstr "Généralement, les séquences ADN sont d'abord prétraitées en supprimant les séquences des amorces et, en fonction de la méthode de séquençage utilisée, les bases de faible qualité, généralement vers les extrémités 5' et 3' de la séquence. Les séquences qui ne satisfont pas aux exigences de longueur, de qualité globale, de présence d'amorces, d'étiquettes, etc. sont enlevées."
 
 #. type: Plain text
-#: 100.en.adoc:98
+#: 100.en.adoc:103
 msgid "The pre-processed sequences can then be assigned a taxon by comparing them against reference databases. When reference databases are incomplete, sequences classification can be done without taxonomic identifications, either by clustering sequences into operational taxonomic units based on their similarity (OTUs; https://doi.org/10.1098/rstb.2005.1725[Blaxter et al. 2005^]) or by denoising the data, i.e. explicitly detecting and excluding PCR/sequencing errors sequences to produce amplicon sequence variants (ASV; also referred to as zero radius OTU (zOTU)). Denoising attempts to correct errors that have been introduced in the PCR and/or sequencing steps, such that the denoised sequences are the set of unique biologically real sequences present in the original sequence mixture. In case of paired-end sequences, the forward and reverse sequences may be denoised separately before merging or else merged prior to denoising. ASVs in the resulting set can differ by as little as one base which is indicative of inter- or intraspecific species variation. Operationally, ASVs may be thought of as OTUs without defined radius and while denoising algorithms are typically very good, they do not entirely remove the problems of over-splitting or lumping sequences."
 msgstr "Les séquences prétraitées peuvent ensuite être assignées à un taxon en les comparant aux bases de données de références. Lorsque les bases de données de référence sont incomplètes, la classification des séquences peut être effectuée sans identification taxonomique, soit en regroupant des séquences en unités taxonomiques opérationnelles basées sur leur similitude (OTU ; https://doi.org/10.1098/rstb.2005.1725[Blaxter et al. 2005^]) ou en supprimant le bruit dans les données, c.-à-d. détecter et exclure explicitement les erreurs introduites dans les séquences lors des PCRs ou du séquençage afin de produire des variants de séquence d'amplicon (ASV; aussi appelé zéro rayon OTU (zOTU)). La suppression du bruit tente de corriger les erreurs introduites pendant la PCR et/ou les étapes de séquençage, de sorte que les séquences nettoyées sont l'ensemble de séquences biologiques uniques présentes dans le mélange original de séquence. Dans le cas de séquences double-brins, les séquences sens et anti-sens peuvent être nettoyées séparément avant d'être combinées ou bien combinées avant le nettoyage. Les ASVs dans les ensembles de résultats peuvent différer d'aussi peu qu'une seule base, ce qui est indicatif de variations inter- ou intra-spécifiques. Sur le plan pratique, les ASVs peuvent être considérés comme des UTOs sans rayon défini et bien que les algorithmes de nettoyage soient généralement très efficaces, ils ne suppriment pas entièrement les problèmes de fractionnement ou de regroupement de séquences."
 
 #. type: Plain text
-#: 100.en.adoc:100
+#: 100.en.adoc:105
 msgid "The PCR used for generating the sequencing library can result in the generation of artefactual sequences in the form of chimeras; a single sequence that originates from multiple parent sequences. Such sequences can be detected bioinformatically and removed, and this is typically done after OTU clustering or denoising."
 msgstr "La PCR utilisée pour générer la bibliothèque de séquençage peut entraîner la génération de séquences artéfactuelles sous la forme de chimères ; une séquence unique qui provient de plusieurs séquences parentales. De telles séquences peuvent être détectées à l'aide d'outils bio-informatique, et cela se fait généralement après le regroupement ou la suppression du bruit des UTOs."
 
 #. type: Plain text
-#: 100.en.adoc:102
+#: 100.en.adoc:107
 msgid "Finally, the pre-processed sequences, OTUs or ASVs, are taxonomically classified by comparing them to a database of annotated sequences (often referred to as reference libraries, see <<taxonomy-of-sequences>>). As with the previous steps, several alternative methods are available. Most of these are either based on aligning the metabarcoding sequences to the reference sequences or on counting shared k-mers (short exact sequences)."
 msgstr "Enfin, les séquences prétraitées, OTUs ou ASVs, sont classées taxonomiquement en les comparant à une base de données de séquences annotées (souvent appelées bibliothèques de références, voir <<taxonomie-des-séquences>>). Comme pour les étapes précédentes, plusieurs méthodes alternatives sont disponibles. La plupart d'entre elles sont basés soit sur l'alignement des séquences de métabarcodage sur les séquences de référence, soit sur le nombre de k-mers partagées (séquences courtes exactes)."
 
 #. type: Plain text
-#: 100.en.adoc:104
+#: 100.en.adoc:109
 msgid "Several open source tools and algorithms exist for bioinformatic processing of metabarcoding data (QIIME2 https://doi.org/10.1038/s41587-019-0209-9[(Bolyen et al. 2019)^], DADA2 https://doi.org/10.1038/nmeth.3869[(Callahan et al. 2016)^], SWARM https://doi.org/10.7717/peerj.593[(Mahé et al. 2014)^], USEARCH https://doi.org/10.1093/bioinformatics/btq461p[(Edgar 2010)^], Mothur https://doi.org/10.1128/AEM.01541-09[(Schloss et al. 2009)^], LULU https://doi.org/10.1038/s41467-017-01312-x[(Frøslev et al. 2017)^], PROTAX https://doi.org/10.1093/bioinformatics/btw34[(Somervuo et al. 2016)^]). Given the existence of many popular and well used workflows, we make some recommendations below on analysing data for submission to biodiversity data platforms. This is not to suggest that these are the best methods or most appropriate for all purposes but is an attempt to encourage submission of relatively standardized data that may readily be compared via the platforms. If possible, a well documented and maintained workflow should be used (e.g. https://nf-co.re/ampliseq[nf-core/ampliseq pipeline]). Metadata should include workflow details and versions either in the metadata method steps or as a reference in the SOP field in the DNA derived data extension (see mapping in <<table-04,Table 4>>). Sequence data should be deposited in an appropriate nucleotide archive (NCBI’s SRA: https://doi.org/10.1093/nar/gkq1019[Leinonen et al. 2011^]) or EMBL’s ENA (https://doi.org/10.1093/nar/gkz1063[Amid et al. 2020^])) and data submitted to the biodiversity platform should include the biosample ID obtained from the archive (see data mapping in <<data-mapping>>). Making use of these sample IDs will reduce the chances of duplication and ensure sequence data are readily obtainable should opportunities for re-analysis arise, as reference libraries and bioinformatic tools improve. The core end-product of these pipelines is typically a file of counts of individual OTUs or ASVs in each sample along with the taxonomy assigned to these. This is generated either in tabular format or in the BIOM format (https://doi.org/10.1186/2047-217X-1-7[McDonald et.al 2012^]). OTU or ASV sequences are also usually provided in the FASTA format (https://doi.org/10.1073/pnas.85.8.2444[Pearson & Lipman 1988^])."
 msgstr "Plusieurs outils et algorithmes open source existent pour le traitement bio-informatique des données de métabarcodage (QIIME2 https://doi.org/10.1038/s41587-019-0209-9[(Bolyen et al. 2019)^], DADA2 https://doi.org/10.1038/nmeth.3869[(Callahan et al. 2016)^], SWARM https://doi.org/10.7717/peerj.593[(Mahé et al. 2014)^], USEARCH https://doi.org/10.1093/bioinformatics/btq461p[(Edgar 2010)^], Mothur https://doi.org/10.1128/AEM.01541-09[(Schloss et al. 2009)^], LULU https://doi.org/10.1038/s41467-017-01312-x[(Frøslev et al. 2017)^], PROTAX https://doi.org/10.1093/bioinformatics/btw34[(Somervuo et al. 2016)^]). Étant donné l'existence de nombreux flux de travail populaires et bien utilisés, nous faisons quelques recommandations ci-dessous sur l'analyse des données en vue d'une soumission sur les plates-formes de données sur la biodiversité. Cela ne veut pas dire que ce sont les meilleures méthodes ou les plus appropriées pour tous les objectifs, mais c'est une tentative d'encourager la soumission de données relativement normalisées pouvant être facilement comparées entre les plates-formes. Si possible, un flux de travail bien documenté et maintenu devrait être utilisé (par exemple https://nf-co.re/ampliseq[nf-core/ampliseq pipeline]). Les métadonnées devraient inclure les détails et les versions du flux de travail, soit dans les étapes décrivant la méthode, soit comme une référence dans le champ SOP de l'extension appelée Données dérivées de l'ADN (voir la cartographie dans la <<table-04,Table 4>>). Les données de séquence devraient être déposées dans une plateforme d'archivage de nucléotide appropriée (NCBI SRA: https://doi.org/10.1093/nar/gkq1019[Leinonen et al. 2011^]) ou l'ENA d'EMBL (https://doi.org/10.1093/nar/gkz1063[Amid et al. 20^])) et les données soumises à la plateforme de biodiversité devraient inclure l'identifiant du bioéchantillon obtenu à partir de l'archive (voir la cartographie des données dans <<mapping-des-données>>). L'utilisation de ces identifiants d'échantillons réduira les chances de duplication et permettra d'obtenir facilement des données de séquence en cas de ré-analyse, lors de l'amélioration des bibliothèques de référence et des outils bio-informatiques. Le produit final de base de ces pipelines est généralement un fichier de dénombrement des OTUs ou ASVs individuels de chaque échantillon et de la taxonomie qui leur sont attribués. Ce fichier est généré soit au format tabulaire, soit au format BIOM (https://doi.org/10.1186/2047-217X-1-7[McDonald et.al 2012^]). Les séquences OTU ou ASV sont également généralement fournies au format FASTA (https://doi.org/10.1073/pnas.85.8.2444[Pearson & Lipman 1988^])."
 
-#. type: Title ===
-#: 100.en.adoc:105
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font><div>
+#: 100.en.adoc:110 img/web/sequence-publishing-guide.en.svg:3
 #, no-wrap
 msgid "Taxonomy of sequences"
 msgstr "Taxonomie des séquences"
 
 #. type: Plain text
-#: 100.en.adoc:108
+#: 100.en.adoc:113
 msgid "Taxonomic annotation of sequences is a critical step in the processing of molecular biodiversity datasets, as scientific names are key to accessing and communicating information about the observed organisms. The accuracy and precision of such sequence annotation will depend on the availability of reliable reference databases and libraries across all branches of the tree of life, which in turn will require joint efforts from taxonomists and molecular ecologists. Public sequence databases should always be used knowingly of the fact that they suffer from various shortcomings related to, e.g., taxonomic reliability and lack of standardized metadata vocabularies (https://doi.org/10.1007/s13225-019-00428-3[Hofstetter et al. 2019^]; https://doi.org/10.3897/mycokeys.72.56691[Durkin et al. 2020^])."
 msgstr "L'annotation taxonomique des séquences est une étape critique dans le traitement des ensembles de données de biodiversité moléculaire, car les noms scientifiques sont essentiels pour accéder et communiquer des informations sur les organismes observés. La précision et l'exactitude de cette annotation de séquence dépendront de la disponibilité de bases de données de référence et de bibliothèques fiables à travers toutes les branches de l'arbre de vie, qui, à son tour, nécessitera des efforts conjoints des taxonomistes et des écologistes moléculaires. Les bases de données de séquences publiques devraient toujours être utilisées en prenant conscience du fait qu'elles souffrent de diverses lacunes, par ex. la fiabilité taxonomique et le manque de vocabulaires normalisés de métadonnées (https://doi.org/10.1007/s13225-019-00428-3[Hofstetter et al. 2019^]; https://doi.org/10.3897/mycokeys.72.56691[Durkin et al. 2020^])."
 
 #. type: Plain text
-#: 100.en.adoc:110
+#: 100.en.adoc:115
 msgid "Species, as described by taxonomists, are central to biology and attempts at characterizing biodiversity may therefore make use of the end products of taxonomic research. However, unlike DNA sequence data, taxonomic outputs are not always readily amenable to direct algorithmic or computational interpretation: classical taxonomy is a human-driven process which includes manual steps of taxon delimitation, description and naming, culminating in a formal publication in accordance to the international Codes of Nomenclature. As discussed in previous chapters, DNA sequence-based surveys are very effective at detecting hard to observe species and will often identify the presence of organisms currently outside traditional Linnaean taxonomic knowledge. While these guidelines do not address the publication of alternative species checklists derived from sequence data, the disconnection between traditional taxonomy and eDNA efforts is undesirable. Therefore we offer the following recommendations to readers of this guide."
 msgstr "Les espèces, telles que décrites par les taxonomistes, sont primordiales en biologie et les tentatives de caractérisation de la biodiversité peuvent donc utiliser les résultats de la recherche taxonomique. Cependant, contrairement aux données de séquence d'ADN, les résultats taxonomiques ne sont pas toujours exploitables par des algorithmes directs ou des interprétations informatiques : la taxonomie classique est un processus dirigé par l'homme qui comprend les étapes manuelles de la délimitation des taxons, de description et de désignation, aboutissant à une publication formelle conforme aux Codes internationaux de Nomenclature. Comme discuté dans les chapitres précédents, les analyses basées sur les séquences ADN sont très efficaces pour détecter les espèces difficiles à observer et identifieront souvent la présence d'organismes actuellement en dehors des connaissances taxonomiques linnéennes traditionnelles. Bien que ces lignes directrices n'abordent pas la publication de listes d'espèces alternatives dérivées de données de séquences, la déconnexion entre la taxonomie traditionnelle et les efforts basés sur le eDNA n'est pas souhaitable. En conséquence, nous proposons aux lecteurs de ce guide les recommandations suivantes."
 
 #. type: Plain text
-#: 100.en.adoc:112
+#: 100.en.adoc:117
 msgid "As taxonomy is central to the discovery of biodiversity data, it is highly recommended that any eDNA sequencing efforts should seek to include relevant taxonomic expertise in their study. It will similarly be beneficial if eDNA sequencing studies are able to allocate a portion of their budget to generation and release of reference sequences from previously unsequenced type specimens or other important reference material from the local herbarium, museum, or biological collection. Taxonomists, too, can contribute towards this goal by always including relevant DNA sequences with each new species description (https://doi.org/10.1093/sysbio/syaa026[Miralles et al. 2020^]) and by targeting the many novel biological entities unravelled by eDNA efforts (e.g. https://doi.org/10.1186/s40168-017-0259-5[Tedersoo et al. 2017^])."
 msgstr "La taxonomie étant au cœur de la découverte de données sur la biodiversité, il est fortement recommandé que tout effort de séquençage eADN cherche à inclure l'expertise taxonomique pertinente dans leur étude. Il serait également bénéfique que les projets de séquençage d'eADN puissent allouer une partie de leur budget à la génération et à la publication de séquences de référence à partir de spécimens types non séquencés ou d'autres éléments de référence importants à partir des herbiers, musées ou collections biologiques locales. Les taxonomistes peuvent également contribuer à cet objectif en incluant toujours des séquences d'ADN pertinentes avec chaque nouvelle description d'espèce (https://doi.org/10.1093/sysbio/syaa026[Miralles et al. 2020^]) et en ciblant les nombreuses entités biologiques découvertes par les efforts d'eDNA (par exemple https://doi.org/10.1186/s40168-017-0259-5[Tedersoo et al. 2017^])."
 
 #. type: Plain text
-#: 100.en.adoc:114
+#: 100.en.adoc:119
 msgid "Most current biodiversity data platforms are organized around traditional name lists and taxonomic indexes. As DNA sequence-derived occurrences are rapidly becoming a significant source of biodiversity data, and as official taxonomy and nomenclature for such data lags, it is recommended that data providers and platforms should continue to explore and include more flexible representations of taxonomy into their taxonomic backbones. These new representations include molecular reference databases (e.g., GTDB, BOLD, UNITE) that recognize sequence data as reference material for previously unclassified organisms. Additionally, we suggest other commonly used molecular databases (e.g., PR2, RDP, SILVA) should develop stable identifiers for taxa and make reference sequences available for those taxa, to allow their use as taxonomic references."
 msgstr "La plupart des plateformes actuelles de données sur la biodiversité sont organisées autour de listes de noms traditionnelles et d'index taxonomiques. Étant donné que les occurrences dérivées de séquences d'ADN deviennent rapidement une source importante de données sur la biodiversité, et comme la taxonomie et la nomenclature officielles pour ce type de données manquent, il est recommandé que les fournisseurs et les plateformes de données continuent d’explorer et d’inclure des représentations plus souples de la taxonomie dans leur squelette taxonomique. Ces nouvelles représentations comprennent des bases de données de référence moléculaires (par exemple, GTDB, BOLD, UNITE) qui reconnaissent les données de séquence comme matériel de référence pour les organismes non classifiés précédemment. En outre, nous suggérons que d'autres bases de données moléculaires couramment utilisées (par ex. PR2, RDP, SILVA) devraient mettre au point des identifiants stables pour les taxa et rendre disponible des séquences de référence pour ces taxa, afin de permettre leur utilisation comme références taxonomiques."
 
 #. type: Plain text
-#: 100.en.adoc:116
+#: 100.en.adoc:121
 msgid "In contrast to classical taxonomy, which is a heavily manual process, clustering DNA sequences into taxonomic concepts relies on algorithmic analysis of similarity and other signals (such as phylogeny and probability), as well as some human editing. The resulting OTUs vary in stability, presence of reference sequences and physical material, alignments and cut-off values, and OTU identifiers such as DOIs (https://doi.org/10.1093/nar/gky1022[Nilsson et al. 2019^]). Even more importantly, they vary in scale, from local study- or project-specific libraries to global databases that enable broader cross-study comparison. In contrast to the centralization and codification of Linnaean taxa that are formally described in research publications, OTUs are distributed across multiple evolving digital reference libraries that differ in taxonomic focus, barcode genes and other factors. By associating standard sequences with identified reference specimens, BOLD and UNITE are establishing an essential mapping layer for linking ASVs and OTUs with the foundations of the Linnaean taxonomic framework. The GBIF backbone taxonomy includes identifiers for UNITE Species Hypotheses as well as Barcode index numbers which allows indexing of species occurrence data taxonomically annotated at the OTU level for Fungi and Animals (https://www.gbif.org/news/2LrgV5t3ZuGeU2WIymSEuk/adding-sequence-based-identifiers-to-backbone-taxonomy-reveals-dark-taxa-fungi[GBIF secretariat 2018^], https://data-blog.gbif.org/post/gbif-backbone-taxonomy[Grosjean 2019^])."
 msgstr "Contrairement à la taxonomie classique, qui est un processus fortement manuel, regrouper des séquences d'ADN dans des concepts taxonomiques repose sur l'analyse algorithmique de similarité et d'autres signaux (comme la phylogénie et la probabilité), ainsi que sur quelques modifications humaines. Les UTOs qui en résultent varient en stabilité, présence de séquences de référence et de matériel physique, alignements et valeurs de coupure et en identifiants OTU tels que les DOI (https://doi.org/10.1093/nar/gky1022[Nilsson et al. 2019^]). Plus important encore, elles varient en échelle, allant de bibliothèques spécifiques à l'étude ou au projet local, aux bases de données globales qui permettent une comparaison plus large entre les études. Contrairement à la centralisation et à la codification des taxons Linnéens qui sont formellement décrits dans les publications de recherche, les UTOs sont répartis dans de nombreuses bibliothèques de référence numériques en constante évolution, qui diffèrent en fonction du focus taxonomique, des gènes de code-barres et d'autres facteurs. En associant des séquences standards à des spécimens de référence identifiés, BOLD et UNITE établissent une couche de cartographie essentielle pour relier les ASVs et OTUs aux fondations de la structure taxonomique Linnéenne. La taxonomie de base du GBIF inclut des identifiants pour les Hypothèses d'espèces UNITE ainsi que des numéros d'index de code-barres qui permettent l'indexation des données d'occurrence d'espèces annotées taxonomiquement au niveau de l'OTU pour les champignons et les animaux (https://www.gbif.org/news/2LrgV5t3ZuGeU2WIymSEuk/adding-sequence-based-identifiers-to-backbone-taxonomy-reveals-dark-taxa-fungi[secrétariat du GBIF 2018^], https://data-blog.gbif.org/post/gbif-backbone-taxonomy[Grosjean 2019^])."
 
 #. type: Plain text
-#: 100.en.adoc:118
+#: 100.en.adoc:123
 msgid "Algorithms for taxonomic annotation of eDNA will typically assign each unique sequence to the nearest taxonomic group in a reference set, based on some criteria for relatedness and confidence. For poorly known groups of organisms, such as prokaryotes, insects and fungi, the annotation may be a non-Linnaean placeholder name for a (cluster-based) taxon, and this taxon may represent a species or even a taxonomic unit above the species level. No reference database contains all species in a given group due to the many unknown, unidentified, and yet undescribed species on earth. Frequent neglections of this fact has been the source of numerous taxonomic misidentifications during the last 30 years."
 msgstr "Les algorithmes d'annotation taxonomique de l'eADN assigneront généralement chaque séquence unique au groupe taxonomique le plus proche dans un ensemble de références, sur la base de certains critères de parenté et de confiance. Pour les groupes d'organismes mal connus, tels que les prokaryotes, les insectes et les champignons, l'annotation peut être un nom réservé non Linnéen pour un taxon (basé sur le cluster), et ce taxon peut représenter une espèce ou même une unité taxonomique au-dessus du niveau de l'espèce. Aucune base de données de référence ne contient toutes les espèces d'un groupe donné en raison des nombreuses espèces inconnues, non identifiées et non encore décrites sur terre. L'omission fréquente de ce fait ont été la source de nombreuses erreurs taxonomiques au cours des 30 dernières années."
 
 #. type: Plain text
-#: 100.en.adoc:120
+#: 100.en.adoc:125
 msgid "During import into the biodiversity platform, the taxonomic resolution for these occurrences may be reduced even further, as the reference set used for annotation may not be included in the taxonomic index of that platform. Records assigned to a well defined cluster within a genus are likely to be treated as undefined records of that genus. The inclusion of the underlying sequence within or by reference in each record will allow future users to potentially identify the organism to a greater level of granularity, particularly as reference libraries improve over time. In cases where the underlying sequence cannot be included as part of the submitted data, we advocate deposition of a (scientific or placeholder) name of the taxon plus an MD5 checksum of the sequence as a unique taxon ID (see xref:data-mapping[xrefstyle=\"full\"]). MD5 checksums are unidirectional hash algorithms commonly used for verifying file integrity (ref). In this case, they would provide a unique and repeatable representation of the original sequence that would nevertheless not allow the sequence itself to be recovered. This may be required in cases where sensitivity exists around access. MD5 checksums enable efficient query to determine whether the same exact sequence has been recovered in other eDNA efforts, but it is not a complete replacement of the sequence as MD5s do not enable further analyses. Two sequences differing by even a single base will get two completely different MD5 checksums, such that BLAST-style sequence similarity searches will not work."
 msgstr "Lors de l'importation dans la plateforme de données de biodiversité, la résolution taxonomique pour ces occurrences pourrait être réduite encore davantage, car le jeu de référence utilisé pour l'annotation peut ne pas être inclus dans l'index taxonomique de cette plateforme. Les enregistrements assignés à un groupe bien défini dans un genre sont susceptibles d'être traités comme des enregistrements indéterminés de ce genre. L'inclusion de la séquence sous-jacente à l'intérieur ou en référence à chaque enregistrement permettra potentiellement aux futurs utilisateurs d'identifier l'organisme à un plus grand niveau de granularité, puisque les bibliothèques de référence s'améliorent au fil du temps. Dans les cas où la séquence sous-jacente ne peut pas être incluse dans les données soumises, nous préconisons le dépôt d'un nom (scientifique ou nom fictif) du taxon plus une somme de contrôle MD5 de la séquence en tant qu'identifiant unique de taxon (voir xref:mapping-des-données[xrefstyle=\"full\"]). Les sommes de contrôle MD5 sont des algorithmes de hachage unidirectionnel couramment utilisés pour vérifier l'intégrité du fichier (ref). Dans ce cas, elles fourniraient une représentation unique et répétable de la séquence originale qui ne permettrait toutefois pas de récupérer la séquence elle-même. Cela pourrait-être nécessaire dans les cas où l'accès à ces données est sensible. Les sommes de contrôle MD5 permettent une recherche efficace pour déterminer si la même exacte séquence a été récupérée dans d'autres efforts d'eDNA, mais ce n'est pas un remplacement complet de la séquence car les MD5 ne permettent pas de nouvelles analyses. Deux séquences ne différant que par une seule base auront deux sommes de contrôle MD5 complètement différentes, de sorte que les recherches de similitude de séquence de type BLAST ne fonctionneront pas."
 
 #. type: Title ===
-#: 100.en.adoc:121
+#: 100.en.adoc:126
 #, no-wrap
 msgid "Outputs"
 msgstr "Résultats"
 
 #. type: Plain text
-#: 100.en.adoc:124
+#: 100.en.adoc:129
 msgid "The purpose of exposing DNA-derived data through biodiversity platforms is to enable reuse of these data alongside other biodiversity data types. It is very important to keep this reuse in mind when preparing your data for publication. Ideally, the metadata and data should tell a complete story in such a way that new, uninformed users can use this evidence without any additional consultations or correspondence. Biodiversity data platforms provide search, filtering, browsing, visualizations, data access, and data citation functionality. For metabarcoding data we encourage users to configure filters for organismQuantity, organismQuantityType, sampleSizeValue, sampleSizeUnit. These can be used exclude singletons and/or set thresholds for relative number of sequence reads within a sample (<<mapping-metabarcoding-edna-and-barcoding-data>>). Users can often choose data-output formats (e.g. DwC-A, CSV) and then process, clean and transform data into the shape and format needed for the analyses."
 msgstr "L’objectif d'exposer des données dérivées de l’ADN par le biais de plateformes sur la biodiversité est de permettre la réutilisation de ces données parallèlement aux autres types de données sur la biodiversité. Il est très important de garder cette réutilisation à l'esprit lors de la préparation de vos données pour publication. Idéalement, les métadonnées et les données devraient raconter une histoire complète de telle manière que des utilisateurs nouveaux, non informés pourront utiliser cette preuve sans consultations ni correspondances additionnelles. Les plateformes de données sur la biodiversité fournissent des fonctionnalités de recherche, filtrage, navigation, visualisations, accès aux données et citation des données. Pour les données de métabarcodage, nous encourageons les utilisateurs à configurer des filtres pour organismQuantity, organismQuantityType, sampleSizeValue, sampleSizeUnit. Ces filtres peuvent être utilisées pour exclure les exemplaires uniques (singletons) et/ou fixer des seuils pour le nombre relatif de lectures de séquence dans un échantillon (<<mapping-du-métabarcoding-edna-et-des-données-de-codes-barres-adn>>). Les utilisateurs peuvent souvent choisir le format de sortie de données (par exemple DwC-A, CSV) et ensuite traiter, nettoyer et transformer les données dans la configuration et le format nécessaires aux analyses."
 
 #. type: Plain text
-#: 100.en.adoc:126
+#: 100.en.adoc:131
 msgid "At GBIF.org or through the GBIF API, registered users can search, filter, and download biodiversity data in the following three formats:"
 msgstr "Sur GBIF.org ou via l'API GBIF, les utilisateurs enregistrés peuvent chercher, filtrer et télécharger des données sur la biodiversité dans les trois formats suivants :"
 
 #. type: Plain text
-#: 100.en.adoc:128
+#: 100.en.adoc:133
 #, no-wrap
 msgid "*Simple*: a simple, tab-delimited format which includes only the GBIF-interpreted version of the data, as a result of the indexing process. This is suitable for quick tests and direct import into spreadsheets. \n"
 msgstr "*Simple* : un format simple, délimité par des tabulations qui n'inclut que la version interprétée par GBIF des données, à la suite du processus d'indexation. Ceci est approprié pour les tests rapides et l'importation directe dans les feuilles de calcul. \n"
 
 #. type: Plain text
-#: 100.en.adoc:129
+#: 100.en.adoc:134
 #, no-wrap
 msgid "*Darwin Core Archive*: richer format that includes both the interpreted data and the original verbatim version provided by the publisher (prior to indexing and interpretation by GBIF). Because it includes all the metadata and issue flags, this format provides a richer view of the downloaded dataset. \n"
 msgstr "*Darwin Core Archive* : format plus riche qui inclut à la fois les données interprétées et la version originale verbatim fournie par l'éditeur (avant l'indexation et l'interprétation par GBIF). Puisqu'il inclut toutes les métadonnées et les indicateurs de problème, ce format fournit une vue plus riche du jeu de données téléchargé. \n"
 
 #. type: Plain text
-#: 100.en.adoc:130
+#: 100.en.adoc:135
 #, no-wrap
 msgid "*Species list*: a simple table format that includes only an interpreted list of unique species names from a dataset or query result. \n"
 msgstr "*Liste d'espèces* : un format de table simple qui ne comprend qu'une liste interprétée de noms d'espèces uniques à partir d'un jeu de données ou d'un résultat de requête. \n"
 
 #. type: Plain text
-#: 100.en.adoc:131
+#: 100.en.adoc:136
 msgid "Regardless of the selected format, each GBIF user download receives a reusable link to the query and a data citation that includes a DOI. This DOI-based citation system provides the means of recognizing and crediting uses to datasets and data originators, improving both the credibility and transparency of the findings based on the data. It is essential to follow data citation recommendations and use DOIs, as good data citation culture is not only the academic norm, but also a powerful mechanism for crediting acknowledging and, therefore, incentivizing data publishers."
 msgstr "Quel que soit le format sélectionné, chaque téléchargement d'utilisateur du GBIF reçoit un lien réutilisable vers la requête et une citation des données incluant un DOI. Ce système de référence basé sur le DOI fournit un moyen permettant de reconnaître et de créditer les utilisations des jeux de données et des fournisseurs de données, améliorant à la fois la crédibilité et la transparence des résultats basés sur ces données. Il est essentiel de suivre les recommandations de citation de données et d'utiliser les DOIs, une bonne culture de citation de données n'étant pas seulement la norme académique, mais aussi un mécanisme puissant pour créditer, reconnaitre et, par conséquent, encourager les éditeurs de données."
 
@@ -626,30 +632,36 @@ msgid "Zoom in of DwC-A / IPT from figure 3 in chapter 1.2. The choice of core e
 msgstr "Figure 5. Zoom sur le DwC-A / IPT de la figure 3 du chapitre 1.2. Le choix de l'entité centrale est principalement une question d'adaptation des données au mécanisme d'importation de données (ingestion) des plateformes de données sur la biodiversité. La plupart des données pourraient être formulées en tant qu'Occurrence, Evénement ou de Taxon, mais comme seul le noyau peut avoir des extensions, cela affectera forcément le choix. Par exemple, ce n'est pas possible d'ajouter des séquences d'ADN aux occurrences si les données sont présentées sous forme d'événements."
 
 #. type: Target for macro image
-#: 200.en.adoc:11
+#: 200.en.adoc:12
 #, no-wrap
-msgid "img/web/figure-05.en.png"
-msgstr "img/web/figure-05.en.png"
+msgid "img/print/dwca-structure.en.png"
+msgstr ""
+
+#. type: Target for macro image
+#: 200.en.adoc:15
+#, no-wrap
+msgid "img/web/dwca-structure.en.svg"
+msgstr ""
 
 #. type: Title ===
-#: 200.en.adoc:13
+#: 200.en.adoc:18
 #, no-wrap
 msgid "Categorization of your data"
 msgstr "Catégorisation des données"
 
 #. type: Plain text
-#: 200.en.adoc:16
+#: 200.en.adoc:21
 msgid "For the purpose of this guide, we categorize data into five categories, linked by a key ID field (_eventID_), equivalent to the standards for general biodiversity data, and include fields relevant for DNA-derived data (see xref:data-mapping[xrefstyle=\"full\"]). These five categories seek to reflect the most commonly used molecular approaches to biodiversity characterization and are I) DNA-derived occurrences, II) enriched occurrences, III) targeted species detection, IV) name references and V) metadata only. Examine the decision tree and proceed to the correct section below."
 msgstr "Pour la finalité de ce guide, nous classons les données en cinq catégories, reliées par un champ d'identification clé (_eventID_), qui correspondent aux standards applicables aux données générales sur la biodiversité, en incluant des champs pertinents pour les données dérivées de l'ADN (voire xref:mapping-des-données[xrefstyle=\"full\"]). Ces cinq catégories représentent les approches moléculaires les plus couramment utilisées pour la caractérisation de la biodiversité et sont les suivantes : I) occurrences dérivées de l'ADN, II) occurrences enrichies, III) détection ciblée d'espèces, IV) références de noms et V) métadonnées. Examinez l'arbre de décision ci-dessous et allez directement à la section qui correspond à vos données."
 
 #. type: Block title
-#: 200.en.adoc:18
+#: 200.en.adoc:23
 #, no-wrap
 msgid "A decision tree for DNA-derived data categorization."
 msgstr "Arbre de décision pour la catégorisation des données dérivées de l'ADN."
 
 #. type: Table
-#: 200.en.adoc:53
+#: 200.en.adoc:58
 #, no-wrap
 msgid "5+|\n"
 "icon:question-circle[] _Is your data (meta)barcoding or qPCR based?_\n\n"
@@ -705,275 +717,275 @@ msgstr "5+|\n"
 "|\n\n"
 
 #. type: Block title
-#: 200.en.adoc:53
+#: 200.en.adoc:58
 #, no-wrap
 msgid "<|*<<category-i,Category I>>* +"
 msgstr "<|*<<category-i,Catégorie I>>* +"
 
 #. type: Table
-#: 200.en.adoc:55
+#: 200.en.adoc:60
 msgid "DNA-based occurrences"
 msgstr "Occurrences dérivées de l'ADN"
 
 #. type: Block title
-#: 200.en.adoc:55
+#: 200.en.adoc:60
 #, no-wrap
 msgid "<|*<<category-ii,Category II>>* +"
 msgstr "<|*<<category-ii,Catégorie II>>* +"
 
 #. type: Table
-#: 200.en.adoc:57
+#: 200.en.adoc:62
 msgid "Enriched occurrences"
 msgstr "Occurrences enrichies"
 
 #. type: Block title
-#: 200.en.adoc:57
+#: 200.en.adoc:62
 #, no-wrap
 msgid "<|*<<category-iv,Category IV>>* +"
 msgstr "<|*<<category-iv,Catégorie IV>>* +"
 
 #. type: Table
-#: 200.en.adoc:59
+#: 200.en.adoc:64
 msgid "Name references"
 msgstr "Références de noms"
 
 #. type: Block title
-#: 200.en.adoc:59
+#: 200.en.adoc:64
 #, no-wrap
 msgid "<|*<<category-v,Category V>>* +"
 msgstr "<category-v,Catégorie V>"
 
 #. type: Table
-#: 200.en.adoc:62
+#: 200.en.adoc:67
 msgid "Metadata-only |"
 msgstr "Métadonnées |"
 
 #. type: Block title
-#: 200.en.adoc:65
+#: 200.en.adoc:70
 #, no-wrap
 msgid "Visual representation of categories I-V."
 msgstr "Représentation visuelle des catégories I-V."
 
 #. type: Target for macro image
-#: 200.en.adoc:66
+#: 200.en.adoc:71
 #, no-wrap
-msgid "img/web/eDNA_categories.en.svg"
-msgstr "img/web/eDNA_categories.en.svg"
+msgid "img/web/eDNA-categories.en.svg"
+msgstr ""
 
 #. type: Title ====
-#: 200.en.adoc:69
+#: 200.en.adoc:74
 #, no-wrap
 msgid "Category I: DNA-derived occurrences"
 msgstr "Catégorie I : occurrences dérivées de l'ADN"
 
 #. type: Plain text
-#: 200.en.adoc:72
+#: 200.en.adoc:77
 msgid "This category concerns data where a DNA sequence or detection through PCR is the only evidence for the presence of a given organism or community. In other words, the data cannot be traced back to an observable specimen. This is the case for many metagenomics, metabarcoding and eDNA studies."
 msgstr "Cette catégorie concerne les données pour lesquelles une séquence d'ADN ou une détection par PCR est la seule preuve de la présence d'un organisme ou d'une communauté donnée. En d'autres termes, les données ne peuvent pas être rattachées à un spécimen observable. C'est le cas de nombreuses études de métagénomique, de métabarcoding et d'eADN."
 
 #. type: Title =====
-#: 200.en.adoc:73
+#: 200.en.adoc:78
 #, no-wrap
 msgid "Examples of DNA-derived occurrence datasets"
 msgstr "Exemples de jeux de données d'occurrences dérivées de l'ADN"
 
 #. type: Plain text
-#: 200.en.adoc:76
+#: 200.en.adoc:81
 msgid "MGnify (2019) Impact of rainforest transformation on phylogenetic and functional diversity of soil prokaryotic communities in Sumatra (Indonesia). Sampling event dataset https://doi.org/10.15468/osp7hi accessed via GBIF.org on 2020-04-16."
 msgstr "MGnify (2019) Impact of rainforest transformation on phylogenetic and functional diversity of soil prokaryotic communities in Sumatra (Indonésie). Ensemble de données d'événements d'échantillonnage https://doi.org/10.15468/osp7hi accédé sur GBIF.org le 2020-04-16."
 
 #. type: Plain text
-#: 200.en.adoc:77
+#: 200.en.adoc:82
 msgid "MGnify (2020) Marine metagenomes from the bioGEOTRACES project. Sampling event dataset https://doi.org/10.15468/oifcho accessed via GBIF.org on 2020-04-16."
 msgstr "MGnify (2020) Métagénomes marins du projet bioGEOTRACES. Ensemble de données sur les événements d'échantillonnage https://doi.org/10.15468/oifcho accessible via GBIF.org le 2020-04-16."
 
 #. type: Plain text
-#: 200.en.adoc:78
+#: 200.en.adoc:83
 msgid "Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr14581. Accessed 24 June 2020)"
 msgstr "Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi. rg/10.1002/edn3.74 (site internet Atlas of Living Australia sur https://collections.ala.org.au/public/show/dr14581. Accessible le 24 juin 2020)"
 
 #. type: Plain text
-#: 200.en.adoc:80 200.en.adoc:93
+#: 200.en.adoc:85 200.en.adoc:98
 msgid "For guidance on how to format and share these datasets, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
 msgstr "Pour des conseils sur la façon de formater et de partager les jeux de données, voir <<mapping-du-métabarcoding-edna-et-des-données-de-codes-barres-adn>>. Les directives générales pour les jeux de données d'occurrence Darwin Core sont également disponibles via https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] et https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
 
 #. type: Title ====
-#: 200.en.adoc:82
+#: 200.en.adoc:87
 #, no-wrap
 msgid "Category II: Enriched occurrences"
 msgstr "Catégorie II: Occurrences enrichies"
 
 #. type: Plain text
-#: 200.en.adoc:85
+#: 200.en.adoc:90
 msgid "If some genetic material is, or can be, associated with an observation or a specimen, we will categorize this type of data as “enriched occurrences”. In this context, the sequences are not the only evidence of occurrences. One can always trace the information back to a vouchered specimen or observed organism. This category includes barcoding datasets and some DNA metabarcoding datasets with reference material for example. For more guidance on barcoding, follow https://www.cbd.int/doc/publications/cbd-ts-94-en.pdf[Centre for Biodiversity Genomics, University of Guelph (2021)]."
 msgstr "Si du matériel génétique est, ou peut être, associé à une observation ou à un spécimen, nous qualifierons ce type de données d'\"occurrences enrichies\". Dans ce contexte, les séquences ne sont pas la seule preuve d’occurrences. On peut toujours remonter l'information jusqu'à un spécimen ou un organisme observé. Cette catégorie comprend les jeux de données de codes-barres ADN et certains jeux de données de métabarcoding de l'ADN avec du matériel de référence, par exemple. Pour plus de conseils sur les codes-barres ADN, suivez le https://www.cbd.int/doc/publications/cbd-ts-94-en.pdf[Centre for Biodiversity Genomics, University of Guelph (2021)]."
 
 #. type: Title =====
-#: 200.en.adoc:86
+#: 200.en.adoc:91
 #, no-wrap
 msgid "Examples of Enriched occurrence datasets"
 msgstr "Exemples de jeux de données d'occurrences enrichies"
 
 #. type: Plain text
-#: 200.en.adoc:89
+#: 200.en.adoc:94
 msgid "The International Barcode of Life Consortium (2016) International Barcode of Life project (iBOL). Occurrence dataset https://doi.org/10.15468/inygc6 accessed via GBIF.org on 2020-04-16."
 msgstr "The International Barcode of Life Consortium (2016) International Barcode of Life project (iBOL). Jeu de données sur les occurrences  https://doi.org/10.15468/inygc6 accessible via GBIF.org le 2020-04-16."
 
 #. type: Plain text
-#: 200.en.adoc:90
+#: 200.en.adoc:95
 msgid "Takamura K (2019) Chironomid Specimen records in the Chironomid DNA Barcode Database. Version 1.9. National Institute of Genetics, ROIS. Occurrence dataset https://doi.org/10.15468/hxhow5 accessed via GBIF.org on 2020-04-16."
 msgstr "Takamura K (2019) Chironomid Specimen records in the Chironomid DNA Barcode Database. Version 1.9. National Institute of Genetics, ROIS. Jeu de données sur les occurrences https://doi.org/10.15468/hxhow5 accessible via GBIF.org le 2020-04-16."
 
 #. type: Plain text
-#: 200.en.adoc:91
+#: 200.en.adoc:96
 msgid "Bessey C, Jarman SN, Stat M, Rohner CA, Bunce M, Koziol A, Power M, Rambahiniarison JM, Ponzo A, Richardson AJ & Berry O (2019) DNA metabarcoding assays reveal a diverse prey assemblage for Mobula rays in the Bohol Sea, Philippines. Ecology and Evolution 9 (5) 2459-2474. https://doi.org/10.1002/ece3.4858, (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr11663. Accessed 24 June 2020)"
 msgstr "Bessey C, Jarman SN, Stat M, Rohner CA, Bunce M, Koziol A, Power M, Rambahiniarison JM, Ponzo A, Richardson AJ & Berry O (2019) DNA metabarcoding assays reveal a diverse prey assemblage for Mobula rays in the Bohol sea, Philippines. Ecology and Evolution 9 (5) 2459-2474. https://doi.org/10.1002/ece3.4858, (Site internet de l'Atlas of Living Australia à https://collections.ala.org.au/public/show/dr11663. Accessible le 24 juin 2020)."
 
 #. type: Title ====
-#: 200.en.adoc:95
+#: 200.en.adoc:100
 #, no-wrap
 msgid "Category III: Targeted species detection (qPCR/ddPCR)"
 msgstr "Catégorie III: Détection ciblée d'espèces (qPCR/dPCR)"
 
 #. type: Plain text
-#: 200.en.adoc:98
+#: 200.en.adoc:103
 msgid "This category concerns data where a specific (qPCR/ddPCR) assay is used to detect the presence (or absence) of a DNA sequence specific to the target organism in an environmental sample. In this case the occurrence record may not even contain sequence data, as it is the process itself that determines the occurrence. With qPCR/ddPCR analyses for targeted species detection, many studies also report absence of that specific species for a given sample. Absence data is highly dependent on the detection limit of the specific assay, as well as field and lab protocols. As for DNA-metabarcoding data there is an issue of both false negatives and false positives, and it is important that sufficient information is reported for evaluating the records."
 msgstr "Cette catégorie concerne les données pour lesquelles un test spécifique (qPCR/dPCR) est utilisé pour détecter la présence (ou l'absence) d'une séquence d'ADN spécifique à l'organisme cible dans un échantillon environnemental. Dans ce cas, l'enregistrement de l’occurrence peut même ne pas contenir de données de séquence, car c'est le processus lui-même qui détermine l’occurrence. Avec les analyses qPCR/dPCR pour la détection ciblée d'espèces, de nombreuses études rapportent également l'absence de l’espèce spécifique pour un échantillon donné. Les données d'absence dépendent fortement de la limite de détection de l'analyse spécifique, ainsi que des protocoles de terrain et de laboratoire. Comme pour les données de métabarcoding de l'ADN, il existe un problème de faux négatifs et de faux positifs, et il est important que des informations suffisantes soient rapportées pour évaluer les enregistrements."
 
 #. type: Title =====
-#: 200.en.adoc:99
+#: 200.en.adoc:104
 #, no-wrap
 msgid "Examples of targeted species occurrence datasets"
 msgstr "Exemples de jeux de données d’occurrences d’espèces ciblées"
 
 #. type: Plain text
-#: 200.en.adoc:101
+#: 200.en.adoc:106
 msgid "Strzelecki, Joanna; Feng, Ming; Berry, Olly; Zhong, Liejun; Keesing, John; Fairclough, David; Pearce, Alan; Slawinski, Dirk; Mortimer, Nick. Location and transport of early life stages of Western Australian Dhufish Glaucosoma hebraicum. Floreat, WA: Fisheries Research and Development Corporation; 2013. http://hdl.handle.net/102.100.100/97533 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr8131. Accessed 22 July 2020)"
 msgstr "Strzelecki, Joanna ; Feng, Ming; Berry, Olly; Zhong, Liejun; Keesing, John; Fairclough, David; Pearce, Alan; Slawinski, Dirk; Mortimer, Nick. Location and transport of early life stages of Western Australian Dhufish Glaucosoma hebraicum. Floreat, WA: Fisheries Research and Development Corporation; 2013. http://hdl.handle.net/102.100.100/97533 (Atlas of Living Australia site at https://collections.ala.org.au/public/show/dr8131. Accessible le 22 juillet 2020)."
 
 #. type: Plain text
-#: 200.en.adoc:103
+#: 200.en.adoc:108
 msgid "For guidance on how to format and share these datasets, see <<mapping-ddpcr-qpcr-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
 msgstr "Pour des conseils sur la manière de formater et de partager ces jeux de données, voir <<mapping-des-données-ddpcr-qpcr>>. Les directives générales pour les jeux de données sur les occurrences Darwin Core sont également disponibles via https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
 
 #. type: Title ====
-#: 200.en.adoc:105
+#: 200.en.adoc:110
 #, no-wrap
 msgid "Category IV: Name references"
 msgstr "Catégorie IV: Noms de référence"
 
 #. type: Plain text
-#: 200.en.adoc:108
+#: 200.en.adoc:113
 msgid "This category corresponds to DNA-derived names, derived from clustering or denoising (error-correction based models), such as stable non-Linnaean Operational Taxonomic Units (OTU), Amplicon Sequence Variant (ASV) and Barcode Index Numbers (BIN)—in other words, any reference to taxa or provisional names that are defined outside of the Linnaean taxonomy. Numerous projects produce local project- or study-specific libraries of OTUs, and although it is technically possible to publish these as checklists, they have limited to no value for data linking or interpretation; as a result, we do not encourage their publication through biodiversity data platforms. However, the inclusion of the widely adopted, stable, global, digitally referenceable OTUs into Linnaean taxonomic backbones is critically important for indexing unnamed “dark” biodiversity. GBIF have accumulated experience in integrating such large and global reference libraries of OTUs into the GBIF taxonomic backbone, which allows the display of OTUs under the nearest parent taxon which has a Latin name (<<figure-otus>>)."
 msgstr "Cette catégorie correspond aux noms dérivés de l'ADN, issus du clustering ou du denoising (modèles basés sur la correction d'erreurs), tels que les unités taxonomiques opérationnelles (OTU) stables non linnéennes, les variantes de séquence d'amplicons (ASV) et les numéros d'index de code-barres (BIN) - en d'autres termes, toute référence à des taxons ou à des noms provisoires définis en dehors de la taxonomie linnéenne. De nombreux projets produisent des bibliothèques locales d'OTUs spécifiques à un projet ou à une étude, et bien qu'il soit techniquement possible de les publier sous forme de checklists, elles n'ont qu'une valeur limitée, voire nulle, pour la mise en relation ou l'interprétation des données ; par conséquent, nous n'encourageons pas leur publication par le biais de plateformes de données sur la biodiversité. Cependant, l'inclusion des OTUs largement adoptées, stables, globales et numériquement référençables dans les bases taxonomiques linnéennes est d'une importance critique pour l'indexation de la biodiversité \"sombre\" sans nom. Le GBIF a accumulé de l'expérience dans l'intégration de ces grandes bibliothèques mondiales de référence d'OTUs dans la colonne vertébrale taxonomique du GBIF, qui permet l'affichage des OTUs sous le taxon parent le plus proche qui a un nom latin (<<figure-otus>>)."
 
 #. type: Block title
-#: 200.en.adoc:110
+#: 200.en.adoc:115
 #, no-wrap
 msgid "OTUs from UNITE (fungi, above) and from BOLD (arthropods, below) are displayed in the GBIF backbone taxonomy under their corresponding parent taxa which have Latin names. Multiple individually observed occurrences of cryptic biodiversity become discoverable together with non-genetic evidence through a single access point."
 msgstr "Les OTUs de UNITE (champignons, en haut) et de BOLD (arthropodes, en bas) sont affichés dans la taxonomie principale du GBIF sous leurs taxons parents correspondants qui ont des noms latins. De multiples occurrences de biodiversité cryptique observées individuellement peuvent être découvertes avec des preuves non génétiques via un point d'accès unique."
 
 #. type: Target for macro image
-#: 200.en.adoc:111
+#: 200.en.adoc:116
 #, no-wrap
-msgid "img/web/figure-06.en.png"
-msgstr "img/web/figure-06.en.png"
+msgid "img/web/otus-from-unite.en.png"
+msgstr ""
 
 #. type: Title =====
-#: 200.en.adoc:113
+#: 200.en.adoc:118
 #, no-wrap
 msgid "Examples of Name references checklists"
 msgstr "Exemples de checklists de noms de référence"
 
 #. type: Plain text
-#: 200.en.adoc:116
+#: 200.en.adoc:121
 msgid "The International Barcode of Life Consortium (2016). International Barcode of Life project (iBOL) Barcode Index Numbers (BINs). Checklist dataset https://doi.org/10.15468/wvfqoi accessed via GBIF.org on 2020-04-16."
 msgstr "The International Barcode of Life Consortium (2016) International Barcode of Life project (iBOL). Jeu de données sur les occurrences https://doi.org/10.15468/wvfqoi accessible via GBIF.org le 2020-04-16."
 
 #. type: Plain text
-#: 200.en.adoc:117
+#: 200.en.adoc:122
 msgid "PlutoF (2019). UNITE - Unified system for the DNA based fungal species linked to the classification. Version 1.2. Checklist dataset https://doi.org/10.15468/mkpcy3 accessed via GBIF.org on 2020-04-16."
 msgstr "PlutoF (2019) - Système unifié pour les espèces fongiques basées sur l'ADN liées à la classification. Version 1.2. Jeu de données de la checklist https://doi.org/10.15468/mkpcy3 accédé via GBIF.org le 2020-04-16."
 
 #. type: Plain text
-#: 200.en.adoc:119
+#: 200.en.adoc:124
 msgid "This guide does not provide mapping recommendations for global OTU checklists / reference libraries (Category IV), and publishing referenceable (project- or study-specific) OTU libraries as checklists is discouraged. For guidance on how to format and share OTU checklists, see the following general Darwin Core guidelines in https://github.com/gbif/ipt/wiki/checklistData#templates[DwC-A template for checklists] and https://www.gbif.org/data-quality-requirements-checklists[Data quality requirements for checklists]. https://www.ebi.ac.uk/ena/submit/mixs-checklists[General guidelines for MIxS checklists]. For advice on how to map global reference libraries of OTUs for inclusion in the GBIF taxonomic backbone, contact the mailto:helpdesk@gbif.org[GBIF help desk]."
 msgstr "Ce guide ne fournit pas de recommandations de mapping pour les checklists globales d’OTUs / bibliothèques de référence (Catégorie IV), et il est déconseillé de publier des bibliothèques OTU référençables (spécifiques à un projet ou à une étude) sous forme de checklists. Pour obtenir des conseils sur la façon de formater et de partager les checklists d’OTUs, consultez les directives directives de Darwin Core suivantes sur https://github.com/gbif/ipt/wiki/checklistData#templates[DwC-A template for checklists] et https://www.gbif.org/data-quality-requirements-checklists[Data quality requirements for checklists]. https://www.ebi.ac.uk/ena/submit/mixs-checklists[General guidelines for MIxS checklists]. Pour obtenir des conseils sur la façon de mapper les bibliothèques de référence mondiales d'OTUs pour les inclure dans la colonne vertébrale taxonomique du GBIF, contactez le mailto:helpdesk@gbif.org[GBIF help desk]."
 
 #. type: Title ====
-#: 200.en.adoc:121
+#: 200.en.adoc:126
 #, no-wrap
 msgid "Category V: Metadata-only datasets"
 msgstr "Catégorie V : jeux de metadonnées uniquement"
 
 #. type: Plain text
-#: 200.en.adoc:124
+#: 200.en.adoc:129
 msgid "Metadata are data about the data and is a description of the dataset in broad terms, such as authors, author affiliations, original research purpose of the dataset, DOI(s), taxonomic scope, temporal scope, and geographical scope. Information regarding laboratory methods and general sequencing methods is included in this category. This category includes datasets or collections that cannot be made available online at the moment, e.g. undigitized work."
 msgstr "Les métadonnées sont des données sur les données et consistent en une description du jeu de données en termes généraux, tels que les auteurs, les affiliations des auteurs, l'objectif original de la recherche liée au jeu de données, les DOI, la portée taxonomique, la portée temporelle, et la portée géographique. Les informations concernant les méthodes de laboratoire et les méthodes générales de séquençage sont incluses dans cette catégorie. Cette catégorie comprend des jeux de données ou des collections qui ne peuvent pas être mis en ligne pour le moment, comme par exemple les travaux non numérisés."
 
 #. type: Title =====
-#: 200.en.adoc:125
+#: 200.en.adoc:130
 #, no-wrap
 msgid "Examples of Metadata-only datasets"
 msgstr "Exemples de jeux de metadonnées uniquement"
 
 #. type: Plain text
-#: 200.en.adoc:128
+#: 200.en.adoc:133
 msgid "Collins E, Sweetlove M (2019). Arctic Ocean microbial metagenomes sampled aboard CGC Healy during the 2015 GEOTRACES Arctic research cruise. SCAR - Microbial Antarctic Resource System. Metadata dataset https://doi.org/10.15468/iljmun accessed via GBIF.org on 2020-04-16."
 msgstr "Collins E, Sweetlove M (2019). Arctic Ocean microbial metagenomes sampled aboard CGC Healy during the 2015 GEOTRACES Arctic research cruise. SCAR - Microbial Antarctic Resource System. Jeu de métadonnées https://doi.org/10.15468/iljmun accessible via GBIF.org on 2020-04-16."
 
 #. type: Plain text
-#: 200.en.adoc:129
+#: 200.en.adoc:134
 msgid "Cary S C (2015). New Zealand Terrestrial Biocomplexity Survey. SCAR - Microbial Antarctic Resource System. Metadata dataset https://doi.org/10.15468/xnzrhq accessed via GBIF.org on 2020-04-16."
 msgstr "Cary S C (2015). New Zealand Terrestrial Biocomplexity Survey. SCAR - Microbial Antarctic Resource System. Jeu de métadonnées https://doi.org/10.15468/xnzrhq accessible via GBIF.org on 2020-04-16."
 
 #. type: Plain text
-#: 200.en.adoc:131
+#: 200.en.adoc:136
 msgid "Mapping recommendations for metadata-only DNA-derived datasets (Category V) is the same as for any other metadata-only datasets, and this guide does not provide any specific mapping recommendations for metadata. Please follow general recommendations of biodiversity data portals, paying attention to https://github.com/gbif/ipt/wiki/resourceMetadata[required and recommended metadata]. Descriptions of field, lab, and bioinformatics steps should be as detailed as possible. Describing your methods as method steps in the EML metadata makes them display on the dataset homepage in GBIF (https://www.gbif.org/dataset/3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f#methodology Frøslev T, Ejrnæs R (2018). BIOWIDE eDNA Fungi dataset. Danish Biodiversity Information Facility. Occurrence dataset https://doi.org/10.15468/nesbvx accessed via GBIF.org on 2021-07-06). However, if a structured and possibly more detailed method description is already published somewhere (e.g. at https://protocols.io[protocols.io] or https://www.neonscience.org/data-collection[NEON protocols collection]), it is straightforward to provide a link through the MIxS SOP field (see <<mapping-metabarcoding-edna-and-barcoding-data>>)."
 msgstr "Les recommandations de mapping pour les jeux de données dérivées de l'ADN (catégorie V) ne comportant que des métadonnées sont les mêmes que pour tous les autres jeux de données qui incluent que des métadonnées, et ce guide ne fournit pas de recommandations de mapping plus spécifiques. Veuillez suivre les recommandations générales des portails de données sur la biodiversité, en prêtant attention à https://github.com/gbif/ipt/wiki/resourceMetadata[required and recommended metadata]. Les descriptions des étapes de terrain, de laboratoire et de bioinformatique doivent être aussi détaillées que possible. La description de vos méthodes en tant qu'étapes de méthode dans les métadonnées EML permet de les afficher sur la page d'accueil du GBIF (https://www.gbif.org/dataset/3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f#methodology Frøslev T, Ejrnæs R (2018). BIOWIDE eDNA Fungi dataset. Danish Biodiversity Information Facility. Occurrence dataset https://doi.org/10.15468/nesbvx accessed via GBIF.org on 2021-07-06). Cependant, si une description structurée et éventuellement plus détaillée de la méthode est déjà publiée quelque part (par exemple, sur https://protocols.io[protocols.io] ou dans https://www.neonscience.org/data-collection[NEON protocols collection]), c'est facile de fournir un lien via le champ MIxS SOP (voir <mapping-metabarcoding-edna-and-barcoding-data>)."
 
 #. type: Title ===
-#: 200.en.adoc:132
+#: 200.en.adoc:137
 #, no-wrap
 msgid "Data mapping"
 msgstr "Mapping des données"
 
 #. type: Plain text
-#: 200.en.adoc:135
+#: 200.en.adoc:140
 msgid "While core files store ubiquitous data on the 'what, where and when' of a record, extension files are used to describe the specifics of a certain type of observation. We propose using the https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml[DNA derived data extension] to complement occurrence data derived from either barcoding, metabarcoding (eDNA) or qPCR/ddPCR. The DNA derived data extension builds on the https://gensc.org/mixs/[Minimum information standards] developed by the Genomic Standards Consortium (GSC) and applied by the https://www.ebi.ac.uk/ena/browser/home[ENA] for https://www.ebi.ac.uk/ena/submit/mixs-checklists[submission of eDNA sample metadata], for example. We are following and have contributed to the guidelines proposed by the https://github.com/tdwg/gbwg/tree/main/dwc-mixs[Sustainable DwC-MIxS interoperability task group under TDWG]. To improve indexing and search we have opted to split some MIxS terms, for instance separating forward and reverse primer sequences and names. Furthermore, some fields from the GGBN standard and fields from the https://rdml.org/miqe.html[MIQE] (minimum information for the publication of quantitative real-time PCR) guidelines for qPCR and ddPCR data have been included to make it applicable for a wide range of DNA-derived data."
 msgstr "Alors que les fichiers de base stockent des données omniprésentes sur le \"quoi, où et quand\" d'un enregistrement, les fichiers d'extension sont utilisés pour décrire les spécificités d'un certain type d'observation. Nous proposons d'utiliser https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml[DNA derived data extension] pour compléter les données d'occurrence dérivées soit du barcoding, du metabarcoding (eDNA) ou de la qPCR/dPCR. L'extension des données dérivées de l'ADN s'appuie sur https://gensc.org/mixs/[Minimum information standards] développés par le Genomic Standards Consortium (GSC) et appliqués par https://www.ebi.ac.uk/ena/browser/home[ENA] pour https://www.ebi.ac.uk/ena/submit/mixs-checklists[submission of eDNA sample metadata], par exemple. Nous suivons et avons contribué aux directives proposées par https://github.com/tdwg/gbwg/tree/main/dwc-mixs[Sustainable DwC-MIxS interoperability task group under TDWG]. Afin d’améliorer l'indexation et la recherche, nous avons choisi de séparer certains termes MIxS, par exemple en partageant les séquences et les noms des amorces forward et reverse. De plus, afin de rendre le système applicable à un large éventail de données, nous avons inclus certains champs des standards GGBN, et des champs de https://rdml.org/miqe.html[MIQE] (informations minimales pour la publication de la PCR quantitative en temps réel) pour les données qPCR et dPCR."
 
 #. type: Plain text
-#: 200.en.adoc:137
+#: 200.en.adoc:142
 msgid "As a first step in preparing your data for publishing, you should make sure your field names / column headers follow the https://dwc.tdwg.org/terms/[Darwin Core data standard]. In many cases this is straightforward, such as renaming your `lat` or `latitude` field to `decimalLatitude`. However, the Darwin Core Standard is quite flexible and some terms are used in different ways, depending on the type of data. An example of this are the fields term:dwc[organismQuantity] and term:dwc[organismQuantityType], which could be used to describe the number of individuals, per cent biomass or a score on the Braun-Blanquet Scale, as well as the number of reads of an ASV within a sample. Therefore, we here provide tables of required and recommended fields with descriptions and examples (<<table-01,Table 1>>, <<table-02,Table 2>>, <<table-03,Table 3>> and <<table-04, Table 4>>). Additional fields and extensions (such as http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]) are applicable. When a sequence is derived from an organism (e.g. a parasite, gut contents, epibiont etc.) the observation may be linked to the observation of the host organism. This can be achieved using the (https://dwc.tdwg.org/terms/#resourcerelationship[Resource Relation extension^]) of Darwin Core (e.g. https://www.gbif.org/species/143610775/verbatim). Perhaps the most important recommendation is to use globally unique (when available) and other permanent identifiers for as many data fields and parameters as possible (in all ID fields in the tables below)."
 msgstr "La première étape de la préparation de vos données pour la publication consiste à vous assurer que les noms de vos champs et les en-têtes de vos colonnes respectent les https://dwc.tdwg.org/terms/[Darwin Core data standard]. Dans de nombreux cas c’est assez simple, comme par exemple de renommer votre champ `lat` ou `latitude` en `decimalLatitude`. Toutefois, le standard Darwin Core est assez souple et certains termes sont utilisés de différentes manières, selon le type de données. Par exemple, les champs term:dwc[organismQuantity] et term:dwc[organismQuantityType] peuvent être utilisés pour décrire le nombre d'individus, le pourcentage de biomasse ou un score sur l'échelle de Braun-Blanquet, ainsi que le nombre de lectures d'un ASV dans un échantillon. Par conséquent, nous fournissons ici des tableaux avec les champs obligatoires et recommandés avec des descriptions et des exemples (<<table-01,Table 1>>, <<table-02,Table 2>>, <<table-03,Table 3>> et <<table-04,Table 4>>). Des champs supplémentaires et des extensions (comme http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]) sont applicables. Lorsqu'une séquence est issue d'un organisme hôte (par exemple un parasite, le contenu intestinal, un épibion, etc.), l'observation peut être liée à l'observation de l'organisme hôte. Ça peut être réalisé en utilisant (https://dwc.tdwg.org/terms/#resourcerelationship[Resource Relation extension^]) de Darwin Core (par exemple https://www.gbif.org/species/143610775/verbatim). La recommandation la plus importante est probablement celle d'utiliser des identifiants uniques au niveau mondial (lorsqu'ils sont disponibles) et d'autres identifiants permanents pour autant de champs de données et de paramètres que possible (dans tous les champs d'identification des tableaux ci-dessous)."
 
 #. type: Plain text
-#: 200.en.adoc:140 200.en.adoc:283 200.en.adoc:389 200.en.adoc:509
-#: 200.en.adoc:725 glossary.en.adoc:55 bibliography.en.adoc:71
+#: 200.en.adoc:145 200.en.adoc:288 200.en.adoc:394 200.en.adoc:514
+#: 200.en.adoc:730 glossary.en.adoc:55 bibliography.en.adoc:71
 msgid "<<<"
 msgstr "<<<"
 
 #. type: Title ====
-#: 200.en.adoc:141
+#: 200.en.adoc:146
 #, no-wrap
 msgid "Mapping metabarcoding (eDNA) and barcoding data"
 msgstr "Mapping du métabarcoding (eDNA) et des données de codes-barres ADN"
 
 #. type: Plain text
-#: 200.en.adoc:144
+#: 200.en.adoc:149
 msgid "This section provides mapping recommendations for Categories I and II."
 msgstr "Cette section fournit des recommandations de mapping pour les catégories I et II."
 
 #. type: Block title
-#: 200.en.adoc:146
+#: 200.en.adoc:151
 #, no-wrap
 msgid "Recommended fields for http://rs.gbif.org/core/dwc_occurrence_2020-04-15.xml[Occurrence core] for Metabarcoding data"
 msgstr "Champs recommandés pour http://rs.gbif.org/core/dwc_occurrence_2020-04-15.xml[Occurrence core] pour les données de métabarcoding"
 
 #.  The [.break-all]#ASV:…# is to allow the identifier to be broken at any character, rather than stretching the text cell.
 #. type: Table
-#: 200.en.adoc:280
+#: 200.en.adoc:285
 #, no-wrap
 msgid "| Field name\n"
 "| Examples\n"
@@ -1190,14 +1202,14 @@ msgstr "| Nom du champ\n"
 "| Recommandé\n"
 
 #. type: Block title
-#: 200.en.adoc:285
+#: 200.en.adoc:290
 #, no-wrap
 msgid "Recommended fields from the DNA derived data extension (a selection) for metabarcoding data"
 msgstr "Champs recommandés de l'extension de données dérivées de l'ADN (une sélection) pour les données de métabarcoding"
 
 #.  The [.break-all]#TCTA…# is to allow the sequence to be broken at any character, rather than stretching the text cell.
 #. type: Table
-#: 200.en.adoc:386
+#: 200.en.adoc:391
 #, no-wrap
 msgid "| Field name\n"
 "| Examples\n"
@@ -1361,24 +1373,24 @@ msgstr "| Nom de champ\n"
 "| Fortement recommandé\n"
 
 #. type: Title ====
-#: 200.en.adoc:390
+#: 200.en.adoc:395
 #, no-wrap
 msgid "Mapping ddPCR / qPCR data"
 msgstr "Mapping des données ddPCR / qPCR"
 
 #. type: Plain text
-#: 200.en.adoc:393
+#: 200.en.adoc:398
 msgid "This section provides mapping recommendations for https://academic.oup.com/view-large/199871507[Category III]."
 msgstr "Cette section fournit des recommandations de mapping pour la catégorie III https://academic.oup.com/view-large/199871507[Category III]."
 
 #. type: Block title
-#: 200.en.adoc:395
+#: 200.en.adoc:400
 #, no-wrap
 msgid "Recommended fields for Occurrence core for ddPCR/qPCR data"
 msgstr "Champs recommandés pour l'Occurrence core pour les données ddPCR / qPCR"
 
 #. type: Table
-#: 200.en.adoc:506
+#: 200.en.adoc:511
 #, no-wrap
 msgid "| Field name\n"
 "| Examples\n"
@@ -1558,13 +1570,13 @@ msgstr "| Nom de champ\n"
 "| Recommandé\n"
 
 #. type: Block title
-#: 200.en.adoc:511
+#: 200.en.adoc:516
 #, no-wrap
 msgid "Recommended fields from the https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml[DNA derived data extension] (a selection) for ddPCR/qPCR data"
 msgstr "Champs recommandés de l'extension de données dérivées de l'ADN https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml[DNA derived data extension] (une sélection) pour les données ddPCR / qPCR"
 
 #. type: Table
-#: 200.en.adoc:722
+#: 200.en.adoc:727
 #, no-wrap
 msgid "| Field name\n"
 "| Examples\n"
@@ -2811,4 +2823,902 @@ msgstr "[[yates]] Yates MC, Fraser DJ & Derry AM (2019) Meta‐analysis Supports
 #: bibliography.en.adoc:70
 msgid "[[yilmaz]] Yilmaz P, Kottmann R, Field D, Knight R, Cole JR, Amaral-Zettler L, Gilbert JA, Karsch-Mizrachi I, Johnston A, Cochrane G & Vaughan R (2011) Minimum information about a marker gene sequence (MIMARKS) and minimum information about any (x) sequence (MIxS) specifications. Nature Biotechnology 29(5): 415. https://doi.org/10.1038/nbt.1823"
 msgstr "[[yilmaz]] Yilmaz P, Kottmann R, Field D, Knight R, Cole JR, Amaral-Zettler L, Gilbert JA, Karsch-Mizrachi I, Johnston A, Cochrane G & Vaughan R (2011) Minimum information about a marker gene sequence (MIMARKS) and minimum information about any (x) sequence (MIxS) specifications. Nature Biotechnology 29(5): 415. https://doi.org/10.1038/nbt.1823"
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Sample collection"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Label and "
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "sample information"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Label and..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "DNA"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "extraction"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "DNA..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "PCR"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "PCR&#xa;"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "Sequencing"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Sequencing&#xa;"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "OTU"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "clustering"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "OTU..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "ASV"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "denoising"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "ASV..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Taxonomic"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "assignment"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Taxonomic..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "GTDB, SILVA,"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Unite, BOLD"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "GTDB, SILVA,..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Sampling"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "metadata"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Sampling..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Laboratory"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Laboratory..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Bio-"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "informatics"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Bio-..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Raw"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "sequences"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Raw..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "tables"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "taxonomy"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "taxonomy..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font><font><b>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "+"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "+&#xa;"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div><b>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Chapter 1.5"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font><div>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Processing workflows:"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font><div>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "from sample to "
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font><div>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "ingestible data"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font><div><b>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Chapter 1.6"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Chapter 1.5Processing wo..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Generate and document data"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Organize and share data"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Sequence"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font><div>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "databases:"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font><div>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "SRA, ENA, ..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Sequencedatab..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Biodiversity"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "discovery"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "platform"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Biodiversity..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "archival"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Sequence..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Mapping occurrence"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "data to biodiversity "
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "transfer standards"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Mapping occurrence..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Submission"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Submission&#xa;"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div><font><b>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Chapter 2"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Data packaging and "
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "mapping"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Chapter 2..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Mentioned in Chapter 1.4 and 1.5"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div><b>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Technical acronyms:"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "PCR: "
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Polymerase chain reaction"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "OTU: "
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Operational taxonomic unit"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "ASV: "
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Amplicon sequence variant"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Technical acronyms:PCR: Polymer..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div><b>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Databases:"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "GTDB: "
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "https://gtdb.ecogenomic.org"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "SILVA: "
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "https://www.arb-silva.de"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "BOLD: "
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "http://www.boldsystems.org"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Databases:GTDB: https://gtdb.ecog..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Unite: "
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "https://unite.ut.ee"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "SRA: "
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "https://www.ncbi.nlm.nih.gov/sra"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "ENA: "
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "https://www.ebi.ac.uk/ena"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#, no-wrap
+msgid "Unite: https://unite.ut.ee..."
+msgstr ""
+
+#. type: Content of: <svg><switch><a><text>
+#: img/web/sequence-publishing-guide.en.svg:3
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "Viewer does not support full SVG 1.1"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "Collection of material"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "Collection of m..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "PCR / amplification"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "PCR /..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "DNA extraction"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "Bioinformatic analyses"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "Bioinformatic a..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div><font><font>
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "Sequences"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "(OTU/BIN/ASV)"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "Sequences(OTU/B..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "Resolving against reference libraries"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "Resolving against re..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "Species lists"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "A)"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "B)"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "Collection / observation"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "Collection / obser..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "Morphologic / visual taxon determination"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/sampling-processes.en.svg:3
+#, no-wrap
+msgid "Morphologic / v..."
+msgstr ""
+
+#. type: Content of: <svg><defs><style>
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#: img/web/dwca-structure.en.svg:4
+#, no-wrap
+msgid "@import url(https://fonts.googleapis.com/css?family=Roboto);&#xa;"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Mapping to"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Darwin Core Archive"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Mapping to..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Taxonomy"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Taxonomy..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Primer trimming"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "&amp; quality control"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Primer trimming..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Technical acronyms:OTU: Operati..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Unite: "
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Chimera"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "filtering"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#, no-wrap
+msgid "Chimera..."
+msgstr ""
+
+#. type: Content of: <svg><switch><a><text>
+#: img/web/outline-of-bioinformatic-processing.en.svg:4
+#: img/web/dwca-structure.en.svg:4
+#, no-wrap
+msgid "Text is not SVG - cannot display"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/dwca-structure.en.svg:4
+#, no-wrap
+msgid "DwC-A"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/dwca-structure.en.svg:4
+#, no-wrap
+msgid "meta.xml"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/dwca-structure.en.svg:4
+#, no-wrap
+msgid "Occurrence"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/dwca-structure.en.svg:4
+#, no-wrap
+msgid "core"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/dwca-structure.en.svg:4
+#, no-wrap
+msgid "Occurrence..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/dwca-structure.en.svg:4
+#, no-wrap
+msgid "MIxS"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/dwca-structure.en.svg:4
+#, no-wrap
+msgid "extension"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/dwca-structure.en.svg:4
+#, no-wrap
+msgid "MIxS..."
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/dwca-structure.en.svg:4
+#, no-wrap
+msgid "eml.xml"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/dwca-structure.en.svg:4
+#, no-wrap
+msgid "Measurement"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
+#: img/web/dwca-structure.en.svg:4
+#, no-wrap
+msgid "and Facts"
+msgstr ""
+
+#. type: Content of: <svg><g><g><switch><text>
+#: img/web/dwca-structure.en.svg:4
+#, no-wrap
+msgid "Measuremen..."
+msgstr ""
+
+#. type: Content of: <svg><metadata><rdf:RDF><cc:Work><dc:format>
+#: img/web/eDNA-categories.en.svg:24
+#, no-wrap
+msgid "image/svg+xml"
+msgstr ""
+
+#. type: Content of: <svg><text>
+#: img/web/eDNA-categories.en.svg:1382
+#, no-wrap
+msgid "Category III"
+msgstr ""
+
+#. type: Content of: <svg><text>
+#: img/web/eDNA-categories.en.svg:1397
+#, no-wrap
+msgid "Category II"
+msgstr ""
+
+#. type: Content of: <svg><text>
+#: img/web/eDNA-categories.en.svg:1412
+#, no-wrap
+msgid "Category I"
+msgstr ""
+
+#. type: Content of: <svg><text>
+#: img/web/eDNA-categories.en.svg:1445
+#, no-wrap
+msgid "Category V"
+msgstr ""
+
+#. type: Content of: <svg><text>
+#: img/web/eDNA-categories.en.svg:2391
+#, no-wrap
+msgid "Category IV"
+msgstr ""
 
