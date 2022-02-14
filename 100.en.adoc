@@ -90,7 +90,12 @@ Metabarcoding data can be produced from a number of different sequencing platfor
 
 [[figure-processing]]
 .Outline of bioinformatic processing of metabarcoding data.
-image::img/web/figure-04.en.png[]
+ifdef::backend-pdf[]
+image::img/print/outline-of-bioinformatic-processing.en.png[]
+endif::backend-pdf[]
+ifndef::backend-pdf[]
+image::img/web/outline-of-bioinformatic-processing.en.svg[]
+endif::backend-pdf[]
 
 Typically, the DNA sequences are first pre-processed by removing primer sequences and, depending on the sequencing method used, low quality bases, usually toward the 5’ and 3’ sequence ends. Sequences not fulfilling requirements on length, overall quality, presence of primers, tags etc. are removed.
 
