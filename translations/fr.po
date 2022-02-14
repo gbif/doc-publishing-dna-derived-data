@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2022-02-14 15:03+0000\n"
-"PO-Revision-Date: 2022-02-14 15:05\n"
+"PO-Revision-Date: 2022-02-14 15:38\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -497,7 +497,7 @@ msgstr ""
 #: 100.en.adoc:97
 #, no-wrap
 msgid "img/web/outline-of-bioinformatic-processing.en.svg"
-msgstr ""
+msgstr "img/web/outline-of-bioinformatic-processing.fr.svg"
 
 #. type: Plain text
 #: 100.en.adoc:101
@@ -641,7 +641,7 @@ msgstr ""
 #: 200.en.adoc:15
 #, no-wrap
 msgid "img/web/dwca-structure.en.svg"
-msgstr ""
+msgstr "img/web/dwca-structure.fr.svg"
 
 #. type: Title ===
 #: 200.en.adoc:18
@@ -770,7 +770,7 @@ msgstr "Représentation visuelle des catégories I-V."
 #: 200.en.adoc:71
 #, no-wrap
 msgid "img/web/eDNA-categories.en.svg"
-msgstr ""
+msgstr "img/web/eDNA-categories.fr.svg"
 
 #. type: Title ====
 #: 200.en.adoc:74
@@ -889,7 +889,7 @@ msgstr "Les OTUs de UNITE (champignons, en haut) et de BOLD (arthropodes, en bas
 #: 200.en.adoc:116
 #, no-wrap
 msgid "img/web/otus-from-unite.en.png"
-msgstr ""
+msgstr "img/web/otus-from-unite.fr.png"
 
 #. type: Title =====
 #: 200.en.adoc:118
@@ -3696,29 +3696,29 @@ msgstr ""
 #: img/web/eDNA-categories.en.svg:1382
 #, no-wrap
 msgid "Category III"
-msgstr ""
+msgstr "Catégorie III"
 
 #. type: Content of: <svg><text>
 #: img/web/eDNA-categories.en.svg:1397
 #, no-wrap
 msgid "Category II"
-msgstr ""
+msgstr "Catégorie II"
 
 #. type: Content of: <svg><text>
 #: img/web/eDNA-categories.en.svg:1412
 #, no-wrap
 msgid "Category I"
-msgstr ""
+msgstr "Catégorie I"
 
 #. type: Content of: <svg><text>
 #: img/web/eDNA-categories.en.svg:1445
 #, no-wrap
 msgid "Category V"
-msgstr ""
+msgstr "Catégorie V"
 
 #. type: Content of: <svg><text>
 #: img/web/eDNA-categories.en.svg:2391
 #, no-wrap
 msgid "Category IV"
-msgstr ""
+msgstr "Catégorie IV"
 
