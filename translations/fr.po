@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2022-02-14 15:03+0000\n"
-"PO-Revision-Date: 2022-02-14 15:38\n"
+"PO-Revision-Date: 2022-02-14 15:51\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -711,7 +711,7 @@ msgstr "5+|\n"
 "|Non +\n"
 "↓\n"
 "|Oui +\n"
-"Ω\n"
+"↓\n"
 "|Non +\n"
 "↓\n"
 "|\n\n"
@@ -753,7 +753,7 @@ msgstr "Références de noms"
 #: 200.en.adoc:64
 #, no-wrap
 msgid "<|*<<category-v,Category V>>* +"
-msgstr "<category-v,Catégorie V>"
+msgstr "<|*<<category-v,Catégorie V>>* +"
 
 #. type: Table
 #: 200.en.adoc:67
