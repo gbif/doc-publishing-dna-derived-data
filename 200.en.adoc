@@ -12,7 +12,7 @@ ifdef::backend-pdf[]
 image::img/print/dwca-structure.en.png[]
 endif::backend-pdf[]
 ifndef::backend-pdf[]
-image::img/web/dwca-structure.en.svg[]
+image::img/web/ct/dwca-structure.en.svg[]
 endif::backend-pdf[]
 
 === Categorization of your data
@@ -68,7 +68,7 @@ Metadata-only
 
 [[figure-categories]]
 .Visual representation of categories I-V.
-image::img/web/eDNA-categories.en.svg[]
+image::img/web/ct/eDNA-categories.en.svg[]
 
 [[category-i]]
 ==== Category I: DNA-derived occurrences
