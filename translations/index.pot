@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-02-14 15:03+0000\n"
+"POT-Creation-Date: 2022-02-17 11:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -894,13 +894,19 @@ msgid ""
 msgstr ""
 
 #. type: Target for macro image
-#: 100.en.adoc:79
+#: 100.en.adoc:80
 #, no-wrap
-msgid "img/web/figure-03-translated.en.png"
+msgid "img/print/outline-of-a-platform.en.png"
+msgstr ""
+
+#. type: Target for macro image
+#: 100.en.adoc:83
+#, no-wrap
+msgid "img/web/outline-of-a-platform.en.svg"
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:82
+#: 100.en.adoc:87
 msgid ""
 "Once a dataset has been through these standardization and data quality "
 "processes, it should be placed in an accessible online location and "
@@ -917,7 +923,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:84
+#: 100.en.adoc:89
 msgid ""
 "Datasets and their associated metadata are indexed by each data portal: this "
 "process enables users to query, filter and process data through APIs and web "
@@ -927,7 +933,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:86
+#: 100.en.adoc:91
 msgid ""
 "Note that holders of genetic sequence data are expected to upload and "
 "archive genetic sequence data in raw sequence data repositories such as "
@@ -945,13 +951,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: 100.en.adoc:87
+#: 100.en.adoc:92
 #, no-wrap
 msgid "Processing workflows: from sample to ingestible data "
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:90
+#: 100.en.adoc:95
 msgid ""
 "Metabarcoding data can be produced from a number of different sequencing "
 "platforms (Illumina, PacBio, Oxford Nanopore, Ion Torrent, etc.) that rely "
@@ -966,25 +972,25 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 100.en.adoc:92
+#: 100.en.adoc:97
 #, no-wrap
 msgid "Outline of bioinformatic processing of metabarcoding data."
 msgstr ""
 
 #. type: Target for macro image
-#: 100.en.adoc:94
+#: 100.en.adoc:99
 #, no-wrap
 msgid "img/print/outline-of-bioinformatic-processing.en.png"
 msgstr ""
 
 #. type: Target for macro image
-#: 100.en.adoc:97
+#: 100.en.adoc:102
 #, no-wrap
 msgid "img/web/outline-of-bioinformatic-processing.en.svg"
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:101
+#: 100.en.adoc:106
 msgid ""
 "Typically, the DNA sequences are first pre-processed by removing primer "
 "sequences and, depending on the sequencing method used, low quality bases, "
@@ -994,7 +1000,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:103
+#: 100.en.adoc:108
 msgid ""
 "The pre-processed sequences can then be assigned a taxon by comparing them "
 "against reference databases. When reference databases are incomplete, "
@@ -1017,7 +1023,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:105
+#: 100.en.adoc:110
 msgid ""
 "The PCR used for generating the sequencing library can result in the "
 "generation of artefactual sequences in the form of chimeras; a single "
@@ -1027,7 +1033,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:107
+#: 100.en.adoc:112
 msgid ""
 "Finally, the pre-processed sequences, OTUs or ASVs, are taxonomically "
 "classified by comparing them to a database of annotated sequences (often "
@@ -1038,7 +1044,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:109
+#: 100.en.adoc:114
 msgid ""
 "Several open source tools and algorithms exist for bioinformatic processing "
 "of metabarcoding data (QIIME2 "
@@ -1075,14 +1081,14 @@ msgid ""
 "(https://doi.org/10.1073/pnas.85.8.2444[Pearson & Lipman 1988^])."
 msgstr ""
 
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font><div>
-#: 100.en.adoc:110 img/web/sequence-publishing-guide.en.svg:3
+#. type: Title ===
+#: 100.en.adoc:115
 #, no-wrap
 msgid "Taxonomy of sequences"
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:113
+#: 100.en.adoc:118
 msgid ""
 "Taxonomic annotation of sequences is a critical step in the processing of "
 "molecular biodiversity datasets, as scientific names are key to accessing "
@@ -1098,7 +1104,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:115
+#: 100.en.adoc:120
 msgid ""
 "Species, as described by taxonomists, are central to biology and attempts at "
 "characterizing biodiversity may therefore make use of the end products of "
@@ -1118,7 +1124,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:117
+#: 100.en.adoc:122
 msgid ""
 "As taxonomy is central to the discovery of biodiversity data, it is highly "
 "recommended that any eDNA sequencing efforts should seek to include relevant "
@@ -1135,7 +1141,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:119
+#: 100.en.adoc:124
 msgid ""
 "Most current biodiversity data platforms are organized around traditional "
 "name lists and taxonomic indexes. As DNA sequence-derived occurrences are "
@@ -1152,7 +1158,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:121
+#: 100.en.adoc:126
 msgid ""
 "In contrast to classical taxonomy, which is a heavily manual process, "
 "clustering DNA sequences into taxonomic concepts relies on algorithmic "
@@ -1179,7 +1185,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:123
+#: 100.en.adoc:128
 msgid ""
 "Algorithms for taxonomic annotation of eDNA will typically assign each "
 "unique sequence to the nearest taxonomic group in a reference set, based on "
@@ -1194,7 +1200,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:125
+#: 100.en.adoc:130
 msgid ""
 "During import into the biodiversity platform, the taxonomic resolution for "
 "these occurrences may be reduced even further, as the reference set used for "
@@ -1221,13 +1227,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: 100.en.adoc:126
+#: 100.en.adoc:131
 #, no-wrap
 msgid "Outputs"
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:129
+#: 100.en.adoc:134
 msgid ""
 "The purpose of exposing DNA-derived data through biodiversity platforms is "
 "to enable reuse of these data alongside other biodiversity data types. It is "
@@ -1246,14 +1252,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:131
+#: 100.en.adoc:136
 msgid ""
 "At GBIF.org or through the GBIF API, registered users can search, filter, "
 "and download biodiversity data in the following three formats:"
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:133
+#: 100.en.adoc:138
 #, no-wrap
 msgid ""
 "*Simple*: a simple, tab-delimited format which includes only the "
@@ -1263,7 +1269,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:134
+#: 100.en.adoc:139
 #, no-wrap
 msgid ""
 "*Darwin Core Archive*: richer format that includes both the interpreted data "
@@ -1274,7 +1280,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:135
+#: 100.en.adoc:140
 #, no-wrap
 msgid ""
 "*Species list*: a simple table format that includes only an interpreted list "
@@ -1282,7 +1288,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 100.en.adoc:136
+#: 100.en.adoc:141
 msgid ""
 "Regardless of the selected format, each GBIF user download receives a "
 "reusable link to the query and a data citation that includes a DOI. This "
@@ -4008,900 +4014,122 @@ msgid ""
 "Biotechnology 29(5): 415. https://doi.org/10.1038/nbt.1823"
 msgstr ""
 
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Sample collection"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Label and "
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "sample information"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Label and..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "DNA"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "extraction"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "DNA..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "PCR"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "PCR&#xa;"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "Sequencing"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Sequencing&#xa;"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "OTU"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "clustering"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "OTU..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "ASV"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "denoising"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "ASV..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Taxonomic"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "assignment"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Taxonomic..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "GTDB, SILVA,"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Unite, BOLD"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "GTDB, SILVA,..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Sampling"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "metadata"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Sampling..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Laboratory"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Laboratory..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Bio-"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "informatics"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Bio-..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Raw"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "sequences"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Raw..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "tables"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "taxonomy"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "taxonomy..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font><font><b>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "+"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "+&#xa;"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div><b>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Chapter 1.5"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font><div>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Processing workflows:"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font><div>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "from sample to "
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font><div>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "ingestible data"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font><div><b>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Chapter 1.6"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Chapter 1.5Processing wo..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Generate and document data"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Organize and share data"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Sequence"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font><div>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "databases:"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font><div>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "SRA, ENA, ..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Sequencedatab..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Biodiversity"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "discovery"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "platform"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Biodiversity..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "archival"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Sequence..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Mapping occurrence"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "data to biodiversity "
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "transfer standards"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Mapping occurrence..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Submission"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Submission&#xa;"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div><font><b>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Chapter 2"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Data packaging and "
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "mapping"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Chapter 2..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Mentioned in Chapter 1.4 and 1.5"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div><b>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Technical acronyms:"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "PCR: "
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Polymerase chain reaction"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "OTU: "
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Operational taxonomic unit"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "ASV: "
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Amplicon sequence variant"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Technical acronyms:PCR: Polymer..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div><b>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Databases:"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "GTDB: "
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "https://gtdb.ecogenomic.org"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "SILVA: "
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "https://www.arb-silva.de"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "BOLD: "
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "http://www.boldsystems.org"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Databases:GTDB: https://gtdb.ecog..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Unite: "
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "https://unite.ut.ee"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "SRA: "
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "https://www.ncbi.nlm.nih.gov/sra"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "ENA: "
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "https://www.ebi.ac.uk/ena"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#, no-wrap
-msgid "Unite: https://unite.ut.ee..."
-msgstr ""
-
-#. type: Content of: <svg><switch><a><text>
-#: img/web/sequence-publishing-guide.en.svg:3
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "Viewer does not support full SVG 1.1"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "Collection of material"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "Collection of m..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "PCR / amplification"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "PCR /..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "DNA extraction"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "Bioinformatic analyses"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "Bioinformatic a..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><div><font><font>
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "Sequences"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "(OTU/BIN/ASV)"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "Sequences(OTU/B..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "Resolving against reference libraries"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "Resolving against re..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "Species lists"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "A)"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "B)"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "Collection / observation"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "Collection / obser..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "Morphologic / visual taxon determination"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/sampling-processes.en.svg:3
-#, no-wrap
-msgid "Morphologic / v..."
-msgstr ""
-
 #. type: Content of: <svg><defs><style>
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#: img/web/dwca-structure.en.svg:4
+#: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "@import url(https://fonts.googleapis.com/css?family=Roboto);&#xa;"
 msgstr ""
 
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Mapping to"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Darwin Core Archive"
-msgstr ""
-
 #. type: Content of: <svg><g><g><switch><text>
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Mapping to..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Taxonomy"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Taxonomy..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Primer trimming"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "&amp; quality control"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Primer trimming..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Technical acronyms:OTU: Operati..."
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Unite: "
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Chimera"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><foreignObject><div><div><div><font>
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "filtering"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#, no-wrap
-msgid "Chimera..."
-msgstr ""
-
-#. type: Content of: <svg><switch><a><text>
-#: img/web/outline-of-bioinformatic-processing.en.svg:4
-#: img/web/dwca-structure.en.svg:4
-#, no-wrap
-msgid "Text is not SVG - cannot display"
-msgstr ""
-
-#. type: Content of: <svg><g><g><switch><text>
-#: img/web/dwca-structure.en.svg:4
+#: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "DwC-A"
 msgstr ""
 
 #. type: Content of: <svg><g><g><switch><text>
-#: img/web/dwca-structure.en.svg:4
+#: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "meta.xml"
 msgstr ""
 
 #. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/dwca-structure.en.svg:4
+#: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "Occurrence"
 msgstr ""
 
 #. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/dwca-structure.en.svg:4
+#: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "core"
 msgstr ""
 
 #. type: Content of: <svg><g><g><switch><text>
-#: img/web/dwca-structure.en.svg:4
+#: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "Occurrence..."
 msgstr ""
 
 #. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/dwca-structure.en.svg:4
+#: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "MIxS"
 msgstr ""
 
 #. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/dwca-structure.en.svg:4
+#: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "extension"
 msgstr ""
 
 #. type: Content of: <svg><g><g><switch><text>
-#: img/web/dwca-structure.en.svg:4
+#: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "MIxS..."
 msgstr ""
 
 #. type: Content of: <svg><g><g><switch><text>
-#: img/web/dwca-structure.en.svg:4
+#: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "eml.xml"
 msgstr ""
 
 #. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/dwca-structure.en.svg:4
+#: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "Measurement"
 msgstr ""
 
 #. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
-#: img/web/dwca-structure.en.svg:4
+#: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "and Facts"
 msgstr ""
 
 #. type: Content of: <svg><g><g><switch><text>
-#: img/web/dwca-structure.en.svg:4
+#: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "Measuremen..."
 msgstr ""
 
+#. type: Content of: <svg><switch><a><text>
+#: img/web/ct/dwca-structure.en.svg:4
+#, no-wrap
+msgid "Text is not SVG - cannot display"
+msgstr ""
+
 #. type: Content of: <svg><metadata><rdf:RDF><cc:Work><dc:format>
-#: img/web/eDNA-categories.en.svg:24
+#: img/web/ct/eDNA-categories.en.svg:24
 #, no-wrap
 msgid "image/svg+xml"
 msgstr ""
 
 #. type: Content of: <svg><text>
-#: img/web/eDNA-categories.en.svg:1382
+#: img/web/ct/eDNA-categories.en.svg:1382
 #, no-wrap
 msgid "Category III"
 msgstr ""
 
 #. type: Content of: <svg><text>
-#: img/web/eDNA-categories.en.svg:1397
+#: img/web/ct/eDNA-categories.en.svg:1397
 #, no-wrap
 msgid "Category II"
 msgstr ""
 
 #. type: Content of: <svg><text>
-#: img/web/eDNA-categories.en.svg:1412
+#: img/web/ct/eDNA-categories.en.svg:1412
 #, no-wrap
 msgid "Category I"
 msgstr ""
 
 #. type: Content of: <svg><text>
-#: img/web/eDNA-categories.en.svg:1445
+#: img/web/ct/eDNA-categories.en.svg:1445
 #, no-wrap
 msgid "Category V"
 msgstr ""
 
 #. type: Content of: <svg><text>
-#: img/web/eDNA-categories.en.svg:2391
+#: img/web/ct/eDNA-categories.en.svg:2391
 #, no-wrap
 msgid "Category IV"
 msgstr ""
