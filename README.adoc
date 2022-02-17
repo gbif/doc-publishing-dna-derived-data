@@ -12,8 +12,12 @@ The document is available as HTML and PDF at https://docs.gbif-uat.org/publishin
 
 The document is built using AsciiDoc, for guidance on how to make changes or suggestions see the https://docs.gbif.org/documentation-guidelines/[GBIF Documentation Guidelines].
 
+== Diagrams
+
 The diagrams have been created using https://app.diagrams.net/[Diagrams.net].  They are exported as SVG (File → Export As… → SVG), with the "Include a copy of my diagram" option selected.  This allows the SVG file to be opened in Diagrams.net for further modification.
 
 Diagrams with multi-line text are additionally exported as PNG, for use in PDFs.  Multi-line text is not yet supported by the PDF output.
+
+Simple diagrams, where labels are generally on one line, are enabled for translation using Crowdin.  These are in the img/web/ct directory.  More complex diagrams will need to be translated in Diagrams.net, and saved with the appropriate filename into the img/web directory.
 
 This work is licensed under a http://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike 4.0 International License].
