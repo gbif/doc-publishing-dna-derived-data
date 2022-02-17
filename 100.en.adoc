@@ -76,7 +76,12 @@ A central part of the standardization process is the mapping of fields, which is
 
 [[figure-publication]]
 .Outline of a platform for reporting and publishing DNA sequences and associated metadata (green box) based on existing systems and data standards (grey boxes). An envisioned system for regular (based on machine-to-machine reading of data) update of results (white box) can either read and update the Darwin Core Archive or various administration systems. The data transfer between the various elements (black arrows) will require various degrees of data transformation and harmonization and may include either mechanical or human quality assessment.
-image::img/web/figure-03-translated.en.png[]
+ifdef::backend-pdf[]
+image::img/print/outline-of-a-platform.en.png[]
+endif::backend-pdf[]
+ifndef::backend-pdf[]
+image::img/web/outline-of-a-platform.en.svg[]
+endif::backend-pdf[]
 
 Once a dataset has been through these standardization and data quality processes, it should be placed in an accessible online location and associated with relevant metadata. Metadata–data or information about the dataset includes key parameters that describe the dataset and further improve its discoverability and reuse. Metadata should include other important elements such as authorship, Digital Object Identifiers (DOIs), organizational affiliations and other provenance information, as well as procedural and methodological information about how the dataset was collected and curated. We encourage to provide a description of workflow details and versions including quality control in the https://eml.ecoinformatics.org/schema/eml-dataset_xsd.html#DatasetType_methods[methods section] in the EML file.
 
