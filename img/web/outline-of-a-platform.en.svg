@@ -3,7 +3,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 997 516" style="enable-background:new 0 0 997 516;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;}
+	.st0{fill:none;enable-background:new    ;}
 	.st1{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
 	.st2{stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
 	.st3{fill:#CFD7DF;stroke:#CFD7DF;stroke-width:3;stroke-miterlimit:10;}
@@ -11,30 +11,31 @@
 	.st5{font-family:'Helvetica';}
 	.st6{font-size:16px;}
 	.st7{fill:#FFFFFF;stroke:#CFD7DF;stroke-width:3;stroke-miterlimit:10;}
-	.st8{fill:#505050;}
-	.st9{fill:#FFFFFF;}
-	.st10{fill:#232F3E;}
-	.st11{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:3,3;}
-	.st12{fill:#B9E0A5;stroke:#B9E0A5;stroke-width:3;stroke-miterlimit:10;}
-	.st13{fill:#EAF6E4;stroke:#B9E0A5;stroke-width:3;stroke-miterlimit:10;}
-	.st14{fill:#FFFFFF;stroke:#B9E0A5;stroke-width:3;stroke-miterlimit:10;}
-	.st15{fill-opacity:0.3;}
-	.st16{fill:none;stroke:#000000;}
-	.st17{fill:#FFFFFF;stroke:#000000;stroke-width:3;}
-	.st18{fill:none;stroke:#CFD7DF;stroke-width:3;stroke-miterlimit:10;}
-	.st19{clip-path:url(#SVGID_00000000932729958944514830000000434162820258507407_);}
-	.st20{clip-path:url(#SVGID_00000030459813513861512900000015194198054066482613_);}
-	.st21{clip-path:url(#SVGID_00000091734556436857910610000016374619374385876664_);}
-	.st22{clip-path:url(#SVGID_00000116224786757979505330000010295115018242119101_);}
-	.st23{enable-background:new    ;}
-	.st24{clip-path:url(#SVGID_00000171708077121480205200000002381826831909711518_);}
-	.st25{clip-path:url(#SVGID_00000098220505785054693560000001045076464282929855_);}
-	.st26{clip-path:url(#SVGID_00000121279221650695416900000011791215477014344322_);}
-	.st27{clip-path:url(#SVGID_00000179618382446481958090000012788242259002894218_);}
-	.st28{clip-path:url(#SVGID_00000010295942453144616210000002703123445648557713_);}
+	.st8{fill:none;}
+	.st9{fill:#505050;}
+	.st10{fill:#FFFFFF;}
+	.st11{fill:#232F3E;}
+	.st12{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:3,3;}
+	.st13{fill:#B9E0A5;stroke:#B9E0A5;stroke-width:3;stroke-miterlimit:10;}
+	.st14{fill:#EAF6E4;stroke:#B9E0A5;stroke-width:3;stroke-miterlimit:10;}
+	.st15{fill:#FFFFFF;stroke:#B9E0A5;stroke-width:3;stroke-miterlimit:10;}
+	.st16{fill-opacity:0.3;}
+	.st17{fill:none;stroke:#000000;}
+	.st18{fill:#FFFFFF;stroke:#000000;stroke-width:3;}
+	.st19{fill:none;stroke:#CFD7DF;stroke-width:3;stroke-miterlimit:10;}
+	.st20{clip-path:url(#SVGID_00000119082584935439021220000018085506802698682515_);}
+	.st21{clip-path:url(#SVGID_00000081643379202175258820000004858763771183938696_);}
+	.st22{clip-path:url(#SVGID_00000146457232870100082570000003151510614388107964_);}
+	.st23{clip-path:url(#SVGID_00000111184515016134381930000005463613286848286886_);}
+	.st24{clip-path:url(#SVGID_00000048499524476144621040000003612381557992950447_);}
+	.st25{clip-path:url(#SVGID_00000076600699234341422890000005052864496462669186_);}
+	.st26{clip-path:url(#SVGID_00000136381785161726641580000003055986780751248271_);}
+	.st27{clip-path:url(#SVGID_00000137112625383814383270000013138382476669538716_);}
+	.st28{clip-path:url(#SVGID_00000069396311774797989320000010403073525384176050_);}
 	.st29{fill:#EAEEF2;stroke:#CFD7DF;stroke-width:3;}
+	.st30{enable-background:new    ;}
 </style>
-<path class="st0" d="z"/>
+<path class="st0" d="M0,0"/>
 <g>
 	<path pointer-events="stroke" class="st1" d="M611.5,88.5h63.4"/>
 	<path pointer-events="all" class="st2" d="M681.7,88.5l-9,4.5l2.2-4.5l-2.2-4.5L681.7,88.5z"/>
@@ -56,74 +57,73 @@
 	<g>
 		<text transform="matrix(1 0 0 1 464.832 231.5)" class="st5 st6">Darwin Core Archive</text>
 	</g>
-	<rect x="445.5" y="260.5" pointer-events="all" class="st0" width="40" height="47"/>
-	<path pointer-events="all" class="st8" d="M455.3,285.1v-2.2h20.4v2.2H455.3z M455.3,291.1v-2.2h20.4v2.2H455.3z M455.3,297v-2.2
-		h20.4v2.2H455.3z M447.8,305.3h35.5v-30.6h-11.3v-11.9h-24.2V305.3z M445.5,307.5v-47h27.9l12.1,11.9v35.1H445.5z"/>
+	<rect x="445.5" y="260.5" pointer-events="all" class="st8" width="40" height="47"/>
+	<path pointer-events="all" class="st9" d="M455.3,285.1v-2.2h20.4v2.2H455.3z M455.3,291.1v-2.2h20.4v2.2H455.3z M455.3,297v-2.2
+		h20.4v2.2H455.3z M447.8,305.3h35.5v-30.6H472v-11.9h-24.2V305.3z M445.5,307.5v-47h27.9l12.1,11.9v35.1H445.5z"/>
 	<g>
 		<text transform="matrix(1 0 0 1 407.6445 329)" class="st5 st6">Metadata (EML)</text>
 	</g>
-	<path pointer-events="all" class="st9" d="M593.5,258h44v44h-44V258z"/>
-	<path pointer-events="all" class="st10" d="M599.5,296v-4.7h4.7v4.7H599.5z M597.9,297.6h7.9v-7.9h-7.9V297.6z M608.6,296v-4.7
+	<path pointer-events="all" class="st10" d="M593.5,258h44v44h-44V258z"/>
+	<path pointer-events="all" class="st11" d="M599.5,296v-4.7h4.7v4.7H599.5z M597.9,297.6h7.9v-7.9h-7.9V297.6z M608.6,296v-4.7
 		h22.9v4.7H608.6z M607,297.6h26.1v-7.9H607V297.6z M599.5,286.9v-4.7h4.7v4.7H599.5z M597.9,288.5h7.9v-7.9h-7.9V288.5z
 		 M608.6,286.9v-4.7h22.9v4.7H608.6z M607,288.5h26.1v-7.9H607V288.5z M599.5,277.8v-4.7h4.7v4.7H599.5z M597.9,279.4h7.9v-7.9h-7.9
 		V279.4z M608.6,277.8v-4.7h22.9v4.7H608.6z M607,279.4h26.1v-7.9H607V279.4z M599.5,268.7V264h4.7v4.7H599.5z M597.9,270.3h7.9
 		v-7.9h-7.9V270.3z M608.6,268.7V264h22.9v4.7H608.6z M607,270.3h26.1v-7.9H607V270.3z"/>
 	<g>
-		<text transform="matrix(1 0 0 1 570.0859 323.5)" class="st10 st5 st6">DNA derived</text>
-		<text transform="matrix(1 0 0 1 562.9609 342.5)" class="st10 st5 st6">data extension</text>
+		<text transform="matrix(1 0 0 1 570.0859 323.5)" class="st11 st5 st6">DNA derived</text>
+		<text transform="matrix(1 0 0 1 562.9609 342.5)" class="st11 st5 st6">data extension</text>
 	</g>
-	<path pointer-events="all" class="st9" d="M443.5,382.5h46v46h-46V382.5z"/>
-	<path pointer-events="all" class="st10" d="M449.8,422.2v-4.9h4.9v4.9H449.8z M448.1,423.9h8.3v-8.3h-8.3V423.9z M459.3,422.2v-4.9
+	<path pointer-events="all" class="st10" d="M443.5,382.5h46v46h-46V382.5z"/>
+	<path pointer-events="all" class="st11" d="M449.8,422.2v-4.9h4.9v4.9H449.8z M448.1,423.9h8.3v-8.3h-8.3V423.9z M459.3,422.2v-4.9
 		h23.9v4.9H459.3z M457.6,423.9h27.3v-8.3h-27.3V423.9z M449.8,412.7v-4.9h4.9v4.9H449.8z M448.1,414.4h8.3v-8.3h-8.3V414.4z
 		 M459.3,412.7v-4.9h23.9v4.9H459.3z M457.6,414.4h27.3v-8.3h-27.3V414.4z M449.8,403.2v-4.9h4.9v4.9H449.8z M448.1,404.9h8.3v-8.3
 		h-8.3V404.9z M459.3,403.2v-4.9h23.9v4.9H459.3z M457.6,404.9h27.3v-8.3h-27.3V404.9z M449.8,393.7v-4.9h4.9v4.9H449.8z
 		 M448.1,395.4h8.3v-8.3h-8.3V395.4z M459.3,393.7v-4.9h23.9v4.9H459.3z M457.6,395.4h27.3v-8.3h-27.3V395.4z"/>
 	<g>
-		<text transform="matrix(1 0 0 1 406.8672 450)" class="st10 st5 st6">Occurrence core</text>
+		<text transform="matrix(1 0 0 1 406.8672 450)" class="st11 st5 st6">Occurrence core</text>
 	</g>
-	<path pointer-events="stroke" class="st11" d="M489.5,382.9l106.2-104.4"/>
-	<path pointer-events="all" class="st9" d="M597.5,383.5h44v44h-44V383.5z"/>
-	<path pointer-events="all" class="st10" d="M603.5,421.5v-4.7h4.7v4.7H603.5z M601.9,423.1h7.9v-7.9h-7.9V423.1z M612.6,421.5v-4.7
+	<path pointer-events="stroke" class="st12" d="M489.5,382.9l106.2-104.4"/>
+	<path pointer-events="all" class="st10" d="M597.5,383.5h44v44h-44V383.5z"/>
+	<path pointer-events="all" class="st11" d="M603.5,421.5v-4.7h4.7v4.7H603.5z M601.9,423.1h7.9v-7.9h-7.9V423.1z M612.6,421.5v-4.7
 		h22.9v4.7H612.6z M611,423.1h26.1v-7.9H611V423.1z M603.5,412.4v-4.7h4.7v4.7H603.5z M601.9,414h7.9v-7.9h-7.9V414z M612.6,412.4
 		v-4.7h22.9v4.7H612.6z M611,414h26.1v-7.9H611V414z M603.5,403.3v-4.7h4.7v4.7H603.5z M601.9,404.9h7.9V397h-7.9V404.9z
 		 M612.6,403.3v-4.7h22.9v4.7H612.6z M611,404.9h26.1V397H611V404.9z M603.5,394.2v-4.7h4.7v4.7H603.5z M601.9,395.8h7.9v-7.9h-7.9
 		V395.8z M612.6,394.2v-4.7h22.9v4.7H612.6z M611,395.8h26.1v-7.9H611V395.8z"/>
 	<g>
-		<text transform="matrix(1 0 0 1 567.8672 449)" class="st10 st5 st6">Measurement </text>
-		<text transform="matrix(1 0 0 1 589.6602 468)" class="st10 st5 st6">&amp; Facts </text>
+		<text transform="matrix(1 0 0 1 567.8672 449)" class="st11 st5 st6">Measurement </text>
+		<text transform="matrix(1 0 0 1 589.6602 468)" class="st11 st5 st6">&amp; Facts </text>
 	</g>
-	<path pointer-events="stroke" class="st11" d="M489.5,405.5h108"/>
-	<path pointer-events="all" class="st12" d="M351.5,274.5v-12.6c0-6.9-3.4-10.4-10.4-10.4H31.9c-6.9,0-10.4,3.4-10.4,10.4v12.6"/>
-	<path pointer-events="all" class="st13" d="M21.5,274.5v146.6c0,6.9,3.4,10.4,10.4,10.4h309.3c6.9,0,10.4-3.4,10.4-10.4V274.5"/>
+	<path pointer-events="stroke" class="st12" d="M489.5,405.5h108"/>
+	<path pointer-events="all" class="st13" d="M351.5,274.5v-12.6c0-6.9-3.4-10.4-10.4-10.4H31.9c-6.9,0-10.4,3.4-10.4,10.4v12.6"/>
+	<path pointer-events="all" class="st14" d="M21.5,274.5v146.6c0,6.9,3.4,10.4,10.4,10.4h309.3c6.9,0,10.4-3.4,10.4-10.4V274.5"/>
 	<g>
 		<text transform="matrix(1 0 0 1 50.3594 269.5)" class="st5 st6">Internal institutional data management</text>
 	</g>
-	<path pointer-events="all" class="st12" d="M225.2,339.5v-20.9c0-11.4-5.7-17.1-17.1-17.1h-59.3c-11.4,0-17.1,5.7-17.1,17.1v20.9"
+	<path pointer-events="all" class="st13" d="M225.2,339.5v-20.9c0-11.4-5.7-17.1-17.1-17.1h-59.3c-11.4,0-17.1,5.7-17.1,17.1v20.9"
 		/>
-	<path pointer-events="all" class="st14" d="M131.8,339.5v40.9c0,11.4,5.7,17.1,17.1,17.1h59.3c11.4,0,17.1-5.7,17.1-17.1v-40.9"/>
+	<path pointer-events="all" class="st15" d="M131.8,339.5v40.9c0,11.4,5.7,17.1,17.1,17.1h59.3c11.4,0,17.1-5.7,17.1-17.1v-40.9"/>
 	<g>
 		<text transform="matrix(1 0 0 1 139.3008 317.5)" class="st5 st6">Lab data &amp;</text>
 		<text transform="matrix(1 0 0 1 145.5391 336.5)" class="st5 st6">protocols</text>
 	</g>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="128" height="128" xlink:href="D41337A04AD4F08.png"  pointer-events="none" transform="matrix(0.2578 0 0 0.2578 183.75 349.5)">
+		<image style="overflow:visible;enable-background:new    ;" width="132" height="132" xlink:href="D41337A04AD4F08.png"  pointer-events="none" transform="matrix(0.25 0 0 0.25 183.75 349.5)">
 	</image>
-	<path pointer-events="none" d="M146.2,363.3h2.7c0.4-1.7,1.1-3.2,2-4.7l-1.9-1.8l4.7-4.5l1.8,0l1.3,1.2c1-0.5,2.1-0.9,3.6-1.3
-		l0-2.6h8.5l0,2.6c1.1,0.2,2.1,0.5,3.7,1.2l1.2-1.2l1.9,0l4.7,4.6l-1.9,1.9c0.7,0.9,1.6,2.9,2,4.7h2.7v6.4h-2.7
-		c-0.5,1.7-1.1,3.4-2,4.7l1.9,1.8l-4.7,4.5h-1.9l-1.2-1.2c-1.1,0.6-2.5,1.1-3.6,1.3v2.6h-8.5l0-2.6c-1.3-0.3-2.8-0.8-3.6-1.3
-		l-1.3,1.2l-1.9,0l-4.7-4.5l1.9-1.9c-0.8-1.1-1.7-3.1-2-4.7h-2.7V363.3z"/>
-	<path pointer-events="none" class="st15" d="M154.6,380.8l-1.9,0l-4.7-4.5l1.9-1.9c-0.8-1.1-1.7-3.1-2-4.7h1.9
-		c0.3,1.7,1.3,3.5,2,4.7l-1.9,1.9L154.6,380.8z M161.4,380.9l0,2.6h-1.8l0-2.6c-1.1-0.2-2.8-0.8-3.6-1.3l0.7-0.6
-		C157.8,379.7,159.2,380.4,161.4,380.9z M172.8,379l1.9,1.8h-1.9l-1.2-1.2L172.8,379z M171.6,353.4l1.2-1.2l1.9,0l-1.9,1.8
-		L171.6,353.4z M156.5,354l-0.7-0.6c1-0.5,2.1-0.9,3.6-1.3l0-2.6h1.8l0,2.6C159.6,352.4,157.8,353.3,156.5,354z M147.9,363.3
-		c0.4-1.7,1.1-3.2,2-4.7l-1.9-1.8l4.7-4.5l1.8,0l-4.7,4.5l2,1.9c-0.9,1.2-1.7,3.1-2,4.7H147.9z M147.1,369.7h-1.8v-6.5h1.8V369.7z"
-		/>
-	<polygon pointer-events="none" class="st16" points="192.2,349.5 192.2,349.5 192.2,349.5 	"/>
-	<path pointer-events="none" class="st9" d="M166.8,361.5l-6.7-3.8l6.7-3.7v2.3c2.7,0.2,6.3,1.7,8.5,6c1.8,3.9,0.6,8.1-1.2,10.3
+	<path pointer-events="none" d="M146.2,363.3h2.7c0.4-1.7,1.1-3.2,2-4.7l-1.9-1.8l4.7-4.5h1.8l1.3,1.2c1-0.5,2.1-0.9,3.6-1.3v-2.6
+		h8.5v2.6c1.1,0.2,2.1,0.5,3.7,1.2l1.2-1.2h1.9l4.7,4.6l-1.9,1.9c0.7,0.9,1.6,2.9,2,4.7h2.7v6.4h-2.7c-0.5,1.7-1.1,3.4-2,4.7
+		l1.9,1.8l-4.7,4.5h-1.9l-1.2-1.2c-1.1,0.6-2.5,1.1-3.6,1.3v2.6h-8.5v-2.6c-1.3-0.3-2.8-0.8-3.6-1.3l-1.3,1.2h-1.9l-4.7-4.5l1.9-1.9
+		c-0.8-1.1-1.7-3.1-2-4.7h-2.7V363.3z"/>
+	<path pointer-events="none" class="st16" d="M154.6,380.8h-1.9l-4.7-4.5l1.9-1.9c-0.8-1.1-1.7-3.1-2-4.7h1.9c0.3,1.7,1.3,3.5,2,4.7
+		l-1.9,1.9L154.6,380.8z M161.4,380.9v2.6h-1.8v-2.6c-1.1-0.2-2.8-0.8-3.6-1.3l0.7-0.6C157.8,379.7,159.2,380.4,161.4,380.9z
+		 M172.8,379l1.9,1.8h-1.9l-1.2-1.2L172.8,379z M171.6,353.4l1.2-1.2h1.9l-1.9,1.8L171.6,353.4z M156.5,354l-0.7-0.6
+		c1-0.5,2.1-0.9,3.6-1.3v-2.6h1.8v2.6C159.6,352.4,157.8,353.3,156.5,354z M147.9,363.3c0.4-1.7,1.1-3.2,2-4.7l-1.9-1.8l4.7-4.5h1.8
+		l-4.7,4.5l2,1.9c-0.9,1.2-1.7,3.1-2,4.7h-1.9V363.3z M147.1,369.7h-1.8v-6.5h1.8V369.7z"/>
+	<path pointer-events="none" class="st17" d="M192.2,349.5L192.2,349.5L192.2,349.5z"/>
+	<path pointer-events="none" class="st10" d="M166.8,361.5l-6.7-3.8l6.7-3.7v2.3c2.7,0.2,6.3,1.7,8.5,6c1.8,3.9,0.6,8.1-1.2,10.3
 		l-2.5-1.8c1.7-2.2,2-4.6,0.9-7.2c-1-2.1-2.9-3.7-5.7-4.2V361.5z M164.6,371.4l6.6,3.8l-6.6,3.7v-2.3c-2.4-0.3-5.6-1.3-7.9-4.8
-		c-2.6-4-1.7-8.8,0.5-11.5l2.5,1.8c-1.6,2.1-2.2,5.3-0.4,8.1c1,1.5,2.5,2.9,5.2,3.4V371.4z"/>
-	<path pointer-events="none" class="st12" d="M341.5,309.5v-11c0-6-3-9-9-9h-85c-6,0-9,3-9,9v11"/>
-	<path pointer-events="none" class="st14" d="M238.5,309.5v91c0,6,3,9,9,9h85c6,0,9-3,9-9v-91"/>
+		c-2.6-4-1.7-8.8,0.5-11.5l2.5,1.8c-1.6,2.1-2.2,5.3-0.4,8.1c1,1.5,2.5,2.9,5.2,3.4L164.6,371.4L164.6,371.4z"/>
+	<path pointer-events="none" class="st13" d="M341.5,309.5v-11c0-6-3-9-9-9h-85c-6,0-9,3-9,9v11"/>
+	<path pointer-events="none" class="st15" d="M238.5,309.5v91c0,6,3,9,9,9h85c6,0,9-3,9-9v-91"/>
 	<g pointer-events="none">
 		<text transform="matrix(1 0 0 1 239.2617 306)" class="st5 st6">Bioinformatics</text>
 	</g>
@@ -132,61 +132,59 @@
 		c0-0.3,0.2-0.6,0.5-0.6h27.1c0.3,0,0.5,0.3,0.5,0.6v24.1c0,0.3-0.2,0.6-0.5,0.6h-27.1C251.1,366.3,250.8,366.1,250.8,365.8z
 		 M250.1,376.2l4.2-3.3h21.4l4.2,3.3H250.1z"/>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="64" height="64" xlink:href="D41337A04AD4F09.png"  pointer-events="none" transform="matrix(0.625 0 0 0.625 288 359.25)">
+		<image style="overflow:visible;enable-background:new    ;" width="64" height="65" xlink:href="D41337A04AD4F09.png"  pointer-events="none" transform="matrix(0.6201 0 0 0.6201 288.1556 359.0956)">
 	</image>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="128" height="128" xlink:href="D41337A04AD4F0F.png"  pointer-events="none" transform="matrix(0.3438 0 0 0.3438 287.5 312.75)">
+		<image style="overflow:visible;enable-background:new    ;" width="131" height="131" xlink:href="D41337A04AD4F0F.png"  pointer-events="none" transform="matrix(0.3359 0 0 0.3359 287.5 312.75)">
 	</image>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="128" height="128" xlink:href="D41337A04AD4F0A.png"  pointer-events="none" transform="matrix(0.1328 0 0 0.1328 289.5 328.75)">
+		<image style="overflow:visible;enable-background:new    ;" width="136" height="136" xlink:href="D41337A04AD4F0A.png"  pointer-events="none" transform="matrix(0.125 0 0 0.125 289.5 328.75)">
 	</image>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="64" height="64" xlink:href="D41337A04AD4F0B.png"  pointer-events="none" transform="matrix(0.2969 0 0 0.2969 309 327.75)">
+		<image style="overflow:visible;enable-background:new    ;" width="64" height="68" xlink:href="D41337A04AD4F0B.png"  pointer-events="none" transform="matrix(0.2878 0 0 0.2878 309.2921 327.4666)">
 	</image>
-	<path pointer-events="none" class="st12" d="M118.5,322.5v-12.6c0-6.9-3.5-10.4-10.3-10.4H38.8c-6.9,0-10.3,3.4-10.3,10.4v12.6"/>
-	<path pointer-events="none" class="st14" d="M28.5,322.5v66.6c0,6.9,3.4,10.4,10.3,10.4h69.3c6.9,0,10.3-3.4,10.3-10.4v-66.6"/>
+	<path pointer-events="none" class="st13" d="M118.5,322.5v-12.6c0-6.9-3.5-10.4-10.3-10.4H38.8c-6.9,0-10.3,3.4-10.3,10.4v12.6"/>
+	<path pointer-events="none" class="st15" d="M28.5,322.5v66.6c0,6.9,3.4,10.4,10.3,10.4h69.3c6.9,0,10.3-3.4,10.3-10.4v-66.6"/>
 	<g pointer-events="none">
 		<text transform="matrix(1 0 0 1 37.8672 317.5)" class="st5 st6">Field data</text>
 	</g>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="128" height="128" xlink:href="D41337A04AD4F06.png"  pointer-events="none" transform="matrix(0.2266 0 0 0.2266 73.5 329.25)">
+		<image style="overflow:visible;enable-background:new    ;" width="133" height="133" xlink:href="D41337A04AD4F06.png"  pointer-events="none" transform="matrix(0.2181 0 0 0.2181 73.5 329.25)">
 	</image>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="128" height="128" xlink:href="D41337A04AD4F07.png"  pointer-events="none" transform="matrix(0.2344 0 0 0.2344 43.5 332.75)">
+		<image style="overflow:visible;enable-background:new    ;" width="132" height="132" xlink:href="D41337A04AD4F07.png"  pointer-events="none" transform="matrix(0.2273 0 0 0.2273 43.5 332.75)">
 	</image>
 	<path pointer-events="none" d="M61.2,371.2c0.8,0,1.4-0.5,1.4-1c0-0.6-0.6-1.1-1.4-1.1c-0.8,0-1.4,0.5-1.4,1.1
 		C59.8,370.8,60.5,371.2,61.2,371.2 M54,372.8L54,372.8C54,372.8,54,372.7,54,372.8c0-0.1,0-0.2,0.1-0.2h4.5c0.2,0,0.4-0.1,0.4-0.3
-		c0-0.1-0.1-0.2-0.2-0.3l-4-1.4c-0.1,0-0.1-0.1-0.1-0.2c0-0.1,0-0.1,0.1-0.1c0,0,10.6-7,34.2-0.2l6.5-2.4c0.1,0,0.1,0,0.2,0
+		c0-0.1-0.1-0.2-0.2-0.3l-4-1.4c-0.1,0-0.1-0.1-0.1-0.2s0-0.1,0.1-0.1c0,0,10.6-7,34.2-0.2l6.5-2.4c0.1,0,0.1,0,0.2,0
 		c0.3,0,0.5,0.2,0.5,0.4c0,0.1,0,0.1-0.1,0.2l-3.8,3.5l3.8,3.5c0,0.1,0.1,0.1,0.1,0.2c0,0.2-0.2,0.4-0.5,0.4c-0.1,0-0.1,0-0.2,0
 		l-6.5-2.4C88.8,373.5,66.3,380.2,54,372.8z M59.5,381.3c0.5,0,0.8-0.3,0.8-0.6S60,380,59.5,380c-0.4,0-0.8,0.3-0.8,0.6
 		C58.7,381,59.1,381.3,59.5,381.3 M56.4,381.6L56.4,381.6C56.3,381.6,56.3,381.6,56.4,381.6C56.3,381.5,56.4,381.5,56.4,381.6
-		l1.8-0.1c0.1,0,0.2-0.1,0.2-0.1c0-0.1,0-0.1-0.1-0.1l-1.6-0.6c0,0,0,0,0-0.1c0,0,0-0.1,0-0.1c0,0,4.2-2.8,13.6-0.1l2.6-0.9
-		c0,0,0.1,0,0.1,0c0.1,0,0.2,0.1,0.2,0.1c0,0,0,0.1,0,0.1l-1.5,1.4l1.5,1.4c0,0,0,0.1,0,0.1c0,0.1-0.1,0.1-0.2,0.1c0,0-0.1,0-0.1,0
-		l-2.6-0.9C70.3,381.9,61.3,384.6,56.4,381.6z M81,381c0.4,0,0.8-0.3,0.8-0.6c0-0.3-0.4-0.6-0.8-0.6c-0.4,0-0.8,0.3-0.8,0.6
-		C80.2,380.7,80.6,381,81,381 M77.8,381.4L77.8,381.4C77.8,381.4,77.8,381.3,77.8,381.4C77.8,381.3,77.8,381.3,77.8,381.4l1.8-0.1
-		c0.1,0,0.1,0,0.1-0.1c0-0.1,0-0.1-0.1-0.1l-1.6-0.6c0,0,0,0,0-0.1s0-0.1,0-0.1c0,0,4.2-2.8,13.7-0.1l2.6-0.9c0,0,0.1,0,0.1,0
-		c0.1,0,0.2,0.1,0.2,0.2c0,0,0,0.1,0,0.1l-1.5,1.4l1.5,1.4c0,0,0,0.1,0,0.1c0,0.1-0.1,0.1-0.2,0.1c0,0-0.1,0-0.1,0l-2.6-0.9
-		C91.7,381.6,82.8,384.3,77.8,381.4z M68.8,387.9c0.4,0,0.8-0.3,0.8-0.6c0-0.3-0.4-0.6-0.8-0.6c-0.4,0-0.8,0.3-0.8,0.6
-		C67.9,387.7,68.3,387.9,68.8,387.9 M65.6,388.3L65.6,388.3C65.6,388.3,65.6,388.3,65.6,388.3C65.6,388.2,65.6,388.2,65.6,388.3
-		l1.8-0.1c0.1,0,0.2-0.1,0.2-0.1c0-0.1,0-0.1-0.1-0.1l-1.6-0.6c0,0,0,0,0-0.1c0,0,0,0,0,0c0,0,4.2-2.8,13.7-0.1l2.6-0.9
-		c0,0,0.1,0,0.1,0c0.1,0,0.2,0.1,0.2,0.2c0,0,0,0.1,0,0.1l-1.5,1.4l1.5,1.4c0,0,0,0.1,0,0.1c0,0.1-0.1,0.1-0.2,0.1c0,0-0.1,0-0.1,0
-		l-2.6-0.9C79.5,388.6,70.5,391.2,65.6,388.3"/>
+		l1.8-0.1c0.1,0,0.2-0.1,0.2-0.1c0-0.1,0-0.1-0.1-0.1l-1.6-0.6c0,0,0,0,0-0.1v-0.1c0,0,4.2-2.8,13.6-0.1l2.6-0.9H73
+		c0.1,0,0.2,0.1,0.2,0.1v0.1l-1.5,1.4l1.5,1.4v0.1c0,0.1-0.1,0.1-0.2,0.1h-0.1l-2.6-0.9C70.3,381.9,61.3,384.6,56.4,381.6z M81,381
+		c0.4,0,0.8-0.3,0.8-0.6c0-0.3-0.4-0.6-0.8-0.6s-0.8,0.3-0.8,0.6S80.6,381,81,381 M77.8,381.4L77.8,381.4
+		C77.8,381.4,77.8,381.3,77.8,381.4C77.8,381.3,77.8,381.3,77.8,381.4l1.8-0.1c0.1,0,0.1,0,0.1-0.1s0-0.1-0.1-0.1l-1.6-0.6
+		c0,0,0,0,0-0.1s0-0.1,0-0.1s4.2-2.8,13.7-0.1l2.6-0.9h0.1c0.1,0,0.2,0.1,0.2,0.2v0.1l-1.5,1.4l1.5,1.4v0.1c0,0.1-0.1,0.1-0.2,0.1
+		h-0.1l-2.6-0.9C91.7,381.6,82.8,384.3,77.8,381.4z M68.8,387.9c0.4,0,0.8-0.3,0.8-0.6c0-0.3-0.4-0.6-0.8-0.6S68,387,68,387.3
+		C67.9,387.7,68.3,387.9,68.8,387.9 M65.6,388.3L65.6,388.3L65.6,388.3C65.6,388.2,65.6,388.2,65.6,388.3l1.8-0.1
+		c0.1,0,0.2-0.1,0.2-0.1c0-0.1,0-0.1-0.1-0.1l-1.6-0.6c0,0,0,0,0-0.1l0,0c0,0,4.2-2.8,13.7-0.1l2.6-0.9h0.1c0.1,0,0.2,0.1,0.2,0.2
+		v0.1L81,388l1.5,1.4v0.1c0,0.1-0.1,0.1-0.2,0.1h-0.1l-2.6-0.9C79.5,388.6,70.5,391.2,65.6,388.3"/>
 	<path pointer-events="none" class="st3" d="M977.5,364.5v-12.6c0-6.9-3.5-10.4-10.3-10.4H761.8c-6.9,0-10.3,3.4-10.3,10.4v12.6"/>
 	<path pointer-events="none" class="st4" d="M751.5,364.5v139.6c0,6.9,3.5,10.4,10.3,10.4h205.3c6.9,0,10.3-3.4,10.3-10.4V364.5"/>
 	<g pointer-events="none">
 		<text transform="matrix(1 0 0 1 785.7344 359.5)" class="st5 st6">Research data portals</text>
 	</g>
-	<path pointer-events="none" class="st17" d="M772,374.5h185c2.5,0,4.5,2,4.5,4.5v21c0,2.5-2,4.5-4.5,4.5H772c-2.5,0-4.5-2-4.5-4.5
+	<path pointer-events="none" class="st18" d="M772,374.5h185c2.5,0,4.5,2,4.5,4.5v21c0,2.5-2,4.5-4.5,4.5H772c-2.5,0-4.5-2-4.5-4.5
 		v-21C767.5,376.5,769.5,374.5,772,374.5z"/>
 	<g pointer-events="none">
 		<text transform="matrix(1 0 0 1 844.8828 396)" class="st5 st6">OBIS</text>
 	</g>
-	<path pointer-events="none" class="st17" d="M772,424.5h185c2.5,0,4.5,2,4.5,4.5v21c0,2.5-2,4.5-4.5,4.5H772c-2.5,0-4.5-2-4.5-4.5
+	<path pointer-events="none" class="st18" d="M772,424.5h185c2.5,0,4.5,2,4.5,4.5v21c0,2.5-2,4.5-4.5,4.5H772c-2.5,0-4.5-2-4.5-4.5
 		v-21C767.5,426.5,769.5,424.5,772,424.5z"/>
 	<g pointer-events="none">
 		<text transform="matrix(1 0 0 1 792.8594 446)" class="st5 st6">ALA-based systems</text>
 	</g>
-	<path pointer-events="none" class="st17" d="M772,474.5h185c2.5,0,4.5,2,4.5,4.5v21c0,2.5-2,4.5-4.5,4.5H772c-2.5,0-4.5-2-4.5-4.5
+	<path pointer-events="none" class="st18" d="M772,474.5h185c2.5,0,4.5,2,4.5,4.5v21c0,2.5-2,4.5-4.5,4.5H772c-2.5,0-4.5-2-4.5-4.5
 		v-21C767.5,476.5,769.5,474.5,772,474.5z"/>
 	<g pointer-events="none">
 		<text transform="matrix(1 0 0 1 832.4336 496)" class="st5 st6">GBIF.org</text>
@@ -196,12 +194,12 @@
 	<g pointer-events="none">
 		<text transform="matrix(1 0 0 1 764.4023 204.5)" class="st5 st6">Governmental data systems</text>
 	</g>
-	<path pointer-events="none" class="st17" d="M769,226.5h188c2.5,0,4.5,2,4.5,4.5v21c0,2.5-2,4.5-4.5,4.5H769c-2.5,0-4.5-2-4.5-4.5
+	<path pointer-events="none" class="st18" d="M769,226.5h188c2.5,0,4.5,2,4.5,4.5v21c0,2.5-2,4.5-4.5,4.5H769c-2.5,0-4.5-2-4.5-4.5
 		v-21C764.5,228.5,766.5,226.5,769,226.5z"/>
 	<g pointer-events="none">
 		<text transform="matrix(1 0 0 1 782.0234 248)" class="st5 st6">Biodiversity monitoring</text>
 	</g>
-	<path pointer-events="none" class="st17" d="M769,271h188c2.5,0,4.5,2,4.5,4.5v21c0,2.5-2,4.5-4.5,4.5H769c-2.5,0-4.5-2-4.5-4.5
+	<path pointer-events="none" class="st18" d="M769,271h188c2.5,0,4.5,2,4.5,4.5v21c0,2.5-2,4.5-4.5,4.5H769c-2.5,0-4.5-2-4.5-4.5
 		v-21C764.5,273,766.5,271,769,271z"/>
 	<g pointer-events="none">
 		<text transform="matrix(1 0 0 1 803.8047 292.5)" class="st5 st6">Invasive species</text>
@@ -213,132 +211,153 @@
 	</g>
 	<path pointer-events="none" class="st3" d="M151.5,61.5V45c0-9-4.5-13.5-13.5-13.5H25c-9,0-13.5,4.5-13.5,13.5v16.5"/>
 	<path pointer-events="none" class="st7" d="M11.5,61.5V138c0,9,4.5,13.5,13.5,13.5h113c9,0,13.5-4.5,13.5-13.5V61.5"/>
-	<path pointer-events="none" class="st18" d="M11.5,61.5h140"/>
+	<path pointer-events="none" class="st19" d="M11.5,61.5h140"/>
 	<g pointer-events="none">
 		<text transform="matrix(1 0 0 1 26.75 53)" class="st5 st6">Field notes etc.</text>
 	</g>
 	<g>
-		<defs>
-			<rect id="SVGID_1_" x="15.5" y="61.5" width="132" height="30"/>
-		</defs>
-		<clipPath id="SVGID_00000062178461915956747740000016463002312849418883_">
-			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-		</clipPath>
-		<g pointer-events="none" style="clip-path:url(#SVGID_00000062178461915956747740000016463002312849418883_);">
-			<text transform="matrix(1 0 0 1 17 83)" class="st5 st6">Dataverse</text>
+		<g>
+			<defs>
+				<rect id="SVGID_1_" x="15.5" y="61.5" width="132" height="30"/>
+			</defs>
+			<clipPath id="SVGID_00000134967709849802324530000004911570385982200756_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g pointer-events="none" style="clip-path:url(#SVGID_00000134967709849802324530000004911570385982200756_);">
+				<text transform="matrix(1 0 0 1 17 83)" class="st5 st6">Dataverse</text>
+			</g>
 		</g>
 	</g>
 	<g>
-		<defs>
-			<rect id="SVGID_00000154401636232375437530000012589570296294221755_" x="15.5" y="91.5" width="132" height="30"/>
-		</defs>
-		<clipPath id="SVGID_00000124868799854640638920000013600982319385367207_">
-			<use xlink:href="#SVGID_00000154401636232375437530000012589570296294221755_"  style="overflow:visible;"/>
-		</clipPath>
-		<g pointer-events="none" style="clip-path:url(#SVGID_00000124868799854640638920000013600982319385367207_);">
-			<text transform="matrix(1 0 0 1 17 113)" class="st5 st6">BIRD</text>
+		<g>
+			<defs>
+				<rect id="SVGID_00000057129719551731871780000003759096166578217393_" x="15.5" y="91.5" width="132" height="30"/>
+			</defs>
+			<clipPath id="SVGID_00000083783692221347377190000002088484688628375172_">
+				<use xlink:href="#SVGID_00000057129719551731871780000003759096166578217393_"  style="overflow:visible;"/>
+			</clipPath>
+			<g pointer-events="none" style="clip-path:url(#SVGID_00000083783692221347377190000002088484688628375172_);">
+				<text transform="matrix(1 0 0 1 17 113)" class="st5 st6">BIRD</text>
+			</g>
 		</g>
 	</g>
 	<g>
-		<defs>
-			<rect id="SVGID_00000134234182490408707720000016543415333163381139_" x="15.5" y="121.5" width="132" height="30"/>
-		</defs>
-		<clipPath id="SVGID_00000073681379031007033650000008620612291664280733_">
-			<use xlink:href="#SVGID_00000134234182490408707720000016543415333163381139_"  style="overflow:visible;"/>
-		</clipPath>
-		<g pointer-events="none" style="clip-path:url(#SVGID_00000073681379031007033650000008620612291664280733_);">
-			<text transform="matrix(1 0 0 1 17 143)" class="st5 st6">EUDAT</text>
+		<g>
+			<defs>
+				<rect id="SVGID_00000151518350582972526430000017727054780082266516_" x="15.5" y="121.5" width="132" height="30"/>
+			</defs>
+			<clipPath id="SVGID_00000085953948342823554660000016549346316221527208_">
+				<use xlink:href="#SVGID_00000151518350582972526430000017727054780082266516_"  style="overflow:visible;"/>
+			</clipPath>
+			<g pointer-events="none" style="clip-path:url(#SVGID_00000085953948342823554660000016549346316221527208_);">
+				<text transform="matrix(1 0 0 1 17 143)" class="st5 st6">EUDAT</text>
+			</g>
 		</g>
 	</g>
 	<path pointer-events="none" class="st3" d="M301.5,62.5V46c0-9-4.5-13.5-13.5-13.5H175c-9,0-13.5,4.5-13.5,13.5v16.5"/>
 	<path pointer-events="none" class="st7" d="M161.5,62.5V109c0,42.5,0,42.5,13.7,42.5h120.5c5.8,0,6.4,0,5.8-42.5V62.5"/>
-	<path pointer-events="none" class="st18" d="M161.5,62.5h140"/>
+	<path pointer-events="none" class="st19" d="M161.5,62.5h140"/>
 	<g pointer-events="none">
 		<text transform="matrix(1 0 0 1 161.6289 54)" class="st5 st6">Raw sequence files</text>
 	</g>
 	<g>
-		<defs>
-			<rect id="SVGID_00000132089936420412540710000006011360900249526178_" x="165.5" y="69.2" width="132" height="55"/>
-		</defs>
-		<clipPath id="SVGID_00000089566985637702643070000011199531771970325428_">
-			<use xlink:href="#SVGID_00000132089936420412540710000006011360900249526178_"  style="overflow:visible;"/>
-		</clipPath>
-		<g pointer-events="none" style="clip-path:url(#SVGID_00000089566985637702643070000011199531771970325428_);">
-			<text transform="matrix(1 0 0 1 167 85)" class="st23"><tspan x="0" y="0" class="st5 st6">DDBJ</tspan><tspan x="0" y="30" class="st5 st6">ENA</tspan></text>
+		<g>
+			<defs>
+				<rect id="SVGID_00000080197044505256073330000017433652978210703494_" x="165.5" y="69.2" width="132" height="55"/>
+			</defs>
+			<clipPath id="SVGID_00000024684687211872558170000015146382363906868377_">
+				<use xlink:href="#SVGID_00000080197044505256073330000017433652978210703494_"  style="overflow:visible;"/>
+			</clipPath>
+			<g pointer-events="none" style="clip-path:url(#SVGID_00000024684687211872558170000015146382363906868377_);">
+				<text transform="matrix(1 0 0 1 167 85)" class="st5 st6">DDBJ</text>
+				<text transform="matrix(1 0 0 1 167 115)" class="st5 st6">ENA</text>
+			</g>
 		</g>
 	</g>
 	<g>
-		<defs>
-			<rect id="SVGID_00000176731738314789090230000006395880910681694109_" x="165.5" y="92.5" width="132" height="55"/>
-		</defs>
-		<clipPath id="SVGID_00000034802691163818238590000007632965731210892477_">
-			<use xlink:href="#SVGID_00000176731738314789090230000006395880910681694109_"  style="overflow:visible;"/>
-		</clipPath>
-		<g pointer-events="none" style="clip-path:url(#SVGID_00000034802691163818238590000007632965731210892477_);">
-			<text transform="matrix(1 0 0 1 167 144)" class="st5 st6">GenBank</text>
+		<g>
+			<defs>
+				<rect id="SVGID_00000163789853660502825200000013256264762292902566_" x="165.5" y="92.5" width="132" height="55"/>
+			</defs>
+			<clipPath id="SVGID_00000166636191522626363740000008320928037867011477_">
+				<use xlink:href="#SVGID_00000163789853660502825200000013256264762292902566_"  style="overflow:visible;"/>
+			</clipPath>
+			<g pointer-events="none" style="clip-path:url(#SVGID_00000166636191522626363740000008320928037867011477_);">
+				<text transform="matrix(1 0 0 1 167 144)" class="st5 st6">GenBank</text>
+			</g>
 		</g>
 	</g>
 	<path pointer-events="none" class="st3" d="M451.5,62.5V46c0-9-4.5-13.5-13.5-13.5H325c-9,0-13.5,4.5-13.5,13.5v16.5"/>
 	<path pointer-events="none" class="st7" d="M311.5,62.5V139c0,9,4.5,13.5,13.5,13.5h113c9,0,13.5-4.5,13.5-13.5V62.5"/>
-	<path pointer-events="none" class="st18" d="M311.5,62.5h140"/>
+	<path pointer-events="none" class="st19" d="M311.5,62.5h140"/>
 	<g pointer-events="none">
 		<text transform="matrix(1 0 0 1 330.7617 54)" class="st5 st6">Bioinformatics</text>
 	</g>
 	<g>
-		<defs>
-			<rect id="SVGID_00000140737255058546807120000001560347100664288430_" x="315.5" y="62.5" width="132" height="30"/>
-		</defs>
-		<clipPath id="SVGID_00000119078859241597042010000012097065326759193247_">
-			<use xlink:href="#SVGID_00000140737255058546807120000001560347100664288430_"  style="overflow:visible;"/>
-		</clipPath>
-		<g pointer-events="none" style="clip-path:url(#SVGID_00000119078859241597042010000012097065326759193247_);">
-			<text transform="matrix(1 0 0 1 317 84)" class="st5 st6">GitHub</text>
+		<g>
+			<defs>
+				<rect id="SVGID_00000128481882111245294530000013767284441101532042_" x="315.5" y="62.5" width="132" height="30"/>
+			</defs>
+			<clipPath id="SVGID_00000074402651528176400810000018098989097582378125_">
+				<use xlink:href="#SVGID_00000128481882111245294530000013767284441101532042_"  style="overflow:visible;"/>
+			</clipPath>
+			<g pointer-events="none" style="clip-path:url(#SVGID_00000074402651528176400810000018098989097582378125_);">
+				<text transform="matrix(1 0 0 1 317 84)" class="st5 st6">GitHub</text>
+			</g>
 		</g>
 	</g>
 	<g>
-		<defs>
-			<rect id="SVGID_00000080908212950767034930000017219426757386970783_" x="315.5" y="92.5" width="132" height="30"/>
-		</defs>
-		<clipPath id="SVGID_00000031177861881776370460000002691540885192230314_">
-			<use xlink:href="#SVGID_00000080908212950767034930000017219426757386970783_"  style="overflow:visible;"/>
-		</clipPath>
-		<g pointer-events="none" style="clip-path:url(#SVGID_00000031177861881776370460000002691540885192230314_);">
-			<text transform="matrix(1 0 0 1 317 114)" class="st5 st6">GitLab</text>
+		<g>
+			<defs>
+				<rect id="SVGID_00000111184694176559629910000000751630067821716893_" x="315.5" y="92.5" width="132" height="30"/>
+			</defs>
+			<clipPath id="SVGID_00000091698343112927399380000018150815235806145409_">
+				<use xlink:href="#SVGID_00000111184694176559629910000000751630067821716893_"  style="overflow:visible;"/>
+			</clipPath>
+			<g pointer-events="none" style="clip-path:url(#SVGID_00000091698343112927399380000018150815235806145409_);">
+				<text transform="matrix(1 0 0 1 317 114)" class="st5 st6">GitLab</text>
+			</g>
 		</g>
 	</g>
 	<g>
-		<defs>
-			<rect id="SVGID_00000075865432181676328820000003344484620819640743_" x="315.5" y="122.5" width="132" height="30"/>
-		</defs>
-		<clipPath id="SVGID_00000099647155622572926320000017140964728159128479_">
-			<use xlink:href="#SVGID_00000075865432181676328820000003344484620819640743_"  style="overflow:visible;"/>
-		</clipPath>
-		<g pointer-events="none" style="clip-path:url(#SVGID_00000099647155622572926320000017140964728159128479_);">
-			<text transform="matrix(1 0 0 1 317 144)" class="st5 st6">Protocols.io</text>
+		<g>
+			<defs>
+				<rect id="SVGID_00000006707997016990583660000011992301529243644564_" x="315.5" y="122.5" width="132" height="30"/>
+			</defs>
+			<clipPath id="SVGID_00000000186919877125827010000012671464850196304553_">
+				<use xlink:href="#SVGID_00000006707997016990583660000011992301529243644564_"  style="overflow:visible;"/>
+			</clipPath>
+			<g pointer-events="none" style="clip-path:url(#SVGID_00000000186919877125827010000012671464850196304553_);">
+				<text transform="matrix(1 0 0 1 317 144)" class="st5 st6">Protocols.io</text>
+			</g>
 		</g>
 	</g>
 	<path pointer-events="none" class="st3" d="M601.5,62.5V46c0-9-4.5-13.5-13.5-13.5H475c-9,0-13.5,4.5-13.5,13.5v16.5"/>
 	<path pointer-events="none" class="st7" d="M461.5,62.5V79c0.1,63.9-2.3,73.5,6.7,73.5h127.3c9,0,5.7-8.5,6-73.5V62.5"/>
-	<path pointer-events="none" class="st18" d="M461.5,62.5h140"/>
+	<path pointer-events="none" class="st19" d="M461.5,62.5h140"/>
 	<g pointer-events="none">
 		<text transform="matrix(1 0 0 1 470.0859 54)" class="st5 st6">Reference library</text>
 	</g>
 	<g>
-		<defs>
-			<polygon id="SVGID_00000031171377418649806350000016106483932591080330_" points="465.5,68.5 597.5,68.5 595.5,147.3 
-				465.9,147.3 			"/>
-		</defs>
-		<clipPath id="SVGID_00000175285312772134658600000008580160068493377707_">
-			<use xlink:href="#SVGID_00000031171377418649806350000016106483932591080330_"  style="overflow:visible;"/>
-		</clipPath>
-		<g pointer-events="none" style="clip-path:url(#SVGID_00000175285312772134658600000008580160068493377707_);">
-			<text transform="matrix(1 0 0 1 467 84)" class="st23"><tspan x="0" y="0" class="st5 st6">BOLD</tspan><tspan x="0" y="30" class="st5 st6">SILVA</tspan><tspan x="0" y="60" class="st5 st6">UNITE</tspan></text>
+		<g>
+			<defs>
+				<polygon id="SVGID_00000160880966043294070550000017583834291809667728_" points="465.5,68.5 597.5,68.5 595.5,147.3 
+					465.9,147.3 				"/>
+			</defs>
+			<clipPath id="SVGID_00000099647701049118236690000017718330584981225892_">
+				<use xlink:href="#SVGID_00000160880966043294070550000017583834291809667728_"  style="overflow:visible;"/>
+			</clipPath>
+			<g pointer-events="none" style="clip-path:url(#SVGID_00000099647701049118236690000017718330584981225892_);">
+				<text transform="matrix(1 0 0 1 467 84)" class="st5 st6">BOLD</text>
+				<text transform="matrix(1 0 0 1 467 114)" class="st5 st6">SILVA</text>
+				<text transform="matrix(1 0 0 1 467 144)" class="st5 st6">UNITE</text>
+			</g>
 		</g>
 	</g>
 	<path pointer-events="none" class="st29" d="M700,38.5h262.5c8.3,0,15,6.7,15,15v70c0,8.3-6.7,15-15,15H700c-8.3,0-15-6.7-15-15
 		v-70C685,45.2,691.7,38.5,700,38.5z"/>
 	<g transform="translate(-0.5 -0.5)">
-		<text transform="matrix(1 0 0 1 695.8789 93.5)" class="st5 st6">Potential system for updating results...</text>
+		<text transform="matrix(1 0 0 1 726.4883 74.5)" class="st30"><tspan x="0" y="0" class="st5 st6">Potential system for updating </tspan><tspan x="11.6" y="19.2" class="st5 st6">results (for example, when</tspan><tspan x="5.8" y="38.4" class="st5 st6">updating reference libraries)</tspan></text>
 	</g>
 	
 		<image style="overflow:visible;enable-background:new    ;" width="128" height="128" xlink:href="D41337A04AD4F18.png"  pointer-events="none" transform="matrix(0.7422 0 0 0.7422 901 111)">
@@ -347,5 +366,5 @@
 		<image style="overflow:visible;enable-background:new    ;" width="128" height="128" xlink:href="D41337A04AD4F1B.png"  pointer-events="none" transform="matrix(0.7422 0 0 0.7422 651 111)">
 	</image>
 </g>
-<path class="st0" d="z"/>
+<path class="st0" d="M0,0"/>
 </svg>
