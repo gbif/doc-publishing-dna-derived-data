@@ -1,4 +1,4 @@
-== Data packaging and mapping
+= Data packaging and mapping
 
 This chapter focuses on practical details on turning your data export into a dataset indexed by a biodiversity data platform. <<categorization-of-your-data>> will help you understand what is the optimal mapping schema for your data at hand. <<data-mapping>> describes these mappings in detail.
 
@@ -9,13 +9,13 @@ Data packaging and publishing pathways vary from platform to platform and are de
 [[figure-dwca-ipt]]
 .Zoom in of DwC-A / IPT from figure 3 in chapter 1.2. The choice of core entity is mainly a matter of fitting data to the data import mechanism (ingestion) of the biodiversity data platforms. Most data could be formulated as either Occurrence, Event or Taxon core, but as only the core can have extensions, this will affect the choice. It is for example not possible to extend occurrences with DNA sequences if data are packaged using Event core.
 ifdef::backend-pdf[]
-image::img/print/dwca-structure.en.png[]
+image::print/dwca-structure.en.png[]
 endif::backend-pdf[]
 ifndef::backend-pdf[]
-image::img/web/ct/dwca-structure.en.svg[]
+image::web/ct/dwca-structure.en.svg[]
 endif::backend-pdf[]
 
-=== Categorization of your data
+== Categorization of your data
 
 For the purpose of this guide, we categorize data into five categories, linked by a key ID field (_eventID_), equivalent to the standards for general biodiversity data, and include fields relevant for DNA-derived data (see xref:data-mapping[xrefstyle="full"]). These five categories seek to reflect the most commonly used molecular approaches to biodiversity characterization and are I) DNA-derived occurrences, II) enriched occurrences, III) targeted species detection, IV) name references and V) metadata only. Examine the decision tree and proceed to the correct section below.
 
@@ -68,14 +68,14 @@ Metadata-only
 
 [[figure-categories]]
 .Visual representation of categories I-V.
-image::img/web/ct/eDNA-categories.en.svg[]
+image::web/ct/eDNA-categories.en.svg[]
 
 [[category-i]]
-==== Category I: DNA-derived occurrences
+=== Category I: DNA-derived occurrences
 
 This category concerns data where a DNA sequence or detection through PCR is the only evidence for the presence of a given organism or community. In other words, the data cannot be traced back to an observable specimen. This is the case for many metagenomics, metabarcoding and eDNA studies.
 
-===== Examples of DNA-derived occurrence datasets
+==== Examples of DNA-derived occurrence datasets
 
 * MGnify (2019) Impact of rainforest transformation on phylogenetic and functional diversity of soil prokaryotic communities in Sumatra (Indonesia). Sampling event dataset https://doi.org/10.15468/osp7hi accessed via GBIF.org on 2020-04-16.
 * MGnify (2020) Marine metagenomes from the bioGEOTRACES project. Sampling event dataset https://doi.org/10.15468/oifcho accessed via GBIF.org on 2020-04-16.
@@ -84,11 +84,11 @@ This category concerns data where a DNA sequence or detection through PCR is the
 For guidance on how to format and share these datasets, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences].
 
 [[category-ii]]
-==== Category II: Enriched occurrences
+=== Category II: Enriched occurrences
 
 If some genetic material is, or can be, associated with an observation or a specimen, we will categorize this type of data as “enriched occurrences”. In this context, the sequences are not the only evidence of occurrences. One can always trace the information back to a vouchered specimen or observed organism. This category includes barcoding datasets and some DNA metabarcoding datasets with reference material for example. For more guidance on barcoding, follow https://www.cbd.int/doc/publications/cbd-ts-94-en.pdf[Centre for Biodiversity Genomics, University of Guelph (2021)].
 
-===== Examples of Enriched occurrence datasets
+==== Examples of Enriched occurrence datasets
 
 * The International Barcode of Life Consortium (2016) International Barcode of Life project (iBOL). Occurrence dataset https://doi.org/10.15468/inygc6 accessed via GBIF.org on 2020-04-16.
 * Takamura K (2019) Chironomid Specimen records in the Chironomid DNA Barcode Database. Version 1.9. National Institute of Genetics, ROIS. Occurrence dataset https://doi.org/10.15468/hxhow5 accessed via GBIF.org on 2020-04-16.
@@ -97,25 +97,25 @@ If some genetic material is, or can be, associated with an observation or a spec
 For guidance on how to format and share these datasets, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences].
 
 [[category-iii]]
-==== Category III: Targeted species detection (qPCR/ddPCR)
+=== Category III: Targeted species detection (qPCR/ddPCR)
 
 This category concerns data where a specific (qPCR/ddPCR) assay is used to detect the presence (or absence) of a DNA sequence specific to the target organism in an environmental sample. In this case the occurrence record may not even contain sequence data, as it is the process itself that determines the occurrence. With qPCR/ddPCR analyses for targeted species detection, many studies also report absence of that specific species for a given sample. Absence data is highly dependent on the detection limit of the specific assay, as well as field and lab protocols. As for DNA-metabarcoding data there is an issue of both false negatives and false positives, and it is important that sufficient information is reported for evaluating the records.
 
-===== Examples of targeted species occurrence datasets
+==== Examples of targeted species occurrence datasets
 * Strzelecki, Joanna; Feng, Ming; Berry, Olly; Zhong, Liejun; Keesing, John; Fairclough, David; Pearce, Alan; Slawinski, Dirk; Mortimer, Nick. Location and transport of early life stages of Western Australian Dhufish Glaucosoma hebraicum. Floreat, WA: Fisheries Research and Development Corporation; 2013. http://hdl.handle.net/102.100.100/97533 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr8131. Accessed 22 July 2020)
 
 For guidance on how to format and share these datasets, see <<mapping-ddpcr-qpcr-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences].
 
 [[category-iv]]
-==== Category IV: Name references
+=== Category IV: Name references
 
 This category corresponds to DNA-derived names, derived from clustering or denoising (error-correction based models), such as stable non-Linnaean Operational Taxonomic Units (OTU), Amplicon Sequence Variant (ASV) and Barcode Index Numbers (BIN)—in other words, any reference to taxa or provisional names that are defined outside of the Linnaean taxonomy. Numerous projects produce local project- or study-specific libraries of OTUs, and although it is technically possible to publish these as checklists, they have limited to no value for data linking or interpretation; as a result, we do not encourage their publication through biodiversity data platforms. However, the inclusion of the widely adopted, stable, global, digitally referenceable OTUs into Linnaean taxonomic backbones is critically important for indexing unnamed “dark” biodiversity. GBIF have accumulated experience in integrating such large and global reference libraries of OTUs into the GBIF taxonomic backbone, which allows the display of OTUs under the nearest parent taxon which has a Latin name (<<figure-otus>>). 
 
 [[figure-otus]]
 .OTUs from UNITE (fungi, above) and from BOLD (arthropods, below) are displayed in the GBIF backbone taxonomy under their corresponding parent taxa which have Latin names. Multiple individually observed occurrences of cryptic biodiversity become discoverable together with non-genetic evidence through a single access point.
-image::img/web/otus-from-unite.en.png[]
+image::web/otus-from-unite.en.png[]
 
-===== Examples of Name references checklists
+==== Examples of Name references checklists
 
 *	The International Barcode of Life Consortium (2016). International Barcode of Life project (iBOL) Barcode Index Numbers (BINs). Checklist dataset https://doi.org/10.15468/wvfqoi accessed via GBIF.org on 2020-04-16.
 *	PlutoF (2019). UNITE - Unified system for the DNA based fungal species linked to the classification. Version 1.2. Checklist dataset https://doi.org/10.15468/mkpcy3 accessed via GBIF.org on 2020-04-16.
@@ -123,18 +123,18 @@ image::img/web/otus-from-unite.en.png[]
 This guide does not provide mapping recommendations for global OTU checklists / reference libraries (Category IV), and publishing referenceable (project- or study-specific) OTU libraries as checklists is discouraged. For guidance on how to format and share OTU checklists, see the following general Darwin Core guidelines in https://github.com/gbif/ipt/wiki/checklistData#templates[DwC-A template for checklists] and https://www.gbif.org/data-quality-requirements-checklists[Data quality requirements for checklists]. https://www.ebi.ac.uk/ena/submit/mixs-checklists[General guidelines for MIxS checklists]. For advice on how to map global reference libraries of OTUs for inclusion in the GBIF taxonomic backbone, contact the mailto:helpdesk@gbif.org[GBIF help desk].
 
 [[category-v]]
-==== Category V: Metadata-only datasets
+=== Category V: Metadata-only datasets
 
 Metadata are data about the data and is a description of the dataset in broad terms, such as authors, author affiliations, original research purpose of the dataset, DOI(s), taxonomic scope, temporal scope, and geographical scope. Information regarding laboratory methods and general sequencing methods is included in this category. This category includes datasets or collections that cannot be made available online at the moment, e.g. undigitized work.
 
-===== Examples of Metadata-only datasets
+==== Examples of Metadata-only datasets
 
 *	Collins E, Sweetlove M (2019). Arctic Ocean microbial metagenomes sampled aboard CGC Healy during the 2015 GEOTRACES Arctic research cruise. SCAR - Microbial Antarctic Resource System. Metadata dataset https://doi.org/10.15468/iljmun accessed via GBIF.org on 2020-04-16.
 *	Cary S C (2015). New Zealand Terrestrial Biocomplexity Survey. SCAR - Microbial Antarctic Resource System. Metadata dataset https://doi.org/10.15468/xnzrhq accessed via GBIF.org on 2020-04-16.
 
 Mapping recommendations for metadata-only DNA-derived datasets (Category V) is the same as for any other metadata-only datasets, and this guide does not provide any specific mapping recommendations for metadata. Please follow general recommendations of biodiversity data portals, paying attention to https://github.com/gbif/ipt/wiki/resourceMetadata[required and recommended metadata]. Descriptions of field, lab, and bioinformatics steps should be as detailed as possible. Describing your methods as method steps in the EML metadata makes them display on the dataset homepage in GBIF (https://www.gbif.org/dataset/3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f#methodology Frøslev T, Ejrnæs R (2018). BIOWIDE eDNA Fungi dataset. Danish Biodiversity Information Facility. Occurrence dataset https://doi.org/10.15468/nesbvx accessed via GBIF.org on 2021-07-06). However, if a structured and possibly more detailed method description is already published somewhere (e.g. at https://protocols.io[protocols.io] or https://www.neonscience.org/data-collection[NEON protocols collection]), it is straightforward to provide a link through the MIxS SOP field (see <<mapping-metabarcoding-edna-and-barcoding-data>>).
 
-=== Data mapping
+== Data mapping
 
 While core files store ubiquitous data on the 'what, where and when' of a record, extension files are used to describe the specifics of a certain type of observation. We propose using the https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml[DNA derived data extension] to complement occurrence data derived from either barcoding, metabarcoding (eDNA) or qPCR/ddPCR. The DNA derived data extension builds on the https://gensc.org/mixs/[Minimum information standards] developed by the Genomic Standards Consortium (GSC) and applied by the https://www.ebi.ac.uk/ena/browser/home[ENA] for https://www.ebi.ac.uk/ena/submit/mixs-checklists[submission of eDNA sample metadata], for example. We are following and have contributed to the guidelines proposed by the https://github.com/tdwg/gbwg/tree/main/dwc-mixs[Sustainable DwC-MIxS interoperability task group under TDWG]. To improve indexing and search we have opted to split some MIxS terms, for instance separating forward and reverse primer sequences and names. Furthermore, some fields from the GGBN standard and fields from the https://rdml.org/miqe.html[MIQE] (minimum information for the publication of quantitative real-time PCR) guidelines for qPCR and ddPCR data have been included to make it applicable for a wide range of DNA-derived data.
 
@@ -143,7 +143,7 @@ As a first step in preparing your data for publishing, you should make sure your
 [.landscape]
 <<<
 
-==== Mapping metabarcoding (eDNA) and barcoding data
+=== Mapping metabarcoding (eDNA) and barcoding data
 
 This section provides mapping recommendations for Categories I and II.
 
@@ -392,7 +392,7 @@ Specify whether to expect single, paired, or other configuration of reads
 
 <<<
 
-==== Mapping ddPCR / qPCR data
+=== Mapping ddPCR / qPCR data
 
 This section provides mapping recommendations for https://academic.oup.com/view-large/199871507[Category III].
 

@@ -1,4 +1,4 @@
-== Future prospects
+= Future prospects
 
 The present interest in exposing DNA-derived data through biodiversity data platforms is very high, and it is very likely that the demand will grow. Our aim is for the mapping recommendations provided here to remain valid and evolve slowly, even as packaging and indexing by biodiversity data platforms may develop more rapidly. The authors are aware of but did not yet consult the https://v3.boldsystems.org/index.php/resources/handbook[BOLD Handbook], http://biom-format.org[BIOM format] and http://edamontology.org/page.
 

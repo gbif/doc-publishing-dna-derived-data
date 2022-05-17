@@ -26,8 +26,6 @@ asciidoc:
     title-logo-image: img/web/photo.jpg
     #revnumber: {git-metadata-sha-short}
     #revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
-    toc: left
-    toclevels: 3
     numbered:
     sectnumlevels: 3
     pagenums:

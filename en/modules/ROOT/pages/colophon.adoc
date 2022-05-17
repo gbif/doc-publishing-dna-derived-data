@@ -1,15 +1,15 @@
 // add cover image to img directory and update filename below
 ifdef::backend-html5[]
-image::img/web/photo.jpg[]
+image::web/photo.jpg[]
 endif::backend-html5[]
 
-== Colophon
+= Colophon
 
-=== Suggested citation
+== Suggested citation
 
 Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Svenningsen C & Schigel D (2021) Publishing DNA-derived data through biodiversity data platforms. v1.0 Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22.
 
-=== Authors
+== Authors
 
 * https://orcid.org/0000-0002-3627-6899[Anders F. Andersson], mailto:anders.andersson@scilifelab.se[anders.andersson@scilifelab.se], Science for Life Laboratory, Department of Gene Technology, KTH Royal Institute of Technology, 17121 Stockholm, Sweden
 * https://orcid.org/0000-0001-7396-1484[Andrew Bissett], mailto:Andrew.Bissett@csiro.au[Andrew.Bissett@csiro.au], CSIRO O&A, GPO box 1533, Hobart, Tasmania, 7000, Australia
@@ -25,27 +25,27 @@ Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS,
 * https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen], mailto:cssvenningsen@snm.ku.dk[cssvenningsen@snm.ku.dk], Natural History Museum of Denmark, University of Copenhagen, Øster Voldgade 5-7, 1350 Copenhagen, Denmark
 * https://orcid.org/0000-0002-2919-1168[Dmitry Schigel], mailto:dschigel@gbif.org[dschigel@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark
 
-=== Contributors
+== Contributors
 
 Valuable discussions with members of ELIXIR, iBOL, GGBN, GLOMICON, and OBIS networks contributed to compilation of this draft. We are especially grateful for inputs and encouragement from Kessy Abarenkov, Andrew Bentley, Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, Gabriele Dröge, Torbjørn Ekrem, Tobias Guldberg Frøslev, Birgit Gemeinholzer, Quentin Groom, Tim Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris Mungall, Daniel Noesgaard, Corinna Paeper, Pieter Provoost, Tim Robertson, Saara Suominen, Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger who have contributed to the GBIF community review process.
 
-=== License
+== License
 
 The document _Publishing DNA-derived data
 through biodiversity data platforms_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License].
 
-=== Persistent URI
+== Persistent URI
 
 https://doi.org/10.35035/doc-vf1a-nr22
 
-=== Document control
+== Document control
 
 Version 1.0.1 released on 27 March 2022.
 
-=== Abstract
+== Abstract
 
 When genetic information is used to describe or classify a taxon, most users will foresee its use in the context of molecular ecology or phylogenetic research. It is important to realize that a sequence with coordinates and a timestamp is a valuable biodiversity occurrence which is useful in a much broader context than its original purpose. To realize this potential, DNA-derived data needs to be discoverable through biodiversity data platforms. This guide will teach you the principles and approaches of exposing “sequences with dates and coordinates” in the context of broader biodiversity data. The guide covers choices of particular schemas and terms, common pitfalls and good practice, without going into platform-specific details. It will benefit anyone interested in better exposure of DNA-derived data through general biodiversity data platforms, including national biodiversity portals.
 
-=== Cover image
+== Cover image
 
 Velvet shank (_Flammulina velutipes_), Kursk, Russian Federation. Photo 2020 Oleg Ryzhkov via https://www.gbif.org/occurrence/2550027893[iNaturalist research-grade observations], licensed under http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0].

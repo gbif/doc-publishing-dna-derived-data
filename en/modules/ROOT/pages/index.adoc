@@ -1,4 +1,4 @@
-= Publishing DNA-derived data through biodiversity data platforms
+ Publishing DNA-derived data through biodiversity data platforms
 :authorcount: 13
 :author_1: Anders F. Andersson
 :author_2: Andrew Bissett

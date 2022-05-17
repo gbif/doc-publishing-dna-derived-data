@@ -1,5 +1,5 @@
 [[introduction]]
-== Preface
+= Preface
 
 The work on this guide started from discussions at the https://biss.pensoft.net/collection/115/[biodiversity_next conference] in 2019 consolidating inputs from various resources, such as:
 
