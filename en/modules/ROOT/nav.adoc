@@ -35,21 +35,21 @@
 
 // :sectnums!:
 
-include::colophon.en.adoc[]
+include::colophon.adoc[]
 
-include::preface.en.adoc[]
+include::preface.adoc[]
 
 // :sectnums:
 
-include::100.en.adoc[]
+include::100.adoc[]
 
-include::200.en.adoc[]
+include::200.adoc[]
 
-include::300.en.adoc[]
+include::300.adoc[]
 
 // :sectnums!:
 
-include::glossary.en.adoc[]
+include::glossary.adoc[]
 
-include::bibliography.en.adoc[]
+include::bibliography.adoc[]
 
