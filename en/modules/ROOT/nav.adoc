@@ -1,5 +1,4 @@
 // :sectnums!:
-* xref:colophon.adoc[]
 * xref:preface.adoc[]
 // :sectnums:
 * xref:100.adoc[]
