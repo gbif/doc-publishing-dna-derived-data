@@ -17,8 +17,8 @@
 // Title
 :title-logo-image: img/web/photo.jpg
 // Revision
-:revnumber: {git-metadata-sha-short}
-:revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
+//:revnumber: {git-metadata-sha-short}
+//:revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
 // Contents, sections
 :toc: left
 :toclevels: 3
