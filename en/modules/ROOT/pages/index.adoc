@@ -28,28 +28,3 @@
 :icons: font
 :xrefstyle: short
 :section-refsig: §
-
-ifdef::backend-html5[]
-languageLinks:combined[]
-endif::backend-html5[]
-
-:sectnums!:
-
-include::colophon.en.adoc[]
-
-include::preface.en.adoc[]
-
-:sectnums:
-
-include::100.en.adoc[]
-
-include::200.en.adoc[]
-
-include::300.en.adoc[]
-
-:sectnums!:
-
-include::glossary.en.adoc[]
-
-include::bibliography.en.adoc[]
-
