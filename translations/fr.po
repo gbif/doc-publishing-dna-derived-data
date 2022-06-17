@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2022-04-06 09:29+0000\n"
-"PO-Revision-Date: 2022-06-17 13:24\n"
+"PO-Revision-Date: 2022-06-17 14:29\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -174,7 +174,7 @@ msgstr "Résumé"
 #. type: Plain text
 #: colophon.en.adoc:48
 msgid "When genetic information is used to describe or classify a taxon, most users will foresee its use in the context of molecular ecology or phylogenetic research. It is important to realize that a sequence with coordinates and a timestamp is a valuable biodiversity occurrence which is useful in a much broader context than its original purpose. To realize this potential, DNA-derived data needs to be discoverable through biodiversity data platforms. This guide will teach you the principles and approaches of exposing “sequences with dates and coordinates” in the context of broader biodiversity data. The guide covers choices of particular schemas and terms, common pitfalls and good practice, without going into platform-specific details. It will benefit anyone interested in better exposure of DNA-derived data through general biodiversity data platforms, including national biodiversity portals."
-msgstr "Lorsque des informations génétiques sont utilisées pour décrire ou classer un taxon, la plupart des utilisateurs prévoient son utilisation dans le contexte de l'écologie moléculaire ou de la recherche phylogénétique. Il est important de se rendre compte qu'une séquence avec des coordonnées et une date/heure est une occurrence de biodiversité précieuse, qui est utile dans un contexte beaucoup plus large que son objectif initial. Pour réaliser ce potentiel, les données dérivées de l’ADN doivent être visibles sur les plates-formes de données sur la biodiversité. Ce guide vous enseignera les principes et les approches afin d'exposer les « séquences avec dates et coordonnées » dans le contexte plus large des données sur la biodiversité. Le guide couvre les choix de schémas et de termes particuliers, les pièges communs et les bonnes pratiques, sans toutefois entrer dans les détails spécifiques à une plate-forme. Il aidera toute personne intéressée par une meilleure exposition des données dérivées de l'ADN sur des plates-formes générales de données sur la biodiversité, y compris les portails nationaux sur la biodiversité."
+msgstr "Lorsque des informations génétiques sont utilisées pour décrire ou classer un taxon, la plupart des utilisateurs prévoient son utilisation dans le contexte de l'écologie moléculaire ou de la recherche phylogénétique. Il est important de se rendre compte qu'une séquence avec des coordonnées et une date/heure est une occurrence de biodiversité précieuse, qui est utile dans un contexte beaucoup plus large que son objectif initial. Pour réaliser ce potentiel, les données dérivées de l’ADN doivent être visibles sur les plateformes de données sur la biodiversité. Ce guide vous enseignera les principes et les approches afin d'exposer les « séquences avec dates et coordonnées » dans le contexte plus large des données sur la biodiversité. Le guide couvre les choix de schémas et de termes particuliers, les pièges communs et les bonnes pratiques, sans toutefois entrer dans les détails spécifiques à une plateforme. Il aidera toute personne intéressée par une meilleure exposition des données dérivées de l'ADN sur des plateformes générales de données sur la biodiversité, y compris les portails nationaux sur la biodiversité."
 
 #. type: Title ===
 #: colophon.en.adoc:49
