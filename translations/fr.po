@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2022-04-06 09:29+0000\n"
-"PO-Revision-Date: 2022-04-06 09:34\n"
+"PO-Revision-Date: 2022-06-17 13:24\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -163,7 +163,7 @@ msgstr "Contrôle du document"
 #. type: Plain text
 #: colophon.en.adoc:44
 msgid "Version 1.0.1 released on 27 March 2022."
-msgstr ""
+msgstr "Version 1.0.1 libérée le 27 mars 2022."
 
 #. type: Title ===
 #: colophon.en.adoc:45
@@ -453,13 +453,13 @@ msgstr "Esquisse d'une plateforme pour le signalement et la publication de séqu
 #: 100.en.adoc:80
 #, no-wrap
 msgid "img/print/outline-of-a-platform.en.png"
-msgstr ""
+msgstr "img/print/outline-of-a-platform.en.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:83
 #, no-wrap
 msgid "img/web/outline-of-a-platform.en.svg"
-msgstr ""
+msgstr "img/web/outline-of-a-platform.en.svg"
 
 #. type: Plain text
 #: 100.en.adoc:87
@@ -497,7 +497,7 @@ msgstr "Aperçu du traitement bio-informatique des données du métabarcodage."
 #: 100.en.adoc:99
 #, no-wrap
 msgid "img/print/outline-of-bioinformatic-processing.en.png"
-msgstr ""
+msgstr "img/print/outline-of-bioinformatic-processing.en.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:102
@@ -641,13 +641,13 @@ msgstr "Figure 5. Zoom sur le DwC-A / IPT de la figure 3 du chapitre 1.2. Le cho
 #: 200.en.adoc:12
 #, no-wrap
 msgid "img/print/dwca-structure.en.png"
-msgstr ""
+msgstr "img/print/dwca-structure.en.png"
 
 #. type: Target for macro image
 #: 200.en.adoc:15
 #, no-wrap
 msgid "img/web/ct/dwca-structure.en.svg"
-msgstr ""
+msgstr "img/web/ct/dwca-structure.en.svg"
 
 #. type: Title ===
 #: 200.en.adoc:18
@@ -776,7 +776,7 @@ msgstr "Représentation visuelle des catégories I-V."
 #: 200.en.adoc:71
 #, no-wrap
 msgid "img/web/ct/eDNA-categories.en.svg"
-msgstr ""
+msgstr "img/web/ct/eDNA-categories.en.svg"
 
 #. type: Title ====
 #: 200.en.adoc:74
@@ -2840,7 +2840,7 @@ msgstr ""
 #: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "DwC-A"
-msgstr ""
+msgstr "DwC-A"
 
 #. type: Content of: <svg><g><g><switch><text>
 #: img/web/ct/dwca-structure.en.svg:4
@@ -2852,13 +2852,13 @@ msgstr ""
 #: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "Occurrence"
-msgstr ""
+msgstr "Occurrence"
 
 #. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
 #: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "core"
-msgstr ""
+msgstr "core"
 
 #. type: Content of: <svg><g><g><switch><text>
 #: img/web/ct/dwca-structure.en.svg:4
@@ -2870,19 +2870,19 @@ msgstr ""
 #: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "MIxS"
-msgstr ""
+msgstr "MIxS"
 
 #. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
 #: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "extension"
-msgstr ""
+msgstr "extension"
 
 #. type: Content of: <svg><g><g><switch><text>
 #: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "MIxS..."
-msgstr ""
+msgstr "MIxS..."
 
 #. type: Content of: <svg><g><g><switch><text>
 #: img/web/ct/dwca-structure.en.svg:4
@@ -2894,13 +2894,13 @@ msgstr ""
 #: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "Measurement"
-msgstr ""
+msgstr "Mesure"
 
 #. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
 #: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "and Facts"
-msgstr ""
+msgstr "et Faits"
 
 #. type: Content of: <svg><g><g><switch><text>
 #: img/web/ct/dwca-structure.en.svg:4
