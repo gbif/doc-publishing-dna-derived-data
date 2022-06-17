@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2022-04-06 09:29+0000\n"
-"PO-Revision-Date: 2022-06-17 14:29\n"
+"PO-Revision-Date: 2022-06-17 15:47\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -231,12 +231,12 @@ msgstr "https://biodiversitydata-se.github.io/mol-data[Données sur la biodivers
 #. type: Plain text
 #: preface.en.adoc:13
 msgid "https://www.gbif.org/faq?question=how-can-i-publish-molecular-data-to-gbif[GBIF resources (How) can I publish molecular/sequence/DNA based data to GBIF?]"
-msgstr "https://www.gbif.org/faq?question=how-can-i-publish-molecular-data-to-gbif[Ressources du GBIF (Comment) puis-je publier des données basées sur des moléculaires/séquence/ADN au GBIF?]"
+msgstr "https://www.gbif.org/faq?question=how-can-i-publish-molecular-data-to-gbif[Ressources du GBIF (Comment) puis-je publier des données moléculaires dérivées de séquences/ADN dans GBIF?]"
 
 #. type: Plain text
 #: preface.en.adoc:14
 msgid "https://data-blog.gbif.org/post/gbif-molecular-data[Molecular data in GBIF]"
-msgstr "https://data-blog.gbif.org/post/gbif-molecular-data[Données moléculaires au GBIF]"
+msgstr "https://data-blog.gbif.org/post/gbif-molecular-data[Données moléculaires dans GBIF]"
 
 #. type: Plain text
 #: preface.en.adoc:15
@@ -246,7 +246,7 @@ msgstr "https://www.gbif.org/publishing-data[Guide rapide de publication des don
 #. type: Plain text
 #: preface.en.adoc:16
 msgid "https://github.com/gbif/ipt/wiki/howToPublish#instructions[How to publish data to GBIF], as well as DwC/extension field overview."
-msgstr "https://github.com/gbif/ipt/wiki/howToPublish#instructions[Comment publier des données au GBIF], ainsi que l'aperçu des champs de l'extension DwC."
+msgstr "https://github.com/gbif/ipt/wiki/howToPublish#instructions[Comment publier des données dans GBIF], ainsi que l'aperçu des champs de l'extension DwC."
 
 #. type: Plain text
 #: preface.en.adoc:16
@@ -263,7 +263,7 @@ msgstr "Introduction "
 #: 100.en.adoc:3
 #, no-wrap
 msgid "Rationale"
-msgstr "Raison"
+msgstr "Justification"
 
 #. type: Plain text
 #: 100.en.adoc:6
