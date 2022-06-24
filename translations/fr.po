@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2022-04-06 09:29+0000\n"
-"PO-Revision-Date: 2022-06-24 11:00\n"
+"PO-Revision-Date: 2022-06-24 12:31\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -372,7 +372,7 @@ msgstr "img/web/sampling-processes.fr.svg"
 #. type: Plain text
 #: 100.en.adoc:50
 msgid "eDNA is thus a sample type, not a method, including DNA derived from any environmental sample rather than from the capture and sequencing of a targeted individual. Such sample types includes water, soil, sediment and air, but also gut content samples and tissue (plant/animal) where the host DNA is not targeted (https://doi.org/10.1093/oso/9780198767220.001.0001[Taberlet et al. 2018^]). A number of analytical methods exist for studying environmental DNA. These can be divided into two main classes: 1) those which aim to detect a specific organism and 2) those which describe an assemblage or a community of a range of organisms. Different methods of analysis will generate different types and volumes of data. Most often DNA concentrations are low, and technical and biological replicates should be used to validate species detection."
-msgstr "l'eDNA est donc un type d'échantillon, et non une méthode, qui inclut l'ADN dérivé de tout échantillon environnemental plutôt que de la capture et séquençage d'un individu ciblé. Ces types d'échantillons comprennent l'eau, le sol, les sédiments et l'air, mais aussi les échantillons de contenu intestinal et les tissus (végétaux/animaux) où l'ADN de l'hôte n'est pas la cible (https://doi.org/10.1093/oso/9780198767220.001.0001[Taberlet et al. 2018^]). Un certain nombre de méthodes analytiques existent pour étudier l'eDNA. Elles peuvent être divisées en deux grandes catégories : 1) celles qui visent à détecter un organisme spécifique et 2) celles qui décrivent un assemblage ou une communauté de nombreux organismes. Les différentes méthodes d'analyse génèrent différents types et volumes de données. Le plus souvent, les concentrations d'ADN sont faibles et des réplications techniques et biologiques doivent être utilisées afin de valider la présence/absence des espèces."
+msgstr "L'eDNA est donc un type d'échantillon, et non une méthode, qui inclut l'ADN dérivé de tout échantillon environnemental plutôt que de la capture et séquençage d'un individu ciblé. Ces types d'échantillons comprennent l'eau, le sol, les sédiments et l'air, mais aussi les échantillons de contenu intestinal et les tissus (végétaux/animaux) où l'ADN de l'hôte n'est pas la cible (https://doi.org/10.1093/oso/9780198767220.001.0001[Taberlet et al. 2018^]). Un certain nombre de méthodes analytiques existent pour étudier l'eDNA. Elles peuvent être divisées en deux grandes catégories : 1) celles qui visent à détecter un organisme spécifique et 2) celles qui décrivent un assemblage ou une communauté de nombreux organismes. Les différentes méthodes d'analyse génèrent différents types et volumes de données. Le plus souvent, les concentrations d'ADN sont faibles et des réplications techniques et biologiques doivent être utilisées afin de valider la présence/absence des espèces."
 
 #. type: Plain text
 #: 100.en.adoc:52
