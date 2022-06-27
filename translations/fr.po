@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2022-04-06 09:29+0000\n"
-"PO-Revision-Date: 2022-06-27 06:41\n"
+"PO-Revision-Date: 2022-06-27 07:53\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -2151,7 +2151,7 @@ msgstr "[[dna-db]]base de données de métabarcoding ADN"
 #. type: Plain text
 #: glossary.en.adoc:23
 msgid "Database containing DNA sequences (DNA barcodes) from previously recovered or studied organisms. The reference sequences were ideally generated from individuals of described, well-studied species-with the type specimen serving as the ideal-or higher taxonomic level (e.g., genus, family), but may also stem from eDNA sequencing efforts. It is wise not to trust “reference sequences” blindly."
-msgstr "Base de données contenant des séquences ADN (codes-barres ADN) d'organismes précédemment récupérés ou étudiés. Les séquences de référence ont été idéalement générées à partir d'individus d'espèces décrites et bien étudiées - le spécimen type servant de référence idéale - ou d'un niveau taxonomique supérieur (par exemple, le genre, la famille), mais elles peuvent également provenir d'efforts de séquençage d'ADNe. Il est recommandé de ne pas se fier aveuglément aux « séquences de référence »."
+msgstr "Base de données contenant des séquences ADN (codes-barres ADN) d'organismes précédemment récupérés ou étudiés. Les séquences de référence ont été idéalement générées à partir d'individus d'espèces décrites et bien étudiées - le spécimen type servant de référence idéale - ou d'un niveau taxonomique supérieur (par exemple, le genre, la famille), mais elles peuvent également provenir d'efforts de séquençage d'eDNA. Il est recommandé de ne pas se fier aveuglément aux « séquences de référence »."
 
 #. type: Labeled list
 #: glossary.en.adoc:23
@@ -2168,18 +2168,18 @@ msgstr "Fragment d'ADN court, simple brin synthétisé avec un marquage fluoresc
 #: glossary.en.adoc:24
 #, no-wrap
 msgid "[[embl]]European Bioinformatics Institute (EMBL-EBI)"
-msgstr "[[embl]]Institut de Bio-informatique Européen (EMBL-EBI)"
+msgstr "[[embl]]Institut de Bioinformatique Européen (EMBL-EBI)"
 
 #. type: Plain text
 #: glossary.en.adoc:25
 msgid "Intergovernmental organization for bioinformatics research and services, part of the European Molecular Biology Laboratory (EMBL), providing eg. (raw) sequence reads and assembly data via <<ena,the European Nucleotide Archive (ENA)>>."
-msgstr "Organisation intergouvernementale pour la recherche et les services en bio-informatique, faisant partie du Laboratoire Européen de biologie moléculaire (EMBL), fournissant par exemple des séquences (brutes) et des données d'assemblage via <<ena, Archives européennes de nucléotides (ENA)>>."
+msgstr "Organisation intergouvernementale pour la recherche et les services en bioinformatique, faisant partie du Laboratoire Européen de biologie moléculaire (EMBL), fournissant par exemple des séquences (brutes) et des données d'assemblage via <<ena, Archives européennes de nucléotides (ENA)>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:25
 #, no-wrap
 msgid "[[edna]]Environmental DNA (eDNA)"
-msgstr "[[edna]]ADN environnemental (ADNe)"
+msgstr "[[edna]]ADN environnemental (eDNA)"
 
 #. type: Plain text
 #: glossary.en.adoc:26
@@ -2217,7 +2217,7 @@ msgstr "[[gbif]]Système mondial d'information sur la biodiversité (GBIF)"
 #. type: Plain text
 #: glossary.en.adoc:29
 msgid "International network and research infrastructure, mainly focused on mobilizing and providing open access to global biodiversity data."
-msgstr "Réseau international et infrastructure de recherche, principalement axé sur la mobilisation et la publication en accès libre aux données mondiales sur la biodiversité."
+msgstr "Réseau international et infrastructure de recherche, principalement axé sur la mobilisation et la publication en accès libre de données mondiales sur la biodiversité."
 
 #. type: Labeled list
 #: glossary.en.adoc:29
@@ -2250,7 +2250,7 @@ msgstr "[[hts]]séquençage à haut débit (HTS)"
 #. type: Plain text
 #: glossary.en.adoc:32
 msgid "Different technologies for massively parallel sequencing, producing millions of DNA sequence reads from library preparations of genetic material, rather than targeting single amplicons as in traditional Sanger sequencing. Also called Next Generation Sequencing (NGS)."
-msgstr "Différentes technologies pour le séquençage massivement parallèle, produisant des millions de séquences d'ADN à partir de la préparation de la librairie de matériel génétique, plutôt que de cibler des amplicons simples comme dans le séquençage Sanger traditionnel. Également appelé séquençage nouvelle génération (NGS)."
+msgstr "Différentes technologies pour le séquençage massivement parallèle, produisant des millions de séquences ADN à partir de la préparation de la librairie de matériel génétique, plutôt que de cibler des amplicons simples comme dans le séquençage Sanger traditionnel. Également appelé séquençage nouvelle génération (NGS)."
 
 #. type: Labeled list
 #: glossary.en.adoc:32
