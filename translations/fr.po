@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2022-04-06 09:29+0000\n"
-"PO-Revision-Date: 2022-06-27 10:56\n"
+"PO-Revision-Date: 2022-06-27 11:58\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -647,7 +647,7 @@ msgstr "img/print/dwca-structure.en.png"
 #: 200.en.adoc:15
 #, no-wrap
 msgid "img/web/ct/dwca-structure.en.svg"
-msgstr "img/web/ct/dwca-structure.en.svg"
+msgstr "img/web/ct/dwca-structure.fr.svg"
 
 #. type: Title ===
 #: 200.en.adoc:18
@@ -776,7 +776,7 @@ msgstr "Représentation visuelle des catégories I-V."
 #: 200.en.adoc:71
 #, no-wrap
 msgid "img/web/ct/eDNA-categories.en.svg"
-msgstr "img/web/ct/eDNA-categories.en.svg"
+msgstr "img/web/ct/eDNA-categories.fr.svg"
 
 #. type: Title ====
 #: 200.en.adoc:74
