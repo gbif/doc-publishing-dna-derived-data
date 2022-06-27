@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2022-04-06 09:29+0000\n"
-"PO-Revision-Date: 2022-06-27 11:58\n"
+"PO-Revision-Date: 2022-06-27 14:16\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -316,13 +316,13 @@ msgstr "Flux de travail global pour les données sur la biodiversité dérivées
 #: 100.en.adoc:24
 #, no-wrap
 msgid "img/print/sequence-publishing-guide.en.png"
-msgstr "img/print/sequence-publishing-guide.en.png"
+msgstr "img/print/sequence-publishing-guide.fr.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:27
 #, no-wrap
 msgid "img/web/sequence-publishing-guide.en.svg"
-msgstr "img/web/sequence-publishing-guide.en.svg"
+msgstr "img/web/sequence-publishing-guide.fr.svg"
 
 #. type: Plain text
 #: 100.en.adoc:31
@@ -367,7 +367,7 @@ msgstr "img/print/sampling-processes.en.png"
 #: 100.en.adoc:46
 #, no-wrap
 msgid "img/web/sampling-processes.en.svg"
-msgstr "img/web/sampling-processes.en.svg"
+msgstr "img/web/sampling-processes.fr.svg"
 
 #. type: Plain text
 #: 100.en.adoc:50
@@ -459,7 +459,7 @@ msgstr "img/print/outline-of-a-platform.en.png"
 #: 100.en.adoc:83
 #, no-wrap
 msgid "img/web/outline-of-a-platform.en.svg"
-msgstr "img/web/outline-of-a-platform.en.svg"
+msgstr "img/web/outline-of-a-platform.fr.svg"
 
 #. type: Plain text
 #: 100.en.adoc:87
