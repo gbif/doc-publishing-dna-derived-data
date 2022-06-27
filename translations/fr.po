@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2022-04-06 09:29+0000\n"
-"PO-Revision-Date: 2022-06-27 07:53\n"
+"PO-Revision-Date: 2022-06-27 10:56\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -1970,7 +1970,7 @@ msgstr "Glossaire"
 #: glossary.en.adoc:5
 #, no-wrap
 msgid "[[ala]]Atlas of Living Australia (ALA)"
-msgstr "[[ala]]Atlas of Living Australia (ALA)"
+msgstr "[[ala]]Atlas du vivant d'Australie (ALA)"
 
 #. type: Plain text
 #: glossary.en.adoc:6
@@ -1981,7 +1981,7 @@ msgstr "ALA est une plateforme web qui rassemble des données sur la biodiversit
 #: glossary.en.adoc:6
 #, no-wrap
 msgid "[[asv]]Amplicon Sequence Variant (ASV)"
-msgstr "[[asv]]Variant de séquences d'amplicon (ASV)"
+msgstr "[[asv]]Variant de Séquences d'Amplicon (ASV)"
 
 #. type: Plain text
 #: glossary.en.adoc:7
@@ -1992,7 +1992,7 @@ msgstr "Séquence ADN individuelle produite par séquençage à haut débit d’
 #: glossary.en.adoc:7
 #, no-wrap
 msgid "[[api]]Application Programming Interface (API)"
-msgstr "[[api]]Interface de Programmation d'Applications (API)"
+msgstr "[[api]]Interface d'Applications de Programmation (API)"
 
 #. type: Plain text
 #: glossary.en.adoc:8
@@ -2003,7 +2003,7 @@ msgstr "Ensemble de protocoles et d'outils pour l'interaction et la transmission
 #: glossary.en.adoc:8
 #, no-wrap
 msgid "[[bins]]Barcode Index Numbers (BINs)"
-msgstr "[[bins]]Numéros d'index de codes-barres (BINs)"
+msgstr "[[bins]]Numéros d'Index de Codes-barres (BINs)"
 
 #. type: Plain text
 #: glossary.en.adoc:9
@@ -2014,7 +2014,7 @@ msgstr "Unité taxonomique opérationnelle au niveau de l'espèce <<otu,Operatio
 #: glossary.en.adoc:9
 #, no-wrap
 msgid "[[bold]]Barcode of Life Data System (BOLD)"
-msgstr "[bold]Système Barcode of Life Data (BOLD)"
+msgstr "[[bold]]Système Barcode of Life Data (BOLD)"
 
 #. type: Plain text
 #: glossary.en.adoc:10
@@ -2113,7 +2113,7 @@ msgstr "En métabarcoding, méthode de séparation des véritables séquences bi
 #: glossary.en.adoc:19
 #, no-wrap
 msgid "[[doi]]Digital Object Identifier (DOI)"
-msgstr "[[doi]]Identifiant d'objet numérique (DOI)"
+msgstr "[[doi]]Identifiant d'Objet Numérique (DOI)"
 
 #. type: Plain text
 #: glossary.en.adoc:20
@@ -2124,7 +2124,7 @@ msgstr "Référence pérenne utilisée pour identifier (et localiser) de façon 
 #: glossary.en.adoc:20
 #, no-wrap
 msgid "[[barcoding]]DNA barcoding and metabarcoding (amplicon sequencing)"
-msgstr "[[barcoding]] barcoding ADN et métabarcoding (séquence amplicon)"
+msgstr "[[barcoding]] Barcoding ADN et métabarcoding (séquence amplicon)"
 
 #. type: Plain text
 #: glossary.en.adoc:21
@@ -2135,7 +2135,7 @@ msgstr "Utilisation de fragments d'ADN courts et standardisés pour identifier d
 #: glossary.en.adoc:21
 #, no-wrap
 msgid "[[dna-marker]]DNA marker"
-msgstr "[[dna-marker]]marqueur ADN"
+msgstr "[[dna-marker]]Marqueur ADN"
 
 #. type: Plain text
 #: glossary.en.adoc:22
@@ -2157,7 +2157,7 @@ msgstr "Base de données contenant des séquences ADN (codes-barres ADN) d'organ
 #: glossary.en.adoc:23
 #, no-wrap
 msgid "[[dna-probe]]DNA probe"
-msgstr "[[dna-probe]]sonde ADN"
+msgstr "[[dna-probe]]Sonde ADN"
 
 #. type: Plain text
 #: glossary.en.adoc:24
@@ -2190,7 +2190,7 @@ msgstr "ADN provenant d'un échantillon environnemental, par exemple le sol, l'e
 #: glossary.en.adoc:26
 #, no-wrap
 msgid "[[ena]]European Nucleotide Archive (ENA)"
-msgstr "[[ena]]Archives européennes de nucléotides (ENA)"
+msgstr "[[ena]]Archives Européennes de Nucléotides (ENA)"
 
 #. type: Plain text
 #: glossary.en.adoc:27
@@ -2212,7 +2212,7 @@ msgstr "Standard textuel pour le stockage des séquences moléculaires et des me
 #: glossary.en.adoc:28
 #, no-wrap
 msgid "[[gbif]]Global Biodiversity Information Facility (GBIF)"
-msgstr "[[gbif]]Système mondial d'information sur la biodiversité (GBIF)"
+msgstr "[[gbif]]Système Mondial d'Information sur la Biodiversité (GBIF)"
 
 #. type: Plain text
 #: glossary.en.adoc:29
@@ -2223,7 +2223,7 @@ msgstr "Réseau international et infrastructure de recherche, principalement ax�
 #: glossary.en.adoc:29
 #, no-wrap
 msgid "[[ggbn]]Global Genome Biodiversity Network (GGBN)"
-msgstr "[[ggbn]]Réseau mondial sur la biodiversité génomique (Global Genome Biodiversity Network, GGBN)"
+msgstr "[[ggbn]]Réseau Mondial sur la Biodiversité Génomique (GGBN)"
 
 #. type: Plain text
 #: glossary.en.adoc:30
@@ -2234,7 +2234,7 @@ msgstr "Réseau international d'institutions soucieuses du partage et de l'utili
 #: glossary.en.adoc:30
 #, no-wrap
 msgid "[[gps]]Global Positioning System (GPS)"
-msgstr "[[gps]]Système de positionnement global (GPS)"
+msgstr "[[gps]]Système de Positionnement Global (GPS)"
 
 #. type: Plain text
 #: glossary.en.adoc:31
@@ -2245,7 +2245,7 @@ msgstr "Système de navigation par satellite exploité par la Force spatiale am�
 #: glossary.en.adoc:31
 #, no-wrap
 msgid "[[hts]]High-throughput sequencing (HTS)"
-msgstr "[[hts]]séquençage à haut débit (HTS)"
+msgstr "[[hts]]Séquençage à Haut Débit (HTS)"
 
 #. type: Plain text
 #: glossary.en.adoc:32
@@ -2278,12 +2278,12 @@ msgstr "Organisation des informations selon un schéma ou une structure spécifi
 #: glossary.en.adoc:34
 #, no-wrap
 msgid "[[insdc]]International Nucleotide Sequence Database Collaboration (INSDC)"
-msgstr "[[insdc]]International Nucleotide Sequence Database Collaboration (INSDC)"
+msgstr "[[insdc]]Système International Collaboratif des Séquences de Nucléotides (INSDC)"
 
 #. type: Plain text
 #: glossary.en.adoc:35
 msgid "Joint effort of the DNA Databank of Japan (DDBJ), <<embl,EMBL>> and <<ncbi,NCBI>> to provide global public access to nucleotide sequence data and associated information."
-msgstr "Effort conjoint de la base de données d'ADN du Japon (DDBJ), <<embl,EMBL>> et <<ncbi,NCBI>> pour fournir un accès public global aux données de séquence nucléaire et aux informations associées."
+msgstr "Effort conjoint de la base de données d'ADN du Japon (DDBJ), <<embl,EMBL>> et <<ncbi,NCBI>> pour fournir un accès public global aux données de séquences de nucléotides et aux informations associées."
 
 #. type: Labeled list
 #: glossary.en.adoc:35
@@ -2300,7 +2300,7 @@ msgstr "Séquençage sans PCR de fragments génomiques aléatoires dans un écha
 #: glossary.en.adoc:36
 #, no-wrap
 msgid "[[mixs]]Minimum Information about any (x) Sequence (MIxS) standard"
-msgstr "[[mixs]]Minimum Information about any (x) Sequence (MIxS) standard"
+msgstr "[[mixs]]Standard de l'Information Minimale sur toute (x) Séquence (MIxS)"
 
 #. type: Plain text
 #: glossary.en.adoc:37
@@ -2311,7 +2311,7 @@ msgstr "Famille de normes (listes de contrôle) pour les métadonnées de séque
 #: glossary.en.adoc:37
 #, no-wrap
 msgid "[[motu]]molecular Operational Taxonomic Unit (mOTU)"
-msgstr "[[motu]]unité taxonomique opérationnelle moléculaire (mOTU)"
+msgstr "[[motu]]Unité Taxonomique Opérationnelle moléculaire (mOTU)"
 
 #. type: Plain text
 #: glossary.en.adoc:38
@@ -2327,13 +2327,13 @@ msgstr "[[ncbi]]Centre National d'Information sur la Biotechnologie (NCBI)"
 #. type: Plain text
 #: glossary.en.adoc:39
 msgid "Division of United States National Library of Medicine (NLM) housing important bioinformatics resources, such as the GenBank database of DNA sequences, and the <<sra,Sequence Read Archive (SRA)>> of high throughput sequencing data."
-msgstr "Division de la Bibliothèque Nationale de Médecine des États-Unis (NLM) hébergeant d'importantes ressources bio-informatiques, comme la base de données GenBank des séquences d'ADN, et le <<sra,Sequence Read Archive (SRA)>> des données de séquence à haut débit."
+msgstr "Division de la Bibliothèque Nationale de Médecine des États-Unis (NLM) hébergeant d'importantes ressources bioinformatiques, comme la base de données GenBank des séquences ADN, et le <<sra,Sequence Read Archive (SRA)>> des données de séquences à haut débit."
 
 #. type: Labeled list
 #: glossary.en.adoc:39
 #, no-wrap
 msgid "[[ngs]]Next Generation Sequencing (NGS)"
-msgstr "[[ngs]]Séquençage nouvelle génération (NGS)"
+msgstr "[[ngs]]Séquençage Nouvelle Génération (NGS)"
 
 #. type: Plain text
 #: glossary.en.adoc:40
@@ -2349,13 +2349,13 @@ msgstr "[[occurrence]]Occurrence"
 #. type: Plain text
 #: glossary.en.adoc:41
 msgid "An existence of an Organism (sensu http://rs.tdwg.org/dwc/terms/Organism) at a particular place at a particular time."
-msgstr "Une existence d'un Organisme (sensu http://rs.tdwg.org/dwc/terms/Organism) à un endroit particulier à un moment donné."
+msgstr "Une existence d'un organisme (sensu http://rs.tdwg.org/dwc/terms/Organism) à un endroit particulier à un moment donné."
 
 #. type: Labeled list
 #: glossary.en.adoc:41
 #, no-wrap
 msgid "[[otu]]Operational Taxonomic Unit (OTU)"
-msgstr "[[otu]]Unité taxonomique opérationnelle (OTU)"
+msgstr "[[otu]]Unité Taxonomique Opérationnelle (OTU)"
 
 #. type: Plain text
 #: glossary.en.adoc:42
@@ -2366,12 +2366,12 @@ msgstr "Regroupement d'organismes basé sur la similarité d'une ou de plusieurs
 #: glossary.en.adoc:42
 #, no-wrap
 msgid "[[pcr]]Polymerase Chain Reaction (PCR)"
-msgstr "[[pcr]]Amplification en chaîne par polymérase (PCR)"
+msgstr "[[pcr]]Amplification en Chaîne par Polymérase (PCR)"
 
 #. type: Plain text
 #: glossary.en.adoc:43
 msgid "Technique for fast amplification and detection of specific fragments of target DNA (or RNA) sequences. Amplified regions are determined by the pair of <<primer,PCR primers>> used in the reaction."
-msgstr "Technique pour l'amplification rapide et la détection de fragments spécifiques de séquences d'ADN (ou ARN). Les régions amplifiées sont déterminées par la paire de <<primer,PCR primers>> utilisée dans la réaction."
+msgstr "Technique pour l'amplification rapide et la détection de fragments spécifiques de séquences ADN (ou ARN). Les régions amplifiées sont déterminées par la paire de <<primer,PCR primers>> utilisée dans la réaction."
 
 #. type: Labeled list
 #: glossary.en.adoc:43
@@ -2382,7 +2382,7 @@ msgstr "[[pipeline]]Pipeline"
 #. type: Plain text
 #: glossary.en.adoc:44
 msgid "In bioinformatics, a set of algorithms or tools applied in a predefined workflow to process e.g. <<hts,High-throughput sequencing (HTS)>> data."
-msgstr "En bioinformatique, ensemble d'algorithmes ou d'outils appliqués dans un flux de travail prédéfini pour traiter, par exemple, des données <hts,High-throughput sequencing (HTS)>."
+msgstr "En bioinformatique, ensemble d'algorithmes ou d'outils appliqués dans un flux de travail prédéfini pour traiter, par exemple, des données <<hts,High-throughput sequencing (HTS)>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:44
@@ -2393,18 +2393,18 @@ msgstr "[[primer]]Amorces (PCR primers)"
 #. type: Plain text
 #: glossary.en.adoc:45
 msgid "Short, synthetic, single-stranded DNA fragments that bind to a selected region of target DNA (marker) to initiate replication during <<pcr,PCR>>. A pair of primers is necessary for the polymerase enzyme to amplify the selected marker."
-msgstr "Fragments d'ADN courts, simple brin qui se lient à une région sélectionnée de l'ADN cible (marqueur) pour initier la réplication pendant <pcr,PCR>. Une paire d'amorces est généralement utilisée pour que l'enzyme polymérase amplifie le marqueur sélectionné."
+msgstr "Fragments d'ADN courts, simple brin qui se lient à une région sélectionnée de l'ADN cible (marqueur) pour initier la réplication pendant <<pcr,PCR>>. Une paire d'amorces est généralement utilisée pour que l'enzyme polymérase amplifie le marqueur sélectionné."
 
 #. type: Labeled list
 #: glossary.en.adoc:45
 #, no-wrap
 msgid "[[qpcr]]qPCR (quantitative Polymerase Chain Reaction)"
-msgstr "[[qpcr]]qPCR (amplification quantitative en chaîne par polymérase)"
+msgstr "[[qpcr]]qPCR (Amplification quantitative en Chaîne par Polymérase)"
 
 #. type: Plain text
 #: glossary.en.adoc:46
 msgid "Quantitative <<pcr,PCR>>. Method that measures relative DNA quantity of a marker in a sample. See also <<ddpcr,ddPCR>>."
-msgstr "PCR quantitative <pcr,PCR>. Méthode qui mesure la quantité relative d'ADN d'un marqueur dans un échantillon. Voir aussi <ddpcr,ddPCR>."
+msgstr "PCR quantitative <<pcr,PCR>>. Méthode qui mesure la quantité relative d'ADN d'un marqueur dans un échantillon. Voir aussi <<ddpcr,ddPCR>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:46
@@ -2426,13 +2426,13 @@ msgstr "[[seq-align]]Alignement des séquences"
 #. type: Plain text
 #: glossary.en.adoc:48
 msgid "Bioinformatic process of comparing and arranging two or more molecular (DNA, RNA or protein) sequences to detect similarities caused by e.g. evolutionary relatedness."
-msgstr "Processus bioinformatique de comparaison et de disposition de deux ou plusieurs séquences moléculaires (ADN, ARN ou protéine) pour détecter les similitudes causées par exemple par une relation évolutive."
+msgstr "Processus bioinformatique de comparaison et de disposition de deux ou plusieurs séquences moléculaires (ADN, ARN ou protéine) pour détecter les similitudes causées par exemple par une parenté évolutionnaire."
 
 #. type: Labeled list
 #: glossary.en.adoc:48
 #, no-wrap
 msgid "[[sh]]Species Hypothesis (SH)"
-msgstr "[[sh]]Hypothèse des espèces (SH)"
+msgstr "[[sh]]Hypothèse d'Espèce (SH)"
 
 #. type: Plain text
 #: glossary.en.adoc:49
@@ -2454,7 +2454,7 @@ msgstr "Un animal, plante, champignon, etc utilisé comme exemple de son espèce
 #: glossary.en.adoc:50
 #, no-wrap
 msgid "[[sra]]Sequence Read Archive (SRA)"
-msgstr "[[sra]]Archive de lectures de séquences (SRA)"
+msgstr "[[sra]]Archive de Reads de Séquences (SRA)"
 
 #. type: Plain text
 #: glossary.en.adoc:51
@@ -2481,13 +2481,13 @@ msgstr "[[unite]]UNITE"
 #. type: Plain text
 #: glossary.en.adoc:53
 msgid "UNITE is a web-based sequence management environment centred on the eukaryotic nuclear ribosomal ITS region. All public sequences are clustered into species hypotheses (SHs), which are assigned unique DOIs. An SH-matching service outputs various elements of information, including what species are present in eDNA samples, whether these species are potentially undescribed new species, other studies in which they were recovered, whether the species are alien to a region, and whether they are threatened. The DOIs are connected to the taxonomic backbone of the https://plutof.ut.ee/[PlutoF platform^] and https://www.gbif.org[GBIF^], such that they are accompanied by a taxon name where available. The data used in UNITE are hosted and managed in PlutoF. Data are represented through a range of standards, primarily https://dwc.tdwg.org/[Darwin Core^], https://gensc.org/mixs/[MIxS^], and https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard[DMP Common Standard^]; partial support is available for https://www.dcc.ac.uk/resources/metadata-standards/eml-ecological-metadata-language[EML^], https://pubmed.ncbi.nlm.nih.gov/20211251/[MCL^], and https://terms.tdwg.org/wiki/GGBN_Data_Standard[GGBN^]. PlutoF exports data primarily through the CSV and FASTA formats. PlutoF can also be used to publish data in GBIF (using the DwC format) and to prepare GenBank submission files. It is furthermore possible to download species lists from your data and download your project as a https://www.json.org/json-en.html[JSON] document with project data in hierarchically structured."
-msgstr "UNITE est un environnement basé sur le web de gestion des séquences, centré sur la région nucléaire ITS du ribosome eucaryote. Toutes les séquences publiques sont regroupées en hypothèses d'espèces (SH), auxquelles sont attribuées des DOI uniques. Un service de mise en correspondance des SH produit divers éléments d'information, notamment les espèces présentes dans les échantillons d'ADNe, si ces espèces sont potentiellement de nouvelles espèces non décrites, les autres études dans lesquelles elles ont été récupérées, si les espèces sont étrangères à une région et si elles sont menacées. Les DOI sont connectés au backbone taxonomique de la https://plutof.ut.ee/[plateforme PlutoF^] et de la https://www.gbif.org[GBIF^], de sorte qu'ils sont accompagnés d'un nom de taxon lorsqu'il est disponible. Les données utilisées dans UNITE sont hébergées et gérées dans PlutoF. Les données sont représentées par une série de standards, principalement https://dwc.tdwg.org/[Darwin Core^], https://gensc.org/mixs/[MIxS^], et https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard[DMP Common Standard^] ; un support partiel est disponible pour https://www.dcc.ac.uk/resources/metadata-standards/eml-ecological-metadata-language[EML^], https://pubmed.ncbi.nlm.nih.gov/20211251/[MCL^], et https://terms.tdwg.org/wiki/GGBN_Data_Standard[GGBN^]. PlutoF exporte les données principalement via les formats CSV et FASTA. PlutoF peut également être utilisé pour publier des données dans GBIF (en utilisant le format DwC) et pour préparer des fichiers de soumission GenBank. Il est en outre possible de télécharger des listes d'espèces à partir de vos données et de télécharger votre projet sous forme de document https://www.json.org/json-en.html[JSON] avec les données du projet dans une structure hiérarchique."
+msgstr "UNITE est un environnement basé sur le web de gestion des séquences, centré sur la région nucléaire ITS du ribosome eucaryote. Toutes les séquences publiques sont regroupées en hypothèses d'espèces (SH), auxquelles sont attribuées des DOI uniques. Un service de mise en correspondance des SH produit divers éléments d'information, notamment les espèces présentes dans les échantillons d'eDNA, si ces espèces sont potentiellement de nouvelles espèces non décrites, les autres études dans lesquelles elles ont été récupérées, si les espèces sont étrangères à une région et si elles sont menacées. Les DOI sont connectés au backbone taxonomique de la https://plutof.ut.ee/[plateforme PlutoF^] et de https://www.gbif.org[GBIF^], de sorte qu'ils sont accompagnés d'un nom de taxon lorsqu'il est disponible. Les données utilisées dans UNITE sont hébergées et gérées dans PlutoF. Les données sont représentées par une série de standards, principalement https://dwc.tdwg.org/[Darwin Core^], https://gensc.org/mixs/[MIxS^], et https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard[DMP Common Standard^] ; un support partiel est disponible pour https://www.dcc.ac.uk/resources/metadata-standards/eml-ecological-metadata-language[EML^], https://pubmed.ncbi.nlm.nih.gov/20211251/[MCL^], et https://terms.tdwg.org/wiki/GGBN_Data_Standard[GGBN^]. PlutoF exporte les données principalement via les formats CSV et FASTA. PlutoF peut également être utilisé pour publier des données dans GBIF (en utilisant le format DwC) et pour préparer des fichiers de soumission GenBank. Il est en outre possible de télécharger des listes d'espèces à partir de vos données et de télécharger votre projet sous forme de document https://www.json.org/json-en.html[JSON] avec les données du projet dans une structure hiérarchique."
 
 #. type: Labeled list
 #: glossary.en.adoc:53
 #, no-wrap
 msgid "[[zotu]]Zero radius otu (zOTU)"
-msgstr "[[zotu]]Zero radius otu (zOTU)"
+msgstr "[[zotu]]otu Zero rayon (zOTU)"
 
 #. type: Plain text
 #: glossary.en.adoc:54
