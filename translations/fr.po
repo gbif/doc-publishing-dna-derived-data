@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2022-04-06 09:29+0000\n"
-"PO-Revision-Date: 2022-06-24 15:35\n"
+"PO-Revision-Date: 2022-06-27 06:41\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -1986,7 +1986,7 @@ msgstr "[[asv]]Variant de séquences d'amplicon (ASV)"
 #. type: Plain text
 #: glossary.en.adoc:7
 msgid "Unique DNA sequence derived from high-throughput sequencing and denoising, and assumed to represent a biologically real sequence variant. See also <<otu,Operational Taxonomic Unit (OTU)>> and https://doi.org/10.1038/ismej.2017.119[(Callahan et al. 2017)^]."
-msgstr "Séquence d’ADN individuelle produite par séquençage à haut débit d’amplicons ou par denoising, et et supposée représenter une variante de séquence biologiquement réelle. Voir également <otu,Operational Taxonomic Unit (OTU)> et https://doi.org/10.1038/ismej.2017.119[(Callahan et al. 2017)^]."
+msgstr "Séquence ADN individuelle produite par séquençage à haut débit d’amplicons ou par denoising, et supposée représenter une variante de séquence biologiquement réelle. Voir également <otu,Operational Taxonomic Unit (OTU)> et https://doi.org/10.1038/ismej.2017.119[(Callahan et al. 2017)^]."
 
 #. type: Labeled list
 #: glossary.en.adoc:7
@@ -2052,7 +2052,7 @@ msgstr "[[community-dna]] ADN de la communauté (échantillons mixtes)"
 #. type: Plain text
 #: glossary.en.adoc:13
 msgid "DNA from bulk samples (e.g. plankton samples or Malaise trap samples consisting of several individuals from many species). For the purpose of this guide, bulk sample DNA is included in the eDNA concept."
-msgstr "ADN provenant d'échantillons mixtes (par exemple, des échantillons de plancton ou des échantillons de pièges de Malaise composés de plusieurs individus provenant de nombreuses espèces). Dans le but de ce guide, des échantillons d'ADN mixte sont inclus dans le concept d'ADNe."
+msgstr "ADN provenant d'échantillons mixtes (par exemple, des échantillons de plancton ou des échantillons de pièges de Malaise composés de plusieurs individus provenant de nombreuses espèces). Dans le but de ce guide, des échantillons d'ADN mixte sont inclus dans le concept d'eDNA."
 
 #. type: Labeled list
 #: glossary.en.adoc:13
@@ -2069,7 +2069,7 @@ msgstr "Format de fichier compressé (ZIP) pour l'échange de données sur la bi
 #: glossary.en.adoc:14
 #, no-wrap
 msgid "[[dwc-standard]]Darwin Core (DwC) standard"
-msgstr "[[dwc-standard]]Standar Darwin Core (DwC)"
+msgstr "[[dwc-standard]]Standard Darwin Core (DwC)"
 
 #. type: Plain text
 #: glossary.en.adoc:15
