@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2022-04-06 09:29+0000\n"
-"PO-Revision-Date: 2022-06-28 06:53\n"
+"PO-Revision-Date: 2022-06-28 08:24\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -641,7 +641,7 @@ msgstr "Zoom sur le DwC-A / IPT de la figure 3 du chapitre 1.2. Le choix de l'en
 #: 200.en.adoc:12
 #, no-wrap
 msgid "img/print/dwca-structure.en.png"
-msgstr "img/print/dwca-structure.en.png"
+msgstr "img/print/dwca-structure.fr.png"
 
 #. type: Target for macro image
 #: 200.en.adoc:15
@@ -1970,7 +1970,7 @@ msgstr "Glossaire"
 #: glossary.en.adoc:5
 #, no-wrap
 msgid "[[ala]]Atlas of Living Australia (ALA)"
-msgstr "[[ala]]Atlas du vivant d'Australie (ALA)"
+msgstr "[[ala]]Atlas du Vivant d'Australie (ALA)"
 
 #. type: Plain text
 #: glossary.en.adoc:6
