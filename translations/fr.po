@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2022-04-06 09:29+0000\n"
-"PO-Revision-Date: 2022-07-01 12:43\n"
+"PO-Revision-Date: 2022-07-01 15:00\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -787,7 +787,7 @@ msgstr "Catégorie I : occurrences dérivées de l'ADN"
 #. type: Plain text
 #: 200.en.adoc:77
 msgid "This category concerns data where a DNA sequence or detection through PCR is the only evidence for the presence of a given organism or community. In other words, the data cannot be traced back to an observable specimen. This is the case for many metagenomics, metabarcoding and eDNA studies."
-msgstr "Cette catégorie concerne les données pour lesquelles une séquence ADN ou une détection par PCR est la seule preuve de la présence d'un organisme ou d'une communauté donnée. En d'autres termes, les données ne peuvent pas être rattachées à un spécimen observable. C'est le cas de nombreuses études de métagénomique, de métabarcoding et d'eDNA."
+msgstr "Cette catégorie concerne les données pour lesquelles une séquence ADN est la seule preuve de la présence d'un organisme ou d'une communauté donnée. En d'autres termes, les données ne peuvent pas être rattachées à un spécimen observable. C'est le cas de nombreuses études de métagénomique, de métabarcoding et d'eDNA."
 
 #. type: Title =====
 #: 200.en.adoc:78
@@ -851,12 +851,12 @@ msgstr "Bessey C, Jarman SN, Stat M, Rohner CA, Bunce M, Koziol A, Power M, Ramb
 #: 200.en.adoc:100
 #, no-wrap
 msgid "Category III: Targeted species detection (qPCR/ddPCR)"
-msgstr "Catégorie III: Détection ciblée d'espèces (qPCR/dPCR)"
+msgstr "Catégorie III: Détection ciblée d'espèces (qPCR / (d)dPCR)"
 
 #. type: Plain text
 #: 200.en.adoc:103
 msgid "This category concerns data where a specific (qPCR/ddPCR) assay is used to detect the presence (or absence) of a DNA sequence specific to the target organism in an environmental sample. In this case the occurrence record may not even contain sequence data, as it is the process itself that determines the occurrence. With qPCR/ddPCR analyses for targeted species detection, many studies also report absence of that specific species for a given sample. Absence data is highly dependent on the detection limit of the specific assay, as well as field and lab protocols. As for DNA-metabarcoding data there is an issue of both false negatives and false positives, and it is important that sufficient information is reported for evaluating the records."
-msgstr "Cette catégorie concerne les données pour lesquelles un test spécifique (qPCR/dPCR) est utilisé pour détecter la présence (ou l'absence) d'une séquence ADN spécifique à l'organisme cible dans un échantillon environnemental. Dans ce cas, l'enregistrement de l’occurrence peut même ne pas contenir de données de séquence, car c'est le processus lui-même qui détermine l’occurrence. Avec les analyses qPCR/dPCR pour la détection ciblée d'espèces, de nombreuses études rapportent également l'absence de l’espèce spécifique pour un échantillon donné. Les données d'absence dépendent fortement de la limite de détection de l'analyse spécifique, ainsi que des protocoles de terrain et de laboratoire. Comme pour les données de métabarcoding, il existe un problème de faux négatifs et de faux positifs, et il est important que des informations suffisantes soient rapportées pour évaluer les enregistrements."
+msgstr "Cette catégorie concerne les données pour lesquelles un test spécifique (qPCR / (d)dPCR) est utilisé pour détecter la présence (ou l'absence) d'une séquence ADN spécifique à l'organisme cible dans un échantillon environnemental. Dans ce cas, l'enregistrement de l’occurrence peut même ne pas contenir de données de séquence, car c'est le processus lui-même qui détermine l’occurrence. Avec les analyses qPCR / (d)dPCR pour la détection ciblée d'espèces, de nombreuses études rapportent également l'absence de l’espèce spécifique pour un échantillon donné. Les données d'absence dépendent fortement de la limite de détection de l'analyse spécifique, ainsi que des protocoles de terrain et de laboratoire. Comme pour les données de métabarcoding, il existe un problème de faux négatifs et de faux positifs, et il est important que des informations suffisantes soient rapportées pour évaluer les enregistrements."
 
 #. type: Title =====
 #: 200.en.adoc:104
