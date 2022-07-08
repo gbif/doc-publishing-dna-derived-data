@@ -14,7 +14,7 @@ The document is built using AsciiDoc, for guidance on how to make changes or sug
 
 == Diagrams
 
-The diagrams have been created using https://app.diagrams.net/[Diagrams.net].  They are exported as SVG (File → Export As… → SVG), with the "Include a copy of my diagram" option selected.  This allows the SVG file to be opened in Diagrams.net for further modification.
+The diagrams have been created using https://app.diagrams.net/[Diagrams.net].  They are exported as SVG (File → Export As… → SVG), with the "Include a copy of my diagram" and "Embed images" options selected.  This allows the SVG file to be opened in Diagrams.net for further modification, and avoids security issues with web browsers when image embedding is not used.
 
 Diagrams with multi-line text are additionally exported as PNG, for use in PDFs.  Multi-line text is not yet supported by the PDF output.
 
