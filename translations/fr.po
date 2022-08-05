@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2022-04-06 09:29+0000\n"
-"PO-Revision-Date: 2022-07-08 09:11\n"
+"PO-Revision-Date: 2022-08-05 14:24\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -497,7 +497,7 @@ msgstr "Aperçu du traitement bioinformatique des données de métabarcoding."
 #: 100.en.adoc:99
 #, no-wrap
 msgid "img/print/outline-of-bioinformatic-processing.en.png"
-msgstr "img/print/outline-of-bioinformatic-processing.en.png"
+msgstr "img/print/outline-of-bioinformatic-processing.fr.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:102
