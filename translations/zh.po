@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2022-04-06 09:29+0000\n"
-"PO-Revision-Date: 2022-10-05 08:17\n"
+"PO-Revision-Date: 2022-10-10 04:49\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: index.en.adoc:1
 #, no-wrap
 msgid "Publishing DNA-derived data through biodiversity data platforms"
-msgstr ""
+msgstr "通過生物多樣性資訊平台發布 DNA 衍生資料"
 
 #. type: Plain text
 #: index.en.adoc:34
@@ -31,45 +31,45 @@ msgstr ""
 #: colophon.en.adoc:3
 #, no-wrap
 msgid "img/web/photo.jpg"
-msgstr ""
+msgstr "img/web/photo.jpg"
 
 #. type: Title ==
 #: colophon.en.adoc:6
 #, no-wrap
 msgid "Colophon"
-msgstr ""
+msgstr "版權宣告"
 
 #. type: Title ===
 #: colophon.en.adoc:8
 #, no-wrap
 msgid "Suggested citation"
-msgstr ""
+msgstr "引用建議"
 
 #. type: Plain text
 #: colophon.en.adoc:11
 msgid "Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Svenningsen C & Schigel D (2021) Publishing DNA-derived data through biodiversity data platforms. v1.0 Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22."
-msgstr ""
+msgstr "Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Svenningsen C & Schigel D (2021) Publishing DNA-derived data through biodiversity data platforms. v1.0 Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22."
 
 #. type: Title ===
 #: colophon.en.adoc:12
 #, no-wrap
 msgid "Authors"
-msgstr ""
+msgstr "作者"
 
 #. type: Plain text
 #: colophon.en.adoc:15
 msgid "https://orcid.org/0000-0002-3627-6899[Anders F. Andersson], mailto:anders.andersson@scilifelab.se[anders.andersson@scilifelab.se], Science for Life Laboratory, Department of Gene Technology, KTH Royal Institute of Technology, 17121 Stockholm, Sweden"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-3627-6899[Anders F. Andersson], mailto:anders.andersson@scilifelab.se[anders.andersson@scilifelab.se], Science for Life Laboratory, Department of Gene Technology, KTH Royal Institute of Technology, 17121 Stockholm, Sweden"
 
 #. type: Plain text
 #: colophon.en.adoc:16
 msgid "https://orcid.org/0000-0001-7396-1484[Andrew Bissett], mailto:Andrew.Bissett@csiro.au[Andrew.Bissett@csiro.au], CSIRO O&A, GPO box 1533, Hobart, Tasmania, 7000, Australia"
-msgstr ""
+msgstr "https://orcid.org/0000-0001-7396-1484[Andrew Bissett], mailto:Andrew.Bissett@csiro.au[Andrew.Bissett@csiro.au], CSIRO O&A, GPO box 1533, Hobart, Tasmania, 7000, Australia"
 
 #. type: Plain text
 #: colophon.en.adoc:17
 msgid "https://orcid.org/0000-0003-4529-6266[Anders G. Finstad], mailto:anders.finstad@ntnu.no[anders.finstad@ntnu.no], Department of Natural History, Centre for Biodiversity Dymamics, Norwegian University of Science and Technology, Trondheim, Norway"
-msgstr ""
+msgstr "https://orcid.org/0000-0003-4529-6266[Anders G. Finstad], mailto:anders.finstad@ntnu.no[anders.finstad@ntnu.no], Department of Natural History, Centre for Biodiversity Dymamics, Norwegian University of Science and Technology, Trondheim, Norway"
 
 #. type: Plain text
 #: colophon.en.adoc:18
