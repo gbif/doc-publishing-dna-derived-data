@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2022-04-06 09:29+0000\n"
-"PO-Revision-Date: 2022-10-10 05:49\n"
+"PO-Revision-Date: 2022-10-11 05:14\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -316,13 +316,13 @@ msgstr ""
 #: 100.en.adoc:24
 #, no-wrap
 msgid "img/print/sequence-publishing-guide.en.png"
-msgstr ""
+msgstr "img/print/sequence-publishing-guide.en.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:27
 #, no-wrap
 msgid "img/web/sequence-publishing-guide.en.svg"
-msgstr ""
+msgstr "img/web/sequence-publishing-guide.en.svg"
 
 #. type: Plain text
 #: 100.en.adoc:31
@@ -361,13 +361,13 @@ msgstr ""
 #: 100.en.adoc:43
 #, no-wrap
 msgid "img/print/sampling-processes.en.png"
-msgstr ""
+msgstr "img/print/sampling-processes.en.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:46
 #, no-wrap
 msgid "img/web/sampling-processes.en.svg"
-msgstr ""
+msgstr "img/web/sampling-processes.en.svg"
 
 #. type: Plain text
 #: 100.en.adoc:50
@@ -497,13 +497,13 @@ msgstr ""
 #: 100.en.adoc:99
 #, no-wrap
 msgid "img/print/outline-of-bioinformatic-processing.en.png"
-msgstr ""
+msgstr "img/print/outline-of-bioinformatic-processing.en.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:102
 #, no-wrap
 msgid "img/web/outline-of-bioinformatic-processing.en.svg"
-msgstr ""
+msgstr "img/web/outline-of-bioinformatic-processing.en.svg"
 
 #. type: Plain text
 #: 100.en.adoc:106
@@ -641,13 +641,13 @@ msgstr ""
 #: 200.en.adoc:12
 #, no-wrap
 msgid "img/print/dwca-structure.en.png"
-msgstr ""
+msgstr "img/print/dwca-structure.en.png"
 
 #. type: Target for macro image
 #: 200.en.adoc:15
 #, no-wrap
 msgid "img/web/ct/dwca-structure.en.svg"
-msgstr ""
+msgstr "img/web/ct/dwca-structure.en.svg"
 
 #. type: Title ===
 #: 200.en.adoc:18
@@ -751,7 +751,7 @@ msgstr ""
 #: 200.en.adoc:71
 #, no-wrap
 msgid "img/web/ct/eDNA-categories.en.svg"
-msgstr ""
+msgstr "img/web/ct/eDNA-categories.en.svg"
 
 #. type: Title ====
 #: 200.en.adoc:74
@@ -870,7 +870,7 @@ msgstr ""
 #: 200.en.adoc:116
 #, no-wrap
 msgid "img/web/otus-from-unite.en.png"
-msgstr ""
+msgstr "img/web/otus-from-unite.en.png"
 
 #. type: Title =====
 #: 200.en.adoc:118
