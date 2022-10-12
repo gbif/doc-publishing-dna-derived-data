@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2022-04-06 09:29+0000\n"
-"PO-Revision-Date: 2022-10-11 05:14\n"
+"PO-Revision-Date: 2022-10-12 03:43\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -174,7 +174,7 @@ msgstr "摘要"
 #. type: Plain text
 #: colophon.en.adoc:48
 msgid "When genetic information is used to describe or classify a taxon, most users will foresee its use in the context of molecular ecology or phylogenetic research. It is important to realize that a sequence with coordinates and a timestamp is a valuable biodiversity occurrence which is useful in a much broader context than its original purpose. To realize this potential, DNA-derived data needs to be discoverable through biodiversity data platforms. This guide will teach you the principles and approaches of exposing “sequences with dates and coordinates” in the context of broader biodiversity data. The guide covers choices of particular schemas and terms, common pitfalls and good practice, without going into platform-specific details. It will benefit anyone interested in better exposure of DNA-derived data through general biodiversity data platforms, including national biodiversity portals."
-msgstr ""
+msgstr "使用基因資訊來描述或鑑定物種分類群時，大多使用者會預設該資料會使用在分子生物或演化學的研究上。然而，同時擁有座標與時間標記的基因序列是一個有價值的生物多樣性出現紀錄，在比其最初目的更廣泛的有用。為了實現這一潛力，DNA 衍生資料需要可以在生物多樣性資訊的平台上被發現。這份教學文件將帶領您了解公開 “帶有時間標記與座標的序列” 的生物多樣性資訊的原則與方法。此文件涵蓋了特定的概要和術語、常見問題與良好的操作方式、且不討論各平台的細節。它將受益於任何對使用各生物多樣性資訊平台（包括國家級生物多樣性入口網站）有興趣的人更好地公開 DNA 衍生資料。"
 
 #. type: Title ===
 #: colophon.en.adoc:49
