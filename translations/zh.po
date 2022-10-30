@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2022-04-06 09:29+0000\n"
-"PO-Revision-Date: 2022-10-30 02:53\n"
+"PO-Revision-Date: 2022-10-30 06:15\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -196,62 +196,62 @@ msgstr "前言"
 #. type: Plain text
 #: preface.en.adoc:5
 msgid "The work on this guide started from discussions at the https://biss.pensoft.net/collection/115/[biodiversity_next conference] in 2019 consolidating inputs from various resources, such as:"
-msgstr ""
+msgstr "此指南的準備工作始於 2019 年在 https://biss.pensoft.net/collection/115/[biodiversity_next conference] 研討會上整合各種面向的討論，例如："
 
 #. type: Plain text
 #: preface.en.adoc:7
 msgid "https://docs.google.com/document/d/1xtgNwxp3Lek8hqFOBWPa8nCFLEc1S6YrYg1y_HLe5I4/edit?usp=sharing[Final Report on Environomics Future Science Platform Project]"
-msgstr ""
+msgstr "https://docs.google.com/document/d/1xtgNwxp3Lek8hqFOBWPa8nCFLEc1S6YrYg1y_HLe5I4/edit?usp=sharing[未來科學平台環境經濟學項目最終報告]"
 
 #. type: Plain text
 #: preface.en.adoc:8
 msgid "https://www.ala.org.au/blogs-news/edna-records-now-available-on-ala[ALA blog post eDNA records now available on ALA]"
-msgstr ""
+msgstr "https://www.ala.org.au/blogs-news/edna-records-now-available-on-ala[部落格文章關於 Atlas of Living Australia 現在包括 eDNA 記錄]"
 
 #. type: Plain text
 #: preface.en.adoc:9
 msgid "https://www.ala.org.au/environmentaldna[Environmental DNA (eDNA) in the ALA]"
-msgstr ""
+msgstr "https://www.ala.org.au/environmentaldna[ALA 裡的環境DNA (eDNA)]"
 
 #. type: Plain text
 #: preface.en.adoc:10
 msgid "https://www.ala.org.au/app/uploads/2019/04/Simple-template-for-eDNA-data-entry-to-ALA-v2-1.xlsx[ALA eDNA data template]"
-msgstr ""
+msgstr "https://www.ala.org.au/app/uploads/2019/04/Simple-template-for-eDNA-data-entry-to-ALA-v2-1.xlsx[ALA eDNA 資料模板]"
 
 #. type: Plain text
 #: preface.en.adoc:11
 msgid "https://www.miljodirektoratet.no/globalassets/publikasjoner/m1638/m1638.pdf?fbclid=IwAR08bK8C15ebZoGjUmxPgGz364WgFnDq9uT4CKR6aDHR1sUcOfhu7AYO69M[Norwegian Criteria for depositing eDNA samples and data, including vouchered specimens]"
-msgstr ""
+msgstr "https://www.miljodirektoratet.no/globalassets/publikasjoner/m1638/m1638.pdf?fbclid=IwAR08bK8C15ebZoGjUmxPgGz364WgFnDq9uT4CKR6aDHR1sUcOfhu7AYO69M[挪威寄存 eDNA 樣本與資料，包括憑證標本的標準]"
 
 #. type: Plain text
 #: preface.en.adoc:12
 msgid "https://biodiversitydata-se.github.io/mol-data[Molecular biodiversity data in SBDI, Sweden]"
-msgstr ""
+msgstr "https://biodiversitydata-se.github.io/mol-data[瑞典生物多樣性資訊建設的分子生物多樣性資料]"
 
 #. type: Plain text
 #: preface.en.adoc:13
 msgid "https://www.gbif.org/faq?question=how-can-i-publish-molecular-data-to-gbif[GBIF resources (How) can I publish molecular/sequence/DNA based data to GBIF?]"
-msgstr ""
+msgstr "https://www.gbif.org/faq?question=how-can-i-publish-molecular-data-to-gbif[GBIF 資源 (如何) 發布分子/序列/DNA 資料到 GBIF?]"
 
 #. type: Plain text
 #: preface.en.adoc:14
 msgid "https://data-blog.gbif.org/post/gbif-molecular-data[Molecular data in GBIF]"
-msgstr ""
+msgstr "https://data-blog.gbif.org/post/gbif-molecular-data[GBIF分子資料]"
 
 #. type: Plain text
 #: preface.en.adoc:15
 msgid "https://www.gbif.org/publishing-data[GBIF quick guide to publishing data and detailed guides to publishing data]"
-msgstr ""
+msgstr "https://www.gbif.org/publishing-data[GBIF 發布資料的簡略和詳細指南]"
 
 #. type: Plain text
 #: preface.en.adoc:16
 msgid "https://github.com/gbif/ipt/wiki/howToPublish#instructions[How to publish data to GBIF], as well as DwC/extension field overview."
-msgstr ""
+msgstr "https://github.com/gbif/ipt/wiki/howToPublish#instructions[如何發布資料到GBIF]，以及 DwC/衍生檔的欄位概述。"
 
 #. type: Plain text
 #: preface.en.adoc:16
 msgid "https://github.com/tdwg/gbwg[Genomic Biodiversity Interest Group]"
-msgstr ""
+msgstr "https://github.com/tdwg/gbwg[基因組生物多樣性工作小組]"
 
 #. type: Title ==
 #: 100.en.adoc:1
