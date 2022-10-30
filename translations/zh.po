@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2022-04-06 09:29+0000\n"
-"PO-Revision-Date: 2022-10-12 03:43\n"
+"PO-Revision-Date: 2022-10-30 02:53\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -185,7 +185,7 @@ msgstr "封面圖片"
 #. type: Plain text
 #: colophon.en.adoc:51
 msgid "Velvet shank (_Flammulina velutipes_), Kursk, Russian Federation. Photo 2020 Oleg Ryzhkov via https://www.gbif.org/occurrence/2550027893[iNaturalist research-grade observations], licensed under http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0]."
-msgstr ""
+msgstr "金針菇 (_Flammulina velutipes_)，Oleg Ryzhkov 2020 年攝於俄羅斯庫斯克州，圖源自 https://www.gbif.org/occurrence/2550027893[iNaturalist research-grade observations]，創用 http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0] 授權."
 
 #. type: Title ==
 #: preface.en.adoc:2
