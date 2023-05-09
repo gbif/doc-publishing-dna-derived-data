@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-04-14 10:24+0000\n"
+"POT-Creation-Date: 2023-05-09 07:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,10 +48,11 @@ msgstr ""
 #. type: Plain text
 #: colophon.en.adoc:11
 msgid ""
-"Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen "
-"TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Svenningsen C & Schigel D "
-"(2021) Publishing DNA-derived data through biodiversity data platforms. v1.0 "
-"Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22."
+"Andersson AF, Bissett A, Finstad AG, Fossøy F, Frøslev TG, Grosjean M, Hope "
+"M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Svenningsen C, "
+"Schigel D & Suominen S (2021) Publishing DNA-derived data through "
+"biodiversity data platforms. v1.0 Copenhagen: GBIF "
+"Secretariat. https://doi.org/10.35035/doc-vf1a-nr22."
 msgstr ""
 
 #. type: Title ===
@@ -97,30 +98,38 @@ msgstr ""
 #. type: Plain text
 #: colophon.en.adoc:19
 msgid ""
-"https://orcid.org/0000-0002-2685-8078[Marie Grosjean], "
-"mailto:mgrosjean@gbif.org[mgrosjean@gbif.org], Global Biodiversity "
+"https://orcid.org/0000-0002-3530-013X[Tobias G. Frøslev], "
+"mailto:tfroeslev@gbif.org[tfroeslev@gbif.org], Global Biodiversity "
 "Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
 msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:20
 msgid ""
-"https://orcid.org/0000-0002-4827-3310[Michael Hope], "
-"mailto:Michael.Hope@csiro.au[Michael.Hope@csiro.au], Atlas of Living "
-"Australia, CSIRO National Collections & Marine Infrastructure, GPO Box 1700, "
-"Canberra ACT 2601, Australia."
+"https://orcid.org/0000-0002-2685-8078[Marie Grosjean], "
+"mailto:mgrosjean@gbif.org[mgrosjean@gbif.org], Global Biodiversity "
+"Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
 msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:21
 msgid ""
-"https://orcid.org/0000-0003-1691-239X[Thomas S. Jeppesen], "
-"mailto:tsjeppesene@gbif.org[tsjeppesen@gbif.org], Global Biodiversity "
-"Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
+"https://orcid.org/0000-0002-4827-3310[Michael Hope], "
+"mailto:Michael.Hope@ga.gov.au[Michael.Hope@ga.gov.au], Atlas of Living "
+"Australia, CSIRO National Collections & Marine Infrastructure, GPO Box 1700, "
+"Canberra ACT 2601, Australia."
 msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:22
+msgid ""
+"https://orcid.org/0000-0003-1691-239X[Thomas S. Jeppesen], "
+"mailto:tsjeppesen@gbif.org[tsjeppesen@gbif.org], Global Biodiversity "
+"Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
+msgstr ""
+
+#. type: Plain text
+#: colophon.en.adoc:23
 msgid ""
 "https://orcid.org/0000-0002-5171-1668[Urmas Kõljalg], "
 "mailto:urmas.koljalg@ut.ee[urmas.koljalg@ut.ee], Natural History Museum and "
@@ -129,7 +138,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:23
+#: colophon.en.adoc:24
 msgid ""
 "https://orcid.org/0000-0002-8779-6464[Daniel Lundin], "
 "mailto:daniel.lundin@lnu.se[daniel.lundin@lnu.se], Centre for Ecology and "
@@ -138,7 +147,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:24
+#: colophon.en.adoc:25
 msgid ""
 "https://orcid.org/0000-0002-8052-0107[R. Henrik Nilsson], "
 "mailto:henrik.nilsson@bioenv.gu.se[henrik.nilsson@bioenv.gu.se], University "
@@ -147,7 +156,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:25
+#: colophon.en.adoc:26
 msgid ""
 "https://orcid.org/0000-0003-4897-8422[Maria Prager], "
 "mailto:maria.prager@scilifelab.se[maria.prager@scilifelab.se], Science for "
@@ -157,7 +166,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:26
+#: colophon.en.adoc:27
 msgid ""
 "https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen], "
 "mailto:cssvenningsen@snm.ku.dk[cssvenningsen@snm.ku.dk], Natural History "
@@ -166,42 +175,49 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:27
+#: colophon.en.adoc:28
 msgid ""
 "https://orcid.org/0000-0002-2919-1168[Dmitry Schigel], "
 "mailto:dschigel@gbif.org[dschigel@gbif.org], Global Biodiversity Information "
 "Facility, Universitetsparken 15, 2100 København Ø, Denmark"
 msgstr ""
 
+#. type: Plain text
+#: colophon.en.adoc:29
+msgid ""
+"https://orcid.org/0000-0002-2919-1168[Saara Suominen], "
+"mailto:s.suominen@unesco.org[s.suominen@unesco.org], OBIS (Ocean "
+"biodiversity information system), Jacobsenstraat 1, 8400 Oostende, Belgium"
+msgstr ""
+
 #. type: Title ===
-#: colophon.en.adoc:28
+#: colophon.en.adoc:30
 #, no-wrap
 msgid "Contributors"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:31
+#: colophon.en.adoc:33
 msgid ""
 "Valuable discussions with members of ELIXIR, iBOL, GGBN, GLOMICON, and OBIS "
 "networks contributed to compilation of this draft. We are especially "
 "grateful for inputs and encouragement from Kessy Abarenkov, Andrew Bentley, "
 "Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, "
-"Gabriele Dröge, Torbjørn Ekrem, Tobias Guldberg Frøslev, Birgit "
-"Gemeinholzer, Quentin Groom, Tim Hirsch, Donald Hobern, Hamish Holewa, "
-"Corinne Martin, Raissa Meyer, Chris Mungall, Daniel Noesgaard, Corinna "
-"Paeper, Pieter Provoost, Tim Robertson, Saara Suominen, Maxime Sweetlove, "
-"Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger who "
-"have contributed to the GBIF community review process."
+"Gabriele Dröge, Torbjørn Ekrem, Birgit Gemeinholzer, Quentin Groom, Tim "
+"Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris "
+"Mungall, Daniel Noesgaard, Corinna Paeper, Pieter Provoost, Tim Robertson, "
+"Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, "
+"Lucie Zinger who have contributed to the GBIF community review process."
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:32
+#: colophon.en.adoc:34
 #, no-wrap
 msgid "License"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:36
+#: colophon.en.adoc:38
 msgid ""
 "The document _Publishing DNA-derived data through biodiversity data "
 "platforms_ is licensed under "
@@ -210,35 +226,35 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:37
+#: colophon.en.adoc:39
 #, no-wrap
 msgid "Persistent URI"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:40
+#: colophon.en.adoc:42
 msgid "https://doi.org/10.35035/doc-vf1a-nr22"
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:41
+#: colophon.en.adoc:43
 #, no-wrap
 msgid "Document control"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:44
-msgid "Version 1.0.1 released on 27 March 2022."
+#: colophon.en.adoc:46
+msgid "Version 1.1.0 released on XXX."
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:45
+#: colophon.en.adoc:47
 #, no-wrap
 msgid "Abstract"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:48
+#: colophon.en.adoc:50
 msgid ""
 "When genetic information is used to describe or classify a taxon, most users "
 "will foresee its use in the context of molecular ecology or phylogenetic "
@@ -256,13 +272,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:49
+#: colophon.en.adoc:51
 #, no-wrap
 msgid "Cover image"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:51
+#: colophon.en.adoc:53
 msgid ""
 "Velvet shank (_Flammulina velutipes_), Kursk, Russian Federation. Photo 2020 "
 "Oleg Ryzhkov via https://www.gbif.org/occurrence/2550027893[iNaturalist "
@@ -407,11 +423,13 @@ msgid ""
 "help avoid significant inefficiencies that have been reported in other "
 "domains, in which the lack of standards and guidance has led to very "
 "heterogeneous and largely incomparable bodies of data "
-"(https://doi.org/10.1089/omi.2006.10.231[Leebens-Mack et al. 2006^]; "
+"(https://doi.org/10.1002/edn3.173[Berry et al. 2021^]; "
+"https://doi.org/10.1089/omi.2006.10.231[Leebens-Mack et al. 2006^]; "
 "https://doi.org/10.1038/nbt.1823[Yilmaz et al. 2011^]; "
-"https://doi.org/10.3897/mycokeys.4.3606[Nilsson et al. 2012^]). Moreover, "
-"clear documentation of the computational processing from raw sequence reads "
-"to deduced species observation, will enable reanalysis when improved methods "
+"https://doi.org/10.3897/mycokeys.4.3606[Nilsson et al. 2012^]; "
+"https://doi.org/10.7717/peerj.14993[Shea et al. 2023^]). Moreover, clear "
+"documentation of the computational processing from raw sequence reads to "
+"deduced species observation, will enable reanalysis when improved methods "
 "appear."
 msgstr ""
 
@@ -740,7 +758,8 @@ msgid ""
 "(https://doi.org/10.1038/ismej.2017.119[Сallahan et al. 2017^]) allow for "
 "precise reinterpretation of data, intra-specific population genetic analyses "
 "(https://doi.org/10.1111/eva.12882[Sigsgaard et al. 2019^]) and is likely to "
-"increase identification accuracy."
+"increase identification accuracy, and for this reason we recommend to share "
+"(unclustered) ASV data."
 msgstr ""
 
 #. type: Title ====
@@ -1014,7 +1033,7 @@ msgid ""
 "case of paired-end sequences, the forward and reverse sequences may be "
 "denoised separately before merging or else merged prior to denoising. ASVs "
 "in the resulting set can differ by as little as one base which is indicative "
-"of inter- or intraspecific species variation. Operationally, ASVs may be "
+"of inter- or intraspecific sequence variation. Operationally, ASVs may be "
 "thought of as OTUs without defined radius and while denoising algorithms are "
 "typically very good, they do not entirely remove the problems of "
 "over-splitting or lumping sequences."
@@ -1027,7 +1046,7 @@ msgid ""
 "generation of artefactual sequences in the form of chimeras; a single "
 "sequence that originates from multiple parent sequences. Such sequences can "
 "be detected bioinformatically and removed, and this is typically done after "
-"OTU clustering or denoising."
+"denoising."
 msgstr ""
 
 #. type: Plain text
@@ -1052,18 +1071,19 @@ msgid ""
 "https://doi.org/10.1093/bioinformatics/btq461p[(Edgar 2010)^], Mothur "
 "https://doi.org/10.1128/AEM.01541-09[(Schloss et al. 2009)^], LULU "
 "https://doi.org/10.1038/s41467-017-01312-x[(Frøslev et al. 2017)^], PROTAX "
-"https://doi.org/10.1093/bioinformatics/btw34[(Somervuo et "
-"al. 2016)^]). Given the existence of many popular and well used workflows, "
-"we make some recommendations below on analysing data for submission to "
-"biodiversity data platforms. This is not to suggest that these are the best "
-"methods or most appropriate for all purposes but is an attempt to encourage "
-"submission of relatively standardized data that may readily be compared via "
-"the platforms. If possible, a well documented and maintained workflow should "
-"be used (e.g. https://nf-co.re/ampliseq[nf-core/ampliseq "
-"pipeline]). Metadata should include workflow details and versions either in "
-"the metadata method steps or as a reference in the SOP field in the DNA "
-"derived data extension (see mapping in <<table-04,Table 4>>). Sequence data "
-"should be deposited in an appropriate nucleotide archive (NCBI’s SRA: "
+"https://doi.org/10.1093/bioinformatics/btw34[(Somervuo et al. 2016)^], "
+"VSEARCH https://doi.org/10.7717/peerj.2584[(Rognes et al. 2016)^]). Given "
+"the existence of many popular and well used workflows, we make some "
+"recommendations below on analysing data for submission to biodiversity data "
+"platforms. This is not to suggest that these are the best methods or most "
+"appropriate for all purposes but is an attempt to encourage submission of "
+"relatively standardized data that may readily be compared via the "
+"platforms. If possible, a well documented and maintained workflow should be "
+"used (e.g. https://nf-co.re/ampliseq[nf-core/ampliseq pipeline]). Metadata "
+"should include workflow details and versions either in the metadata method "
+"steps or as a reference in the SOP field in the DNA derived data extension "
+"(see mapping in <<table-04,Table 4>>). Sequence data should be deposited in "
+"an appropriate nucleotide archive (NCBI’s SRA: "
 "https://doi.org/10.1093/nar/gkq1019[Leinonen et al. 2011^]) or EMBL’s ENA "
 "(https://doi.org/10.1093/nar/gkz1063[Amid et al. 2020^])) and data submitted "
 "to the biodiversity platform should include the biosample ID obtained from "
@@ -1075,7 +1095,7 @@ msgid ""
 "each sample along with the taxonomy assigned to these. This is generated "
 "either in tabular format or in the BIOM format "
 "(https://doi.org/10.1186/2047-217X-1-7[McDonald et.al 2012^]). OTU or ASV "
-"sequences are also usually provided in the FASTA format "
+"sequences are also often provided in the FASTA format "
 "(https://doi.org/10.1073/pnas.85.8.2444[Pearson & Lipman 1988^])."
 msgstr ""
 
@@ -1172,11 +1192,11 @@ msgid ""
 "multiple evolving digital reference libraries that differ in taxonomic "
 "focus, barcode genes and other factors. By associating standard sequences "
 "with identified reference specimens, BOLD and UNITE are establishing an "
-"essential mapping layer for linking ASVs and OTUs with the foundations of "
-"the Linnaean taxonomic framework. The GBIF backbone taxonomy includes "
-"identifiers for UNITE Species Hypotheses as well as Barcode index numbers "
-"which allows indexing of species occurrence data taxonomically annotated at "
-"the OTU level for Fungi and Animals "
+"essential mapping layer for linking ASVs and OTUs with Linnaean "
+"taxonomy. The GBIF backbone taxonomy includes identifiers for UNITE Species "
+"Hypotheses (SHs) as well as Barcode Index Numbers (BINs) which allows "
+"indexing of species occurrence data taxonomically annotated at the OTU level "
+"for primarily Fungi and Animals "
 "(https://www.gbif.org/news/2LrgV5t3ZuGeU2WIymSEuk/adding-sequence-based-identifiers-to-backbone-taxonomy-reveals-dark-taxa-fungi[GBIF "
 "secretariat 2018^], "
 "https://data-blog.gbif.org/post/gbif-backbone-taxonomy[Grosjean 2019^])."
@@ -1189,33 +1209,35 @@ msgid ""
 "unique sequence to the nearest taxonomic group in a reference set, based on "
 "some criteria for relatedness and confidence. For poorly known groups of "
 "organisms, such as prokaryotes, insects and fungi, the annotation may be a "
-"non-Linnaean placeholder name for a (cluster-based) taxon, and this taxon "
-"may represent a species or even a taxonomic unit above the species level. No "
-"reference database contains all species in a given group due to the many "
-"unknown, unidentified, and yet undescribed species on earth. Frequent "
-"neglections of this fact has been the source of numerous taxonomic "
-"misidentifications during the last 30 years."
+"non-Linnaean placeholder name for a (cluster-based) taxon (i.e. the "
+"ID/number of the relevant SH or BIN), and this taxon may represent a species "
+"or even a taxonomic unit above the species level. No reference database "
+"contains all species in a given group due to the many unknown, unidentified, "
+"and undescribed species on earth. Frequent ignorance of this fact has been "
+"the source of numerous taxonomic misidentifications during the last 30 "
+"years."
 msgstr ""
 
 #. type: Plain text
 #: 100.en.adoc:130
 msgid ""
-"During import into the biodiversity platform, the taxonomic resolution for "
-"these occurrences may be reduced even further, as the reference set used for "
-"annotation may not be included in the taxonomic index of that "
-"platform. Records assigned to a well defined cluster within a genus are "
-"likely to be treated as undefined records of that genus. The inclusion of "
-"the underlying sequence within or by reference in each record will allow "
-"future users to potentially identify the organism to a greater level of "
-"granularity, particularly as reference libraries improve over time. In cases "
-"where the underlying sequence cannot be included as part of the submitted "
-"data, we advocate deposition of a (scientific or placeholder) name of the "
-"taxon plus an MD5 checksum of the sequence as a unique taxon ID (see "
-"xref:data-mapping[xrefstyle=\"full\"]). MD5 checksums are unidirectional "
-"hash algorithms commonly used for verifying file integrity (ref). In this "
-"case, they would provide a unique and repeatable representation of the "
-"original sequence that would nevertheless not allow the sequence itself to "
-"be recovered. This may be required in cases where sensitivity exists around "
+"During import into the biodiversity platform (e.g. GBIF or OBIS), the "
+"taxonomic resolution for these DNA-based occurrences may be reduced even "
+"further, as the names/IDs obtained from comparing with the reference "
+"database (e.g. UNITE, BOLD) may not all be included in the taxonomic index "
+"of that platform at the time of publication. However, the inclusion of the "
+"underlying OTU or ASV sequence for each record will allow future users to "
+"potentially identify the sequence to a greater level of granularity, "
+"particularly as reference libraries improve over time. In cases where the "
+"underlying sequence cannot be included as part of the submitted data, we "
+"advocate deposition of a (scientific or placeholder) name of the taxon "
+"(e.g. the BOLD BIN or UNITE SH) plus an MD5 checksum of the sequence as a "
+"unique taxon ID (see xref:data-mapping[xrefstyle=\"full\"]). MD5 checksums "
+"are unidirectional hash algorithms commonly used for "
+"https://en.wikipedia.org/wiki/MD5[verifying file integrity^]. In this case, "
+"they would provide a unique and repeatable representation of the original "
+"sequence that would nevertheless not allow the sequence itself to be "
+"recovered. This may be required in cases where sensitivity exists around "
 "access. MD5 checksums enable efficient query to determine whether the same "
 "exact sequence has been recovered in other eDNA efforts, but it is not a "
 "complete replacement of the sequence as MD5s do not enable further "
@@ -1243,7 +1265,7 @@ msgid ""
 "citation functionality. For metabarcoding data we encourage users to "
 "configure filters for organismQuantity, organismQuantityType, "
 "sampleSizeValue, sampleSizeUnit. These can be used exclude singletons and/or "
-"set thresholds for relative number of sequence reads within a sample "
+"set thresholds for relative abundance of sequence reads within a sample "
 "(<<mapping-metabarcoding-edna-and-barcoding-data>>). Users can often choose "
 "data-output formats (e.g. DwC-A, CSV) and then process, clean and transform "
 "data into the shape and format needed for the analyses."
@@ -1679,19 +1701,19 @@ msgid ""
 "backbones is critically important for indexing unnamed “dark” "
 "biodiversity. GBIF have accumulated experience in integrating such large and "
 "global reference libraries of OTUs into the GBIF taxonomic backbone, which "
-"allows the display of OTUs under the nearest parent taxon which has a Latin "
-"name (<<figure-otus>>)."
+"allows the display of OTUs under the nearest parent taxon which has a "
+"Scientific name (<<figure-otus>>)."
 msgstr ""
 
 #. type: Block title
 #: 200.en.adoc:115
 #, no-wrap
 msgid ""
-"OTUs from UNITE (fungi, above) and from BOLD (arthropods, below) are "
-"displayed in the GBIF backbone taxonomy under their corresponding parent "
-"taxa which have Latin names. Multiple individually observed occurrences of "
-"cryptic biodiversity become discoverable together with non-genetic evidence "
-"through a single access point."
+"OTUs (SHs) from UNITE (mainly fungi, above) and from BOLD (BINs) (mainly "
+"arthropods, below) are displayed in the GBIF backbone taxonomy under their "
+"corresponding parent taxa which have Scientific names. Multiple individually "
+"observed occurrences of cryptic biodiversity become discoverable together "
+"with non-genetic evidence through a single access point."
 msgstr ""
 
 #. type: Target for macro image
@@ -1849,13 +1871,16 @@ msgid ""
 "well as the number of reads of an ASV within a sample. Therefore, we here "
 "provide tables of required and recommended fields with descriptions and "
 "examples (<<table-01,Table 1>>, <<table-02,Table 2>>, <<table-03,Table 3>> "
-"and <<table-04, Table 4>>). Additional fields and extensions (such as "
+"and <<table-04, Table 4>>). The recommendation to use the Occurrence core "
+"for DNA-derived data stems from the strong desire to share the sequence to "
+"help qualify the determination. Additional fields and extensions (such as "
 "http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended "
-"Measurement or Fact (eMoF)]) are applicable. When a sequence is derived from "
-"an organism (e.g. a parasite, gut contents, epibiont etc.) the observation "
-"may be linked to the observation of the host organism. This can be achieved "
-"using the (https://dwc.tdwg.org/terms/#resourcerelationship[Resource "
-"Relation extension^]) of Darwin Core "
+"Measurement or Fact (eMoF)]) are applicable - both to occurrence cores and "
+"event core. When a sequence is derived from an organism (e.g. a parasite, "
+"gut contents, epibiont etc.) the observation may be linked to the "
+"observation of the host organism. This can be achieved using the "
+"(https://dwc.tdwg.org/terms/#resourcerelationship[Resource Relation "
+"extension^]) of Darwin Core "
 "(e.g. https://www.gbif.org/species/143610775/verbatim). Perhaps the most "
 "important recommendation is to use globally unique (when available) and "
 "other permanent identifiers for as many data fields and parameters as "
@@ -1864,7 +1889,7 @@ msgstr ""
 
 #. type: Plain text
 #: 200.en.adoc:145 200.en.adoc:288 200.en.adoc:394 200.en.adoc:514
-#: 200.en.adoc:730 glossary.en.adoc:55 bibliography.en.adoc:71
+#: 200.en.adoc:731 glossary.en.adoc:55 bibliography.en.adoc:74
 msgid "<<<"
 msgstr ""
 
@@ -1953,7 +1978,10 @@ msgid ""
 "| 1233890\n"
 "| Total number of reads in the sample. This is important since it allows "
 "calculating the relative abundance of the sequence variant within the "
-"sample.\n"
+"sample. This number should preferably be calculated after universal "
+"processing (quality control, ASV denoising, chimera removal, etc.), but "
+"before manual/selective removal of e.g. non-target OTUs or ASVs from the "
+"dataset.\n"
 "| Highly recommended\n"
 "\n"
 "| term:dwc[sampleSizeUnit]\n"
@@ -2030,8 +2058,8 @@ msgid ""
 "\n"
 "| term:dwc[scientificName]\n"
 "| _Gadus morhua_ L. 1758, BOLD:ACF1143\n"
-"| Latin name of the closest known taxon (species or higher) or an OTU "
-"identifier from BOLD or UNITE\n"
+"| Scientific name of the closest known taxon (species or higher) or an OTU "
+"identifier from BOLD (BIN) or UNITE (SH)\n"
 "| Required\n"
 "\n"
 "| term:dwc[kingdom]\n"
@@ -2102,12 +2130,12 @@ msgid ""
 "| Recommended\n"
 "\n"
 "| term:mixs[target_gene]\n"
-"| 16S rRNA, 18S rRNA, nif, amoA, rpo\n"
+"| 16S rRNA, 18S rRNA, ITS\n"
 "| Targeted gene or marker name for marker-based studies\n"
 "| Highly recommended\n"
 "\n"
 "| term:mixs[target_subfragment]\n"
-"| V6, V9, ITS\n"
+"| V6, V9, ITS2\n"
 "| Name of subfragment of a gene or markerImportant to e.g. identify special "
 "regions on marker genes like the hypervariable V6 region of the 16S rRNA "
 "gene\n"
@@ -2178,27 +2206,25 @@ msgid ""
 "\n"
 "| term:mixs[seq_meth]\n"
 "| Illumina HiSeq 1500\n"
-"| Sequencing method used; e.g. Sanger, pyrosequencing, ABI-solid\n"
+"| Sequencing method/platform used\n"
 "| Highly recommended\n"
 "\n"
 "| term:mixs[otu_class_appr]\n"
-"| \"95% ANI;85% AF; greedy incremental clustering\"\n"
-"| Cutoffs and approach used when clustering new UViGs in \"species-level\" "
-"OTUs. Note that results from standard 95% ANI / 85% AF clustering should be "
-"provided alongside OTUS defined from another set of thresholds, even if the "
-"latter are the ones primarily used during the analysis\n"
+"| \"dada2; 1.14.0; ASV\"\n"
+"| Approach/algorithm and clustering level (if relevant) when defining OTUs "
+"or ASVs\n"
 "| Highly recommended\n"
 "\n"
 "| term:mixs[otu_seq_comp_appr]\n"
 "| \"blastn;2.6.0+;e-value cutoff: 0.001\"\n"
-"| Tool and thresholds used to compare sequences when computing "
-"\"species-level\" OTUs\n"
+"| Tool and thresholds used to assign \"species-level\" names to OTUs or "
+"ASVs\n"
 "| Highly recommended\n"
 "\n"
 "| term:mixs[otu_db]\n"
-"| \"NCBI Viral RefSeq;83\", \"UNITE;8.2\"\n"
+"| \"Genbank nr;221\", \"UNITE;8.2\"\n"
 "| Reference database (i.e. sequences not generated as part of the current "
-"study) used to cluster new genomes in \"species-level\" OTUs, if any\n"
+"study) used to assigning taxonomy to OTUs or ASVs\n"
 "| Highly recommended\n"
 msgstr ""
 
@@ -2325,7 +2351,7 @@ msgid ""
 "\n"
 "| term:dwc[scientificName]\n"
 "| _Gadus morhua_ L. 1758, BOLD:ACF1143\n"
-"| Latin name of the closest known taxon (species or higher) or an OTU "
+"| Scientific name of the closest known taxon (species or higher) or an OTU "
 "identifier from BOLD or UNITE\n"
 "| Required\n"
 "\n"
@@ -2632,6 +2658,118 @@ msgid ""
 "| The assay's ability to quantify copy number at low levels\n"
 "| Highly recommended\n"
 "| \n"
+msgstr ""
+
+#. type: Title ===
+#: 200.en.adoc:732
+#, no-wrap
+msgid "Marine datasets and the Ocean Biodiversity Information System (OBIS)"
+msgstr ""
+
+#. type: Plain text
+#: 200.en.adoc:735
+msgid ""
+"When working with datasets originating in the marine environment, it is "
+"recommended that the information is published also in the "
+"https://obis.org[Ocean Biodiversity Information System (OBIS)] in addition "
+"to GBIF. OBIS is a global biodiversity database, which is specialized in "
+"providing reliable and accessible data related to marine life and is a part "
+"of the IOC-UNESCO. Like GBIF, and ALA, OBIS uses the DwC-A format for data "
+"indexing and publishing. By publishing marine datasets through OBIS in "
+"addition to other biodiversity databases, the data can reach a broader "
+"audience, and diverse groups working in the field of marine biodiversity, as "
+"datasets in OBIS are often used for UN processes. With the focus on marine "
+"datasets, stringent quality controls on the data increase the reliability of "
+"the data and lead to small differences in what information is required for "
+"publishing in OBIS as opposed to GBIF."
+msgstr ""
+
+#. type: Plain text
+#: 200.en.adoc:737
+msgid ""
+"To ensure consistent taxonomic nomenclature OBIS uses the World Register of "
+"Marine Species (WoRMS) as the only taxonomic backbone. This is the case also "
+"for occurrences derived from genetic data; a scientific name linked to a "
+"scientific name ID from the WoRMS database is required information for "
+"publishing. The expected, fully unclassified sequences are recommended to be "
+"classified as ‘incertae sedis’, with the WoRMS `scientificNameID` "
+"urn:lsid:marinespecies.org:taxname:12. Additionally, it is recommended that "
+"sequence identifiers from the used reference databases (e.g. Barcode index "
+"numbers: BINs from BOLD) be added in the `taxonConceptID` field of the "
+"occurrence core table. In this way OBIS will retain its taxonomic backbone "
+"based on WoRMS, while enabling linking to disparate reference sequence "
+"databases. Automatic classification of species names can often be done "
+"through the WoRMS taxon match services and R packages like worrms and "
+"taxize. In the future, OBIS plans to periodically search and update the "
+"taxonomic assignments of submitted sequences as reference databases develop "
+"with time, so recording the sequence information linked to each occurrence "
+"is highly recommended."
+msgstr ""
+
+#. type: Plain text
+#: 200.en.adoc:739
+msgid ""
+"Another required field in OBIS data submissions are geographic "
+"coordinates. OBIS performs additional quality checks related to marine data; "
+"e.g. that coordinates for strictly marine species are not on land, and that "
+"the depth value reported is in a reasonable range. Finally, it should be "
+"mentioned that in addition OBIS supports the use of the "
+"http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended "
+"Measurement or Fact (eMoF)]. This extension allows linking environmental "
+"data and sampling facts to sampling events or occurrences, as well as "
+"biological measurements to occurrences in a flexible and standardized "
+"manner. OBIS has an example eDNA metabarcoding dataset with scripts for data "
+"formatting available at https://github.com/iobis/dataset-edna"
+msgstr ""
+
+#. type: Block title
+#: 200.en.adoc:741
+#, no-wrap
+msgid ""
+"Required and recommended fields and values specifically for Marine datasets "
+"intended for publishing in OBIS. These fields are meant to be "
+"included/modified when dealing specifically with marine data for publication "
+"through OBIS. "
+msgstr ""
+
+#. type: Table
+#: 200.en.adoc:776
+#, no-wrap
+msgid ""
+"| Field name\n"
+"| Value/example\n"
+"| Description\n"
+"| Required\n"
+"\n"
+"| decimalLatitude\n"
+"| see above\n"
+"| see above\n"
+"| required\n"
+"\n"
+"| decimalLongitude\n"
+"| see above\n"
+"| see above\n"
+"| required\n"
+"\n"
+"\n"
+"| identificationRemarks\n"
+"| phototrophic eukaryote\n"
+"| \n"
+"| Highly recommended\n"
+"\n"
+"| scientificName\n"
+"| incertae sedis\n"
+"| Scientific name according to WoRMS database \n"
+"| Required. Use \"incertae sedis\" for sequences that cannot be "
+"classified.\n"
+"\n"
+"| scientificNameID\n"
+"| urn:lsid:marinespecies.org:taxname:12\n"
+"| ID of the taxon in WoRMS database \n"
+"| Highly recommended\n"
+"\n"
+"| ===\n"
+"\n"
 msgstr ""
 
 #. type: Title ==
@@ -3452,13 +3590,22 @@ msgstr ""
 #. type: Plain text
 #: bibliography.en.adoc:8
 msgid ""
+"[[berry]] Berry O, Jarman S, Bissett A, Hope M, Paeper C, Bessey C, Schwartz "
+"MK, Hale J & Bunce M (2021) Making environmental DNA (eDNA) biodiversity "
+"records globally accessible. Environmental DNA, 3(4), "
+"699-705. https://doi.org/10.1002/edn3.173"
+msgstr ""
+
+#. type: Plain text
+#: bibliography.en.adoc:9
+msgid ""
 "[[bessey]] Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish "
 "detection with eDNA metabarcoding. Environmental DNA: "
 "1–12. https://doi.org/10.1002/edn3.74"
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:9
+#: bibliography.en.adoc:10
 msgid ""
 "[[biggs]] Biggs J, Ewald N, Valentini A, Gaboriaud C, Dejean T, Griffiths "
 "RA, Foster J, et al. (2015) Using eDNA to Develop a National Citizen "
@@ -3468,7 +3615,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:10
+#: bibliography.en.adoc:11
 msgid ""
 "[[blaxter]] Blaxter M, Mann J, Chapman T, Thomas F, Whitton C, Floyd R & "
 "Abebe E (2005) Defining operational taxonomic units using DNA barcode "
@@ -3477,7 +3624,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:11
+#: bibliography.en.adoc:12
 msgid ""
 "[[bolyen]] Bolyen E, Rideout JR, Dillon MR et al. (2019) Reproducible, "
 "interactive, scalable and extensible microbiome data science using QIIME "
@@ -3485,7 +3632,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:12
+#: bibliography.en.adoc:13
 msgid ""
 "[[boussarie]] Boussarie G, Bakker J, Wangensteen OS, Mariani S, Bonnin L, "
 "Juhel JB, Kiszka JJ, Kulbicki M, Manel S, Robbins WD & Vigliola L (2018) "
@@ -3494,7 +3641,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:13
+#: bibliography.en.adoc:14
 msgid ""
 "[[bustin]] Bustin SA, Benes V, Garson JA, Hellemans J, Huggett J, Kubista M, "
 "... & Wittwer CT (2009). The MIQE Guidelines: M inimum I nformation for "
@@ -3503,7 +3650,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:14
+#: bibliography.en.adoc:15
 msgid ""
 "[[callahan]] Callahan B, McMurdie P & Holmes S (2017) Exact sequence "
 "variants should replace operational taxonomic units in marker-gene data "
@@ -3512,7 +3659,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:15
+#: bibliography.en.adoc:16
 msgid ""
 "[[callahan2]] Callahan B, McMurdie P, Rosen M et al. (2016) DADA2: "
 "High-resolution sample inference from Illumina amplicon data. Nat Methods "
@@ -3520,7 +3667,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:16
+#: bibliography.en.adoc:17
 msgid ""
 "[[guelf]] Centre for Biodiversity Genomics, University of Guelph (2021) The "
 "Global Taxonomy Initiative 2020: A Step-by-Step Guide for DNA "
@@ -3530,7 +3677,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:17
+#: bibliography.en.adoc:18
 msgid ""
 "[[cbd]] Convention on Biological Diversity (2020) Report of the ad hoc "
 "Technical Expert Group on Digital Sequence Information On Genetic Resources, "
@@ -3540,7 +3687,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:18
+#: bibliography.en.adoc:19
 msgid ""
 "[[debroas]] Debroas D, Domaizon I, Humbert JF, Jardillier L, Lepère C, "
 "Oudart A & Taïb N (2017) Overview of freshwater microbial eukaryotes "
@@ -3549,7 +3696,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:19
+#: bibliography.en.adoc:20
 msgid ""
 "[[doi]] Doi H, Fukaya K, Oka SI, Sato K, Kondoh M & Miya M (2019) Evaluation "
 "of Detection Probabilities at the Water-Filtering and Initial PCR Steps in "
@@ -3559,7 +3706,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:20
+#: bibliography.en.adoc:21
 msgid ""
 "[[durkin]] Durkin L, Jansson T, Sanchez M, Khomich M, Ryberg M, Kristiansson "
 "E, Nilsson RH (2020) When mycologists describe new species, not all relevant "
@@ -3568,7 +3715,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:21
+#: bibliography.en.adoc:22
 msgid ""
 "[[edgar]] Edgar RC (2010) Search and clustering orders of magnitude faster "
 "than BLAST, Bioinformatics 26(19): 2460–2461, "
@@ -3576,7 +3723,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:22
+#: bibliography.en.adoc:23
 msgid ""
 "[[ekrem]] Ekrem T & Majaneva M (2019) DNA-Metastrekkoding Til Undersøkelser "
 "Av Invertebrater I Ferskvann. NTNU Vitenskapsmuseet Naturhistorisk "
@@ -3584,7 +3731,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:23
+#: bibliography.en.adoc:24
 msgid ""
 "[[elbrecht]] Elbrecht V & Leese F (2015) Can DNA-based ecosystem assessments "
 "quantify species abundance? Testing primer bias and biomass—sequence "
@@ -3593,7 +3740,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:24
+#: bibliography.en.adoc:25
 msgid ""
 "[[ficetola]] Ficetola GF, Miaud C, Pompanon F, & Taberlet P (2008). Species "
 "detection using environmental DNA from water samples. Biology letters, 4(4), "
@@ -3601,7 +3748,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:25
+#: bibliography.en.adoc:26
 msgid ""
 "[[fossoey]] Fossøy F, Brandsegg H, Sivertsgård R, Pettersen O, Sandercock "
 "BK, Solem Ø, Hindar K & Tor AM (2019) Monitoring Presence and Abundance of "
@@ -3610,7 +3757,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:26
+#: bibliography.en.adoc:27
 msgid ""
 "[[froslev]] Frøslev TG, Kjøller R, Bruun HH et al. (2017) Algorithm for "
 "post-clustering curation of DNA amplicon data yields reliable biodiversity "
@@ -3618,7 +3765,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:27
+#: bibliography.en.adoc:28
 msgid ""
 "[[Groom]] Groom Q, Güntsch A, Huybrechts P, Kearney N, Leachman S, Nicolson "
 "N, Page RDM, Shorthouse DP, Thessen, AE, Haston E. People are essential to "
@@ -3627,7 +3774,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:28
+#: bibliography.en.adoc:29
 msgid ""
 "[[hernandez]] Hernandez C, Bougas B, Perreault‐Payette A, Simard A, Côté G, "
 "& Bernatchez L (2020). 60 specific eDNA qPCR assays to detect invasive, "
@@ -3637,7 +3784,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:29
+#: bibliography.en.adoc:30
 msgid ""
 "[[hofstetter]] Hofstetter, V, Buyck, B, Eyssartier, G, Schnee S, Gindro K "
 "(2019) The unbearable lightness of sequenced-based identification. Fungal "
@@ -3645,7 +3792,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:30
+#: bibliography.en.adoc:31
 msgid ""
 "[[huggett]] Huggett JF, Foy CA, Benes V, Emslie K, Garson JA, Haynes R, "
 "... & Bustin SA (2013). The Digital MIQE Guidelines: M inimum I nformation "
@@ -3654,7 +3801,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:31
+#: bibliography.en.adoc:32
 msgid ""
 "[[hugerth]] Hugerth LW, Andersson AF (2017) Analysing Microbial Community "
 "Composition through Amplicon Sequencing: From Sampling to Hypothesis "
@@ -3663,7 +3810,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:32
+#: bibliography.en.adoc:33
 msgid ""
 "[[knudsen]] Knudsen SW, Ebert RB, Hesselsøe M, Kuntke F, Hassingboe J, "
 "Mortensen PB, Thomsen PF et al (2019) Species-Specific Detection and "
@@ -3673,7 +3820,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:33
+#: bibliography.en.adoc:34
 msgid ""
 "[[lacoursiere]] Lacoursière-Roussel A, Rosabal M & Bernatchez L (2016) "
 "Estimating Fish Abundance and Biomass from eDNA Concentrations: Variability "
@@ -3682,7 +3829,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:34
+#: bibliography.en.adoc:35
 msgid ""
 "[[leebens]] Leebens-Mack J, Vision T, Brenner E, Bowers JE, Cannon S, "
 "Clement MJ, Cunningham CW, DePamphilis C, DeSalle R, Doyle JJ & Eisen JA "
@@ -3693,7 +3840,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:35
+#: bibliography.en.adoc:36
 msgid ""
 "[[leinonen]] Leinonen R, Sugawara H, Shumway M & International Nucleotide "
 "Sequence Database Collaboration (2011) The sequence read archive. Nucleic "
@@ -3701,7 +3848,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:36
+#: bibliography.en.adoc:37
 msgid ""
 "[[mahe]] Mahé F, Rognes T, Quince C, de Vargas C, Dunthorn M. (2014) Swarm: "
 "robust and fast clustering method for amplicon-based studies. PeerJ 2:e593 "
@@ -3709,7 +3856,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:37
+#: bibliography.en.adoc:38
 msgid ""
 "[[mcdonald]] McDonald D, Clemente JC, Kuczynski J, Rideout JR, Stombaugh J, "
 "Wendel D, ... & Caporaso JG (2012). The Biological Observation Matrix (BIOM) "
@@ -3718,7 +3865,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:38
+#: bibliography.en.adoc:39
 msgid ""
 "[[miralles]] Miralles A, Bruy T, Wolcott K, Scherz MD, Begerow D, Beszteri "
 "B, Bonkowski M, Felden J, Gemeinholzer B, Glaw F & Glöckner FO (2020) "
@@ -3728,7 +3875,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:39
+#: bibliography.en.adoc:40
 msgid ""
 "[[mora]] Mora C, Tittensor DP, Adl S, Simpson AG & Worm B (2011) How many "
 "species are there on Earth and in the ocean? PLoS Biology 9(8): e1001127.  "
@@ -3736,7 +3883,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:40
+#: bibliography.en.adoc:41
 msgid ""
 "[[nilsson]] Nilsson RH, Tedersoo L, Abarenkov K, Ryberg M, Kristiansson E, "
 "Hartmann M, Schoch CL, Nylander JA, Bergsten J, Porter TM & Jumpponen A "
@@ -3746,7 +3893,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:41
+#: bibliography.en.adoc:42
 msgid ""
 "[[nilsson2]] Nilsson RH, Larsson KH, Taylor AFS, Bengtsson-Palme J, Jeppesen "
 "TS, Schigel D, Kennedy P, Picard K, Glöckner FO, Tedersoo L, Saar I, Kõljalg "
@@ -3757,7 +3904,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:42
+#: bibliography.en.adoc:43
 msgid ""
 "[[ogram]] Ogram A, Sayler GS, Barkay T (1987) The Extraction and "
 "Purification of Microbial DNA from Sediments. Journal of Microbiological "
@@ -3765,7 +3912,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:43
+#: bibliography.en.adoc:44
 msgid ""
 "[[ovaskainen]] Ovaskainen O, Schigel D, Ali-Kovero H et al. (2013) Combining "
 "high-throughput sequencing with fruit body surveys reveals contrasting "
@@ -3774,7 +3921,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:44
+#: bibliography.en.adoc:45
 msgid ""
 "[[parks]] Parks, DH, Chuvochina, M, Chaumeil, P, Rinke C, Mussig AJ, "
 "Hugenholtz P (2020) A complete domain-to-species taxonomy for Bacteria and "
@@ -3783,7 +3930,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:45
+#: bibliography.en.adoc:46
 msgid ""
 "[[pearson]] Pearson, WR & Lipman DJ (1988) Improved tools for biological "
 "sequence comparison. Proceedings of the National Academy of Sciences 85(8): "
@@ -3791,7 +3938,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:46
+#: bibliography.en.adoc:47
 msgid ""
 "[[penew]] Penev P, Mietchen D, Chavan VS, Hagedorn G, Smith VS, Shotton D, "
 "Tuama ÉÓ, Senderov V, Georgiev T, Stoev P, Groom QJ, Remsen D, Edmunds SC "
@@ -3801,7 +3948,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:47
+#: bibliography.en.adoc:48
 msgid ""
 "[[pietramellara]] Pietramellara G, Ascher J, Borgogni F, Ceccherini MT, "
 "Guerri G & Nannipieri P (2009) Extracellular DNA in Soil and Sediment: Fate "
@@ -3810,7 +3957,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:48
+#: bibliography.en.adoc:49
 msgid ""
 "[[Ratnasingham]] Ratnasingham S, Hebert PDN (2007) BOLD: The Barcode of Life "
 "Data System. Molecular Ecology Notes, 7: "
@@ -3818,7 +3965,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:49
+#: bibliography.en.adoc:50
 msgid ""
 "[[Ratnasingham13]] Ratnasingham S, Hebert PDN (2013). A DNA-based registry "
 "for all animal species: the Barcode Index Number (BIN) system. PloS one, "
@@ -3826,7 +3973,15 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:50
+#: bibliography.en.adoc:51
+msgid ""
+"[[rognes]] Rognes T, Flouri T, Nichols B, Quince C, Mahé F (2016) VSEARCH: a "
+"versatile open source tool for metagenomics. PeerJ, 4, "
+"e2584. https://doi.org/10.7717/peerj.2584"
+msgstr ""
+
+#. type: Plain text
+#: bibliography.en.adoc:52
 msgid ""
 "[[Ruppert]] Ruppert KM, Kline RJ, Rahman MS (2019). Past, present, and "
 "future perspectives of environmental DNA (eDNA) metabarcoding: A systematic "
@@ -3836,7 +3991,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:51
+#: bibliography.en.adoc:53
 msgid ""
 "[[schloss]] Schloss PD, Westcott SL, Ryabin T, Hall JR, Hartmann M, "
 "Hollister EB, ... & Weber CF (2009). Introducing mothur: open-source, "
@@ -3846,7 +4001,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:52
+#: bibliography.en.adoc:54
+msgid ""
+"[[shea]] Shea MM, Kuppermann J, Rogers MP, Smith DS, Edwards P & Boehm AB "
+"(2023) Systematic review of marine environmental DNA metabarcoding studies: "
+"toward best practices for data usability and accessibility. PeerJ, 11, "
+"p.e14993. https://doi.org/10.7717/peerj.14993"
+msgstr ""
+
+#. type: Plain text
+#: bibliography.en.adoc:55
 msgid ""
 "[[Sigsgaard]] Sigsgaard EE, Jensen MR, Winkelmann IE, Møller PR, Hansen MM, "
 "Thomsen PF (2020). Population‐level inferences from environmental "
@@ -3855,7 +4019,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:53
+#: bibliography.en.adoc:56
 msgid ""
 "[[somervuo]] Somervuo P, Koskela S, Pennanen J, Nilsson RH, Ovaskainen O "
 "(2016) Unbiased probabilistic taxonomic classification for DNA "
@@ -3864,7 +4028,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:54
+#: bibliography.en.adoc:57
 msgid ""
 "[[strand]] Strand DA, Johnsen SI, Rusch JC, Agersnap S, Larsen WB, Knudsen "
 "SW, Møller PR & Vrålstad T (2019) Monitoring a Norwegian Freshwater Crayfish "
@@ -3873,7 +4037,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:55
+#: bibliography.en.adoc:58
 msgid ""
 "[[taberlet-2018]] Taberlet P, Bonin A, Coissac E & Zinger L (2018) "
 "Environmental DNA: For Biodiversity Research and Monitoring. Oxford, UK: "
@@ -3881,7 +4045,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:56
+#: bibliography.en.adoc:59
 msgid ""
 "[[taberlet-2012]] Taberlet P, Coissac E, Hajibabaei M & Rieseberg LH (2012) "
 "Environmental DNA. Molecular Ecology 21(8): "
@@ -3889,7 +4053,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:57
+#: bibliography.en.adoc:60
 msgid ""
 "[[takahara]] Takahara T, Minamoto T, Yamanaka H, Doi H & Kawabata Z (2012) "
 "Estimation of Fish Biomass Using Environmental DNA. PLoS ONE 7(4): "
@@ -3897,7 +4061,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:58
+#: bibliography.en.adoc:61
 msgid ""
 "[[tedersoo]] Tedersoo, L, Bahram M, Puusepp R, Nilsson RH & James TY (2017) "
 "Novel soil-inhabiting clades fill gaps in the fungal tree of "
@@ -3905,7 +4069,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:59
+#: bibliography.en.adoc:62
 msgid ""
 "[[tedesco]] Tedesco PA, Bigorne R, Bogan AE, Giam X, Jézéquel C & Hugueny B "
 "(2014) Estimating how many undescribed species have gone "
@@ -3914,7 +4078,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:60
+#: bibliography.en.adoc:63
 msgid ""
 "[[Thalinger]] Thalinger B, Deiner K, Harper LR, Rees HC, Blackman RC, Sint "
 "D, ... & Bruce K (2021). A validation scale to determine the readiness of "
@@ -3923,7 +4087,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:61
+#: bibliography.en.adoc:64
 msgid ""
 "[[thomsen-2012]] Thomsen PF, Kielgast JOS, Iversen LL, Wiuf C, Rasmussen M, "
 "Gilbert MTP Orlando L & Willerslev E (2012) Monitoring Endangered Freshwater "
@@ -3932,7 +4096,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:62
+#: bibliography.en.adoc:65
 msgid ""
 "[[thomsen-2016]] Thomsen PF, Møller PR, Sigsgaard EE, Knudsen SW, Jørgensen "
 "OA & Willerslev E (2016) Environmental DNA from Seawater Samples Correlate "
@@ -3941,7 +4105,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:63
+#: bibliography.en.adoc:66
 msgid ""
 "[[thomsen-2015]] Thomsen PF & Willerslev E (2015) Environmental DNA – An "
 "Emerging Tool in Conservation for Monitoring Past and Present "
@@ -3950,7 +4114,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:64
+#: bibliography.en.adoc:67
 msgid ""
 "[[tyson]] Tyson, GW & Hugenholtz, P (2005). Environmental shotgun "
 "sequencing. Encyclopedia of genetics, genomics, proteomics, and "
@@ -3959,7 +4123,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:65
+#: bibliography.en.adoc:68
 msgid ""
 "[[valentini]] Valentini A, Taberlet P, Miaud C, Civade R, Herder J, Thomsen "
 "PF, Bellemain E et al. (2016) Next-Generation Monitoring of Aquatic "
@@ -3968,7 +4132,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:66
+#: bibliography.en.adoc:69
 msgid ""
 "[[wacker]] Wacker S, Fossøy F, Larsen BM, Brandsegg H, Sivertsgård R, & "
 "Karlsson S (2019). Downstream transport and seasonal variation in freshwater "
@@ -3977,7 +4141,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:67
+#: bibliography.en.adoc:70
 msgid ""
 "[[wilkinson]] Wilkinson M, Dumontier M, Aalbersberg I et al. (2016) The FAIR "
 "Guiding Principles for scientific data management and "
@@ -3986,7 +4150,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:68
+#: bibliography.en.adoc:71
 msgid ""
 "[[wittwer]] Wittwer C, Stoll S, Strand D, Vrålstad T, Nowak C, & Thines M "
 "(2018). eDNA-based crayfish plague monitoring is superior to conventional "
@@ -3995,7 +4159,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:69
+#: bibliography.en.adoc:72
 msgid ""
 "[[yates]] Yates MC, Fraser DJ & Derry AM (2019) Meta‐analysis Supports "
 "Further Refinement of eDNA for Monitoring Aquatic Species‐specific Abundance "
@@ -4003,7 +4167,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: bibliography.en.adoc:70
+#: bibliography.en.adoc:73
 msgid ""
 "[[yilmaz]] Yilmaz P, Kottmann R, Field D, Knight R, Cole JR, Amaral-Zettler "
 "L, Gilbert JA, Karsch-Mizrachi I, Johnston A, Cochrane G & Vaughan R (2011) "
