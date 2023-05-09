@@ -772,5 +772,4 @@ Another required field in OBIS data submissions are geographic coordinates. OBIS
 | ID of the taxon in WoRMS database 
 | Highly recommended
 
-| ===
-
+|===
