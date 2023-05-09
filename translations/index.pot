@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-09 07:52+0000\n"
+"POT-Creation-Date: 2023-05-09 12:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -892,7 +892,7 @@ msgid ""
 "and extra spaces and handling inconsistent use of fields. Such improvements "
 "enhance the quality of data and increase its suitability for reuse, but at "
 "the same time, data published in any state are better than data that remain "
-"unpublished and inaccessible. Standartization is typically applied to a copy "
+"unpublished and inaccessible. Standardization is typically applied to a copy "
 "or to an export from the data source, leaving the original untouched."
 msgstr ""
 
@@ -2733,7 +2733,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 200.en.adoc:776
+#: 200.en.adoc:775
 #, no-wrap
 msgid ""
 "| Field name\n"
@@ -2767,8 +2767,6 @@ msgid ""
 "| urn:lsid:marinespecies.org:taxname:12\n"
 "| ID of the taxon in WoRMS database \n"
 "| Highly recommended\n"
-"\n"
-"| ===\n"
 "\n"
 msgstr ""
 
