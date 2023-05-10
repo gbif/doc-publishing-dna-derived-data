@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-09 12:31+0000\n"
+"POT-Creation-Date: 2023-05-10 06:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -169,9 +169,8 @@ msgstr ""
 #: colophon.en.adoc:27
 msgid ""
 "https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen], "
-"mailto:cssvenningsen@snm.ku.dk[cssvenningsen@snm.ku.dk], Natural History "
-"Museum of Denmark, University of Copenhagen, Øster Voldgade 5-7, 1350 "
-"Copenhagen, Denmark"
+"mailto:csvenningsen@gbif.org[csvenningsen@gbif.org], Global Biodiversity "
+"Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
 msgstr ""
 
 #. type: Plain text
