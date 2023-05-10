@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2022-04-06 09:29+0000\n"
-"PO-Revision-Date: 2022-10-30 06:15\n"
+"PO-Revision-Date: 2022-10-24 10:32\n"
 "Last-Translator: \n"
-"Language-Team: Chinese Traditional\n"
-"Language: zh_TW\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: publishing-ddd\n"
 "X-Crowdin-Project-ID: 479967\n"
-"X-Crowdin-Language: zh-TW\n"
+"X-Crowdin-Language: es-ES\n"
 "X-Crowdin-File: /1.0/translations/index.pot\n"
 "X-Crowdin-File-ID: 795\n"
 
@@ -20,7 +20,7 @@ msgstr ""
 #: index.en.adoc:1
 #, no-wrap
 msgid "Publishing DNA-derived data through biodiversity data platforms"
-msgstr "通過生物多樣性資訊平台發布 DNA 衍生資料"
+msgstr ""
 
 #. type: Plain text
 #: index.en.adoc:34
@@ -31,239 +31,239 @@ msgstr ""
 #: colophon.en.adoc:3
 #, no-wrap
 msgid "img/web/photo.jpg"
-msgstr "img/web/photo.jpg"
+msgstr ""
 
 #. type: Title ==
 #: colophon.en.adoc:6
 #, no-wrap
 msgid "Colophon"
-msgstr "版權宣告"
+msgstr ""
 
 #. type: Title ===
 #: colophon.en.adoc:8
 #, no-wrap
 msgid "Suggested citation"
-msgstr "引用建議"
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:11
 msgid "Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Svenningsen C & Schigel D (2021) Publishing DNA-derived data through biodiversity data platforms. v1.0 Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22."
-msgstr "Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Svenningsen C & Schigel D (2021) Publishing DNA-derived data through biodiversity data platforms. v1.0 Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22."
+msgstr ""
 
 #. type: Title ===
 #: colophon.en.adoc:12
 #, no-wrap
 msgid "Authors"
-msgstr "作者"
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:15
 msgid "https://orcid.org/0000-0002-3627-6899[Anders F. Andersson], mailto:anders.andersson@scilifelab.se[anders.andersson@scilifelab.se], Science for Life Laboratory, Department of Gene Technology, KTH Royal Institute of Technology, 17121 Stockholm, Sweden"
-msgstr "https://orcid.org/0000-0002-3627-6899[Anders F. Andersson], mailto:anders.andersson@scilifelab.se[anders.andersson@scilifelab.se], Science for Life Laboratory, Department of Gene Technology, KTH Royal Institute of Technology, 17121 Stockholm, Sweden"
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:16
 msgid "https://orcid.org/0000-0001-7396-1484[Andrew Bissett], mailto:Andrew.Bissett@csiro.au[Andrew.Bissett@csiro.au], CSIRO O&A, GPO box 1533, Hobart, Tasmania, 7000, Australia"
-msgstr "https://orcid.org/0000-0001-7396-1484[Andrew Bissett], mailto:Andrew.Bissett@csiro.au[Andrew.Bissett@csiro.au], CSIRO O&A, GPO box 1533, Hobart, Tasmania, 7000, Australia"
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:17
 msgid "https://orcid.org/0000-0003-4529-6266[Anders G. Finstad], mailto:anders.finstad@ntnu.no[anders.finstad@ntnu.no], Department of Natural History, Centre for Biodiversity Dymamics, Norwegian University of Science and Technology, Trondheim, Norway"
-msgstr "https://orcid.org/0000-0003-4529-6266[Anders G. Finstad], mailto:anders.finstad@ntnu.no[anders.finstad@ntnu.no], Department of Natural History, Centre for Biodiversity Dymamics, Norwegian University of Science and Technology, Trondheim, Norway"
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:18
 msgid "https://orcid.org/0000-0002-7535-9574[Frode Fossøy], mailto:Frode.Fossoy@nina.no[Frode.Fossoy@nina.no], Norwegian institute for nature research (NINA), P.O. Box 5685 Torgarden, NO-7485 Trondheim, Norway"
-msgstr "https://orcid.org/0000-0002-7535-9574[Frode Fossøy], mailto:Frode.Fossoy@nina.no[Frode.Fossoy@nina.no], Norwegian institute for nature research (NINA), P.O. Box 5685 Torgarden, NO-7485 Trondheim, Norway"
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:19
 msgid "https://orcid.org/0000-0002-2685-8078[Marie Grosjean], mailto:mgrosjean@gbif.org[mgrosjean@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr "https://orcid.org/0000-0002-2685-8078[Marie Grosjean], mailto:mgrosjean@gbif.org[mgrosjean@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:20
 msgid "https://orcid.org/0000-0002-4827-3310[Michael Hope], mailto:Michael.Hope@csiro.au[Michael.Hope@csiro.au], Atlas of Living Australia, CSIRO National Collections & Marine Infrastructure, GPO Box 1700, Canberra ACT 2601, Australia."
-msgstr "https://orcid.org/0000-0002-4827-3310[Michael Hope], mailto:Michael.Hope@csiro.au[Michael.Hope@csiro.au], Atlas of Living Australia, CSIRO National Collections & Marine Infrastructure, GPO Box 1700, Canberra ACT 2601, Australia."
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:21
 msgid "https://orcid.org/0000-0003-1691-239X[Thomas S. Jeppesen], mailto:tsjeppesene@gbif.org[tsjeppesene@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr "https://orcid.org/0000-0003-1691-239X[Thomas S. Jeppesen], mailto:tsjeppesene@gbif.org[tsjeppesene@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:22
 msgid "https://orcid.org/0000-0002-5171-1668[Urmas Kõljalg], mailto:urmas.koljalg@ut.ee[urmas.koljalg@ut.ee], Natural History Museum and Botanical Garden, University of Tartu, 46 Vanemuise Street, 51003 Tartu, Estonia."
-msgstr "https://orcid.org/0000-0002-5171-1668[Urmas Kõljalg], mailto:urmas.koljalg@ut.ee[urmas.koljalg@ut.ee], Natural History Museum and Botanical Garden, University of Tartu, 46 Vanemuise Street, 51003 Tartu, Estonia."
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:23
 msgid "https://orcid.org/0000-0002-8779-6464[Daniel Lundin], mailto:daniel.lundin@lnu.se[daniel.lundin@lnu.se], Centre for Ecology and Evolution in Microbial model Systems - EEMiS, Linnaeus University, SE-39182 Kalmar, Sweden"
-msgstr "https://orcid.org/0000-0002-8779-6464[Daniel Lundin], mailto:daniel.lundin@lnu.se[daniel.lundin@lnu.se], Centre for Ecology and Evolution in Microbial model Systems - EEMiS, Linnaeus University, SE-39182 Kalmar, Sweden"
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:24
 msgid "https://orcid.org/0000-0002-8052-0107[R. Henrik Nilsson], mailto:henrik.nilsson@bioenv.gu.se[henrik.nilsson@bioenv.gu.se], University of Gothenburg, Department of Biological and Environmental Sciences, Box 461, 405 30 Göteborg, Sweden"
-msgstr "https://orcid.org/0000-0002-8052-0107[R. Henrik Nilsson], mailto:henrik.nilsson@bioenv.gu.se[henrik.nilsson@bioenv.gu.se], University of Gothenburg, Department of Biological and Environmental Sciences, Box 461, 405 30 Göteborg, Sweden"
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:25
 msgid "https://orcid.org/0000-0003-4897-8422[Maria Prager], mailto:maria.prager@scilifelab.se[maria.prager@scilifelab.se], Science for Life Laboratory, Department of Ecology, Environment and Plant Sciences, Stockholm University; Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet"
-msgstr "https://orcid.org/0000-0003-4897-8422[Maria Prager], mailto:maria.prager@scilifelab.se[maria.prager@scilifelab.se], Science for Life Laboratory, Department of Ecology, Environment and Plant Sciences, Stockholm University; Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet"
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:26
 msgid "https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen], mailto:cssvenningsen@snm.ku.dk[cssvenningsen@snm.ku.dk], Natural History Museum of Denmark, University of Copenhagen, Øster Voldgade 5-7, 1350 Copenhagen, Denmark"
-msgstr "https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen], mailto:cssvenningsen@snm.ku.dk[cssvenningsen@snm.ku.dk], Natural History Museum of Denmark, University of Copenhagen, Øster Voldgade 5-7, 1350 Copenhagen, Denmark"
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:27
 msgid "https://orcid.org/0000-0002-2919-1168[Dmitry Schigel], mailto:dschigel@gbif.org[dschigel@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr "https://orcid.org/0000-0002-2919-1168[Dmitry Schigel], mailto:dschigel@gbif.org[dschigel@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
+msgstr ""
 
 #. type: Title ===
 #: colophon.en.adoc:28
 #, no-wrap
 msgid "Contributors"
-msgstr "貢獻者"
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:31
 msgid "Valuable discussions with members of ELIXIR, iBOL, GGBN, GLOMICON, and OBIS networks contributed to compilation of this draft. We are especially grateful for inputs and encouragement from Kessy Abarenkov, Andrew Bentley, Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, Gabriele Dröge, Torbjørn Ekrem, Tobias Guldberg Frøslev, Birgit Gemeinholzer, Quentin Groom, Tim Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris Mungall, Daniel Noesgaard, Corinna Paeper, Pieter Provoost, Tim Robertson, Saara Suominen, Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger who have contributed to the GBIF community review process."
-msgstr "促成本草稿的彙編來自與 ELIXIR、iBOL、GGBN、GLOMICON 和 OBIS 成員的珍貴討論。 我們特別感謝 Kessy Abarenkov、Andrew Bentley、Matt Blissett、Pier Luigi Buttigieg、Kyle Copas、Camila A. Plata Corredor、Gabriele Dröge、Torbjørn Ekrem、Tobias Guldberg Frøslev、Birgit Gemeinholzer、Quentin Groom、Tim Hirsch、Donald Hobern、Hamish Holewa、Corinne Martin、Raissa Meyer、Chris Mungall、Daniel Noesgaard、Corinna Paeper、Pieter Provoost、Tim Robertson、Saara Suominen、Maxime Sweetlove、Andrew Young、John Waller、Ramona Walls、John Wieczorek、Lucie Zinger 在 GBIF 社群審查過程給予的貢獻和鼓勵。"
+msgstr ""
 
 #. type: Title ===
 #: colophon.en.adoc:32
 #, no-wrap
 msgid "License"
-msgstr "授權"
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:36
 msgid "The document _Publishing DNA-derived data through biodiversity data platforms_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License]."
-msgstr "此文件 _通過生物多樣性資訊平台發布 DNA 衍生資料_ 授權於 https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License]."
+msgstr ""
 
 #. type: Title ===
 #: colophon.en.adoc:37
 #, no-wrap
 msgid "Persistent URI"
-msgstr "永久連結"
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:40
 msgid "https://doi.org/10.35035/doc-vf1a-nr22"
-msgstr "https://doi.org/10.35035/doc-vf1a-nr22"
+msgstr ""
 
 #. type: Title ===
 #: colophon.en.adoc:41
 #, no-wrap
 msgid "Document control"
-msgstr "文件版控"
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:44
 msgid "Version 1.0.1 released on 27 March 2022."
-msgstr "版本 1.0.1 於 2022年 3月 27日發布"
+msgstr ""
 
 #. type: Title ===
 #: colophon.en.adoc:45
 #, no-wrap
 msgid "Abstract"
-msgstr "摘要"
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:48
 msgid "When genetic information is used to describe or classify a taxon, most users will foresee its use in the context of molecular ecology or phylogenetic research. It is important to realize that a sequence with coordinates and a timestamp is a valuable biodiversity occurrence which is useful in a much broader context than its original purpose. To realize this potential, DNA-derived data needs to be discoverable through biodiversity data platforms. This guide will teach you the principles and approaches of exposing “sequences with dates and coordinates” in the context of broader biodiversity data. The guide covers choices of particular schemas and terms, common pitfalls and good practice, without going into platform-specific details. It will benefit anyone interested in better exposure of DNA-derived data through general biodiversity data platforms, including national biodiversity portals."
-msgstr "使用基因資訊來描述或鑑定物種分類群時，大多使用者會預設該資料會使用在分子生物或演化學的研究上。然而，同時擁有座標與時間標記的基因序列是一個有價值的生物多樣性出現紀錄，在比其最初目的更廣泛的有用。為了實現這一潛力，DNA 衍生資料需要可以在生物多樣性資訊的平台上被發現。這份教學文件將帶領您了解公開 “帶有時間標記與座標的序列” 的生物多樣性資訊的原則與方法。此文件涵蓋了特定的概要和術語、常見問題與良好的操作方式、且不討論各平台的細節。它將受益於任何對使用各生物多樣性資訊平台（包括國家級生物多樣性入口網站）有興趣的人更好地公開 DNA 衍生資料。"
+msgstr ""
 
 #. type: Title ===
 #: colophon.en.adoc:49
 #, no-wrap
 msgid "Cover image"
-msgstr "封面圖片"
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:51
 msgid "Velvet shank (_Flammulina velutipes_), Kursk, Russian Federation. Photo 2020 Oleg Ryzhkov via https://www.gbif.org/occurrence/2550027893[iNaturalist research-grade observations], licensed under http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0]."
-msgstr "金針菇 (_Flammulina velutipes_)，Oleg Ryzhkov 2020 年攝於俄羅斯庫斯克州，圖源自 https://www.gbif.org/occurrence/2550027893[iNaturalist research-grade observations]，創用 http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0] 授權."
+msgstr ""
 
 #. type: Title ==
 #: preface.en.adoc:2
 #, no-wrap
 msgid "Preface"
-msgstr "前言"
+msgstr ""
 
 #. type: Plain text
 #: preface.en.adoc:5
 msgid "The work on this guide started from discussions at the https://biss.pensoft.net/collection/115/[biodiversity_next conference] in 2019 consolidating inputs from various resources, such as:"
-msgstr "此指南的準備工作始於 2019 年在 https://biss.pensoft.net/collection/115/[biodiversity_next conference] 研討會上整合各種面向的討論，例如："
+msgstr ""
 
 #. type: Plain text
 #: preface.en.adoc:7
 msgid "https://docs.google.com/document/d/1xtgNwxp3Lek8hqFOBWPa8nCFLEc1S6YrYg1y_HLe5I4/edit?usp=sharing[Final Report on Environomics Future Science Platform Project]"
-msgstr "https://docs.google.com/document/d/1xtgNwxp3Lek8hqFOBWPa8nCFLEc1S6YrYg1y_HLe5I4/edit?usp=sharing[未來科學平台環境經濟學項目最終報告]"
+msgstr ""
 
 #. type: Plain text
 #: preface.en.adoc:8
 msgid "https://www.ala.org.au/blogs-news/edna-records-now-available-on-ala[ALA blog post eDNA records now available on ALA]"
-msgstr "https://www.ala.org.au/blogs-news/edna-records-now-available-on-ala[部落格文章關於 Atlas of Living Australia 現在包括 eDNA 記錄]"
+msgstr ""
 
 #. type: Plain text
 #: preface.en.adoc:9
 msgid "https://www.ala.org.au/environmentaldna[Environmental DNA (eDNA) in the ALA]"
-msgstr "https://www.ala.org.au/environmentaldna[ALA 裡的環境DNA (eDNA)]"
+msgstr ""
 
 #. type: Plain text
 #: preface.en.adoc:10
 msgid "https://www.ala.org.au/app/uploads/2019/04/Simple-template-for-eDNA-data-entry-to-ALA-v2-1.xlsx[ALA eDNA data template]"
-msgstr "https://www.ala.org.au/app/uploads/2019/04/Simple-template-for-eDNA-data-entry-to-ALA-v2-1.xlsx[ALA eDNA 資料模板]"
+msgstr ""
 
 #. type: Plain text
 #: preface.en.adoc:11
 msgid "https://www.miljodirektoratet.no/globalassets/publikasjoner/m1638/m1638.pdf?fbclid=IwAR08bK8C15ebZoGjUmxPgGz364WgFnDq9uT4CKR6aDHR1sUcOfhu7AYO69M[Norwegian Criteria for depositing eDNA samples and data, including vouchered specimens]"
-msgstr "https://www.miljodirektoratet.no/globalassets/publikasjoner/m1638/m1638.pdf?fbclid=IwAR08bK8C15ebZoGjUmxPgGz364WgFnDq9uT4CKR6aDHR1sUcOfhu7AYO69M[挪威寄存 eDNA 樣本與資料，包括憑證標本的標準]"
+msgstr ""
 
 #. type: Plain text
 #: preface.en.adoc:12
 msgid "https://biodiversitydata-se.github.io/mol-data[Molecular biodiversity data in SBDI, Sweden]"
-msgstr "https://biodiversitydata-se.github.io/mol-data[瑞典生物多樣性資訊建設的分子生物多樣性資料]"
+msgstr ""
 
 #. type: Plain text
 #: preface.en.adoc:13
 msgid "https://www.gbif.org/faq?question=how-can-i-publish-molecular-data-to-gbif[GBIF resources (How) can I publish molecular/sequence/DNA based data to GBIF?]"
-msgstr "https://www.gbif.org/faq?question=how-can-i-publish-molecular-data-to-gbif[GBIF 資源 (如何) 發布分子/序列/DNA 資料到 GBIF?]"
+msgstr ""
 
 #. type: Plain text
 #: preface.en.adoc:14
 msgid "https://data-blog.gbif.org/post/gbif-molecular-data[Molecular data in GBIF]"
-msgstr "https://data-blog.gbif.org/post/gbif-molecular-data[GBIF分子資料]"
+msgstr ""
 
 #. type: Plain text
 #: preface.en.adoc:15
 msgid "https://www.gbif.org/publishing-data[GBIF quick guide to publishing data and detailed guides to publishing data]"
-msgstr "https://www.gbif.org/publishing-data[GBIF 發布資料的簡略和詳細指南]"
+msgstr ""
 
 #. type: Plain text
 #: preface.en.adoc:16
 msgid "https://github.com/gbif/ipt/wiki/howToPublish#instructions[How to publish data to GBIF], as well as DwC/extension field overview."
-msgstr "https://github.com/gbif/ipt/wiki/howToPublish#instructions[如何發布資料到GBIF]，以及 DwC/衍生檔的欄位概述。"
+msgstr ""
 
 #. type: Plain text
 #: preface.en.adoc:16
 msgid "https://github.com/tdwg/gbwg[Genomic Biodiversity Interest Group]"
-msgstr "https://github.com/tdwg/gbwg[基因組生物多樣性工作小組]"
+msgstr ""
 
 #. type: Title ==
 #: 100.en.adoc:1
 #, no-wrap
 msgid "Introduction "
-msgstr "簡介 "
+msgstr ""
 
 #. type: Title ===
 #: 100.en.adoc:3
 #, no-wrap
 msgid "Rationale"
-msgstr "理由基礎"
+msgstr ""
 
 #. type: Plain text
 #: 100.en.adoc:6
@@ -294,7 +294,7 @@ msgstr ""
 #: 100.en.adoc:15
 #, no-wrap
 msgid "Target audiences"
-msgstr "目標受眾"
+msgstr ""
 
 #. type: Plain text
 #: 100.en.adoc:18
@@ -316,13 +316,13 @@ msgstr ""
 #: 100.en.adoc:24
 #, no-wrap
 msgid "img/print/sequence-publishing-guide.en.png"
-msgstr "img/print/sequence-publishing-guide.en.png"
+msgstr ""
 
 #. type: Target for macro image
 #: 100.en.adoc:27
 #, no-wrap
 msgid "img/web/sequence-publishing-guide.en.svg"
-msgstr "img/web/sequence-publishing-guide.en.svg"
+msgstr ""
 
 #. type: Plain text
 #: 100.en.adoc:31
@@ -333,7 +333,7 @@ msgstr ""
 #: 100.en.adoc:32
 #, no-wrap
 msgid "Introduction to DNA-derived occurrence data"
-msgstr "DNA 衍生出現資料的簡介"
+msgstr ""
 
 #. type: Plain text
 #: 100.en.adoc:35
@@ -361,13 +361,13 @@ msgstr ""
 #: 100.en.adoc:43
 #, no-wrap
 msgid "img/print/sampling-processes.en.png"
-msgstr "img/print/sampling-processes.en.png"
+msgstr ""
 
 #. type: Target for macro image
 #: 100.en.adoc:46
 #, no-wrap
 msgid "img/web/sampling-processes.en.svg"
-msgstr "img/web/sampling-processes.en.svg"
+msgstr ""
 
 #. type: Plain text
 #: 100.en.adoc:50
@@ -497,13 +497,13 @@ msgstr ""
 #: 100.en.adoc:99
 #, no-wrap
 msgid "img/print/outline-of-bioinformatic-processing.en.png"
-msgstr "img/print/outline-of-bioinformatic-processing.en.png"
+msgstr ""
 
 #. type: Target for macro image
 #: 100.en.adoc:102
 #, no-wrap
 msgid "img/web/outline-of-bioinformatic-processing.en.svg"
-msgstr "img/web/outline-of-bioinformatic-processing.en.svg"
+msgstr ""
 
 #. type: Plain text
 #: 100.en.adoc:106
@@ -641,13 +641,13 @@ msgstr ""
 #: 200.en.adoc:12
 #, no-wrap
 msgid "img/print/dwca-structure.en.png"
-msgstr "img/print/dwca-structure.en.png"
+msgstr ""
 
 #. type: Target for macro image
 #: 200.en.adoc:15
 #, no-wrap
 msgid "img/web/ct/dwca-structure.en.svg"
-msgstr "img/web/ct/dwca-structure.en.svg"
+msgstr ""
 
 #. type: Title ===
 #: 200.en.adoc:18
@@ -751,7 +751,7 @@ msgstr ""
 #: 200.en.adoc:71
 #, no-wrap
 msgid "img/web/ct/eDNA-categories.en.svg"
-msgstr "img/web/ct/eDNA-categories.en.svg"
+msgstr ""
 
 #. type: Title ====
 #: 200.en.adoc:74
@@ -870,7 +870,7 @@ msgstr ""
 #: 200.en.adoc:116
 #, no-wrap
 msgid "img/web/otus-from-unite.en.png"
-msgstr "img/web/otus-from-unite.en.png"
+msgstr ""
 
 #. type: Title =====
 #: 200.en.adoc:118
