@@ -183,7 +183,7 @@ This section provides mapping recommendations for Categories I and II.
 
 | term:dwc[organismQuantity]
 | 33
-| Number of reads of this sequence variant in the sample
+| Number of reads of this OTU or ASV in the sample.
 | Highly recommended
 
 | term:dwc[organismQuantityType]
@@ -193,7 +193,7 @@ This section provides mapping recommendations for Categories I and II.
 
 | term:dwc[sampleSizeValue]
 | 1233890
-| Total number of reads in the sample. This is important since it allows calculating the relative abundance of the sequence variant within the sample. This number should preferably be calculated after universal processing (quality control, ASV denoising, chimera removal, etc.), but before manual/selective removal of e.g. non-target OTUs or ASVs from the dataset.
+| Total number of reads in the sample. This is important since it allows calculating the relative abundance of each OTU or ASV within the sample. This number should preferably be calculated after universal processing (quality control, ASV denoising, chimera removal, etc.), but before manual/selective removal of e.g. non-target OTUs or ASVs from the dataset. Rarefaction (resampling to even sequencing depth across samples) is not necessary (or adviced).
 | Highly recommended
 
 | term:dwc[sampleSizeUnit]
