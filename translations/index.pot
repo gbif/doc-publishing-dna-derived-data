@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-11 13:12+0000\n"
+"POT-Creation-Date: 2023-05-11 13:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2781,9 +2781,8 @@ msgstr ""
 #: 200.en.adoc:776
 #, no-wrap
 msgid ""
-"Required and recommended fields and values specifically for Marine datasets "
-"intended for publishing in OBIS for fully unclassified sequences (sequences "
-"that cannot be assigned to any known taxon).  "
+"Required fields and values for fully unclassified sequences for marine "
+"datasets intended for publishing in OBIS.  "
 msgstr ""
 
 #. type: Table
