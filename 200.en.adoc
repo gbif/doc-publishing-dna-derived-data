@@ -746,27 +746,27 @@ Another required field in OBIS data submissions are geographic coordinates. OBIS
 | Description
 | Required
 
-| decimalLatitude
+| term:dwc[decimalLatitude]
 | see above
 | see above
 | required
 
-| decimalLongitude
+| term:dwc[decimalLongitude]
 | see above
 | see above
 | required
 
-| scientificName
+| term:dwc[scientificName]
 | Balaenoptera musculus
 | Scientific name according to WoRMS database (only) 
 | Required.
 
-| taxonConceptID
+| term:dwc[taxonConceptID]
 | NCBI:txid1899546
 | Identifiers from the used reference databases (e.g. Barcode index numbers: BINs from BOLD)
 | recommended
 
-| identificationRemarks
+| term:dwc[identificationRemarks]
 | phototrophic eukaryote
 | --
 | Highly recommended
@@ -782,13 +782,13 @@ Another required field in OBIS data submissions are geographic coordinates. OBIS
 | Description
 | Required (for unclassified sequences)
 
-| scientificName
+| term:dwc[scientificName]
 | Incertae sedis
 | Incertae sedis (Latin for 'of uncertain placement') is used to be able to index unclassifyable sequences  
 | Required (for unclassified sequences)
 
-| scientificNameID
+| term:dwc[scientificNameID]
 | urn:lsid:marinespecies.org:taxname:12
-| ID of the incertae sedis "taxon" in WoRMS database 
+| ID of the incertae sedis in WoRMS database 
 | Required (for unclassified sequences)
 |===
