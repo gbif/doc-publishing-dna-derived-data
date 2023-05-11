@@ -40,7 +40,7 @@ https://doi.org/10.35035/doc-vf1a-nr22
 
 === Document control
 
-Version 1.0.1 released on 27 March 2022.
+Version 1.2.1 released on 8 Aug 2022.
 
 === Abstract
 
