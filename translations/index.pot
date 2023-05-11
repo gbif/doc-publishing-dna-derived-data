@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-10 10:50+0000\n"
+"POT-Creation-Date: 2023-05-11 06:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgid "Publishing DNA-derived data through biodiversity data platforms"
 msgstr ""
 
 #. type: Plain text
-#: index.en.adoc:34
+#: index.en.adoc:36
 msgid "languageLinks:combined[]"
 msgstr ""
 
@@ -48,10 +48,10 @@ msgstr ""
 #. type: Plain text
 #: colophon.en.adoc:11
 msgid ""
-"Andersson AF, Bissett A, Finstad AG, Fossøy F, Frøslev TG, Grosjean M, Hope "
-"M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Svenningsen C, "
-"Schigel D & Suominen S (2021) Publishing DNA-derived data through "
-"biodiversity data platforms. v1.0 Copenhagen: GBIF "
+"Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen "
+"TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Svenningsen C, Schigel D, "
+"Suominen S & Frøslev TG (2023) Publishing DNA-derived data through "
+"biodiversity data platforms. v1.3 Copenhagen: GBIF "
 "Secretariat. https://doi.org/10.35035/doc-vf1a-nr22."
 msgstr ""
 
@@ -98,21 +98,13 @@ msgstr ""
 #. type: Plain text
 #: colophon.en.adoc:19
 msgid ""
-"https://orcid.org/0000-0002-3530-013X[Tobias G. Frøslev], "
-"mailto:tfroeslev@gbif.org[tfroeslev@gbif.org], Global Biodiversity "
-"Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr ""
-
-#. type: Plain text
-#: colophon.en.adoc:20
-msgid ""
 "https://orcid.org/0000-0002-2685-8078[Marie Grosjean], "
 "mailto:mgrosjean@gbif.org[mgrosjean@gbif.org], Global Biodiversity "
 "Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:21
+#: colophon.en.adoc:20
 msgid ""
 "https://orcid.org/0000-0002-4827-3310[Michael Hope], "
 "mailto:Michael.Hope@ga.gov.au[Michael.Hope@ga.gov.au], Atlas of Living "
@@ -121,7 +113,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:22
+#: colophon.en.adoc:21
 msgid ""
 "https://orcid.org/0000-0003-1691-239X[Thomas S. Jeppesen], "
 "mailto:tsjeppesen@gbif.org[tsjeppesen@gbif.org], Global Biodiversity "
@@ -129,7 +121,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:23
+#: colophon.en.adoc:22
 msgid ""
 "https://orcid.org/0000-0002-5171-1668[Urmas Kõljalg], "
 "mailto:urmas.koljalg@ut.ee[urmas.koljalg@ut.ee], Natural History Museum and "
@@ -138,7 +130,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:24
+#: colophon.en.adoc:23
 msgid ""
 "https://orcid.org/0000-0002-8779-6464[Daniel Lundin], "
 "mailto:daniel.lundin@lnu.se[daniel.lundin@lnu.se], Centre for Ecology and "
@@ -147,7 +139,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:25
+#: colophon.en.adoc:24
 msgid ""
 "https://orcid.org/0000-0002-8052-0107[R. Henrik Nilsson], "
 "mailto:henrik.nilsson@bioenv.gu.se[henrik.nilsson@bioenv.gu.se], University "
@@ -156,7 +148,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:26
+#: colophon.en.adoc:25
 msgid ""
 "https://orcid.org/0000-0003-4897-8422[Maria Prager], "
 "mailto:maria.prager@scilifelab.se[maria.prager@scilifelab.se], Science for "
@@ -166,15 +158,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:27
-msgid ""
-"https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen], "
-"mailto:csvenningsen@gbif.org[csvenningsen@gbif.org], Global Biodiversity "
-"Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr ""
-
-#. type: Plain text
-#: colophon.en.adoc:28
+#: colophon.en.adoc:26
 msgid ""
 "https://orcid.org/0000-0002-2919-1168[Dmitry Schigel], "
 "mailto:dschigel@gbif.org[dschigel@gbif.org], Global Biodiversity Information "
@@ -182,11 +166,27 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:29
+#: colophon.en.adoc:27
 msgid ""
 "https://orcid.org/0000-0002-2919-1168[Saara Suominen], "
 "mailto:s.suominen@unesco.org[s.suominen@unesco.org], OBIS (Ocean "
 "biodiversity information system), Jacobsenstraat 1, 8400 Oostende, Belgium"
+msgstr ""
+
+#. type: Plain text
+#: colophon.en.adoc:28
+msgid ""
+"https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen], "
+"mailto:csvenningsen@gbif.org[csvenningsen@gbif.org], Global Biodiversity "
+"Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
+msgstr ""
+
+#. type: Plain text
+#: colophon.en.adoc:29
+msgid ""
+"https://orcid.org/0000-0002-3530-013X[Tobias Guldberg Frøslev], "
+"mailto:tfroeslev@gbif.org[tfroeslev@gbif.org], Global Biodiversity "
+"Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
 msgstr ""
 
 #. type: Title ===
@@ -243,7 +243,10 @@ msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:46
-msgid "Version 1.1.0 released on XXX."
+msgid ""
+"Version 1.2.0 released on XXX. This version has an added paragraph on Marine "
+"datasets and the Ocean Biodiversity Information System (OBIS), and some "
+"minor text edits throughout the document."
 msgstr ""
 
 #. type: Title ===
