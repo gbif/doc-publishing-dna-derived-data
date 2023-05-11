@@ -747,27 +747,27 @@ Another required field in OBIS data submissions are geographic coordinates. OBIS
 | Required
 
 | term:dwc[decimalLatitude]
-| see above
-| see above
-| required
+| See above
+| See above
+| Required
 
 | term:dwc[decimalLongitude]
-| see above
-| see above
-| required
+| See above
+| See above
+| Required
 
 | term:dwc[scientificName]
 | Balaenoptera musculus
 | Scientific name according to WoRMS database (only) 
-| Required.
+| Required
 
 | term:dwc[taxonConceptID]
 | NCBI:txid1899546
 | Identifiers from the used reference databases (e.g. Barcode index numbers: BINs from BOLD)
-| recommended
+| Recommended
 
 | term:dwc[identificationRemarks]
-| phototrophic eukaryote
+| Phototrophic eukaryote
 | --
 | Highly recommended
 |===
