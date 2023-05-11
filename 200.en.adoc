@@ -763,7 +763,7 @@ Another required field in OBIS data submissions are geographic coordinates. OBIS
 
 | term:dwc[taxonConceptID]
 | NCBI:txid1899546
-| Identifiers from the used reference databases (e.g. Barcode index numbers: BINs from BOLD)
+| An identifier for external ID. E.g. links to external IDs like BIN-IDs or NCBI taxon-IDs. 
 | Recommended
 
 | term:dwc[identificationRemarks]
