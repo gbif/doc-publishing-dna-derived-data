@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-11 07:22+0000\n"
+"POT-Creation-Date: 2023-05-11 12:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -169,8 +169,8 @@ msgstr ""
 #: colophon.en.adoc:27
 msgid ""
 "https://orcid.org/0000-0002-2919-1168[Saara Suominen], "
-"mailto:s.suominen@unesco.org[s.suominen@unesco.org], OBIS (Ocean "
-"biodiversity information system), Jacobsenstraat 1, 8400 Oostende, Belgium"
+"mailto:s.suominen@unesco.org[s.suominen@unesco.org], Ocean biodiversity "
+"information system, Jacobsenstraat 1, 8400 Oostende, Belgium"
 msgstr ""
 
 #. type: Plain text
@@ -2742,7 +2742,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 200.en.adoc:775
+#: 200.en.adoc:773
 #, no-wrap
 msgid ""
 "| Field name\n"
@@ -2760,23 +2760,51 @@ msgid ""
 "| see above\n"
 "| required\n"
 "\n"
+"| scientificName\n"
+"| Balaenoptera musculus\n"
+"| Scientific name according to WoRMS database (only) \n"
+"| Required.\n"
+"\n"
+"| taxonConceptID\n"
+"| NCBI:txid1899546\n"
+"| Identifiers from the used reference databases (e.g. Barcode index numbers: "
+"BINs from BOLD)\n"
+"| recommended\n"
 "\n"
 "| identificationRemarks\n"
 "| phototrophic eukaryote\n"
-"| \n"
+"| --\n"
 "| Highly recommended\n"
+msgstr ""
+
+#. type: Block title
+#: 200.en.adoc:776
+#, no-wrap
+msgid ""
+"Required and recommended fields and values specifically for Marine datasets "
+"intended for publishing in OBIS for fully unclassified sequences (sequences "
+"that cannot be assigned to any known taxon).  "
+msgstr ""
+
+#. type: Table
+#: 200.en.adoc:794
+#, no-wrap
+msgid ""
+"| Field name\n"
+"| Value/example\n"
+"| Description\n"
+"| Required (for unclassified sequences)\n"
 "\n"
 "| scientificName\n"
-"| incertae sedis\n"
-"| Scientific name according to WoRMS database \n"
-"| Required. Use \"incertae sedis\" for sequences that cannot be "
-"classified.\n"
+"| Incertae sedis\n"
+"| Incertae sedis (Latin for 'of uncertain placement') is used to be able to "
+"index unclassifyable sequences  \n"
+"| Required (for unclassified sequences)\n"
 "\n"
 "| scientificNameID\n"
 "| urn:lsid:marinespecies.org:taxname:12\n"
-"| ID of the taxon in WoRMS database \n"
-"| Highly recommended\n"
-"\n"
+"| ID of the incertae sedis \"taxon\" in WoRMS database \n"
+"| Required (for unclassified sequences)\n"
 msgstr ""
 
 #. type: Title ==
