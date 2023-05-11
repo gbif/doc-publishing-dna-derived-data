@@ -773,7 +773,7 @@ Another required field in OBIS data submissions are geographic coordinates. OBIS
 |===
 
 [[table-06]]
-.Required fields and values for fully unclassified sequences for Marine datasets intended for publishing in OBIS.  
+.Required fields and values for fully unclassified sequences for marine datasets intended for publishing in OBIS.  
 [cols="1,1,4,1",options="header"]
 
 |===
