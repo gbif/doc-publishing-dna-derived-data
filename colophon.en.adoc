@@ -23,7 +23,7 @@ Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS,
 * https://orcid.org/0000-0002-8052-0107[R. Henrik Nilsson], mailto:henrik.nilsson@bioenv.gu.se[henrik.nilsson@bioenv.gu.se], University of Gothenburg, Department of Biological and Environmental Sciences, Box 461, 405 30 Göteborg, Sweden
 * https://orcid.org/0000-0003-4897-8422[Maria Prager], mailto:maria.prager@scilifelab.se[maria.prager@scilifelab.se], Science for Life Laboratory, Department of Ecology, Environment and Plant Sciences, Stockholm University; Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet
 * https://orcid.org/0000-0002-2919-1168[Dmitry Schigel], mailto:dschigel@gbif.org[dschigel@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark
-* https://orcid.org/0000-0002-2919-1168[Saara Suominen], mailto:s.suominen@unesco.org[s.suominen@unesco.org], OBIS (Ocean biodiversity information system), Jacobsenstraat 1, 8400 Oostende, Belgium
+* https://orcid.org/0000-0002-2919-1168[Saara Suominen], mailto:s.suominen@unesco.org[s.suominen@unesco.org], Ocean biodiversity information system, Jacobsenstraat 1, 8400 Oostende, Belgium
 * https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen], mailto:csvenningsen@gbif.org[csvenningsen@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark
 * https://orcid.org/0000-0002-3530-013X[Tobias Guldberg Frøslev], mailto:tfroeslev@gbif.org[tfroeslev@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark
 
