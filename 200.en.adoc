@@ -738,57 +738,32 @@ To ensure consistent taxonomic nomenclature OBIS uses the World Register of Mari
 Another required field in OBIS data submissions are geographic coordinates. OBIS performs additional quality checks related to marine data; e.g. that coordinates for strictly marine species are not on land, and that the depth value reported is in a reasonable range. Finally, it should be mentioned that in addition OBIS supports the use of the http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]. This extension allows linking environmental data and sampling facts to sampling events or occurrences, as well as biological measurements to occurrences in a flexible and standardized manner. OBIS has an example eDNA metabarcoding dataset with scripts for data formatting available at https://github.com/iobis/dataset-edna 
 
 [[table-05]]
-.Required and recommended fields and values specifically for Marine datasets intended for publishing in OBIS. These fields are meant to be included/modified when dealing specifically with marine data for publication through OBIS. 
+.OBIS requirements and recommendation for recording sequences that cannot be classified or sequences classified to a taxonomic name without relevant WoRMS ID. 
 [cols="1,1,4,1",options="header"]
 |===
 | Field name
-| Value/example
+| Value (OBIS)
 | Description
 | Required
 
-| term:dwc[decimalLatitude]
-| See above
-| See above
-| Required
-
-| term:dwc[decimalLongitude]
-| See above
-| See above
-| Required
-
 | term:dwc[scientificName]
-| Balaenoptera musculus
-| Scientific name according to WoRMS database (only) 
+| incertae sedis
+| The scientific name as per the WoRMS database for unknown sequences recommended by OBIS. Use this name when the sequence/taxonomy is unknown. This differs from GBIF, where it is recommended to use the taxon name as retrieved from the classifier
+| Required
+
+| term:dwc[scientificNameID]
+| urn:lsid:marinespecies.org:taxname:12
+| The scientific name ID on "incertae sedis" as per the WoRMS database for unknown sequences recommended by OBIS. Use this ID when the sequence/taxonomy is unknown
 | Required
 
 | term:dwc[taxonConceptID]
 | NCBI:txid1899546
-| An identifier for external ID. E.g. links to external IDs like BIN-IDs or NCBI taxon-IDs. 
+| The possible ID in an external tax database, like a sequence database for example 
 | Recommended
 
 | term:dwc[identificationRemarks]
 | Phototrophic eukaryote
-| --
-| Highly recommended
+| The name of the taxon in an external database linked to the taxonConcept ID
+| Recommended
 |===
 
-[[table-06]]
-.Required fields and values for fully unclassified sequences for marine datasets intended for publishing in OBIS.  
-[cols="1,1,4,1",options="header"]
-
-|===
-| Field name
-| Value/example
-| Description
-| Required (for unclassified sequences)
-
-| term:dwc[scientificName]
-| Incertae sedis
-| Incertae sedis (Latin for 'of uncertain placement') is used to be able to index unclassifyable sequences  
-| Required (for unclassified sequences)
-
-| term:dwc[scientificNameID]
-| urn:lsid:marinespecies.org:taxname:12
-| ID of the incertae sedis in WoRMS database 
-| Required (for unclassified sequences)
-|===
