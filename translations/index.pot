@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-19 09:30+0000\n"
+"POT-Creation-Date: 2023-05-24 06:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2738,13 +2738,61 @@ msgstr ""
 #: 200.en.adoc:741
 #, no-wrap
 msgid ""
+"OBIS requirements and recommendation for recording dna-based "
+"occurrences. The table higlights important differences in fields values and "
+"requirements compared to when publishing to GBIF. Here exemplified with a "
+"dna detection of Blue whale (Balaenoptera musculus). "
+msgstr ""
+
+#. type: Plain text
+#: 200.en.adoc:747
+msgid "| Field name | Value/example (OBIS)  | Description | Required"
+msgstr ""
+
+#. type: Plain text
+#: 200.en.adoc:752
+msgid ""
+"| term:dwc[scientificName] | Balaenoptera musculus | Scientific name as per "
+"the WoRMS database. This differs from GBIF, where it is recommended to use "
+"the taxon name derived from the classification approach used | Required"
+msgstr ""
+
+#. type: Plain text
+#: 200.en.adoc:757
+msgid ""
+"| term:dwc[scientificNameID] | urn:lsid:marinespecies.org:taxname:137090 | "
+"The scientific name ID of \"Balaenoptera musculus\" as per the WoRMS "
+"database.  | Required (XXX only recommended in GBIF??)"
+msgstr ""
+
+#. type: Plain text
+#: 200.en.adoc:762
+msgid ""
+"| term:dwc[taxonConceptID] | NCBI:txid9771 | The NCBI ID linked to "
+"Balaenoptera musculus in the NCBI taxonomic database. Can also be a BIN-ID "
+"if BOLD was used for identification, or another ID from a different database "
+"| Recommended"
+msgstr ""
+
+#. type: Plain text
+#: 200.en.adoc:768
+msgid ""
+"| term:dwc[identificationRemarks] | Balaenoptera musculus | The scientific "
+"name given for this NCBI ID (Balaenoptera musculus) (or other id).  | "
+"Recommended |"
+msgstr ""
+
+#. type: Block title
+#: 200.en.adoc:771
+#, no-wrap
+msgid ""
 "OBIS requirements and recommendation for recording sequences that cannot be "
-"classified or sequences classified to a taxonomic name without relevant "
-"WoRMS ID. "
+"classified or sequences classified to a taxonomic name not included in "
+"WoRMS. "
 msgstr ""
 
 #. type: Table
-#: 200.en.adoc:768
+#: 200.en.adoc:799
 #, no-wrap
 msgid ""
 "| Field name\n"
@@ -2762,7 +2810,7 @@ msgid ""
 "\n"
 "| term:dwc[scientificNameID]\n"
 "| urn:lsid:marinespecies.org:taxname:12\n"
-"| The scientific name ID on \"incertae sedis\" as per the WoRMS database for "
+"| The scientific name ID of \"incertae sedis\" as per the WoRMS database for "
 "unknown sequences recommended by OBIS. Use this ID when the "
 "sequence/taxonomy is unknown\n"
 "| Required\n"
@@ -2778,6 +2826,7 @@ msgid ""
 "| The name of the taxon in an external database linked to the taxonConcept "
 "ID\n"
 "| Recommended\n"
+"\n"
 msgstr ""
 
 #. type: Title ==
