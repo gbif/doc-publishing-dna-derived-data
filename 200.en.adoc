@@ -738,7 +738,37 @@ To ensure consistent taxonomic nomenclature OBIS uses the World Register of Mari
 Another required field in OBIS data submissions are geographic coordinates. OBIS performs additional quality checks related to marine data; e.g. that coordinates for strictly marine species are not on land, and that the depth value reported is in a reasonable range. Finally, it should be mentioned that in addition OBIS supports the use of the http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]. This extension allows linking environmental data and sampling facts to sampling events or occurrences, as well as biological measurements to occurrences in a flexible and standardized manner. OBIS has an example eDNA metabarcoding dataset with scripts for data formatting available at https://github.com/iobis/dataset-edna 
 
 [[table-05]]
-.OBIS requirements and recommendation for recording sequences that cannot be classified or sequences classified to a taxonomic name without relevant WoRMS ID. 
+.OBIS requirements and recommendation for recording dna-based occurrences. The table higlights important differences in fields values and requirements compared to when publishing to GBIF. Here exemplified with a dna detection of Blue whale (Balaenoptera musculus). 
+[cols="1,1,4,1",options="header"]
+| Field name
+| Value/example (OBIS)
+| Description
+| Required
+
+| term:dwc[scientificName]
+| Balaenoptera musculus
+| Scientific name as per the WoRMS database. This differs from GBIF, where it is recommended to use the taxon name derived from the classification approach used
+| Required
+
+| term:dwc[scientificNameID]
+| urn:lsid:marinespecies.org:taxname:137090
+| The scientific name ID of "Balaenoptera musculus" as per the WoRMS database.
+| Required (XXX only recommended in GBIF??)
+
+| term:dwc[taxonConceptID]
+| NCBI:txid9771
+| The NCBI ID linked to Balaenoptera musculus in the NCBI taxonomic database. Can also be a BIN-ID if BOLD was used for identification, or another ID from a different database
+| Recommended
+
+| term:dwc[identificationRemarks]
+| Balaenoptera musculus
+| The scientific name given for this NCBI ID (Balaenoptera musculus) (or other id).
+| Recommended
+| 
+|===
+
+[[table-06]]
+.OBIS requirements and recommendation for recording sequences that cannot be classified or sequences classified to a taxonomic name not included in WoRMS. 
 [cols="1,1,4,1",options="header"]
 |===
 | Field name
@@ -753,7 +783,7 @@ Another required field in OBIS data submissions are geographic coordinates. OBIS
 
 | term:dwc[scientificNameID]
 | urn:lsid:marinespecies.org:taxname:12
-| The scientific name ID on "incertae sedis" as per the WoRMS database for unknown sequences recommended by OBIS. Use this ID when the sequence/taxonomy is unknown
+| The scientific name ID of "incertae sedis" as per the WoRMS database for unknown sequences recommended by OBIS. Use this ID when the sequence/taxonomy is unknown
 | Required
 
 | term:dwc[taxonConceptID]
@@ -765,5 +795,6 @@ Another required field in OBIS data submissions are geographic coordinates. OBIS
 | Phototrophic eukaryote
 | The name of the taxon in an external database linked to the taxonConcept ID
 | Recommended
+
 |===
 
