@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-24 12:49+0000\n"
+"POT-Creation-Date: 2023-05-24 14:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2791,7 +2791,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 200.en.adoc:800
+#: 200.en.adoc:799
 #, no-wrap
 msgid ""
 "| Field name\n"
@@ -2825,8 +2825,6 @@ msgid ""
 "| The name of the taxon in an external database linked to the taxonConcept "
 "ID\n"
 "| Recommended\n"
-"| ===\n"
-"\n"
 msgstr ""
 
 #. type: Title ==
