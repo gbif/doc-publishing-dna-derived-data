@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-24 07:49+0000\n"
+"POT-Creation-Date: 2023-05-24 08:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1901,7 +1901,7 @@ msgstr ""
 
 #. type: Plain text
 #: 200.en.adoc:145 200.en.adoc:288 200.en.adoc:394 200.en.adoc:514
-#: 200.en.adoc:731 glossary.en.adoc:55 bibliography.en.adoc:74
+#: 200.en.adoc:731 200.en.adoc:741 glossary.en.adoc:55 bibliography.en.adoc:74
 msgid "<<<"
 msgstr ""
 
@@ -2732,11 +2732,11 @@ msgid ""
 "data and sampling facts to sampling events or occurrences, as well as "
 "biological measurements to occurrences in a flexible and standardized "
 "manner. OBIS has an example eDNA metabarcoding dataset with scripts for data "
-"formatting available at https://github.com/iobis/dataset-edna"
+"formatting available at https://github.com/iobis/dataset-edna."
 msgstr ""
 
 #. type: Block title
-#: 200.en.adoc:741
+#: 200.en.adoc:742
 #, no-wrap
 msgid ""
 "OBIS requirements and recommendation for recording dna-based "
@@ -2745,46 +2745,44 @@ msgid ""
 "dna detection of Blue whale (Balaenoptera musculus). "
 msgstr ""
 
-#. type: Plain text
-#: 200.en.adoc:747
-msgid "| Field name | Value/example (OBIS)  | Description | Required"
-msgstr ""
-
-#. type: Plain text
-#: 200.en.adoc:752
+#. type: Table
+#: 200.en.adoc:769
+#, no-wrap
 msgid ""
-"| term:dwc[scientificName] | Balaenoptera musculus | Scientific name as per "
-"the WoRMS database. This differs from GBIF, where it is recommended to use "
-"the taxon name derived from the classification approach used | Required"
-msgstr ""
-
-#. type: Plain text
-#: 200.en.adoc:757
-msgid ""
-"| term:dwc[scientificNameID] | urn:lsid:marinespecies.org:taxname:137090 | "
-"The scientific name ID of \"Balaenoptera musculus\" as per the WoRMS "
-"database.  | Required (XXX only recommended in GBIF??)"
-msgstr ""
-
-#. type: Plain text
-#: 200.en.adoc:762
-msgid ""
-"| term:dwc[taxonConceptID] | NCBI:txid9771 | The NCBI ID linked to "
-"Balaenoptera musculus in the NCBI taxonomic database. Can also be a BIN-ID "
-"if BOLD was used for identification, or another ID from a different database "
-"| Recommended"
-msgstr ""
-
-#. type: Plain text
-#: 200.en.adoc:768
-msgid ""
-"| term:dwc[identificationRemarks] | Balaenoptera musculus | The scientific "
-"name given for this NCBI ID (Balaenoptera musculus) (or other id).  | "
-"Recommended |"
+"| Field name\n"
+"| Value/example (OBIS)\n"
+"| Description\n"
+"| Required\n"
+"\n"
+"| term:dwc[scientificName]\n"
+"| Balaenoptera musculus\n"
+"| Scientific name as per the WoRMS database. This differs from GBIF, where "
+"it is recommended to use the taxon name derived from the classification "
+"approach used\n"
+"| Required\n"
+"\n"
+"| term:dwc[scientificNameID]\n"
+"| urn:lsid:marinespecies.org:taxname:137090\n"
+"| The scientific name ID of \"Balaenoptera musculus\" as per the WoRMS "
+"database.\n"
+"| Required (XXX only recommended in GBIF??)\n"
+"\n"
+"| term:dwc[taxonConceptID]\n"
+"| NCBI:txid9771\n"
+"| The NCBI ID linked to Balaenoptera musculus in the NCBI taxonomic "
+"database. Can also be a BIN-ID if BOLD was used for identification, or "
+"another ID from a different database\n"
+"| Recommended\n"
+"\n"
+"| term:dwc[identificationRemarks]\n"
+"| Balaenoptera musculus\n"
+"| The scientific name given for this NCBI ID (Balaenoptera musculus) (or "
+"other id).\n"
+"| Recommended\n"
 msgstr ""
 
 #. type: Block title
-#: 200.en.adoc:771
+#: 200.en.adoc:772
 #, no-wrap
 msgid ""
 "OBIS requirements and recommendation for recording sequences that cannot be "
@@ -2793,7 +2791,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 200.en.adoc:799
+#: 200.en.adoc:800
 #, no-wrap
 msgid ""
 "| Field name\n"
@@ -2827,6 +2825,7 @@ msgid ""
 "| The name of the taxon in an external database linked to the taxonConcept "
 "ID\n"
 "| Recommended\n"
+"| ===\n"
 "\n"
 msgstr ""
 
