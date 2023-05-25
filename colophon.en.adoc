@@ -7,10 +7,11 @@ endif::backend-html5[]
 
 === Suggested citation
 
-Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Schigel D, Suominen S, Svenningsen C & Frøslev TG (2023) Publishing DNA-derived data through biodiversity data platforms. v1.3 Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22.
+Abarenkov K, Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Schigel D, Suominen S, Svenningsen C & Frøslev TG (2023) Publishing DNA-derived data through biodiversity data platforms. v1.3 Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22.
 
 === Authors
 
+https://orcid.org/0000-0001-5526-4845[Kessy Abarenkov], mailto:kessy.abarenkov@ut.ee[kessy.abarenkov@ut.ee], Natural History Museum and Botanical Garden, University of Tartu, 46 Vanemuise Street, 51003 Tartu, Estonia
 * https://orcid.org/0000-0002-3627-6899[Anders F. Andersson], mailto:anders.andersson@scilifelab.se[anders.andersson@scilifelab.se], Science for Life Laboratory, Department of Gene Technology, KTH Royal Institute of Technology, 17121 Stockholm, Sweden
 * https://orcid.org/0000-0001-7396-1484[Andrew Bissett], mailto:Andrew.Bissett@csiro.au[Andrew.Bissett@csiro.au], CSIRO O&A, GPO box 1533, Hobart, Tasmania, 7000, Australia
 * https://orcid.org/0000-0003-4529-6266[Anders G. Finstad], mailto:anders.finstad@ntnu.no[anders.finstad@ntnu.no], Department of Natural History, Centre for Biodiversity Dymamics, Norwegian University of Science and Technology, Trondheim, Norway
@@ -30,7 +31,7 @@ Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS,
 
 === Contributors
 
-Valuable discussions with members of ELIXIR, iBOL, GGBN, GLOMICON, and OBIS networks contributed to compilation of this draft. We are especially grateful for inputs and encouragement from Kessy Abarenkov, Andrew Bentley, Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, Gabriele Dröge, Torbjørn Ekrem, Birgit Gemeinholzer, Quentin Groom, Tim Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris Mungall, Daniel Noesgaard, Corinna Paeper, Tim Robertson, Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger who have contributed to the GBIF community review process.
+Valuable discussions with members of ELIXIR, iBOL, GGBN, GLOMICON, and OBIS networks contributed to compilation of this draft. We are especially grateful for inputs and encouragement from  Andrew Bentley, Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, Gabriele Dröge, Torbjørn Ekrem, Birgit Gemeinholzer, Quentin Groom, Tim Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris Mungall, Daniel Noesgaard, Corinna Paeper, Tim Robertson, Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger who have contributed to the GBIF community review process.
 
 === License
 

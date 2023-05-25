@@ -1,21 +1,22 @@
 = Publishing DNA-derived data through biodiversity data platforms
-:authorcount: 13
-:author_1: Anders F. Andersson
-:author_2: Andrew Bissett
-:author_3: Anders G. Finstad
-:author_4: Frode Fossøy
-:author_5: Marie Grosjean
-:author_6: Michael Hope
-:author_7: Thomas S. Jeppesen
-:author_8: Urmas Kõljalg
-:author_9: Daniel Lundin
-:author_10: R. Henrik Nilsson
-:author_11: Maria Prager
-:author_12: Pieter Provoost
-:author_13: Dmitry Schigel
-:author_14: Saara Suominen
-:author_15: Cecilie Svenningsen
-:author_16: Tobias Guldberg Frøslev
+:authorcount: 17
+:author_1: Kessy Abarenkov
+:author_2: Anders F. Andersson
+:author_3: Andrew Bissett
+:author_4: Anders G. Finstad
+:author_5: Frode Fossøy
+:author_6: Marie Grosjean
+:author_7: Michael Hope
+:author_8: Thomas S. Jeppesen
+:author_9: Urmas Kõljalg
+:author_10: Daniel Lundin
+:author_11: R. Henrik Nilsson
+:author_12: Maria Prager
+:author_13: Pieter Provoost
+:author_14: Dmitry Schigel
+:author_15: Saara Suominen
+:author_16: Cecilie Svenningsen
+:author_17: Tobias Guldberg Frøslev
 :license: https://creativecommons.org/licenses/by-sa/4.0/
 // Title
 :title-logo-image: img/web/photo.jpg
