@@ -11,10 +11,11 @@
 :author_9: Daniel Lundin
 :author_10: R. Henrik Nilsson
 :author_11: Maria Prager
-:author_12: Dmitry Schigel
-:author_13: Saara Suominen
-:author_14: Cecilie Svenningsen
-:author_15: Tobias Guldberg Frøslev
+:author_12: Pieter Provoost
+:author_13: Dmitry Schigel
+:author_14: Saara Suominen
+:author_15: Cecilie Svenningsen
+:author_16: Tobias Guldberg Frøslev
 :license: https://creativecommons.org/licenses/by-sa/4.0/
 // Title
 :title-logo-image: img/web/photo.jpg
