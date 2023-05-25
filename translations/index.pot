@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-24 14:14+0000\n"
+"POT-Creation-Date: 2023-05-25 11:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgid "Publishing DNA-derived data through biodiversity data platforms"
 msgstr ""
 
 #. type: Plain text
-#: index.en.adoc:36
+#: index.en.adoc:37
 msgid "languageLinks:combined[]"
 msgstr ""
 
@@ -161,21 +161,29 @@ msgstr ""
 #. type: Plain text
 #: colophon.en.adoc:26
 msgid ""
+"https://orcid.org/0000-0002-4236-0384[Pieter Provoost], "
+"mailto:p.provoost@unesco.org[p.provoost@unesco.org], Ocean Biodiversity "
+"Information System, Jacobsenstraat 1, 8400 Oostende, Belgium"
+msgstr ""
+
+#. type: Plain text
+#: colophon.en.adoc:27
+msgid ""
 "https://orcid.org/0000-0002-2919-1168[Dmitry Schigel], "
 "mailto:dschigel@gbif.org[dschigel@gbif.org], Global Biodiversity Information "
 "Facility, Universitetsparken 15, 2100 København Ø, Denmark"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:27
+#: colophon.en.adoc:28
 msgid ""
 "https://orcid.org/0000-0002-2919-1168[Saara Suominen], "
-"mailto:s.suominen@unesco.org[s.suominen@unesco.org], Ocean biodiversity "
-"information system, Jacobsenstraat 1, 8400 Oostende, Belgium"
+"mailto:s.suominen@unesco.org[s.suominen@unesco.org], Ocean Biodiversity "
+"Information System, Jacobsenstraat 1, 8400 Oostende, Belgium"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:28
+#: colophon.en.adoc:29
 msgid ""
 "https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen], "
 "mailto:csvenningsen@gbif.org[csvenningsen@gbif.org], Global Biodiversity "
@@ -183,7 +191,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:29
+#: colophon.en.adoc:30
 msgid ""
 "https://orcid.org/0000-0002-3530-013X[Tobias Guldberg Frøslev], "
 "mailto:tfroeslev@gbif.org[tfroeslev@gbif.org], Global Biodiversity "
@@ -191,13 +199,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:30
+#: colophon.en.adoc:31
 #, no-wrap
 msgid "Contributors"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:33
+#: colophon.en.adoc:34
 msgid ""
 "Valuable discussions with members of ELIXIR, iBOL, GGBN, GLOMICON, and OBIS "
 "networks contributed to compilation of this draft. We are especially "
@@ -205,19 +213,19 @@ msgid ""
 "Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, "
 "Gabriele Dröge, Torbjørn Ekrem, Birgit Gemeinholzer, Quentin Groom, Tim "
 "Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris "
-"Mungall, Daniel Noesgaard, Corinna Paeper, Pieter Provoost, Tim Robertson, "
-"Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, "
-"Lucie Zinger who have contributed to the GBIF community review process."
+"Mungall, Daniel Noesgaard, Corinna Paeper, Tim Robertson, Maxime Sweetlove, "
+"Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger who "
+"have contributed to the GBIF community review process."
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:34
+#: colophon.en.adoc:35
 #, no-wrap
 msgid "License"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:38
+#: colophon.en.adoc:39
 msgid ""
 "The document _Publishing DNA-derived data through biodiversity data "
 "platforms_ is licensed under "
@@ -226,24 +234,24 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:39
+#: colophon.en.adoc:40
 #, no-wrap
 msgid "Persistent URI"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:42
+#: colophon.en.adoc:43
 msgid "https://doi.org/10.35035/doc-vf1a-nr22"
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:43
+#: colophon.en.adoc:44
 #, no-wrap
 msgid "Document control"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:46
+#: colophon.en.adoc:47
 msgid ""
 "Version 1.3.0 released on XXX. This version has an added paragraph on Marine "
 "datasets and the Ocean Biodiversity Information System (OBIS), and some "
@@ -251,13 +259,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:47
+#: colophon.en.adoc:48
 #, no-wrap
 msgid "Abstract"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:50
+#: colophon.en.adoc:51
 msgid ""
 "When genetic information is used to describe or classify a taxon, most users "
 "will foresee its use in the context of molecular ecology or phylogenetic "
@@ -275,13 +283,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:51
+#: colophon.en.adoc:52
 #, no-wrap
 msgid "Cover image"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:53
+#: colophon.en.adoc:54
 msgid ""
 "Velvet shank (_Flammulina velutipes_), Kursk, Russian Federation. Photo 2020 "
 "Oleg Ryzhkov via https://www.gbif.org/occurrence/2550027893[iNaturalist "
@@ -2703,20 +2711,26 @@ msgid ""
 "To ensure consistent taxonomic nomenclature OBIS uses the World Register of "
 "Marine Species (WoRMS) as the only taxonomic backbone. This is the case also "
 "for occurrences derived from genetic data; a scientific name linked to a "
-"scientific name ID from the WoRMS database is required information for "
-"publishing. The expected, fully unclassified sequences are recommended to be "
-"classified as ‘incertae sedis’, with the WoRMS `scientificNameID` "
-"urn:lsid:marinespecies.org:taxname:12. Additionally, it is recommended that "
+"scientific name ID from the WoRMS database is highly recommended information "
+"for publishing. If a scientific name ID is not provided, OBIS will try to "
+"match the scientific name with WoRMS during ingestion, but this should be "
+"avoided whenever possible. Scientific names not listed in WoRMS are "
+"acceptable, and will be submitted to WoRMS for review and possible inclusion "
+"in the register. Fully unclassified sequences are recommended to be "
+"classified as \"incertae sedis\", with the WoRMS `scientificNameID` "
+"urn:lsid:marinespecies.org:taxname:12. This will ensure correct "
+"interpretation by both GBIF and OBIS. Additionally, it is recommended that "
 "sequence identifiers from the used reference databases (e.g. Barcode index "
 "numbers: BINs from BOLD) be added in the `taxonConceptID` field of the "
 "occurrence core table. In this way OBIS will retain its taxonomic backbone "
 "based on WoRMS, while enabling linking to disparate reference sequence "
-"databases. Automatic classification of species names can often be done "
-"through the WoRMS taxon match services and R packages like worrms and "
-"taxize. In the future, OBIS plans to periodically search and update the "
-"taxonomic assignments of submitted sequences as reference databases develop "
-"with time, so recording the sequence information linked to each occurrence "
-"is highly recommended."
+"databases. Names from reference databases which are not strictly scientific "
+"names, can be added as `identificationRemarks`. Automatic classification of "
+"species names can often be done through the WoRMS taxon match services and R "
+"packages like worrms and taxize. In the future, OBIS plans to periodically "
+"search and update the taxonomic assignments of submitted sequences as "
+"reference databases develop with time, so recording the sequence information "
+"linked to each occurrence is highly recommended."
 msgstr ""
 
 #. type: Plain text
@@ -2739,10 +2753,10 @@ msgstr ""
 #: 200.en.adoc:742
 #, no-wrap
 msgid ""
-"OBIS requirements and recommendation for recording dna-based "
-"occurrences. The table higlights important differences in fields values and "
+"OBIS requirements and recommendations for recording DNA-based "
+"occurrences. The table highlights important differences in field values and "
 "requirements compared to when publishing to GBIF. Here exemplified with a "
-"dna detection of Blue whale (Balaenoptera musculus). "
+"DNA detection of Blue whale (Balaenoptera musculus). "
 msgstr ""
 
 #. type: Table
@@ -2756,28 +2770,28 @@ msgid ""
 "\n"
 "| term:dwc[scientificName]\n"
 "| Balaenoptera musculus\n"
-"| Scientific name as per the WoRMS database. This differs from GBIF, where "
-"it is recommended to use the taxon name derived from the classification "
-"approach used\n"
+"| Scientific name, preferably as listed in the WoRMS database. This differs "
+"from GBIF, where it is recommended to use the taxon name derived from the "
+"classification approach used.\n"
 "| Required\n"
 "\n"
 "| term:dwc[scientificNameID]\n"
 "| urn:lsid:marinespecies.org:taxname:137090\n"
 "| The scientific name ID of \"Balaenoptera musculus\" as per the WoRMS "
 "database.\n"
-"| Required (XXX only recommended in GBIF??)\n"
+"| Highly recommended\n"
 "\n"
 "| term:dwc[taxonConceptID]\n"
 "| NCBI:txid9771\n"
 "| The NCBI ID linked to Balaenoptera musculus in the NCBI taxonomic "
 "database. Can also be a BIN-ID if BOLD was used for identification, or "
-"another ID from a different database\n"
+"another ID from a different database.\n"
 "| Recommended\n"
 "\n"
 "| term:dwc[identificationRemarks]\n"
 "| Balaenoptera musculus\n"
-"| The scientific name given for this NCBI ID (Balaenoptera musculus) (or "
-"other id).\n"
+"| The name corresponding to the NCBI ID (Balaenoptera musculus) (or other "
+"ID). This does not necessarily correspond to the value in scientific name.\n"
 "| Recommended\n"
 msgstr ""
 
@@ -2785,9 +2799,8 @@ msgstr ""
 #: 200.en.adoc:772
 #, no-wrap
 msgid ""
-"OBIS requirements and recommendation for recording sequences that cannot be "
-"classified or sequences classified to a taxonomic name not included in "
-"WoRMS. "
+"OBIS requirements and recommendations for recording sequences that cannot be "
+"classified to a scientific name at any taxonomic level. "
 msgstr ""
 
 #. type: Table
@@ -2801,29 +2814,29 @@ msgid ""
 "\n"
 "| term:dwc[scientificName]\n"
 "| incertae sedis\n"
-"| The scientific name as per the WoRMS database for unknown sequences "
-"recommended by OBIS. Use this name when the sequence/taxonomy is "
-"unknown. This differs from GBIF, where it is recommended to use the taxon "
-"name as retrieved from the classifier\n"
+"| The scientific name for unknown sequences recommended by OBIS. Use this "
+"name when the sequence/taxonomy is unknown. This differs from GBIF, where it "
+"is recommended to use the taxon name as retrieved from the classifier even "
+"when it is not strictly a scientific name.\n"
 "| Required\n"
 "\n"
 "| term:dwc[scientificNameID]\n"
 "| urn:lsid:marinespecies.org:taxname:12\n"
 "| The scientific name ID of \"incertae sedis\" as per the WoRMS database for "
 "unknown sequences recommended by OBIS. Use this ID when the "
-"sequence/taxonomy is unknown\n"
-"| Required\n"
+"sequence/taxonomy is unknown.\n"
+"| Highly recommended\n"
 "\n"
 "| term:dwc[taxonConceptID]\n"
 "| NCBI:txid1899546\n"
-"| The possible ID in an external tax database, like a sequence database for "
-"example \n"
+"| The ID in an external taxonomic database, like a sequence reference "
+"database for example.\n"
 "| Recommended\n"
 "\n"
 "| term:dwc[identificationRemarks]\n"
 "| Phototrophic eukaryote\n"
-"| The name of the taxon in an external database linked to the taxonConcept "
-"ID\n"
+"| The name of the taxon in an external database, corresponding to the taxon "
+"concept ID.\n"
 "| Recommended\n"
 msgstr ""
 
