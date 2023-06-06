@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-01 17:43+0000\n"
+"POT-Creation-Date: 2023-06-06 11:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1918,7 +1918,8 @@ msgstr ""
 
 #. type: Plain text
 #: 200.en.adoc:145 200.en.adoc:288 200.en.adoc:394 200.en.adoc:514
-#: 200.en.adoc:731 200.en.adoc:741 glossary.en.adoc:55 bibliography.en.adoc:74
+#: 200.en.adoc:731 200.en.adoc:742 200.en.adoc:804 glossary.en.adoc:55
+#: bibliography.en.adoc:74
 msgid "<<<"
 msgstr ""
 
@@ -2741,7 +2742,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 200.en.adoc:742
+#: 200.en.adoc:744
 #, no-wrap
 msgid ""
 "OBIS requirements and recommendations for recording DNA-based "
@@ -2751,7 +2752,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 200.en.adoc:769
+#: 200.en.adoc:771
 #, no-wrap
 msgid ""
 "| Field name\n"
@@ -2787,7 +2788,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 200.en.adoc:772
+#: 200.en.adoc:774
 #, no-wrap
 msgid ""
 "OBIS requirements and recommendations for recording sequences that cannot be "
@@ -2795,7 +2796,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 200.en.adoc:799
+#: 200.en.adoc:801
 #, no-wrap
 msgid ""
 "| Field name\n"
