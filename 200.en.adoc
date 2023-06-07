@@ -109,10 +109,10 @@ For guidance on how to format and share these datasets, see <<mapping-ddpcr-qpcr
 [[category-iv]]
 ==== Category IV: Name references
 
-This category corresponds to DNA-derived names, derived from clustering or denoising (error-correction based models), such as stable non-Linnaean Operational Taxonomic Units (OTU), Amplicon Sequence Variant (ASV) and Barcode Index Numbers (BIN)—in other words, any reference to taxa or provisional names that are defined outside of the Linnaean taxonomy. Numerous projects produce local project- or study-specific libraries of OTUs, and although it is technically possible to publish these as checklists, they have limited to no value for data linking or interpretation; as a result, we do not encourage their publication through biodiversity data platforms. However, the inclusion of the widely adopted, stable, global, digitally referenceable OTUs into Linnaean taxonomic backbones is critically important for indexing unnamed “dark” biodiversity. GBIF have accumulated experience in integrating such large and global reference libraries of OTUs into the GBIF taxonomic backbone, which allows the display of OTUs under the nearest parent taxon which has a Latin name (<<figure-otus>>). 
+This category corresponds to DNA-derived names, derived from clustering or denoising (error-correction based models), such as stable non-Linnaean Operational Taxonomic Units (OTU), Amplicon Sequence Variant (ASV) and Barcode Index Numbers (BIN)—in other words, any reference to taxa or provisional names that are defined outside of the Linnaean taxonomy. Numerous projects produce local project- or study-specific libraries of OTUs, and although it is technically possible to publish these as checklists, they have limited to no value for data linking or interpretation; as a result, we do not encourage their publication through biodiversity data platforms. However, the inclusion of the widely adopted, stable, global, digitally referenceable OTUs into Linnaean taxonomic backbones is critically important for indexing unnamed “dark” biodiversity. GBIF have accumulated experience in integrating such large and global reference libraries of OTUs into the GBIF taxonomic backbone, which allows the display of OTUs under the nearest parent taxon which has a Scientific name (<<figure-otus>>). 
 
 [[figure-otus]]
-.OTUs from UNITE (fungi, above) and from BOLD (arthropods, below) are displayed in the GBIF backbone taxonomy under their corresponding parent taxa which have Latin names. Multiple individually observed occurrences of cryptic biodiversity become discoverable together with non-genetic evidence through a single access point.
+.OTUs (SHs) from UNITE (mainly fungi, above) and from BOLD (BINs) (mainly arthropods, below) are displayed in the GBIF backbone taxonomy under their corresponding parent taxa which have Scientific names. Multiple individually observed occurrences of cryptic biodiversity become discoverable together with non-genetic evidence through a single access point.
 image::img/web/otus-from-unite.en.png[]
 
 ===== Examples of Name references checklists
@@ -138,7 +138,7 @@ Mapping recommendations for metadata-only DNA-derived datasets (Category V) is t
 
 While core files store ubiquitous data on the 'what, where and when' of a record, extension files are used to describe the specifics of a certain type of observation. We propose using the https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml[DNA derived data extension] to complement occurrence data derived from either barcoding, metabarcoding (eDNA) or qPCR/ddPCR. The DNA derived data extension builds on the https://gensc.org/mixs/[Minimum information standards] developed by the Genomic Standards Consortium (GSC) and applied by the https://www.ebi.ac.uk/ena/browser/home[ENA] for https://www.ebi.ac.uk/ena/submit/mixs-checklists[submission of eDNA sample metadata], for example. We are following and have contributed to the guidelines proposed by the https://github.com/tdwg/gbwg/tree/main/dwc-mixs[Sustainable DwC-MIxS interoperability task group under TDWG]. To improve indexing and search we have opted to split some MIxS terms, for instance separating forward and reverse primer sequences and names. Furthermore, some fields from the GGBN standard and fields from the https://rdml.org/miqe.html[MIQE] (minimum information for the publication of quantitative real-time PCR) guidelines for qPCR and ddPCR data have been included to make it applicable for a wide range of DNA-derived data.
 
-As a first step in preparing your data for publishing, you should make sure your field names / column headers follow the https://dwc.tdwg.org/terms/[Darwin Core data standard]. In many cases this is straightforward, such as renaming your `lat` or `latitude` field to `decimalLatitude`. However, the Darwin Core Standard is quite flexible and some terms are used in different ways, depending on the type of data. An example of this are the fields term:dwc[organismQuantity] and term:dwc[organismQuantityType], which could be used to describe the number of individuals, per cent biomass or a score on the Braun-Blanquet Scale, as well as the number of reads of an ASV within a sample. Therefore, we here provide tables of required and recommended fields with descriptions and examples (<<table-01,Table 1>>, <<table-02,Table 2>>, <<table-03,Table 3>> and <<table-04, Table 4>>). Additional fields and extensions (such as http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]) are applicable. When a sequence is derived from an organism (e.g. a parasite, gut contents, epibiont etc.) the observation may be linked to the observation of the host organism. This can be achieved using the (https://dwc.tdwg.org/terms/#resourcerelationship[Resource Relation extension^]) of Darwin Core (e.g. https://www.gbif.org/species/143610775/verbatim). Perhaps the most important recommendation is to use globally unique (when available) and other permanent identifiers for as many data fields and parameters as possible (in all ID fields in the tables below).
+As a first step in preparing your data for publishing, you should make sure your field names / column headers follow the https://dwc.tdwg.org/terms/[Darwin Core data standard]. In many cases this is straightforward, such as renaming your `lat` or `latitude` field to `decimalLatitude`. However, the Darwin Core Standard is quite flexible and some terms are used in different ways, depending on the type of data. An example of this are the fields term:dwc[organismQuantity] and term:dwc[organismQuantityType], which could be used to describe the number of individuals, per cent biomass or a score on the Braun-Blanquet Scale, as well as the number of reads of an ASV within a sample. Therefore, we here provide tables of required and recommended fields with descriptions and examples (<<table-01,Table 1>>, <<table-02,Table 2>>, <<table-03,Table 3>> and <<table-04, Table 4>>). The recommendation to use the Occurrence core for DNA-derived data stems from the strong desire to share the sequence to help qualify the determination. Additional fields and extensions (such as http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]) are applicable - both to occurrence cores and event core. When a sequence is derived from an organism (e.g. a parasite, gut contents, epibiont etc.) the observation may be linked to the observation of the host organism. This can be achieved using the (https://dwc.tdwg.org/terms/#resourcerelationship[Resource Relation extension^]) of Darwin Core (e.g. https://www.gbif.org/species/143610775/verbatim). Perhaps the most important recommendation is to use globally unique (when available) and other permanent identifiers for as many data fields and parameters as possible (in all ID fields in the tables below).
 
 [.landscape]
 <<<
@@ -183,7 +183,7 @@ This section provides mapping recommendations for Categories I and II.
 
 | term:dwc[organismQuantity]
 | 33
-| Number of reads of this sequence variant in the sample
+| Number of reads of this OTU or ASV in the sample.
 | Highly recommended
 
 | term:dwc[organismQuantityType]
@@ -193,7 +193,7 @@ This section provides mapping recommendations for Categories I and II.
 
 | term:dwc[sampleSizeValue]
 | 1233890
-| Total number of reads in the sample. This is important since it allows calculating the relative abundance of the sequence variant within the sample.
+| Total number of reads in the sample. This is important since it allows calculating the relative abundance of each OTU or ASV within the sample. This number should preferably be calculated after universal processing (quality control, ASV denoising, chimera removal, etc.), but before manual/selective removal of e.g. non-target OTUs or ASVs from the dataset. Rarefaction (resampling to even sequencing depth across samples) is not necessary or advised.
 | Highly recommended
 
 | term:dwc[sampleSizeUnit]
@@ -250,7 +250,7 @@ https://github.com/terrimporter/CO1Classifier
 
 | term:dwc[scientificName]
 | _Gadus morhua_ L. 1758, BOLD:ACF1143
-| Latin name of the closest known taxon (species or higher) or an OTU identifier from BOLD or UNITE
+| Scientific name of the closest known taxon (species or higher) or an OTU identifier from BOLD (BIN) or UNITE (SH)
 | Required
 
 | term:dwc[kingdom]
@@ -309,12 +309,12 @@ A reference to a well documented protocol, e.g. using https://protocols.io[proto
 | Recommended
 
 | term:mixs[target_gene]
-| 16S rRNA, 18S rRNA, nif, amoA, rpo
+| 16S rRNA, 18S rRNA, ITS
 | Targeted gene or marker name for marker-based studies
 | Highly recommended
 
 | term:mixs[target_subfragment]
-| V6, V9, ITS
+| V6, V9, ITS2
 | Name of subfragment of a gene or markerImportant to e.g. identify special regions on marker genes like the hypervariable V6 region of the 16S rRNA gene
 | Highly recommended
 
@@ -371,22 +371,22 @@ Specify whether to expect single, paired, or other configuration of reads
 
 | term:mixs[seq_meth]
 | Illumina HiSeq 1500
-| Sequencing method used; e.g. Sanger, pyrosequencing, ABI-solid
+| Sequencing method/platform used
 | Highly recommended
 
 | term:mixs[otu_class_appr]
-| "95% ANI;85% AF; greedy incremental clustering"
-| Cutoffs and approach used when clustering new UViGs in "species-level" OTUs. Note that results from standard 95% ANI / 85% AF clustering should be provided alongside OTUS defined from another set of thresholds, even if the latter are the ones primarily used during the analysis
+| "dada2; 1.14.0; ASV"
+| Approach/algorithm and clustering level (if relevant) when defining OTUs or ASVs
 | Highly recommended
 
 | term:mixs[otu_seq_comp_appr]
 | "blastn;2.6.0+;e-value cutoff: 0.001"
-| Tool and thresholds used to compare sequences when computing "species-level" OTUs
+| Tool and thresholds used to assign "species-level" names to OTUs or ASVs
 | Highly recommended
 
 | term:mixs[otu_db]
-| "NCBI Viral RefSeq;83", "UNITE;8.2"
-| Reference database (i.e. sequences not generated as part of the current study) used to cluster new genomes in "species-level" OTUs, if any
+| "Genbank nr;221", "UNITE;8.2"
+| Reference database (i.e. sequences not generated as part of the current study) used to assigning taxonomy to OTUs or ASVs
 | Highly recommended
 |===
 
@@ -476,7 +476,7 @@ urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03
 
 | term:dwc[scientificName]
 | _Gadus morhua_ L. 1758, BOLD:ACF1143
-| Latin name of the closest known taxon (species or higher) or an OTU identifier from BOLD or UNITE
+| Scientific name of the closest known taxon (species or higher) or an OTU identifier from BOLD or UNITE
 | Required
 
 | term:dwc[kingdom]
@@ -724,6 +724,80 @@ http://purl.obolibrary.org/obo/ENVO_00010483
 | The assay's ability to quantify copy number at low levels
 | Highly recommended
 | 
+|===
+
+[.portrait]
+<<<
+
+=== Marine datasets and the Ocean Biodiversity Information System (OBIS)
+
+When working with datasets originating in the marine environment, it is recommended that the information is published also in the https://obis.org[Ocean Biodiversity Information System (OBIS)] in addition to GBIF. OBIS is a global biodiversity database, which is specialized in providing reliable and accessible data related to marine life and is a part of the IOC-UNESCO. Like GBIF, and ALA, OBIS uses the DwC-A format for data indexing and publishing. By publishing marine datasets through OBIS in addition to other biodiversity databases, the data can reach a broader audience, and diverse groups working in the field of marine biodiversity, as datasets in OBIS are often used for UN processes. With the focus on marine datasets, stringent quality controls on the data increase the reliability of the data and lead to small differences in what information is required for publishing in OBIS as opposed to GBIF. 
+
+To ensure consistent taxonomic nomenclature OBIS uses the World Register of Marine Species (WoRMS) as the only taxonomic backbone. This is the case also for occurrences derived from genetic data; a scientific name linked to a scientific name ID from the WoRMS database is highly recommended information for publishing. If a scientific name ID is not provided, OBIS will try to match the scientific name with WoRMS during ingestion, but this should be avoided whenever possible. Scientific names not listed in WoRMS are acceptable, and will be submitted to WoRMS for review and possible inclusion in the register. Fully unclassified sequences are recommended to be classified as "incertae sedis", with the WoRMS `scientificNameID` urn:lsid:marinespecies.org:taxname:12. This will ensure correct interpretation by both GBIF and OBIS. Additionally, it is recommended that sequence identifiers from the used reference databases (e.g. Barcode index numbers: BINs from BOLD) be added in the `taxonConceptID` field of the occurrence core table. In this way OBIS will retain its taxonomic backbone based on WoRMS, while enabling linking to disparate reference sequence databases. Names from reference databases which are not strictly scientific names, can be added as `identificationRemarks`. Automatic classification of species names can often be done through the WoRMS taxon match services and R packages like worrms and taxize. In the future, OBIS plans to periodically search and update the taxonomic assignments of submitted sequences as reference databases develop with time, so recording the sequence information linked to each occurrence is highly recommended. 
+
+Another required field in OBIS data submissions are geographic coordinates. OBIS performs additional quality checks related to marine data; e.g. that coordinates for strictly marine species are not on land, and that the depth value reported is in a reasonable range. Finally, it should be mentioned that in addition OBIS supports the use of the http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]. This extension allows linking environmental data and sampling facts to sampling events or occurrences, as well as biological measurements to occurrences in a flexible and standardized manner. OBIS has an example eDNA metabarcoding dataset with scripts for data formatting available at https://github.com/iobis/dataset-edna.
+
+[.landscape]
+<<<
+
+[[table-06]]
+.OBIS requirements and recommendations for recording DNA-based occurrences. The table highlights important differences in field values and requirements compared to when publishing to GBIF. Here exemplified with a DNA detection of Blue whale (Balaenoptera musculus). 
+[cols="1,1,4,1",options="header"]
+|===
+| Field name
+| Value/example (OBIS)
+| Description
+| Required
+
+| term:dwc[scientificName]
+| Balaenoptera musculus
+| Scientific name, preferably as listed in the WoRMS database. This differs from GBIF, where it is recommended to use the taxon name derived from the classification approach used.
+| Required
+
+| term:dwc[scientificNameID]
+| urn:lsid:marinespecies.org:taxname:137090
+| The scientific name ID of "Balaenoptera musculus" as per the WoRMS database.
+| Highly recommended
+
+| term:dwc[taxonConceptID]
+| NCBI:txid9771
+| The NCBI ID linked to Balaenoptera musculus in the NCBI taxonomic database. Can also be a BIN-ID if BOLD was used for identification, or another ID from a different database.
+| Recommended
+
+| term:dwc[identificationRemarks]
+| Balaenoptera musculus
+| The name corresponding to the NCBI ID (Balaenoptera musculus) (or other ID). This does not necessarily correspond to the value in scientific name.
+| Recommended
+|===
+
+[[table-07]]
+.OBIS requirements and recommendations for recording sequences that cannot be classified to a scientific name at any taxonomic level. 
+[cols="1,1,4,1",options="header"]
+|===
+| Field name
+| Value (OBIS)
+| Description
+| Required
+
+| term:dwc[scientificName]
+| incertae sedis
+| The scientific name for unknown sequences recommended by OBIS. Use this name when the sequence/taxonomy is unknown. This differs from GBIF, where it is recommended to use the taxon name as retrieved from the classifier even when it is not strictly a scientific name.
+| Required
+
+| term:dwc[scientificNameID]
+| urn:lsid:marinespecies.org:taxname:12
+| The scientific name ID of "incertae sedis" as per the WoRMS database for unknown sequences recommended by OBIS. Use this ID when the sequence/taxonomy is unknown.
+| Highly recommended
+
+| term:dwc[taxonConceptID]
+| NCBI:txid1899546
+| The ID in an external taxonomic database, like a sequence reference database for example.
+| Recommended
+
+| term:dwc[identificationRemarks]
+| Phototrophic eukaryote
+| The name of the taxon in an external database, corresponding to the taxon concept ID.
+| Recommended
 |===
 
 [.portrait]
