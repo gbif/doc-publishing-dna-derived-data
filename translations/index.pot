@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-06 11:33+0000\n"
+"POT-Creation-Date: 2023-06-07 11:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,7 +51,7 @@ msgid ""
 "Abarenkov K, Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope "
 "M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Schigel D, "
 "Suominen S, Svenningsen C & Frøslev TG (2023) Publishing DNA-derived data "
-"through biodiversity data platforms. v1.3 Copenhagen: GBIF "
+"through biodiversity data platforms, v1.3. Copenhagen: GBIF "
 "Secretariat. https://doi.org/10.35035/doc-vf1a-nr22."
 msgstr ""
 
@@ -261,20 +261,24 @@ msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:48
+msgid "Version 1.3.0 released on 7 June 2023."
+msgstr ""
+
+#. type: Plain text
+#: colophon.en.adoc:50
 msgid ""
-"Version 1.3.0 released on XXX. This version has an added paragraph on Marine "
-"datasets and the Ocean Biodiversity Information System (OBIS), and some "
-"minor text edits throughout the document."
+"This version adds paragraph on marine datasets and the Ocean Biodiversity "
+"Information System (OBIS) along with some minor text edits throughout."
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:49
+#: colophon.en.adoc:51
 #, no-wrap
 msgid "Abstract"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:52
+#: colophon.en.adoc:53
 msgid ""
 "When genetic information is used to describe or classify a taxon, most users "
 "will foresee its use in the context of molecular ecology or phylogenetic "
@@ -289,21 +293,6 @@ msgid ""
 "details. It will benefit anyone interested in better exposure of DNA-derived "
 "data through general biodiversity data platforms, including national "
 "biodiversity portals."
-msgstr ""
-
-#. type: Title ===
-#: colophon.en.adoc:53
-#, no-wrap
-msgid "Cover image"
-msgstr ""
-
-#. type: Plain text
-#: colophon.en.adoc:55
-msgid ""
-"Velvet shank (_Flammulina velutipes_), Kursk, Russian Federation. Photo 2020 "
-"Oleg Ryzhkov via https://www.gbif.org/occurrence/2550027893[iNaturalist "
-"research-grade observations], licensed under "
-"http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0]."
 msgstr ""
 
 #. type: Title ==
