@@ -23,8 +23,8 @@
 :title-page-background-image: image:img/web/dna-cover.png[position=top center,fit=none,pdfwidth=120%]
 :title-logo-image: image:img/web/gbif-obis.svg[]
 // Revision
-:revnumber: {git-metadata-sha-short}
-:revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
+:revnumber: 1.3.0
+:revdate: 7 June 2023
 // Contents, sections
 :toc: left
 :toclevels: 3

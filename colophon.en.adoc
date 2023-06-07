@@ -44,7 +44,7 @@ https://doi.org/10.35035/doc-vf1a-nr22
 
 === Document control
 
-Version 1.3.0 released on 7 June 2023.
+Version {revnumber} released on {revdate}.
 
 This version adds paragraph on marine datasets and the Ocean Biodiversity Information System (OBIS) along with some minor text edits throughout. 
 
