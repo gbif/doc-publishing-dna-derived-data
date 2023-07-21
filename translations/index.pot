@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-04-06 09:29+0000\n"
+"POT-Creation-Date: 2023-07-21 09:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1890,7 +1890,7 @@ msgstr ""
 
 #.  The [.break-all]#ASV:…# is to allow the identifier to be broken at any character, rather than stretching the text cell.
 #. type: Table
-#: 200.en.adoc:285
+#: 200.en.adoc:245
 #, no-wrap
 msgid ""
 "| Field name\n"
@@ -2022,47 +2022,23 @@ msgid ""
 "values are west of it. Legal values lie between -180 and 180, inclusive.\n"
 "| Highly recommended\n"
 "\n"
-"| term:dwc[taxonID]\n"
-"| [.break-all]#ASV:7bdb57487bee022ba30c03c3e7ca50e1#\n"
-"| For eDNA data, it is recommended to use an MD5 hash of the sequence and "
-"prepend it with “ASV:”. See also <<taxonomy-of-sequences>>.\n"
-"| Highly recommended, if DNA_sequence is not provided \n"
-"\n"
-"| term:dwc[scientificName]\n"
-"| _Gadus morhua_ L. 1758, BOLD:ACF1143\n"
-"| Latin name of the closest known taxon (species or higher) or an OTU "
-"identifier from BOLD or UNITE\n"
-"| Required\n"
-"\n"
-"| term:dwc[kingdom]\n"
-"| Animalia\n"
-"| Higher taxonomy\n"
-"| Highly recommended\n"
-"\n"
-"| term:dwc[phylum]\n"
-"| Chordata\n"
-"| Higher taxonomy\n"
-"| Recommended\n"
-"\n"
-"| term:dwc[class]\n"
-"| Actinopterygii\n"
-"| Higher taxonomy\n"
-"| Recommended\n"
-"\n"
-"| term:dwc[order]\n"
-"| Gadiformes\n"
-"| Higher taxonomy\n"
-"| Recommended\n"
-"\n"
-"| term:dwc[family]\n"
-"| Gadidae\n"
-"| Higher taxonomy\n"
-"| Recommended\n"
-"\n"
-"| term:dwc[genus]\n"
-"| _Gadus_\n"
-"| Higher taxonomy\n"
-"| Recommended\n"
+msgstr ""
+
+#. type: Table
+#: 200.en.adoc:285
+msgid ""
+"| term:dwc[taxonID] | [.break-all]#ASV:7bdb57487bee022ba30c03c3e7ca50e1# | "
+"For eDNA data, it is recommended to use an MD5 hash of the sequence and "
+"prepend it with “ASV:”. See also <<taxonomy-of-sequences>>.  | Highly "
+"recommended, if DNA_sequence is not provided | term:dwc[scientificName] | "
+"_Gadus morhua_ L. 1758, BOLD:ACF1143 | Latin name of the closest known taxon "
+"(species or higher) or an OTU identifier from BOLD or UNITE | Required | "
+"term:dwc[kingdom] | Animalia | Higher taxonomy | Highly recommended | "
+"term:dwc[phylum] | Chordata | Higher taxonomy | Recommended | "
+"term:dwc[class] | Actinopterygii | Higher taxonomy | Recommended | "
+"term:dwc[order] | Gadiformes | Higher taxonomy | Recommended | "
+"term:dwc[family] | Gadidae | Higher taxonomy | Recommended | term:dwc[genus] "
+"| _Gadus_ | Higher taxonomy | Recommended"
 msgstr ""
 
 #. type: Block title
@@ -2075,7 +2051,7 @@ msgstr ""
 
 #.  The [.break-all]#TCTA…# is to allow the sequence to be broken at any character, rather than stretching the text cell.
 #. type: Table
-#: 200.en.adoc:391
+#: 200.en.adoc:298
 #, no-wrap
 msgid ""
 "| Field name\n"
@@ -2083,6 +2059,12 @@ msgid ""
 "| Description\n"
 "| Required\n"
 "\n"
+msgstr ""
+
+#. type: Table
+#: 200.en.adoc:391
+#, no-wrap
+msgid ""
 "| term:mixs[DNA_sequence]\n"
 "| "
 "[.break-all]#TCTATCCTCAATTATAGGTCATAATTCACCATCAGTAGATTTAGGAATTTTCTCTATTCATATTGCAGGTGTATCATCAATTATAGGATCAATTAATTTTATTGTAACAATTTTAAATATACATACAAAAACTCATTCATTAAACTTTTTACCATTATTTTCATGATCAGTTCTAGTTACAGCAATTCTCCTTTTATTATCATTA#\n"
