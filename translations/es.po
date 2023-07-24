@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-06-07 13:33+0000\n"
-"PO-Revision-Date: 2023-07-21 09:36\n"
+"PO-Revision-Date: 2023-07-24 19:20\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -31,7 +31,7 @@ msgstr ""
 #: colophon.en.adoc:3
 #, no-wrap
 msgid "img/web/dna-cover.png"
-msgstr ""
+msgstr "img/web/dna-cover.png"
 
 #. type: Title ==
 #: colophon.en.adoc:6
