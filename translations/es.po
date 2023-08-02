@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-02 14:12+0000\n"
-"PO-Revision-Date: 2023-08-02 14:24\n"
+"PO-Revision-Date: 2023-08-02 16:02\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -178,17 +178,17 @@ msgstr "https://doi.org/10.35035/doc-vf1a-nr22"
 #: colophon.en.adoc:45
 #, no-wrap
 msgid "Document control"
-msgstr ""
+msgstr "Control del documento"
 
 #. type: Plain text
 #: colophon.en.adoc:48
 msgid "Version {revnumber} released on {revdate}."
-msgstr ""
+msgstr "Versión {revnumber} liberada en {revdate}."
 
 #. type: Plain text
 #: colophon.en.adoc:50
 msgid "This version adds paragraph on marine datasets and the Ocean Biodiversity Information System (OBIS) along with some minor text edits throughout."
-msgstr ""
+msgstr "Esta versión añade un párrafo sobre los conjuntos de datos marinos y el Sistema de Información sobre la Biodiversidad del Océano (OBIS) junto con algunas ediciones menores de texto."
 
 #. type: Title ===
 #: colophon.en.adoc:51
@@ -210,7 +210,7 @@ msgstr "Prefacio"
 #. type: Plain text
 #: preface.en.adoc:5
 msgid "The work on this guide started from discussions at the https://biss.pensoft.net/collection/115/[biodiversity_next conference] in 2019 consolidating inputs from various resources, such as:"
-msgstr ""
+msgstr "El trabajo sobre esta guía comenzó a partir de discusiones en la https://biss.pensoft.net/collection/115/[conferencia biodiversy_next en 2019] consolidando insumos de varios recursos, como:"
 
 #. type: Plain text
 #: preface.en.adoc:7
