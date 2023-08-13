@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-02 14:12+0000\n"
-"PO-Revision-Date: 2023-08-02 16:02\n"
+"PO-Revision-Date: 2023-08-13 22:23\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -150,7 +150,7 @@ msgstr "Colaboradores"
 #. type: Plain text
 #: colophon.en.adoc:35
 msgid "Valuable discussions with members of ELIXIR, iBOL, GGBN, GLOMICON, and OBIS networks contributed to compilation of this draft. We are especially grateful for inputs and encouragement from Andrew Bentley, Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, Gabriele Dröge, Torbjørn Ekrem, Birgit Gemeinholzer, Quentin Groom, Tim Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris Mungall, Daniel Noesgaard, Corinna Paeper, Tim Robertson, Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger who have contributed to the GBIF community review process."
-msgstr ""
+msgstr "Las valiosas discusiones con miembros de las redes ELIXIR, iBOL, GGBN, GLOMICON, y la red de OBIS contribuyeron a la compilación de este borrador. Estamos especialmente agradecidos por los aportes y la iniciativa de Andrew Bentley, Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, Gabriele Dröge, Torbjørn Ekrem, Birgit Gemeinholzer, Quentin Groom, Tim Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris Mungall, Daniel Noesgaard, Corinna Paeper, Tim Robertson, Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger quienes han contribuido en el proceso de revisión de la comunidad de GBIF."
 
 #. type: Title ===
 #: colophon.en.adoc:36
@@ -277,7 +277,7 @@ msgstr "Introducción "
 #: 100.en.adoc:3
 #, no-wrap
 msgid "Rationale"
-msgstr ""
+msgstr "Justificación"
 
 #. type: Plain text
 #: 100.en.adoc:6
