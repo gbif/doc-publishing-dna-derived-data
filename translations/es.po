@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-02 14:12+0000\n"
-"PO-Revision-Date: 2023-08-13 22:23\n"
+"PO-Revision-Date: 2023-08-13 23:48\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -48,7 +48,7 @@ msgstr "Citación sugerida"
 #. type: Plain text
 #: colophon.en.adoc:11
 msgid "Abarenkov K, Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Provoost P, Schigel D, Suominen S, Svenningsen C & Frøslev TG (2023) Publishing DNA-derived data through biodiversity data platforms, v1.3. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22."
-msgstr ""
+msgstr "Abarenkov K, Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Provoost P, Schigel D, Suominen S, Svenningsen C & Frøslev TG (2023) Publicación de datos derivados de ADN a través de plataformas de datos sobre biodiversidad, v1.3. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22."
 
 #. type: Title ===
 #: colophon.en.adoc:12
@@ -59,7 +59,7 @@ msgstr "Autores"
 #. type: Plain text
 #: colophon.en.adoc:15
 msgid "https://orcid.org/0000-0001-5526-4845[Kessy Abarenkov], mailto:kessy.abarenkov@ut.ee[kessy.abarenkov@ut.ee], Natural History Museum and Botanical Garden, University of Tartu, 46 Vanemuise Street, 51003 Tartu, Estonia"
-msgstr ""
+msgstr "https://orcid.org/0000-0001-5526-4845[Kessy Abarenkov], mailto:kessy.abarenkov@ut.ee[kessy.abarenkov@ut.ee], Natural History Museum and Botanical Garden, University of Tartu, 46 Vanemuise Street, 51003 Tartu, Estonia"
 
 #. type: Plain text
 #: colophon.en.adoc:16
@@ -161,7 +161,7 @@ msgstr "Licencia"
 #. type: Plain text
 #: colophon.en.adoc:40
 msgid "The document _Publishing DNA-derived data through biodiversity data platforms_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License]."
-msgstr ""
+msgstr "El documento _Publicación de datos derivados de ADN a través de plataformas de datos sobre biodiversidad_ está licenciado bajo https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Atribución-Compartirigual 4.0 Internacional]."
 
 #. type: Title ===
 #: colophon.en.adoc:41
@@ -199,7 +199,7 @@ msgstr "Resumen"
 #. type: Plain text
 #: colophon.en.adoc:53
 msgid "When genetic information is used to describe or classify a taxon, most users will foresee its use in the context of molecular ecology or phylogenetic research. It is important to realize that a sequence with coordinates and a timestamp is a valuable biodiversity occurrence which is useful in a much broader context than its original purpose. To realize this potential, DNA-derived data needs to be discoverable through biodiversity data platforms. This guide will teach you the principles and approaches of exposing “sequences with dates and coordinates” in the context of broader biodiversity data. The guide covers choices of particular schemas and terms, common pitfalls and good practice, without going into platform-specific details. It will benefit anyone interested in better exposure of DNA-derived data through general biodiversity data platforms, including national biodiversity portals."
-msgstr ""
+msgstr "Cuando se utiliza información genética para describir o clasificar un taxón, la mayoría de los usuarios preveerán su uso en el contexto de la ecología molecular o la investigación genética. Es importante darse cuenta de que una secuencia con coordenadas y una marca de tiempo, es una valiosa ocurrencia sobre biodiversidad que es útil en un contexto mucho más amplio que su propósito original. Para evidenciar este potencial, es necesario que los datos derivados de ADN se puedan rastrear a través de plataformas de datos sobre biodiversidad. Esta guía le enseñará los principios y enfoques para disponer “secuencias con fechas y coordenadas” en el contexto más amplio de los datos sobre biodiversidad. La guía cubre opciones de esquemas y términos particulares, fallas comunes y buenas prácticas, sin entrar en detalles específicos de las plataformas. Esto beneficiará a cualquiera que esté interesado en una mejor exposición de los datos derivados de ADN mediante plataformas de datos sobre biodiversidad, incluidos los portales nacionales."
 
 #. type: Title ==
 #: preface.en.adoc:2
@@ -210,22 +210,22 @@ msgstr "Prefacio"
 #. type: Plain text
 #: preface.en.adoc:5
 msgid "The work on this guide started from discussions at the https://biss.pensoft.net/collection/115/[biodiversity_next conference] in 2019 consolidating inputs from various resources, such as:"
-msgstr "El trabajo sobre esta guía comenzó a partir de discusiones en la https://biss.pensoft.net/collection/115/[conferencia biodiversy_next en 2019] consolidando insumos de varios recursos, como:"
+msgstr "El trabajo sobre esta guía comenzó a partir de discusiones en la https://biss.pensoft.net/collection/115/[biodiversity_next conference] en 2019, consolidando insumos de varios recursos como:"
 
 #. type: Plain text
 #: preface.en.adoc:7
 msgid "https://docs.google.com/document/d/1xtgNwxp3Lek8hqFOBWPa8nCFLEc1S6YrYg1y_HLe5I4/edit?usp=sharing[Final Report on Environomics Future Science Platform Project]"
-msgstr ""
+msgstr "https://docs.google.com/document/d/1xtgNwxp3Lek8hqFOBWPa8nCFLEc1S6YrYg1y_HLe5I4/edit?usp=sharing[Informe final sobre el proyecto de la plataforma de ciencia futura ambiental]"
 
 #. type: Plain text
 #: preface.en.adoc:8
 msgid "https://www.ala.org.au/blogs-news/edna-records-now-available-on-ala[ALA blog post eDNA records now available on ALA]"
-msgstr ""
+msgstr "https://www.ala.org.au/blogs-news/edna-records-now-available-on-ala[Nota de Blog sobre registros de eDNA disponibles en ALA]"
 
 #. type: Plain text
 #: preface.en.adoc:9
 msgid "https://www.ala.org.au/environmentaldna[Environmental DNA (eDNA) in the ALA]"
-msgstr ""
+msgstr "https://www.ala.org.au/environmentaldna[ADN ambiental (eDNA) en ALA]"
 
 #. type: Plain text
 #: preface.en.adoc:10
@@ -282,7 +282,7 @@ msgstr "Justificación"
 #. type: Plain text
 #: 100.en.adoc:6
 msgid "The last 20 years have brought an increased understanding of the immense power of molecular methods for documenting the diversity of life on earth. Seemingly lifeless and mundane substrates such as soil and sea water turn out to abound with life–although perhaps not in a way that the casual observer may immediately appreciate. DNA-based studies have shown that organism groups such as fungi, insects, oomycetes, bacteria and archaea are everywhere, although we often cannot observe them physically (https://doi.org/10.1093/femsec/fix023[Debroas et al. 2017^]). The benefits of molecular methods are not restricted to the microscopic world: there are many organisms, such as some fish species, which can at least theoretically be observed physically but for which it is very costly, labour-intensive, and perhaps invasive to do so (https://doi.org/10.1126/sciadv.aap9661[Boussarie et al. 2018^]). In such situations, DNA data enable us to record the presence (and past presence) of these organisms non-invasively and with minimal effort. These developments mean that we do not always need tangible, physical manifestations of all organisms present at some site in order to record them. All organisms, whether or not they are physically observable, may be important when it comes to understanding biodiversity, ecology and biological conservation."
-msgstr ""
+msgstr "Los últimos 20 años han traído una mayor comprensión del inmenso poder de los métodos moleculares para documentar la diversidad de la vida en la Tierra. Los sustratos aparentemente sin vida y mundanos, como el suelo y el agua de mar, resultan estar llenos de vida, aunque tal vez no de una manera que el observador casual pueda apreciar de inmediato. Estudios basados en el ADN, han demostrado que grupos de organismos como hongos, insectos, oomycetes, bacterias y archaeas están en todas partes, aunque a menudo no podemos observarlos físicamente (https://doi.org/10.1093/femsec/fix023[Debroas et al. 2017^]). Los beneficios de los métodos moleculares no se limitan al mundo microscópico: hay muchos organismos, como algunas especies de peces, que al menos teóricamente se puede observar físicamente, pero muy costosos en términos de intensidad y esfuerzo, y tal vez, los métodos para hacerlo sean invasivos (https://doi.org/10.1126/sciadv.aap9661[Boussarie et al. 2018^]). En tales situaciones, los datos del ADN nos permiten registrar la presencia (y la presencia pasada) de estos órganismos de forma no invasiva y con un esfuerzo mínimo. Estos desarrollos significan que no siempre necesitamos manifestaciones físicas tangibles de todos los órganismos presentes en algún lugar para registrarlos. Todos los organismos, sean o no físicamente observables, pueden ser importantes a la hora de entender la biodiversidad, la ecología y la conservación biológica."
 
 #. type: Plain text
 #: 100.en.adoc:8
