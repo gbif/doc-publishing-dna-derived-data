@@ -1,24 +1,30 @@
 = Publishing DNA-derived data through biodiversity data platforms
-:authorcount: 13
-:author_1: Anders F. Andersson
-:author_2: Andrew Bissett
-:author_3: Anders G. Finstad
-:author_4: Frode Fossøy
-:author_5: Marie Grosjean
-:author_6: Michael Hope
-:author_7: Thomas S. Jeppesen
-:author_8: Urmas Kõljalg
-:author_9: Daniel Lundin
-:author_10: R. Henrik Nilsson
-:author_11: Maria Prager
-:author_12: Cecilie Svenningsen
-:author_13: Dmitry Schigel
+:authorcount: 17
+// NB: There are non-breaking spaces to avoid the author names wrapping on the title page.
+:author_1: Kessy{nbsp}Abarenkov
+:author_2: Anders{nbsp}F.{nbsp}Andersson
+:author_3: Andrew{nbsp}Bissett
+:author_4: Anders{nbsp}G.{nbsp}Finstad
+:author_5: Frode{nbsp}Fossøy
+:author_6: Marie{nbsp}Grosjean
+:author_7: Michael{nbsp}Hope
+:author_8: Thomas{nbsp}S.{nbsp}Jeppesen
+:author_9: Urmas{nbsp}Kõljalg
+:author_10: Daniel{nbsp}Lundin
+:author_11: R.{nbsp}Henrik{nbsp}Nilsson
+:author_12: Maria{nbsp}Prager
+:author_13: Pieter{nbsp}Provoost
+:author_14: Dmitry{nbsp}Schigel
+:author_15: Saara{nbsp}Suominen
+:author_16: Cecilie{nbsp}Svenningsen
+:author_17: Tobias{nbsp}Guldberg{nbsp}Frøslev
 :license: https://creativecommons.org/licenses/by-sa/4.0/
 // Title
-:title-logo-image: img/web/photo.jpg
+:title-page-background-image: image:img/web/dna-cover.png[position=top center,fit=none,pdfwidth=120%]
+:title-logo-image: image:img/web/gbif-obis.svg[]
 // Revision
-:revnumber: {git-metadata-sha-short}
-:revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
+:revnumber: 1.3.0
+:revdate: 7 June 2023
 // Contents, sections
 :toc: left
 :toclevels: 3
@@ -52,4 +58,3 @@ include::300.en.adoc[]
 include::glossary.en.adoc[]
 
 include::bibliography.en.adoc[]
-

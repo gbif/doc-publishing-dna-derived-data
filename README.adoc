@@ -8,7 +8,7 @@ https://crowdin.com/project/publishing-ddd/[image:https://badges.crowdin.net/pub
 
 _This is information *about* this document's source code.  It is not part of the document._
 
-The document is available as HTML and PDF at https://docs.gbif-uat.org/publishing-dna-derived-data/1.0/en/[Publishing DNA-Derived Data Through Biodiversity Discovery Platforms].
+The document is available as HTML and PDF at https://doi.org/10.35035/doc-vf1a-nr22[Publishing DNA-Derived Data Through Biodiversity Discovery Platforms].
 
 The document is built using AsciiDoc, for guidance on how to make changes or suggestions see the https://docs.gbif.org/documentation-guidelines/[GBIF Documentation Guidelines].
 
