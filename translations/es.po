@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-14 09:12+0000\n"
-"PO-Revision-Date: 2023-08-14 10:28\n"
+"PO-Revision-Date: 2023-08-14 14:51\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -287,7 +287,7 @@ msgstr "Los últimos 20 años han traído una mayor comprensión del inmenso pod
 #. type: Plain text
 #: 100.en.adoc:8
 msgid "DNA-derived data enable us to record inconspicuous or otherwise unobservable taxa that fall below the radar of vetted protocols for field work, checklists, depositions into natural science collections, etc. The current maturity of DNA methodologies enables us to record the presence of these organisms to a level of detail that exceeds that of macroscopic observations of organisms in general. However, bearing in mind that DNA methodologies comes with their own problems and biases, it is important to use this moment to define and agree how we should record and report on an organism as present in some substrate or locality through molecular data. Doing so will help avoid significant inefficiencies that have been reported in other domains, in which the lack of standards and guidance has led to very heterogeneous and largely incomparable bodies of data (https://doi.org/10.1002/edn3.173[Berry et al. 2021^]; https://doi.org/10.1089/omi.2006.10.231[Leebens-Mack et al. 2006^]; https://doi.org/10.1038/nbt.1823[Yilmaz et al. 2011^]; https://doi.org/10.3897/mycokeys.4.3606[Nilsson et al. 2012^]; https://doi.org/10.7717/peerj.14993[Shea et al. 2023^]). Moreover, clear documentation of the computational processing from raw sequence reads to deduced species observation, will enable reanalysis when improved methods appear."
-msgstr ""
+msgstr "Los datos derivados de ADN nos permiten registrar taxones apenas visibles o inobservables que caen por fuera del radar de los protocolos para el trabajo de campo, listas de chequeo, depósitos en colecciones científicas, etc. La madurez actual de las metodologías de ADN nos permite registrar la presencia de estos organismos con un nivel de detalle que supera el de las observaciones macroscópicas de los organismos en general. Sin embargo, teniendo en cuenta que las metodologías del ADN vienen con sus propios problemas y sesgos, es importante aprovechar este momento para definir y acordar cómo debemos registrar e informar sobre un organismo presente en algún substrato o localidad a través de datos moleculares. Hacerlo ayudará a evitar ineficiencias significativas que han sido reportadas en otros dominios, en los cuales, la falta de estándares y directrices ha llevado a tener estructuras de datos muy heterogéneas e incomparables en gran medida (https://doi.org/10.1002/edn3.173[Berry et al. 2021^]; https://doi.org/10.1089/omi.2006.10.231[Leebens-Mack et al. 2006^]; https://doi.org/10.1038/nbt.1823[Yilmaz et al. 2011^]; https://doi.org/10.3897/mycokeys.4.3606[Nilsson et al. 2012^]; https://doi.org/10.7717/peerj.14993[Shea et al. 2023^]). Además, una documentación clara del procesamiento computacional desde la lectura de la secuencia en bruto hasta la deducción de la observación de una especies, permitirá re-analizarlas cuando aparezcan métodos mejorados."
 
 #. type: Plain text
 #: 100.en.adoc:10
