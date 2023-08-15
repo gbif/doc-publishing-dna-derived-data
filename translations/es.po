@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-14 09:12+0000\n"
-"PO-Revision-Date: 2023-08-14 23:25\n"
+"PO-Revision-Date: 2023-08-15 00:26\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -302,7 +302,7 @@ msgstr "Esta guía describe las formas en las que se deben reportar los datos de
 #. type: Plain text
 #: 100.en.adoc:14
 msgid "Reporting DNA-derived occurrences in an open and reproducible way brings many benefits: notably, it increases citability, highlights the taxa concerned in the context of biological conservation and contributes to taxonomic and ecological knowledge. Additionally, it also provides a mechanism to store occurrence records of undescribed species. When this yet to be described taxon is finally linked to a new Linnaean name, all these linked occurrence records will be immediately available. Each of these benefits provides a strong rationale for professionals to adopt the practices outlined in this guide, helping them to highlight a significant proportion of extant biodiversity, hasten its discovery and integrate it into biological conservation and policy-making."
-msgstr ""
+msgstr "Reportar las ocurrencias derivadas de DNA-de una manera abierta y reproducible trae muchos beneficios: en particular, aumenta la citabilidad, destaca los taxones afectados en el contexto de la conservación biológica y contribuye al conocimiento taxonómico y ecológico. Además, también proporciona un mecanismo para almacenar registros de ocurrencia de especies no descritas. Cuando estos taxones, aún por describir, finalmente se vinculen a un nuevo nombre linneano, todos estos registros de ocurrencia estarán disponibles inmediatamente. Cada uno de estos beneficios proporciona una fuerte justificación para que los profesionales adopten las prácticas esbozadas en esta guía, ayudándolos a destacar una proporción significativa de la biodiversidad existente, acelerando su descubrimiento e integrándolo en la conservación biológica y la elaboración de políticas."
 
 #. type: Title ===
 #: 100.en.adoc:15
@@ -313,7 +313,7 @@ msgstr "Público objetivo"
 #. type: Plain text
 #: 100.en.adoc:18
 msgid "This guide has been developed for multiple target audiences: students planning a first DNA-based study, researchers with old sequences and abundance tables they want to revive or preserve, biodiversity data specialists who are new to DNA-derived occurrences, and bioinformaticians familiar with sequence data but new to biodiversity data platforms. The guide does not directly target users of molecular data in biodiversity data platforms, but such users may find <<outputs,section 1.7 on Outputs>> particularly interesting. The authors' intention is to provide guidance on publishing data and associated attributes from genetic sequence through general biodiversity data platforms."
-msgstr ""
+msgstr "Esta guía ha sido desarrollada para múltiples audiencias objetivo: estudiantes que planean un primer estudio basado en ADN, investigadores con secuencias antiguas y tablas de abundancia que quieren revivir o conservar, especialistas en datos sobre biodiversidad que son nuevos en los datos derivadas de ADN y bioinformáticos familiarizados con los datos de secuencia pero nuevos en las plataformas de datos sobre biodiversidad. La guía no se dirige directamente a los usuarios de datos moleculares en plataformas de datos sobre biodiversidad, pero estos usuarios pueden encontrar <<resultados,section 1.7 Resultados>> particularmente interesantes. La intención de los autores es proporcionar orientación sobre la publicación de datos y atributos asociados a las secuencias genéticas a través de plataformas de datos sobre biodiversidad en general."
 
 #. type: Plain text
 #: 100.en.adoc:20
