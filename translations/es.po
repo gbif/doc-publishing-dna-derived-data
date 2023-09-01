@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-09-01 16:27\n"
+"PO-Revision-Date: 2023-09-01 17:27\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -79,67 +79,67 @@ msgstr "https://orcid.org/0000-0003-4529-6266[Anders G. Finstad], mailto:anders.
 #. type: Plain text
 #: colophon.en.adoc:19
 msgid "https://orcid.org/0000-0002-7535-9574[Frode Fossøy], mailto:Frode.Fossoy@nina.no[Frode.Fossoy@nina.no], Centre for Biodiversity Genetics (NINAGEN), Norwegian institute for nature research (NINA), P.O. Box 5685 Torgarden, NO-7485 Trondheim, Norway"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-7535-9574[Frode Fossøy], mailto:Frode.Fossoy@nina.no[Frode.Fossoy@nina.no], Centre for Biodiversity Genetics (NINAGEN), Norwegian institute for nature research (NINA), P.O. Box 5685 Torgarden, NO-7485 Trondheim, Noruega"
 
 #. type: Plain text
 #: colophon.en.adoc:20
 msgid "https://orcid.org/0000-0002-2685-8078[Marie Grosjean], mailto:mgrosjean@gbif.org[mgrosjean@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-2685-8078[Marie Grosjean], mailto:mgrosjean@gbif.org[mgrosjean@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Dinamarca"
 
 #. type: Plain text
 #: colophon.en.adoc:21
 msgid "https://orcid.org/0000-0002-4827-3310[Michael Hope], mailto:Michael.Hope@ga.gov.au[Michael.Hope@ga.gov.au], Atlas of Living Australia, CSIRO National Collections & Marine Infrastructure, GPO Box 1700, Canberra ACT 2601, Australia."
-msgstr ""
+msgstr "https://orcid.org/0000-0002-4827-3310[Michael Hope], mailto:Michael.Hope@ga.gov.au[Michael.Hope@ga.gov.au], Atlas of Living Australia, CSIRO National Collections & Marine Infrastructure, GPO Box 1700, Canberra ACT 2601, ealia."
 
 #. type: Plain text
 #: colophon.en.adoc:22
 msgid "https://orcid.org/0000-0003-1691-239X[Thomas S. Jeppesen], mailto:tsjeppesen@gbif.org[tsjeppesen@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr ""
+msgstr "https://orcid.org/0000-0003-1691-239X[Thomas S. Jeppesen], mailto:tsjeppesen@gbif.org[tsjeppesen@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
 
 #. type: Plain text
 #: colophon.en.adoc:23
 msgid "https://orcid.org/0000-0002-5171-1668[Urmas Kõljalg], mailto:urmas.koljalg@ut.ee[urmas.koljalg@ut.ee], Natural History Museum and Botanical Garden, University of Tartu, 46 Vanemuise Street, 51003 Tartu, Estonia."
-msgstr ""
+msgstr "https://orcid.org/0000-0002-5171-1668[Urmas Kõljalg], mailto:urmas.koljalg@ut.ee[urmas.koljalg@ut.ee], Museo de Historia Natural y Jardín Botánico, Universidad de Tartu, calle 46 Vanemuise, 51003 Tartu, Estonia."
 
 #. type: Plain text
 #: colophon.en.adoc:24
 msgid "https://orcid.org/0000-0002-8779-6464[Daniel Lundin], mailto:daniel.lundin@lnu.se[daniel.lundin@lnu.se], Centre for Ecology and Evolution in Microbial model Systems - EEMiS, Linnaeus University, SE-39182 Kalmar, Sweden"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-8779-6464[Daniel Lundin], mailto:daniel.lundin@lnu.se[daniel.lundin@lnu.se], Centro de Ecología y Evolución en Sistemas de Modelo Microbiano - EEMiS, Universidad de Linnaeus, SE-39182 Kalmar, Suecia"
 
 #. type: Plain text
 #: colophon.en.adoc:25
 msgid "https://orcid.org/0000-0002-8052-0107[R. Henrik Nilsson], mailto:henrik.nilsson@bioenv.gu.se[henrik.nilsson@bioenv.gu.se], University of Gothenburg, Department of Biological and Environmental Sciences, Box 461, 405 30 Göteborg, Sweden"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-8052-0107[R. Henrik Nilsson], mailto:henrik.nilsson@bioenv.gu.se[henrik.nilsson@bioenv.gu.se], Universidad de Gothenburg, Departamento de Ciencias Biológicas y Ambientales, Box 461, 405 30 Goëteborg, Suecia"
 
 #. type: Plain text
 #: colophon.en.adoc:26
 msgid "https://orcid.org/0000-0003-4897-8422[Maria Prager], mailto:maria.prager@scilifelab.se[maria.prager@scilifelab.se], Science for Life Laboratory, Department of Ecology, Environment and Plant Sciences, Stockholm University; Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet"
-msgstr ""
+msgstr "https://orcid.org/0000-0003-4897-8422[Maria Prager], mailto:maria.pragmer@scilifelab.se[maria.pragmer@scilifelab.se], Science for Life Laboratory, Department of Ecology, Environment and Plant Sciences, Stockholm University; Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet"
 
 #. type: Plain text
 #: colophon.en.adoc:27
 msgid "https://orcid.org/0000-0002-4236-0384[Pieter Provoost], mailto:p.provoost@unesco.org[p.provoost@unesco.org], Ocean Biodiversity Information System, Jacobsenstraat 1, 8400 Oostende, Belgium"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-4236-0384[Pieter Provoost], mailto:p.provoost@unesco.org[p.provoost@unesco.org], Ocean Biodiversity Information Systemem, Jacobsenstraat 1, 8400 Oostende, Bélgica"
 
 #. type: Plain text
 #: colophon.en.adoc:28
 msgid "https://orcid.org/0000-0002-2919-1168[Dmitry Schigel], mailto:dschigel@gbif.org[dschigel@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-2919-1168[Dmitry Grosjean], mailto:mgrosjean@gbif.org[dschigel@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Dinamarca"
 
 #. type: Plain text
 #: colophon.en.adoc:29
 msgid "https://orcid.org/0000-0002-2919-1168[Saara Suominen], mailto:s.suominen@unesco.org[s.suominen@unesco.org], Ocean Biodiversity Information System, Jacobsenstraat 1, 8400 Oostende, Belgium"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-2919-1168[Saara Provoost], mailto:s.suominen@unesco.org[s.suominen@unesco.org], Ocean Biodiversity Information Systemem, Jacobsenstraat 1, 8400 Oostende, Bélgica"
 
 #. type: Plain text
 #: colophon.en.adoc:30
 msgid "https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen], mailto:csvenningsen@gbif.org[csvenningsen@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-9216-2917[Cecilie S. Jeppesen], mailto:tsjeppesen@gbif.org[csvenningsen@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
 
 #. type: Plain text
 #: colophon.en.adoc:31
 msgid "https://orcid.org/0000-0002-3530-013X[Tobias Guldberg Frøslev], mailto:tfroeslev@gbif.org[tfroeslev@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-3530-013X[Tobias Guldberg Frøslev], mailto:tfroeslev@gbif.org[tfroeslev@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
 
 #. type: Title ===
 #: colophon.en.adoc:32
@@ -230,42 +230,42 @@ msgstr "https://www.ala.org.au/environmentaldna[ADN ambiental (eDNA) en ALA]"
 #. type: Plain text
 #: preface.en.adoc:10
 msgid "https://www.ala.org.au/app/uploads/2019/04/Simple-template-for-eDNA-data-entry-to-ALA-v2-1.xlsx[ALA eDNA data template]"
-msgstr ""
+msgstr "https://www.ala.org.au/app/uploads/2019/04/Simple-template-for-eDNA-data-entry-to-ALA-v2-1.xlsx[ALA eDNA data template]"
 
 #. type: Plain text
 #: preface.en.adoc:11
 msgid "https://www.miljodirektoratet.no/globalassets/publikasjoner/m1638/m1638.pdf?fbclid=IwAR08bK8C15ebZoGjUmxPgGz364WgFnDq9uT4CKR6aDHR1sUcOfhu7AYO69M[Norwegian Criteria for depositing eDNA samples and data, including vouchered specimens]"
-msgstr ""
+msgstr "https://www.miljodirektoratet.no/globalassets/publikasjoner/m1638/m1638.pdf?fbclid=IwAR08bK8C15ebZoGjUmxPgGz364WgFnDq9uT4CKR6aDHR1sUcOfhu7AYO69M[Norwegian Criteria for depositing eDNA samples and data, including vouchered specimens]"
 
 #. type: Plain text
 #: preface.en.adoc:12
 msgid "https://biodiversitydata-se.github.io/mol-data[Molecular biodiversity data in SBDI, Sweden]"
-msgstr ""
+msgstr "https://biodiversitydata-se.github.io/mol-data[Molecular biodiversity data in SBDI, Sweden]"
 
 #. type: Plain text
 #: preface.en.adoc:13
 msgid "https://www.gbif.org/faq?question=how-can-i-publish-molecular-data-to-gbif[GBIF resources (How) can I publish molecular/sequence/DNA based data to GBIF?]"
-msgstr ""
+msgstr "https://www.gbif.org/faq?question=how-can-i-publish-molecular-data-to-gbif[GBIF resources (How) can I publish molecular/sequence/DNA based data to GBIF?]"
 
 #. type: Plain text
 #: preface.en.adoc:14
 msgid "https://data-blog.gbif.org/post/gbif-molecular-data[Molecular data in GBIF]"
-msgstr ""
+msgstr "https://data-blog.gbif.org/post/gbif-molecular-data[Molecular data in GBIF]"
 
 #. type: Plain text
 #: preface.en.adoc:15
 msgid "https://www.gbif.org/publishing-data[GBIF quick guide to publishing data and detailed guides to publishing data]"
-msgstr ""
+msgstr "https://www.gbif.org/publishing-data[GBIF quick guide to publishing data and detailed guides to publishing data]"
 
 #. type: Plain text
 #: preface.en.adoc:16
 msgid "https://github.com/gbif/ipt/wiki/howToPublish#instructions[How to publish data to GBIF], as well as DwC/extension field overview."
-msgstr ""
+msgstr "https://github.com/gbif/ipt/wiki/howToPublish#instructions[How to publish data to GBIF], as well as DwC/extension field overview."
 
 #. type: Plain text
 #: preface.en.adoc:16
 msgid "https://github.com/tdwg/gbwg[Genomic Biodiversity Interest Group]"
-msgstr ""
+msgstr "https://github.com/tdwg/gbwg[Genomic Biodiversity Interest Group]"
 
 #. type: Title ==
 #: 100.en.adoc:1
