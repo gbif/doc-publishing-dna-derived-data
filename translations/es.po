@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-09-18 20:32\n"
+"PO-Revision-Date: 2023-09-18 21:34\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -352,13 +352,13 @@ msgstr "Introducción a datos de ocurrencias derivados de DNA"
 #. type: Plain text
 #: 100.en.adoc:35
 msgid "DNA-derived biological occurrence data include information derived from DNA from individual organisms, but also from environmental DNA (eDNA, i.e. DNA extracted from environmental samples, https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen & Willerslev 2015^]) and from bulk samples comprising many individuals (e.g. plankton samples or Malaise trap samples consisting of multiple individuals from many species). Currently, the greatest volume of DNA-derived occurrence data derives from eDNA. Since analytical methods and end products are largely similar for all sample sources, the discussion below will focus on eDNA (<<category-i>> and <<category-ii>>), noting that the outline is applicable to the other sources. Surveys often utilize targeted sequencing of taxonomically and phylogenetically informative genetic markers, but can also use, for example, qPCR-based approaches that do not directly result in DNA sequence data (<<category-iii>> and <<mapping-ddpcr-qpcr-data>>). This guide may appear heavy in DNA related terms; if this is the case, please consult the <<glossary>>."
-msgstr ""
+msgstr "Los datos biológicos derivados de ADN incluyen información derivada de ADN de organismos individuales, pero también de ADN ambiental (eDNA, es decir, ADN extraído de muestras ambientales, https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen & Willerslev 2015^]) y de muestras masivas que componen a muchos individuos (e.g. Las muestras de plankton o muestras de trampas de Malaise que consisten en múltiples individuos de múltiples especies). En la actualidad, el mayor volumen de datos de ocurrencia derivados de la ADN privienen del eDNA. Desde que los métodos analíticos y los productos finales son en gran medida similares para todas las fuentes de muestras, la siguiente discusión se centrará en el eDNA (<<category-i>> y <<category-ii>>), teniendo en cuenta que el contorno es aplicable a otras fuentes. Las investigaciones a menudo utilizan secuencias selectivas de marcadores genéticos taxonómicos e informativos, pero también pueden usarlos por ejemplo, enfoques basados en qPCR, que no resultan directamente en datos de secuencia de ADN (<<category-iii>> y <<mapping-ddpcr-qpcr-data>>). Esta guía puede parecer pesada en términos relacionados con el ADN; si este es el caso, consulte el <<glossary>>."
 
 #. type: Title ====
 #: 100.en.adoc:36
 #, no-wrap
 msgid "Environmental DNA as a source for DNA-derived occurrence data"
-msgstr ""
+msgstr "ADN ambiental como fuente de datos de ocurrencia derivados de DNA"
 
 #. type: Plain text
 #: 100.en.adoc:39
