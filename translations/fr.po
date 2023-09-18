@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-09-18 14:28\n"
+"PO-Revision-Date: 2023-09-18 16:19\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -282,7 +282,7 @@ msgstr "Justification"
 #. type: Plain text
 #: 100.en.adoc:6
 msgid "The last 20 years have brought an increased understanding of the immense power of molecular methods for documenting the diversity of life on earth. Seemingly lifeless and mundane substrates such as soil and sea water turn out to abound with life–although perhaps not in a way that the casual observer may immediately appreciate. DNA-based studies have shown that organism groups such as fungi, insects, oomycetes, bacteria and archaea are everywhere, although we often cannot observe them physically (https://doi.org/10.1093/femsec/fix023[Debroas et al. 2017^]). The benefits of molecular methods are not restricted to the microscopic world: there are many organisms, such as some fish species, which can at least theoretically be observed physically but for which it is very costly, labour-intensive, and perhaps invasive to do so (https://doi.org/10.1126/sciadv.aap9661[Boussarie et al. 2018^]). In such situations, DNA data enable us to record the presence (and past presence) of these organisms non-invasively and with minimal effort. These developments mean that we do not always need tangible, physical manifestations of all organisms present at some site in order to record them. All organisms, whether or not they are physically observable, may be important when it comes to understanding biodiversity, ecology and biological conservation."
-msgstr ""
+msgstr "Les 20 dernières années ont permis de mieux comprendre l'immense pouvoir des méthodes moléculaires pour documenter la diversité de la vie sur terre. Des substrats apparemment sans vie et banals, tels que le sol et l'eau de mer, s'avèrent regorger de vie, même si ce n'est pas d'une manière que l'observateur occasionnel pourrait immédiatement apprécier. Des études basées sur l'ADN ont montré que des groupes d'organismes tels que les champignons, les insectes, les oomycètes, les bactéries et les archaea sont partout, même si nous ne pouvons souvent pas les observer physiquement (https://doi.org/10.1093/femsec/fix023[Debroas et al. 2017^]). Les avantages des méthodes moléculaires ne se limitent pas au monde microscopique : il existe de nombreux organismes, tels que certaines espèces de poissons, qui peuvent au moins théoriquement être observés physiquement, mais pour lesquels il est très coûteux, laborieux et peut-être invasif de le faire (https://doi.org/10.1126/sciadv.aap9661[Boussarie et al. 2018^]). Dans de telles situations, les données ADN nous permettent d'enregistrer la présence (et la présence passée) de ces organismes de manière non invasive et avec un minimum d'effort. Ces développements signifient qu'il n'est pas toujours nécessaire d'avoir des manifestations tangibles et physiques de tous les organismes présents sur un site donné pour les enregistrer. Tous les organismes, qu'ils soient ou non physiquement observables, peuvent être importants pour comprendre la biodiversité, l'écologie et la conservation biologique."
 
 #. type: Plain text
 #: 100.en.adoc:8
@@ -2307,37 +2307,37 @@ msgstr "Références"
 #. type: Plain text
 #: bibliography.en.adoc:5
 msgid "[[amid]]Amid C, Alako BT, Balavenkataraman Kadhirvelu V, Burdett T, Burgin J, Fan J, Harrison PW, Holt S, Hussein A, Ivanov E & Jayathilaka S (2020) The European Nucleotide Archive in 2019. Nucleic acids research 48(D1): D70-D76. https://doi.org/10.1093/nar/gkz1063"
-msgstr ""
+msgstr "[[amid]] Amid C, Alako BT, Balavenkataraman Kadhirvelu V, Burdett T, Burgin J, Fan J, Harrison PW, Holt S, Hussein A, Ivanov E & Jayathilaka S (2020) The European Nucleotide Archive in 2019. Nucleic acids research 48(D1): D70-D76. https://doi.org/10.1093/nar/gkz1063"
 
 #. type: Plain text
 #: bibliography.en.adoc:6
 msgid "[[andersen]]Andersen K, Bird KL, Rasmussen M, Haile J, Breuning-Madsen H, Kjaer KH, Orlando L, Gilbert MTP and Willerslev E (2012) Meta-Barcoding of ‘Dirt’ DNA from Soil Reflects Vertebrate Biodiversity. Molecular Ecology 21(8): 1966–79. https://doi.org/10.1111/j.1365-294X.2011.05261.x"
-msgstr ""
+msgstr "[[andersen]] Andersen K, Bird KL, Rasmussen M, Haile J, Breuning-Madsen H, Kjaer KH, Orlando L, Gilbert MTP and Willerslev E (2012) Meta-Barcoding of ‘Dirt’ DNA from Soil Reflects Vertebrate Biodiversity. Molecular Ecology 21(8): 1966–79. https://doi.org/10.1111/j.1365-294X.2011.05261.x"
 
 #. type: Plain text
 #: bibliography.en.adoc:7
 msgid "[[benson]]Benson DA, Karsch-Mizrachi I, Lipman DJ, Ostell J, Wheeler DL (2006) GenBank, Nucleic Acids Research, 34(1): D16–D20, https://doi.org/10.1093/nar/gkj157"
-msgstr ""
+msgstr "[[benson]]Benson DA, Karsch-Mizrachi I, Lipman DJ, Ostell J, Wheeler DL (2006) GenBank, Nucleic Acids Research, 34(1): D16–D20, https://doi.org/10.1093/nar/gkj157"
 
 #. type: Plain text
 #: bibliography.en.adoc:8
 msgid "[[berry]]Berry O, Jarman S, Bissett A, Hope M, Paeper C, Bessey C, Schwartz MK, Hale J & Bunce M (2021) Making environmental DNA (eDNA) biodiversity records globally accessible. Environmental DNA, 3(4), 699-705. https://doi.org/10.1002/edn3.173"
-msgstr ""
+msgstr "[[berry]]Berry O, Jarman S, Bissett A, Hope M, Paeper C, Bessey C, Schwartz MK, Hale J & Bunce M (2021) Making environmental DNA (eDNA) biodiversity records globally accessible. Environmental DNA, 3(4), 699-705. https://doi.org/10.1002/edn3.173"
 
 #. type: Plain text
 #: bibliography.en.adoc:9
 msgid "[[bessey]]Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74"
-msgstr ""
+msgstr "[[bessey]]Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74"
 
 #. type: Plain text
 #: bibliography.en.adoc:10
 msgid "[[biggs]]Biggs J, Ewald N, Valentini A, Gaboriaud C, Dejean T, Griffiths RA, Foster J, et al. (2015) Using eDNA to Develop a National Citizen Science-Based Monitoring Programme for the Great Crested Newt (_Triturus cristatus_). Biological Conservation 183: 19–28. https://doi.org/10.1016/j.biocon.2014.11.029"
-msgstr ""
+msgstr "[[biggs]]Biggs J, Ewald N, Valentini A, Gaboriaud C, Dejean T, Griffiths RA, Foster J, et al. (2015) Using eDNA to Develop a National Citizen Science-Based Monitoring Programme for the Great Crested Newt (_Triturus cristatus_). Biological Conservation 183: 19–28. https://doi.org/10.1016/j.biocon.2014.11.029"
 
 #. type: Plain text
 #: bibliography.en.adoc:11
 msgid "[[blaxter]]Blaxter M, Mann J, Chapman T, Thomas F, Whitton C, Floyd R & Abebe E (2005) Defining operational taxonomic units using DNA barcode data. Philosophical Transactions of the Royal Society B: Biological Sciences 360(1462): 1935-1943. https://doi.org/10.1098/rstb.2005.1725"
-msgstr ""
+msgstr "[[blaxter]]Blaxter M, Mann J, Chapman T, Thomas F, Whitton C, Floyd R & Abebe E (2005) Defining operational taxonomic units using DNA barcode data. Philosophical Transactions of the Royal Society B: Biological Sciences 360(1462): 1935-1943. https://doi.org/10.1098/rstb.2005.1725"
 
 #. type: Plain text
 #: bibliography.en.adoc:12
