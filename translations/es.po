@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-09-01 17:27\n"
+"PO-Revision-Date: 2023-09-18 20:32\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -318,36 +318,36 @@ msgstr "Esta guía ha sido desarrollada para múltiples audiencias objetivo: est
 #. type: Plain text
 #: 100.en.adoc:20
 msgid "The <<figure-workflow,flowchart>> outlines the processing steps involved in publishing amplicon-derived molecular biodiversity data in repositories such as GBIF and national biodiversity data platforms, including those built on the ALA platform. This guide’s focus is primarily on the steps following the arrival of raw <<fastq,FASTQ>> sequences from the sequencing step. By familiarizing themselves with the flowchart—and noting any steps that appear familiar or unclear—users will be able to navigate the content included in the guide."
-msgstr ""
+msgstr "El <<figure-workflow,flowchart>> esboza los pasos de procesamiento involucrados en la publicación de datos de biodiversidad molecular derivados del amplicón, en repositorios como GBIF y plataformas nacionales de datos sobre biodiversidad, incluyendo aquellos construidos en la plataforma ALA. El enfoque de esta guía está principalmente en los pasos posteriores a la llegada de secuencias crudas <<fastq,FASTQ>> del paso de secuenciación. Al familiarizarse con el diagrama de flujo —y tener en cuenta cualquier paso que parezca familiar o poco claro— los usuarios podrán navegar por el contenido incluido en la guía."
 
 #. type: Block title
 #: 100.en.adoc:22
 #, no-wrap
 msgid "Overall workflow for DNA sequence-derived biodiversity data as described in this guide."
-msgstr ""
+msgstr "Flujo de trabajo general para los datos sobre biodiversidad derivados de secuencias de ADN, tal y como se describe en esta guía."
 
 #. type: Target for macro image
 #: 100.en.adoc:24
 #, no-wrap
 msgid "img/print/sequence-publishing-guide.en.png"
-msgstr ""
+msgstr "amplicon-derived"
 
 #. type: Target for macro image
 #: 100.en.adoc:27
 #, no-wrap
 msgid "img/web/sequence-publishing-guide.en.svg"
-msgstr ""
+msgstr "img/web/sequence-publishing-guide.en.svg"
 
 #. type: Plain text
 #: 100.en.adoc:31
 msgid "We have done our best to present the information in this guide so that it is useful for each of the audiences described above, but background reading (e.g. https://www.gbif.org/publishing-data[GBIF quick guide to data publishing]) may be required in certain cases."
-msgstr ""
+msgstr "Hemos hecho todo lo posible por presentar la información en esta guía de forma que sea útil para cada una de las audiencias descritas anteriormente, pero una lectura a fondo (e.g. https://www.gbif.org/publishing-data[GBIF quick guide to data publishing]) puede ser requerida en ciertos casos."
 
 #. type: Title ===
 #: 100.en.adoc:32
 #, no-wrap
 msgid "Introduction to DNA-derived occurrence data"
-msgstr ""
+msgstr "Introducción a datos de ocurrencias derivados de DNA"
 
 #. type: Plain text
 #: 100.en.adoc:35
