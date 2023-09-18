@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
-"POT-Creation-Date: 2023-08-14 09:12+0000\n"
-"PO-Revision-Date: 2023-08-14 10:28\n"
+"POT-Creation-Date: 2023-08-15 13:08+0000\n"
+"PO-Revision-Date: 2023-09-18 14:28\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -59,7 +59,7 @@ msgstr "Auteurs"
 #. type: Plain text
 #: colophon.en.adoc:15
 msgid "https://orcid.org/0000-0001-5526-4845[Kessy Abarenkov], mailto:kessy.abarenkov@ut.ee[kessy.abarenkov@ut.ee], Natural History Museum and Botanical Garden, University of Tartu, 46 Vanemuise Street, 51003 Tartu, Estonia"
-msgstr ""
+msgstr "https://orcid.org/0000-0001-5526-4845[Kessy Kõljalg], mailto:kessy.abarenkov@ut.ee[kessy.abarenkov@ut.ee], Natural History Museum and Botanical Garden, University of Tartu, 46 Vanemuise Street, 51003 Tartu, Estonia"
 
 #. type: Plain text
 #: colophon.en.adoc:16
@@ -74,12 +74,12 @@ msgstr "https://orcid.org/0000-0001-7396-1484[Andrew Bissett], mailto:Andrew.Bis
 #. type: Plain text
 #: colophon.en.adoc:18
 msgid "https://orcid.org/0000-0003-4529-6266[Anders G. Finstad], mailto:anders.finstad@ntnu.no[anders.finstad@ntnu.no], Department of Natural History, Centre for Biodiversity Dynamics, Norwegian University of Science and Technology, Trondheim, Norway"
-msgstr ""
+msgstr "https://orcid.org/0000-0003-4529-6266[Anders G. Finstad], mailto:anders.finstad@ntnu.no[anders.finstad@ntnu.no], Department of Natural History, Centre for Biodiversity Dymamics, Norwegian University of Science and Technology, Trondheim, Norway"
 
 #. type: Plain text
 #: colophon.en.adoc:19
 msgid "https://orcid.org/0000-0002-7535-9574[Frode Fossøy], mailto:Frode.Fossoy@nina.no[Frode.Fossoy@nina.no], Centre for Biodiversity Genetics (NINAGEN), Norwegian institute for nature research (NINA), P.O. Box 5685 Torgarden, NO-7485 Trondheim, Norway"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-7535-9574[Frode Fossøy], mailto:Frode.Fossoy@nina.no[Frode.Fossoy@nina.no], Centre for Biodiversity Genetics (NINAGEN), Norwegian institute for nature research (NINA), P.O. Box 5685 Torgarden, NO-7485 Trondheim, Norway"
 
 #. type: Plain text
 #: colophon.en.adoc:20
@@ -89,12 +89,12 @@ msgstr "https://orcid.org/0000-0002-2685-8078[Marie Grosjean], mailto:mgrosjean@
 #. type: Plain text
 #: colophon.en.adoc:21
 msgid "https://orcid.org/0000-0002-4827-3310[Michael Hope], mailto:Michael.Hope@ga.gov.au[Michael.Hope@ga.gov.au], Atlas of Living Australia, CSIRO National Collections & Marine Infrastructure, GPO Box 1700, Canberra ACT 2601, Australia."
-msgstr ""
+msgstr "https://orcid.org/0000-0002-4827-3310[Michael Hope], mailto:Michael.Hope@ga.gov.au[Michael.Hope@ga.gov.au], Atlas of Living Australia, CSIRO National Collections & Marine Infrastructure, GPO Box 1700, Canberra ACT 2601, Australia."
 
 #. type: Plain text
 #: colophon.en.adoc:22
 msgid "https://orcid.org/0000-0003-1691-239X[Thomas S. Jeppesen], mailto:tsjeppesen@gbif.org[tsjeppesen@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr ""
+msgstr "https://orcid.org/0000-0003-1691-239X[Thomas S. Jeppesen], mailto:tsjeppesen@gbif.org[tsjeppesen@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
 
 #. type: Plain text
 #: colophon.en.adoc:23
@@ -119,7 +119,7 @@ msgstr "https://orcid.org/0000-0003-4897-8422[Maria Prager], mailto:maria.prager
 #. type: Plain text
 #: colophon.en.adoc:27
 msgid "https://orcid.org/0000-0002-4236-0384[Pieter Provoost], mailto:p.provoost@unesco.org[p.provoost@unesco.org], Ocean Biodiversity Information System, Jacobsenstraat 1, 8400 Oostende, Belgium"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-4236-0384[Pieter Provoost], mailto:p.provoost@unesco.org[p.provoost@unesco.org], Ocean Biodiversity Information System, Jacobsenstraat 1, 8400 Oostende, Belgium"
 
 #. type: Plain text
 #: colophon.en.adoc:28
@@ -129,17 +129,17 @@ msgstr "https://orcid.org/0000-0002-2919-1168[Dmitry Schigel], mailto:dschigel@g
 #. type: Plain text
 #: colophon.en.adoc:29
 msgid "https://orcid.org/0000-0002-2919-1168[Saara Suominen], mailto:s.suominen@unesco.org[s.suominen@unesco.org], Ocean Biodiversity Information System, Jacobsenstraat 1, 8400 Oostende, Belgium"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-2919-1168[Saara Suominen], mailto:s.suominen@unesco.org[s.suominen@unesco.org], Ocean Biodiversity Information System, Jacobsenstraat 1, 8400 Oostende, Belgium"
 
 #. type: Plain text
 #: colophon.en.adoc:30
 msgid "https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen], mailto:csvenningsen@gbif.org[csvenningsen@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen], mailto:csvenningsen@gbif.org[csvenningsen@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
 
 #. type: Plain text
 #: colophon.en.adoc:31
 msgid "https://orcid.org/0000-0002-3530-013X[Tobias Guldberg Frøslev], mailto:tfroeslev@gbif.org[tfroeslev@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-3530-013X[Tobias Guldberg Frøslev], mailto:tfroeslev@gbif.org[tfroeslev@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
 
 #. type: Title ===
 #: colophon.en.adoc:32
@@ -150,7 +150,7 @@ msgstr "Contributeurs"
 #. type: Plain text
 #: colophon.en.adoc:35
 msgid "Valuable discussions with members of ELIXIR, iBOL, GGBN, GLOMICON, and OBIS networks contributed to compilation of this draft. We are especially grateful for inputs and encouragement from Andrew Bentley, Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, Gabriele Dröge, Torbjørn Ekrem, Birgit Gemeinholzer, Quentin Groom, Tim Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris Mungall, Daniel Noesgaard, Corinna Paeper, Tim Robertson, Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger who have contributed to the GBIF community review process."
-msgstr ""
+msgstr "De précieuses discussions avec les membres des réseaux ELIXIR, iBOL, GGBN, GLOMICON et OBIS ont contribué à la compilation de ce projet. Nous sommes particulièrement reconnaissants pour les contributions et les encouragements d'Andrew Bentley, Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, Gabriele Dröge, Torbjørn Ekrem, Birgit Gemeinholzer, Quentin Groom, Tim Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris Mungall, Daniel Noesgaard, Corinna Paeper, Tim Robertson, Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger qui ont contribué au processus de révision de la communauté GBIF."
 
 #. type: Title ===
 #: colophon.en.adoc:36
@@ -183,12 +183,12 @@ msgstr "Contrôle du document"
 #. type: Plain text
 #: colophon.en.adoc:48
 msgid "Version {revnumber} released on {revdate}."
-msgstr ""
+msgstr "Version {revnumber} publiée sur {revdate}."
 
 #. type: Plain text
 #: colophon.en.adoc:50
 msgid "This version adds paragraph on marine datasets and the Ocean Biodiversity Information System (OBIS) along with some minor text edits throughout."
-msgstr ""
+msgstr "Cette version ajoute un paragraphe à propos des jeux de données marines et l' Ocean Biodiversity Information System (OBIS), ainsi que quelques modifications mineures du texte."
 
 #. type: Title ===
 #: colophon.en.adoc:51
@@ -1653,12 +1653,12 @@ msgstr ""
 
 #. type: Plain text
 #: 200.en.adoc:735
-msgid "When working with datasets originating in the marine environment, it is recommended that the information is published also in the https://obis.org[Ocean Biodiversity Information System (OBIS)] in addition to GBIF. OBIS is a global biodiversity database, which is specialized in providing reliable and accessible data related to marine life and is a part of the IOC-UNESCO. Like GBIF, and ALA, OBIS uses the DwC-A format for data indexing and publishing. By publishing marine datasets through OBIS in addition to other biodiversity databases, the data can reach a broader audience, and diverse groups working in the field of marine biodiversity, as datasets in OBIS are often used for UN processes. With the focus on marine datasets, stringent quality controls on the data increase the reliability of the data and lead to small differences in what information is required for publishing in OBIS as opposed to GBIF."
+msgid "When working with datasets originating in the marine environment, it is recommended that the information is published also in the https://obis.org[Ocean Biodiversity Information System^] (OBIS) in addition to GBIF. OBIS is a global biodiversity database, which is specialized in providing reliable and accessible data related to marine life and is a part of the IOC-UNESCO. Like GBIF, and ALA, OBIS uses the DwC-A format for data indexing and publishing. By publishing marine datasets through OBIS in addition to other biodiversity databases, the data can reach a broader audience, and diverse groups working in the field of marine biodiversity, as datasets in OBIS are often used for UN processes. With the focus on marine datasets, stringent quality controls on the data increase the reliability of the data and lead to small differences in what information is required for publishing in OBIS as opposed to GBIF."
 msgstr ""
 
 #. type: Plain text
 #: 200.en.adoc:737
-msgid "To ensure consistent taxonomic nomenclature OBIS uses the World Register of Marine Species (WoRMS) as the only taxonomic backbone. This is the case also for occurrences derived from genetic data; a scientific name linked to a scientific name ID from the WoRMS database is highly recommended information for publishing. If a scientific name ID is not provided, OBIS will try to match the scientific name with WoRMS during ingestion, but this should be avoided whenever possible. Scientific names not listed in WoRMS are acceptable, and will be submitted to WoRMS for review and possible inclusion in the register. Fully unclassified sequences are recommended to be classified as \"incertae sedis\", with the WoRMS `scientificNameID` urn:lsid:marinespecies.org:taxname:12. This will ensure correct interpretation by both GBIF and OBIS. Additionally, it is recommended that sequence identifiers from the used reference databases (e.g. Barcode index numbers: BINs from BOLD) be added in the `taxonConceptID` field of the occurrence core table. In this way OBIS will retain its taxonomic backbone based on WoRMS, while enabling linking to disparate reference sequence databases. Names from reference databases which are not strictly scientific names, can be added as `verbatimIdentification`. Automatic classification of species names can often be done through the WoRMS taxon match services and R packages like worrms and taxize. In the future, OBIS plans to periodically search and update the taxonomic assignments of submitted sequences as reference databases develop with time, so recording the sequence information linked to each occurrence is highly recommended."
+msgid "To ensure consistent taxonomic nomenclature OBIS uses the https://www.marinespecies.org/[World Register of Marine Species^] (WoRMS) as the only taxonomic backbone. This is the case also for occurrences derived from genetic data; a scientific name linked to a scientific name ID from the WoRMS database is highly recommended information for publishing. If a scientific name ID is not provided, OBIS will try to match the scientific name with WoRMS during ingestion, but this should be avoided whenever possible. Scientific names not listed in WoRMS are acceptable, and will be submitted to WoRMS for review and possible inclusion in the register. Fully unclassified sequences are recommended to be classified as \"incertae sedis\", with the WoRMS `scientificNameID` urn:lsid:marinespecies.org:taxname:12. This will ensure correct interpretation by both GBIF and OBIS. Additionally, it is recommended that sequence identifiers from the used reference databases (e.g. Barcode index numbers: BINs from BOLD) be added in the `taxonConceptID` field of the occurrence core table. In this way OBIS will retain its taxonomic backbone based on WoRMS, while enabling linking to disparate reference sequence databases. Names from reference databases which are not strictly scientific names, can be added as `verbatimIdentification`. Automatic classification of species names can often be done through the WoRMS taxon match services and R packages like worrms and taxize. In the future, OBIS plans to periodically search and update the taxonomic assignments of submitted sequences as reference databases develop with time, so recording the sequence information linked to each occurrence is highly recommended."
 msgstr ""
 
 #. type: Plain text
