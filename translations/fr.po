@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-09-19 08:19\n"
+"PO-Revision-Date: 2023-09-19 10:07\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -978,7 +978,7 @@ msgstr "Alors que les fichiers de base stockent des données omniprésentes sur 
 #. type: Plain text
 #: 200.en.adoc:142
 msgid "As a first step in preparing your data for publishing, you should make sure your field names / column headers follow the https://dwc.tdwg.org/terms/[Darwin Core data standard]. In many cases this is straightforward, such as renaming your `lat` or `latitude` field to `decimalLatitude`. However, the Darwin Core Standard is quite flexible and some terms are used in different ways, depending on the type of data. An example of this are the fields term:dwc[organismQuantity] and term:dwc[organismQuantityType], which could be used to describe the number of individuals, per cent biomass or a score on the Braun-Blanquet Scale, as well as the number of reads of an ASV within a sample. Therefore, we here provide tables of required and recommended fields with descriptions and examples (<<table-01,Table 1>>, <<table-02,Table 2>>, <<table-03,Table 3>> and <<table-04, Table 4>>). The recommendation to use the Occurrence core for DNA-derived data stems from the strong desire to share the sequence to help qualify the determination. Additional fields and extensions (such as http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]) are applicable - both to occurrence cores and event core. When a sequence is derived from an organism (e.g. a parasite, gut contents, epibiont etc.) the observation may be linked to the observation of the host organism. This can be achieved using the (https://dwc.tdwg.org/terms/#resourcerelationship[Resource Relation extension^]) of Darwin Core (e.g. https://www.gbif.org/species/143610775/verbatim). Perhaps the most important recommendation is to use globally unique (when available) and other permanent identifiers for as many data fields and parameters as possible (in all ID fields in the tables below)."
-msgstr ""
+msgstr "La première étape de la préparation de vos données pour la publication consiste à assurer que les noms des champs et les en-têtes des colonnes soient conformes à https://dwc.tdwg.org/terms/ [Darwin Core data standard]. Dans de nombreux cas, c'est assez simple, comme par exemple renommer votre champ `lat` ou `latitude` en `decimalLatitude`. Cependant, le Darwin Core Standard est assez flexible et certains termes sont utilisés de différentes manières, en fonction du type de données. Les champs term:dwc[organismQuantity] et term:dwc[organismQuantityType] en sont un exemple. Ils peuvent être utilisés pour décrire le nombre d'individus, le pourcentage de biomasse ou un score sur l'échelle de Braun-Blanquet, ainsi que le nombre de reads d'un ASV dans un échantillon. C'est pourquoi nous fournissons ici des tableaux des champs obligatoires et recommandés avec des descriptions et des exemples (<<table-01,Table 1>>, <<table-02,Table 2>>, <<table-03,Table 3>> et <<table-04, Table 4>>). La recommandation d'utiliser le core Occurrence pour les données dérivées de l'ADN découle de la volonté de partager la séquence pour aider à qualifier la détermination. Des champs supplémentaires et des extensions (tels que http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]) sont applicables - à la fois au core Occurrences et au core Evénements. Lorsqu'une séquence est dérivée d'un organisme (par exemple un parasite, le contenu d'un intestin, un épibionte, etc.), l'observation peut être liée à l'observation de l'organisme hôte. Ceci peut être réalisé en utilisant l'extension (https://dwc.tdwg.org/terms/#resourcerelationship[Resource Relation extension^]) de Darwin Core (par exemple https://www.gbif.org/species/143610775/verbatim). La recommandation la plus importante est peut-être d'utiliser des identifiants uniques au niveau mondial (lorsqu'ils sont disponibles) et d'autres identifiants permanents pour le plus grand nombre possible de champs de données et de paramètres (dans tous les champs ID des tableaux ci-dessous)."
 
 #. type: Plain text
 #: 200.en.adoc:145 200.en.adoc:288 200.en.adoc:394 200.en.adoc:514
@@ -1082,12 +1082,86 @@ msgid "| Field name\n"
 "| 24.174556\n"
 "| The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.\n"
 "| Highly recommended\n\n"
-msgstr ""
+msgstr "| Nom du champ\n"
+"| Exemples\n"
+"| Description\n"
+"| Exigence\n\n"
+"| term:dwc[basisOfRecord]\n"
+"| MaterialSample\n"
+"| La nature spécifique de l'enregistrement de données - un sous-type de http://rs.gbif.org/vocabulary/dwc/basis_of_record.xml[dcterms:type]. Pour les occurrences dérivées de l'ADN (voir <<catégorie-i, catégorie I>> et <<catégorie-iii, catégorie III>>), utiliser MaterialSample. Pour les occurrences enrichies, utiliser PreservedSpecimen ou LivingSpecimen selon le cas.\n"
+"| Obligatoire\n\n"
+"| term:dwc[occurrenceID]\n"
+"| urn:catalog:UWBM:Bird:89776\n"
+"| Identifiant unique pour l'occurrence, qui permet de la reconnaître dans les différentes versions du jeu de données, ainsi que lors du téléchargement et de l'utilisation des données. Il peut s'agir d'un identifiant global unique ou d'un identifiant spécifique au jeu de données.\n"
+"| Obligatoire\n\n"
+"| term:dwc[eventID]\n"
+"| urn:uuid:a964765b-22c4-439a-jkgt-2\n"
+"| Identifiant pour l'ensemble des informations associées à un événement (quelque chose qui se produit à un endroit et à un moment donnés). Il peut s'agir d'un identifiant global unique ou d'un identifiant spécifique au jeu de données.\n"
+"| Fortement recommandé\n\n"
+"| term:dwc[eventDate]\n"
+"| 2020-01-05\n"
+"| Date à laquelle l'événement a été enregistré. La meilleure pratique recommandée est d'utiliser une date conforme à la norme ISO 8601-1:2019. Pour plus d'informations, consultez le site https://dwc.tdwg.org/terms/#dwc:eventDate\n"
+"| Obligatoire\n\n"
+"| term:dwc[recordedBy]\n"
+"| \"Oliver P. Pearson \\| Anita K. Pearson\"\n"
+"| Liste (concaténée et séparée) de noms de personnes, de groupes ou d'organisations responsables de l'enregistrement de l'occurrence originale. La meilleure pratique recommandée est de séparer les valeurs par une barre verticale (' \\| '). L'inclusion d'informations sur l'observateur améliore la reproductibilité scientifique (https://doi.org/10.1093/database/baaa072[Groom et al. 2020^]).\n"
+"| Fortement recommandé\n\n"
+"| Le terme : dwc[organismQuantity]\n"
+"| 33\n"
+"| Nombre de reads de cet OTU ou ASV dans l'échantillon.\n"
+"| Fortement recommandé\n\n"
+"| term:dwc[organismQuantityType]\n"
+"| DNA sequence reads\n"
+"| Le terme devrait toujours être \"DNA sequence reads\"\n"
+"| Fortement recommandé\n\n"
+"| term:dwc[sampleSizeValue]\n"
+"| 1233890\n"
+"| Nombre total de reads dans l'échantillon. Ce nombre est important car il permet de calculer l'abondance relative de chaque OTU ou ASV dans l'échantillon. Ce nombre devrait de préférence être calculé après le traitement universel (contrôle de la qualité, denoising des ASV, élimination des chimères, etc.), mais avant l'élimination manuelle/sélective, par exemple, des OTU ou ASV non ciblés de l'ensemble de données. La raréfaction (rééchantillonnage pour uniformiser la profondeur de séquençage des échantillons) n'est ni nécessaire ni conseillée.\n"
+"| Fortement recommandé\n\n"
+"| terme:dwc[sampleSizeUnit]\n"
+"| DNA sequence reads\n"
+"| Le terme devrait toujours être \"DNA sequence reads\"\n"
+"| Fortement recommandé\n\n"
+"| term:dwc[materialSampleID]\n"
+"| https://www.ncbi.nlm.nih.gov/biosample/15224856 +\n"
+" +\n"
+"https://www.ebi.ac.uk/ena/browser/view/SAMEA3724543 +\n"
+" +\n"
+"urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03\n"
+"| Un identifiant pour le MaterialSample (par opposition à un enregistrement numérique particulier de l'échantillon). Utiliser l'ID de l'échantillon biologique (biosample) s'il a été obtenu à partir d'une archive de nucléotides. En l'absence d'un identifiant global unique persistant, en construire un à partir d'une combinaison d'identifiants dans l'enregistrement qui rendra l'identifiant materialSampleID globalement unique.\n"
+"| Fortement recommandé\n\n"
+"| terme:dwc[samplingProtocol]\n"
+"| Piège à lumière UV\n"
+"| Nom, référence ou description de la méthode ou du protocole utilisé lors d'un événement d'échantillonnage.\n"
+"https://dwc.tdwg.org/terms/#dwc:samplingProtocol\n"
+"| Recommandé\n\n"
+"| term:dwc[associatedSequences]\n"
+"| https://www.ncbi.nlm.nih.gov/nuccore/MK405371\n"
+"| Liste (concaténée et séparée) d'identifiants (publication, identifiant global unique, URI) des séquences génétiques associées à l'occurrence. Pourrait être utilisée pour établir un lien avec des reads bruts de codes-barres archivées et/ou des séquences génomiques associées, par exemple dans un répositoire public.\n"
+"| Recommandé\n\n"
+"| term:dwc[identificationRemarks]\n"
+"| Confiance de l'annotation RDP (au taxon spécifié le plus bas) : 0,96, par rapport à la base de données de référence : GTDB\n"
+"| Spécification du processus d'identification taxonomique, comprenant idéalement des données sur l'algorithme appliqué et la base de données de référence, ainsi que sur le niveau de confiance dans l'identification résultante.\n"
+"| Recommandé\n\n"
+"| term:dwc[identificationReferences]\n"
+"| https://www.ebi.ac.uk/metagenomics/pipelines/4.1 + \n"
+" +\n"
+"https://github.com/terrimporter/CO1Classifier\n"
+"| Liste (concaténée et séparée) des références (publication, identifiant global unique, URI) utilisées dans l'identification. La meilleure pratique recommandée est de séparer les valeurs d'une liste par un espace vertical ( \\| ).\n"
+"| Recommandé\n\n"
+"| term:dwc[decimalLatitude]\n"
+"| 60.545207\n"
+"| Latitude géographique (en degrés décimaux, en utilisant le système de référence spatiale indiqué dans geodeticDatum) du centre géographique d'un lieu. Les valeurs positives correspondent au nord de l'équateur, les valeurs négatives au sud de l'équateur. Les valeurs légales sont comprises entre -90 et 90 inclus.\n"
+"| Fortement recommandé\n\n"
+"| terme:dwc[decimalLongitude]\n"
+"| 24.174556\n"
+"| Longitude géographique (en degrés décimaux, en utilisant le système de référence spatiale indiqué dans geodeticDatum) du centre géographique d'un lieu. Les valeurs positives correspondent à l'est du méridien de Greenwich, les valeurs négatives à l'ouest. Les valeurs légales sont comprises entre -180 et 180 inclus.\n"
+"| Fortement recommandé\n\n"
 
 #. type: Table
 #: 200.en.adoc:285
 msgid "| term:dwc[taxonID] | [.break-all]#ASV:7bdb57487bee022ba30c03c3e7ca50e1# | For eDNA data, it is recommended to use an MD5 hash of the sequence and prepend it with “ASV:”. See also <<taxonomy-of-sequences>>.  | Highly recommended, if DNA_sequence is not provided | term:dwc[scientificName] | _Gadus morhua_ L. 1758, BOLD:ACF1143 | Scientific name of the closest known taxon (species or higher) or an OTU identifier from BOLD (BIN) or UNITE (SH)  | Required | term:dwc[kingdom] | Animalia | Higher taxonomy | Highly recommended | term:dwc[phylum] | Chordata | Higher taxonomy | Recommended | term:dwc[class] | Actinopterygii | Higher taxonomy | Recommended | term:dwc[order] | Gadiformes | Higher taxonomy | Recommended | term:dwc[family] | Gadidae | Higher taxonomy | Recommended | term:dwc[genus] | _Gadus_ | Higher taxonomy | Recommended"
-msgstr ""
+msgstr "| term:dwc[taxonID] | [.break-all]#ASV:7bdb57487bee022ba30c03c3e7ca50e1# | Pour les données d'eDNA, il est recommandé d'utiliser un hachage MD5 de la séquence et de le faire précéder de \"ASV :\". Voir également <<taxonomie des séquences>>.  | Fortement recommandé, si la séquence ADN n'est pas fournie | term:dwc[scientificName] | _Gadus morhua_ L. 1758, BOLD:ACF1143 | Nom scientifique du taxon connu le plus proche (espèce ou supérieur) ou un identifiant OTU de BOLD (BIN) ou UNITE (SH) | Obligatoire| term:dwc[kingdom] | Animalia | Taxonomie supérieure | Fortement recommandé | term:dwc[phylum] | Chordata | Taxonomie supérieure | Recommandé | term : dwc[classe] | Actinopterygii | Taxonomie supérieure | Recommandé | term:dwc[ordre] | Gadiformes | Taxonomie supérieure | Recommandé | term:dwc[famille] | Gadidae | Taxonomie supérieure | Recommandé | term:dwc[genre] | _Gadus_ | Taxonomie supérieure | Recommandé"
 
 #. type: Block title
 #: 200.en.adoc:290
@@ -1103,7 +1177,10 @@ msgid "| Field name\n"
 "| Examples\n"
 "| Description\n"
 "| Required\n\n"
-msgstr ""
+msgstr "| Nom du champ\n"
+"| Exemples\n"
+"| Description\n"
+"| Exigence\n\n"
 
 #. type: Table
 #: 200.en.adoc:391
@@ -1649,7 +1726,7 @@ msgstr "| Nom de champ\n"
 #: 200.en.adoc:732
 #, no-wrap
 msgid "Marine datasets and the Ocean Biodiversity Information System (OBIS)"
-msgstr ""
+msgstr "Jeux de données marines et système d'information sur la biodiversité des océans (OBIS)"
 
 #. type: Plain text
 #: 200.en.adoc:735
@@ -1664,13 +1741,13 @@ msgstr ""
 #. type: Plain text
 #: 200.en.adoc:739
 msgid "Another required field in OBIS data submissions are geographic coordinates. OBIS performs additional quality checks related to marine data; e.g. that coordinates for strictly marine species are not on land, and that the depth value reported is in a reasonable range. Finally, it should be mentioned that in addition OBIS supports the use of the http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]. This extension allows linking environmental data and sampling facts to sampling events or occurrences, as well as biological measurements to occurrences in a flexible and standardized manner. OBIS has an example eDNA metabarcoding dataset with scripts for data formatting available at https://github.com/iobis/dataset-edna."
-msgstr ""
+msgstr "Les coordonnées géographiques sont un autre champ obligatoire dans les données soumises à l'OBIS. L'OBIS effectue des contrôles de qualité supplémentaires pour les données marines, pour assurer, par exemple, que les coordonnées des espèces strictement marines ne se trouvent pas sur la terre ferme et que la profondeur indiquée se situe dans une fourchette raisonnable. Enfin, il convient de mentionner que l'OBIS permet également l'utilisation de http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]. Cette extension permet de relier les données environnementales et les informations d'échantillonnage aux événements d'échantillonnage ou aux occurrences, ainsi que les mesures biologiques aux occurrences d'une manière souple et normalisée. OBIS dispose d'un exemple de jeu de données de métabarcoding d'eDNA avec des scripts pour le formatage des données disponibles à l'adresse https://github.com/iobis/dataset-edna."
 
 #. type: Block title
 #: 200.en.adoc:744
 #, no-wrap
 msgid "OBIS requirements and recommendations for recording DNA-based occurrences. The table highlights important differences in field values and requirements compared to when publishing to GBIF. Here exemplified with a DNA detection of Blue whale (Balaenoptera musculus). "
-msgstr ""
+msgstr "Exigences et recommandations d'OBIS pour l'enregistrement d'occurrences dérivées de l'ADN. Le tableau met en évidence les différences importantes dans les valeurs des champs et les exigences par rapport à la publication dans GBIF. L'exemple suivant illustre la détection de l'ADN du rorqual bleu (Balaenoptera musculus). "
 
 #. type: Table
 #: 200.en.adoc:771
@@ -1701,7 +1778,7 @@ msgstr ""
 #: 200.en.adoc:774
 #, no-wrap
 msgid "OBIS requirements and recommendations for recording sequences that cannot be classified to a scientific name at any taxonomic level. "
-msgstr ""
+msgstr "Exigences et recommandations de l'OBIS pour l'enregistrement des séquences qui ne peuvent pas être classées sous un nom scientifique à aucun niveau taxonomique. "
 
 #. type: Table
 #: 200.en.adoc:801
