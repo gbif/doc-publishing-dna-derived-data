@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
-"POT-Creation-Date: 2023-08-14 09:12+0000\n"
-"PO-Revision-Date: 2023-08-14 10:28\n"
+"POT-Creation-Date: 2023-08-15 13:08+0000\n"
+"PO-Revision-Date: 2023-09-19 12:01\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -31,7 +31,7 @@ msgstr "languageLinks:combined[]"
 #: colophon.en.adoc:3
 #, no-wrap
 msgid "img/web/dna-cover.png"
-msgstr ""
+msgstr "img/web/dna-cover.png"
 
 #. type: Title ==
 #: colophon.en.adoc:6
@@ -59,7 +59,7 @@ msgstr "Auteurs"
 #. type: Plain text
 #: colophon.en.adoc:15
 msgid "https://orcid.org/0000-0001-5526-4845[Kessy Abarenkov], mailto:kessy.abarenkov@ut.ee[kessy.abarenkov@ut.ee], Natural History Museum and Botanical Garden, University of Tartu, 46 Vanemuise Street, 51003 Tartu, Estonia"
-msgstr ""
+msgstr "https://orcid.org/0000-0001-5526-4845[Kessy Kõljalg], mailto:kessy.abarenkov@ut.ee[kessy.abarenkov@ut.ee], Natural History Museum and Botanical Garden, University of Tartu, 46 Vanemuise Street, 51003 Tartu, Estonia"
 
 #. type: Plain text
 #: colophon.en.adoc:16
@@ -74,12 +74,12 @@ msgstr "https://orcid.org/0000-0001-7396-1484[Andrew Bissett], mailto:Andrew.Bis
 #. type: Plain text
 #: colophon.en.adoc:18
 msgid "https://orcid.org/0000-0003-4529-6266[Anders G. Finstad], mailto:anders.finstad@ntnu.no[anders.finstad@ntnu.no], Department of Natural History, Centre for Biodiversity Dynamics, Norwegian University of Science and Technology, Trondheim, Norway"
-msgstr ""
+msgstr "https://orcid.org/0000-0003-4529-6266[Anders G. Finstad], mailto:anders.finstad@ntnu.no[anders.finstad@ntnu.no], Department of Natural History, Centre for Biodiversity Dymamics, Norwegian University of Science and Technology, Trondheim, Norway"
 
 #. type: Plain text
 #: colophon.en.adoc:19
 msgid "https://orcid.org/0000-0002-7535-9574[Frode Fossøy], mailto:Frode.Fossoy@nina.no[Frode.Fossoy@nina.no], Centre for Biodiversity Genetics (NINAGEN), Norwegian institute for nature research (NINA), P.O. Box 5685 Torgarden, NO-7485 Trondheim, Norway"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-7535-9574[Frode Fossøy], mailto:Frode.Fossoy@nina.no[Frode.Fossoy@nina.no], Centre for Biodiversity Genetics (NINAGEN), Norwegian institute for nature research (NINA), P.O. Box 5685 Torgarden, NO-7485 Trondheim, Norway"
 
 #. type: Plain text
 #: colophon.en.adoc:20
@@ -89,12 +89,12 @@ msgstr "https://orcid.org/0000-0002-2685-8078[Marie Grosjean], mailto:mgrosjean@
 #. type: Plain text
 #: colophon.en.adoc:21
 msgid "https://orcid.org/0000-0002-4827-3310[Michael Hope], mailto:Michael.Hope@ga.gov.au[Michael.Hope@ga.gov.au], Atlas of Living Australia, CSIRO National Collections & Marine Infrastructure, GPO Box 1700, Canberra ACT 2601, Australia."
-msgstr ""
+msgstr "https://orcid.org/0000-0002-4827-3310[Michael Hope], mailto:Michael.Hope@ga.gov.au[Michael.Hope@ga.gov.au], Atlas of Living Australia, CSIRO National Collections & Marine Infrastructure, GPO Box 1700, Canberra ACT 2601, Australia."
 
 #. type: Plain text
 #: colophon.en.adoc:22
 msgid "https://orcid.org/0000-0003-1691-239X[Thomas S. Jeppesen], mailto:tsjeppesen@gbif.org[tsjeppesen@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr ""
+msgstr "https://orcid.org/0000-0003-1691-239X[Thomas S. Jeppesen], mailto:tsjeppesen@gbif.org[tsjeppesen@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
 
 #. type: Plain text
 #: colophon.en.adoc:23
@@ -119,7 +119,7 @@ msgstr "https://orcid.org/0000-0003-4897-8422[Maria Prager], mailto:maria.prager
 #. type: Plain text
 #: colophon.en.adoc:27
 msgid "https://orcid.org/0000-0002-4236-0384[Pieter Provoost], mailto:p.provoost@unesco.org[p.provoost@unesco.org], Ocean Biodiversity Information System, Jacobsenstraat 1, 8400 Oostende, Belgium"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-4236-0384[Pieter Provoost], mailto:p.provoost@unesco.org[p.provoost@unesco.org], Ocean Biodiversity Information System, Jacobsenstraat 1, 8400 Oostende, Belgium"
 
 #. type: Plain text
 #: colophon.en.adoc:28
@@ -129,17 +129,17 @@ msgstr "https://orcid.org/0000-0002-2919-1168[Dmitry Schigel], mailto:dschigel@g
 #. type: Plain text
 #: colophon.en.adoc:29
 msgid "https://orcid.org/0000-0002-2919-1168[Saara Suominen], mailto:s.suominen@unesco.org[s.suominen@unesco.org], Ocean Biodiversity Information System, Jacobsenstraat 1, 8400 Oostende, Belgium"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-2919-1168[Saara Suominen], mailto:s.suominen@unesco.org[s.suominen@unesco.org], Ocean Biodiversity Information System, Jacobsenstraat 1, 8400 Oostende, Belgium"
 
 #. type: Plain text
 #: colophon.en.adoc:30
 msgid "https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen], mailto:csvenningsen@gbif.org[csvenningsen@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen], mailto:csvenningsen@gbif.org[csvenningsen@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
 
 #. type: Plain text
 #: colophon.en.adoc:31
 msgid "https://orcid.org/0000-0002-3530-013X[Tobias Guldberg Frøslev], mailto:tfroeslev@gbif.org[tfroeslev@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-3530-013X[Tobias Guldberg Frøslev], mailto:tfroeslev@gbif.org[tfroeslev@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
 
 #. type: Title ===
 #: colophon.en.adoc:32
@@ -150,7 +150,7 @@ msgstr "Contributeurs"
 #. type: Plain text
 #: colophon.en.adoc:35
 msgid "Valuable discussions with members of ELIXIR, iBOL, GGBN, GLOMICON, and OBIS networks contributed to compilation of this draft. We are especially grateful for inputs and encouragement from Andrew Bentley, Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, Gabriele Dröge, Torbjørn Ekrem, Birgit Gemeinholzer, Quentin Groom, Tim Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris Mungall, Daniel Noesgaard, Corinna Paeper, Tim Robertson, Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger who have contributed to the GBIF community review process."
-msgstr ""
+msgstr "De précieuses discussions avec les membres des réseaux ELIXIR, iBOL, GGBN, GLOMICON et OBIS ont contribué à la compilation de ce projet. Nous sommes particulièrement reconnaissants pour les contributions et les encouragements d'Andrew Bentley, Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, Gabriele Dröge, Torbjørn Ekrem, Birgit Gemeinholzer, Quentin Groom, Tim Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris Mungall, Daniel Noesgaard, Corinna Paeper, Tim Robertson, Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger qui ont contribué au processus de révision de la communauté GBIF."
 
 #. type: Title ===
 #: colophon.en.adoc:36
@@ -183,12 +183,12 @@ msgstr "Contrôle du document"
 #. type: Plain text
 #: colophon.en.adoc:48
 msgid "Version {revnumber} released on {revdate}."
-msgstr ""
+msgstr "Version {revnumber} publiée sur {revdate}."
 
 #. type: Plain text
 #: colophon.en.adoc:50
 msgid "This version adds paragraph on marine datasets and the Ocean Biodiversity Information System (OBIS) along with some minor text edits throughout."
-msgstr ""
+msgstr "Cette version ajoute un paragraphe à propos des jeux de données marines et l' Ocean Biodiversity Information System (OBIS), ainsi que quelques modifications mineures du texte."
 
 #. type: Title ===
 #: colophon.en.adoc:51
@@ -282,12 +282,12 @@ msgstr "Justification"
 #. type: Plain text
 #: 100.en.adoc:6
 msgid "The last 20 years have brought an increased understanding of the immense power of molecular methods for documenting the diversity of life on earth. Seemingly lifeless and mundane substrates such as soil and sea water turn out to abound with life–although perhaps not in a way that the casual observer may immediately appreciate. DNA-based studies have shown that organism groups such as fungi, insects, oomycetes, bacteria and archaea are everywhere, although we often cannot observe them physically (https://doi.org/10.1093/femsec/fix023[Debroas et al. 2017^]). The benefits of molecular methods are not restricted to the microscopic world: there are many organisms, such as some fish species, which can at least theoretically be observed physically but for which it is very costly, labour-intensive, and perhaps invasive to do so (https://doi.org/10.1126/sciadv.aap9661[Boussarie et al. 2018^]). In such situations, DNA data enable us to record the presence (and past presence) of these organisms non-invasively and with minimal effort. These developments mean that we do not always need tangible, physical manifestations of all organisms present at some site in order to record them. All organisms, whether or not they are physically observable, may be important when it comes to understanding biodiversity, ecology and biological conservation."
-msgstr ""
+msgstr "Les 20 dernières années ont permis de mieux comprendre l'immense pouvoir des méthodes moléculaires pour documenter la diversité de la vie sur terre. Des substrats apparemment sans vie et banals, tels que le sol et l'eau de mer, s'avèrent regorger de vie, même si ce n'est pas d'une manière que l'observateur occasionnel pourrait immédiatement apprécier. Des études basées sur l'ADN ont montré que des groupes d'organismes tels que les champignons, les insectes, les oomycètes, les bactéries et les archaea sont partout, même si nous ne pouvons souvent pas les observer physiquement (https://doi.org/10.1093/femsec/fix023[Debroas et al. 2017^]). Les avantages des méthodes moléculaires ne se limitent pas au monde microscopique : il existe de nombreux organismes, tels que certaines espèces de poissons, qui peuvent au moins théoriquement être observés physiquement, mais pour lesquels il est très coûteux, laborieux et peut-être invasif de le faire (https://doi.org/10.1126/sciadv.aap9661[Boussarie et al. 2018^]). Dans de telles situations, les données ADN nous permettent d'enregistrer la présence (et la présence passée) de ces organismes de manière non invasive et avec un minimum d'effort. Ces développements signifient qu'il n'est pas toujours nécessaire d'avoir des manifestations tangibles et physiques de tous les organismes présents sur un site donné pour les enregistrer. Tous les organismes, qu'ils soient ou non physiquement observables, peuvent être importants pour comprendre la biodiversité, l'écologie et la conservation biologique."
 
 #. type: Plain text
 #: 100.en.adoc:8
 msgid "DNA-derived data enable us to record inconspicuous or otherwise unobservable taxa that fall below the radar of vetted protocols for field work, checklists, depositions into natural science collections, etc. The current maturity of DNA methodologies enables us to record the presence of these organisms to a level of detail that exceeds that of macroscopic observations of organisms in general. However, bearing in mind that DNA methodologies comes with their own problems and biases, it is important to use this moment to define and agree how we should record and report on an organism as present in some substrate or locality through molecular data. Doing so will help avoid significant inefficiencies that have been reported in other domains, in which the lack of standards and guidance has led to very heterogeneous and largely incomparable bodies of data (https://doi.org/10.1002/edn3.173[Berry et al. 2021^]; https://doi.org/10.1089/omi.2006.10.231[Leebens-Mack et al. 2006^]; https://doi.org/10.1038/nbt.1823[Yilmaz et al. 2011^]; https://doi.org/10.3897/mycokeys.4.3606[Nilsson et al. 2012^]; https://doi.org/10.7717/peerj.14993[Shea et al. 2023^]). Moreover, clear documentation of the computational processing from raw sequence reads to deduced species observation, will enable reanalysis when improved methods appear."
-msgstr ""
+msgstr "Les données dérivées de l'ADN nous permettent d'enregistrer des taxons peu visibles ou autrement inobservables qui passent sous le radar de protocoles reconnus pour le travail de terrain, les checklists, les dépôts dans les collections de sciences naturelles, etc. La maturité actuelle des méthodes d'analyse de l'ADN permet d'enregistrer la présence de ces organismes à un niveau de détail qui dépasse celui des observations macroscopiques des organismes en général. Toutefois, compte tenu du fait que les méthodes basées sur l'ADN s'accompagnent de leurs propres problèmes et biais, il est important de profiter de cette occasion pour définir et convenir de la manière dont nous devrions enregistrer et signaler la présence d'un organisme dans un substrat ou une localité donnée au moyen de données moléculaires. Cela permettra d'éviter les inefficacités importantes qui ont été signalées dans d'autres domaines, où l'absence de normes et d'orientations a conduit à des jeux de données très hétérogènes et largement incomparables (https://doi.org/10.1002/edn3.173[Berry et al. 2021^] ; https://doi.org/10.1089/omi.2006.10.231[Leebens-Mack et al. 2006^] ; https://doi.org/10.1038/nbt.1823[Yilmaz et al. 2011^] ; https://doi.org/10.3897/mycokeys.4.3606[Nilsson et al. 2012^] ; https://doi.org/10.7717/peerj.14993[Shea et al. 2023^]). En outre, une documentation claire du traitement informatique, depuis la lecture de séquences brutes jusqu'à l'observation des espèces déduites, permettra de procéder à une nouvelle analyse lorsque des méthodes améliorées apparaîtront."
 
 #. type: Plain text
 #: 100.en.adoc:10
@@ -352,7 +352,7 @@ msgstr "Introduction aux données d'occurrence dérivées de l'ADN"
 #. type: Plain text
 #: 100.en.adoc:35
 msgid "DNA-derived biological occurrence data include information derived from DNA from individual organisms, but also from environmental DNA (eDNA, i.e. DNA extracted from environmental samples, https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen & Willerslev 2015^]) and from bulk samples comprising many individuals (e.g. plankton samples or Malaise trap samples consisting of multiple individuals from many species). Currently, the greatest volume of DNA-derived occurrence data derives from eDNA. Since analytical methods and end products are largely similar for all sample sources, the discussion below will focus on eDNA (<<category-i>> and <<category-ii>>), noting that the outline is applicable to the other sources. Surveys often utilize targeted sequencing of taxonomically and phylogenetically informative genetic markers, but can also use, for example, qPCR-based approaches that do not directly result in DNA sequence data (<<category-iii>> and <<mapping-ddpcr-qpcr-data>>). This guide may appear heavy in DNA related terms; if this is the case, please consult the <<glossary>>."
-msgstr ""
+msgstr "Les données d'occurrence biologique dérivées de l'ADN comprennent des informations dérivées de l'ADN d'organismes individuels, mais aussi de l'ADN environnemental (ADNe, c'est-à-dire l'ADN extrait d'échantillons environnementaux, https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen & Willerslev 2015^]) et d'échantillons en vrac comprenant de nombreux individus (par exemple, des échantillons de plancton ou des échantillons de pièges Malaise constitués de plusieurs individus de nombreuses espèces). Actuellement, le plus grand volume de données d'occurrence dérivées de l'ADN provient de l'ADN environnemental. Étant donné que les méthodes d'analyse et les produits finaux sont largement similaires pour toutes les sources d'échantillons, la discussion ci-dessous se concentrera sur l'ADN environnemental (<<catégorie-i>> et <<catégorie-ii>>), tout en notant que les grandes lignes sont applicables aux autres sources. Les études utilisent souvent le séquençage ciblé de marqueurs génétiques informatifs sur le plan taxonomique et phylogénétique, mais peuvent également utiliser, par exemple, des approches basées sur la qPCR qui n'aboutissent pas directement à des données de séquence d'ADN (<<catégorie-iii>> et <<mapping-ddpcr-qpcr-data>>). Ce guide peut sembler lourd en termes liés à l'ADN ; si c'est le cas, veuillez consulter le <<glossaire>>."
 
 #. type: Title ====
 #: 100.en.adoc:36
@@ -363,7 +363,7 @@ msgstr "L’ADN environnemental comme source de données d’occurrence"
 #. type: Plain text
 #: 100.en.adoc:39
 msgid "Environmental DNA has been in use as a term since 1987, when it was first used to describe DNA from microbes in sediment samples (https://doi.org/10.1016/0167-7012(87)90025-x[Ogram et al. 1987^]). eDNA is now more broadly used to describe a complex mix of DNA from different organisms (https://doi.org/10.1093/oso/9780198767220.001.0001[Taberlet et al. 2018^] and https://doi.org/10.1111/j.1365-294X.2012.05542.x[2012^]). Thus, eDNA includes all DNA extracted from a specific environmental sample, regardless of substrate and which species it contains. It may be extracted from a wide range of sources, including skin and hair cells, saliva, soil, faeces, and from living or recently dead organisms (https://doi.org/10.1007/s00374-008-0345-8[Pietramellara et al. 2009^]). Environmental DNA often sufficiently represents all organisms in a given sample. In practice, however, the presence of DNA in the environmental sample depends on an organisms habitat selection, body size, morphology and activity level. Also, the sampling methods used to capture the DNA (https://doi.org/10.1093/oso/9780198767220.001.0001[Taberlet et al. 2018^]) and the stage of DNA degradation can affect the presence of DNA."
-msgstr ""
+msgstr "Le terme ADN environnemental est utilisé depuis 1987, lorsqu'il a été utilisé pour la première fois pour décrire l'ADN de microbes dans des échantillons de sédiments (https://doi.org/10.1016/0167-7012(87)90025-x [Ogram et al. 1987^]). L'eDNA est maintenant utilisé plus largement pour décrire un mélange complexe d'ADN provenant de différents organismes (https://doi.org/10.1093/oso/9780198767220.001.0001 [Taberlet et al. 2018^] et https://doi.org/10.1111/j.1365-294X.2012.05542.x [2012^]). Ainsi, l'eDNA comprend tout l'ADN extrait d'un échantillon environnemental spécifique, indépendamment du substrat et des espèces qu'il contient. Il peut être extrait d'un large éventail de sources, y compris les cellules de la peau et des cheveux, la salive, le sol, les fèces et les organismes vivants ou récemment morts (https://doi.org/10.1007/s00374-008-0345-8[Pietramellara et al. 2009^]). Souvent, l'ADN environnemental représente suffisamment tous les organismes d'un échantillon donné. Dans la pratique, cependant, la présence d'ADN dans l'échantillon environnemental dépend de la sélection de l'habitat, de la taille du corps, de la morphologie et du niveau d'activité de l'organisme. En outre, les méthodes d'échantillonnage utilisées pour capturer l'ADN (https://doi.org/10.1093/oso/9780198767220.001.0001[Taberlet et al. 2018^]) et le stade de dégradation de celui-ci peuvent influer sa détection."
 
 #. type: Block title
 #: 100.en.adoc:41
@@ -396,7 +396,7 @@ msgstr "Plusieurs études montrent que, pour les échantillons d'eau, les analys
 #. type: Plain text
 #: 100.en.adoc:54
 msgid "Some studies show a relationship between the amount of DNA for a given species in an environmental sample and the biomass of the species in the environment. One can therefore potentially also think of environmental DNA allowing a so-called semi-quantitative estimate (indirect target) for organism biomass, both from environmental samples and bulk samples (https://doi.org/10.1371/journal.pone.0035868[Takahara et al. 2012^]; https://doi.org/10.1111/j.1365-294X.2011.05418.x[Thomsen et al. 2012^]; https://doi.org/10.1111/j.1365-294X.2011.05261.x[Andersen et al. 2012^]; https://doi.org/10.1038/ismej.2013.61[Ovaskainen et al. 2013^]; https://doi.org/10.1111/1755-0998.12522[Lacoursière-Roussel et al. 2016^]; https://doi.org/10.1371/journal.pone.0165252[Thomsen et al. 2016^]; https://doi.org/10.1111/mec.13428[Valentini et al. 2016^]; https://doi.org/10.1002/edn3.45[Fossøy et al. 2019^]; https://doi.org/10.1002/edn3.7[Yates et al. 2019^]; https://doi.org/10.1038/s41598-019-40233-1[Doi et al. 2017^]). However, other studies show little correlation between environmental DNA quantity and estimated population density (https://doi.org/10.1016/j.jembe.2018.09.004[Knudsen et al. 2019^]). PCR, quantification, mixing and other biases are frequently debated. For example, moult, reproduction and mass death can contribute to increased levels of crustacean environmental DNA in water, while turbidity and poor water quality reduce the amount of detectable environmental DNA (https://doi.org/10.1111/1365-2664.13404[Strand et al. 2019^]). Therefore we encourage data publishers to supply both read counts for each OTU or ASV per sample as well as total read count per sample, as this is necessary information for users to make their own conclusions on presence/absence and (relative) abundance."
-msgstr ""
+msgstr "Certaines études montrent une relation entre la quantité d'ADN d'une espèce donnée dans un échantillon environnemental et la biomasse de l'espèce dans l'environnement. On peut donc éventuellement considérer que l'ADN environnemental permet une estimation semi-quantitative (cible indirecte) de la biomasse des organismes, tant à partir d'échantillons environnementaux que d'échantillons en vrac (https://doi.org/10.1371/journal.pone.0035868[Takahara et al. 2012^] ; https://doi.org/10.1111/j.1365-294X.2011.05418.x[Thomsen et al. 2012^] ; https://doi.org/10.1111/j.1365-294X.2011.05261.x[Andersen et al. 2012^] ; https://doi.org/10.1038/ismej.2013 .61[Ovaskainen et al. 2013^] ; https://doi.org/10.1111/1755-0998.12522[Lacoursière-Roussel et al. 2016^] ; https://doi.org/10.1371/journal.pone.0165252[Thomsen et al. 2016^] ; https://doi.org/10.1111/mec.13428[Valentini et al. 2016^] ; https://doi.org/10.1002/edn3.45[Fossøy et al. 2019^] ; https://doi.org/10.1002/edn3.7[Yates et al. 2019^] ; https://doi.org/10.1038/s41598-019-40233-1[Doi et al. 2017^]). Cependant, d'autres études montrent peu de corrélation entre la quantité d'ADN environnemental et la densité de population estimée (https://doi.org/10.1016/j.jembe.2018.09.004[Knudsen et al. 2019^]). La PCR, la quantification, la préparation et d'autres biais sont fréquemment débattus. Par exemple, la mue, la reproduction et la mort massive peuvent contribuer à augmenter les niveaux d'ADN environnemental des crustacés dans l'eau, tandis que la turbidité et la mauvaise qualité de l'eau réduisent la quantité d'ADN environnemental détectable (https://doi.org/10.1111/1365-2664.13404[Strand et al. 2019^]). Par conséquent, nous encourageons les éditeurs de données à fournir à la fois le nombre de lectures pour chaque OTU ou ASV par échantillon, ainsi que le nombre total de reads par échantillon, car il s'agit d'informations nécessaires pour que les utilisateurs puissent tirer leurs propres conclusions sur la présence/absence et l'abondance (relative)."
 
 #. type: Title ====
 #: 100.en.adoc:55
@@ -407,12 +407,12 @@ msgstr "Métabarcoding : données dérivées de séquences"
 #. type: Plain text
 #: 100.en.adoc:58
 msgid "The generation of sequence-derived data is currently increasing fast due to the development of <<barcoding,DNA-metabarcoding>>. This method utilizes general primers to generate thousands to millions of short DNA-sequences for a given group of organisms with the help of high-throughput sequencing (HTS, alt. next-generation sequencing (NGS)). By comparing each DNA-sequence to a reference database such as GenBank (https://doi.org/10.1093/nar/gkj157[Benson et al. 2006 ^]), BOLD (http://dx.doi.org/10.1111/j.1471-8286.2007.01678.x[Ratnasingham et al. 2007^]), or UNITE (https://doi.org/10.1093/nar/gky1022[Nilsson et al. 2019^]), each sequence can be assigned to a species or higher rank taxon identity. <<barcoding,DNA-metabarcoding>> is used for samples originating from both terrestrial and aquatic environments, including water, soil, air, sediments, biofilms, plankton, bulk samples and faces, simultaneously identifying hundreds of species (https://doi.org/10.1016/j.gecco.2019.e00547[Ruppert et al. 2019^])."
-msgstr ""
+msgstr "La génération de données dérivées de séquences ADN augmente rapidement en raison du développement du <<barcodage, du métabarcodage de l'ADN>>. Cette méthode utilise des amorces universelles pour générer des milliers, voire des millions, de courtes séquences d'ADN pour un groupe donné d'organismes à l'aide du séquençage à haut débit (HTS, alt. next-generation sequencing (NGS)). En comparant chaque séquence d'ADN à une base de données de référence telle que GenBank (https://doi.org/10.1093/nar/gkj157[Benson et al. 2006 ^]), BOLD (http://dx.doi.org/10.1111/j.1471-8286.2007.01678.x[Ratnasingham et al. 2007^]) ou UNITE (https://doi.org/10.1093/nar/gky1022[Nilsson et al. 2019^]), chaque séquence peut être attribuée à une espèce ou à une identité taxonomique de rang supérieur. <<barcoding,DNA-metabarcoding>> est utilisé pour des échantillons provenant d'environnements terrestres et aquatiques, y compris l'eau, le sol, l'air, les sédiments, les biofilms, le plancton, les échantillons en vrac et les fèces, identifiant simultanément des centaines d'espèces (https://doi.org/10.1016/j.gecco.2019.e00547[Ruppert et al. 2019^])."
 
 #. type: Plain text
 #: 100.en.adoc:60
 msgid "The identification and classification of organisms from sequence data and marker-based surveys depends on access to a reference library of sequences taken from morphologically identified specimens that are matched against the newly generated sequences. The efficacy of classification depends on the completeness (coverage) and the reliability of reference libraries, as well as the tools used to carry out the classification. These are all moving targets, making it essential to apply taxonomic expertise and caution in the interpreting results (<<taxonomy-of-sequences>>). Availability of of all verified <<asv,amplicon sequence variants>> (https://doi.org/10.1038/ismej.2017.119[Сallahan et al. 2017^]) allow for precise reinterpretation of data, intra-specific population genetic analyses (https://doi.org/10.1111/eva.12882[Sigsgaard et al. 2019^]) and is likely to increase identification accuracy, and for this reason we recommend to share (unclustered) ASV data."
-msgstr ""
+msgstr "L'identification et la classification des organismes à partir de données de séquences et d'études basées sur des marqueurs ADN dépendent de l'accès à une bibliothèque de référence de séquences provenant de spécimens morphologiquement identifiés, qui sont comparées aux séquences nouvellement générées. L'efficacité de la classification dépend de l'exhaustivité (couverture) et de la fiabilité des bibliothèques de référence, ainsi que des outils utilisés pour effectuer la classification. Il s'agit là d'éléments en constante évolution, ce qui rend indispensable l'application d'une expertise taxonomique et la prudence dans l'interprétation des résultats (<<taxonomie des séquences>>). La disponibilité de tous les <<asv,amplicon sequence variants>> vérifiés (https://doi.org/10.1038/ismej.2017.119[Сallahan et al. 2017^]) permet une réinterprétation précise des données, des analyses génétiques des populations intraspécifiques (https://doi.org/10.1111/eva.12882[Sigsgaard et al. 2019^]) et est susceptible d'accroître la précision de l'identification, et c'est pourquoi nous recommandons de partager les données ASV (non regroupées)."
 
 #. type: Title ====
 #: 100.en.adoc:61
@@ -450,7 +450,7 @@ msgstr "La publication des données sur la biodiversité consiste en grande part
 #. type: Plain text
 #: 100.en.adoc:74
 msgid "A number of data standards are in use for general biodiversity data (https://www.gbif.org/standards), and a separate set of standards for genetic sequence data (see <<mixs,MIxS>> and <<ggbn,GGBN>>). This guide reflects some ongoing efforts to increase the compatibility between standards for general biodiversity and genetic data. Standards often highlight the subsets of fields which are most important or most frequently applicable. These subsets may be referenced as “cores”. The preferred format for publishing data in the GBIF and ALA networks is currently the Darwin Core Archive (DwC-A) using the https://dwc.tdwg.org/[Darwin Core^] (DwC) data standard. In practice, this is a compressed folder (a zip file) containing data files, in standard comma- or tab-delimited text format, a metadata file (https://eml.ecoinformatics.org/[eml.xml]) that describes the data resource, and a metafile (meta.xml) that specifies the structure of files and data fields included in the archive. Standardized packaging ensures that the data can travel between systems using specific data exchange protocols.  <<data-packaging-and-mapping,Section 2>> of this guide provides recommendations for the mapping of the data files, while guidelines and tools for constructing the xml files can be found here: https://www.tdwg.org/standards[TDWG^], https://www.gbif.org/standards[GBIF^], and https://support.ala.org.au/support/solutions/articles/6000195499-what-are-biodiversity-data-standards-[ALA^]."
-msgstr ""
+msgstr "Un certain nombre de standards de données sont utilisés pour les données générales sur la biodiversité (https://www.gbif.org/standards) et un ensemble distinct de standards sont utilisés pour les données sur les séquences génétiques (voir <<mixs,MIxS>> et <<ggbn,GGBN>>). Ce guide reflète les efforts en cours pour améliorer la compatibilité entre les standards relatifs aux données générales sur la biodiversité et aux données génétiques. Les standards mettent souvent en évidence les sous-ensembles de champs les plus importants ou les plus fréquemment applicables. Ces sous-ensembles peuvent être appelés \"cores\". Le format préféré pour la publication des données dans les réseaux GBIF et ALA est actuellement le Darwin Core Archive (DwC-A) qui utilise le standard de données https://dwc.tdwg.org/[Darwin Core^] (DwC). En pratique, il s'agit d'un dossier compressé (un fichier zip) contenant des fichiers de données, dans un format texte standard délimité par des virgules ou des tabulations, un fichier de métadonnées (https://eml.ecoinformatics.org/[eml.xml]) qui décrit la ressource de données, et un métafichier (meta.xml) qui spécifie la structure des fichiers et des champs de données inclus dans l'archive. La préparation normalisée garantit que les données peuvent circuler entre les systèmes en utilisant des protocoles d'échange de données spécifiques.  <<data-packaging-and-mapping,Section 2>> de ce guide fournit des recommandations pour le mapping des fichiers de données, tandis que des lignes directrices et des outils pour la construction des fichiers xml peuvent être trouvés ici : https://www.tdwg.org/standards[TDWG^], https://www.gbif.org/standards[GBIF^], et https://support.ala.org.au/support/solutions/articles/6000195499-what-are-biodiversity-data-standards-[ALA^]."
 
 #. type: Plain text
 #: 100.en.adoc:76
@@ -527,12 +527,12 @@ msgstr "Généralement, les séquences ADN sont d'abord prétraitées en supprim
 #. type: Plain text
 #: 100.en.adoc:108
 msgid "The pre-processed sequences can then be assigned a taxon by comparing them against reference databases. When reference databases are incomplete, sequences classification can be done without taxonomic identifications, either by clustering sequences into operational taxonomic units based on their similarity (OTUs; https://doi.org/10.1098/rstb.2005.1725[Blaxter et al. 2005^]) or by denoising the data, i.e. explicitly detecting and excluding PCR/sequencing errors sequences to produce amplicon sequence variants (ASV; also referred to as zero radius OTU (zOTU)). Denoising attempts to correct errors that have been introduced in the PCR and/or sequencing steps, such that the denoised sequences are the set of unique biologically real sequences present in the original sequence mixture. In case of paired-end sequences, the forward and reverse sequences may be denoised separately before merging or else merged prior to denoising. ASVs in the resulting set can differ by as little as one base which is indicative of inter- or intraspecific sequence variation. Operationally, ASVs may be thought of as OTUs without defined radius and while denoising algorithms are typically very good, they do not entirely remove the problems of over-splitting or lumping sequences."
-msgstr ""
+msgstr "Les séquences prétraitées peuvent ensuite être attribuées à un taxon en les comparant à des bases de données de référence. Lorsque les bases de données de référence sont incomplètes, la classification des séquences peut se faire sans identification taxonomique, soit en regroupant les séquences en unités taxonomiques opérationnelles sur la base de leur similarité (OTU ; https://doi.org/10.1098/rstb.2005.1725[Blaxter et al. 2005^]), soit en faisant un denoising des données, c'est-à-dire en détectant et en excluant explicitement les séquences comportant des erreurs de PCR/séquençage pour produire des variants de séquence d'amplicon (ASV ; également appelés OTU à rayon zéro (zOTU)). Le denoising tente de corriger les erreurs qui ont été introduites dans les étapes de PCR et/ou de séquençage, de sorte que les séquences représentent l'ensemble des séquences uniques biologiquement réelles présentes dans l'ensemble de séquences d'origine. Dans le cas de séquençage paired-end, le denoising des séquences directe et inverse peut être fait séparément avant d'être assemblées ou les séquences peuvent être assemblées avant le denoising. Les ASV de l'ensemble résultant peuvent différer d'aussi peu qu'une base, ce qui indique une variation de séquence inter- ou intraspécifique. D'un point de vue opérationnel, les ASV peuvent être considérés comme des OTU sans rayon défini et, bien que les algorithmes de denoising soient généralement très bons, ils n'éliminent pas entièrement les problèmes liés au fractionnement ou agrégation excessif des séquences."
 
 #. type: Plain text
 #: 100.en.adoc:110
 msgid "The PCR used for generating the sequencing library can result in the generation of artefactual sequences in the form of chimeras; a single sequence that originates from multiple parent sequences. Such sequences can be detected bioinformatically and removed, and this is typically done after denoising."
-msgstr ""
+msgstr "La PCR utilisée pour générer la librairie de séquençage peut entraîner la génération de séquences artefactuelles sous la forme de chimères, c'est-à-dire une séquence unique issue de plusieurs séquences parentales. Ces séquences peuvent être détectées de manière bioinformatique et supprimées, ce qui est généralement fait après le denoising."
 
 #. type: Plain text
 #: 100.en.adoc:112
@@ -542,7 +542,7 @@ msgstr "Enfin, les séquences prétraitées, OTUs ou ASVs, sont classées taxono
 #. type: Plain text
 #: 100.en.adoc:114
 msgid "Several open source tools and algorithms exist for bioinformatic processing of metabarcoding data (QIIME2 https://doi.org/10.1038/s41587-019-0209-9[(Bolyen et al. 2019)^], DADA2 https://doi.org/10.1038/nmeth.3869[(Callahan et al. 2016)^], SWARM https://doi.org/10.7717/peerj.593[(Mahé et al. 2014)^], USEARCH https://doi.org/10.1093/bioinformatics/btq461p[(Edgar 2010)^], Mothur https://doi.org/10.1128/AEM.01541-09[(Schloss et al. 2009)^], LULU https://doi.org/10.1038/s41467-017-01312-x[(Frøslev et al. 2017)^], PROTAX https://doi.org/10.1093/bioinformatics/btw34[(Somervuo et al. 2016)^], VSEARCH https://doi.org/10.7717/peerj.2584[(Rognes et al. 2016)^]). Given the existence of many popular and well used workflows, we make some recommendations below on analysing data for submission to biodiversity data platforms. This is not to suggest that these are the best methods or most appropriate for all purposes but is an attempt to encourage submission of relatively standardized data that may readily be compared via the platforms. If possible, a well documented and maintained workflow should be used (e.g. https://nf-co.re/ampliseq[nf-core/ampliseq pipeline]). Metadata should include workflow details and versions either in the metadata method steps or as a reference in the SOP field in the DNA derived data extension (see mapping in <<table-04,Table 4>>). Sequence data should be deposited in an appropriate nucleotide archive (NCBI’s SRA: https://doi.org/10.1093/nar/gkq1019[Leinonen et al. 2011^]) or EMBL’s ENA (https://doi.org/10.1093/nar/gkz1063[Amid et al. 2020^])) and data submitted to the biodiversity platform should include the biosample ID obtained from the archive (see data mapping in <<data-mapping>>). Making use of these sample IDs will reduce the chances of duplication and ensure sequence data are readily obtainable should opportunities for re-analysis arise, as reference libraries and bioinformatic tools improve. The core end-product of these pipelines is typically a file of counts of individual OTUs or ASVs in each sample along with the taxonomy assigned to these. This is generated either in tabular format or in the BIOM format (https://doi.org/10.1186/2047-217X-1-7[McDonald et.al 2012^]). OTU or ASV sequences are also often provided in the FASTA format (https://doi.org/10.1073/pnas.85.8.2444[Pearson & Lipman 1988^])."
-msgstr ""
+msgstr "Plusieurs outils et algorithmes open source existent pour le traitement bioinformatique des données de métabarcoding (QIIME2 https://doi.org/10.1038/s41587-019-0209-9[(Bolyen et al. 2019)^], DADA2 https://doi.org/10.1038/nmeth.3869[(Callahan et al. 2016)^], SWARM https://doi.org/10.7717/peerj.593 [(Mahé et al. 2014)^], USEARCH https://doi.org/10.1093/bioinformatics/btq461p[(Edgar 2010)^], Mothur https://doi.org/10.1128/AEM.01541-09[(Schloss et al. 2009)^], LULU https://doi.org/10.1038/s41467-017-01312-x[(Frøslev et al. 2017)^], PROTAX https://doi.org/10.1093/bioinformatics/btw34[(Somervuo et al. 2016)^], VSEARCH https://doi.org/10.7717/peerj.2584[(Rognes et al. 2016)^]). Étant donnée l'existence de nombreux flux de travail populaires et bien utilisés, nous formulons ci-dessous quelques recommandations sur l'analyse des données en vue de leur soumission aux plateformes de données sur la biodiversité. Il ne s'agit pas de suggérer que ce sont les meilleures méthodes ou qu'elles sont les plus appropriées à toute fin, mais d'encourager la soumission de données relativement standardisées qui peuvent être facilement comparées par le biais des plateformes. Si possible, il convient d'utiliser un flux de travail bien documenté et mis à jour (par exemple, https://nf-co.re/ampliseq[nf-core/ampliseq pipeline]). Les métadonnées doivent inclure les détails et les versions du flux de travail, soit dans les étapes de la méthode des métadonnées, soit en tant que référence dans le champ SOP de l'extension des données dérivées de l'ADN (voir la correspondance dans le <<tableau-04, tableau 4>>). Les données de séquence doivent être déposées dans une archive de nucléotides appropriée (NCBI's SRA : https://doi.org/10.1093/nar/gkq1019[Leinonen et al. 2011^]) ou EMBL's ENA (https://doi.org/10.1093/nar/gkz1063[Amid et al. 2020^])) et les données soumises à la plateforme de biodiversité doivent inclure l'ID de l'échantillon biologique obtenu à partir de l'archive (voir le mapping des données dans <<data-mapping>>). L'utilisation de ces identifiants d'échantillons réduira les risques de duplication et garantira que les données de séquences ADN soient facilement accessibles si des opportunités de réanalyse se présentent, à mesure que les bibliothèques de référence et les outils bioinformatiques s'améliorent. Le principal produit final de ces pipelines est généralement un fichier contenant le nombre d'OTUs ou d'ASVs individuels dans chaque échantillon, ainsi que la taxonomie qui leur a été attribuée. Ce fichier est généré soit sous forme de tableau, soit sous forme de BIOM (https://doi.org/10.1186/2047-217X-1-7[McDonald et.al 2012^]). Les séquences d'OTU ou d'ASV sont également souvent fournies au format FASTA (https://doi.org/10.1073/pnas.85.8.2444[Pearson & Lipman 1988^])."
 
 #. type: Title ===
 #: 100.en.adoc:115
@@ -573,17 +573,17 @@ msgstr "La plupart des plateformes actuelles de données sur la biodiversité so
 #. type: Plain text
 #: 100.en.adoc:126
 msgid "In contrast to classical taxonomy, which is a heavily manual process, clustering DNA sequences into taxonomic concepts relies on algorithmic analysis of similarity and other signals (such as phylogeny and probability), as well as some human editing. The resulting OTUs vary in stability, presence of reference sequences and physical material, alignments and cut-off values, and OTU identifiers such as DOIs (https://doi.org/10.1093/nar/gky1022[Nilsson et al. 2019^]). Even more importantly, they vary in scale, from local study- or project-specific libraries to global databases that enable broader cross-study comparison. In contrast to the centralization and codification of Linnaean taxa that are formally described in research publications, OTUs are distributed across multiple evolving digital reference libraries that differ in taxonomic focus, barcode genes and other factors. By associating standard sequences with identified reference specimens, BOLD and UNITE are establishing an essential mapping layer for linking ASVs and OTUs with Linnaean taxonomy. The GBIF backbone taxonomy includes identifiers for UNITE Species Hypotheses (SHs) as well as Barcode Index Numbers (BINs) which allows indexing of species occurrence data taxonomically annotated at the OTU level for primarily Fungi and Animals (https://www.gbif.org/news/2LrgV5t3ZuGeU2WIymSEuk/adding-sequence-based-identifiers-to-backbone-taxonomy-reveals-dark-taxa-fungi[GBIF secretariat 2018^], https://data-blog.gbif.org/post/gbif-backbone-taxonomy[Grosjean 2019^])."
-msgstr ""
+msgstr "Contrairement à la taxonomie classique, qui est un processus fortement manuel, le regroupement des séquences d'ADN en concepts taxonomiques repose sur l'analyse algorithmique de la similarité et d'autres signaux (tels que la phylogénie et la probabilité), ainsi que sur une certaine édition humaine. Les OTU qui en résultent varient en termes de stabilité, de présence de séquences de référence et de matériel physique, d'alignements et de valeurs de cut-off, ainsi que d'identifiants d'OTU tels que les DOI (https://doi.org/10.1093/nar/gky1022[Nilsson et al. 2019^]). Plus important encore, elles varient en termes d'échelle, des bibliothèques locales spécifiques à une étude ou à un projet aux bases de données mondiales qui permettent une comparaison plus large entre les études. Contrairement à la centralisation et à la codification des taxons linnéens qui sont formellement décrits dans les publications de recherche, les OTU sont répartis dans de multiples bibliothèques de référence numériques évolutives qui diffèrent par leur focus taxonomique, leurs gènes de code-barres et d'autres facteurs. En associant des séquences standard à des spécimens de référence identifiés, BOLD et UNITE établissent une couche de correspondance essentielle pour relier les ASV et les OTU à la taxonomie linnéenne. La taxonomie de base du GBIF comprend des identifiants pour les hypothèses d'espèces UNITE (SH) ainsi que des numéros d'index de code-barres (BIN) qui permettent d'indexer les données d'occurrence d'espèces annotées taxonomiquement au niveau de l'OTU, principalement pour les champignons et les animaux (https://www.gbif.org/news/2LrgV5t3ZuGeU2WIymSEuk/adding-sequence-based-identifiers-to-backbone-taxonomy-reveals-dark-taxa-fungi[GBIF secretariat 2018^], https://data-blog.gbif.org/post/gbif-backbone-taxonomy[Grosjean 2019^])."
 
 #. type: Plain text
 #: 100.en.adoc:128
 msgid "Algorithms for taxonomic annotation of eDNA will typically assign each unique sequence to the nearest taxonomic group in a reference set, based on some criteria for relatedness and confidence. For poorly known groups of organisms, such as prokaryotes, insects and fungi, the annotation may be a non-Linnaean placeholder name for a (cluster-based) taxon (i.e. the ID/number of the relevant SH or BIN), and this taxon may represent a species or even a taxonomic unit above the species level. No reference database contains all species in a given group due to the many unknown, unidentified, and undescribed species on earth. Frequent ignorance of this fact has been the source of numerous taxonomic misidentifications during the last 30 years."
-msgstr ""
+msgstr "Les algorithmes d'annotation taxonomique de l'eDNA attribuent généralement chaque séquence unique au groupe taxonomique le plus proche dans un ensemble de référence, sur la base de certains critères de parenté et de confiance. Pour les groupes d'organismes mal connus, tels que les procaryotes, les insectes et les champignons, l'annotation pour un taxon (basé sur un cluster) peut être un nom de réserve non linnéen (c'est-à-dire l'ID/le numéro du SH ou du BIN concerné), et ce taxon peut représenter une espèce ou même une unité taxonomique supérieure au niveau de l'espèce. Aucune base de données de référence ne contient toutes les espèces d'un groupe donné en raison du grand nombre d'espèces inconnues, non identifiées et non décrites sur terre. L'ignorance fréquente de ce fait a été la source de nombreuses erreurs d'identification taxonomique au cours des 30 dernières années."
 
 #. type: Plain text
 #: 100.en.adoc:130
 msgid "During import into the biodiversity platform (e.g. GBIF or OBIS), the taxonomic resolution for these DNA-based occurrences may be reduced even further, as the names/IDs obtained from comparing with the reference database (e.g. UNITE, BOLD) may not all be included in the taxonomic index of that platform at the time of publication. However, the inclusion of the underlying OTU or ASV sequence for each record will allow future users to potentially identify the sequence to a greater level of granularity, particularly as reference libraries improve over time. Therefore we also recommend to publish all sequences in a study - also those that are presently fully unclassified – as they may well be possible to identify with improved reference databases. In cases where the underlying sequence cannot be included as part of the submitted data, we advocate deposition of a (scientific or placeholder) name of the taxon (e.g. the BOLD BIN or UNITE SH) plus an MD5 checksum of the sequence as a unique taxon ID (see xref:data-mapping[xrefstyle=\"full\"]). MD5 checksums are unidirectional hash algorithms commonly used for https://en.wikipedia.org/wiki/MD5[verifying file integrity^]. In this case, they would provide a unique and repeatable representation of the original sequence that would nevertheless not allow the sequence itself to be recovered. This may be required in cases where sensitivity exists around access. MD5 checksums enable efficient query to determine whether the same exact sequence has been recovered in other eDNA efforts, but it is not a complete replacement of the sequence as MD5s do not enable further analyses. Two sequences differing by even a single base will get two completely different MD5 checksums, such that BLAST-style sequence similarity searches will not work."
-msgstr ""
+msgstr "Lors de l'importation dans la plateforme de biodiversité (par exemple GBIF ou OBIS), la résolution taxonomique de ces occurrences dérivées de l'ADN peut être encore plus réduite, étant donné que les noms/ID obtenus par comparaison avec la base de données de référence (par exemple UNITE, BOLD) peuvent ne pas être tous inclus dans l'index taxonomique de la plateforme utilisée au moment de la publication. Toutefois, l'inclusion de la séquence OTU ou ASV sous-jacente pour chaque enregistrement permettra aux futurs utilisateurs d'identifier potentiellement la séquence à un niveau de granularité plus élevé, notamment parce que les bibliothèques de référence s'améliorent au fil du temps. C'est pourquoi nous recommandons également de publier toutes les séquences d'une étude - y compris celles qui sont actuellement entièrement non classifiées - car il pourrait être possible de les identifier grâce à l'amélioration des bases de données de référence. Dans les cas où la séquence sous-jacente ne peut pas être incluse dans les données soumises, nous préconisons le dépôt d'un nom (scientifique ou de réserve) du taxon (par exemple BOLD BIN ou UNITE SH) plus une somme de contrôle MD5 de la séquence en tant qu'identifiant unique du taxon (voir xref:data-mapping[xrefstyle=\"full\"]). Les sommes de contrôle MD5 sont des algorithmes de hachage unidirectionnels couramment utilisés pour https://en.wikipedia.org/wiki/MD5[vérifier l'intégrité des fichiers^]. Dans ce cas, elles fournissent une représentation unique et reproductible de la séquence originale qui ne permet cependant pas de récupérer la séquence elle-même. Cela peut être nécessaire dans les cas où l'accès est sensible. Les sommes de contrôle MD5 permettent une interrogation efficace pour déterminer si la même séquence exacte a été récupérée dans d'autres efforts d'eDNA, mais il ne s'agit pas d'un remplacement complet de la séquence, car les MD5 ne permettent pas d'effectuer d'autres analyses. Deux séquences différant d'une seule base obtiendront deux sommes de contrôle MD5 complètement différentes, de sorte que les recherches de similarité de séquence de type BLAST ne fonctionneront pas."
 
 #. type: Title ===
 #: 100.en.adoc:131
@@ -594,7 +594,7 @@ msgstr "Résultats"
 #. type: Plain text
 #: 100.en.adoc:134
 msgid "The purpose of exposing DNA-derived data through biodiversity platforms is to enable reuse of these data in combination with other biodiversity data types. It is very important to keep this reuse in mind when preparing your data for publication. Ideally, the metadata and data should tell a complete story in such a way that new, uninformed users can use this evidence without any additional consultations or correspondence. Biodiversity data platforms provide search, filtering, browsing, visualizations, data access, and data citation functionality. For metabarcoding data we encourage users to configure filters for minimum absolute and relative read abundance to make a suitable filtering of data. Singletons or any occurrence with an absolute read count below some selected value can be filtered out by setting a minimum read abundance per OTU or ASV (using the field organismQuantity). Occurrences with a relative read abundance below a selected threshold can be filtered out by setting a minimum value of relative organism quantity, which is calculated from the detected reads (organismQuantity) and total reads in the corresponding sample (sampleSizeValue) (<<mapping-metabarcoding-edna-and-barcoding-data>>). Users can often choose data-output formats (e.g. DwC-A, CSV) and then process, clean and transform data into the shape and format needed for the analyses."
-msgstr ""
+msgstr "L'objectif d'exposer des données dérivées de l'ADN par l'intermédiaire des plateformes de biodiversité est de permettre la réutilisation de ces données en combinaison avec d'autres types de données sur la biodiversité. Il est très important de garder cette réutilisation à l'esprit lorsque vous préparez vos données pour la publication. Idéalement, les métadonnées et les données devraient raconter une histoire complète de telle sorte que de nouveaux utilisateurs non informés puissent utiliser ces évidences sans aucune consultation ou correspondance supplémentaire. Les plateformes de données sur la biodiversité offrent des fonctionnalités de recherche, de filtrage, de navigation, de visualisation, d'accès et de citation des données. Pour les données de métabarcoding, nous encourageons les utilisateurs à configurer les filtres pour l'abondance minimale absolue et relative des reads afin d'effectuer un filtrage approprié des données. En définissant une abondance minimale de reads par OTU ou ASV (à l'aide du champ organismQuantity), les singletons ou toute occurrence dont le nombre absolu de reads est inférieur à une certaine valeur peuvent être filtrés. En définissant une valeur minimale de la quantité relative d'organismes, calculée à partir des reads détectés (organismQuantity) et des reads totales dans l'échantillon correspondant (sampleSizeValue) (<<mapping-metabarcoding-edna-and-barcoding-data>>), les occurrences dont l'abondance relative des reads est inférieure à un seuil sélectionné peuvent être éliminées. L'utilisateur peut souvent choisir les formats de sortie des données (par exemple DwC-A, CSV) et ensuite traiter, nettoyer et transformer les données dans la forme et le format requis pour ses analyses."
 
 #. type: Plain text
 #: 100.en.adoc:136
@@ -897,13 +897,13 @@ msgstr "Catégorie IV: Références de noms"
 #. type: Plain text
 #: 200.en.adoc:113
 msgid "This category corresponds to DNA-derived names, derived from clustering or denoising (error-correction based models), such as stable non-Linnaean Operational Taxonomic Units (OTU), Amplicon Sequence Variant (ASV) and Barcode Index Numbers (BIN)—in other words, any reference to taxa or provisional names that are defined outside of the Linnaean taxonomy. Numerous projects produce local project- or study-specific libraries of OTUs, and although it is technically possible to publish these as checklists, they have limited to no value for data linking or interpretation; as a result, we do not encourage their publication through biodiversity data platforms. However, the inclusion of the widely adopted, stable, global, digitally referenceable OTUs into Linnaean taxonomic backbones is critically important for indexing unnamed “dark” biodiversity. GBIF have accumulated experience in integrating such large and global reference libraries of OTUs into the GBIF taxonomic backbone, which allows the display of OTUs under the nearest parent taxon which has a Scientific name (<<figure-otus>>)."
-msgstr ""
+msgstr "Cette catégorie correspond aux noms dérivés de l'ADN, issus du clustering ou du denoising (modèles basés sur la correction d'erreur), tels que les unités taxonomiques opérationnelles (OTU) stables et non linnéennes, les variants de séquences d'amplicons (ASV) et les index de code-barres (BIN) - en d'autres termes, toute référence à des taxons ou à des noms provisoires définis en dehors de la taxonomie linnéenne. De nombreux projets produisent des bibliothèques d'OTU spécifiques à un projet ou à une étude et, bien qu'il soit techniquement possible de les publier sous forme de checklists, elles n'ont qu'une valeur limitée, voire nulle, pour la mise en relation ou l'interprétation des données. Cependant, l'inclusion des OTUs largement adoptées, stables, globales et numériquement référençables dans les classifications taxonomiques linnéennes est d'une importance cruciale pour l'indexation de la biodiversité \"obscure\" sans nom. Le GBIF a accumulé de l'expérience dans l'intégration de ces grandes bibliothèques de référence mondiales d'OTUs dans la base taxonomique du GBIF, qui permet l'affichage des OTUs sous le taxon parent le plus proche qui a un nom scientifique (<<figure-otus>>)."
 
 #. type: Block title
 #: 200.en.adoc:115
 #, no-wrap
 msgid "OTUs (SHs) from UNITE (mainly fungi, above) and from BOLD (BINs) (mainly arthropods, below) are displayed in the GBIF backbone taxonomy under their corresponding parent taxa which have Scientific names. Multiple individually observed occurrences of cryptic biodiversity become discoverable together with non-genetic evidence through a single access point."
-msgstr ""
+msgstr "Les OTUs (SHs) de UNITE (principalement des champignons, ci-dessus) et de BOLD (BINs) (principalement des arthropodes, ci-dessous) sont affichés dans la taxonomie de base du GBIF sous leurs taxons parents correspondants qui ont des noms scientifiques. Les multiples occurrences de biodiversité cryptique observées individuellement peuvent être découvertes en même temps que les évidences non génétiques par le biais d'un point d'accès unique."
 
 #. type: Target for macro image
 #: 200.en.adoc:116
@@ -978,7 +978,7 @@ msgstr "Alors que les fichiers de base stockent des données omniprésentes sur 
 #. type: Plain text
 #: 200.en.adoc:142
 msgid "As a first step in preparing your data for publishing, you should make sure your field names / column headers follow the https://dwc.tdwg.org/terms/[Darwin Core data standard]. In many cases this is straightforward, such as renaming your `lat` or `latitude` field to `decimalLatitude`. However, the Darwin Core Standard is quite flexible and some terms are used in different ways, depending on the type of data. An example of this are the fields term:dwc[organismQuantity] and term:dwc[organismQuantityType], which could be used to describe the number of individuals, per cent biomass or a score on the Braun-Blanquet Scale, as well as the number of reads of an ASV within a sample. Therefore, we here provide tables of required and recommended fields with descriptions and examples (<<table-01,Table 1>>, <<table-02,Table 2>>, <<table-03,Table 3>> and <<table-04, Table 4>>). The recommendation to use the Occurrence core for DNA-derived data stems from the strong desire to share the sequence to help qualify the determination. Additional fields and extensions (such as http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]) are applicable - both to occurrence cores and event core. When a sequence is derived from an organism (e.g. a parasite, gut contents, epibiont etc.) the observation may be linked to the observation of the host organism. This can be achieved using the (https://dwc.tdwg.org/terms/#resourcerelationship[Resource Relation extension^]) of Darwin Core (e.g. https://www.gbif.org/species/143610775/verbatim). Perhaps the most important recommendation is to use globally unique (when available) and other permanent identifiers for as many data fields and parameters as possible (in all ID fields in the tables below)."
-msgstr ""
+msgstr "La première étape de la préparation de vos données pour la publication consiste à assurer que les noms des champs et les en-têtes des colonnes soient conformes à https://dwc.tdwg.org/terms/ [Darwin Core data standard]. Dans de nombreux cas, c'est assez simple, comme par exemple renommer votre champ `lat` ou `latitude` en `decimalLatitude`. Cependant, le Darwin Core Standard est assez flexible et certains termes sont utilisés de différentes manières, en fonction du type de données. Les champs term:dwc[organismQuantity] et term:dwc[organismQuantityType] en sont un exemple. Ils peuvent être utilisés pour décrire le nombre d'individus, le pourcentage de biomasse ou un score sur l'échelle de Braun-Blanquet, ainsi que le nombre de reads d'un ASV dans un échantillon. C'est pourquoi nous fournissons ici des tableaux des champs obligatoires et recommandés avec des descriptions et des exemples (<<table-01,Table 1>>, <<table-02,Table 2>>, <<table-03,Table 3>> et <<table-04, Table 4>>). La recommandation d'utiliser le core Occurrence pour les données dérivées de l'ADN découle de la volonté de partager la séquence pour aider à qualifier la détermination. Des champs supplémentaires et des extensions (tels que http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]) sont applicables - à la fois au core Occurrences et au core Evénements. Lorsqu'une séquence est dérivée d'un organisme (par exemple un parasite, le contenu d'un intestin, un épibionte, etc.), l'observation peut être liée à l'observation de l'organisme hôte. Ceci peut être réalisé en utilisant l'extension (https://dwc.tdwg.org/terms/#resourcerelationship[Resource Relation extension^]) de Darwin Core (par exemple https://www.gbif.org/species/143610775/verbatim). La recommandation la plus importante est peut-être d'utiliser des identifiants uniques au niveau mondial (lorsqu'ils sont disponibles) et d'autres identifiants permanents pour le plus grand nombre possible de champs de données et de paramètres (dans tous les champs ID des tableaux ci-dessous)."
 
 #. type: Plain text
 #: 200.en.adoc:145 200.en.adoc:288 200.en.adoc:394 200.en.adoc:514
@@ -1082,12 +1082,117 @@ msgid "| Field name\n"
 "| 24.174556\n"
 "| The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.\n"
 "| Highly recommended\n\n"
-msgstr ""
+msgstr "| Nom du champ\n"
+"| Exemples\n"
+"| Description\n"
+"| Exigence\n\n"
+"| term:dwc[basisOfRecord]\n"
+"| MaterialSample\n"
+"| Nature spécifique de l'enregistrement de données - un sous-type de http://rs.gbif.org/vocabulary/dwc/basis_of_record.xml[dcterms:type]. Pour les occurrences dérivées de l'ADN (voir <<catégorie-i, catégorie I>> et <<catégorie-iii, catégorie III>>), utiliser MaterialSample. Pour les occurrences enrichies, utiliser PreservedSpecimen ou LivingSpecimen selon le cas.\n"
+"| Obligatoire\n\n"
+"| term:dwc[occurrenceID]\n"
+"| urn:catalog:UWBM:Bird:89776\n"
+"| Identifiant unique pour l'occurrence, qui permet de la reconnaître dans les différentes versions du jeu de données, ainsi que lors du téléchargement et de l'utilisation des données. Il peut s'agir d'un identifiant global unique ou d'un identifiant spécifique au jeu de données.\n"
+"| Obligatoire\n\n"
+"| term:dwc[eventID]\n"
+"| urn:uuid:a964765b-22c4-439a-jkgt-2\n"
+"| Identifiant pour l'ensemble des informations associées à un événement (quelque chose qui se produit à un endroit et à un moment donnés). Il peut s'agir d'un identifiant global unique ou d'un identifiant spécifique au jeu de données.\n"
+"| Fortement recommandé\n\n"
+"| term:dwc[eventDate]\n"
+"| 2020-01-05\n"
+"| Date à laquelle l'événement a été enregistré. La meilleure pratique recommandée est d'utiliser une date conforme à la norme ISO 8601-1:2019. Pour plus d'informations, consultez le site https://dwc.tdwg.org/terms/#dwc:eventDate\n"
+"| Obligatoire\n\n"
+"| term:dwc[recordedBy]\n"
+"| \"Oliver P. Pearson \\| Anita K. Pearson\"\n"
+"| Liste (concaténée et séparée) de noms de personnes, de groupes ou d'organisations responsables de l'enregistrement de l'occurrence originale. La meilleure pratique recommandée est de séparer les valeurs par une barre verticale (' \\| '). L'inclusion d'informations sur l'observateur améliore la reproductibilité scientifique (https://doi.org/10.1093/database/baaa072[Groom et al. 2020^]).\n"
+"| Fortement recommandé\n\n"
+"| term:dwc[organismQuantity]\n"
+"| 33\n"
+"| Nombre de reads de cet OTU ou ASV dans l'échantillon.\n"
+"| Fortement recommandé\n\n"
+"| term:dwc[organismQuantityType]\n"
+"| DNA sequence reads\n"
+"| Le terme devrait toujours être \"DNA sequence reads\"\n"
+"| Fortement recommandé\n\n"
+"| term:dwc[sampleSizeValue]\n"
+"| 1233890\n"
+"| Nombre total de reads dans l'échantillon. Ce nombre est important car il permet de calculer l'abondance relative de chaque OTU ou ASV dans l'échantillon. Ce nombre devrait de préférence être calculé après le traitement universel (contrôle de la qualité, denoising des ASV, élimination des chimères, etc.), mais avant l'élimination manuelle/sélective, par exemple, des OTU ou ASV non ciblés de l'ensemble de données. La raréfaction (rééchantillonnage pour uniformiser la profondeur de séquençage des échantillons) n'est ni nécessaire ni conseillée.\n"
+"| Fortement recommandé\n\n"
+"| term:dwc[sampleSizeUnit]\n"
+"| DNA sequence reads\n"
+"| Le terme devrait toujours être \"DNA sequence reads\"\n"
+"| Fortement recommandé\n\n"
+"| term:dwc[materialSampleID]\n"
+"| https://www.ncbi.nlm.nih.gov/biosample/15224856 +\n"
+" +\n"
+"https://www.ebi.ac.uk/ena/browser/view/SAMEA3724543 +\n"
+" +\n"
+"urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03\n"
+"| Identifiant pour le MaterialSample (par opposition à un enregistrement numérique particulier de l'échantillon). Utiliser l'ID de l'échantillon biologique (biosample) s'il a été obtenu à partir d'une archive de nucléotides. En l'absence d'un identifiant global unique persistant, en construire un à partir d'une combinaison d'identifiants dans l'enregistrement qui rendra l'identifiant materialSampleID globalement unique.\n"
+"| Fortement recommandé\n\n"
+"| term:dwc[samplingProtocol]\n"
+"| Piège à lumière UV\n"
+"| Nom, référence ou description de la méthode ou du protocole utilisé lors d'un événement d'échantillonnage.\n"
+"https://dwc.tdwg.org/terms/#dwc:samplingProtocol\n"
+"| Recommandé\n\n"
+"| term:dwc[associatedSequences]\n"
+"| https://www.ncbi.nlm.nih.gov/nuccore/MK405371\n"
+"| Liste (concaténée et séparée) d'identifiants (publication, identifiant global unique, URI) des séquences génétiques associées à l'occurrence. Pourrait être utilisée pour établir un lien avec des reads bruts de codes-barres archivées et/ou des séquences génomiques associées, par exemple dans un répositoire public.\n"
+"| Recommandé\n\n"
+"| term:dwc[identificationRemarks]\n"
+"| Confiance de l'annotation RDP (au taxon spécifié le plus bas) : 0,96, par rapport à la base de données de référence : GTDB\n"
+"| Spécification du processus d'identification taxonomique, comprenant idéalement des données sur l'algorithme appliqué et la base de données de référence, ainsi que sur le niveau de confiance dans l'identification résultante.\n"
+"| Recommandé\n\n"
+"| term:dwc[identificationReferences]\n"
+"| https://www.ebi.ac.uk/metagenomics/pipelines/4.1 + \n"
+" +\n"
+"https://github.com/terrimporter/CO1Classifier\n"
+"| Liste (concaténée et séparée) des références (publication, identifiant global unique, URI) utilisées dans l'identification. La meilleure pratique recommandée est de séparer les valeurs d'une liste par un espace vertical ( \\| ).\n"
+"| Recommandé\n\n"
+"| term:dwc[decimalLatitude]\n"
+"| 60.545207\n"
+"| Latitude géographique (en degrés décimaux, en utilisant le système de référence spatiale indiqué dans geodeticDatum) du centre géographique d'un lieu. Les valeurs positives correspondent au nord de l'équateur, les valeurs négatives au sud de l'équateur. Les valeurs légales sont comprises entre -90 et 90 inclus.\n"
+"| Fortement recommandé\n\n"
+"| term:dwc[decimalLongitude]\n"
+"| 24.174556\n"
+"| Longitude géographique (en degrés décimaux, en utilisant le système de référence spatiale indiqué dans geodeticDatum) du centre géographique d'un lieu. Les valeurs positives correspondent à l'est du méridien de Greenwich, les valeurs négatives à l'ouest. Les valeurs légales sont comprises entre -180 et 180 inclus.\n"
+"| Fortement recommandé\n\n"
 
 #. type: Table
 #: 200.en.adoc:285
 msgid "| term:dwc[taxonID] | [.break-all]#ASV:7bdb57487bee022ba30c03c3e7ca50e1# | For eDNA data, it is recommended to use an MD5 hash of the sequence and prepend it with “ASV:”. See also <<taxonomy-of-sequences>>.  | Highly recommended, if DNA_sequence is not provided | term:dwc[scientificName] | _Gadus morhua_ L. 1758, BOLD:ACF1143 | Scientific name of the closest known taxon (species or higher) or an OTU identifier from BOLD (BIN) or UNITE (SH)  | Required | term:dwc[kingdom] | Animalia | Higher taxonomy | Highly recommended | term:dwc[phylum] | Chordata | Higher taxonomy | Recommended | term:dwc[class] | Actinopterygii | Higher taxonomy | Recommended | term:dwc[order] | Gadiformes | Higher taxonomy | Recommended | term:dwc[family] | Gadidae | Higher taxonomy | Recommended | term:dwc[genus] | _Gadus_ | Higher taxonomy | Recommended"
-msgstr ""
+msgstr "| term:dwc[taxonID] \n"
+"| [.break-all]#ASV:7bdb57487bee022ba30c03c3e7ca50e1# \n"
+"| Pour les données d'eDNA, il est recommandé d'utiliser un hachage MD5 de la séquence et de le faire précéder de \"ASV :\". Voir également <<taxonomie des séquences>>.  \n"
+"| Fortement recommandé, si la séquence ADN n'est pas fournie \n\n"
+"| term:dwc[scientificName] \n"
+"| _Gadus morhua_ L. 1758, BOLD:ACF1143 \n"
+"| Nom scientifique du taxon connu le plus proche (espèce ou supérieur) ou un identifiant OTU de BOLD (BIN) ou UNITE (SH) \n"
+"| Obligatoire\n\n"
+"| term:dwc[kingdom] \n"
+"| Animalia \n"
+"| Taxonomie supérieure \n"
+"| Fortement recommandé \n\n"
+"| term:dwc[phylum] \n"
+"| Chordata \n"
+"| Taxonomie supérieure \n"
+"| Recommandé \n\n"
+"| term : dwc[class] \n"
+"| Actinopterygii \n"
+"| Taxonomie supérieure \n"
+"| Recommandé \n\n"
+"| term:dwc[order] \n"
+"| Gadiformes \n"
+"| Taxonomie supérieure \n"
+"| Recommandé \n\n"
+"| term:dwc[family] \n"
+"| Gadidae \n"
+"| Taxonomie supérieure \n"
+"| Recommandé\n\n"
+"| term:dwc[genus]\n"
+"| _Gadus_\n"
+"| Higher taxonomy\n"
+"| Recommended"
 
 #. type: Block title
 #: 200.en.adoc:290
@@ -1103,7 +1208,10 @@ msgid "| Field name\n"
 "| Examples\n"
 "| Description\n"
 "| Required\n\n"
-msgstr ""
+msgstr "| Nom du champ\n"
+"| Exemples\n"
+"| Description\n"
+"| Exigence\n\n"
 
 #. type: Table
 #: 200.en.adoc:391
@@ -1184,7 +1292,82 @@ msgid "| term:mixs[DNA_sequence]\n"
 "| \"Genbank nr;221\", \"UNITE;8.2\"\n"
 "| Reference database (i.e. sequences not generated as part of the current study) used to assigning taxonomy to OTUs or ASVs\n"
 "| Highly recommended\n"
-msgstr ""
+msgstr "| term:mixs[DNA_sequence]\n"
+"| [.break-all]#TCTATCCTCAATTATAGGATAATTCACCATCAGTAGATTTAGGAATTTTCTATTCATGCAGGTATATCATCAATTAGATTAATTAATTTGTAACAATTTTAATACAAACTCATTAAACTTTACCATTTTCATGATCAGTTAGTTACCAATTCTCCTTATTATCATTA#\n"
+"| La séquence d'ADN (ASV). L'interprétation taxonomique de la séquence dépend de la technologie et de la bibliothèque de référence disponibles au moment de la publication. Par conséquent, l'approche taxonomique la plus objective est la séquence qui peut être réinterprétée à l'avenir.\n"
+"| Fortement recommandé\n\n"
+"| terme:mixs[sop]\n"
+"| https://www.protocols.io/view/emp-its-illumina-amplicon-protocol-pa7dihn\n"
+"| Les procédures opérationnelles standard utilisées dans l'assemblage et/ou l'annotation des génomes, des métagénomes ou des séquences environnementales. +\n"
+" +\n"
+"Référence à un protocole bien documenté, par exemple en utilisant https://protocols.io[protocols.io].\n"
+"| Recommandé\n\n"
+"| term:mixs[target_gene]\n"
+"| ARNr 16S, ARNr 18S, ITS\n"
+"| Nom du gène ou du marqueur ciblé pour les études basées sur les marqueurs.\n"
+"| Fortement recommandé\n\n"
+"| term:mixs[target_subfragment]\n"
+"| V6, V9, ITS2\n"
+"| Nom du sous-fragment d'un gène ou d'un marqueur. Important pour, par exemple, identifier des régions spéciales sur les gènes marqueurs, comme la région hypervariable V6 du gène de l'ARNr 16S.\n"
+"| Fortement recommandé\n\n"
+"| terme:mixs[pcr_primer_forward]\n"
+"| GGACTACHVGGGTWTCTAAT\n"
+"| Amorce PCR directe utilisée pour amplifier la séquence du gène, du locus ou du sous-fragment ciblé.\n"
+"| Fortement recommandé\n\n"
+"| terme:mixs[pcr_primer_reverse]\n"
+"| GGACTACHVGGGTWTCTAAT\n"
+"| Amorce PCR inverse utilisée pour amplifier la séquence du gène, locus ou sous-fragment ciblé.\n"
+"| Fortement recommandé\n\n"
+"| terme:mixs[pcr_nom_de_l'amorce_forward]\n"
+"| jgLCO1490\n"
+"| Nom de l'amorce PCR directe\n"
+"| Fortement recommandé\n\n"
+"| term:mixs[pcr_primer_name_reverse] | jgHCO2198\n"
+"| jgHCO2198\n"
+"| Nom de l'amorce PCR inverse\n"
+"| Fortement recommandé\n\n"
+"| term:mixs[pcr_primer_reference]\n"
+"| https://doi.org/10.1186/1742-9994-10-34\n"
+"| Référence pour les amorces\n"
+"| Fortement recommandé\n\n"
+"| term:mixs[env_broad_scale]\n"
+"| biome forestier [ENVO:01000174]\n"
+"*Equivalent à env_biome dans MIxS v4* +\n"
+"Dans ce champ, indiquez de quel système environnemental majeur provient votre échantillon ou spécimen. Les systèmes identifiés doivent avoir un grain spatial grossier, afin de fournir le contexte environnemental général de l'endroit où l'échantillonnage a été effectué (par exemple, étiez-vous dans le désert ou dans une forêt tropicale ?) Nous recommandons d'utiliser des sous-classes de la classe de biome de l'OEV : +\n"
+"http://purl.obolibrary.org/obo/ENVO_00000428\n"
+"| Recommandé\n\n"
+"| term:mixs[env_local_scale]\n"
+"| couche de litière [ENVO:01000338]\n"
+"*Equivalent de env_feature dans MIxS v4* +\n"
+"Dans ce champ, indiquez l'entité ou les entités qui se trouvent dans le voisinage local de votre échantillon ou spécimen et qui, selon vous, ont des influences causales significatives sur votre échantillon ou spécimen. Veuillez utiliser des termes présents dans ENVO et dont le grain spatial est plus petit que celui de votre entrée pour env_broad_scale.\n"
+"| Recommandé\n\n"
+"| term:mixs[env_medium]\n"
+"| sol [ENVO:00001998]\n"
+"*Equivalent de env_material dans MIxS v4* +\n"
+"Dans ce champ, indiquez quel(s) matériau(x) environnemental(aux) (valeurs séparées par une barre verticale ' \\| ') entourait(nt) immédiatement votre échantillon ou spécimen avant l'échantillonnage, en utilisant une ou plusieurs sous-classes de la classe de matériau environnemental de l'OEV : +\n"
+"http://purl.obolibrary.org/obo/ENVO_00010483\n"
+"| Recommandé\n\n"
+"| terme:mixs[lib_layout]\n"
+"| Paired\n"
+"*Equivalent à lib_const_meth dans MIxS v4* +\n"
+"Spécifier si l'on doit s'attendre à des reads simples, paired ou à une autre configuration.\n"
+"| Recommandé\n\n"
+"| term:mixs[seq_meth]\n"
+"| Illumina HiSeq 1500\n"
+"| Méthode/plateforme de séquençage utilisée\n"
+"| Fortement recommandé\n\n"
+"| term:mixs[otu_class_appr]\n"
+"| \"dada2 ; 1.14.0 ; ASV\"\n"
+"| Approche/algorithme et niveau de clustering (le cas échéant) lors de la définition des OTUs ou des ASVs\n"
+"| Fortement recommandé\n\n"
+"| term:mixs[otu_seq_comp_appr]\n"
+"| \"blastn;2.6.0+;e-value cutoff : 0.001\"\n"
+"| Outil et seuils utilisés pour attribuer des noms \"au niveau de l'espèce\" aux OTUs ou ASVs\n"
+"| Fortement recommandé\n\n"
+"| term:mixs[otu_db]\n"
+"| \"Genbank nr;221\", \"UNITE;8.2\"\n"
+"| Base de données de référence (i.e. séquences non générées dans le cadre de l'étude actuelle) utilisée pour attribuer une taxonomie aux OTUs ou ASVs.\n"
+"| Fortement recommandé\n"
 
 #. type: Title ====
 #: 200.en.adoc:395
@@ -1294,7 +1477,95 @@ msgid "| Field name\n"
 "| _Gadus_\n"
 "| Higher taxonomy\n"
 "| Recommended\n"
-msgstr ""
+msgstr "| Nom du champ\n"
+"| Exemples\n"
+"| Description\n"
+"| Exigence\n\n"
+"| term:dwc[basisOfRecord]\n"
+"| MaterialSample\n"
+"| Nature spécifique de l'enregistrement de données - un sous-type de http://rs.gbif.org/vocabulary/dwc/basis_of_record.xml[dcterms:type]. Pour les occurrences dérivées de l'ADN (voir <<catégorie-i, catégorie I>> et <<catégorie-iii, catégorie III>>), utiliser MaterialSample.\n"
+"| Obligatoire\n\n"
+"| term:dwc[occurrenceStatus]\n"
+"| Présence, absence\n"
+"| Déclaration sur la présence ou l'absence d'un taxon à un endroit donné.\n"
+"| Obligatoire\n\n"
+"| term:dwc[eventID]\n"
+"| urn:uuid:a964765b-22c4-439a-jkgt-2\n"
+"| Identifiant pour l'ensemble des informations associées à un événement (quelque chose qui se produit à un endroit et à un moment donnés). Il peut s'agir d'un identifiant global unique ou d'un identifiant spécifique au jeu de données.\n"
+"| Fortement recommandé\n\n"
+"| term:dwc[eventDate]\n"
+"| 2020-01-05\n"
+"| Date à laquelle l'événement a été enregistré. La meilleure pratique recommandée est d'utiliser une date conforme à la norme ISO 8601-1:2019. Pour plus d'informations, consultez le site https://dwc.tdwg.org/terms/#dwc:eventDate\n"
+"| Obligatoire\n\n"
+"| term:dwc[recordedBy]\n"
+"| \"Oliver P. Pearson \\| Anita K. Pearson\"\n"
+"| Liste (concaténée et séparée) de noms de personnes, de groupes ou d'organisations responsables de l'enregistrement de l'occurrence originale. La meilleure pratique recommandée est de séparer les valeurs par une barre verticale (' \\| '). L'inclusion d'informations sur l'observateur améliore la reproductibilité scientifique (https://doi.org/10.1093/database/baaa072[Groom et al. 2020^]).\n"
+"| Fortement recommandé\n\n"
+"| term:dwc[organismQuantity]\n"
+"| 50\n"
+"| Nombre de gouttelettes/chambres positives dans l'échantillon\n"
+"| Fortement recommandé pour la méthode ddPCR et dPCR\n\n"
+"| term:dwc[organismQuantityType]\n"
+"| gouttelettes ddPCR + chambres dPCR\n"
+"| Type de partition \n"
+"| Fortement recommandé pour la méthode ddPCR et dPCR\n\n"
+"| term:dwc[sampleSizeValue]\n"
+"| 20000\n"
+"| Le nombre de partitions acceptées (n), c'est-à-dire les gouttelettes acceptées en ddPCR ou les chambres en dPCR.\n"
+"| Il est fortement recommandé pour la ddPCR, la dPCR et la dPCR.\n\n"
+"| terme:dwc[sampleSizeUnit]\n"
+"| gouttelettes ddPCR + chambres dPCR\n"
+"| Type de partition doit être égal à la valeur de organismQuantityType.\t\n"
+"| Fortement recommandé pour la méthode ddPCR et dPCR\n\n"
+"| term:dwc[materialSampleID]\n"
+"| https://www.ncbi.nlm.nih.gov/biosample/15224856 +\n"
+" +\n"
+"https://www.ebi.ac.uk/ena/browser/view/SAMEA3724543 +\n"
+" +\n"
+"urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03\n"
+"| Identifiant pour le MaterialSample (par opposition à un enregistrement numérique particulier de l'échantillon). Utiliser l'ID de l'échantillon biologique (biosample) s'il a été obtenu à partir d'une archive de nucléotides. En l'absence d'un identifiant global unique persistant, en construire un à partir d'une combinaison d'identifiants dans l'enregistrement qui rendra l'identifiant materialSampleID globalement unique.\n"
+"| Fortement recommandé\n\n"
+"| term:dwc[samplingProtocol]\n"
+"| Piège à lumière UV\n"
+"| Nom, référence ou description de la méthode ou du protocole utilisé lors d'un événement d'échantillonnage.\n"
+"https://dwc.tdwg.org/terms/#dwc:samplingProtocol\n"
+"| Recommandé\n\n"
+"| term:dwc[decimalLatitude]\n"
+"| 60.545207\n"
+"| Latitude géographique (en degrés décimaux, en utilisant le système de référence spatiale indiqué dans geodeticDatum) du centre géographique d'un lieu. Les valeurs positives correspondent au nord de l'équateur, les valeurs négatives au sud de l'équateur. Les valeurs légales sont comprises entre -90 et 90 inclus.\n"
+"| Fortement recommandé\n\n"
+"| term:dwc[decimalLongitude]\n"
+"| 24.174556\n"
+"| Longitude géographique (en degrés décimaux, en utilisant le système de référence spatiale indiqué dans geodeticDatum) du centre géographique d'un lieu. Les valeurs positives correspondent à l'est du méridien de Greenwich, les valeurs négatives à l'ouest. Les valeurs légales sont comprises entre -180 et 180 inclus.\n"
+"| Fortement recommandé\n\n"
+"| term:dwc[scientificName] \n"
+"| _Gadus morhua_ L. 1758, BOLD:ACF1143 \n"
+"| Nom scientifique du taxon connu le plus proche (espèce ou supérieur) ou un identifiant OTU de BOLD (BIN) ou UNITE (SH) \n"
+"| Obligatoire\n\n"
+"| term:dwc[kingdom] \n"
+"| Animalia \n"
+"| Taxonomie supérieure \n"
+"| Fortement recommandé \n\n"
+"| term:dwc[phylum] \n"
+"| Chordata \n"
+"| Taxonomie supérieure \n"
+"| Recommandé \n\n"
+"| term : dwc[class] \n"
+"| Actinopterygii \n"
+"| Taxonomie supérieure \n"
+"| Recommandé \n\n"
+"| term:dwc[order] \n"
+"| Gadiformes \n"
+"| Taxonomie supérieure \n"
+"| Recommandé \n\n"
+"| term:dwc[family] \n"
+"| Gadidae \n"
+"| Taxonomie supérieure \n"
+"| Recommandé \n\n"
+"| term:dwc[genus] \n"
+"| _Gadus_ \n"
+"| Taxonomie supérieure \n"
+"| Recommandé\n"
 
 #. type: Block title
 #: 200.en.adoc:516
@@ -1649,28 +1920,28 @@ msgstr "| Nom de champ\n"
 #: 200.en.adoc:732
 #, no-wrap
 msgid "Marine datasets and the Ocean Biodiversity Information System (OBIS)"
-msgstr ""
+msgstr "Jeux de données marines et système d'information sur la biodiversité des océans (OBIS)"
 
 #. type: Plain text
 #: 200.en.adoc:735
-msgid "When working with datasets originating in the marine environment, it is recommended that the information is published also in the https://obis.org[Ocean Biodiversity Information System (OBIS)] in addition to GBIF. OBIS is a global biodiversity database, which is specialized in providing reliable and accessible data related to marine life and is a part of the IOC-UNESCO. Like GBIF, and ALA, OBIS uses the DwC-A format for data indexing and publishing. By publishing marine datasets through OBIS in addition to other biodiversity databases, the data can reach a broader audience, and diverse groups working in the field of marine biodiversity, as datasets in OBIS are often used for UN processes. With the focus on marine datasets, stringent quality controls on the data increase the reliability of the data and lead to small differences in what information is required for publishing in OBIS as opposed to GBIF."
-msgstr ""
+msgid "When working with datasets originating in the marine environment, it is recommended that the information is published also in the https://obis.org[Ocean Biodiversity Information System^] (OBIS) in addition to GBIF. OBIS is a global biodiversity database, which is specialized in providing reliable and accessible data related to marine life and is a part of the IOC-UNESCO. Like GBIF, and ALA, OBIS uses the DwC-A format for data indexing and publishing. By publishing marine datasets through OBIS in addition to other biodiversity databases, the data can reach a broader audience, and diverse groups working in the field of marine biodiversity, as datasets in OBIS are often used for UN processes. With the focus on marine datasets, stringent quality controls on the data increase the reliability of the data and lead to small differences in what information is required for publishing in OBIS as opposed to GBIF."
+msgstr "Lorsqu'on travaille avec des jeux de données provenant de l'environnement marin, il est recommandé de publier les informations dans https://obis.org[Ocean Biodiversity Information System^] (OBIS) en plus de GBIF. L'OBIS est une base de données mondiale sur la biodiversité, spécialisée dans la mise à disposition de données fiables et accessibles sur la vie marine, qui fait partie de la COI-UNESCO. Comme GBIF et ALA, OBIS utilise le format DwC-A pour l'indexation et la publication des données. En publiant des jeux de données marines par l'intermédiaire d'OBIS, en plus d'autres bases de données sur la biodiversité, les données peuvent atteindre un public plus large et divers groupes travaillant dans le domaine de la biodiversité marine, car les jeux de données d'OBIS sont souvent utilisés dans le cadre de processus des Nations unies. avec un accent sur les jeux de données marines, des contrôles rigoureux de qualité augmentent la fiabilité des données et conduisent à de petites différences dans les informations requises pour la publication dans l'OBIS par rapport à GBIF."
 
 #. type: Plain text
 #: 200.en.adoc:737
-msgid "To ensure consistent taxonomic nomenclature OBIS uses the World Register of Marine Species (WoRMS) as the only taxonomic backbone. This is the case also for occurrences derived from genetic data; a scientific name linked to a scientific name ID from the WoRMS database is highly recommended information for publishing. If a scientific name ID is not provided, OBIS will try to match the scientific name with WoRMS during ingestion, but this should be avoided whenever possible. Scientific names not listed in WoRMS are acceptable, and will be submitted to WoRMS for review and possible inclusion in the register. Fully unclassified sequences are recommended to be classified as \"incertae sedis\", with the WoRMS `scientificNameID` urn:lsid:marinespecies.org:taxname:12. This will ensure correct interpretation by both GBIF and OBIS. Additionally, it is recommended that sequence identifiers from the used reference databases (e.g. Barcode index numbers: BINs from BOLD) be added in the `taxonConceptID` field of the occurrence core table. In this way OBIS will retain its taxonomic backbone based on WoRMS, while enabling linking to disparate reference sequence databases. Names from reference databases which are not strictly scientific names, can be added as `verbatimIdentification`. Automatic classification of species names can often be done through the WoRMS taxon match services and R packages like worrms and taxize. In the future, OBIS plans to periodically search and update the taxonomic assignments of submitted sequences as reference databases develop with time, so recording the sequence information linked to each occurrence is highly recommended."
-msgstr ""
+msgid "To ensure consistent taxonomic nomenclature OBIS uses the https://www.marinespecies.org/[World Register of Marine Species^] (WoRMS) as the only taxonomic backbone. This is the case also for occurrences derived from genetic data; a scientific name linked to a scientific name ID from the WoRMS database is highly recommended information for publishing. If a scientific name ID is not provided, OBIS will try to match the scientific name with WoRMS during ingestion, but this should be avoided whenever possible. Scientific names not listed in WoRMS are acceptable, and will be submitted to WoRMS for review and possible inclusion in the register. Fully unclassified sequences are recommended to be classified as \"incertae sedis\", with the WoRMS `scientificNameID` urn:lsid:marinespecies.org:taxname:12. This will ensure correct interpretation by both GBIF and OBIS. Additionally, it is recommended that sequence identifiers from the used reference databases (e.g. Barcode index numbers: BINs from BOLD) be added in the `taxonConceptID` field of the occurrence core table. In this way OBIS will retain its taxonomic backbone based on WoRMS, while enabling linking to disparate reference sequence databases. Names from reference databases which are not strictly scientific names, can be added as `verbatimIdentification`. Automatic classification of species names can often be done through the WoRMS taxon match services and R packages like worrms and taxize. In the future, OBIS plans to periodically search and update the taxonomic assignments of submitted sequences as reference databases develop with time, so recording the sequence information linked to each occurrence is highly recommended."
+msgstr "Afin d'assurer une nomenclature taxonomique cohérente, OBIS utilise le https://www.marinespecies.org/[World Register of Marine Species^] (WoRMS) comme seule base de référence taxonomique. C'est également le cas pour les occurrences dérivées de données génétiques ; un nom scientifique lié à un ID de nom scientifique de WoRMS est une information fortement recommandée pour la publication. Si un ID de nom scientifique n'est pas fourni, OBIS essaiera de faire correspondre le nom scientifique avec WoRMS pendant l'ingestion, mais cela devrait être évité dans la mesure du possible. Les noms scientifiques non répertoriés dans le WoRMS sont acceptables et seront soumis à WoRMS pour examen et éventuelle inclusion dans le registre. Il est recommandé de classer les séquences entièrement non classées comme \"incertae sedis\", avec le WoRMS `scientificNameID` urn:lsid:marinespecies.org:taxname:12. Cela garantira une interprétation correcte par GBIF et OBIS. En outre, il est recommandé d'ajouter les identifiants de séquence des bases de données de référence utilisées (par exemple les numéros d'index de code-barres : BINs de BOLD) dans le champ `taxonConceptID` du core occurrences. De cette manière, OBIS conservera son système taxonomique basée sur WoRMS, tout en permettant l'établissement de liens avec des bases de données de séquences de référence disparates. Les noms provenant de bases de données de référence qui ne sont pas strictement des noms scientifiques peuvent être ajoutés en tant que `verbatimIdentification`. La classification automatique des noms d'espèces peut souvent être réalisée grâce aux services de correspondance de taxons de WoRMS et des packages R, tels que worrms et taxize. A l'avenir, OBIS prévoit de rechercher et de mettre à jour périodiquement les assignations taxonomiques des séquences soumises, au fur et à mesure que les bases de données de référence se développent, donc l'enregistrement des informations de séquences ADN liées à chaque occurrence est donc fortement recommandé."
 
 #. type: Plain text
 #: 200.en.adoc:739
 msgid "Another required field in OBIS data submissions are geographic coordinates. OBIS performs additional quality checks related to marine data; e.g. that coordinates for strictly marine species are not on land, and that the depth value reported is in a reasonable range. Finally, it should be mentioned that in addition OBIS supports the use of the http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]. This extension allows linking environmental data and sampling facts to sampling events or occurrences, as well as biological measurements to occurrences in a flexible and standardized manner. OBIS has an example eDNA metabarcoding dataset with scripts for data formatting available at https://github.com/iobis/dataset-edna."
-msgstr ""
+msgstr "Les coordonnées géographiques sont un autre champ obligatoire dans les données soumises à l'OBIS. L'OBIS effectue des contrôles de qualité supplémentaires pour les données marines, pour assurer, par exemple, que les coordonnées des espèces strictement marines ne se trouvent pas sur la terre ferme et que la profondeur indiquée se situe dans une fourchette raisonnable. Enfin, il convient de mentionner que l'OBIS permet également l'utilisation de http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]. Cette extension permet de relier les données environnementales et les informations d'échantillonnage aux événements d'échantillonnage ou aux occurrences, ainsi que les mesures biologiques aux occurrences d'une manière souple et normalisée. OBIS dispose d'un exemple de jeu de données de métabarcoding d'eDNA avec des scripts pour le formatage des données disponibles à l'adresse https://github.com/iobis/dataset-edna."
 
 #. type: Block title
 #: 200.en.adoc:744
 #, no-wrap
 msgid "OBIS requirements and recommendations for recording DNA-based occurrences. The table highlights important differences in field values and requirements compared to when publishing to GBIF. Here exemplified with a DNA detection of Blue whale (Balaenoptera musculus). "
-msgstr ""
+msgstr "Exigences et recommandations d'OBIS pour l'enregistrement d'occurrences dérivées de l'ADN. Le tableau met en évidence les différences importantes dans les valeurs des champs et les exigences par rapport à la publication dans GBIF. L'exemple suivant illustre la détection de l'ADN du rorqual bleu (Balaenoptera musculus). "
 
 #. type: Table
 #: 200.en.adoc:771
@@ -1695,13 +1966,33 @@ msgid "| Field name\n"
 "| Balaenoptera musculus\n"
 "| The name corresponding to the NCBI ID (Balaenoptera musculus) (or other ID). This does not necessarily correspond to the value in scientific name.\n"
 "| Recommended\n"
-msgstr ""
+msgstr "| Nom du champ\n"
+"| Valeur/exemple (OBIS)\n"
+"| Description\n"
+"| Exigence\n\n"
+"| Balaenoptera musculus - term:dwc[scientificName]\n"
+"| Balaenoptera musculus\n"
+"| Nom scientifique, de préférence tel qu'il figure dans la base de données du WoRMS. Ceci diffère de GBIF, où il est recommandé d'utiliser le nom du taxon dérivé de l'approche de classification utilisée.\n"
+"| Obligatoire\n\n"
+"| term:dwc[scientificNameID]\n"
+"| urn:lsid:marinespecies.org:taxname:137090\n"
+"| ID du nom scientifique de \"Balaenoptera musculus\" selon la base de données WoRMS.\n"
+"| Fortement recommandé\n\n"
+"| term:dwc[taxonConceptID]\n"
+"| NCBI:txid9771\n"
+"| ID NCBI lié à Balaenoptera musculus dans la base de données taxonomique NCBI. Il peut également s'agir d'un BIN-ID si BOLD a été utilisé pour l'identification, ou d'un autre ID provenant d'une base de données différente.\n"
+"| Recommandé\n\n"
+"| term:dwc[verbatimIdentification]\n"
+"| Balaenoptera musculus\n"
+"| Nom correspondant à l'identifiant NCBI (Balaenoptera musculus) (ou autre identifiant). Il ne correspond pas nécessairement à la valeur du nom scientifique.\n"
+"| Recommandé\n\n"
+"Traduit avec www.DeepL.com/Translator (version gratuite)\n"
 
 #. type: Block title
 #: 200.en.adoc:774
 #, no-wrap
 msgid "OBIS requirements and recommendations for recording sequences that cannot be classified to a scientific name at any taxonomic level. "
-msgstr ""
+msgstr "Exigences et recommandations de l'OBIS pour l'enregistrement des séquences qui ne peuvent pas être classées sous un nom scientifique à aucun niveau taxonomique. "
 
 #. type: Table
 #: 200.en.adoc:801
@@ -1726,7 +2017,26 @@ msgid "| Field name\n"
 "| Phototrophic eukaryote\n"
 "| The name of the taxon in an external database, corresponding to the taxon concept ID.\n"
 "| Recommended\n"
-msgstr ""
+msgstr "| Nom du champ\n"
+"| Valeur/exemple (OBIS)\n"
+"| Description\n"
+"| Exigence\n\n"
+"| terme:dwc[nomscientifique]\n"
+"| incertae sedis\n"
+"| Nom scientifique des séquences inconnues recommandé par OBIS. Utilisez ce nom lorsque la séquence/taxonomie est inconnue. Ceci diffère de GBIF, où il est recommandé d'utiliser le nom du taxon dérivé de l'approche de classification utilisée, même s'il ne s'agit pas d'un nom scientifique à proprement parler.\n"
+"| Obligatoire\n\n"
+"| term:dwc[scientificNameID]\n"
+"| urn:lsid:marinespecies.org:taxname:12\n"
+"| ID du nom scientifique de \"incertae sedis\" selon la base de données WoRMS pour les séquences inconnues recommandées par OBIS. Utilisez cet identifiant lorsque la séquence/taxonomie est inconnue.\n"
+"| Fortement recommandé\n\n"
+"| term:dwc[taxonConceptID]\n"
+"| NCBI:txid1899546\n"
+"| ID dans une base de données taxonomique externe, comme une base de données de référence de séquences, par exemple.\n"
+"| Recommandé\n\n"
+"| Les termes : term:dwc[verbatimIdentification]\n"
+"| eucaryote phototrophe\n"
+"| Nom du taxon dans une base de données externe, correspondant à l'ID du concept de taxon.\n"
+"| Recommandé\n"
 
 #. type: Title ==
 #: 300.en.adoc:1
@@ -2307,347 +2617,347 @@ msgstr "Références"
 #. type: Plain text
 #: bibliography.en.adoc:5
 msgid "[[amid]]Amid C, Alako BT, Balavenkataraman Kadhirvelu V, Burdett T, Burgin J, Fan J, Harrison PW, Holt S, Hussein A, Ivanov E & Jayathilaka S (2020) The European Nucleotide Archive in 2019. Nucleic acids research 48(D1): D70-D76. https://doi.org/10.1093/nar/gkz1063"
-msgstr ""
+msgstr "[[amid]] Amid C, Alako BT, Balavenkataraman Kadhirvelu V, Burdett T, Burgin J, Fan J, Harrison PW, Holt S, Hussein A, Ivanov E & Jayathilaka S (2020) The European Nucleotide Archive in 2019. Nucleic acids research 48(D1): D70-D76. https://doi.org/10.1093/nar/gkz1063"
 
 #. type: Plain text
 #: bibliography.en.adoc:6
 msgid "[[andersen]]Andersen K, Bird KL, Rasmussen M, Haile J, Breuning-Madsen H, Kjaer KH, Orlando L, Gilbert MTP and Willerslev E (2012) Meta-Barcoding of ‘Dirt’ DNA from Soil Reflects Vertebrate Biodiversity. Molecular Ecology 21(8): 1966–79. https://doi.org/10.1111/j.1365-294X.2011.05261.x"
-msgstr ""
+msgstr "[[andersen]] Andersen K, Bird KL, Rasmussen M, Haile J, Breuning-Madsen H, Kjaer KH, Orlando L, Gilbert MTP and Willerslev E (2012) Meta-Barcoding of ‘Dirt’ DNA from Soil Reflects Vertebrate Biodiversity. Molecular Ecology 21(8): 1966–79. https://doi.org/10.1111/j.1365-294X.2011.05261.x"
 
 #. type: Plain text
 #: bibliography.en.adoc:7
 msgid "[[benson]]Benson DA, Karsch-Mizrachi I, Lipman DJ, Ostell J, Wheeler DL (2006) GenBank, Nucleic Acids Research, 34(1): D16–D20, https://doi.org/10.1093/nar/gkj157"
-msgstr ""
+msgstr "[[benson]]Benson DA, Karsch-Mizrachi I, Lipman DJ, Ostell J, Wheeler DL (2006) GenBank, Nucleic Acids Research, 34(1): D16–D20, https://doi.org/10.1093/nar/gkj157"
 
 #. type: Plain text
 #: bibliography.en.adoc:8
 msgid "[[berry]]Berry O, Jarman S, Bissett A, Hope M, Paeper C, Bessey C, Schwartz MK, Hale J & Bunce M (2021) Making environmental DNA (eDNA) biodiversity records globally accessible. Environmental DNA, 3(4), 699-705. https://doi.org/10.1002/edn3.173"
-msgstr ""
+msgstr "[[berry]]Berry O, Jarman S, Bissett A, Hope M, Paeper C, Bessey C, Schwartz MK, Hale J & Bunce M (2021) Making environmental DNA (eDNA) biodiversity records globally accessible. Environmental DNA, 3(4), 699-705. https://doi.org/10.1002/edn3.173"
 
 #. type: Plain text
 #: bibliography.en.adoc:9
 msgid "[[bessey]]Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74"
-msgstr ""
+msgstr "[[bessey]]Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74"
 
 #. type: Plain text
 #: bibliography.en.adoc:10
 msgid "[[biggs]]Biggs J, Ewald N, Valentini A, Gaboriaud C, Dejean T, Griffiths RA, Foster J, et al. (2015) Using eDNA to Develop a National Citizen Science-Based Monitoring Programme for the Great Crested Newt (_Triturus cristatus_). Biological Conservation 183: 19–28. https://doi.org/10.1016/j.biocon.2014.11.029"
-msgstr ""
+msgstr "[[biggs]]Biggs J, Ewald N, Valentini A, Gaboriaud C, Dejean T, Griffiths RA, Foster J, et al. (2015) Using eDNA to Develop a National Citizen Science-Based Monitoring Programme for the Great Crested Newt (_Triturus cristatus_). Biological Conservation 183: 19–28. https://doi.org/10.1016/j.biocon.2014.11.029"
 
 #. type: Plain text
 #: bibliography.en.adoc:11
 msgid "[[blaxter]]Blaxter M, Mann J, Chapman T, Thomas F, Whitton C, Floyd R & Abebe E (2005) Defining operational taxonomic units using DNA barcode data. Philosophical Transactions of the Royal Society B: Biological Sciences 360(1462): 1935-1943. https://doi.org/10.1098/rstb.2005.1725"
-msgstr ""
+msgstr "[[blaxter]]Blaxter M, Mann J, Chapman T, Thomas F, Whitton C, Floyd R & Abebe E (2005) Defining operational taxonomic units using DNA barcode data. Philosophical Transactions of the Royal Society B: Biological Sciences 360(1462): 1935-1943. https://doi.org/10.1098/rstb.2005.1725"
 
 #. type: Plain text
 #: bibliography.en.adoc:12
 msgid "[[bolyen]]Bolyen E, Rideout JR, Dillon MR et al. (2019) Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2. Nat Biotechnol 37: 852–857. https://doi.org/10.1038/s41587-019-0209-9"
-msgstr ""
+msgstr "[[bolyen]]Bolyen E, Rideout JR, Dillon MR et al. (2019) Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2. Nat Biotechnol 37: 852–857. https://doi.org/10.1038/s41587-019-0209-9"
 
 #. type: Plain text
 #: bibliography.en.adoc:13
 msgid "[[boussarie]]Boussarie G, Bakker J, Wangensteen OS, Mariani S, Bonnin L, Juhel JB, Kiszka JJ, Kulbicki M, Manel S, Robbins WD & Vigliola L (2018) Environmental DNA illuminates the dark diversity of sharks. Science Advances 4(5): eaap9661. https://doi.org/10.1126/sciadv.aap9661"
-msgstr ""
+msgstr "[[boussarie]]Boussarie G, Bakker J, Wangensteen OS, Mariani S, Bonnin L, Juhel JB, Kiszka JJ, Kulbicki M, Manel S, Robbins WD & Vigliola L (2018) Environmental DNA illuminates the dark diversity of sharks. Science Advances 4(5): eaap9661. https://doi.org/10.1126/sciadv.aap9661"
 
 #. type: Plain text
 #: bibliography.en.adoc:14
 msgid "[[bustin]]Bustin SA, Benes V, Garson JA, Hellemans J, Huggett J, Kubista M, ... & Wittwer CT (2009). The MIQE Guidelines: M inimum I nformation for Publication of Q uantitative Real-Time PCR Experiments. https://doi.org/10.1373/clinchem.2008.112797"
-msgstr ""
+msgstr "[[bustin]]Bustin SA, Benes V, Garson JA, Hellemans J, Huggett J, Kubista M, ... & Wittwer CT (2009). The MIQE Guidelines: M inimum I nformation for Publication of Q uantitative Real-Time PCR Experiments. https://doi.org/10.1373/clinchem.2008.112797"
 
 #. type: Plain text
 #: bibliography.en.adoc:15
 msgid "[[callahan]]Callahan B, McMurdie P & Holmes S (2017) Exact sequence variants should replace operational taxonomic units in marker-gene data analysis. The ISME Journal 11: 2639–2643. https://doi.org/10.1038/ismej.2017.119"
-msgstr ""
+msgstr "[[callahan]]Callahan B, McMurdie P & Holmes S (2017) Exact sequence variants should replace operational taxonomic units in marker-gene data analysis. The ISME Journal 11: 2639–2643. https://doi.org/10.1038/ismej.2017.119"
 
 #. type: Plain text
 #: bibliography.en.adoc:16
 msgid "[[callahan2]]Callahan B, McMurdie P, Rosen M et al. (2016) DADA2: High-resolution sample inference from Illumina amplicon data. Nat Methods 13, 581–583. https://doi.org/10.1038/nmeth.3869"
-msgstr ""
+msgstr "[[callahan2]]Callahan B, McMurdie P, Rosen M et al. (2016) DADA2: High-resolution sample inference from Illumina amplicon data. Nat Methods 13, 581–583. https://doi.org/10.1038/nmeth.3869"
 
 #. type: Plain text
 #: bibliography.en.adoc:17
 msgid "[[guelf]]Centre for Biodiversity Genomics, University of Guelph (2021) The Global Taxonomy Initiative 2020: A Step-by-Step Guide for DNA Barcoding. Technical Series No. 94. Secretariat of the Convention on Biological Diversity, Montreal, 66 pp. https://www.cbd.int/doc/publications/cbd-ts-94-en.pdf"
-msgstr ""
+msgstr "[[guelf]]Centre for Biodiversity Genomics, University of Guelph (2021) The Global Taxonomy Initiative 2020: A Step-by-Step Guide for DNA Barcoding. Technical Series No. 94. Secretariat of the Convention on Biological Diversity, Montreal, 66 pp. https://www.cbd.int/doc/publications/cbd-ts-94-en.pdf"
 
 #. type: Plain text
 #: bibliography.en.adoc:18
 msgid "[[cbd]]Convention on Biological Diversity (2020) Report of the ad hoc Technical Expert Group on Digital Sequence Information On Genetic Resources, 17-20 March 2020. Montreal, Canada. https://www.cbd.int/doc/c/ba60/7272/3260b5e396821d42bc21035a/dsi-ahteg-2020-01-07-en.pdf"
-msgstr ""
+msgstr "[[cbd]]Convention on Biological Diversity (2020) Report of the ad hoc Technical Expert Group on Digital Sequence Information On Genetic Resources, 17-20 March 2020. Montreal, Canada. https://www.cbd.int/doc/c/ba60/7272/3260b5e396821d42bc21035a/dsi-ahteg-2020-01-07-en.pdf"
 
 #. type: Plain text
 #: bibliography.en.adoc:19
 msgid "[[debroas]]Debroas D, Domaizon I, Humbert JF, Jardillier L, Lepère C, Oudart A & Taïb N (2017) Overview of freshwater microbial eukaryotes diversity: a first analysis of publicly available metabarcoding data. FEMS Microbiology Ecology 93(4): fix023. https://doi.org/10.1093/femsec/fix023"
-msgstr ""
+msgstr "[[debroas]]Debroas D, Domaizon I, Humbert JF, Jardillier L, Lepère C, Oudart A & Taïb N (2017) Overview of freshwater microbial eukaryotes diversity: a first analysis of publicly available metabarcoding data. FEMS Microbiology Ecology 93(4): fix023. https://doi.org/10.1093/femsec/fix023"
 
 #. type: Plain text
 #: bibliography.en.adoc:20
 msgid "[[doi]]Doi H, Fukaya K, Oka SI, Sato K, Kondoh M & Miya M (2019) Evaluation of Detection Probabilities at the Water-Filtering and Initial PCR Steps in Environmental DNA Metabarcoding Using a Multispecies Site Occupancy Model. Scientific Reports 9(1): 3581. https://doi.org/10.1038/s41598-019-40233-1"
-msgstr ""
+msgstr "[[doi]]Doi H, Fukaya K, Oka SI, Sato K, Kondoh M & Miya M (2019) Evaluation of Detection Probabilities at the Water-Filtering and Initial PCR Steps in Environmental DNA Metabarcoding Using a Multispecies Site Occupancy Model. Scientific Reports 9(1): 3581. https://doi.org/10.1038/s41598-019-40233-1"
 
 #. type: Plain text
 #: bibliography.en.adoc:21
 msgid "[[durkin]]Durkin L, Jansson T, Sanchez M, Khomich M, Ryberg M, Kristiansson E, Nilsson RH (2020) When mycologists describe new species, not all relevant information is provided (clearly enough). MycoKeys 72: 109-128. https://doi.org/10.3897/mycokeys.72.56691"
-msgstr ""
+msgstr "[[durkin]]Durkin L, Jansson T, Sanchez M, Khomich M, Ryberg M, Kristiansson E, Nilsson RH (2020) When mycologists describe new species, not all relevant information is provided (clearly enough). MycoKeys 72: 109-128. https://doi.org/10.3897/mycokeys.72.56691"
 
 #. type: Plain text
 #: bibliography.en.adoc:22
 msgid "[[edgar]]Edgar RC (2010) Search and clustering orders of magnitude faster than BLAST, Bioinformatics 26(19): 2460–2461, https://doi.org/10.1093/bioinformatics/btq461"
-msgstr ""
+msgstr "[[edgar]]Edgar RC (2010) Search and clustering orders of magnitude faster than BLAST, Bioinformatics 26(19): 2460–2461, https://doi.org/10.1093/bioinformatics/btq461"
 
 #. type: Plain text
 #: bibliography.en.adoc:23
 msgid "[[ekrem]]Ekrem T & Majaneva M (2019) DNA-Metastrekkoding Til Undersøkelser Av Invertebrater I Ferskvann. NTNU Vitenskapsmuseet Naturhistorisk Notat. https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2612638."
-msgstr ""
+msgstr "[[ekrem]]Ekrem T & Majaneva M (2019) DNA-Metastrekkoding Til Undersøkelser Av Invertebrater I Ferskvann. NTNU Vitenskapsmuseet Naturhistorisk Notat. https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2612638."
 
 #. type: Plain text
 #: bibliography.en.adoc:24
 msgid "[[elbrecht]]Elbrecht V & Leese F (2015) Can DNA-based ecosystem assessments quantify species abundance? Testing primer bias and biomass—sequence relationships with an innovative metabarcoding protocol. PLoS ONE 10(7): e0130324. https://doi.org/10.1371/journal.pone.0130324"
-msgstr ""
+msgstr "[[elbrecht]]Elbrecht V & Leese F (2015) Can DNA-based ecosystem assessments quantify species abundance? Testing primer bias and biomass—sequence relationships with an innovative metabarcoding protocol. PLoS ONE 10(7): e0130324. https://doi.org/10.1371/journal.pone.0130324"
 
 #. type: Plain text
 #: bibliography.en.adoc:25
 msgid "[[ficetola]]Ficetola GF, Miaud C, Pompanon F, & Taberlet P (2008). Species detection using environmental DNA from water samples. Biology letters, 4(4), 423-425. https://doi.org/10.1098/rsbl.2008.0118"
-msgstr ""
+msgstr "[[ficetola]]Ficetola GF, Miaud C, Pompanon F, & Taberlet P (2008). Species detection using environmental DNA from water samples. Biology letters, 4(4), 423-425. https://doi.org/10.1098/rsbl.2008.0118"
 
 #. type: Plain text
 #: bibliography.en.adoc:26
 msgid "[[fossoey]]Fossøy F, Brandsegg H, Sivertsgård R, Pettersen O, Sandercock BK, Solem Ø, Hindar K & Tor AM (2019) Monitoring Presence and Abundance of Two Gyrodactylid Ectoparasites and Their Salmonid Hosts Using Environmental DNA. Environmental DNA. https://doi.org/10.1002/edn3.45."
-msgstr ""
+msgstr "[[fossoey]]Fossøy F, Brandsegg H, Sivertsgård R, Pettersen O, Sandercock BK, Solem Ø, Hindar K & Tor AM (2019) Monitoring Presence and Abundance of Two Gyrodactylid Ectoparasites and Their Salmonid Hosts Using Environmental DNA. Environmental DNA. https://doi.org/10.1002/edn3.45."
 
 #. type: Plain text
 #: bibliography.en.adoc:27
 msgid "[[froslev]]Frøslev TG, Kjøller R, Bruun HH et al. (2017) Algorithm for post-clustering curation of DNA amplicon data yields reliable biodiversity estimates. Nat Commun 8, 1188 . https://doi.org/10.1038/s41467-017-01312-x"
-msgstr ""
+msgstr "[[froslev]]Frøslev TG, Kjøller R, Bruun HH et al. (2017) Algorithm for post-clustering curation of DNA amplicon data yields reliable biodiversity estimates. Nat Commun 8, 1188 . https://doi.org/10.1038/s41467-017-01312-x"
 
 #. type: Plain text
 #: bibliography.en.adoc:28
 msgid "[[Groom]]Groom Q, Güntsch A, Huybrechts P, Kearney N, Leachman S, Nicolson N, Page RDM, Shorthouse DP, Thessen, AE, Haston E. People are essential to linking biodiversity data. 2020. Database 2020:baaa072 https://doi.org/10.1093/database/baaa072."
-msgstr ""
+msgstr "[[Groom]]Groom Q, Güntsch A, Huybrechts P, Kearney N, Leachman S, Nicolson N, Page RDM, Shorthouse DP, Thessen, AE, Haston E. People are essential to linking biodiversity data. 2020. Database 2020:baaa072 https://doi.org/10.1093/database/baaa072."
 
 #. type: Plain text
 #: bibliography.en.adoc:29
 msgid "[[hernandez]]Hernandez C, Bougas B, Perreault‐Payette A, Simard A, Côté G, & Bernatchez L (2020). 60 specific eDNA qPCR assays to detect invasive, threatened, and exploited freshwater vertebrates and invertebrates in Eastern Canada. Environmental DNA, 2(3): 373-386. https://doi.org/10.1002/edn3.89"
-msgstr ""
+msgstr "[[hernandez]]Hernandez C, Bougas B, Perreault‐Payette A, Simard A, Côté G, & Bernatchez L (2020). 60 specific eDNA qPCR assays to detect invasive, threatened, and exploited freshwater vertebrates and invertebrates in Eastern Canada. Environmental DNA, 2(3): 373-386. https://doi.org/10.1002/edn3.89"
 
 #. type: Plain text
 #: bibliography.en.adoc:30
 msgid "[[hofstetter]]Hofstetter, V, Buyck, B, Eyssartier, G, Schnee S, Gindro K (2019) The unbearable lightness of sequenced-based identification. Fungal Diversity 96, 243–284. https://doi.org/10.1007/s13225-019-00428-3"
-msgstr ""
+msgstr "[[hofstetter]]Hofstetter, V, Buyck, B, Eyssartier, G, Schnee S, Gindro K (2019) The unbearable lightness of sequenced-based identification. Fungal Diversity 96, 243–284. https://doi.org/10.1007/s13225-019-00428-3"
 
 #. type: Plain text
 #: bibliography.en.adoc:31
 msgid "[[huggett]]Huggett JF, Foy CA, Benes V, Emslie K, Garson JA, Haynes R, ... & Bustin SA (2013). The Digital MIQE Guidelines: M inimum I nformation for Publication of Q uantitative Digital PCR E xperiments. Clinical chemistry, 59(6), 892-902. https://doi.org/10.1373/clinchem.2013.206375"
-msgstr ""
+msgstr "[[huggett]]Huggett JF, Foy CA, Benes V, Emslie K, Garson JA, Haynes R, ... & Bustin SA (2013). The Digital MIQE Guidelines: M inimum I nformation for Publication of Q uantitative Digital PCR E xperiments. Clinical chemistry, 59(6), 892-902. https://doi.org/10.1373/clinchem.2013.206375"
 
 #. type: Plain text
 #: bibliography.en.adoc:32
 msgid "[[hugerth]]Hugerth LW, Andersson AF (2017) Analysing Microbial Community Composition through Amplicon Sequencing: From Sampling to Hypothesis Testing. Frontiers in Microbiology 8: 1561. https://doi.org/10.3389/fmicb.2017.01561"
-msgstr ""
+msgstr "[[hugerth]]Hugerth LW, Andersson AF (2017) Analysing Microbial Community Composition through Amplicon Sequencing: From Sampling to Hypothesis Testing. Frontiers in Microbiology 8: 1561. https://doi.org/10.3389/fmicb.2017.01561"
 
 #. type: Plain text
 #: bibliography.en.adoc:33
 msgid "[[knudsen]]Knudsen SW, Ebert RB, Hesselsøe M, Kuntke F, Hassingboe J, Mortensen PB, Thomsen PF et al (2019) Species-Specific Detection and Quantification of Environmental DNA from Marine Fishes in the Baltic Sea. Journal of Experimental Marine Biology and Ecology 510: 31–45. https://doi.org/10.1016/j.jembe.2018.09.004"
-msgstr ""
+msgstr "[[knudsen]]Knudsen SW, Ebert RB, Hesselsøe M, Kuntke F, Hassingboe J, Mortensen PB, Thomsen PF et al (2019) Species-Specific Detection and Quantification of Environmental DNA from Marine Fishes in the Baltic Sea. Journal of Experimental Marine Biology and Ecology 510: 31–45. https://doi.org/10.1016/j.jembe.2018.09.004"
 
 #. type: Plain text
 #: bibliography.en.adoc:34
 msgid "[[lacoursiere]]Lacoursière-Roussel A, Rosabal M & Bernatchez L (2016) Estimating Fish Abundance and Biomass from eDNA Concentrations: Variability among Capture Methods and Environmental Conditions. Molecular Ecology Resources 16(6): 1401–14. https://doi.org/10.1111/1755-0998.12522"
-msgstr ""
+msgstr "[[lacoursiere]]Lacoursière-Roussel A, Rosabal M & Bernatchez L (2016) Estimating Fish Abundance and Biomass from eDNA Concentrations: Variability among Capture Methods and Environmental Conditions. Molecular Ecology Resources 16(6): 1401–14. https://doi.org/10.1111/1755-0998.12522"
 
 #. type: Plain text
 #: bibliography.en.adoc:35
 msgid "[[leebens]]Leebens-Mack J, Vision T, Brenner E, Bowers JE, Cannon S, Clement MJ, Cunningham CW, DePamphilis C, DeSalle R, Doyle JJ & Eisen JA (2006) Taking the first steps towards a standard for reporting on phylogenies: Minimum Information About a Phylogenetic Analysis (MIAPA). Omics: a journal of integrative biology 10(2): 231-237. https://doi.org/10.1089/omi.2006.10.231"
-msgstr ""
+msgstr "[[leebens]]Leebens-Mack J, Vision T, Brenner E, Bowers JE, Cannon S, Clement MJ, Cunningham CW, DePamphilis C, DeSalle R, Doyle JJ & Eisen JA (2006) Taking the first steps towards a standard for reporting on phylogenies: Minimum Information About a Phylogenetic Analysis (MIAPA). Omics: a journal of integrative biology 10(2): 231-237. https://doi.org/10.1089/omi.2006.10.231"
 
 #. type: Plain text
 #: bibliography.en.adoc:36
 msgid "[[leinonen]]Leinonen R, Sugawara H, Shumway M & International Nucleotide Sequence Database Collaboration (2011) The sequence read archive. Nucleic Acids Research 39(suppl_1): D19-D21. https://doi.org/10.1093/nar/gkq1019"
-msgstr ""
+msgstr "[[leinonen]]Leinonen R, Sugawara H, Shumway M & International Nucleotide Sequence Database Collaboration (2011) The sequence read archive. Nucleic Acids Research 39(suppl_1): D19-D21. https://doi.org/10.1093/nar/gkq1019"
 
 #. type: Plain text
 #: bibliography.en.adoc:37
 msgid "[[mahe]]Mahé F, Rognes T, Quince C, de Vargas C, Dunthorn M. (2014) Swarm: robust and fast clustering method for amplicon-based studies. PeerJ 2:e593 https://doi.org/10.7717/peerj.593"
-msgstr ""
+msgstr "[[mahe]]Mahé F, Rognes T, Quince C, de Vargas C, Dunthorn M. (2014) Swarm: robust and fast clustering method for amplicon-based studies. PeerJ 2:e593 https://doi.org/10.7717/peerj.593"
 
 #. type: Plain text
 #: bibliography.en.adoc:38
 msgid "[[mcdonald]]McDonald D, Clemente JC, Kuczynski J, Rideout JR, Stombaugh J, Wendel D, ... & Caporaso JG (2012). The Biological Observation Matrix (BIOM) format or: how I learned to stop worrying and love the ome-ome. Gigascience, 1(1), 2047-217X. https://doi.org/10.1186/2047-217X-1-7"
-msgstr ""
+msgstr "[[mcdonald]]McDonald D, Clemente JC, Kuczynski J, Rideout JR, Stombaugh J, Wendel D, ... & Caporaso JG (2012). The Biological Observation Matrix (BIOM) format or: how I learned to stop worrying and love the ome-ome. Gigascience, 1(1), 2047-217X. https://doi.org/10.1186/2047-217X-1-7"
 
 #. type: Plain text
 #: bibliography.en.adoc:39
 msgid "[[miralles]]Miralles A, Bruy T, Wolcott K, Scherz MD, Begerow D, Beszteri B, Bonkowski M, Felden J, Gemeinholzer B, Glaw F & Glöckner FO (2020) Repositories for Taxonomic Data: Where We Are and What is Missing. Systematic Biology: syaa026.  https://doi.org/10.1093/sysbio/syaa026"
-msgstr ""
+msgstr "[[miralles]]Miralles A, Bruy T, Wolcott K, Scherz MD, Begerow D, Beszteri B, Bonkowski M, Felden J, Gemeinholzer B, Glaw F & Glöckner FO (2020) Repositories for Taxonomic Data: Where We Are and What is Missing. Systematic Biology: syaa026.  https://doi.org/10.1093/sysbio/syaa026"
 
 #. type: Plain text
 #: bibliography.en.adoc:40
 msgid "[[mora]]Mora C, Tittensor DP, Adl S, Simpson AG & Worm B (2011) How many species are there on Earth and in the ocean? PLoS Biology 9(8): e1001127.  https://doi.org/10.1371/journal.pbio.1001127"
-msgstr ""
+msgstr "[[mora]]Mora C, Tittensor DP, Adl S, Simpson AG & Worm B (2011) How many species are there on Earth and in the ocean? PLoS Biology 9(8): e1001127.  https://doi.org/10.1371/journal.pbio.1001127"
 
 #. type: Plain text
 #: bibliography.en.adoc:41
 msgid "[[nilsson]]Nilsson RH, Tedersoo L, Abarenkov K, Ryberg M, Kristiansson E, Hartmann M, Schoch CL, Nylander JA, Bergsten J, Porter TM & Jumpponen A (2012) Five simple guidelines for establishing basic authenticity and reliability of newly generated fungal ITS sequences. MycoKeys 4: 37-63. https://doi.org/10.3897/mycokeys.4.3606"
-msgstr ""
+msgstr "[[nilsson]]Nilsson RH, Tedersoo L, Abarenkov K, Ryberg M, Kristiansson E, Hartmann M, Schoch CL, Nylander JA, Bergsten J, Porter TM & Jumpponen A (2012) Five simple guidelines for establishing basic authenticity and reliability of newly generated fungal ITS sequences. MycoKeys 4: 37-63. https://doi.org/10.3897/mycokeys.4.3606"
 
 #. type: Plain text
 #: bibliography.en.adoc:42
 msgid "[[nilsson2]]Nilsson RH, Larsson KH, Taylor AFS, Bengtsson-Palme J, Jeppesen TS, Schigel D, Kennedy P, Picard K, Glöckner FO, Tedersoo L, Saar I, Kõljalg U, Abarenkov K (2019) The UNITE database for molecular identification of fungi: handling dark taxa and parallel taxonomic classifications. Nucleic Acids Research, Volume 47, Issue D1, D259–D264. https://doi.org/10.1093/nar/gky1022"
-msgstr ""
+msgstr "[[nilsson2]]Nilsson RH, Larsson KH, Taylor AFS, Bengtsson-Palme J, Jeppesen TS, Schigel D, Kennedy P, Picard K, Glöckner FO, Tedersoo L, Saar I, Kõljalg U, Abarenkov K (2019) The UNITE database for molecular identification of fungi: handling dark taxa and parallel taxonomic classifications. Nucleic Acids Research, Volume 47, Issue D1, D259–D264. https://doi.org/10.1093/nar/gky1022"
 
 #. type: Plain text
 #: bibliography.en.adoc:43
 msgid "[[ogram]]Ogram A, Sayler GS, Barkay T (1987) The Extraction and Purification of Microbial DNA from Sediments. Journal of Microbiological Methods. https://doi.org/10.1016/0167-7012(87)90025-x."
-msgstr ""
+msgstr "[[ogram]]Ogram A, Sayler GS, Barkay T (1987) The Extraction and Purification of Microbial DNA from Sediments. Journal of Microbiological Methods. https://doi.org/10.1016/0167-7012(87)90025-x."
 
 #. type: Plain text
 #: bibliography.en.adoc:44
 msgid "[[ovaskainen]]Ovaskainen O, Schigel D, Ali-Kovero H et al. (2013) Combining high-throughput sequencing with fruit body surveys reveals contrasting life-history strategies in fungi. The ISME Journal 7: 1696–1709. https://doi.org/10.1038/ismej.2013.61"
-msgstr ""
+msgstr "[[ovaskainen]]Ovaskainen O, Schigel D, Ali-Kovero H et al. (2013) Combining high-throughput sequencing with fruit body surveys reveals contrasting life-history strategies in fungi. The ISME Journal 7: 1696–1709. https://doi.org/10.1038/ismej.2013.61"
 
 #. type: Plain text
 #: bibliography.en.adoc:45
 msgid "[[parks]]Parks, DH, Chuvochina, M, Chaumeil, P, Rinke C, Mussig AJ, Hugenholtz P (2020) A complete domain-to-species taxonomy for Bacteria and Archaea. Nat Biotechnol 38, 1079–1086. https://doi.org/10.1038/s41587-020-0501-8"
-msgstr ""
+msgstr "[[parks]]Parks, DH, Chuvochina, M, Chaumeil, P, Rinke C, Mussig AJ, Hugenholtz P (2020) A complete domain-to-species taxonomy for Bacteria and Archaea. Nat Biotechnol 38, 1079–1086. https://doi.org/10.1038/s41587-020-0501-8"
 
 #. type: Plain text
 #: bibliography.en.adoc:46
 msgid "[[pearson]]Pearson, WR & Lipman DJ (1988) Improved tools for biological sequence comparison. Proceedings of the National Academy of Sciences 85(8): 2444-2448. https://dx.doi.org/10.1073%2Fpnas.85.8.2444"
-msgstr ""
+msgstr "[[pearson]]Pearson, WR & Lipman DJ (1988) Improved tools for biological sequence comparison. Proceedings of the National Academy of Sciences 85(8): 2444-2448. https://dx.doi.org/10.1073%2Fpnas.85.8.2444"
 
 #. type: Plain text
 #: bibliography.en.adoc:47
 msgid "[[penew]]Penev P, Mietchen D, Chavan VS, Hagedorn G, Smith VS, Shotton D, Tuama ÉÓ, Senderov V, Georgiev T, Stoev P, Groom QJ, Remsen D, Edmunds SC (2017) Strategies and guidelines for scholarly publishing of biodiversity data. Research ideas and outcomes 3: e12431, https://doi.org/10.3897/rio.3.e12431"
-msgstr ""
+msgstr "[[penew]]Penev P, Mietchen D, Chavan VS, Hagedorn G, Smith VS, Shotton D, Tuama ÉÓ, Senderov V, Georgiev T, Stoev P, Groom QJ, Remsen D, Edmunds SC (2017) Strategies and guidelines for scholarly publishing of biodiversity data. Research ideas and outcomes 3: e12431, https://doi.org/10.3897/rio.3.e12431"
 
 #. type: Plain text
 #: bibliography.en.adoc:48
 msgid "[[pietramellara]]Pietramellara G, Ascher J, Borgogni F, Ceccherini MT, Guerri G & Nannipieri P (2009) Extracellular DNA in Soil and Sediment: Fate and Ecological Relevance. Biology and Fertility of Soils 45: 219-235. https://doi.org/10.1007/s00374-008-0345-8."
-msgstr ""
+msgstr "[[pietramellara]]Pietramellara G, Ascher J, Borgogni F, Ceccherini MT, Guerri G & Nannipieri P (2009) Extracellular DNA in Soil and Sediment: Fate and Ecological Relevance. Biology and Fertility of Soils 45: 219-235. https://doi.org/10.1007/s00374-008-0345-8."
 
 #. type: Plain text
 #: bibliography.en.adoc:49
 msgid "[[Ratnasingham]]Ratnasingham S, Hebert PDN (2007) BOLD: The Barcode of Life Data System. Molecular Ecology Notes, 7: 355-364. https://doi.org/10.1111/j.1471-8286.2007.01678.x"
-msgstr ""
+msgstr "[[Ratnasingham]]Ratnasingham S, Hebert PDN (2007) BOLD: The Barcode of Life Data System. Molecular Ecology Notes, 7: 355-364. https://doi.org/10.1111/j.1471-8286.2007.01678.x"
 
 #. type: Plain text
 #: bibliography.en.adoc:50
 msgid "[[Ratnasingham13]]Ratnasingham S, Hebert PDN (2013). A DNA-based registry for all animal species: the Barcode Index Number (BIN) system. PloS one, 8(7), e66213. https://doi.org/10.1371/journal.pone.0066213"
-msgstr ""
+msgstr "[[Ratnasingham13]]Ratnasingham S, Hebert PDN (2013). A DNA-based registry for all animal species: the Barcode Index Number (BIN) system. PloS one, 8(7), e66213. https://doi.org/10.1371/journal.pone.0066213"
 
 #. type: Plain text
 #: bibliography.en.adoc:51
 msgid "[[rognes]]Rognes T, Flouri T, Nichols B, Quince C, Mahé F (2016) VSEARCH: a versatile open source tool for metagenomics. PeerJ, 4, e2584. https://doi.org/10.7717/peerj.2584"
-msgstr ""
+msgstr "[[rognes]]Rognes T, Flouri T, Nichols B, Quince C, Mahé F (2016) VSEARCH: a versatile open source tool for metagenomics. PeerJ, 4, e2584. https://doi.org/10.7717/peerj.2584"
 
 #. type: Plain text
 #: bibliography.en.adoc:52
 msgid "[[Ruppert]]Ruppert KM, Kline RJ, Rahman MS (2019). Past, present, and future perspectives of environmental DNA (eDNA) metabarcoding: A systematic review in methods, monitoring, and applications of global eDNA. Global Ecology and Conservation, 17, e00547. https://doi.org/10.1016/j.gecco.2019.e00547"
-msgstr ""
+msgstr "[[Ruppert]]Ruppert KM, Kline RJ, Rahman MS (2019). Past, present, and future perspectives of environmental DNA (eDNA) metabarcoding: A systematic review in methods, monitoring, and applications of global eDNA. Global Ecology and Conservation, 17, e00547. https://doi.org/10.1016/j.gecco.2019.e00547"
 
 #. type: Plain text
 #: bibliography.en.adoc:53
 msgid "[[schloss]]Schloss PD, Westcott SL, Ryabin T, Hall JR, Hartmann M, Hollister EB, ... & Weber CF (2009). Introducing mothur: open-source, platform-independent, community-supported software for describing and comparing microbial communities. Applied and environmental microbiology, 75(23), 7537-7541. https://doi.org/10.1128/AEM.01541-09"
-msgstr ""
+msgstr "[[schloss]]Schloss PD, Westcott SL, Ryabin T, Hall JR, Hartmann M, Hollister EB, ... & Weber CF (2009). Introducing mothur: open-source, platform-independent, community-supported software for describing and comparing microbial communities. Applied and environmental microbiology, 75(23), 7537-7541. https://doi.org/10.1128/AEM.01541-09"
 
 #. type: Plain text
 #: bibliography.en.adoc:54
 msgid "[[shea]]Shea MM, Kuppermann J, Rogers MP, Smith DS, Edwards P & Boehm AB (2023) Systematic review of marine environmental DNA metabarcoding studies: toward best practices for data usability and accessibility. PeerJ, 11, p.e14993. https://doi.org/10.7717/peerj.14993"
-msgstr ""
+msgstr "[[shea]]Shea MM, Kuppermann J, Rogers MP, Smith DS, Edwards P & Boehm AB (2023) Systematic review of marine environmental DNA metabarcoding studies: toward best practices for data usability and accessibility. PeerJ, 11, p.e14993. https://doi.org/10.7717/peerj.14993"
 
 #. type: Plain text
 #: bibliography.en.adoc:55
 msgid "[[Sigsgaard]]Sigsgaard EE, Jensen MR, Winkelmann IE, Møller PR, Hansen MM, Thomsen PF (2020). Population‐level inferences from environmental DNA—Current status and future perspectives. Evolutionary Applications, 13(2), 245-262. https://doi.org/10.1111/eva.12882"
-msgstr ""
+msgstr "[[Sigsgaard]]Sigsgaard EE, Jensen MR, Winkelmann IE, Møller PR, Hansen MM, Thomsen PF (2020). Population‐level inferences from environmental DNA—Current status and future perspectives. Evolutionary Applications, 13(2), 245-262. https://doi.org/10.1111/eva.12882"
 
 #. type: Plain text
 #: bibliography.en.adoc:56
 msgid "[[somervuo]]Somervuo P, Koskela S, Pennanen J, Nilsson RH, Ovaskainen O (2016) Unbiased probabilistic taxonomic classification for DNA barcoding. Bioinformatics 32(19):2920–2927, https://doi.org/10.1093/bioinformatics/btw346"
-msgstr ""
+msgstr "[[somervuo]]Somervuo P, Koskela S, Pennanen J, Nilsson RH, Ovaskainen O (2016) Unbiased probabilistic taxonomic classification for DNA barcoding. Bioinformatics 32(19):2920–2927, https://doi.org/10.1093/bioinformatics/btw346"
 
 #. type: Plain text
 #: bibliography.en.adoc:57
 msgid "[[strand]]Strand DA, Johnsen SI, Rusch JC, Agersnap S, Larsen WB, Knudsen SW, Møller PR & Vrålstad T (2019) Monitoring a Norwegian Freshwater Crayfish Tragedy: eDNA Snapshots of Invasion, Infection and Extinction. Journal of Applied Ecology 56(7): 1661-1673. https://doi.org/10.1111/1365-2664.13404."
-msgstr ""
+msgstr "[[strand]]Strand DA, Johnsen SI, Rusch JC, Agersnap S, Larsen WB, Knudsen SW, Møller PR & Vrålstad T (2019) Monitoring a Norwegian Freshwater Crayfish Tragedy: eDNA Snapshots of Invasion, Infection and Extinction. Journal of Applied Ecology 56(7): 1661-1673. https://doi.org/10.1111/1365-2664.13404."
 
 #. type: Plain text
 #: bibliography.en.adoc:58
 msgid "[[taberlet-2018]]Taberlet P, Bonin A, Coissac E & Zinger L (2018) Environmental DNA: For Biodiversity Research and Monitoring. Oxford, UK: Oxford University Press. https://doi.org/10.1093/oso/9780198767220.001.0001"
-msgstr ""
+msgstr "[[taberlet-2018]]Taberlet P, Bonin A, Coissac E & Zinger L (2018) Environmental DNA: For Biodiversity Research and Monitoring. Oxford, UK: Oxford University Press. https://doi.org/10.1093/oso/9780198767220.001.0001"
 
 #. type: Plain text
 #: bibliography.en.adoc:59
 msgid "[[taberlet-2012]]Taberlet P, Coissac E, Hajibabaei M & Rieseberg LH (2012) Environmental DNA. Molecular Ecology 21(8): 1789–93. https://doi.org/10.1111/j.1365-294X.2012.05542.x"
-msgstr ""
+msgstr "[[taberlet-2012]]Taberlet P, Coissac E, Hajibabaei M & Rieseberg LH (2012) Environmental DNA. Molecular Ecology 21(8): 1789–93. https://doi.org/10.1111/j.1365-294X.2012.05542.x"
 
 #. type: Plain text
 #: bibliography.en.adoc:60
 msgid "[[takahara]]Takahara T, Minamoto T, Yamanaka H, Doi H & Kawabata Z (2012) Estimation of Fish Biomass Using Environmental DNA. PLoS ONE 7(4): e35868. https://doi.org/10.1371/journal.pone.0035868"
-msgstr ""
+msgstr "[[takahara]]Takahara T, Minamoto T, Yamanaka H, Doi H & Kawabata Z (2012) Estimation of Fish Biomass Using Environmental DNA. PLoS ONE 7(4): e35868. https://doi.org/10.1371/journal.pone.0035868"
 
 #. type: Plain text
 #: bibliography.en.adoc:61
 msgid "[[tedersoo]]Tedersoo, L, Bahram M, Puusepp R, Nilsson RH & James TY (2017) Novel soil-inhabiting clades fill gaps in the fungal tree of life. Microbiome 5: 42. https://doi.org/10.1186/s40168-017-0259-5"
-msgstr ""
+msgstr "[[tedersoo]]Tedersoo, L, Bahram M, Puusepp R, Nilsson RH & James TY (2017) Novel soil-inhabiting clades fill gaps in the fungal tree of life. Microbiome 5: 42. https://doi.org/10.1186/s40168-017-0259-5"
 
 #. type: Plain text
 #: bibliography.en.adoc:62
 msgid "[[tedesco]]Tedesco PA, Bigorne R, Bogan AE, Giam X, Jézéquel C & Hugueny B (2014) Estimating how many undescribed species have gone extinct. Conservation Biology 28(5): 1360-1370. https://doi.org/10.1111/cobi.12285"
-msgstr ""
+msgstr "[[tedesco]]Tedesco PA, Bigorne R, Bogan AE, Giam X, Jézéquel C & Hugueny B (2014) Estimating how many undescribed species have gone extinct. Conservation Biology 28(5): 1360-1370. https://doi.org/10.1111/cobi.12285"
 
 #. type: Plain text
 #: bibliography.en.adoc:63
 msgid "[[Thalinger]]Thalinger B, Deiner K, Harper LR, Rees HC, Blackman RC, Sint D, ... & Bruce K (2021). A validation scale to determine the readiness of environmental DNA assays for routine species monitoring. Environmental DNA. https://doi.org/10.1101/2020.04.27.063990"
-msgstr ""
+msgstr "[[Thalinger]]Thalinger B, Deiner K, Harper LR, Rees HC, Blackman RC, Sint D, ... & Bruce K (2021). A validation scale to determine the readiness of environmental DNA assays for routine species monitoring. Environmental DNA. https://doi.org/10.1101/2020.04.27.063990"
 
 #. type: Plain text
 #: bibliography.en.adoc:64
 msgid "[[thomsen-2012]]Thomsen PF, Kielgast JOS, Iversen LL, Wiuf C, Rasmussen M, Gilbert MTP Orlando L & Willerslev E (2012) Monitoring Endangered Freshwater Biodiversity Using Environmental DNA. Molecular Ecology 21(11): 2565–73. https://doi.org/10.1111/j.1365-294X.2011.05418.x"
-msgstr ""
+msgstr "[[thomsen-2012]]Thomsen PF, Kielgast JOS, Iversen LL, Wiuf C, Rasmussen M, Gilbert MTP Orlando L & Willerslev E (2012) Monitoring Endangered Freshwater Biodiversity Using Environmental DNA. Molecular Ecology 21(11): 2565–73. https://doi.org/10.1111/j.1365-294X.2011.05418.x"
 
 #. type: Plain text
 #: bibliography.en.adoc:65
 msgid "[[thomsen-2016]]Thomsen PF, Møller PR, Sigsgaard EE, Knudsen SW, Jørgensen OA & Willerslev E (2016) Environmental DNA from Seawater Samples Correlate with Trawl Catches of Subarctic, Deepwater Fishes. PLoS ONE 11(11): e0165252. https://doi.org/10.1371/journal.pone.0165252"
-msgstr ""
+msgstr "[[thomsen-2016]]Thomsen PF, Møller PR, Sigsgaard EE, Knudsen SW, Jørgensen OA & Willerslev E (2016) Environmental DNA from Seawater Samples Correlate with Trawl Catches of Subarctic, Deepwater Fishes. PLoS ONE 11(11): e0165252. https://doi.org/10.1371/journal.pone.0165252"
 
 #. type: Plain text
 #: bibliography.en.adoc:66
 msgid "[[thomsen-2015]]Thomsen PF & Willerslev E (2015) Environmental DNA – An Emerging Tool in Conservation for Monitoring Past and Present Biodiversity. Biological Conservation 183: 4–18. https://doi.org/10.1016/j.biocon.2014.11.019"
-msgstr ""
+msgstr "[[thomsen-2015]]Thomsen PF & Willerslev E (2015) Environmental DNA – An Emerging Tool in Conservation for Monitoring Past and Present Biodiversity. Biological Conservation 183: 4–18. https://doi.org/10.1016/j.biocon.2014.11.019"
 
 #. type: Plain text
 #: bibliography.en.adoc:67
 msgid "[[tyson]]Tyson, GW & Hugenholtz, P (2005). Environmental shotgun sequencing. Encyclopedia of genetics, genomics, proteomics, and bioinformatics. Edited by Lynn B. Jorde. West Sussex, UK: John Wiley & Sons.1386-1391. https://doi.org/10.1002/047001153X.g205313"
-msgstr ""
+msgstr "[[tyson]]Tyson, GW & Hugenholtz, P (2005). Environmental shotgun sequencing. Encyclopedia of genetics, genomics, proteomics, and bioinformatics. Edited by Lynn B. Jorde. West Sussex, UK: John Wiley & Sons.1386-1391. https://doi.org/10.1002/047001153X.g205313"
 
 #. type: Plain text
 #: bibliography.en.adoc:68
 msgid "[[valentini]]Valentini A, Taberlet P, Miaud C, Civade R, Herder J, Thomsen PF, Bellemain E et al. (2016) Next-Generation Monitoring of Aquatic Biodiversity Using Environmental DNA Metabarcoding. Molecular Ecology 25(4): 929–42. https://doi.org/10.1111/mec.13428"
-msgstr ""
+msgstr "[[valentini]]Valentini A, Taberlet P, Miaud C, Civade R, Herder J, Thomsen PF, Bellemain E et al. (2016) Next-Generation Monitoring of Aquatic Biodiversity Using Environmental DNA Metabarcoding. Molecular Ecology 25(4): 929–42. https://doi.org/10.1111/mec.13428"
 
 #. type: Plain text
 #: bibliography.en.adoc:69
 msgid "[[wacker]]Wacker S, Fossøy F, Larsen BM, Brandsegg H, Sivertsgård R, & Karlsson S (2019). Downstream transport and seasonal variation in freshwater pearl mussel (Margaritifera margaritifera) eDNA concentration. Environmental DNA, 1(1), 64-73. https://doi.org/10.1002/edn3.10"
-msgstr ""
+msgstr "[[wacker]]Wacker S, Fossøy F, Larsen BM, Brandsegg H, Sivertsgård R, & Karlsson S (2019). Downstream transport and seasonal variation in freshwater pearl mussel (Margaritifera margaritifera) eDNA concentration. Environmental DNA, 1(1), 64-73. https://doi.org/10.1002/edn3.10"
 
 #. type: Plain text
 #: bibliography.en.adoc:70
 msgid "[[wilkinson]]Wilkinson M, Dumontier M, Aalbersberg I et al. (2016) The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3: 160018. https://doi.org/10.1038/sdata.2016.18"
-msgstr ""
+msgstr "[[wilkinson]]Wilkinson M, Dumontier M, Aalbersberg I et al. (2016) The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3: 160018. https://doi.org/10.1038/sdata.2016.18"
 
 #. type: Plain text
 #: bibliography.en.adoc:71
 msgid "[[wittwer]]Wittwer C, Stoll S, Strand D, Vrålstad T, Nowak C, & Thines M (2018). eDNA-based crayfish plague monitoring is superior to conventional trap-based assessments in year-round detection probability. Hydrobiologia, 807(1), 87-97. https://doi.org/10.1007/s10750-017-3408-8"
-msgstr ""
+msgstr "[[wittwer]]Wittwer C, Stoll S, Strand D, Vrålstad T, Nowak C, & Thines M (2018). eDNA-based crayfish plague monitoring is superior to conventional trap-based assessments in year-round detection probability. Hydrobiologia, 807(1), 87-97. https://doi.org/10.1007/s10750-017-3408-8"
 
 #. type: Plain text
 #: bibliography.en.adoc:72
 msgid "[[yates]]Yates MC, Fraser DJ & Derry AM (2019) Meta‐analysis Supports Further Refinement of eDNA for Monitoring Aquatic Species‐specific Abundance in Nature. Environmental DNA. https://doi.org/10.1002/edn3.7."
-msgstr ""
+msgstr "[[yates]]Yates MC, Fraser DJ & Derry AM (2019) Meta‐analysis Supports Further Refinement of eDNA for Monitoring Aquatic Species‐specific Abundance in Nature. Environmental DNA. https://doi.org/10.1002/edn3.7."
 
 #. type: Plain text
 #: bibliography.en.adoc:73
 msgid "[[yilmaz]]Yilmaz P, Kottmann R, Field D, Knight R, Cole JR, Amaral-Zettler L, Gilbert JA, Karsch-Mizrachi I, Johnston A, Cochrane G & Vaughan R (2011) Minimum information about a marker gene sequence (MIMARKS) and minimum information about any (x) sequence (MIxS) specifications. Nature Biotechnology 29(5): 415. https://doi.org/10.1038/nbt.1823"
-msgstr ""
+msgstr "[[yilmaz]]Yilmaz P, Kottmann R, Field D, Knight R, Cole JR, Amaral-Zettler L, Gilbert JA, Karsch-Mizrachi I, Johnston A, Cochrane G & Vaughan R (2011) Minimum information about a marker gene sequence (MIMARKS) and minimum information about any (x) sequence (MIxS) specifications. Nature Biotechnology 29(5): 415. https://doi.org/10.1038/nbt.1823"
 
 #. type: Content of: <svg><defs><style>
 #: img/web/ct/dwca-structure.en.svg:4

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-08-16 13:52\n"
+"PO-Revision-Date: 2023-09-18 21:34\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -74,72 +74,72 @@ msgstr "https://orcid.org/0000-0001-7396-1484[Andrew Bissett], mailto:Andrew.Bis
 #. type: Plain text
 #: colophon.en.adoc:18
 msgid "https://orcid.org/0000-0003-4529-6266[Anders G. Finstad], mailto:anders.finstad@ntnu.no[anders.finstad@ntnu.no], Department of Natural History, Centre for Biodiversity Dynamics, Norwegian University of Science and Technology, Trondheim, Norway"
-msgstr ""
+msgstr "https://orcid.org/0000-0003-4529-6266[Anders G. Finstad], mailto:anders.finstad@ntnu.no[anders.finstad@ntnu.no], Departamento de Historia Natural, Centro de Dinámica de Biodiversidad, Universidad Noruega de Ciencia y Tecnología, Trondheim, Noruega"
 
 #. type: Plain text
 #: colophon.en.adoc:19
 msgid "https://orcid.org/0000-0002-7535-9574[Frode Fossøy], mailto:Frode.Fossoy@nina.no[Frode.Fossoy@nina.no], Centre for Biodiversity Genetics (NINAGEN), Norwegian institute for nature research (NINA), P.O. Box 5685 Torgarden, NO-7485 Trondheim, Norway"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-7535-9574[Frode Fossøy], mailto:Frode.Fossoy@nina.no[Frode.Fossoy@nina.no], Centre for Biodiversity Genetics (NINAGEN), Norwegian institute for nature research (NINA), P.O. Box 5685 Torgarden, NO-7485 Trondheim, Noruega"
 
 #. type: Plain text
 #: colophon.en.adoc:20
 msgid "https://orcid.org/0000-0002-2685-8078[Marie Grosjean], mailto:mgrosjean@gbif.org[mgrosjean@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-2685-8078[Marie Grosjean], mailto:mgrosjean@gbif.org[mgrosjean@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Dinamarca"
 
 #. type: Plain text
 #: colophon.en.adoc:21
 msgid "https://orcid.org/0000-0002-4827-3310[Michael Hope], mailto:Michael.Hope@ga.gov.au[Michael.Hope@ga.gov.au], Atlas of Living Australia, CSIRO National Collections & Marine Infrastructure, GPO Box 1700, Canberra ACT 2601, Australia."
-msgstr ""
+msgstr "https://orcid.org/0000-0002-4827-3310[Michael Hope], mailto:Michael.Hope@ga.gov.au[Michael.Hope@ga.gov.au], Atlas of Living Australia, CSIRO National Collections & Marine Infrastructure, GPO Box 1700, Canberra ACT 2601, ealia."
 
 #. type: Plain text
 #: colophon.en.adoc:22
 msgid "https://orcid.org/0000-0003-1691-239X[Thomas S. Jeppesen], mailto:tsjeppesen@gbif.org[tsjeppesen@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr ""
+msgstr "https://orcid.org/0000-0003-1691-239X[Thomas S. Jeppesen], mailto:tsjeppesen@gbif.org[tsjeppesen@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
 
 #. type: Plain text
 #: colophon.en.adoc:23
 msgid "https://orcid.org/0000-0002-5171-1668[Urmas Kõljalg], mailto:urmas.koljalg@ut.ee[urmas.koljalg@ut.ee], Natural History Museum and Botanical Garden, University of Tartu, 46 Vanemuise Street, 51003 Tartu, Estonia."
-msgstr ""
+msgstr "https://orcid.org/0000-0002-5171-1668[Urmas Kõljalg], mailto:urmas.koljalg@ut.ee[urmas.koljalg@ut.ee], Museo de Historia Natural y Jardín Botánico, Universidad de Tartu, calle 46 Vanemuise, 51003 Tartu, Estonia."
 
 #. type: Plain text
 #: colophon.en.adoc:24
 msgid "https://orcid.org/0000-0002-8779-6464[Daniel Lundin], mailto:daniel.lundin@lnu.se[daniel.lundin@lnu.se], Centre for Ecology and Evolution in Microbial model Systems - EEMiS, Linnaeus University, SE-39182 Kalmar, Sweden"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-8779-6464[Daniel Lundin], mailto:daniel.lundin@lnu.se[daniel.lundin@lnu.se], Centro de Ecología y Evolución en Sistemas de Modelo Microbiano - EEMiS, Universidad de Linnaeus, SE-39182 Kalmar, Suecia"
 
 #. type: Plain text
 #: colophon.en.adoc:25
 msgid "https://orcid.org/0000-0002-8052-0107[R. Henrik Nilsson], mailto:henrik.nilsson@bioenv.gu.se[henrik.nilsson@bioenv.gu.se], University of Gothenburg, Department of Biological and Environmental Sciences, Box 461, 405 30 Göteborg, Sweden"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-8052-0107[R. Henrik Nilsson], mailto:henrik.nilsson@bioenv.gu.se[henrik.nilsson@bioenv.gu.se], Universidad de Gothenburg, Departamento de Ciencias Biológicas y Ambientales, Box 461, 405 30 Goëteborg, Suecia"
 
 #. type: Plain text
 #: colophon.en.adoc:26
 msgid "https://orcid.org/0000-0003-4897-8422[Maria Prager], mailto:maria.prager@scilifelab.se[maria.prager@scilifelab.se], Science for Life Laboratory, Department of Ecology, Environment and Plant Sciences, Stockholm University; Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet"
-msgstr ""
+msgstr "https://orcid.org/0000-0003-4897-8422[Maria Prager], mailto:maria.pragmer@scilifelab.se[maria.pragmer@scilifelab.se], Science for Life Laboratory, Department of Ecology, Environment and Plant Sciences, Stockholm University; Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet"
 
 #. type: Plain text
 #: colophon.en.adoc:27
 msgid "https://orcid.org/0000-0002-4236-0384[Pieter Provoost], mailto:p.provoost@unesco.org[p.provoost@unesco.org], Ocean Biodiversity Information System, Jacobsenstraat 1, 8400 Oostende, Belgium"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-4236-0384[Pieter Provoost], mailto:p.provoost@unesco.org[p.provoost@unesco.org], Ocean Biodiversity Information Systemem, Jacobsenstraat 1, 8400 Oostende, Bélgica"
 
 #. type: Plain text
 #: colophon.en.adoc:28
 msgid "https://orcid.org/0000-0002-2919-1168[Dmitry Schigel], mailto:dschigel@gbif.org[dschigel@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-2919-1168[Dmitry Grosjean], mailto:mgrosjean@gbif.org[dschigel@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Dinamarca"
 
 #. type: Plain text
 #: colophon.en.adoc:29
 msgid "https://orcid.org/0000-0002-2919-1168[Saara Suominen], mailto:s.suominen@unesco.org[s.suominen@unesco.org], Ocean Biodiversity Information System, Jacobsenstraat 1, 8400 Oostende, Belgium"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-2919-1168[Saara Provoost], mailto:s.suominen@unesco.org[s.suominen@unesco.org], Ocean Biodiversity Information Systemem, Jacobsenstraat 1, 8400 Oostende, Bélgica"
 
 #. type: Plain text
 #: colophon.en.adoc:30
 msgid "https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen], mailto:csvenningsen@gbif.org[csvenningsen@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-9216-2917[Cecilie S. Jeppesen], mailto:tsjeppesen@gbif.org[csvenningsen@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
 
 #. type: Plain text
 #: colophon.en.adoc:31
 msgid "https://orcid.org/0000-0002-3530-013X[Tobias Guldberg Frøslev], mailto:tfroeslev@gbif.org[tfroeslev@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr ""
+msgstr "https://orcid.org/0000-0002-3530-013X[Tobias Guldberg Frøslev], mailto:tfroeslev@gbif.org[tfroeslev@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
 
 #. type: Title ===
 #: colophon.en.adoc:32
@@ -230,42 +230,42 @@ msgstr "https://www.ala.org.au/environmentaldna[ADN ambiental (eDNA) en ALA]"
 #. type: Plain text
 #: preface.en.adoc:10
 msgid "https://www.ala.org.au/app/uploads/2019/04/Simple-template-for-eDNA-data-entry-to-ALA-v2-1.xlsx[ALA eDNA data template]"
-msgstr ""
+msgstr "https://www.ala.org.au/app/uploads/2019/04/Simple-template-for-eDNA-data-entry-to-ALA-v2-1.xlsx[ALA eDNA data template]"
 
 #. type: Plain text
 #: preface.en.adoc:11
 msgid "https://www.miljodirektoratet.no/globalassets/publikasjoner/m1638/m1638.pdf?fbclid=IwAR08bK8C15ebZoGjUmxPgGz364WgFnDq9uT4CKR6aDHR1sUcOfhu7AYO69M[Norwegian Criteria for depositing eDNA samples and data, including vouchered specimens]"
-msgstr ""
+msgstr "https://www.miljodirektoratet.no/globalassets/publikasjoner/m1638/m1638.pdf?fbclid=IwAR08bK8C15ebZoGjUmxPgGz364WgFnDq9uT4CKR6aDHR1sUcOfhu7AYO69M[Norwegian Criteria for depositing eDNA samples and data, including vouchered specimens]"
 
 #. type: Plain text
 #: preface.en.adoc:12
 msgid "https://biodiversitydata-se.github.io/mol-data[Molecular biodiversity data in SBDI, Sweden]"
-msgstr ""
+msgstr "https://biodiversitydata-se.github.io/mol-data[Molecular biodiversity data in SBDI, Sweden]"
 
 #. type: Plain text
 #: preface.en.adoc:13
 msgid "https://www.gbif.org/faq?question=how-can-i-publish-molecular-data-to-gbif[GBIF resources (How) can I publish molecular/sequence/DNA based data to GBIF?]"
-msgstr ""
+msgstr "https://www.gbif.org/faq?question=how-can-i-publish-molecular-data-to-gbif[GBIF resources (How) can I publish molecular/sequence/DNA based data to GBIF?]"
 
 #. type: Plain text
 #: preface.en.adoc:14
 msgid "https://data-blog.gbif.org/post/gbif-molecular-data[Molecular data in GBIF]"
-msgstr ""
+msgstr "https://data-blog.gbif.org/post/gbif-molecular-data[Molecular data in GBIF]"
 
 #. type: Plain text
 #: preface.en.adoc:15
 msgid "https://www.gbif.org/publishing-data[GBIF quick guide to publishing data and detailed guides to publishing data]"
-msgstr ""
+msgstr "https://www.gbif.org/publishing-data[GBIF quick guide to publishing data and detailed guides to publishing data]"
 
 #. type: Plain text
 #: preface.en.adoc:16
 msgid "https://github.com/gbif/ipt/wiki/howToPublish#instructions[How to publish data to GBIF], as well as DwC/extension field overview."
-msgstr ""
+msgstr "https://github.com/gbif/ipt/wiki/howToPublish#instructions[How to publish data to GBIF], as well as DwC/extension field overview."
 
 #. type: Plain text
 #: preface.en.adoc:16
 msgid "https://github.com/tdwg/gbwg[Genomic Biodiversity Interest Group]"
-msgstr ""
+msgstr "https://github.com/tdwg/gbwg[Genomic Biodiversity Interest Group]"
 
 #. type: Title ==
 #: 100.en.adoc:1
@@ -318,47 +318,47 @@ msgstr "Esta guía ha sido desarrollada para múltiples audiencias objetivo: est
 #. type: Plain text
 #: 100.en.adoc:20
 msgid "The <<figure-workflow,flowchart>> outlines the processing steps involved in publishing amplicon-derived molecular biodiversity data in repositories such as GBIF and national biodiversity data platforms, including those built on the ALA platform. This guide’s focus is primarily on the steps following the arrival of raw <<fastq,FASTQ>> sequences from the sequencing step. By familiarizing themselves with the flowchart—and noting any steps that appear familiar or unclear—users will be able to navigate the content included in the guide."
-msgstr ""
+msgstr "El <<figure-workflow,flowchart>> esboza los pasos de procesamiento involucrados en la publicación de datos de biodiversidad molecular derivados del amplicón, en repositorios como GBIF y plataformas nacionales de datos sobre biodiversidad, incluyendo aquellos construidos en la plataforma ALA. El enfoque de esta guía está principalmente en los pasos posteriores a la llegada de secuencias crudas <<fastq,FASTQ>> del paso de secuenciación. Al familiarizarse con el diagrama de flujo —y tener en cuenta cualquier paso que parezca familiar o poco claro— los usuarios podrán navegar por el contenido incluido en la guía."
 
 #. type: Block title
 #: 100.en.adoc:22
 #, no-wrap
 msgid "Overall workflow for DNA sequence-derived biodiversity data as described in this guide."
-msgstr ""
+msgstr "Flujo de trabajo general para los datos sobre biodiversidad derivados de secuencias de ADN, tal y como se describe en esta guía."
 
 #. type: Target for macro image
 #: 100.en.adoc:24
 #, no-wrap
 msgid "img/print/sequence-publishing-guide.en.png"
-msgstr ""
+msgstr "amplicon-derived"
 
 #. type: Target for macro image
 #: 100.en.adoc:27
 #, no-wrap
 msgid "img/web/sequence-publishing-guide.en.svg"
-msgstr ""
+msgstr "img/web/sequence-publishing-guide.en.svg"
 
 #. type: Plain text
 #: 100.en.adoc:31
 msgid "We have done our best to present the information in this guide so that it is useful for each of the audiences described above, but background reading (e.g. https://www.gbif.org/publishing-data[GBIF quick guide to data publishing]) may be required in certain cases."
-msgstr ""
+msgstr "Hemos hecho todo lo posible por presentar la información en esta guía de forma que sea útil para cada una de las audiencias descritas anteriormente, pero una lectura a fondo (e.g. https://www.gbif.org/publishing-data[GBIF quick guide to data publishing]) puede ser requerida en ciertos casos."
 
 #. type: Title ===
 #: 100.en.adoc:32
 #, no-wrap
 msgid "Introduction to DNA-derived occurrence data"
-msgstr ""
+msgstr "Introducción a datos de ocurrencias derivados de DNA"
 
 #. type: Plain text
 #: 100.en.adoc:35
 msgid "DNA-derived biological occurrence data include information derived from DNA from individual organisms, but also from environmental DNA (eDNA, i.e. DNA extracted from environmental samples, https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen & Willerslev 2015^]) and from bulk samples comprising many individuals (e.g. plankton samples or Malaise trap samples consisting of multiple individuals from many species). Currently, the greatest volume of DNA-derived occurrence data derives from eDNA. Since analytical methods and end products are largely similar for all sample sources, the discussion below will focus on eDNA (<<category-i>> and <<category-ii>>), noting that the outline is applicable to the other sources. Surveys often utilize targeted sequencing of taxonomically and phylogenetically informative genetic markers, but can also use, for example, qPCR-based approaches that do not directly result in DNA sequence data (<<category-iii>> and <<mapping-ddpcr-qpcr-data>>). This guide may appear heavy in DNA related terms; if this is the case, please consult the <<glossary>>."
-msgstr ""
+msgstr "Los datos biológicos derivados de ADN incluyen información derivada de ADN de organismos individuales, pero también de ADN ambiental (eDNA, es decir, ADN extraído de muestras ambientales, https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen & Willerslev 2015^]) y de muestras masivas que componen a muchos individuos (e.g. Las muestras de plankton o muestras de trampas de Malaise que consisten en múltiples individuos de múltiples especies). En la actualidad, el mayor volumen de datos de ocurrencia derivados de la ADN privienen del eDNA. Desde que los métodos analíticos y los productos finales son en gran medida similares para todas las fuentes de muestras, la siguiente discusión se centrará en el eDNA (<<category-i>> y <<category-ii>>), teniendo en cuenta que el contorno es aplicable a otras fuentes. Las investigaciones a menudo utilizan secuencias selectivas de marcadores genéticos taxonómicos e informativos, pero también pueden usarlos por ejemplo, enfoques basados en qPCR, que no resultan directamente en datos de secuencia de ADN (<<category-iii>> y <<mapping-ddpcr-qpcr-data>>). Esta guía puede parecer pesada en términos relacionados con el ADN; si este es el caso, consulte el <<glossary>>."
 
 #. type: Title ====
 #: 100.en.adoc:36
 #, no-wrap
 msgid "Environmental DNA as a source for DNA-derived occurrence data"
-msgstr ""
+msgstr "ADN ambiental como fuente de datos de ocurrencia derivados de DNA"
 
 #. type: Plain text
 #: 100.en.adoc:39
