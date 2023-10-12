@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-09-18 21:34\n"
+"PO-Revision-Date: 2023-10-12 07:06\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -943,7 +943,7 @@ msgstr ""
 #: 200.en.adoc:137
 #, no-wrap
 msgid "Data mapping"
-msgstr ""
+msgstr "Mapeo de datos"
 
 #. type: Plain text
 #: 200.en.adoc:140
@@ -2501,13 +2501,13 @@ msgstr ""
 #: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "extension"
-msgstr ""
+msgstr "extensión"
 
 #. type: Content of: <svg><g><g><switch><text>
 #: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "MIxS..."
-msgstr ""
+msgstr "MIxS..."
 
 #. type: Content of: <svg><g><g><switch><text>
 #: img/web/ct/dwca-structure.en.svg:4
@@ -2519,13 +2519,13 @@ msgstr ""
 #: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "Measurement"
-msgstr ""
+msgstr "Medidas"
 
 #. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
 #: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "and Facts"
-msgstr ""
+msgstr "y hechos"
 
 #. type: Content of: <svg><g><g><switch><text>
 #: img/web/ct/dwca-structure.en.svg:4
@@ -2549,29 +2549,29 @@ msgstr ""
 #: img/web/ct/eDNA-categories.en.svg:1382
 #, no-wrap
 msgid "Category III"
-msgstr ""
+msgstr "Categoría III"
 
 #. type: Content of: <svg><text>
 #: img/web/ct/eDNA-categories.en.svg:1397
 #, no-wrap
 msgid "Category II"
-msgstr ""
+msgstr "Categoría II"
 
 #. type: Content of: <svg><text>
 #: img/web/ct/eDNA-categories.en.svg:1412
 #, no-wrap
 msgid "Category I"
-msgstr ""
+msgstr "Categoría I"
 
 #. type: Content of: <svg><text>
 #: img/web/ct/eDNA-categories.en.svg:1445
 #, no-wrap
 msgid "Category V"
-msgstr ""
+msgstr "Categoría V"
 
 #. type: Content of: <svg><text>
 #: img/web/ct/eDNA-categories.en.svg:2391
 #, no-wrap
 msgid "Category IV"
-msgstr ""
+msgstr "Categoría IV"
 
