@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-10-12 08:29\n"
+"PO-Revision-Date: 2023-10-18 16:48\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -589,7 +589,7 @@ msgstr ""
 #: 100.en.adoc:131
 #, no-wrap
 msgid "Outputs"
-msgstr ""
+msgstr "Salidas"
 
 #. type: Plain text
 #: 100.en.adoc:134
