@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-10-24 21:44\n"
+"PO-Revision-Date: 2023-10-24 22:40\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -396,13 +396,13 @@ msgstr "Numerosos estudios señalan que para muestras de agua, los análisis bas
 #. type: Plain text
 #: 100.en.adoc:54
 msgid "Some studies show a relationship between the amount of DNA for a given species in an environmental sample and the biomass of the species in the environment. One can therefore potentially also think of environmental DNA allowing a so-called semi-quantitative estimate (indirect target) for organism biomass, both from environmental samples and bulk samples (https://doi.org/10.1371/journal.pone.0035868[Takahara et al. 2012^]; https://doi.org/10.1111/j.1365-294X.2011.05418.x[Thomsen et al. 2012^]; https://doi.org/10.1111/j.1365-294X.2011.05261.x[Andersen et al. 2012^]; https://doi.org/10.1038/ismej.2013.61[Ovaskainen et al. 2013^]; https://doi.org/10.1111/1755-0998.12522[Lacoursière-Roussel et al. 2016^]; https://doi.org/10.1371/journal.pone.0165252[Thomsen et al. 2016^]; https://doi.org/10.1111/mec.13428[Valentini et al. 2016^]; https://doi.org/10.1002/edn3.45[Fossøy et al. 2019^]; https://doi.org/10.1002/edn3.7[Yates et al. 2019^]; https://doi.org/10.1038/s41598-019-40233-1[Doi et al. 2017^]). However, other studies show little correlation between environmental DNA quantity and estimated population density (https://doi.org/10.1016/j.jembe.2018.09.004[Knudsen et al. 2019^]). PCR, quantification, mixing and other biases are frequently debated. For example, moult, reproduction and mass death can contribute to increased levels of crustacean environmental DNA in water, while turbidity and poor water quality reduce the amount of detectable environmental DNA (https://doi.org/10.1111/1365-2664.13404[Strand et al. 2019^]). Therefore we encourage data publishers to supply both read counts for each OTU or ASV per sample as well as total read count per sample, as this is necessary information for users to make their own conclusions on presence/absence and (relative) abundance."
-msgstr ""
+msgstr "Algunos estudios muestran una relación entre la cantidad de ADN de una determinada especie en una muestra ambiental y la biomasa de la especie en el medio ambiente. Por lo tanto, se puede pensar también que el ADN ambiental, permite una estimación semi cuantitativa (objetivo indirecto) de la biomasa del organismo, tanto de muestras ambientales como de muestras en masa (https://doi.org/10.1371/journal.pone.0035868[Takahara et al. 2012^]; https://doi.org/10.1111/j.1365-294X.2011.05418.x[Thomsen et al. 2012^]; https://doi.org/10.1111/j.1365-294X.2011.05261.x[Andersen et al. 2012^]; https://doi.org/10.1038/ismej.2013.61[Ovaskainen et al. 2013^]; https://doi.org/10.1111/1755-0998.12522[Lacoursière-Roussel et al. 2016^]; https://doi.org/10.1371/journal.pone.0165252[Thomsen et al. 2016^]; https://doi.org/10.1111/mec.13428[Valentini et al. 2016^]; https://doi.org/10.1002/edn3.45[Fossøy et al. 2019^]; https://doi.org/10.1002/edn3.7[Yates et al. 2019^]; https://doi.org/10.1038/s41598-019-40233-1[Doi et al. 2017^]). Sin embargo, otros estudios muestran poca correlación entre la cantidad de ADN ambiental y la densidad estimada de una población (https://doi.org/10.1016/j.jembe.2018.09.004[Knudsen et al. 2019^]). Con frecuencia se debaten diferentes sesgos como la PCR, la cuantificación, la mezcla entre otros. Por ejemplo, las mudas, la reproducción y la muerte masiva de crustáceo pueden contribuir a aumentar su representatividad en el ADN ambiental en el agua, mientras que la turbidez y la mala calidad del agua reducen la cantidad de ADN ambiental detectable (https://doi.org/10.1111/1365-2664.13404[Strand et al. 2019^]). Por lo tanto, animamos a los publicadores de datos a proporcionar tanto el recuento de lectura para cada OTU o ASV por muestra, como el recuento de lectura total por muestra, ya que esta información es necesaria para que los usuarios hagan sus propias conclusiones sobre la presencia/ausencia y abundancia (relativa)."
 
 #. type: Title ====
 #: 100.en.adoc:55
 #, no-wrap
 msgid "DNA-metabarcoding: sequence-derived data"
-msgstr ""
+msgstr "ADN-metabarcoding: datos derivados de secuencias"
 
 #. type: Plain text
 #: 100.en.adoc:58
@@ -467,28 +467,28 @@ msgstr "Esquema de una plataforma para informar y publicar secuencias de ADN y m
 #: 100.en.adoc:80
 #, no-wrap
 msgid "img/print/outline-of-a-platform.en.png"
-msgstr ""
+msgstr "img/print/outline-of-a-platform.en.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:83
 #, no-wrap
 msgid "img/web/outline-of-a-platform.en.svg"
-msgstr ""
+msgstr "img/web/outline-of-a-platform.en.svg"
 
 #. type: Plain text
 #: 100.en.adoc:87
 msgid "Once a dataset has been through these standardization and data quality processes, it should be placed in an accessible online location and associated with relevant metadata. Metadata–data or information about the dataset includes key parameters that describe the dataset and further improve its discoverability and reuse. Metadata should include other important elements such as authorship, Digital Object Identifiers (DOIs), organizational affiliations and other provenance information, as well as procedural and methodological information about how the dataset was collected and curated. We encourage to provide a description of workflow details and versions including quality control in the https://eml.ecoinformatics.org/schema/eml-dataset_xsd.html#DatasetType_methods[methods section] in the EML file."
-msgstr ""
+msgstr "Una vez que un conjunto de datos ha pasado por estos procesos de estandarización y calidad de datos, debería ser puesto en una ubicación en línea accesible y ser asociado con metadatos relevantes. Los metadatos o información sobre el conjunto de datos incluyen parámetros clave que lo describen y mejoran aún más su capacidad de descubrimiento y reutilización. Los metadatos deberían incluir otros elementos importantes, tales como la autoría, los Identificadores de Objetos Digitales (DOI, por sus siglas en inglés) afiliaciones organizacionales y otra información de procedencia, así como información procedimental y metodológica de cómo se recopiló y curó el conjunto de datos. Recomendamos proporcionar una descripción de los detalles del flujo de trabajo y las versiones, incluyendo el control de calidad en la https://eml.ecoinformatics.org/schema/eml-dataset_xsd.html#DatasetType_methods[methods section] en el archivo EML."
 
 #. type: Plain text
 #: 100.en.adoc:89
 msgid "Datasets and their associated metadata are indexed by each data portal: this process enables users to query, filter and process data through APIs and web portals. Unlike journal publications, datasets may be dynamic products that go through multiple versions, with an evolving number of records and mutable metadata fields under the same title and DOI."
-msgstr ""
+msgstr "Los conjuntos de datos y sus metadatos asociados son indexados por cada portal de datos: este proceso permite a los usuarios consultar, filtrar y procesar datos a través de los API's y portales web. A diferencia de las publicaciones en revistas, los conjuntos de datos pueden ser productos dinámicos que pasan por múltiples versiones con un número de registros que evoluciona y campos de metadatos mutables bajo el mismo título y DOI."
 
 #. type: Plain text
 #: 100.en.adoc:91
 msgid "Note that holders of genetic sequence data are expected to upload and archive genetic sequence data in raw sequence data repositories such as NCBI’s https://www.ncbi.nlm.nih.gov/genbank/submit/[SRA^], EMBL’s https://biodiversitydata-se.github.io/mol-data/ena-metabar.html[ENA^] or https://www.ddbj.nig.ac.jp/submission-e.html[DDBJ^]. The sequence archival topic is not covered here, but e.g. https://doi.org/10.3897/rio.3.e12431[Penev et al. (2017)] provide a general overview of the importance of data submission and guidelines in connection with scientific publication. Biodiversity data platforms such as ALA, GBIF, and most national biodiversity portals are not archives or repositories for raw sequence reads and associated files. We do, however, stress the importance of maintaining links between such primary data and derived occurrences in <<data-packaging-and-mapping,Section 2>>."
-msgstr ""
+msgstr "Tenga en cuenta que se espera que los poseedores de las secuencias genéticas carguen y archiven los datos sin procesar en repositorios tales como el de NCBI’s https://www.ncbi.nlm.nih.gov/genbank/submit/[SRA^], EMBL’s https://biodiversitydata-se.github.io/mol-data/ena-metabar.html[ENA^] o https://www.ddbj.nig.ac.jp/submission-e.html[DDBJ^]. El tema de archivar la secuencia no se aborda aquí, pero a manera de ejemplo, https://doi.org/10.3897/rio.3.e12431[Penev et al. (2017)] proporciona una visión general sobre la importancia de presentación de los datos y directrices en relación con la publicación científica. Plataformas de datos sobre biodiversidad tales como ALA, GBIF y la mayoría de portales nacionales sobre biodiversidad no son archivos ni repositorios de lectura de secuencias sin procesar y sus archivos asociados. Sin embargo, destacamos la importancia de mantener vínculos entre esos datos primarios y registros biológicos derivados en la <<data-packaging-and-mapping,Section 2>>."
 
 #. type: Title ===
 #: 100.en.adoc:92
@@ -715,45 +715,45 @@ msgstr ""
 #: 200.en.adoc:58
 #, no-wrap
 msgid "<|*<<category-i,Category I>>* +"
-msgstr ""
+msgstr "<|*<<category-i,Category I>>* +"
 
 #. type: Table
 #: 200.en.adoc:60
 msgid "DNA-based occurrences"
-msgstr ""
+msgstr "Registros biológicos derivados de ADN"
 
 #. type: Block title
 #: 200.en.adoc:60
 #, no-wrap
 msgid "<|*<<category-ii,Category II>>* +"
-msgstr ""
+msgstr "<|*<<category-ii,Category II>>* +"
 
 #. type: Table
 #: 200.en.adoc:62
 msgid "Enriched occurrences"
-msgstr ""
+msgstr "Registros biológicos enriquecidos"
 
 #. type: Block title
 #: 200.en.adoc:62
 #, no-wrap
 msgid "<|*<<category-iv,Category IV>>* +"
-msgstr ""
+msgstr "<|*<<category-iv,Category IV>>* +"
 
 #. type: Table
 #: 200.en.adoc:64
 msgid "Name references"
-msgstr ""
+msgstr "Referencias de nombre"
 
 #. type: Block title
 #: 200.en.adoc:64
 #, no-wrap
 msgid "<|*<<category-v,Category V>>* +"
-msgstr ""
+msgstr "<|*<<category-v,Category V>>* +"
 
 #. type: Table
 #: 200.en.adoc:67
 msgid "Metadata-only |"
-msgstr ""
+msgstr "Solo metadato"
 
 #. type: Block title
 #: 200.en.adoc:70
@@ -845,23 +845,23 @@ msgstr "Categoría III: Detección de especies objetivo (qPCR/ddPCR)"
 #. type: Plain text
 #: 200.en.adoc:103
 msgid "This category concerns data where a specific (qPCR/ddPCR) assay is used to detect the presence (or absence) of a DNA sequence specific to the target organism in an environmental sample. In this case the occurrence record may not even contain sequence data, as it is the process itself that determines the occurrence. With qPCR/ddPCR analyses for targeted species detection, many studies also report absence of that specific species for a given sample. Absence data is highly dependent on the detection limit of the specific assay, as well as field and lab protocols. As for DNA-metabarcoding data there is an issue of both false negatives and false positives, and it is important that sufficient information is reported for evaluating the records."
-msgstr ""
+msgstr "Esta categoría hace referencia a los datos en los que se utiliza un ensayo específico (qPCR/ddPCR) para detectar la presencia (o ausencia) de una secuencia de ADN específica para el organismo objetivo en una muestra ambiental. En este caso, el registro biológico puede que ni siquiera contenga datos de la secuencia, ya que es el proceso como tal el que determina el registro biológico. Con los análisis qPCR/ddPCR para la detección de especies específicas, muchos estudios también reportan la ausencia de esa especie en particular para una muestra determinada. La ausencia de datos depende en gran medida del límite de detección del ensayo específico, así como de los protocolos de campo y laboratorio. En cuanto a los datos de ADN-metabarcoding hay un problema de falsos negativos y falsos positivos, y es importante que se reporte suficiente información para evaluar los registros."
 
 #. type: Title =====
 #: 200.en.adoc:104
 #, no-wrap
 msgid "Examples of targeted species occurrence datasets"
-msgstr ""
+msgstr "Ejemplos de conjuntos de datos de especies objetivo"
 
 #. type: Plain text
 #: 200.en.adoc:106
 msgid "Strzelecki, Joanna; Feng, Ming; Berry, Olly; Zhong, Liejun; Keesing, John; Fairclough, David; Pearce, Alan; Slawinski, Dirk; Mortimer, Nick. Location and transport of early life stages of Western Australian Dhufish Glaucosoma hebraicum. Floreat, WA: Fisheries Research and Development Corporation; 2013. http://hdl.handle.net/102.100.100/97533 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr8131. Accessed 22 July 2020)"
-msgstr ""
+msgstr "Strzelecki, Joanna; Feng, Ming; Berry, Olly; Zhong, Liejun; Keesing, John; Fairclough, David; Pearce, Alan; Slawinski, Dirk; Mortimer, Nick. Location and transport of early life stages of Western Australian Dhufish Glaucosoma hebraicum. Floreat, WA: Fisheries Research and Development Corporation; 2013. http://hdl.handle.net/102.100.100/97533 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr8131. Accessed 22 July 2020)"
 
 #. type: Plain text
 #: 200.en.adoc:108
 msgid "For guidance on how to format and share these datasets, see <<mapping-ddpcr-qpcr-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
-msgstr ""
+msgstr "Para obtener orientación sobre cómo estructurar y compartir estos conjuntos de datos, consulte <<mapping-ddpcr-qpcr-data>>. Las pautas generales para los conjuntos de datos de registros biológicos en Darwin Core también se encuentran disponibles en los siguientes enlaces: https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
 
 #. type: Title ====
 #: 200.en.adoc:110
