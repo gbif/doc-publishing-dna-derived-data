@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-10-18 16:48\n"
+"PO-Revision-Date: 2023-10-24 18:17\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1574,7 +1574,7 @@ msgstr ""
 #: glossary.en.adoc:2
 #, no-wrap
 msgid "Glossary"
-msgstr ""
+msgstr "Glosario"
 
 #. type: Labeled list
 #: glossary.en.adoc:5
@@ -1646,7 +1646,7 @@ msgstr ""
 #: glossary.en.adoc:11
 #, no-wrap
 msgid "[[clustering]]Clustering"
-msgstr ""
+msgstr "[[clustering]]Clusterizar"
 
 #. type: Plain text
 #: glossary.en.adoc:12
