@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-10-24 20:45\n"
+"PO-Revision-Date: 2023-10-24 21:44\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -375,23 +375,23 @@ msgstr "Representación de los procesos de muestreo que comparan la recopilació
 #: 100.en.adoc:43
 #, no-wrap
 msgid "img/print/sampling-processes.en.png"
-msgstr ""
+msgstr "img/print/sampling-processes.en.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:46
 #, no-wrap
 msgid "img/web/sampling-processes.en.svg"
-msgstr ""
+msgstr "img/web/sampling-processes.en.svg"
 
 #. type: Plain text
 #: 100.en.adoc:50
 msgid "eDNA is thus a sample type, not a method, including DNA derived from any environmental sample rather than from the capture and sequencing of a targeted individual. Such sample types includes water, soil, sediment and air, but also gut content samples and tissue (plant/animal) where the host DNA is not targeted (https://doi.org/10.1093/oso/9780198767220.001.0001[Taberlet et al. 2018^]). A number of analytical methods exist for studying environmental DNA. These can be divided into two main classes: 1) those which aim to detect a specific organism and 2) those which describe an assemblage or a community of a range of organisms. Different methods of analysis will generate different types and volumes of data. Most often DNA concentrations are low, and technical and biological replicates should be used to validate species detection."
-msgstr ""
+msgstr "Por lo tanto, el eDNA es un tipo de muestra, no un método, que incluye el ADN derivado de cualquier muestra ambiental en lugar de la captura y secuenciación de un individuo específico. Tales tipos de muestras incluyen agua, suelo, sedimento y aire; pero también muestras de contenido intestinal y tejidos (planta/animal) donde el ADN del hospedero no es el objetivo (https://doi.org/10.1093/oso/9780198767220.001.0001[Taberlet et al. 2018^]). Existen una serie de métodos analíticos para el estudio del ADN ambiental, estos pueden dividirse en dos clases principales: 1) aquellos que tienen como objetivo detectar un organismo específico y 2) aquellos que describen un ensamblaje o una comunidad de una variedad de organismos. Diferentes métodos de análisis generarán diversos tipos y volúmenes de datos. La mayoría de las veces las concentraciones de ADN son bajas y las réplicas técnicas y biológicas deben utilizarse para validar la detección de especies."
 
 #. type: Plain text
 #: 100.en.adoc:52
 msgid "Several studies show that, for water samples, analyses based on eDNA may have a higher probability of finding rare and hard to survey species than conventional methods (https://doi.org/10.1111/j.1365-294X.2011.05418.x[Thomsen et al. 2012^]; https://doi.org/10.1016/j.biocon.2014.11.029[Biggs et al. 2015^]; https://doi.org/10.1111/mec.13428[Valentini et al. 2016^]; https://doi.org/10.1002/edn3.74[Bessey et al. 2020^]). The same may be true in other environments. Therefore, eDNA may be suitable for monitoring rare red list species and undesirable alien species that often have low densities and that are difficult to detect with conventional methods because sometimes DNA traces can still be detected, although the actual organism is no longer present there. Environmental DNA methods are able to detect cryptic organisms, especially those that are small and unable to be detected by the naked eye (e.g. bacteria and fungi). In addition, eDNA can also be used for observation of many species simultaneously, and may describe entire biological communities or major components of them (https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2612638[Ekrem & Majaneva 2019^])."
-msgstr ""
+msgstr "Numerosos estudios señalan que para muestras de agua, los análisis basados en el eDNA pueden tener una mayor probabilidad de encontrar especies raras y difíciles de muestrear que los métodos convencionales (https://doi.org/10.1111/j.1365-294X.2011.05418.x[Thomsen et al. 2012^]; https://doi.org/10.1016/j.biocon.2014.11.029[Biggs et al. 2015^]; https://doi.org/10.1111/mec.13428[Valentini et al. 2016^]; https://doi.org/10.1002/edn3.74[Bessey et al. 2020^]). Lo mismo puede aplicar en otros entornos. Por lo tanto, el eDNA puede ser adecuado para monitorear especies raras documentadas en listas rojas y especies invasoras indeseables que a menudo tienen bajas densidades y que son difíciles de detectar con métodos convencionales. Ya que se pueden detectar trazas de ADN, aunque el organismo ya no está presente en la zona. Los métodos de ADN ambiental son capaces de detectar organismos crípticos, especialmente aquellos que son pequeños y no pueden ser detectados a simple vista (ej. bacterias y hongos). Además, el eDNA también se puede utilizar para la observación de muchas especies simultáneamente, y puede describir comunidades biológicas enteras o los componentes principales de estas (https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2612638[Ekrem & Majaneva 2019^])."
 
 #. type: Plain text
 #: 100.en.adoc:54
@@ -445,23 +445,23 @@ msgstr "Introducción a la publicación sobre biodiversidad"
 #. type: Plain text
 #: 100.en.adoc:72
 msgid "Publishing biodiversity data is largely a process of making species occurrence data findable, accessible, interoperable and reusable, in accordance with the FAIR principles (https://doi.org/10.1038/sdata.2016.18[Wilkinson et al. 2016^]). Biodiversity data platforms help expose and discover genetic sequence data as biodiversity occurrence records alongside other types of biodiversity data, such as museum collection specimens, citizen science observations, and classical field surveys. The structure, management and storage for each original data source will vary according to the needs of each community. The biodiversity data platforms support data discovery, access and reuse by making these individual datasets compatible with each other, addressing taxonomic, spatial and other inconsistencies in the available biodiversity data. Making data available through single access points supports large-scale data-intensive research, management, and policy. The compatibility between datasets is reached through the process of standardization."
-msgstr "Publicar datos sobre biodiversidad es en gran medida un proceso de hacer que los datos de ocurrencias de las especies sean encontrables, accesibles, interoperables y reutilizables, de acuerdo con los principios FAIR (https://doi.org/10.1038/sdata.2016.18[Wilkinson et al. 2016^]). Las plataformas de datos sobre biodiversidad ayudan a exponer y descubrir datos de secuencias genéticas como registros de ocurrencias de biodiversidad junto con otros tipos de datos, tales como muestras de colecciones de museos, observaciones científicas ciudadanas y las clásicas encuestas de campo. La estructura, gestión y almacenamiento de cada fuente de original de datos variará de acuerdo con las necesidades de cada comunidad. Las plataformas de datos sobre biodiversidad soportan el descubrimiento, acceso y reutilización de datos, al hacer que estos conjuntos de datos individuales sean compatibles entre sí, abordando inconsistencias taxonómicas, espaciales y de otro tipo en los datos de biodiversidad disponibles. Hacer que los datos estén disponibles a través de puntos únicos de acceso respalda la investigación, gestión y política en datos a gran escala."
+msgstr "Publicar datos sobre biodiversidad es en gran medida un proceso de hacer que los datos de registros biológicos de las especies sean encontrables, accesibles, interoperables y reutilizables, de acuerdo con los principios FAIR (https://doi.org/10.1038/sdata.2016.18[Wilkinson et al. 2016^]). Las plataformas de datos sobre biodiversidad ayudan a exponer y descubrir datos de secuencias genéticas como registros de ocurrencias de biodiversidad junto con otros tipos de datos, tales como muestras de colecciones de museos, observaciones científicas ciudadanas y las clásicas encuestas de campo. La estructura, gestión y almacenamiento de cada fuente de original de datos variará de acuerdo con las necesidades de cada comunidad. Las plataformas de datos sobre biodiversidad soportan el descubrimiento, acceso y reutilización de datos, al hacer que estos conjuntos de datos individuales sean compatibles entre sí, abordando inconsistencias taxonómicas, espaciales y de otro tipo en los datos de biodiversidad disponibles. Hacer que los datos estén disponibles a través de puntos únicos de acceso respalda la investigación, gestión y política en datos a gran escala."
 
 #. type: Plain text
 #: 100.en.adoc:74
 msgid "A number of data standards are in use for general biodiversity data (https://www.gbif.org/standards), and a separate set of standards for genetic sequence data (see <<mixs,MIxS>> and <<ggbn,GGBN>>). This guide reflects some ongoing efforts to increase the compatibility between standards for general biodiversity and genetic data. Standards often highlight the subsets of fields which are most important or most frequently applicable. These subsets may be referenced as “cores”. The preferred format for publishing data in the GBIF and ALA networks is currently the Darwin Core Archive (DwC-A) using the https://dwc.tdwg.org/[Darwin Core^] (DwC) data standard. In practice, this is a compressed folder (a zip file) containing data files, in standard comma- or tab-delimited text format, a metadata file (https://eml.ecoinformatics.org/[eml.xml]) that describes the data resource, and a metafile (meta.xml) that specifies the structure of files and data fields included in the archive. Standardized packaging ensures that the data can travel between systems using specific data exchange protocols.  <<data-packaging-and-mapping,Section 2>> of this guide provides recommendations for the mapping of the data files, while guidelines and tools for constructing the xml files can be found here: https://www.tdwg.org/standards[TDWG^], https://www.gbif.org/standards[GBIF^], and https://support.ala.org.au/support/solutions/articles/6000195499-what-are-biodiversity-data-standards-[ALA^]."
-msgstr ""
+msgstr "Se utilizan una serie de estándares para datos generales sobre biodiversidad (https://www.gbif.org/standards), y un conjunto separado de estándares para los datos de secuencias genéticas (see <<mixs,MIxS>> and <<ggbn,GGBN>>). Esta guía refleja algunos de los esfuerzos en curso por incrementar la compatibilidad entre los estándares para la biodiversidad general y los datos genéticos. A menudo, los estándares resaltan los subconjuntos de elementos más importantes o los que son más frecuentemente aplicables, estos pueden ser referenciados como \"cores\". El formato preferido para publicar datos en las redes de GBIF y ALA es actualmente el Darwin Core Archive (DwC-A) usando el estándar de datos https://dwc.tdwg.org/[Darwin Core^] (DwC). En la práctica, esta es una carpeta comprimida (archivo zip) que contiene archivos de datos en formato de texto estándar delimitado por comas o tabulaciones, un archivo de metadatos (https://eml.ecoinformatics.org/[eml.xml]) que describe el recurso de datos y un archivo meta (meta.xml) que especifica la estructura de los archivos y los elementos que lo incluyen. El empaquetamiento estandarizado garantiza que los datos puedan viajar entre sistemas utilizando protocolos de intercambio de datos específicos. La <<data-packaging-and-mapping,Section 2>> de esta guía proporciona recomendaciones para el mapeo de los archivos de datos, mientras que las pautas y herramientas para construir los archivos xml pueden ser encontradas aquí: https://www.tdwg.org/standards[TDWG^], https://www.gbif.org/standards[GBIF^], y https://support.ala.org.au/support/solutions/articles/6000195499-what-are-biodiversity-data-standards-[ALA^]."
 
 #. type: Plain text
 #: 100.en.adoc:76
 msgid "A central part of the standardization process is the mapping of fields, which is required to transform the original field (column) structure in a source-data export into a standard field structure. Standardization may also affect the content of the individual fields within each record, for example, by recalculating coordinates to a common system, rearranging date elements, or mapping the contents of fields a standard set of values, often called a vocabulary. The process of standardization also provides an opportunity to improve data quality, for example, by filling in omissions, correcting typos and extra spaces and handling inconsistent use of fields. Such improvements enhance the quality of data and increase its suitability for reuse, but at the same time, data published in any state are better than data that remain unpublished and inaccessible. Standartization is typically applied to a copy or to an export from the data source, leaving the original untouched."
-msgstr ""
+msgstr "Una parte central del proceso de estandarización es el mapeo de los elementos, que es requerido para transformar la estructura original del elemento (columna) en una exportación de datos fuente a una estructura de campo estándar. La estandarización también puede afectar individualmente el contenido de los elementos dentro de cada registro, por ejemplo, al recalcular coordenadas a un sistema común, reorganizando los elementos de las fechas o mapeando el contenido de los elementos a un conjunto de valores estándar, a menudo llamado vocabulario. El proceso de estandarización también proporciona una oportunidad de mejorar la calidad de los datos, por ejemplo, rellenando omisiones, corrigiendo errores tipográficos y espacios extra, y manejando el uso inconsistente de los elementos. Tales mejoras contribuyen al aumento en la calidad de los datos e incrementan su idoneidad para la reutilización, pero al mismo tiempo, los datos publicados en cualquier estado son mejores que los datos que permanecen sin publicar o son inaccesibles. La estandarización es típicamente aplicada a una copia o a una exportación desde la fuente de datos, dejando el original intacto."
 
 #. type: Block title
 #: 100.en.adoc:78
 #, no-wrap
 msgid "Outline of a platform for reporting and publishing DNA sequences and associated metadata (green box) based on existing systems and data standards (grey boxes). An envisioned system for regular (based on machine-to-machine reading of data) update of results (white box) can either read and update the Darwin Core Archive or various administration systems. The data transfer between the various elements (black arrows) will require various degrees of data transformation and harmonization and may include either mechanical or human quality assessment."
-msgstr ""
+msgstr "Esquema de una plataforma para informar y publicar secuencias de ADN y metadatos asociados (cuadro verde) basado en sistemas y estándares de datos existentes (cuadros grises). Un sistema previsto para la actualización regular de los resultados (basado en la lectura de datos de máquina a máquina, cuadro blanco) puede leer y actualizar el archivo Darwin Core o varios sistemas de administración. La transferencia de datos entre los distintos elementos (flechas negras) requerirá diversos grados de transformación y armonización de los datos y puede incluir una evaluación de la calidad mecánica o humana."
 
 #. type: Target for macro image
 #: 100.en.adoc:80
@@ -638,7 +638,7 @@ msgstr "Este capítulo se enfoca en detalles prácticos necesarios para converti
 #. type: Plain text
 #: 200.en.adoc:6
 msgid "This guide combines the standards for general biodiversity data publishing with genetic DNA-derived biodiversity data (<<figure-dwca-ipt>>). This “do-section” stops at providing mapping recommendations for different types of DNA-derived data."
-msgstr "Esta guía combina los estándares para la publicación de datos generales sobre biodiversidad con datos genéticos de biodiversidad derivados de ADN (<<figure-dwca-ipt>>). Esta “sección práctica”, se proporcionan recomendaciones para el mapeo de diferentes tipos de datos derivados de ADN."
+msgstr "Esta guía combina los estándares para la publicación de datos generales sobre biodiversidad con datos genéticos de biodiversidad derivados de ADN (<<figure-dwca-ipt>>). En esta “sección práctica”, se proporcionan recomendaciones para el mapeo de diferentes tipos de datos derivados de ADN."
 
 #. type: Plain text
 #: 200.en.adoc:8
@@ -649,19 +649,19 @@ msgstr "Las rutas de empaquetado y publicación de datos varían de una platafor
 #: 200.en.adoc:10
 #, no-wrap
 msgid "Zoom in of DwC-A / IPT from figure 3 in chapter 1.2. The choice of core entity is mainly a matter of fitting data to the data import mechanism (ingestion) of the biodiversity data platforms. Most data could be formulated as either Occurrence, Event or Taxon core, but as only the core can have extensions, this will affect the choice. It is for example not possible to extend occurrences with DNA sequences if data are packaged using Event core."
-msgstr ""
+msgstr "Ampliación de DwC-A / IPT de la figura 3 del capítulo 1.2. La elección de la entidad central o \"core\" es principalmente una cuestión de adecuar los datos al mecanismo de importación de los mismos (ingestión) de las plataformas de datos sobre biodiversidad. La mayoría de los datos podrían ser formulados como \"core\" de Registros, Evento o Taxón, pero, dado que solo el \"core\" puede tener extensiones, esto afectará la elección. Por ejemplo, no es posible incluir la secuencias de ADN como extensión de un registro si los datos se empaquetan utilizando el \"core\" de Evento."
 
 #. type: Target for macro image
 #: 200.en.adoc:12
 #, no-wrap
 msgid "img/print/dwca-structure.en.png"
-msgstr ""
+msgstr "img/print/dwca-structure.en.png"
 
 #. type: Target for macro image
 #: 200.en.adoc:15
 #, no-wrap
 msgid "img/web/ct/dwca-structure.en.svg"
-msgstr ""
+msgstr "img/web/ct/dwca-structure.en.svg"
 
 #. type: Title ===
 #: 200.en.adoc:18
@@ -759,88 +759,88 @@ msgstr ""
 #: 200.en.adoc:70
 #, no-wrap
 msgid "Visual representation of categories I-V."
-msgstr ""
+msgstr "Representación visual de las categorías I-V."
 
 #. type: Target for macro image
 #: 200.en.adoc:71
 #, no-wrap
 msgid "img/web/ct/eDNA-categories.en.svg"
-msgstr ""
+msgstr "img/web/ct/eDNA-categories.en.svg"
 
 #. type: Title ====
 #: 200.en.adoc:74
 #, no-wrap
 msgid "Category I: DNA-derived occurrences"
-msgstr ""
+msgstr "Categoría I: Registros biológicos derivados de ADN"
 
 #. type: Plain text
 #: 200.en.adoc:77
 msgid "This category concerns data where a DNA sequence or detection through PCR is the only evidence for the presence of a given organism or community. In other words, the data cannot be traced back to an observable specimen. This is the case for many metagenomics, metabarcoding and eDNA studies."
-msgstr ""
+msgstr "Esta categoría hace referencia a datos en los que una secuencia de ADN o la detección a través de PCR son la única evidencia de la presencia de un organismo o comunidad específica. En otras palabras, los datos no pueden ser rastreados hasta un espécimen observable. Este es el caso de muchos estudios de metagenómica, metabarcoding y eADN."
 
 #. type: Title =====
 #: 200.en.adoc:78
 #, no-wrap
 msgid "Examples of DNA-derived occurrence datasets"
-msgstr ""
+msgstr "Ejemplos de conjuntos de datos de registros biológicos derivados de ADN"
 
 #. type: Plain text
 #: 200.en.adoc:81
 msgid "MGnify (2019) Impact of rainforest transformation on phylogenetic and functional diversity of soil prokaryotic communities in Sumatra (Indonesia). Sampling event dataset https://doi.org/10.15468/osp7hi accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "MGnify (2019) Impact of rainforest transformation on phylogenetic and functional diversity of soil prokaryotic communities in Sumatra (Indonesia). Sampling event dataset https://doi.org/10.15468/osp7hi accessed via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:82
 msgid "MGnify (2020) Marine metagenomes from the bioGEOTRACES project. Sampling event dataset https://doi.org/10.15468/oifcho accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "MGnify (2020) Marine metagenomes from the bioGEOTRACES project. Sampling event dataset https://doi.org/10.15468/oifcho accessed via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:83
 msgid "Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr14581. Accessed 24 June 2020)"
-msgstr ""
+msgstr "Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr14581. Accessed 24 June 2020)"
 
 #. type: Plain text
 #: 200.en.adoc:85 200.en.adoc:98
 msgid "For guidance on how to format and share these datasets, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
-msgstr ""
+msgstr "Para obtener orientación sobre cómo estructurar y compartir estos conjuntos de datos, consulte <<mapping-metabarcoding-edna-and-barcoding-data>>. Las pautas generales para los conjuntos de datos de registros en Darwin Core también se encuentran disponibles en los siguientes enlaces: https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
 
 #. type: Title ====
 #: 200.en.adoc:87
 #, no-wrap
 msgid "Category II: Enriched occurrences"
-msgstr ""
+msgstr "Categoría II: Registros biológicos enriquecidos"
 
 #. type: Plain text
 #: 200.en.adoc:90
 msgid "If some genetic material is, or can be, associated with an observation or a specimen, we will categorize this type of data as “enriched occurrences”. In this context, the sequences are not the only evidence of occurrences. One can always trace the information back to a vouchered specimen or observed organism. This category includes barcoding datasets and some DNA metabarcoding datasets with reference material for example. For more guidance on barcoding, follow https://www.cbd.int/doc/publications/cbd-ts-94-en.pdf[Centre for Biodiversity Genomics, University of Guelph (2021)]."
-msgstr ""
+msgstr "Si algún material genético está, o puede estar, asociado con una observación o un espécimen, clasificaremos este tipo de datos como “registros biológicos enriquecidos”. En este contexto, las secuencias no son la única evidencia para un registro biológico. Siempre se puede rastrear la información a un espécimen catalogado o a un organismo observado. Esta categoría incluye, por ejemplo, conjuntos de datos de barcoding (códigos de barras) y algunos conjuntos de datos de metabarcoding de ADN con material de referencia. Para obtener más orientación sobre barcoding, remitase al siguiente enlace https://www.cbd.int/doc/publications/cbd-ts-94-es.pdf[Centro de Genómica de la Biodiversidad, Universidad de Guelph (2021)]."
 
 #. type: Title =====
 #: 200.en.adoc:91
 #, no-wrap
 msgid "Examples of Enriched occurrence datasets"
-msgstr ""
+msgstr "Ejemplos de conjuntos de datos de registros biológicos enriquecidos"
 
 #. type: Plain text
 #: 200.en.adoc:94
 msgid "The International Barcode of Life Consortium (2016) International Barcode of Life project (iBOL). Occurrence dataset https://doi.org/10.15468/inygc6 accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "The International Barcode of Life Consortium (2016) International Barcode of Life project (iBOL). Occurrence dataset https://doi.org/10.15468/inygc6 accessed via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:95
 msgid "Takamura K (2019) Chironomid Specimen records in the Chironomid DNA Barcode Database. Version 1.9. National Institute of Genetics, ROIS. Occurrence dataset https://doi.org/10.15468/hxhow5 accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "Takamura K (2019) Chironomid Specimen records in the Chironomid DNA Barcode Database. Version 1.9. National Institute of Genetics, ROIS. Occurrence dataset https://doi.org/10.15468/hxhow5 accessed via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:96
 msgid "Bessey C, Jarman SN, Stat M, Rohner CA, Bunce M, Koziol A, Power M, Rambahiniarison JM, Ponzo A, Richardson AJ & Berry O (2019) DNA metabarcoding assays reveal a diverse prey assemblage for Mobula rays in the Bohol Sea, Philippines. Ecology and Evolution 9 (5) 2459-2474. https://doi.org/10.1002/ece3.4858, (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr11663. Accessed 24 June 2020)"
-msgstr ""
+msgstr "Bessey C, Jarman SN, Stat M, Rohner CA, Bunce M, Koziol A, Power M, Rambahiniarison JM, Ponzo A, Richardson AJ & Berry O (2019) DNA metabarcoding assays reveal a diverse prey assemblage for Mobula rays in the Bohol Sea, Philippines. Ecology and Evolution 9 (5) 2459-2474. https://doi.org/10.1002/ece3.4858, (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr11663. Accessed 24 June 2020)"
 
 #. type: Title ====
 #: 200.en.adoc:100
 #, no-wrap
 msgid "Category III: Targeted species detection (qPCR/ddPCR)"
-msgstr ""
+msgstr "Categoría III: Detección de especies objetivo (qPCR/ddPCR)"
 
 #. type: Plain text
 #: 200.en.adoc:103
@@ -948,36 +948,36 @@ msgstr "Mapeo de datos"
 #. type: Plain text
 #: 200.en.adoc:140
 msgid "While core files store ubiquitous data on the 'what, where and when' of a record, extension files are used to describe the specifics of a certain type of observation. We propose using the https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml[DNA derived data extension] to complement occurrence data derived from either barcoding, metabarcoding (eDNA) or qPCR/ddPCR. The DNA derived data extension builds on the https://gensc.org/mixs/[Minimum information standards] developed by the Genomic Standards Consortium (GSC) and applied by the https://www.ebi.ac.uk/ena/browser/home[ENA] for https://www.ebi.ac.uk/ena/submit/mixs-checklists[submission of eDNA sample metadata], for example. We are following and have contributed to the guidelines proposed by the https://github.com/tdwg/gbwg/tree/main/dwc-mixs[Sustainable DwC-MIxS interoperability task group under TDWG]. To improve indexing and search we have opted to split some MIxS terms, for instance separating forward and reverse primer sequences and names. Furthermore, some fields from the GGBN standard and fields from the https://rdml.org/miqe.html[MIQE] (minimum information for the publication of quantitative real-time PCR) guidelines for qPCR and ddPCR data have been included to make it applicable for a wide range of DNA-derived data."
-msgstr ""
+msgstr "Mientras que los archivos core guardan información general de un registro referente al \"Qué, donde y cuándo\", los archivos de extensión son utilizados para describir las especificaciones de un cierto tipo de observación. Proponemos utilizar la extensión https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml[datos derivados de ADN] para complementar los registros biológicos derivados tanto de barcoding, metabarcoding (eDNA) o qPCR/ddPCR. La extensión datos derivados de ADN se basa en el https://gensc.org/mixs/[estándar mínimo de información] desarrollado por el Consorcio de Estándares Genómicos (GSC por sus siglas en inglés) y aplicado por https://www.ebi.ac.uk/ena/browser/home[ENA] para el https://www.ebi.ac.uk/ena/submit/mixs-checklists[envío de metadatos de muestra de eDNA], por ejemplo. Nosotros seguimos y hemos contribuido a los lineamientos propuestos por el https://github.com/tdwg/gbwg/tree/main/dwc-mixs[grupo de trabajo de Interoperatibilidad Sostenible DwC-MIxS alojado por TDWG]. Para mejorar la indexación y búsqueda, hemos optado por separar algunos elementos de MIxS, por ejemplo separando los nombres y secuencias del primer forward y el primer reverse. Además, algunos elemenos del estándar GGBN y elementos de la guía para datos de qPCR y ddPCR https://rdml.org/miqe.html[MIQE] (información mínima para la publicación de PCR cuantitativa en tiempo real), han sido incluídos para hacerlo aplicable a un amplio rando de datos derivados de ADN."
 
 #. type: Plain text
 #: 200.en.adoc:142
 msgid "As a first step in preparing your data for publishing, you should make sure your field names / column headers follow the https://dwc.tdwg.org/terms/[Darwin Core data standard]. In many cases this is straightforward, such as renaming your `lat` or `latitude` field to `decimalLatitude`. However, the Darwin Core Standard is quite flexible and some terms are used in different ways, depending on the type of data. An example of this are the fields term:dwc[organismQuantity] and term:dwc[organismQuantityType], which could be used to describe the number of individuals, per cent biomass or a score on the Braun-Blanquet Scale, as well as the number of reads of an ASV within a sample. Therefore, we here provide tables of required and recommended fields with descriptions and examples (<<table-01,Table 1>>, <<table-02,Table 2>>, <<table-03,Table 3>> and <<table-04, Table 4>>). The recommendation to use the Occurrence core for DNA-derived data stems from the strong desire to share the sequence to help qualify the determination. Additional fields and extensions (such as http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]) are applicable - both to occurrence cores and event core. When a sequence is derived from an organism (e.g. a parasite, gut contents, epibiont etc.) the observation may be linked to the observation of the host organism. This can be achieved using the (https://dwc.tdwg.org/terms/#resourcerelationship[Resource Relation extension^]) of Darwin Core (e.g. https://www.gbif.org/species/143610775/verbatim). Perhaps the most important recommendation is to use globally unique (when available) and other permanent identifiers for as many data fields and parameters as possible (in all ID fields in the tables below)."
-msgstr ""
+msgstr "Como primer paso en la preparación de sus datos para su publicación, debe asegurarse de que los nombres de sus campos / encabezados de sus columnas siguen el https://dwc. dwg.org/terms/[Estándar Darwin Core]. En muchos casos esto es sencillo, como renombrar su campo `lat` o `latitude` a `decimalLatitude`. Sin embargo, el estándar Darwin Core es bastante flexible y algunos términos se utilizan de diferentes maneras, dependiendo del tipo de datos. Un ejemplo de esto son los elementos term:dwc[organismQuantity] y term:dwc[organismQuantityType], que podrían utilizarse para describir el número de individuos, porcentaje de biomasa o una valor en la escala Braun-Blanquet, así como el número de lecturas de una ASV dentro de una muestra. Por lo tanto, aquí proporcionamos tablas de elementos obligatorios y recomendados con descripciones y ejemplos (<<table-01,Table 1>>, <<table-02,Table 2>>, <<table-03,Table 3>> and <<table-04, Table 4>>). La recomendación de utilizar el core de Registros biológicos para los datos derivados de ADN, surge del fuerte deseo de compartir la secuencia para ayudar a calificar la determinación. Elementos y extensiones adicionales (como la extensión http://rs.gbif. rg/extension/obis/extended_measurement_or_fact.xml[Medidas o Hechos Extendida (eMoF)]) son aplicables - tanto al core de Registro biológicos como al core de eventos. Cuando una secuencia es derivada de un organismo (por ejemplo, parásitos, contenidos estomacales, epibiontes, etc.). la observación puede estar vinculada a la observación del organismo anfitrión. Esto se puede lograr utilizando la extensión (https://dwc. dwg.org/terms/#resourcerelationship[Relación del Recurso]) de Darwin Core (por ejemplo, https://www.gbif. rg/species/143610775/verbatim). Tal vez la recomendación más importante sea utilizar identificadores únicos globales (cuando estén disponibles) y otros identificadores permanentes para tantos elementos y parámetros como sea posible (en todos los elementos ID de las siguientes tablas)."
 
 #. type: Plain text
 #: 200.en.adoc:145 200.en.adoc:288 200.en.adoc:394 200.en.adoc:514
 #: 200.en.adoc:731 200.en.adoc:742 200.en.adoc:804 glossary.en.adoc:55
 #: bibliography.en.adoc:74
 msgid "<<<"
-msgstr ""
+msgstr "<<<"
 
 #. type: Title ====
 #: 200.en.adoc:146
 #, no-wrap
 msgid "Mapping metabarcoding (eDNA) and barcoding data"
-msgstr ""
+msgstr "Mapeando datos de metabarcoding (eDNA) y barcoding"
 
 #. type: Plain text
 #: 200.en.adoc:149
 msgid "This section provides mapping recommendations for Categories I and II."
-msgstr ""
+msgstr "Esta sección proporciona recomendaciones de mapeo para las Categorías I y II."
 
 #. type: Block title
 #: 200.en.adoc:151
 #, no-wrap
 msgid "Recommended fields for http://rs.gbif.org/core/dwc_occurrence_2020-04-15.xml[Occurrence core] for Metabarcoding data"
-msgstr ""
+msgstr "Elementos recomendados del http://rs.gbif.org/core/dwc_occurrence_2020-04-15.xml[core de Registros biológicos] para datos de Metabarcoding"
 
 #.  The [.break-all]#ASV:…# is to allow the identifier to be broken at any character, rather than stretching the text cell.
 #. type: Table
@@ -2484,7 +2484,7 @@ msgstr ""
 #: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "DwC-A"
-msgstr ""
+msgstr "DwC-A"
 
 #. type: Content of: <svg><g><g><switch><text>
 #: img/web/ct/dwca-structure.en.svg:4
