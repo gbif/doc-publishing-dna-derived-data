@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-10-25 03:43\n"
+"PO-Revision-Date: 2023-10-25 05:00\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -124,17 +124,17 @@ msgstr "https://orcid.org/0000-0002-4236-0384[Pieter Provoost], mailto:p.provoos
 #. type: Plain text
 #: colophon.en.adoc:28
 msgid "https://orcid.org/0000-0002-2919-1168[Dmitry Schigel], mailto:dschigel@gbif.org[dschigel@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr "https://orcid.org/0000-0002-2919-1168[Dmitry Grosjean], mailto:mgrosjean@gbif.org[dschigel@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Dinamarca"
+msgstr "https://orcid.org/0000-0002-2919-1168[Dmitry Schigel], mailto:dschigel@gbif.org[dschigel@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Dinamarca"
 
 #. type: Plain text
 #: colophon.en.adoc:29
 msgid "https://orcid.org/0000-0002-2919-1168[Saara Suominen], mailto:s.suominen@unesco.org[s.suominen@unesco.org], Ocean Biodiversity Information System, Jacobsenstraat 1, 8400 Oostende, Belgium"
-msgstr "https://orcid.org/0000-0002-2919-1168[Saara Provoost], mailto:s.suominen@unesco.org[s.suominen@unesco.org], Ocean Biodiversity Information Systemem, Jacobsenstraat 1, 8400 Oostende, Bélgica"
+msgstr "https://orcid.org/0000-0002-2919-1168[Saara Suominen], mailto:s.suominen@unesco.org[s.suominen@unesco.org], Ocean Biodiversity Information System, Jacobsenstraat 1, 8400 Oostende, Bélgica"
 
 #. type: Plain text
 #: colophon.en.adoc:30
 msgid "https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen], mailto:csvenningsen@gbif.org[csvenningsen@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
-msgstr "https://orcid.org/0000-0002-9216-2917[Cecilie S. Jeppesen], mailto:tsjeppesen@gbif.org[csvenningsen@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Denmark"
+msgstr "https://orcid.org/0000-0002-9216-2917[Cecilie Svenningsen], mailto:csvenningsen@gbif.org[csvenningsen@gbif.org], Global Biodiversity Information Facility, Universitetsparken 15, 2100 København Ø, Dinamarca"
 
 #. type: Plain text
 #: colophon.en.adoc:31
