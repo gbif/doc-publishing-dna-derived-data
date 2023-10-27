@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-10-27 16:37\n"
+"PO-Revision-Date: 2023-10-27 17:39\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -423,7 +423,7 @@ msgstr "Metagenómica: datos derivados de secuencias"
 #. type: Plain text
 #: 100.en.adoc:64
 msgid "Sequence derived diversity data may also be generated using amplification free metagenomic methods whereby all DNA in a sample is targeted for sequencing (https://doi.org/10.1002/047001153X.g205313[Tyson & Hugenholtz 2005^]), rather than specific amplicons or barcodes, as described above. Sequence derived diversity data obtained from metagenomic sequencing can be in the form of sequence matches to annotated gene databases (as above) or as (near) complete metagenome assembled genomes (MAGs). While metabarcoding methods still dominate in terms of sequence derived diversity information, metagenomic data is becoming more important, as evidenced by the growing number of MAGS and their utility in informing phylogeny and taxonomy (https://doi.org/10.1038/s41587-020-0501-8[Parks et al. 2020^]); discussion of the rapidly evolving methods associated with metagenome analysis is beyond the scope of this document. This document uses metabarcoding as the model for discussion around concepts and methods for publishing sequence derived diversity data, and while the bioinformatic pathways will differ for metagenomic data, the end result (a sequence, often in the form of a contig/assembly) is congruent with the concepts suggested for metabarcoding data (i.e., sample specific, sample collection, data generation and processing workflow metadata should be captured)."
-msgstr ""
+msgstr "Los datos de diversidad derivados de secuencias también pueden ser generados utilizando métodos metagenómicos libres de amplificación, mediante los cuales todo el ADN de una muestra está destinado a la secuenciación (https://doi.org/10.1002/047001153X.g205313[Tyson & Hugenholtz 2005^]), en lugar de amplicones o códigos de barras específicos, como se describio anteriormente. Los datos de diversidad derivados de secuencias, obtenidos de secuenciación metagenómica pueden presentarse en forma de coincidencias de secuencias con bases de datos de genes anotadas (como se indicó anteriormente) o (casi) como genomas ensamblados con metagenomas completos (MAG). Mientras que los métodos de metabarcoding siguen dominando en términos de información de diversidad derivados de secuencias, los datos de metagenómica se están volviendo más importantes como lo demuestra el creciente número de MAGS y su utilidad para informar la filogenia y la taxonomía (https://doi.org/10.1038/s41587-020-0501-8[Parks et al. 2020^]); la discusión de la rápida evolución de los métodos asociados con el análisis del metagenoma está más allá del alcance de este documento. Este documento utiliza el metabarcoding como modelo de discusión sobre conceptos y métodos para publicar datos de diversidad derivados de secuencias y aunque las rutas bioinformáticas difieren de los datos metagenómicos, el resultado final (una secuencia, a menudo en forma de contig/ensamblaje) es congruente con los conceptos sugeridos para los datos de metabarcoding (es decir, muestras específicas, colecta de muestras, generación de datos y el procesamiento de los metadatos del flujo de trabajo deben capturarse)."
 
 #. type: Title ====
 #: 100.en.adoc:65
