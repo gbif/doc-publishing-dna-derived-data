@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-10-27 15:09\n"
+"PO-Revision-Date: 2023-10-27 16:37\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -412,13 +412,13 @@ msgstr "La generación de datos derivados de secuencias actualmente está aument
 #. type: Plain text
 #: 100.en.adoc:60
 msgid "The identification and classification of organisms from sequence data and marker-based surveys depends on access to a reference library of sequences taken from morphologically identified specimens that are matched against the newly generated sequences. The efficacy of classification depends on the completeness (coverage) and the reliability of reference libraries, as well as the tools used to carry out the classification. These are all moving targets, making it essential to apply taxonomic expertise and caution in the interpreting results (<<taxonomy-of-sequences>>). Availability of of all verified <<asv,amplicon sequence variants>> (https://doi.org/10.1038/ismej.2017.119[Сallahan et al. 2017^]) allow for precise reinterpretation of data, intra-specific population genetic analyses (https://doi.org/10.1111/eva.12882[Sigsgaard et al. 2019^]) and is likely to increase identification accuracy, and for this reason we recommend to share (unclustered) ASV data."
-msgstr ""
+msgstr "La identificación y clasificación de los organismos a partir de datos de secuencias y estudios basados en marcadores dependen del acceso a una biblioteca de referencia con secuencias tomadas de especímenes morfológicamente identificados, que se comparan con las secuencias recién generadas. La eficacia de la clasificación depende de la completitud (cobertura) y la fiabilidad de las bibliotecas de referencia, así como de las herramientas utilizadas para realizar la clasificación. Todos estos son factores variables, por lo cual es esencial aplicar la experiencia taxonómica e interpretar los resultados con precaución (<<taxonomy-of-sequences>>). La disponibilidad de todas las <<asv,amplicon sequence variants>> verificadas (https://doi.org/10.1038/ismej.2017.119[Сallahan et al. 2017^]) permite una reinterpretación precisa de los datos, análisis intraespecíficos de genética de poblaciones (https://doi.org/10.1111/eva.12882[Sigsgaard et al. 2019^]) y un probable aumento en la precisión de la identificación; por esta razón recomendamos compartir los datos ASV (no agrupados)."
 
 #. type: Title ====
 #: 100.en.adoc:61
 #, no-wrap
 msgid "Metagenomic: sequence-derived data"
-msgstr ""
+msgstr "Metagenómica: datos derivados de secuencias"
 
 #. type: Plain text
 #: 100.en.adoc:64
