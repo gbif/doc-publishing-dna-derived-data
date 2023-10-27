@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-10-25 05:00\n"
+"PO-Revision-Date: 2023-10-27 15:09\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -407,7 +407,7 @@ msgstr "ADN-metabarcoding: datos derivados de secuencias"
 #. type: Plain text
 #: 100.en.adoc:58
 msgid "The generation of sequence-derived data is currently increasing fast due to the development of <<barcoding,DNA-metabarcoding>>. This method utilizes general primers to generate thousands to millions of short DNA-sequences for a given group of organisms with the help of high-throughput sequencing (HTS, alt. next-generation sequencing (NGS)). By comparing each DNA-sequence to a reference database such as GenBank (https://doi.org/10.1093/nar/gkj157[Benson et al. 2006 ^]), BOLD (http://dx.doi.org/10.1111/j.1471-8286.2007.01678.x[Ratnasingham et al. 2007^]), or UNITE (https://doi.org/10.1093/nar/gky1022[Nilsson et al. 2019^]), each sequence can be assigned to a species or higher rank taxon identity. <<barcoding,DNA-metabarcoding>> is used for samples originating from both terrestrial and aquatic environments, including water, soil, air, sediments, biofilms, plankton, bulk samples and faces, simultaneously identifying hundreds of species (https://doi.org/10.1016/j.gecco.2019.e00547[Ruppert et al. 2019^])."
-msgstr ""
+msgstr "La generación de datos derivados de secuencias actualmente está aumentando rápidamente debido al desarrollo de <<barcoding,DNA-metabarcoding>>. Este método utiliza primers generales para generar miles a millones de cortas secuencias de ADN para un determinado grupo de organismos, con la ayuda de secuencias de alto rendimiento (HTS, alt. secuenciación de nueva generación (NGS)). Al comparar cada secuencia de ADN con una base de datos de referencia como GenBank (https://doi.org/10.1093/nar/gkj157[Benson et al. 2006 ^]), BOLD (http://dx.doi.org/10.1111/j.1471-8286.2007.01678.x[Ratnasingham et al. 2007^]), or UNITE (https://doi.org/10.1093/nar/gky1022[Nilsson et al. 2019^]), cada secuencia se puede asignar a una especie o a un taxón de rango superior. <<barcoding,DNA-metabarcoding>> se utiliza para muestras procedentes tanto de entornos terrestres como acuáticos, incluyendo agua, suelo, aire, sedimentos, biopelículas, plancton, muestras en masa y caras, identificando simultáneamente cientos de especies (https://doi. rg/10.1016/j.gecco.2019.e00547[Ruppert et al. 2019^])."
 
 #. type: Plain text
 #: 100.en.adoc:60
