@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-10-27 17:39\n"
+"PO-Revision-Date: 2023-11-01 00:10\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2328,127 +2328,127 @@ msgstr "[[Groom]]Groom Q, Güntsch A, Huybrechts P, Kearney N, Leachman S, Nicol
 #. type: Plain text
 #: bibliography.en.adoc:29
 msgid "[[hernandez]]Hernandez C, Bougas B, Perreault‐Payette A, Simard A, Côté G, & Bernatchez L (2020). 60 specific eDNA qPCR assays to detect invasive, threatened, and exploited freshwater vertebrates and invertebrates in Eastern Canada. Environmental DNA, 2(3): 373-386. https://doi.org/10.1002/edn3.89"
-msgstr ""
+msgstr "[[hernandez]]Hernandez C, Bougas B, Perreault‐Payette A, Simard A, Côté G, & Bernatchez L (2020). 60 specific eDNA qPCR assays to detect invasive, threatened, and exploited freshwater vertebrates and invertebrates in Eastern Canada. Environmental DNA, 2(3): 373-386. https://doi.org/10.1002/edn3.89"
 
 #. type: Plain text
 #: bibliography.en.adoc:30
 msgid "[[hofstetter]]Hofstetter, V, Buyck, B, Eyssartier, G, Schnee S, Gindro K (2019) The unbearable lightness of sequenced-based identification. Fungal Diversity 96, 243–284. https://doi.org/10.1007/s13225-019-00428-3"
-msgstr ""
+msgstr "[[hofstetter]]Hofstetter, V, Buyck, B, Eyssartier, G, Schnee S, Gindro K (2019) The unbearable lightness of sequenced-based identification. Fungal Diversity 96, 243–284. https://doi.org/10.1007/s13225-019-00428-3"
 
 #. type: Plain text
 #: bibliography.en.adoc:31
 msgid "[[huggett]]Huggett JF, Foy CA, Benes V, Emslie K, Garson JA, Haynes R, ... & Bustin SA (2013). The Digital MIQE Guidelines: M inimum I nformation for Publication of Q uantitative Digital PCR E xperiments. Clinical chemistry, 59(6), 892-902. https://doi.org/10.1373/clinchem.2013.206375"
-msgstr ""
+msgstr "[[huggett]]Huggett JF, Foy CA, Benes V, Emslie K, Garson JA, Haynes R, ... & Bustin SA (2013). The Digital MIQE Guidelines: M inimum I nformation for Publication of Q uantitative Digital PCR E xperiments. Clinical chemistry, 59(6), 892-902. https://doi.org/10.1373/clinchem.2013.206375"
 
 #. type: Plain text
 #: bibliography.en.adoc:32
 msgid "[[hugerth]]Hugerth LW, Andersson AF (2017) Analysing Microbial Community Composition through Amplicon Sequencing: From Sampling to Hypothesis Testing. Frontiers in Microbiology 8: 1561. https://doi.org/10.3389/fmicb.2017.01561"
-msgstr ""
+msgstr "[[hugerth]]Hugerth LW, Andersson AF (2017) Analysing Microbial Community Composition through Amplicon Sequencing: From Sampling to Hypothesis Testing. Frontiers in Microbiology 8: 1561. https://doi.org/10.3389/fmicb.2017.01561"
 
 #. type: Plain text
 #: bibliography.en.adoc:33
 msgid "[[knudsen]]Knudsen SW, Ebert RB, Hesselsøe M, Kuntke F, Hassingboe J, Mortensen PB, Thomsen PF et al (2019) Species-Specific Detection and Quantification of Environmental DNA from Marine Fishes in the Baltic Sea. Journal of Experimental Marine Biology and Ecology 510: 31–45. https://doi.org/10.1016/j.jembe.2018.09.004"
-msgstr ""
+msgstr "[[knudsen]]Knudsen SW, Ebert RB, Hesselsøe M, Kuntke F, Hassingboe J, Mortensen PB, Thomsen PF et al (2019) Species-Specific Detection and Quantification of Environmental DNA from Marine Fishes in the Baltic Sea. Journal of Experimental Marine Biology and Ecology 510: 31–45. https://doi.org/10.1016/j.jembe.2018.09.004"
 
 #. type: Plain text
 #: bibliography.en.adoc:34
 msgid "[[lacoursiere]]Lacoursière-Roussel A, Rosabal M & Bernatchez L (2016) Estimating Fish Abundance and Biomass from eDNA Concentrations: Variability among Capture Methods and Environmental Conditions. Molecular Ecology Resources 16(6): 1401–14. https://doi.org/10.1111/1755-0998.12522"
-msgstr ""
+msgstr "[[lacoursiere]]Lacoursière-Roussel A, Rosabal M & Bernatchez L (2016) Estimating Fish Abundance and Biomass from eDNA Concentrations: Variability among Capture Methods and Environmental Conditions. Molecular Ecology Resources 16(6): 1401–14. https://doi.org/10.1111/1755-0998.12522"
 
 #. type: Plain text
 #: bibliography.en.adoc:35
 msgid "[[leebens]]Leebens-Mack J, Vision T, Brenner E, Bowers JE, Cannon S, Clement MJ, Cunningham CW, DePamphilis C, DeSalle R, Doyle JJ & Eisen JA (2006) Taking the first steps towards a standard for reporting on phylogenies: Minimum Information About a Phylogenetic Analysis (MIAPA). Omics: a journal of integrative biology 10(2): 231-237. https://doi.org/10.1089/omi.2006.10.231"
-msgstr ""
+msgstr "[[leebens]]Leebens-Mack J, Vision T, Brenner E, Bowers JE, Cannon S, Clement MJ, Cunningham CW, DePamphilis C, DeSalle R, Doyle JJ & Eisen JA (2006) Taking the first steps towards a standard for reporting on phylogenies: Minimum Information About a Phylogenetic Analysis (MIAPA). Omics: a journal of integrative biology 10(2): 231-237. https://doi.org/10.1089/omi.2006.10.231"
 
 #. type: Plain text
 #: bibliography.en.adoc:36
 msgid "[[leinonen]]Leinonen R, Sugawara H, Shumway M & International Nucleotide Sequence Database Collaboration (2011) The sequence read archive. Nucleic Acids Research 39(suppl_1): D19-D21. https://doi.org/10.1093/nar/gkq1019"
-msgstr ""
+msgstr "[[leinonen]]Leinonen R, Sugawara H, Shumway M & International Nucleotide Sequence Database Collaboration (2011) The sequence read archive. Nucleic Acids Research 39(suppl_1): D19-D21. https://doi.org/10.1093/nar/gkq1019"
 
 #. type: Plain text
 #: bibliography.en.adoc:37
 msgid "[[mahe]]Mahé F, Rognes T, Quince C, de Vargas C, Dunthorn M. (2014) Swarm: robust and fast clustering method for amplicon-based studies. PeerJ 2:e593 https://doi.org/10.7717/peerj.593"
-msgstr ""
+msgstr "[[mahe]]Mahé F, Rognes T, Quince C, de Vargas C, Dunthorn M. (2014) Swarm: robust and fast clustering method for amplicon-based studies. PeerJ 2:e593 https://doi.org/10.7717/peerj.593"
 
 #. type: Plain text
 #: bibliography.en.adoc:38
 msgid "[[mcdonald]]McDonald D, Clemente JC, Kuczynski J, Rideout JR, Stombaugh J, Wendel D, ... & Caporaso JG (2012). The Biological Observation Matrix (BIOM) format or: how I learned to stop worrying and love the ome-ome. Gigascience, 1(1), 2047-217X. https://doi.org/10.1186/2047-217X-1-7"
-msgstr ""
+msgstr "[[mcdonald]]McDonald D, Clemente JC, Kuczynski J, Rideout JR, Stombaugh J, Wendel D, ... & Caporaso JG (2012). The Biological Observation Matrix (BIOM) format or: how I learned to stop worrying and love the ome-ome. Gigascience, 1(1), 2047-217X. https://doi.org/10.1186/2047-217X-1-7"
 
 #. type: Plain text
 #: bibliography.en.adoc:39
 msgid "[[miralles]]Miralles A, Bruy T, Wolcott K, Scherz MD, Begerow D, Beszteri B, Bonkowski M, Felden J, Gemeinholzer B, Glaw F & Glöckner FO (2020) Repositories for Taxonomic Data: Where We Are and What is Missing. Systematic Biology: syaa026.  https://doi.org/10.1093/sysbio/syaa026"
-msgstr ""
+msgstr "[[miralles]]Miralles A, Bruy T, Wolcott K, Scherz MD, Begerow D, Beszteri B, Bonkowski M, Felden J, Gemeinholzer B, Glaw F & Glöckner FO (2020) Repositories for Taxonomic Data: Where We Are and What is Missing. Systematic Biology: syaa026.  https://doi.org/10.1093/sysbio/syaa026"
 
 #. type: Plain text
 #: bibliography.en.adoc:40
 msgid "[[mora]]Mora C, Tittensor DP, Adl S, Simpson AG & Worm B (2011) How many species are there on Earth and in the ocean? PLoS Biology 9(8): e1001127.  https://doi.org/10.1371/journal.pbio.1001127"
-msgstr ""
+msgstr "[[mora]]Mora C, Tittensor DP, Adl S, Simpson AG & Worm B (2011) How many species are there on Earth and in the ocean? PLoS Biology 9(8): e1001127.  https://doi.org/10.1371/journal.pbio.1001127"
 
 #. type: Plain text
 #: bibliography.en.adoc:41
 msgid "[[nilsson]]Nilsson RH, Tedersoo L, Abarenkov K, Ryberg M, Kristiansson E, Hartmann M, Schoch CL, Nylander JA, Bergsten J, Porter TM & Jumpponen A (2012) Five simple guidelines for establishing basic authenticity and reliability of newly generated fungal ITS sequences. MycoKeys 4: 37-63. https://doi.org/10.3897/mycokeys.4.3606"
-msgstr ""
+msgstr "[[nilsson]]Nilsson RH, Tedersoo L, Abarenkov K, Ryberg M, Kristiansson E, Hartmann M, Schoch CL, Nylander JA, Bergsten J, Porter TM & Jumpponen A (2012) Five simple guidelines for establishing basic authenticity and reliability of newly generated fungal ITS sequences. MycoKeys 4: 37-63. https://doi.org/10.3897/mycokeys.4.3606"
 
 #. type: Plain text
 #: bibliography.en.adoc:42
 msgid "[[nilsson2]]Nilsson RH, Larsson KH, Taylor AFS, Bengtsson-Palme J, Jeppesen TS, Schigel D, Kennedy P, Picard K, Glöckner FO, Tedersoo L, Saar I, Kõljalg U, Abarenkov K (2019) The UNITE database for molecular identification of fungi: handling dark taxa and parallel taxonomic classifications. Nucleic Acids Research, Volume 47, Issue D1, D259–D264. https://doi.org/10.1093/nar/gky1022"
-msgstr ""
+msgstr "[[nilsson2]]Nilsson RH, Larsson KH, Taylor AFS, Bengtsson-Palme J, Jeppesen TS, Schigel D, Kennedy P, Picard K, Glöckner FO, Tedersoo L, Saar I, Kõljalg U, Abarenkov K (2019) The UNITE database for molecular identification of fungi: handling dark taxa and parallel taxonomic classifications. Nucleic Acids Research, Volume 47, Issue D1, D259–D264. https://doi.org/10.1093/nar/gky1022"
 
 #. type: Plain text
 #: bibliography.en.adoc:43
 msgid "[[ogram]]Ogram A, Sayler GS, Barkay T (1987) The Extraction and Purification of Microbial DNA from Sediments. Journal of Microbiological Methods. https://doi.org/10.1016/0167-7012(87)90025-x."
-msgstr ""
+msgstr "[[ogram]]Ogram A, Sayler GS, Barkay T (1987) The Extraction and Purification of Microbial DNA from Sediments. Journal of Microbiological Methods. https://doi.org/10.1016/0167-7012(87)90025-x."
 
 #. type: Plain text
 #: bibliography.en.adoc:44
 msgid "[[ovaskainen]]Ovaskainen O, Schigel D, Ali-Kovero H et al. (2013) Combining high-throughput sequencing with fruit body surveys reveals contrasting life-history strategies in fungi. The ISME Journal 7: 1696–1709. https://doi.org/10.1038/ismej.2013.61"
-msgstr ""
+msgstr "[[ovaskainen]]Ovaskainen O, Schigel D, Ali-Kovero H et al. (2013) Combining high-throughput sequencing with fruit body surveys reveals contrasting life-history strategies in fungi. The ISME Journal 7: 1696–1709. https://doi.org/10.1038/ismej.2013.61"
 
 #. type: Plain text
 #: bibliography.en.adoc:45
 msgid "[[parks]]Parks, DH, Chuvochina, M, Chaumeil, P, Rinke C, Mussig AJ, Hugenholtz P (2020) A complete domain-to-species taxonomy for Bacteria and Archaea. Nat Biotechnol 38, 1079–1086. https://doi.org/10.1038/s41587-020-0501-8"
-msgstr ""
+msgstr "[[parks]]Parks, DH, Chuvochina, M, Chaumeil, P, Rinke C, Mussig AJ, Hugenholtz P (2020) A complete domain-to-species taxonomy for Bacteria and Archaea. Nat Biotechnol 38, 1079–1086. https://doi.org/10.1038/s41587-020-0501-8"
 
 #. type: Plain text
 #: bibliography.en.adoc:46
 msgid "[[pearson]]Pearson, WR & Lipman DJ (1988) Improved tools for biological sequence comparison. Proceedings of the National Academy of Sciences 85(8): 2444-2448. https://dx.doi.org/10.1073%2Fpnas.85.8.2444"
-msgstr ""
+msgstr "[[pearson]]Pearson, WR & Lipman DJ (1988) Improved tools for biological sequence comparison. Proceedings of the National Academy of Sciences 85(8): 2444-2448. https://dx.doi.org/10.1073%2Fpnas.85.8.2444"
 
 #. type: Plain text
 #: bibliography.en.adoc:47
 msgid "[[penew]]Penev P, Mietchen D, Chavan VS, Hagedorn G, Smith VS, Shotton D, Tuama ÉÓ, Senderov V, Georgiev T, Stoev P, Groom QJ, Remsen D, Edmunds SC (2017) Strategies and guidelines for scholarly publishing of biodiversity data. Research ideas and outcomes 3: e12431, https://doi.org/10.3897/rio.3.e12431"
-msgstr ""
+msgstr "[[penew]]Penev P, Mietchen D, Chavan VS, Hagedorn G, Smith VS, Shotton D, Tuama ÉÓ, Senderov V, Georgiev T, Stoev P, Groom QJ, Remsen D, Edmunds SC (2017) Strategies and guidelines for scholarly publishing of biodiversity data. Research ideas and outcomes 3: e12431, https://doi.org/10.3897/rio.3.e12431"
 
 #. type: Plain text
 #: bibliography.en.adoc:48
 msgid "[[pietramellara]]Pietramellara G, Ascher J, Borgogni F, Ceccherini MT, Guerri G & Nannipieri P (2009) Extracellular DNA in Soil and Sediment: Fate and Ecological Relevance. Biology and Fertility of Soils 45: 219-235. https://doi.org/10.1007/s00374-008-0345-8."
-msgstr ""
+msgstr "[[pietramellara]]Pietramellara G, Ascher J, Borgogni F, Ceccherini MT, Guerri G & Nannipieri P (2009) Extracellular DNA in Soil and Sediment: Fate and Ecological Relevance. Biology and Fertility of Soils 45: 219-235. https://doi.org/10.1007/s00374-008-0345-8."
 
 #. type: Plain text
 #: bibliography.en.adoc:49
 msgid "[[Ratnasingham]]Ratnasingham S, Hebert PDN (2007) BOLD: The Barcode of Life Data System. Molecular Ecology Notes, 7: 355-364. https://doi.org/10.1111/j.1471-8286.2007.01678.x"
-msgstr ""
+msgstr "[[Ratnasingham]]Ratnasingham S, Hebert PDN (2007) BOLD: The Barcode of Life Data System. Molecular Ecology Notes, 7: 355-364. https://doi.org/10.1111/j.1471-8286.2007.01678.x"
 
 #. type: Plain text
 #: bibliography.en.adoc:50
 msgid "[[Ratnasingham13]]Ratnasingham S, Hebert PDN (2013). A DNA-based registry for all animal species: the Barcode Index Number (BIN) system. PloS one, 8(7), e66213. https://doi.org/10.1371/journal.pone.0066213"
-msgstr ""
+msgstr "[[Ratnasingham13]]Ratnasingham S, Hebert PDN (2013). A DNA-based registry for all animal species: the Barcode Index Number (BIN) system. PloS one, 8(7), e66213. https://doi.org/10.1371/journal.pone.0066213"
 
 #. type: Plain text
 #: bibliography.en.adoc:51
 msgid "[[rognes]]Rognes T, Flouri T, Nichols B, Quince C, Mahé F (2016) VSEARCH: a versatile open source tool for metagenomics. PeerJ, 4, e2584. https://doi.org/10.7717/peerj.2584"
-msgstr ""
+msgstr "[[rognes]]Rognes T, Flouri T, Nichols B, Quince C, Mahé F (2016) VSEARCH: a versatile open source tool for metagenomics. PeerJ, 4, e2584. https://doi.org/10.7717/peerj.2584"
 
 #. type: Plain text
 #: bibliography.en.adoc:52
 msgid "[[Ruppert]]Ruppert KM, Kline RJ, Rahman MS (2019). Past, present, and future perspectives of environmental DNA (eDNA) metabarcoding: A systematic review in methods, monitoring, and applications of global eDNA. Global Ecology and Conservation, 17, e00547. https://doi.org/10.1016/j.gecco.2019.e00547"
-msgstr ""
+msgstr "[[Ruppert]]Ruppert KM, Kline RJ, Rahman MS (2019). Past, present, and future perspectives of environmental DNA (eDNA) metabarcoding: A systematic review in methods, monitoring, and applications of global eDNA. Global Ecology and Conservation, 17, e00547. https://doi.org/10.1016/j.gecco.2019.e00547"
 
 #. type: Plain text
 #: bibliography.en.adoc:53
 msgid "[[schloss]]Schloss PD, Westcott SL, Ryabin T, Hall JR, Hartmann M, Hollister EB, ... & Weber CF (2009). Introducing mothur: open-source, platform-independent, community-supported software for describing and comparing microbial communities. Applied and environmental microbiology, 75(23), 7537-7541. https://doi.org/10.1128/AEM.01541-09"
-msgstr ""
+msgstr "[[schloss]]Schloss PD, Westcott SL, Ryabin T, Hall JR, Hartmann M, Hollister EB, ... & Weber CF (2009). Introducing mothur: open-source, platform-independent, community-supported software for describing and comparing microbial communities. Applied and environmental microbiology, 75(23), 7537-7541. https://doi.org/10.1128/AEM.01541-09"
 
 #. type: Plain text
 #: bibliography.en.adoc:54
