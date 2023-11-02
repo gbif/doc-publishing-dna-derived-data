@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-11-02 14:34\n"
+"PO-Revision-Date: 2023-11-02 16:04\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -434,7 +434,7 @@ msgstr "qPCR/ddPCR: datos de los registros de especies"
 #. type: Plain text
 #: 100.en.adoc:68
 msgid "For the detection of specific species in eDNA-samples, most analyses include species-specific primers and qPCR (Quantitative Polymerase Chain Reaction) or ddPCR (Droplet-Digital Polymerase Chain Reaction). These methods do not generate DNA-sequences, and the occurrence data are completely dependent on the specificity of the primers/assays. Hence, there are strict recommendations for how to validate such assays and the requirements for publishing data (https://doi.org/10.1373/clinchem.2008.112797[Bustin et al. 2009^], https://doi.org/10.1373/clinchem.2013.206375[Huggett et al. 2013^]), as well as the readiness for assays in routine monitoring (https://doi.org/10.1101/2020.04.27.063990[Thalinger et al. 2020^]). Analyses of eDNA-samples using qPCR requires few resources and can be done in most DNA-laboratories. The first example of using eDNA water samples utilized qPCR for detecting the invasive American Bullfrog (_Rana catesbeiana_) (https://doi.org/10.1098/rsbl.2008.0118[Ficetola et al. 2008^]), and qPCR analyses of eDNA water samples are regularly used for detecting specific species of fish, amphibians, molluscs, crustaceans and more, as well as their parasites (https://doi.org/10.1002/edn3.89[Hernandez et al. 2020^], https://doi.org/10.1002/edn3.10[Wacker et al. 2019^], https://doi.org/10.1002/edn3.45[Fossøy et al. 2019^], https://doi.org/10.1007/s10750-017-3408-8[Wittwer et al. 2019^]). eDNA-detections using qPCR thus generate important occurrence data for single species."
-msgstr ""
+msgstr "Para la detección de especies específicas en muestras de eDNA, la mayoría de los análisis incluyen primers, qPCR (Reacción en cadena de polimerasa cuantitativa) o ddPCR (Reacción en cadena de polimerasa digital en gota) específicos de cada especie. Estos métodos no generan secuencias de ADN, y los datos de registros de especies dependen completamente de la especificidad de los primers/ensayos. Por lo tanto, hay recomendaciones estrictas para validar dichos ensayos y los requisitos para publicar los datos (https://doi.org/10.1373/clinchem.2008.112797[Bustin et al. 2009^], https://doi.org/10.1373/clinchem.2013.206375[Huggett et al. 2013^]), así como la preparación para las pruebas en el seguimiento de rutinas (https://doi.org/10.1101/2020.04.27.063990[Thalinger et al. 2020^]). Los análisis de muestras eDNA usando qPCR requieren pocos recursos y pueden hacerse en la mayoría de los laboratorios de ADN. El primer ejemplo de uso de muestras de agua de eDNA utilizó qPCR para detectar la especie invasora de rana toro americana (_Rana catesbeiana_) (https://doi.org/10.1098/rsbl.2008.0118[Ficetola et al. 2008^]). Los análisis de qPCR de muestras de agua eDNA se utilizan regularmente para detectar especies específicas de peces, anfibios, moluscos, crustáceos, entre otros, así como sus parásitos (https://doi.org/10.1002/edn3.89[Hernandez et al. 2020^], https://doi.org/10.1002/edn3.10[Wacker et al. 2019^], https://doi.org/10.1002/edn3.45[Fossøy et al. 2019^], https://doi.org/10.1007/s10750-017-3408-8[Wittwer et al. 2019^]). La detección de eDNA mediante qPCR genera datos importantes de registros de especies individuales."
 
 #. type: Title ===
 #: 100.en.adoc:69
