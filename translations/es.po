@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-11-02 16:04\n"
+"PO-Revision-Date: 2023-11-09 15:10\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1633,7 +1633,7 @@ msgstr ""
 #: 300.en.adoc:1
 #, no-wrap
 msgid "Future prospects"
-msgstr ""
+msgstr "Perspectivas a futuro"
 
 #. type: Plain text
 #: 300.en.adoc:4
