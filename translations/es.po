@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-11-09 15:10\n"
+"PO-Revision-Date: 2023-11-09 16:35\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1638,12 +1638,12 @@ msgstr "Perspectivas a futuro"
 #. type: Plain text
 #: 300.en.adoc:4
 msgid "The present interest in exposing DNA-derived data through biodiversity data platforms is very high, and it is very likely that the demand will grow. Our aim is for the mapping recommendations provided here to remain valid and evolve slowly, even as packaging and indexing by biodiversity data platforms may develop more rapidly. The authors are aware of but did not yet consult the https://v3.boldsystems.org/index.php/resources/handbook[BOLD Handbook], http://biom-format.org[BIOM format] and http://edamontology.org/page."
-msgstr ""
+msgstr "El interés actual por exponer los datos derivados de ADN a través de las plataformas de datos sobre biodiversidad es muy alto, y probable la demanda siga en crecimiento. Nuestro objetivo es que las recomendaciones de mapeo proporcionadas aquí sigan siendo válidas y evolucionen lentamente, incluso en el caso de que el empaquetamiento y la indexación por parte de las plataformas de datos sobre biodiversidad puedan desarrollarse más rápidamente. Los autores conocen, pero aún no han consultado https://v3.boldsystems.org/index.php/resources/handbook[BOLD Handbook], http://biom-format.org[BIOM format] and http://edamontology.org/page."
 
 #. type: Plain text
 #: 300.en.adoc:6
 msgid "We suggest that data platforms such as ALA and GBIF work towards adopting data formats that support more complex relational and hierarchical data. Examples could be the https://frictionlessdata.io/[Frictionless Data Format^] and the more domain-specific https://biom-format.org/[Biological Observation Matrix^] (BIOM) format. The latter is used by several bioinformatic tools (https://doi.org/10.1038/s41587-019-0209-9[QIIME2^], https://doi.org/10.1128/AEM.01541-09[Mothur^], https://doi.org/10.1093/bioinformatics/btq461[USEARCH^] etc.), and hence could help publishers skip a step in converting data into DwC-A format. A more flexible data format than the current DwC star schema is crucial for allowing hierarchical sampling events and material samples as well as attaching sequence data to individual occurrences within a sampling event."
-msgstr ""
+msgstr "Sugerimos que las plataformas de datos como ALA y GBIF trabajen para adoptar formatos de datos que soporten datos relacionales y jerárquicos más complejos. Algunos ejemplos podrían ser los https://frictionlessdata.io/[Frictionless Data Format^] y de dominio más específico https://biom-format.org/[Biological Observation Matrix^] (formato BIOM). Este último, utilizado por varias herramientas bioinformáticas (https://doi.org/10.1038/s41587-019-0209-9[QIIME2^], https://doi.org/10.1128/AEM.01541-09[Mothur^], https://doi.org/10.1093/bioinformatics/btq461[USEARCH^] etc.), por lo tanto, podría ayudar a los editores a omitir la conversión de datos al formato DwC-A. Un formato de datos más flexible que el actual esquema en estrella de DwC es crucial para permitir eventos de muestreo jerárquicos y muestras de materiales; así como para adjuntar datos de secuencias a los registros biológicos individuales dentro de un evento de muestreo."
 
 #. type: Plain text
 #: 300.en.adoc:8
