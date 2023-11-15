@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-08-16 12:20\n"
+"PO-Revision-Date: 2023-11-07 07:46\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -31,7 +31,7 @@ msgstr ""
 #: colophon.en.adoc:3
 #, no-wrap
 msgid "img/web/dna-cover.png"
-msgstr ""
+msgstr "img/web/dna-cover.png"
 
 #. type: Title ==
 #: colophon.en.adoc:6
@@ -347,7 +347,7 @@ msgstr "我們盡力在本指南中提供對讀者有幫助的資訊，但延伸
 #: 100.en.adoc:32
 #, no-wrap
 msgid "Introduction to DNA-derived occurrence data"
-msgstr "DNA 衍生出現資料的簡介"
+msgstr "DNA 衍生出現紀錄資料之簡介"
 
 #. type: Plain text
 #: 100.en.adoc:35
