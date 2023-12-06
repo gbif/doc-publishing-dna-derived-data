@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-11-09 18:07\n"
+"PO-Revision-Date: 2023-12-06 15:25\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -667,18 +667,18 @@ msgstr "img/web/ct/dwca-structure.en.svg"
 #: 200.en.adoc:18
 #, no-wrap
 msgid "Categorization of your data"
-msgstr ""
+msgstr "Categorización de los datos"
 
 #. type: Plain text
 #: 200.en.adoc:21
 msgid "For the purpose of this guide, we categorize data into five categories, linked by a key ID field (_eventID_), equivalent to the standards for general biodiversity data, and include fields relevant for DNA-derived data (see xref:data-mapping[xrefstyle=\"full\"]). These five categories seek to reflect the most commonly used molecular approaches to biodiversity characterization and are I) DNA-derived occurrences, II) enriched occurrences, III) targeted species detection, IV) name references and V) metadata only. Examine the decision tree and proceed to the correct section below."
-msgstr ""
+msgstr "Para el propósito de esta guía, categorizamos los datos en cinco categorías, enlazados por un campo ID clave (_eventID_), equivalente a los estándares para datos generales de biodiversidad, y se incluyen campos relevantes para los datos derivados de ADN (see xref:data-mapping[xrefstyle=\"full\"]). Estas cinco categorías buscan reflejar los enfoques moleculares más comúnes utilizados para la caracterización de biodiversidad y son I) Registros biológicos derivados de ADN, II) Registros biológicos enriquecidos, III) Detección de especies objetivo (qPCR/ddPCR), IV) Referencia de nombres científicos y V) Conjuntos de solo metadatos. Examine el árbol de decisión y proceda a la sección correcta."
 
 #. type: Block title
 #: 200.en.adoc:23
 #, no-wrap
 msgid "A decision tree for DNA-derived data categorization."
-msgstr ""
+msgstr "Árbol de decisión para la categorización de datos derivados de ADN."
 
 #. type: Table
 #: 200.en.adoc:58
@@ -709,7 +709,32 @@ msgid "5+|\n"
 "|No +\n"
 "↓\n"
 "|\n\n"
-msgstr ""
+msgstr "5+|\n"
+"icon:question-circle[] _¿Sus datos son derivados de (meta)barcoding o basados en qPCR?_\n\n"
+"4+|(Meta)barcoding +\n"
+"↓\n"
+"|qPCR +\n"
+"↓\n\n"
+"4+|icon:question-circle[] _¿Los datos consisten en materia genético digitalizado, o secuencias, asociadas con un momento y lugar?_\n"
+"|*<<category-iii,Category III>>* +\n"
+"Detección de especies objetivo\n\n"
+"2+|Sí +\n"
+"↓\n"
+"2+|No +\n"
+"↓\n"
+"|\n\n"
+"2+.^|icon:question-circle[] _¿El material genético es la *únicA* evidencia del organismo dado o comunidad?_\n"
+"2+.^|icon:question-circle[] _¿El conjunto de datos es una lista de nombres derivados de ADN?_\n"
+"|\n\n"
+"|Sí +\n"
+"↓\n"
+"|No +\n"
+"↓\n"
+"|Sí +\n"
+"↓\n"
+"|No +\n"
+"↓\n"
+"|\n\n"
 
 #. type: Block title
 #: 200.en.adoc:58
@@ -753,7 +778,7 @@ msgstr "<|*<<category-v,Category V>>* +"
 #. type: Table
 #: 200.en.adoc:67
 msgid "Metadata-only |"
-msgstr "Solo metadato"
+msgstr "Solo metadato |"
 
 #. type: Block title
 #: 200.en.adoc:70
@@ -895,12 +920,12 @@ msgstr ""
 #. type: Plain text
 #: 200.en.adoc:121
 msgid "The International Barcode of Life Consortium (2016). International Barcode of Life project (iBOL) Barcode Index Numbers (BINs). Checklist dataset https://doi.org/10.15468/wvfqoi accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "The International Barcode of Life Consortium (2016). International Barcode of Life project (iBOL) Barcode Index Numbers (BINs). Checklist dataset https://doi.org/10.15468/wvfqoi accessed via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:122
 msgid "PlutoF (2019). UNITE - Unified system for the DNA based fungal species linked to the classification. Version 1.2. Checklist dataset https://doi.org/10.15468/mkpcy3 accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "PlutoF (2019). UNITE - Unified system for the DNA based fungal species linked to the classification. Version 1.2. Checklist dataset https://doi.org/10.15468/mkpcy3 accessed via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:124
@@ -911,28 +936,28 @@ msgstr ""
 #: 200.en.adoc:126
 #, no-wrap
 msgid "Category V: Metadata-only datasets"
-msgstr ""
+msgstr "Categoría V: Conjuntos de solo metadatos"
 
 #. type: Plain text
 #: 200.en.adoc:129
 msgid "Metadata are data about the data and is a description of the dataset in broad terms, such as authors, author affiliations, original research purpose of the dataset, DOI(s), taxonomic scope, temporal scope, and geographical scope. Information regarding laboratory methods and general sequencing methods is included in this category. This category includes datasets or collections that cannot be made available online at the moment, e.g. undigitized work."
-msgstr ""
+msgstr "Los metadatos son datos acerca de los datos y son una descripción del conjunto de datos en términos generales, con información como los autores, la afiliación de los autores, el objetivo original de investigación del conjunto de datos, los DOIs asociados, la cobertura taxonómica, la cobertura temporal y la cobertura geográfica. La información asociada a los métodos de laboratorio y métodos generales de secuenciación están incluídos en esta categoría. Esta categoría incluye conjuntos de datos o colecciones que no pueden estar disponibles en línea en este momento, por ejemplo trabajos sin digitalizar."
 
 #. type: Title =====
 #: 200.en.adoc:130
 #, no-wrap
 msgid "Examples of Metadata-only datasets"
-msgstr ""
+msgstr "Ejemplos de conjuntos de datos de solo metadatos"
 
 #. type: Plain text
 #: 200.en.adoc:133
 msgid "Collins E, Sweetlove M (2019). Arctic Ocean microbial metagenomes sampled aboard CGC Healy during the 2015 GEOTRACES Arctic research cruise. SCAR - Microbial Antarctic Resource System. Metadata dataset https://doi.org/10.15468/iljmun accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "Collins E, Sweetlove M (2019). Arctic Ocean microbial metagenomes sampled aboard CGC Healy during the 2015 GEOTRACES Arctic research cruise. SCAR - Microbial Antarctic Resource System. Metadata dataset https://doi.org/10.15468/iljmun accessed via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:134
 msgid "Cary S C (2015). New Zealand Terrestrial Biocomplexity Survey. SCAR - Microbial Antarctic Resource System. Metadata dataset https://doi.org/10.15468/xnzrhq accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "Cary S C (2015). New Zealand Terrestrial Biocomplexity Survey. SCAR - Microbial Antarctic Resource System. Metadata dataset https://doi.org/10.15468/xnzrhq accessed via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:136
