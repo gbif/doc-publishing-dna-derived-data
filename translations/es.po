@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-12-06 15:25\n"
+"PO-Revision-Date: 2024-01-18 20:24\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -494,7 +494,7 @@ msgstr "Tenga en cuenta que se espera que los poseedores de las secuencias gené
 #: 100.en.adoc:92
 #, no-wrap
 msgid "Processing workflows: from sample to ingestible data "
-msgstr ""
+msgstr "Procesando flujos de trabajo: desde la muestra hasta la ingesta de datos "
 
 #. type: Plain text
 #: 100.en.adoc:95
