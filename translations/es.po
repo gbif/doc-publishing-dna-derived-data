@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-01-18 21:28\n"
+"PO-Revision-Date: 2024-01-18 22:44\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -527,7 +527,7 @@ msgstr "Por lo general, las secuencias de ADN son pre-procesadas eliminando las 
 #. type: Plain text
 #: 100.en.adoc:108
 msgid "The pre-processed sequences can then be assigned a taxon by comparing them against reference databases. When reference databases are incomplete, sequences classification can be done without taxonomic identifications, either by clustering sequences into operational taxonomic units based on their similarity (OTUs; https://doi.org/10.1098/rstb.2005.1725[Blaxter et al. 2005^]) or by denoising the data, i.e. explicitly detecting and excluding PCR/sequencing errors sequences to produce amplicon sequence variants (ASV; also referred to as zero radius OTU (zOTU)). Denoising attempts to correct errors that have been introduced in the PCR and/or sequencing steps, such that the denoised sequences are the set of unique biologically real sequences present in the original sequence mixture. In case of paired-end sequences, the forward and reverse sequences may be denoised separately before merging or else merged prior to denoising. ASVs in the resulting set can differ by as little as one base which is indicative of inter- or intraspecific sequence variation. Operationally, ASVs may be thought of as OTUs without defined radius and while denoising algorithms are typically very good, they do not entirely remove the problems of over-splitting or lumping sequences."
-msgstr ""
+msgstr "Las secuencias pre-procesadas pueden ser asignadas a un taxón al compararlas con las bases de datos de referencia. Cuando las bases de datos de referencia están incompletas, la clasificación de secuencias puede hacerse sin identificaciones taxonómicas, o agrupando secuencias en unidades taxonómicas operativas basadas en su similitud (OTUs; https://doi.org/10.1098/rstb.2005.1725[Blaxter et al. 2005^]) o mediante el denoising de los datos, p.e. detección y exclusión explícita de secuencias de errores PCR/secuenciación para producir variantes de secuencia de amplicón (ASV; también referida como cero radio OTU (zOTU)). Los intentos de denoising para corregir errores que se han introducido en el PCR y/o pasos de secuenciación, tal que las secuencias denoised son el conjunto de secuencias biológicamente reales únicas presentes en la mezcla de la secuencia original. En caso de secuencias de extremos emparejados, las secuencias de adelante e inversa pueden ser denoised por separado antes de fusionarse o fusionarse antes de ser denoised. Las ASV en el conjunto resultante pueden diferir por tan solo una base que es indicativa de variación de secuencia inter o intraspectiva. Operacionalmente, las ASV pueden ser consideradas como OTUs sin radio definido y, mientras que los denoising algoritmos son normalmente muy buenos, no eliminan por completo los problemas de las secuencias de sobredivisión o repartición."
 
 #. type: Plain text
 #: 100.en.adoc:110
