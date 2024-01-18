@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-01-18 20:24\n"
+"PO-Revision-Date: 2024-01-18 21:28\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -499,13 +499,13 @@ msgstr "Procesando flujos de trabajo: desde la muestra hasta la ingesta de datos
 #. type: Plain text
 #: 100.en.adoc:95
 msgid "Metabarcoding data can be produced from a number of different sequencing platforms (Illumina, PacBio, Oxford Nanopore, Ion Torrent, etc.) that rely on different principles for readout and generation of data that differ with respect to read length, error profile, whether sequences are single or paired-end, etc. Currently the Illumina short-read platform is the most widely adopted and as such is the basis of the descriptions here. However, the bioinformatics processing of the data follows the same general principles (QC, denoising, classification) regardless of the sequencing technology used (https://doi.org/10.3389/fmicb.2017.01561[Hugerth et al. 2017^], <<figure-sampling-processes>>)."
-msgstr ""
+msgstr "Los datos de Metabarcoding se pueden producir a partir de diferentes plataformas de secuenciación (Illumina, PacBio, Oxford Nanopore, Ion Torrent, etc.) que se basan en diferentes principios para la lectura y la generación de datos que difieren con respecto a la longitud de lectura, si las secuencias son simples o emparejadas, etc. Actualmente la plataforma de lectura corta Illumina es la más ampliamente adoptada, y como tal es la base de las descripciones aquí. Sin embargo, el procesamiento bioinformático de los datos sigue los mismos principios generales (QC, denoising, clasificación) independientemente de la tecnología de secuenciación utilizada (https://doi.org/10.3389/fmicb.2017.01561[Hugerth et al. 2017^], <<figure-sampling-processes>>)."
 
 #. type: Block title
 #: 100.en.adoc:97
 #, no-wrap
 msgid "Outline of bioinformatic processing of metabarcoding data."
-msgstr ""
+msgstr "Esquema del procesamiento bioinformático del metabarcoding."
 
 #. type: Target for macro image
 #: 100.en.adoc:99
@@ -522,7 +522,7 @@ msgstr ""
 #. type: Plain text
 #: 100.en.adoc:106
 msgid "Typically, the DNA sequences are first pre-processed by removing primer sequences and, depending on the sequencing method used, low quality bases, usually toward the 5’ and 3’ sequence ends. Sequences not fulfilling requirements on length, overall quality, presence of primers, tags etc. are removed."
-msgstr ""
+msgstr "Por lo general, las secuencias de ADN son pre-procesadas eliminando las secuencias primarias y, dependiendo del método de secuenciación utilizado, bases de baja calidad, generalmente hacia los extremos de la secuencia 5' y 3'. Se eliminan las secuencias que no cumplen los requisitos de longitud, calidad general, presencia de primers, etiquetas, etc."
 
 #. type: Plain text
 #: 100.en.adoc:108
