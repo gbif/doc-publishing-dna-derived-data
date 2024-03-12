@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-11-07 07:46\n"
+"PO-Revision-Date: 2024-03-12 08:07\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: index.en.adoc:1
 #, no-wrap
 msgid "Publishing DNA-derived data through biodiversity data platforms"
-msgstr "通過生物多樣性資訊平台發布 DNA 衍生資料"
+msgstr "通過生物多樣性資訊平台發布DNA衍生資料"
 
 #. type: Plain text
 #: index.en.adoc:40
