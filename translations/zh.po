@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-13 03:35\n"
+"PO-Revision-Date: 2024-03-13 04:51\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -407,7 +407,7 @@ msgstr "DNA元條形碼 (Metabarcoding)：序列衍生資料"
 #. type: Plain text
 #: 100.en.adoc:58
 msgid "The generation of sequence-derived data is currently increasing fast due to the development of <<barcoding,DNA-metabarcoding>>. This method utilizes general primers to generate thousands to millions of short DNA-sequences for a given group of organisms with the help of high-throughput sequencing (HTS, alt. next-generation sequencing (NGS)). By comparing each DNA-sequence to a reference database such as GenBank (https://doi.org/10.1093/nar/gkj157[Benson et al. 2006 ^]), BOLD (http://dx.doi.org/10.1111/j.1471-8286.2007.01678.x[Ratnasingham et al. 2007^]), or UNITE (https://doi.org/10.1093/nar/gky1022[Nilsson et al. 2019^]), each sequence can be assigned to a species or higher rank taxon identity. <<barcoding,DNA-metabarcoding>> is used for samples originating from both terrestrial and aquatic environments, including water, soil, air, sediments, biofilms, plankton, bulk samples and faces, simultaneously identifying hundreds of species (https://doi.org/10.1016/j.gecco.2019.e00547[Ruppert et al. 2019^])."
-msgstr ""
+msgstr "由於 <<barcoding,DNA-metabarcoding>> 的迅速發展，序列衍生資料的產生目前正迅速的增加中。此方法利用通用的引子，借助高通量定序 (High-throughtput sequencing, HTS，或稱次世代测序 NGS)，為特定的生物群體產生數千至數百萬個短DNA序列。通過將每個DNA序列與GenBank (https://doi.org/10.1093/nar/gkj157[Benson等人，2006])、BOLD (http://dx.doi.org/10.1111/j.1471-8286.2007.01678.x[Ratnasingham等人，2007]) 或UNITE (https://doi.org/10.1093/nar/gky1022[Nilsson等人，2019]) 等基因序列資料庫進行比對，可以將每個序列鑑定至物種或更高階層的分類單元。 <<barcoding,DNA-metabarcoding>> 可以用於源自陸地和水域環境的樣本，包括水、土壤、空氣、沉積物、生物膜、浮游生物、大體積樣本和糞便樣本，並可同時識別數百種物種 (https://doi.org/10.1016/j.gecco.2019.e00547[Ruppert等人，2019])。"
 
 #. type: Plain text
 #: 100.en.adoc:60
