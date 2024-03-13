@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-13 06:05\n"
+"PO-Revision-Date: 2024-03-13 07:50\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -589,7 +589,7 @@ msgstr ""
 #: 100.en.adoc:131
 #, no-wrap
 msgid "Outputs"
-msgstr ""
+msgstr "資料輸出"
 
 #. type: Plain text
 #: 100.en.adoc:134
@@ -628,7 +628,7 @@ msgstr ""
 #: 200.en.adoc:1
 #, no-wrap
 msgid "Data packaging and mapping"
-msgstr ""
+msgstr "資料打包與圖譜建立 (mapping)"
 
 #. type: Plain text
 #: 200.en.adoc:4
@@ -667,7 +667,7 @@ msgstr "img/web/ct/dwca-structure.en.svg"
 #: 200.en.adoc:18
 #, no-wrap
 msgid "Categorization of your data"
-msgstr ""
+msgstr "資料類別"
 
 #. type: Plain text
 #: 200.en.adoc:21
@@ -678,7 +678,7 @@ msgstr ""
 #: 200.en.adoc:23
 #, no-wrap
 msgid "A decision tree for DNA-derived data categorization."
-msgstr ""
+msgstr "DNA衍生資料類別的決策樹。"
 
 #. type: Table
 #: 200.en.adoc:58
@@ -709,13 +709,38 @@ msgid "5+|\n"
 "|No +\n"
 "↓\n"
 "|\n\n"
-msgstr ""
+msgstr "5+|\n"
+"icon:question-circle[] _您的資料來源是 (meta)barcoding 或是 qPCR?_\n\n"
+"4+|(Meta)barcoding +\n"
+"↓\n"
+"|qPCR +\n"
+"↓\n\n"
+"4+|icon:question-circle[] _資料包含數位化的基因物質或序列，並與地點和時間相關聯嗎？_\n"
+"|*<<category-iii,Category III>>* +\n"
+"目標物種檢測\n\n"
+"2+|是 +\n"
+"↓\n"
+"2+|否 +\n"
+"↓\n"
+"|\n\n"
+"2+.^|icon:question-circle[] _遺傳物質是特定生物或群體的*唯一*證據嗎？_\n"
+"2+.^|icon:question-circle[] _資料集是基於DNA的名錄清單嗎？_\n"
+"|\n\n"
+"|是 +\n"
+"↓\n"
+"|否 +\n"
+"↓\n"
+"|是 +\n"
+"↓\n"
+"|否 +\n"
+"↓\n"
+"|\n\n"
 
 #. type: Block title
 #: 200.en.adoc:58
 #, no-wrap
 msgid "<|*<<category-i,Category I>>* +"
-msgstr ""
+msgstr "<|*<<category-i,類別 I>>* +"
 
 #. type: Table
 #: 200.en.adoc:60
@@ -726,7 +751,7 @@ msgstr ""
 #: 200.en.adoc:60
 #, no-wrap
 msgid "<|*<<category-ii,Category II>>* +"
-msgstr ""
+msgstr "<|*<<category-ii,類別二>>* +"
 
 #. type: Table
 #: 200.en.adoc:62
@@ -737,7 +762,7 @@ msgstr ""
 #: 200.en.adoc:62
 #, no-wrap
 msgid "<|*<<category-iv,Category IV>>* +"
-msgstr ""
+msgstr "<|*<<category-iv,類別四>>* +"
 
 #. type: Table
 #: 200.en.adoc:64
@@ -748,12 +773,12 @@ msgstr ""
 #: 200.en.adoc:64
 #, no-wrap
 msgid "<|*<<category-v,Category V>>* +"
-msgstr ""
+msgstr "<|*<<category-v,類別五>>* +"
 
 #. type: Table
 #: 200.en.adoc:67
 msgid "Metadata-only |"
-msgstr ""
+msgstr "只限詮釋資料 |"
 
 #. type: Block title
 #: 200.en.adoc:70
@@ -771,7 +796,7 @@ msgstr "img/web/ct/eDNA-categories.en.svg"
 #: 200.en.adoc:74
 #, no-wrap
 msgid "Category I: DNA-derived occurrences"
-msgstr ""
+msgstr "類別一：DNA衍生出現紀錄"
 
 #. type: Plain text
 #: 200.en.adoc:77
@@ -787,17 +812,17 @@ msgstr ""
 #. type: Plain text
 #: 200.en.adoc:81
 msgid "MGnify (2019) Impact of rainforest transformation on phylogenetic and functional diversity of soil prokaryotic communities in Sumatra (Indonesia). Sampling event dataset https://doi.org/10.15468/osp7hi accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "MGnify (2019) Impact of rainforest transformation on phylogenetic and functional diversity of soil prokaryotic communities in Sumatra (Indonesia). Sampling event dataset https://doi.org/10.15468/osp7hi accessed via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:82
 msgid "MGnify (2020) Marine metagenomes from the bioGEOTRACES project. Sampling event dataset https://doi.org/10.15468/oifcho accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "MGnify (2020) Marine metagenomes from the bioGEOTRACES project. Sampling event dataset https://doi.org/10.15468/oifcho accessed via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:83
 msgid "Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr14581. Accessed 24 June 2020)"
-msgstr ""
+msgstr "Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr14581. Accessed 24 June 2020)"
 
 #. type: Plain text
 #: 200.en.adoc:85 200.en.adoc:98
@@ -824,17 +849,17 @@ msgstr ""
 #. type: Plain text
 #: 200.en.adoc:94
 msgid "The International Barcode of Life Consortium (2016) International Barcode of Life project (iBOL). Occurrence dataset https://doi.org/10.15468/inygc6 accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "The International Barcode of Life Consortium (2016) International Barcode of Life project (iBOL). Occurrence dataset https://doi.org/10.15468/inygc6 accessed via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:95
 msgid "Takamura K (2019) Chironomid Specimen records in the Chironomid DNA Barcode Database. Version 1.9. National Institute of Genetics, ROIS. Occurrence dataset https://doi.org/10.15468/hxhow5 accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "Takamura K (2019) Chironomid Specimen records in the Chironomid DNA Barcode Database. Version 1.9. National Institute of Genetics, ROIS. Occurrence dataset https://doi.org/10.15468/hxhow5 accessed via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:96
 msgid "Bessey C, Jarman SN, Stat M, Rohner CA, Bunce M, Koziol A, Power M, Rambahiniarison JM, Ponzo A, Richardson AJ & Berry O (2019) DNA metabarcoding assays reveal a diverse prey assemblage for Mobula rays in the Bohol Sea, Philippines. Ecology and Evolution 9 (5) 2459-2474. https://doi.org/10.1002/ece3.4858, (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr11663. Accessed 24 June 2020)"
-msgstr ""
+msgstr "Bessey C, Jarman SN, Stat M, Rohner CA, Bunce M, Koziol A, Power M, Rambahiniarison JM, Ponzo A, Richardson AJ & Berry O (2019) DNA metabarcoding assays reveal a diverse prey assemblage for Mobula rays in the Bohol Sea, Philippines. Ecology and Evolution 9 (5) 2459-2474. https://doi.org/10.1002/ece3.4858, (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr11663. Accessed 24 June 2020)"
 
 #. type: Title ====
 #: 200.en.adoc:100
@@ -856,7 +881,7 @@ msgstr ""
 #. type: Plain text
 #: 200.en.adoc:106
 msgid "Strzelecki, Joanna; Feng, Ming; Berry, Olly; Zhong, Liejun; Keesing, John; Fairclough, David; Pearce, Alan; Slawinski, Dirk; Mortimer, Nick. Location and transport of early life stages of Western Australian Dhufish Glaucosoma hebraicum. Floreat, WA: Fisheries Research and Development Corporation; 2013. http://hdl.handle.net/102.100.100/97533 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr8131. Accessed 22 July 2020)"
-msgstr ""
+msgstr "Strzelecki, Joanna; Feng, Ming; Berry, Olly; Zhong, Liejun; Keesing, John; Fairclough, David; Pearce, Alan; Slawinski, Dirk; Mortimer, Nick. Location and transport of early life stages of Western Australian Dhufish Glaucosoma hebraicum. Floreat, WA: Fisheries Research and Development Corporation; 2013. http://hdl.handle.net/102.100.100/97533 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr8131. Accessed 22 July 2020)"
 
 #. type: Plain text
 #: 200.en.adoc:108
@@ -895,12 +920,12 @@ msgstr ""
 #. type: Plain text
 #: 200.en.adoc:121
 msgid "The International Barcode of Life Consortium (2016). International Barcode of Life project (iBOL) Barcode Index Numbers (BINs). Checklist dataset https://doi.org/10.15468/wvfqoi accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "The International Barcode of Life Consortium (2016). International Barcode of Life project (iBOL) Barcode Index Numbers (BINs). Checklist dataset https://doi.org/10.15468/wvfqoi accessed via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:122
 msgid "PlutoF (2019). UNITE - Unified system for the DNA based fungal species linked to the classification. Version 1.2. Checklist dataset https://doi.org/10.15468/mkpcy3 accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "PlutoF (2019). UNITE - Unified system for the DNA based fungal species linked to the classification. Version 1.2. Checklist dataset https://doi.org/10.15468/mkpcy3 accessed via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:124
@@ -927,12 +952,12 @@ msgstr ""
 #. type: Plain text
 #: 200.en.adoc:133
 msgid "Collins E, Sweetlove M (2019). Arctic Ocean microbial metagenomes sampled aboard CGC Healy during the 2015 GEOTRACES Arctic research cruise. SCAR - Microbial Antarctic Resource System. Metadata dataset https://doi.org/10.15468/iljmun accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "Collins E, Sweetlove M (2019). Arctic Ocean microbial metagenomes sampled aboard CGC Healy during the 2015 GEOTRACES Arctic research cruise. SCAR - Microbial Antarctic Resource System. Metadata dataset https://doi.org/10.15468/iljmun accessed via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:134
 msgid "Cary S C (2015). New Zealand Terrestrial Biocomplexity Survey. SCAR - Microbial Antarctic Resource System. Metadata dataset https://doi.org/10.15468/xnzrhq accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "Cary S C (2015). New Zealand Terrestrial Biocomplexity Survey. SCAR - Microbial Antarctic Resource System. Metadata dataset https://doi.org/10.15468/xnzrhq accessed via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:136
