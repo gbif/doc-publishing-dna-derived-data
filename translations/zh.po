@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-14 04:39\n"
+"PO-Revision-Date: 2024-03-14 06:00\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -412,7 +412,7 @@ msgstr "由於 <<barcoding,DNA-metabarcoding>> 的迅速發展，序列衍生資
 #. type: Plain text
 #: 100.en.adoc:60
 msgid "The identification and classification of organisms from sequence data and marker-based surveys depends on access to a reference library of sequences taken from morphologically identified specimens that are matched against the newly generated sequences. The efficacy of classification depends on the completeness (coverage) and the reliability of reference libraries, as well as the tools used to carry out the classification. These are all moving targets, making it essential to apply taxonomic expertise and caution in the interpreting results (<<taxonomy-of-sequences>>). Availability of of all verified <<asv,amplicon sequence variants>> (https://doi.org/10.1038/ismej.2017.119[Сallahan et al. 2017^]) allow for precise reinterpretation of data, intra-specific population genetic analyses (https://doi.org/10.1111/eva.12882[Sigsgaard et al. 2019^]) and is likely to increase identification accuracy, and for this reason we recommend to share (unclustered) ASV data."
-msgstr "調查中使用序列或目標區間 (marker-based) 的定序並要成功鑑定物種，取決於那些已在形態上做了相關研究並已辨識的標本中所提取的基因序列。這些序列存在在基因序列資料庫中才能與調查所產出的新序列進行比對。分類的有效性取決於基因序列資料庫的完整性 (覆蓋率) 和可靠性，以及用於進行分類的分析工具。這些都是不斷在變化中的目標，因此在解釋結果時應謹慎且運用分類學專業知識 (<<基因序列的分類學>>)。所有經過驗證的<<asv,擴增子序列變體>> (https://doi.org/10.1038/ismej.2017.119[Сallahan等人，2017^]) 將有機會在未來對資料進行重分析讓其更精確、進行種內族群遺傳分析 (https://doi.org/10.1111/eva.12882[Sigsgaard等人，2019^]) 並且可能增加識別的準確性。基於這個原因，我們建議發布共享 (未聚類的，unclustered) ASV資料。"
+msgstr "調查中使用序列或目標區間 (marker-based) 的定序並要成功鑑定物種，取決於那些已在形態上做了相關研究並已辨識的標本中所提取的基因序列。這些序列存在在基因序列資料庫中才能與調查所產出的新序列進行比對。分類的有效性取決於基因序列資料庫的完整性 (覆蓋率) 和可靠性，以及用於進行分類的分析工具。這些都是不斷在變化中的目標，因此在解釋結果時應謹慎且運用分類學專業知識 (<<taxonomy-of-sequences>>)。所有經過驗證的 <<asv,amplicon sequence variants>> (https://doi.org/10.1038/ismej.2017.119[Сallahan等人，2017^]) 將有機會在未來對資料進行重分析讓其更精確、進行種內族群遺傳分析 (https://doi.org/10.1111/eva.12882[Sigsgaard等人，2019^]) 並且可能增加識別的準確性。基於這個原因，我們建議發布共享 (未聚類的，unclustered) ASV資料。"
 
 #. type: Title ====
 #: 100.en.adoc:61
