@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-14 08:48\n"
+"PO-Revision-Date: 2024-03-14 10:19\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -494,7 +494,7 @@ msgstr ""
 #: 100.en.adoc:92
 #, no-wrap
 msgid "Processing workflows: from sample to ingestible data "
-msgstr ""
+msgstr "資料處理流程：從樣本到可獲取的資料 "
 
 #. type: Plain text
 #: 100.en.adoc:95
@@ -505,7 +505,7 @@ msgstr ""
 #: 100.en.adoc:97
 #, no-wrap
 msgid "Outline of bioinformatic processing of metabarcoding data."
-msgstr ""
+msgstr "生物資訊分析metabarcoding資料的流程。"
 
 #. type: Target for macro image
 #: 100.en.adoc:99
@@ -599,13 +599,13 @@ msgstr ""
 #. type: Plain text
 #: 100.en.adoc:136
 msgid "At GBIF.org or through the GBIF API, registered users can search, filter, and download biodiversity data in the following three formats:"
-msgstr ""
+msgstr "在 GBIF.org 或通過 GBIF API，註冊用戶可以下列三種方式搜尋、篩選和下載生物多樣性資料："
 
 #. type: Plain text
 #: 100.en.adoc:138
 #, no-wrap
 msgid "*Simple*: a simple, tab-delimited format which includes only the GBIF-interpreted version of the data, as a result of the indexing process. This is suitable for quick tests and direct import into spreadsheets. \n"
-msgstr ""
+msgstr "簡易格式 (Simple)：一種簡易的以制表符分隔的格式，僅包含由GBIF詮釋的資料版本，來自索引過程的結果。這適用於快速測試和直接導入試算表程式做開啟。\n"
 
 #. type: Plain text
 #: 100.en.adoc:139
@@ -756,7 +756,7 @@ msgstr "<|*<<category-ii,類別二>>* +"
 #. type: Table
 #: 200.en.adoc:62
 msgid "Enriched occurrences"
-msgstr ""
+msgstr "多重引證出現紀錄"
 
 #. type: Block title
 #: 200.en.adoc:62
@@ -767,7 +767,7 @@ msgstr "<|*<<category-iv,類別四>>* +"
 #. type: Table
 #: 200.en.adoc:64
 msgid "Name references"
-msgstr ""
+msgstr "物種基因代號"
 
 #. type: Block title
 #: 200.en.adoc:64
@@ -784,7 +784,7 @@ msgstr "只限詮釋資料 |"
 #: 200.en.adoc:70
 #, no-wrap
 msgid "Visual representation of categories I-V."
-msgstr ""
+msgstr "類別一至五的視覺化呈現。"
 
 #. type: Target for macro image
 #: 200.en.adoc:71
@@ -892,7 +892,7 @@ msgstr ""
 #: 200.en.adoc:110
 #, no-wrap
 msgid "Category IV: Name references"
-msgstr ""
+msgstr "類別四：物種基因代號"
 
 #. type: Plain text
 #: 200.en.adoc:113
@@ -915,7 +915,7 @@ msgstr "img/web/otus-from-unite.en.png"
 #: 200.en.adoc:118
 #, no-wrap
 msgid "Examples of Name references checklists"
-msgstr ""
+msgstr "物種基因代號名錄範例"
 
 #. type: Plain text
 #: 200.en.adoc:121
@@ -936,7 +936,7 @@ msgstr ""
 #: 200.en.adoc:126
 #, no-wrap
 msgid "Category V: Metadata-only datasets"
-msgstr ""
+msgstr "類別五：僅有詮釋資料的資料集"
 
 #. type: Plain text
 #: 200.en.adoc:129
@@ -947,7 +947,7 @@ msgstr ""
 #: 200.en.adoc:130
 #, no-wrap
 msgid "Examples of Metadata-only datasets"
-msgstr ""
+msgstr "僅有詮釋資料的資料集範例"
 
 #. type: Plain text
 #: 200.en.adoc:133
@@ -1103,7 +1103,10 @@ msgid "| Field name\n"
 "| Examples\n"
 "| Description\n"
 "| Required\n\n"
-msgstr ""
+msgstr "| 字段名稱\n"
+"| 範例\n"
+"| 描述\n"
+"| 填寫建議\n\n"
 
 #. type: Table
 #: 200.en.adoc:391
@@ -1294,7 +1297,94 @@ msgid "| Field name\n"
 "| _Gadus_\n"
 "| Higher taxonomy\n"
 "| Recommended\n"
-msgstr ""
+msgstr "| 字段名稱\n"
+"| 範例\n"
+"| 描述\n"
+"| 填寫建議\n\n"
+"| term:dwc[basisOfRecord]\n"
+"| MaterialSample\n"
+"| 資料所記錄的具體性質 - dcterms:type 的子類。對於DNA衍生的出現紀錄 (參見<<category-i,類別一>>和<<category-iii,類別三>>)，請使用MaterialSample。\n"
+"| 必填\n\n"
+"| term:dwc[occurrenceStatus]\n"
+"| Present, Absent\n"
+"| 有關生物在特定位置的存在或不存在的說明。\n"
+"| 必填\n\n"
+"| term:dwc[eventID]\n"
+"| urn:uuid:a964765b-22c4-439a-jkgt-2\n"
+"| 與事件 (在特定地點和時間發生的事情) 相關資訊的ID。可以是全域唯一識別碼 (GUI) 或特定於資料集的ID。\n"
+"| 強烈建議\n\n"
+"| term:dwc[eventDate]\n"
+"| 2020-01-05\n"
+"| 記錄事件的日期。建議寫法是使用符合ISO 8601-1:2019的日期。有關更多詳情請查看 https://dwc.tdwg.org/terms/#dwc:eventDate\n"
+"| 必填\n\n"
+"| term:dwc[recordedBy]\n"
+"| \"Oliver P. Pearson \\| Anita K. Pearson\"\n"
+"| 記錄原始出現紀錄的人、組織或機構的姓名列表 (串聯並分隔)。建議的寫法是使用垂直條 (' | ') 分隔值。包含觀察者的名字可提高科學的可重複性 (https://doi.org/10.1093/database/baaa072[Groom等人，2020^])。\n"
+"| 強烈建議\n\n"
+"| term:dwc[organismQuantity]\n"
+"| 50\n"
+"| 樣本中陽性droplets/chambers的數量\n"
+"| ddPCR, dPCR 來源資料強烈建議使用\n\n"
+"| term:dwc[organismQuantityType]\n"
+"| ddPCR droplets +\n"
+"dPCR chambers\n"
+"| 分割類型 partition type \n"
+"| ddPCR, dPCR 來源資料強烈建議使用\n\n"
+"| term:dwc[sampleSizeValue]\n"
+"| 20000\n"
+"| Accepted partitions 的數量 (n), 例如 accepted ddPCR droplets 或 dPCR chambers\n"
+"| ddPCR, dPCR 來源資料強烈建議使用\n\n"
+"| term:dwc[sampleSizeUnit]\n"
+"| ddPCR droplets +\n"
+"dPCR chambers\n"
+"| 分割類型 partition type, 應與organismQuantityType中的值相等\n"
+"| ddPCR, dPCR 來源資料強烈建議使用\n\n"
+"| term:dwc[materialSampleID]\n"
+"| https://www.ncbi.nlm.nih.gov/biosample/15224856 +\n"
+" +\n"
+"urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03\n"
+"| MaterialSample的ID (不是特定於材料樣本的數位化記錄)。如果從核苷酸檔案中獲取了生物樣本ID (biosample ID)，則使用生物樣本ID。如果沒有全域唯一識別碼，則可以從記錄中ID的組合構造出一個。\t\n"
+"| 強烈建議\n\n"
+"| term:dwc[samplingProtocol]\n"
+"| UV light trap\n"
+"| 在採樣事件期間使用的方法名稱、參考或描述。https://dwc.tdwg.org/terms/#dwc:samplingProtocol\n"
+"| 建議\n\n"
+"| term:dwc[decimalLatitude]\n"
+"| 60.545207\n"
+"| 位置的地理緯度 (以十進制度為單位，使用大地基準面的空間參考系統)。正值在赤道以北，負值在赤道以南。值介於-90和90之間，包括-90和90。\n"
+"| 強烈建議\n\n"
+"| term:dwc[decimalLongitude]\n"
+"| 24.174556\n"
+"| 位置的地理經度 (以十進制度為單位，使用大地基準面的空間參考系統)。正值在格林威治子午線以東，負值在格林威治子午線以西。值介於-180和180之間，包括-180和180。\n"
+"| 強烈建議\n\n"
+"| term:dwc[scientificName]\n"
+"| _Gadus morhua_ L. 1758, BOLD:ACF1143\n"
+"| 最接近已知的分類單位 (物種或更高階層) 的學名，或來自BOLD或UNITE的OTU ID。\n"
+"| 必填\n\n"
+"| term:dwc[kingdom]\n"
+"| Animalia\n"
+"| 更高階層分類\n"
+"| 強烈建議\n\n"
+"| term:dwc[phylum]\n"
+"| Chordata\n"
+"| 更高階層分類\n"
+"| 建議\n\n"
+"| term:dwc[class]\n"
+"| Actinopterygii\n"
+"| 更高階層分類\n"
+"| 建議\n\n"
+"| term:dwc[order]\n"
+"| Gadiformes\n"
+"| 更高階層分類\n"
+"| 建議\n\n"
+"| term:dwc[family]\n"
+"| Gadidae\n"
+"| 更高階層分類\n"
+"| 建議\n\n"
+"| term:dwc[genus]\n"
+"| _Gadus_\n"
+"| 更高階層分類\n"
+"| 建議\n"
 
 #. type: Block title
 #: 200.en.adoc:516
@@ -1627,7 +1717,7 @@ msgstr ""
 #: glossary.en.adoc:7
 #, no-wrap
 msgid "[[api]]Application Programming Interface (API)"
-msgstr ""
+msgstr "[[api]]應用程式開發介面 (API)"
 
 #. type: Plain text
 #: glossary.en.adoc:8
@@ -1638,7 +1728,7 @@ msgstr ""
 #: glossary.en.adoc:8
 #, no-wrap
 msgid "[[bins]]Barcode Index Numbers (BINs)"
-msgstr ""
+msgstr "[[bins]]Barcode Index Numbers (BINs)"
 
 #. type: Plain text
 #: glossary.en.adoc:9
@@ -1649,7 +1739,7 @@ msgstr ""
 #: glossary.en.adoc:9
 #, no-wrap
 msgid "[[bold]]Barcode of Life Data System (BOLD)"
-msgstr ""
+msgstr "[[bold]]Barcode of Life Data System (BOLD)"
 
 #. type: Plain text
 #: glossary.en.adoc:10
@@ -1660,7 +1750,7 @@ msgstr ""
 #: glossary.en.adoc:10
 #, no-wrap
 msgid "[[biodiversity-data-platform]]Biodiversity data platform"
-msgstr ""
+msgstr "[[biodiversity-data-platform]]生物多樣性資料平台"
 
 #. type: Plain text
 #: glossary.en.adoc:11
@@ -1671,7 +1761,7 @@ msgstr ""
 #: glossary.en.adoc:11
 #, no-wrap
 msgid "[[clustering]]Clustering"
-msgstr ""
+msgstr "[[clustering]]序列分群 (Clustering)"
 
 #. type: Plain text
 #: glossary.en.adoc:12
@@ -1682,7 +1772,7 @@ msgstr ""
 #: glossary.en.adoc:12
 #, no-wrap
 msgid "[[community-dna]]Community (bulk) DNA"
-msgstr ""
+msgstr "[[community-dna]]群落 (bulk) DNA"
 
 #. type: Plain text
 #: glossary.en.adoc:13
@@ -1715,7 +1805,7 @@ msgstr ""
 #: glossary.en.adoc:15
 #, no-wrap
 msgid "[[data-vocabulary]]Data vocabulary"
-msgstr ""
+msgstr "[[data-vocabulary]]資料詞彙"
 
 #. type: Plain text
 #: glossary.en.adoc:17
@@ -1737,7 +1827,7 @@ msgstr ""
 #: glossary.en.adoc:18
 #, no-wrap
 msgid "[[denoising]]Denoising"
-msgstr ""
+msgstr "[[denoising]]去噪 (Denoising)"
 
 #. type: Plain text
 #: glossary.en.adoc:19
@@ -1748,7 +1838,7 @@ msgstr ""
 #: glossary.en.adoc:19
 #, no-wrap
 msgid "[[doi]]Digital Object Identifier (DOI)"
-msgstr ""
+msgstr "[[doi]]數位物件識別碼 (DOI)"
 
 #. type: Plain text
 #: glossary.en.adoc:20
@@ -1759,7 +1849,7 @@ msgstr ""
 #: glossary.en.adoc:20
 #, no-wrap
 msgid "[[barcoding]]DNA barcoding and metabarcoding (amplicon sequencing)"
-msgstr ""
+msgstr "[[barcoding]]DNA 條形碼與元條形碼 (擴增子定序)"
 
 #. type: Plain text
 #: glossary.en.adoc:21
@@ -2039,7 +2129,7 @@ msgstr "[[qpcr]]定量聚合酶連鎖反應 (quantitative Polymerase Chain React
 #. type: Plain text
 #: glossary.en.adoc:46
 msgid "Quantitative <<pcr,PCR>>. Method that measures relative DNA quantity of a marker in a sample. See also <<ddpcr,ddPCR>>."
-msgstr ""
+msgstr "定量型 <<pcr,PCR>>。測量樣本中特定標記的相對DNA量的方法。參考 <<ddpcr,ddPCR>>。"
 
 #. type: Labeled list
 #: glossary.en.adoc:46
@@ -2072,7 +2162,7 @@ msgstr "[[sh]]物種假說 (Species Hypothesis, SH)"
 #. type: Plain text
 #: glossary.en.adoc:49
 msgid "Species-level <<otu,Operational Taxonomic Unit (OTU)>> as defined in the UNITE database and sequence management environment, for Fungi."
-msgstr "UNITE資料庫與序列管理環境中，真菌的物種分類階級 <<otu,Operational Taxonomic Unit (OTU)>>。"
+msgstr "UNITE資料庫與序列管理的環境中，真菌的物種分類階級 <<otu,Operational Taxonomic Unit (OTU)>>。"
 
 #. type: Labeled list
 #: glossary.en.adoc:49
@@ -2100,7 +2190,7 @@ msgstr "<<ncbi,the National Center for Biotechnology Information (NCBI)>>、<<em
 #: glossary.en.adoc:51
 #, no-wrap
 msgid "[[tcs]]Target-capture sequencing"
-msgstr "[[tcs]]特定區域範圍定序"
+msgstr "[[tcs]]特定範圍定序"
 
 #. type: Plain text
 #: glossary.en.adoc:52
