@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-14 06:00\n"
+"PO-Revision-Date: 2024-03-14 07:17\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -423,7 +423,7 @@ msgstr "總體基因體學 (Metagenomic)：序列衍生資料"
 #. type: Plain text
 #: 100.en.adoc:64
 msgid "Sequence derived diversity data may also be generated using amplification free metagenomic methods whereby all DNA in a sample is targeted for sequencing (https://doi.org/10.1002/047001153X.g205313[Tyson & Hugenholtz 2005^]), rather than specific amplicons or barcodes, as described above. Sequence derived diversity data obtained from metagenomic sequencing can be in the form of sequence matches to annotated gene databases (as above) or as (near) complete metagenome assembled genomes (MAGs). While metabarcoding methods still dominate in terms of sequence derived diversity information, metagenomic data is becoming more important, as evidenced by the growing number of MAGS and their utility in informing phylogeny and taxonomy (https://doi.org/10.1038/s41587-020-0501-8[Parks et al. 2020^]); discussion of the rapidly evolving methods associated with metagenome analysis is beyond the scope of this document. This document uses metabarcoding as the model for discussion around concepts and methods for publishing sequence derived diversity data, and while the bioinformatic pathways will differ for metagenomic data, the end result (a sequence, often in the form of a contig/assembly) is congruent with the concepts suggested for metabarcoding data (i.e., sample specific, sample collection, data generation and processing workflow metadata should be captured)."
-msgstr ""
+msgstr "基因序列衍生的生物多樣性資料也可以從總體基因體 (Metagenomic) 的方法生成，即樣本中所有的DNA都進行定序 (https://doi.org/10.1002/047001153X.g205313[Tyson＆Hugenholtz 2005^]) 且不使用特定的引子或條碼。從總體基因體序列中獲得的衍生序列生物多樣性資料可以與基因資料庫裡的已註解基因資料做比對並做詮釋 (如上所述)，也可以作為 (接近) 完整的總體組裝基因體 (Metagenome assembled genomes, MAGs)。雖然metabarcoding的方法在基因序列衍生生物多樣性資訊方面仍然佔主導地位，但總體基因體資料也變得越來越重要。這證實在MAGs數量的迅速增加以及它們在系統分類學中的實用性 (https://doi.org/10.1038/s41587-020-0501-8[Parks等人，2020^])；但總體組裝基因體分析相關的迅速發展方法的討論超出了此文件的範疇。此文件主要圍繞metabarcoding作為發布序列衍生生物多樣性資料的概念和方法進行討論。雖然與總體組裝基因體資料在生物資訊分析上有差異，但最終結果 (一條序列，通常以contig/assembly的形式存在) 與metabarcoding資料概念一致 (即樣本收集，資料產生和工作處理流程的詮釋資料應該被記錄)。"
 
 #. type: Title ====
 #: 100.en.adoc:65
@@ -434,7 +434,7 @@ msgstr "qPCR/ddPCR：出現紀錄資料"
 #. type: Plain text
 #: 100.en.adoc:68
 msgid "For the detection of specific species in eDNA-samples, most analyses include species-specific primers and qPCR (Quantitative Polymerase Chain Reaction) or ddPCR (Droplet-Digital Polymerase Chain Reaction). These methods do not generate DNA-sequences, and the occurrence data are completely dependent on the specificity of the primers/assays. Hence, there are strict recommendations for how to validate such assays and the requirements for publishing data (https://doi.org/10.1373/clinchem.2008.112797[Bustin et al. 2009^], https://doi.org/10.1373/clinchem.2013.206375[Huggett et al. 2013^]), as well as the readiness for assays in routine monitoring (https://doi.org/10.1101/2020.04.27.063990[Thalinger et al. 2020^]). Analyses of eDNA-samples using qPCR requires few resources and can be done in most DNA-laboratories. The first example of using eDNA water samples utilized qPCR for detecting the invasive American Bullfrog (_Rana catesbeiana_) (https://doi.org/10.1098/rsbl.2008.0118[Ficetola et al. 2008^]), and qPCR analyses of eDNA water samples are regularly used for detecting specific species of fish, amphibians, molluscs, crustaceans and more, as well as their parasites (https://doi.org/10.1002/edn3.89[Hernandez et al. 2020^], https://doi.org/10.1002/edn3.10[Wacker et al. 2019^], https://doi.org/10.1002/edn3.45[Fossøy et al. 2019^], https://doi.org/10.1007/s10750-017-3408-8[Wittwer et al. 2019^]). eDNA-detections using qPCR thus generate important occurrence data for single species."
-msgstr ""
+msgstr "於eDNA樣本中，特定物種檢測的大多數分析包括使用物種特定引子和qPCR (定量聚合酶鏈反應) 或ddPCR (微滴數字聚合酶鏈反應)。這些方法不生成DNA序列，且出現紀錄完全取決於引子/assay的特異性。因此，對於這些來源的發布資料有如何驗證該嚴格性的建議與要求 (https://doi.org/10.1373/clinchem.2008.112797[Bustin等人，2009^]，https://doi.org/10.1373/clinchem.2013.206375 [Huggett等人，2013^])，以及對長期監測中可就緒應用的狀態要求 (https://doi.org/10.1101/2020.04.27.063990 [Thalinger等人，2020^])。使用qPCR分析eDNA樣本不需大量資源，並且可以在大多數DNA實驗室中進行。首次使用eDNA水樣本檢測入侵種的例子是利用qPCR來檢測美洲牛蛙 (_Rana catesbeiana_)(https://doi.org/10.1098/rsbl.2008.0118[Ficetola等人，2008^])。eDNA水樣本的qPCR分析可定期用於監測特定的魚類、兩棲動物、軟體動物、甲殼動物等物種，以及它們的寄生蟲 (https://doi.org/10.1002/edn3.89[Hernandez等人，2020^]，https://doi.org/10.1002/edn3.10[Wacker等人，2019^]，https://doi.org/10.1002/edn3.45[Fossøy等人，2019^]，https://doi.org/10.1007/s10750-017-3408-8[Wittwer等人，2019^])。因此，使用qPCR的eDNA檢測單一物種是重要的出現紀錄。"
 
 #. type: Title ===
 #: 100.en.adoc:69
