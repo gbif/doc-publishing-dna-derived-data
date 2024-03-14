@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-13 11:39\n"
+"PO-Revision-Date: 2024-03-14 02:19\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -150,7 +150,7 @@ msgstr "貢獻者"
 #. type: Plain text
 #: colophon.en.adoc:35
 msgid "Valuable discussions with members of ELIXIR, iBOL, GGBN, GLOMICON, and OBIS networks contributed to compilation of this draft. We are especially grateful for inputs and encouragement from Andrew Bentley, Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, Gabriele Dröge, Torbjørn Ekrem, Birgit Gemeinholzer, Quentin Groom, Tim Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris Mungall, Daniel Noesgaard, Corinna Paeper, Tim Robertson, Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger who have contributed to the GBIF community review process."
-msgstr "此草案經與 ELIXIR、iBOL、GGBN、GLOMICON 和 OBIS 網絡成員進行了寶貴的討論後所整合。我們特別感謝 Andrew Bentley, Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, Gabriele Dröge, Torbjørn Ekrem, Birgit Gemeinholzer, Quentin Groom, Tim Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris Mungall, Daniel Noesgaard, Corinna Paeper, Tim Robertson, Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger 在 GBIF 社群審查過程中給予的貢獻和鼓勵。"
+msgstr "此草案經與ELIXIR、iBOL、GGBN、GLOMICON和OBIS網絡成員進行了寶貴的討論後所整合。我們特別感謝Andrew Bentley, Matt Blissett, Pier Luigi Buttigieg, Kyle Copas, Camila A. Plata Corredor, Gabriele Dröge, Torbjørn Ekrem, Birgit Gemeinholzer, Quentin Groom, Tim Hirsch, Donald Hobern, Hamish Holewa, Corinne Martin, Raissa Meyer, Chris Mungall, Daniel Noesgaard, Corinna Paeper, Tim Robertson, Maxime Sweetlove, Andrew Young, John Waller, Ramona Walls, John Wieczorek, Lucie Zinger在GBIF社群審查過程中給予的貢獻和鼓勵。"
 
 #. type: Title ===
 #: colophon.en.adoc:36
@@ -161,7 +161,7 @@ msgstr "授權"
 #. type: Plain text
 #: colophon.en.adoc:40
 msgid "The document _Publishing DNA-derived data through biodiversity data platforms_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License]."
-msgstr "此文件 _通過生物多樣性資訊平台發布 DNA 衍生資料_ 授權於 https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License]."
+msgstr "此文件 _通過生物多樣性資訊平台發布DNA衍生資料_ 授權於 https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License]."
 
 #. type: Title ===
 #: colophon.en.adoc:41
@@ -183,7 +183,7 @@ msgstr "文件版控"
 #. type: Plain text
 #: colophon.en.adoc:48
 msgid "Version {revnumber} released on {revdate}."
-msgstr "版本 {revnumber} 發布於 {revdate}."
+msgstr "版本 {revnumber} 發布於 {revdate}。"
 
 #. type: Plain text
 #: colophon.en.adoc:50
@@ -199,7 +199,7 @@ msgstr "摘要"
 #. type: Plain text
 #: colophon.en.adoc:53
 msgid "When genetic information is used to describe or classify a taxon, most users will foresee its use in the context of molecular ecology or phylogenetic research. It is important to realize that a sequence with coordinates and a timestamp is a valuable biodiversity occurrence which is useful in a much broader context than its original purpose. To realize this potential, DNA-derived data needs to be discoverable through biodiversity data platforms. This guide will teach you the principles and approaches of exposing “sequences with dates and coordinates” in the context of broader biodiversity data. The guide covers choices of particular schemas and terms, common pitfalls and good practice, without going into platform-specific details. It will benefit anyone interested in better exposure of DNA-derived data through general biodiversity data platforms, including national biodiversity portals."
-msgstr "使用基因資訊來描述或鑑定物種分類群時，大多使用者會預設該資料會使用在分子生物或演化學的研究上。然而，同時擁有座標與時間標記的基因序列是一個有價值的生物多樣性出現紀錄，在比其最初目的可更廣泛的被使用。為了實現這一潛力，DNA衍生資料需要可以在生物多樣性資訊的平台上被發覺。這份教學文件將帶領您了解公開 “帶有時間標記與座標的序列” 的生物多樣性資訊的原則與方法。此文件涵蓋了特定的概要和術語、常見問題與良好的操作方式、且不討論各平台的細節。它將受益任何對使用各生物多樣性資訊平台（包括國家級生物多樣性入口網站）有興趣的人更順利地公開DNA衍生資料。"
+msgstr "使用基因資訊來描述或鑑定物種分類群時，大多使用者會預設該資料會使用在分子生物或演化學的研究上。然而，同時擁有座標與時間標記的基因序列是一個有價值的生物多樣性出現紀錄，相較其最初目可更廣泛的被使用。為了實現這一潛力，DNA衍生資料需要可以在生物多樣性資訊的平台上可供搜尋。這份教學文件將帶領您了解公開 “帶有時間標記與座標的序列” 的生物多樣性資訊的原則與方法。此文件涵蓋了特定的概要和術語、常見問題與合適的操作流程建議、且不討論各平台的細節。此文件將受益任何對使用各生物多樣性資訊平台 (包括國家級生物多樣性入口網站) 有興趣的人更順利地公開DNA衍生資料。"
 
 #. type: Title ==
 #: preface.en.adoc:2
@@ -210,7 +210,7 @@ msgstr "前言"
 #. type: Plain text
 #: preface.en.adoc:5
 msgid "The work on this guide started from discussions at the https://biss.pensoft.net/collection/115/[biodiversity_next conference] in 2019 consolidating inputs from various resources, such as:"
-msgstr "此指南的準備工作始於2019年在 https://biss.pensoft.net/collection/115/[biodiversity_next conference] 研討會上整合各種面向的討論，例如："
+msgstr "此指南的準備工作始於2019年在 https://biss.pensoft.net/collection/115/[biodiversity_next conference] 研討會上各種面向的討論整合，例如："
 
 #. type: Plain text
 #: preface.en.adoc:7
@@ -225,12 +225,12 @@ msgstr "https://www.ala.org.au/blogs-news/edna-records-now-available-on-ala[部�
 #. type: Plain text
 #: preface.en.adoc:9
 msgid "https://www.ala.org.au/environmentaldna[Environmental DNA (eDNA) in the ALA]"
-msgstr "https://www.ala.org.au/environmentaldna[ALA 裡的 eDNA]"
+msgstr "https://www.ala.org.au/environmentaldna[ALA裡的環境DNA (eDNA)]"
 
 #. type: Plain text
 #: preface.en.adoc:10
 msgid "https://www.ala.org.au/app/uploads/2019/04/Simple-template-for-eDNA-data-entry-to-ALA-v2-1.xlsx[ALA eDNA data template]"
-msgstr "https://www.ala.org.au/app/uploads/2019/04/Simple-template-for-eDNA-data-entry-to-ALA-v2-1.xlsx[ALA eDNA 資料模板]"
+msgstr "https://www.ala.org.au/app/uploads/2019/04/Simple-template-for-eDNA-data-entry-to-ALA-v2-1.xlsx[ALA eDNA資料模板]"
 
 #. type: Plain text
 #: preface.en.adoc:11
