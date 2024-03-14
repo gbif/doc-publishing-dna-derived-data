@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-14 07:17\n"
+"PO-Revision-Date: 2024-03-14 08:48\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -445,12 +445,12 @@ msgstr "生物多樣性發布介紹"
 #. type: Plain text
 #: 100.en.adoc:72
 msgid "Publishing biodiversity data is largely a process of making species occurrence data findable, accessible, interoperable and reusable, in accordance with the FAIR principles (https://doi.org/10.1038/sdata.2016.18[Wilkinson et al. 2016^]). Biodiversity data platforms help expose and discover genetic sequence data as biodiversity occurrence records alongside other types of biodiversity data, such as museum collection specimens, citizen science observations, and classical field surveys. The structure, management and storage for each original data source will vary according to the needs of each community. The biodiversity data platforms support data discovery, access and reuse by making these individual datasets compatible with each other, addressing taxonomic, spatial and other inconsistencies in the available biodiversity data. Making data available through single access points supports large-scale data-intensive research, management, and policy. The compatibility between datasets is reached through the process of standardization."
-msgstr ""
+msgstr "發布生物多樣性資料的過程主要是根據FAIR原則 (https://doi.org/10.1038/sdata.2016.18[Wilkinson等人，2016^])，使物種出現資料可查找、可取用、可交換和可重複使用。生物多樣性資料平台有助於將基因序列資料被發現，並與其他類型的生物多樣性資料一起作為出現記錄進行共享，例如博物館收藏標本、公民科學觀測和傳統野外調查。每個原始資料的結構、管理和存儲將根據每個社群的需求而變化。生物多樣性資料平台通過使這些單獨資料集的相互兼容來支持資料的被發現、查詢和重複使用，以解決資料上的分類、空間和其他不一致性。通過單一資料入口網做資料搜尋，可以支持大規模的大數據研究、管理和政策。資料集之間的兼容性是通過標準化過程建立的。"
 
 #. type: Plain text
 #: 100.en.adoc:74
 msgid "A number of data standards are in use for general biodiversity data (https://www.gbif.org/standards), and a separate set of standards for genetic sequence data (see <<mixs,MIxS>> and <<ggbn,GGBN>>). This guide reflects some ongoing efforts to increase the compatibility between standards for general biodiversity and genetic data. Standards often highlight the subsets of fields which are most important or most frequently applicable. These subsets may be referenced as “cores”. The preferred format for publishing data in the GBIF and ALA networks is currently the Darwin Core Archive (DwC-A) using the https://dwc.tdwg.org/[Darwin Core^] (DwC) data standard. In practice, this is a compressed folder (a zip file) containing data files, in standard comma- or tab-delimited text format, a metadata file (https://eml.ecoinformatics.org/[eml.xml]) that describes the data resource, and a metafile (meta.xml) that specifies the structure of files and data fields included in the archive. Standardized packaging ensures that the data can travel between systems using specific data exchange protocols.  <<data-packaging-and-mapping,Section 2>> of this guide provides recommendations for the mapping of the data files, while guidelines and tools for constructing the xml files can be found here: https://www.tdwg.org/standards[TDWG^], https://www.gbif.org/standards[GBIF^], and https://support.ala.org.au/support/solutions/articles/6000195499-what-are-biodiversity-data-standards-[ALA^]."
-msgstr ""
+msgstr "通用的生物多樣性資料使用了一些資料標準 (https://www.gbif.org/standards)，而基因序列資料則使用了另一套獨立的標準 (請參閱<mixs,MIxS>和<ggbn,GGBN>)。本指南呈現了為增加通用生物多樣性和基因資料標準兼容性持續努力的成果。標準通常會突顯出最重要或最常用的字段子集 (fields)。這些子集可以被稱為“核心” (cores)。目前，在GBIF和ALA網絡中發布資料的首選格式是使用 https://dwc.tdwg.org/[Darwin Core^] (DwC) 資料標準的達爾文核心集資料包 (DwC-A)。在實做中，這是一個包含資料文件的壓縮文件 (zip文件)，以標準的逗號或制表符分隔的文本格式、一個描述資料資源的詮釋資料文件 (https://eml.ecoinformatics.org/[eml.xml])、以及一個說明資料包中包含的文件和字段結構的詮釋資料文件 (meta.xml)。標準化的打包確保了資料可以使用特定的資料交換方式在系統之間流通。此文件的 <data-packaging-and-mapping,Section 2> 提供了資料文件的對照 (mapping) 建議，而有關構建xml文件的指南和工具可以在此找到：https://www.tdwg.org/standards[TDWG^]、https://www.gbif.org/standards[GBIF^]、和https://support.ala.org.au/support/solutions/articles/6000195499-what-are-biodiversity-data-standards-[ALA^]。"
 
 #. type: Plain text
 #: 100.en.adoc:76
@@ -807,7 +807,7 @@ msgstr ""
 #: 200.en.adoc:78
 #, no-wrap
 msgid "Examples of DNA-derived occurrence datasets"
-msgstr ""
+msgstr "DNA衍生出現紀錄資料集範例"
 
 #. type: Plain text
 #: 200.en.adoc:81
@@ -833,7 +833,7 @@ msgstr ""
 #: 200.en.adoc:87
 #, no-wrap
 msgid "Category II: Enriched occurrences"
-msgstr ""
+msgstr "類別二：多重引證出現紀錄"
 
 #. type: Plain text
 #: 200.en.adoc:90
@@ -844,7 +844,7 @@ msgstr ""
 #: 200.en.adoc:91
 #, no-wrap
 msgid "Examples of Enriched occurrence datasets"
-msgstr ""
+msgstr "多重引證出現紀錄資料集範例"
 
 #. type: Plain text
 #: 200.en.adoc:94
@@ -865,7 +865,7 @@ msgstr "Bessey C, Jarman SN, Stat M, Rohner CA, Bunce M, Koziol A, Power M, Ramb
 #: 200.en.adoc:100
 #, no-wrap
 msgid "Category III: Targeted species detection (qPCR/ddPCR)"
-msgstr ""
+msgstr "類別三：目標物種檢測 (qPCR/ddPCR)"
 
 #. type: Plain text
 #: 200.en.adoc:103
@@ -876,7 +876,7 @@ msgstr ""
 #: 200.en.adoc:104
 #, no-wrap
 msgid "Examples of targeted species occurrence datasets"
-msgstr ""
+msgstr "目標物種出現紀錄資料集範例"
 
 #. type: Plain text
 #: 200.en.adoc:106
@@ -968,7 +968,7 @@ msgstr ""
 #: 200.en.adoc:137
 #, no-wrap
 msgid "Data mapping"
-msgstr ""
+msgstr "資料對照 (mapping)"
 
 #. type: Plain text
 #: 200.en.adoc:140
@@ -991,12 +991,12 @@ msgstr "<<<"
 #: 200.en.adoc:146
 #, no-wrap
 msgid "Mapping metabarcoding (eDNA) and barcoding data"
-msgstr ""
+msgstr "Mapping metabarcoding (eDNA) 和barcoding資料"
 
 #. type: Plain text
 #: 200.en.adoc:149
 msgid "This section provides mapping recommendations for Categories I and II."
-msgstr ""
+msgstr "此部分呈現類別一與二在mapping上的建議。"
 
 #. type: Block title
 #: 200.en.adoc:151
@@ -1190,12 +1190,12 @@ msgstr ""
 #: 200.en.adoc:395
 #, no-wrap
 msgid "Mapping ddPCR / qPCR data"
-msgstr ""
+msgstr "Mapping ddPCR / qPCR 資料"
 
 #. type: Plain text
 #: 200.en.adoc:398
 msgid "This section provides mapping recommendations for https://academic.oup.com/view-large/199871507[Category III]."
-msgstr ""
+msgstr "此部分呈現 https://academic.oup.com/view-large/199871507[類別三] 在mapping上的建議。"
 
 #. type: Block title
 #: 200.en.adoc:400
@@ -1563,7 +1563,7 @@ msgstr ""
 #: 300.en.adoc:1
 #, no-wrap
 msgid "Future prospects"
-msgstr ""
+msgstr "前景"
 
 #. type: Plain text
 #: 300.en.adoc:4
@@ -1599,13 +1599,13 @@ msgstr ""
 #: glossary.en.adoc:2
 #, no-wrap
 msgid "Glossary"
-msgstr ""
+msgstr "詞彙"
 
 #. type: Labeled list
 #: glossary.en.adoc:5
 #, no-wrap
 msgid "[[ala]]Atlas of Living Australia (ALA)"
-msgstr ""
+msgstr "[[ala]]Atlas of Living Australia (ALA)"
 
 #. type: Plain text
 #: glossary.en.adoc:6
@@ -2544,7 +2544,7 @@ msgstr ""
 #: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "Measurement"
-msgstr "量測"
+msgstr "測量"
 
 #. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
 #: img/web/ct/dwca-structure.en.svg:4
@@ -2574,29 +2574,29 @@ msgstr ""
 #: img/web/ct/eDNA-categories.en.svg:1382
 #, no-wrap
 msgid "Category III"
-msgstr "種類 III"
+msgstr "類別三"
 
 #. type: Content of: <svg><text>
 #: img/web/ct/eDNA-categories.en.svg:1397
 #, no-wrap
 msgid "Category II"
-msgstr "種類 II"
+msgstr "類別二"
 
 #. type: Content of: <svg><text>
 #: img/web/ct/eDNA-categories.en.svg:1412
 #, no-wrap
 msgid "Category I"
-msgstr "種類 I"
+msgstr "類別一"
 
 #. type: Content of: <svg><text>
 #: img/web/ct/eDNA-categories.en.svg:1445
 #, no-wrap
 msgid "Category V"
-msgstr "種類 V"
+msgstr "類別五"
 
 #. type: Content of: <svg><text>
 #: img/web/ct/eDNA-categories.en.svg:2391
 #, no-wrap
 msgid "Category IV"
-msgstr "種類 IV"
+msgstr "類別四"
 
