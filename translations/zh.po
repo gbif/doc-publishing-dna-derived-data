@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-15 11:38\n"
+"PO-Revision-Date: 2024-03-15 12:36\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -622,7 +622,7 @@ msgstr "*物種清單*：一個簡單的表格格式，僅包括從資料集或�
 #. type: Plain text
 #: 100.en.adoc:141
 msgid "Regardless of the selected format, each GBIF user download receives a reusable link to the query and a data citation that includes a DOI. This DOI-based citation system provides the means of recognizing and crediting uses to datasets and data originators, improving both the credibility and transparency of the findings based on the data. It is essential to follow data citation recommendations and use DOIs, as good data citation culture is not only the academic norm, but also a powerful mechanism for crediting acknowledging and, therefore, incentivizing data publishers."
-msgstr ""
+msgstr "無論所選格式如何，每個GBIF用戶的下載動作都會收到一個可重複使用的查詢連結和一個包含DOI的資料引用。這種基於DOI的引用系統提供了一種辨識和表彰資料集及資料來源的方法，提高了資料的研究結果的可信度和透明度。遵循資料引用建議並使用DOI是至關重要的，因為良好的資料引用文化不僅是學術標準，而且還是一種為資料發布者帶來認可和激勵的強大機制。"
 
 #. type: Title ==
 #: 200.en.adoc:1
@@ -633,12 +633,12 @@ msgstr "資料打包與對照 (mapping)"
 #. type: Plain text
 #: 200.en.adoc:4
 msgid "This chapter focuses on practical details on turning your data export into a dataset indexed by a biodiversity data platform. <<categorization-of-your-data>> will help you understand what is the optimal mapping schema for your data at hand. <<data-mapping>> describes these mappings in detail."
-msgstr ""
+msgstr "此章節主要介紹如何將您的資料輸出轉換為生物多樣性資料平台可索引的資料集。 <<categorization-of-your-data>> 將幫助您了解您手上資料的最佳對照架構。 <<data-mapping>> 詳細描述了這些對照。"
 
 #. type: Plain text
 #: 200.en.adoc:6
 msgid "This guide combines the standards for general biodiversity data publishing with genetic DNA-derived biodiversity data (<<figure-dwca-ipt>>). This “do-section” stops at providing mapping recommendations for different types of DNA-derived data."
-msgstr ""
+msgstr "此指南將生物多樣性資料發布的標準與基因DNA衍生的生物多樣性資料相結合 (<<figure-dwca-ipt>>)。此流程的呈現停在不同類型DNA衍生資料的對照建議。"
 
 #. type: Plain text
 #: 200.en.adoc:8
@@ -649,7 +649,7 @@ msgstr ""
 #: 200.en.adoc:10
 #, no-wrap
 msgid "Zoom in of DwC-A / IPT from figure 3 in chapter 1.2. The choice of core entity is mainly a matter of fitting data to the data import mechanism (ingestion) of the biodiversity data platforms. Most data could be formulated as either Occurrence, Event or Taxon core, but as only the core can have extensions, this will affect the choice. It is for example not possible to extend occurrences with DNA sequences if data are packaged using Event core."
-msgstr ""
+msgstr "第1.2章節中圖3的DwC-A / IPT的放大圖。核心的選擇主要是將資料匹配到生物多樣性資料平台的資料導入機制 (ingestion) 中。大多數資料可以制定為出現紀錄、事件或分類單位的核心，但由於只有核心可以擴充，這將影響選擇。例如，如果使用事件核心包裝資料，則無法將DNA序列擴充為出現紀錄。"
 
 #. type: Target for macro image
 #: 200.en.adoc:12
