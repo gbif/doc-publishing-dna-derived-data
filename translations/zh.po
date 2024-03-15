@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-15 04:20\n"
+"PO-Revision-Date: 2024-03-15 05:54\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -941,7 +941,7 @@ msgstr "類別五：僅有詮釋資料的資料集"
 #. type: Plain text
 #: 200.en.adoc:129
 msgid "Metadata are data about the data and is a description of the dataset in broad terms, such as authors, author affiliations, original research purpose of the dataset, DOI(s), taxonomic scope, temporal scope, and geographical scope. Information regarding laboratory methods and general sequencing methods is included in this category. This category includes datasets or collections that cannot be made available online at the moment, e.g. undigitized work."
-msgstr ""
+msgstr "詮釋資料 (metadata) 是關於資料的資料，是對資料集的廣泛描述，內容包括作者、作者所屬機構、資料集的原始研究目的、DOI (或多個DOI)、物種分類範圍、時間範圍和地理範圍等。也包括有關實驗和定序方法的資訊。詮釋資料也可包括目前未電子化的資料集或典藏的相關資訊。"
 
 #. type: Title =====
 #: 200.en.adoc:130
@@ -962,7 +962,7 @@ msgstr "Cary S C (2015). New Zealand Terrestrial Biocomplexity Survey. SCAR - Mi
 #. type: Plain text
 #: 200.en.adoc:136
 msgid "Mapping recommendations for metadata-only DNA-derived datasets (Category V) is the same as for any other metadata-only datasets, and this guide does not provide any specific mapping recommendations for metadata. Please follow general recommendations of biodiversity data portals, paying attention to https://github.com/gbif/ipt/wiki/resourceMetadata[required and recommended metadata]. Descriptions of field, lab, and bioinformatics steps should be as detailed as possible. Describing your methods as method steps in the EML metadata makes them display on the dataset homepage in GBIF (https://www.gbif.org/dataset/3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f#methodology Frøslev T, Ejrnæs R (2018). BIOWIDE eDNA Fungi dataset. Danish Biodiversity Information Facility. Occurrence dataset https://doi.org/10.15468/nesbvx accessed via GBIF.org on 2021-07-06). However, if a structured and possibly more detailed method description is already published somewhere (e.g. at https://protocols.io[protocols.io] or https://www.neonscience.org/data-collection[NEON protocols collection]), it is straightforward to provide a link through the MIxS SOP field (see <<mapping-metabarcoding-edna-and-barcoding-data>>)."
-msgstr ""
+msgstr "對僅有詮釋資料的DNA衍生資料集 (類別五)，對照建議與其他僅有詮釋資料的資料集相同，本指南不提供僅有詮釋資料資料集的對照建議。請參考生物多樣性資料入口網的建議，並特別注意 https://github.com/gbif/ipt/wiki/resourceMetadata[所需和建議的詮釋資料]。對田野、實驗室和生物資訊學步驟的描述應盡可能詳細。GBIF的資料集頁面會呈現在EML檔案中您描述的方法和步驟 (https://www.gbif.org/dataset/3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f#methodology Frøslev T, Ejrnæs R (2018). BIOWIDE eDNA Fungi dataset. Danish Biodiversity Information Facility. Occurrence dataset https://doi.org/10.15468/nesbvx accessed via GBIF.org on 2021-07-06)。但如果某平台或發表已經描述了結構化且可能更詳細的方法 (例如 https://protocols.io[protocols.io] 或 https://www.neonscience.org/data-collection[NEON protocols collection])，則可以直接通過MIxS SOP字段提供鏈接 (參見 <<mapping-metabarcoding-edna-and-barcoding-data>>)。"
 
 #. type: Title ===
 #: 200.en.adoc:137
@@ -973,7 +973,7 @@ msgstr "資料對照 (mapping)"
 #. type: Plain text
 #: 200.en.adoc:140
 msgid "While core files store ubiquitous data on the 'what, where and when' of a record, extension files are used to describe the specifics of a certain type of observation. We propose using the https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml[DNA derived data extension] to complement occurrence data derived from either barcoding, metabarcoding (eDNA) or qPCR/ddPCR. The DNA derived data extension builds on the https://gensc.org/mixs/[Minimum information standards] developed by the Genomic Standards Consortium (GSC) and applied by the https://www.ebi.ac.uk/ena/browser/home[ENA] for https://www.ebi.ac.uk/ena/submit/mixs-checklists[submission of eDNA sample metadata], for example. We are following and have contributed to the guidelines proposed by the https://github.com/tdwg/gbwg/tree/main/dwc-mixs[Sustainable DwC-MIxS interoperability task group under TDWG]. To improve indexing and search we have opted to split some MIxS terms, for instance separating forward and reverse primer sequences and names. Furthermore, some fields from the GGBN standard and fields from the https://rdml.org/miqe.html[MIQE] (minimum information for the publication of quantitative real-time PCR) guidelines for qPCR and ddPCR data have been included to make it applicable for a wide range of DNA-derived data."
-msgstr ""
+msgstr "核心 (core) 文件紀錄有關“什麼、在哪裡和何時”的資料，而擴充 (extension) 文件用於描述特定類型觀察的細節。我們建議使用 https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml[DNA衍生資料擴充文件] 來補充來自barcoding、metabarcoding (eDNA)、或qPCR/ddPCR的出現紀錄相關資料。DNA衍生資料擴充文件由Genomic Standards Consortium (GSC) 制定的 https://gensc.org/mixs/[Minimum information standards]，並且由 https://www.ebi.ac.uk/ena/browser/home[ENA] 用於 https://www.ebi.ac.uk/ena/submit/mixs-checklists[提交eDNA樣本詮釋資料]。我們正在遵循並參與由 https://github.com/tdwg/gbwg/tree/main/dwc-mixs[TDWG的Sustainable DwC-MIxS interoperability task group] 提出的指南。為了提高索引和搜索效果，我們選擇將一些MIxS術語拆分，例如區分正向和反向引子序列和名稱。此外，一些來自GGBN標準的字段以及來自 https://rdml.org/miqe.html[MIQE] (minimum information for the publication of quantitative real-time PCR) 指南的字段已被包括在內，使其適用於廣泛範圍的DNA衍生資料。"
 
 #. type: Plain text
 #: 200.en.adoc:142
