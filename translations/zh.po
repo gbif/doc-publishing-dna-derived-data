@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-15 10:39\n"
+"PO-Revision-Date: 2024-03-15 11:38\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -499,7 +499,7 @@ msgstr "資料處理流程：從樣本到可獲取的資料 "
 #. type: Plain text
 #: 100.en.adoc:95
 msgid "Metabarcoding data can be produced from a number of different sequencing platforms (Illumina, PacBio, Oxford Nanopore, Ion Torrent, etc.) that rely on different principles for readout and generation of data that differ with respect to read length, error profile, whether sequences are single or paired-end, etc. Currently the Illumina short-read platform is the most widely adopted and as such is the basis of the descriptions here. However, the bioinformatics processing of the data follows the same general principles (QC, denoising, classification) regardless of the sequencing technology used (https://doi.org/10.3389/fmicb.2017.01561[Hugerth et al. 2017^], <<figure-sampling-processes>>)."
-msgstr ""
+msgstr "不同定序技術 (Illumina、PacBio、Oxford Nanopore、Ion Torrent等) 使Metabarcoding資料生成方面的原則不同，令讀取長度、錯誤配置文件以及序列是單端還是雙端等方面存在差異。目前， Illumina短序列平台是最廣泛採用的，因此在這裡的描述以其為基準。然而，無論使用哪種定序技術，資料的生物資訊處理都遵循相同的一般原則 (QC，去噪，分類) (https://doi.org/10.3389/fmicb.2017.01561[Hugerth等人，2017]， <<figure-sampling-processes>>)"
 
 #. type: Block title
 #: 100.en.adoc:97
@@ -522,7 +522,7 @@ msgstr "img/web/outline-of-bioinformatic-processing.en.svg"
 #. type: Plain text
 #: 100.en.adoc:106
 msgid "Typically, the DNA sequences are first pre-processed by removing primer sequences and, depending on the sequencing method used, low quality bases, usually toward the 5’ and 3’ sequence ends. Sequences not fulfilling requirements on length, overall quality, presence of primers, tags etc. are removed."
-msgstr ""
+msgstr "通常，DNA序列會首先通過去除引子序列進行處理，然後根據所使用的定序方法，通常朝向序列的5'和3'端去除低品質碱基。不符合長度、整體質量、引子、標簽等要求的序列將被移除。"
 
 #. type: Plain text
 #: 100.en.adoc:108
@@ -532,12 +532,12 @@ msgstr ""
 #. type: Plain text
 #: 100.en.adoc:110
 msgid "The PCR used for generating the sequencing library can result in the generation of artefactual sequences in the form of chimeras; a single sequence that originates from multiple parent sequences. Such sequences can be detected bioinformatically and removed, and this is typically done after denoising."
-msgstr ""
+msgstr "用於生成定序library的PCR可能會產生chimera序列，即來自多個母序列的單個序列。這樣的序列可以通過生物資訊學方法檢測並移除，通常是在去噪之後所進行。"
 
 #. type: Plain text
 #: 100.en.adoc:112
 msgid "Finally, the pre-processed sequences, OTUs or ASVs, are taxonomically classified by comparing them to a database of annotated sequences (often referred to as reference libraries, see <<taxonomy-of-sequences>>). As with the previous steps, several alternative methods are available. Most of these are either based on aligning the metabarcoding sequences to the reference sequences or on counting shared k-mers (short exact sequences)."
-msgstr ""
+msgstr "最後，將處理後的序列、OTUs或ASVs與已詮釋序列的資料庫 (通常稱為參考庫，見<<taxonomy-of-sequences>>) 進行比對，從而進行分類。與前幾個步驟一樣，這裡也有幾種替代方法可供選擇。其中大多數基於將metabarcoding序列與參考序列進行比對或計算共享的k-mers (短精確序列)。"
 
 #. type: Plain text
 #: 100.en.adoc:114
@@ -1876,7 +1876,7 @@ msgstr "海洋資料集和海洋生物多樣性信息系統 (OBIS)"
 #. type: Plain text
 #: 200.en.adoc:735
 msgid "When working with datasets originating in the marine environment, it is recommended that the information is published also in the https://obis.org[Ocean Biodiversity Information System^] (OBIS) in addition to GBIF. OBIS is a global biodiversity database, which is specialized in providing reliable and accessible data related to marine life and is a part of the IOC-UNESCO. Like GBIF, and ALA, OBIS uses the DwC-A format for data indexing and publishing. By publishing marine datasets through OBIS in addition to other biodiversity databases, the data can reach a broader audience, and diverse groups working in the field of marine biodiversity, as datasets in OBIS are often used for UN processes. With the focus on marine datasets, stringent quality controls on the data increase the reliability of the data and lead to small differences in what information is required for publishing in OBIS as opposed to GBIF."
-msgstr ""
+msgstr "在處理來自海洋環境的資料集時，除了GBIF之外，也建議將資料發布在 https://obis.org[海洋生物多樣性信息系統(OBIS)^]。 OBIS是一個全球性的生物多樣性資料庫，是IOC-UNESCO的一部分，專門提供與海洋生物相關的可靠並可查找的資料。像GBIF和ALA一樣，OBIS使用DwC-A格式進行資料索引和發布。同時將海洋資料集通過其他生物多樣性資料庫和OBIS發布，資料可以觸及更廣泛的受眾，以及在海洋生物多樣性領域工作的多個社群，因為OBIS中的資料常應用在聯合國的相關工作。海洋資料發布到OBIS時所需的資訊與GBIF有些不同的小差異，這些差異帶出了資料嚴格品質管控，提高了海洋資料集資料的可信度。"
 
 #. type: Plain text
 #: 200.en.adoc:737
