@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-11-09 18:07\n"
+"PO-Revision-Date: 2024-01-18 22:44\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -494,18 +494,18 @@ msgstr "Tenga en cuenta que se espera que los poseedores de las secuencias gené
 #: 100.en.adoc:92
 #, no-wrap
 msgid "Processing workflows: from sample to ingestible data "
-msgstr ""
+msgstr "Procesando flujos de trabajo: desde la muestra hasta la ingesta de datos "
 
 #. type: Plain text
 #: 100.en.adoc:95
 msgid "Metabarcoding data can be produced from a number of different sequencing platforms (Illumina, PacBio, Oxford Nanopore, Ion Torrent, etc.) that rely on different principles for readout and generation of data that differ with respect to read length, error profile, whether sequences are single or paired-end, etc. Currently the Illumina short-read platform is the most widely adopted and as such is the basis of the descriptions here. However, the bioinformatics processing of the data follows the same general principles (QC, denoising, classification) regardless of the sequencing technology used (https://doi.org/10.3389/fmicb.2017.01561[Hugerth et al. 2017^], <<figure-sampling-processes>>)."
-msgstr ""
+msgstr "Los datos de Metabarcoding se pueden producir a partir de diferentes plataformas de secuenciación (Illumina, PacBio, Oxford Nanopore, Ion Torrent, etc.) que se basan en diferentes principios para la lectura y la generación de datos que difieren con respecto a la longitud de lectura, si las secuencias son simples o emparejadas, etc. Actualmente la plataforma de lectura corta Illumina es la más ampliamente adoptada, y como tal es la base de las descripciones aquí. Sin embargo, el procesamiento bioinformático de los datos sigue los mismos principios generales (QC, denoising, clasificación) independientemente de la tecnología de secuenciación utilizada (https://doi.org/10.3389/fmicb.2017.01561[Hugerth et al. 2017^], <<figure-sampling-processes>>)."
 
 #. type: Block title
 #: 100.en.adoc:97
 #, no-wrap
 msgid "Outline of bioinformatic processing of metabarcoding data."
-msgstr ""
+msgstr "Esquema del procesamiento bioinformático del metabarcoding."
 
 #. type: Target for macro image
 #: 100.en.adoc:99
@@ -522,12 +522,12 @@ msgstr ""
 #. type: Plain text
 #: 100.en.adoc:106
 msgid "Typically, the DNA sequences are first pre-processed by removing primer sequences and, depending on the sequencing method used, low quality bases, usually toward the 5’ and 3’ sequence ends. Sequences not fulfilling requirements on length, overall quality, presence of primers, tags etc. are removed."
-msgstr ""
+msgstr "Por lo general, las secuencias de ADN son pre-procesadas eliminando las secuencias primarias y, dependiendo del método de secuenciación utilizado, bases de baja calidad, generalmente hacia los extremos de la secuencia 5' y 3'. Se eliminan las secuencias que no cumplen los requisitos de longitud, calidad general, presencia de primers, etiquetas, etc."
 
 #. type: Plain text
 #: 100.en.adoc:108
 msgid "The pre-processed sequences can then be assigned a taxon by comparing them against reference databases. When reference databases are incomplete, sequences classification can be done without taxonomic identifications, either by clustering sequences into operational taxonomic units based on their similarity (OTUs; https://doi.org/10.1098/rstb.2005.1725[Blaxter et al. 2005^]) or by denoising the data, i.e. explicitly detecting and excluding PCR/sequencing errors sequences to produce amplicon sequence variants (ASV; also referred to as zero radius OTU (zOTU)). Denoising attempts to correct errors that have been introduced in the PCR and/or sequencing steps, such that the denoised sequences are the set of unique biologically real sequences present in the original sequence mixture. In case of paired-end sequences, the forward and reverse sequences may be denoised separately before merging or else merged prior to denoising. ASVs in the resulting set can differ by as little as one base which is indicative of inter- or intraspecific sequence variation. Operationally, ASVs may be thought of as OTUs without defined radius and while denoising algorithms are typically very good, they do not entirely remove the problems of over-splitting or lumping sequences."
-msgstr ""
+msgstr "Las secuencias pre-procesadas pueden ser asignadas a un taxón al compararlas con las bases de datos de referencia. Cuando las bases de datos de referencia están incompletas, la clasificación de secuencias puede hacerse sin identificaciones taxonómicas, o agrupando secuencias en unidades taxonómicas operativas basadas en su similitud (OTUs; https://doi.org/10.1098/rstb.2005.1725[Blaxter et al. 2005^]) o mediante el denoising de los datos, p.e. detección y exclusión explícita de secuencias de errores PCR/secuenciación para producir variantes de secuencia de amplicón (ASV; también referida como cero radio OTU (zOTU)). Los intentos de denoising para corregir errores que se han introducido en el PCR y/o pasos de secuenciación, tal que las secuencias denoised son el conjunto de secuencias biológicamente reales únicas presentes en la mezcla de la secuencia original. En caso de secuencias de extremos emparejados, las secuencias de adelante e inversa pueden ser denoised por separado antes de fusionarse o fusionarse antes de ser denoised. Las ASV en el conjunto resultante pueden diferir por tan solo una base que es indicativa de variación de secuencia inter o intraspectiva. Operacionalmente, las ASV pueden ser consideradas como OTUs sin radio definido y, mientras que los denoising algoritmos son normalmente muy buenos, no eliminan por completo los problemas de las secuencias de sobredivisión o repartición."
 
 #. type: Plain text
 #: 100.en.adoc:110
@@ -667,18 +667,18 @@ msgstr "img/web/ct/dwca-structure.en.svg"
 #: 200.en.adoc:18
 #, no-wrap
 msgid "Categorization of your data"
-msgstr ""
+msgstr "Categorización de los datos"
 
 #. type: Plain text
 #: 200.en.adoc:21
 msgid "For the purpose of this guide, we categorize data into five categories, linked by a key ID field (_eventID_), equivalent to the standards for general biodiversity data, and include fields relevant for DNA-derived data (see xref:data-mapping[xrefstyle=\"full\"]). These five categories seek to reflect the most commonly used molecular approaches to biodiversity characterization and are I) DNA-derived occurrences, II) enriched occurrences, III) targeted species detection, IV) name references and V) metadata only. Examine the decision tree and proceed to the correct section below."
-msgstr ""
+msgstr "Para el propósito de esta guía, categorizamos los datos en cinco categorías, enlazados por un campo ID clave (_eventID_), equivalente a los estándares para datos generales de biodiversidad, y se incluyen campos relevantes para los datos derivados de ADN (see xref:data-mapping[xrefstyle=\"full\"]). Estas cinco categorías buscan reflejar los enfoques moleculares más comúnes utilizados para la caracterización de biodiversidad y son I) Registros biológicos derivados de ADN, II) Registros biológicos enriquecidos, III) Detección de especies objetivo (qPCR/ddPCR), IV) Referencia de nombres científicos y V) Conjuntos de solo metadatos. Examine el árbol de decisión y proceda a la sección correcta."
 
 #. type: Block title
 #: 200.en.adoc:23
 #, no-wrap
 msgid "A decision tree for DNA-derived data categorization."
-msgstr ""
+msgstr "Árbol de decisión para la categorización de datos derivados de ADN."
 
 #. type: Table
 #: 200.en.adoc:58
@@ -709,7 +709,32 @@ msgid "5+|\n"
 "|No +\n"
 "↓\n"
 "|\n\n"
-msgstr ""
+msgstr "5+|\n"
+"icon:question-circle[] _¿Sus datos son derivados de (meta)barcoding o basados en qPCR?_\n\n"
+"4+|(Meta)barcoding +\n"
+"↓\n"
+"|qPCR +\n"
+"↓\n\n"
+"4+|icon:question-circle[] _¿Los datos consisten en materia genético digitalizado, o secuencias, asociadas con un momento y lugar?_\n"
+"|*<<category-iii,Category III>>* +\n"
+"Detección de especies objetivo\n\n"
+"2+|Sí +\n"
+"↓\n"
+"2+|No +\n"
+"↓\n"
+"|\n\n"
+"2+.^|icon:question-circle[] _¿El material genético es la *únicA* evidencia del organismo dado o comunidad?_\n"
+"2+.^|icon:question-circle[] _¿El conjunto de datos es una lista de nombres derivados de ADN?_\n"
+"|\n\n"
+"|Sí +\n"
+"↓\n"
+"|No +\n"
+"↓\n"
+"|Sí +\n"
+"↓\n"
+"|No +\n"
+"↓\n"
+"|\n\n"
 
 #. type: Block title
 #: 200.en.adoc:58
@@ -753,7 +778,7 @@ msgstr "<|*<<category-v,Category V>>* +"
 #. type: Table
 #: 200.en.adoc:67
 msgid "Metadata-only |"
-msgstr "Solo metadato"
+msgstr "Solo metadato |"
 
 #. type: Block title
 #: 200.en.adoc:70
@@ -895,12 +920,12 @@ msgstr ""
 #. type: Plain text
 #: 200.en.adoc:121
 msgid "The International Barcode of Life Consortium (2016). International Barcode of Life project (iBOL) Barcode Index Numbers (BINs). Checklist dataset https://doi.org/10.15468/wvfqoi accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "The International Barcode of Life Consortium (2016). International Barcode of Life project (iBOL) Barcode Index Numbers (BINs). Checklist dataset https://doi.org/10.15468/wvfqoi accessed via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:122
 msgid "PlutoF (2019). UNITE - Unified system for the DNA based fungal species linked to the classification. Version 1.2. Checklist dataset https://doi.org/10.15468/mkpcy3 accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "PlutoF (2019). UNITE - Unified system for the DNA based fungal species linked to the classification. Version 1.2. Checklist dataset https://doi.org/10.15468/mkpcy3 accessed via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:124
@@ -911,28 +936,28 @@ msgstr ""
 #: 200.en.adoc:126
 #, no-wrap
 msgid "Category V: Metadata-only datasets"
-msgstr ""
+msgstr "Categoría V: Conjuntos de solo metadatos"
 
 #. type: Plain text
 #: 200.en.adoc:129
 msgid "Metadata are data about the data and is a description of the dataset in broad terms, such as authors, author affiliations, original research purpose of the dataset, DOI(s), taxonomic scope, temporal scope, and geographical scope. Information regarding laboratory methods and general sequencing methods is included in this category. This category includes datasets or collections that cannot be made available online at the moment, e.g. undigitized work."
-msgstr ""
+msgstr "Los metadatos son datos acerca de los datos y son una descripción del conjunto de datos en términos generales, con información como los autores, la afiliación de los autores, el objetivo original de investigación del conjunto de datos, los DOIs asociados, la cobertura taxonómica, la cobertura temporal y la cobertura geográfica. La información asociada a los métodos de laboratorio y métodos generales de secuenciación están incluídos en esta categoría. Esta categoría incluye conjuntos de datos o colecciones que no pueden estar disponibles en línea en este momento, por ejemplo trabajos sin digitalizar."
 
 #. type: Title =====
 #: 200.en.adoc:130
 #, no-wrap
 msgid "Examples of Metadata-only datasets"
-msgstr ""
+msgstr "Ejemplos de conjuntos de datos de solo metadatos"
 
 #. type: Plain text
 #: 200.en.adoc:133
 msgid "Collins E, Sweetlove M (2019). Arctic Ocean microbial metagenomes sampled aboard CGC Healy during the 2015 GEOTRACES Arctic research cruise. SCAR - Microbial Antarctic Resource System. Metadata dataset https://doi.org/10.15468/iljmun accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "Collins E, Sweetlove M (2019). Arctic Ocean microbial metagenomes sampled aboard CGC Healy during the 2015 GEOTRACES Arctic research cruise. SCAR - Microbial Antarctic Resource System. Metadata dataset https://doi.org/10.15468/iljmun accessed via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:134
 msgid "Cary S C (2015). New Zealand Terrestrial Biocomplexity Survey. SCAR - Microbial Antarctic Resource System. Metadata dataset https://doi.org/10.15468/xnzrhq accessed via GBIF.org on 2020-04-16."
-msgstr ""
+msgstr "Cary S C (2015). New Zealand Terrestrial Biocomplexity Survey. SCAR - Microbial Antarctic Resource System. Metadata dataset https://doi.org/10.15468/xnzrhq accessed via GBIF.org on 2020-04-16."
 
 #. type: Plain text
 #: 200.en.adoc:136
