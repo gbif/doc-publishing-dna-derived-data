@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-14 10:19\n"
+"PO-Revision-Date: 2024-03-15 02:10\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -611,13 +611,13 @@ msgstr "簡易格式 (Simple)：一種簡易的以制表符分隔的格式，僅
 #: 100.en.adoc:139
 #, no-wrap
 msgid "*Darwin Core Archive*: richer format that includes both the interpreted data and the original verbatim version provided by the publisher (prior to indexing and interpretation by GBIF). Because it includes all the metadata and issue flags, this format provides a richer view of the downloaded dataset. \n"
-msgstr ""
+msgstr "*達爾文核心資料包*：較豐富的資料格式，包括發布者提供的原始資料版本 (在GBIF進行索引和詮釋之前)。這種格式可以從下載的資料集中得到更多資訊，因為它也包含了詮釋資料和資料問題標記。\n"
 
 #. type: Plain text
 #: 100.en.adoc:140
 #, no-wrap
 msgid "*Species list*: a simple table format that includes only an interpreted list of unique species names from a dataset or query result. \n"
-msgstr ""
+msgstr "*物種清單*：一個簡單的表格格式，僅包括從資料集或查詢結果中已詮釋的物種名稱列表。\n"
 
 #. type: Plain text
 #: 100.en.adoc:141
@@ -740,7 +740,7 @@ msgstr "5+|\n"
 #: 200.en.adoc:58
 #, no-wrap
 msgid "<|*<<category-i,Category I>>* +"
-msgstr "<|*<<category-i,類別 I>>* +"
+msgstr "<|*<<category-i,類別一>>* +"
 
 #. type: Table
 #: 200.en.adoc:60
