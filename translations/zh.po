@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-15 03:19\n"
+"PO-Revision-Date: 2024-03-15 04:20\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -628,7 +628,7 @@ msgstr ""
 #: 200.en.adoc:1
 #, no-wrap
 msgid "Data packaging and mapping"
-msgstr "資料打包與圖譜建立 (mapping)"
+msgstr "資料打包與對照 (mapping)"
 
 #. type: Plain text
 #: 200.en.adoc:4
@@ -886,7 +886,7 @@ msgstr "Strzelecki, Joanna; Feng, Ming; Berry, Olly; Zhong, Liejun; Keesing, Joh
 #. type: Plain text
 #: 200.en.adoc:108
 msgid "For guidance on how to format and share these datasets, see <<mapping-ddpcr-qpcr-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
-msgstr ""
+msgstr "請參考 <<mapping-ddpcr-qpcr-data>> 以了解如何格式化和分享這些資料集。有關達爾文核心出現紀錄資料集的指南也可通過 https://github.com/gbif/ipt/wiki/occurrenceData#templates[達爾文核心出現紀錄資料集的 DwC-A 模板] 和 https://www.gbif.org/data-quality-requirements-occurrences[出現紀錄資料的品質要求] 獲得。"
 
 #. type: Title ====
 #: 200.en.adoc:110
@@ -897,13 +897,13 @@ msgstr "類別四：物種基因代號"
 #. type: Plain text
 #: 200.en.adoc:113
 msgid "This category corresponds to DNA-derived names, derived from clustering or denoising (error-correction based models), such as stable non-Linnaean Operational Taxonomic Units (OTU), Amplicon Sequence Variant (ASV) and Barcode Index Numbers (BIN)—in other words, any reference to taxa or provisional names that are defined outside of the Linnaean taxonomy. Numerous projects produce local project- or study-specific libraries of OTUs, and although it is technically possible to publish these as checklists, they have limited to no value for data linking or interpretation; as a result, we do not encourage their publication through biodiversity data platforms. However, the inclusion of the widely adopted, stable, global, digitally referenceable OTUs into Linnaean taxonomic backbones is critically important for indexing unnamed “dark” biodiversity. GBIF have accumulated experience in integrating such large and global reference libraries of OTUs into the GBIF taxonomic backbone, which allows the display of OTUs under the nearest parent taxon which has a Scientific name (<<figure-otus>>)."
-msgstr ""
+msgstr "這個類別對應於DNA衍生的代號名稱，是從序列分群 (clustering) 或去噪 (denoising，基於錯誤校正的模型) 中衍生出來的，例如穩定的非林奈操作分類單元 (OTU)、擴增子序列變體 (ASV) 和Barcode Index Numbers (BINs) — 換句話說，任何與林奈分類系外定義的分類群或臨時名稱相關的參考。許多計畫會產生特定研究的OTU資料庫，儘管從技術上來說將其發布為物種清單雖是可行的，但它們對於資料連結或詮釋幾乎沒有價值；因此，我們不鼓勵這類型的資料通過生物多樣性資料平台來做發布。然而，被廣泛採用、穩定、全球化、數位化及可參考的OTU包含到林奈分類的骨架中對於索引未命名的“黑暗”生物多樣性至關重要。GBIF在將這些大型全球OTU資料庫整合到GBIF分類骨架中積累了豐富的經驗，這使得可以在具有科學名稱的最接近的分類學名下顯示該OTU (<<figure-otus>>)。"
 
 #. type: Block title
 #: 200.en.adoc:115
 #, no-wrap
 msgid "OTUs (SHs) from UNITE (mainly fungi, above) and from BOLD (BINs) (mainly arthropods, below) are displayed in the GBIF backbone taxonomy under their corresponding parent taxa which have Scientific names. Multiple individually observed occurrences of cryptic biodiversity become discoverable together with non-genetic evidence through a single access point."
-msgstr ""
+msgstr "來自UNITE (主要是真菌，上方) 和來自BOLD (BINs)(主要是節肢動物，下方) 的OTUs (SHs) 在GBIF分類骨架中以具有科學名稱的對應分類下在網頁的呈現。通過單一訪問點，多個個別觀察到的隱藏生物多樣性會隨著非基因來源的證據一起變得可發現。"
 
 #. type: Target for macro image
 #: 200.en.adoc:116
@@ -930,7 +930,7 @@ msgstr "PlutoF (2019). UNITE - Unified system for the DNA based fungal species l
 #. type: Plain text
 #: 200.en.adoc:124
 msgid "This guide does not provide mapping recommendations for global OTU checklists / reference libraries (Category IV), and publishing referenceable (project- or study-specific) OTU libraries as checklists is discouraged. For guidance on how to format and share OTU checklists, see the following general Darwin Core guidelines in https://github.com/gbif/ipt/wiki/checklistData#templates[DwC-A template for checklists] and https://www.gbif.org/data-quality-requirements-checklists[Data quality requirements for checklists]. https://www.ebi.ac.uk/ena/submit/mixs-checklists[General guidelines for MIxS checklists]. For advice on how to map global reference libraries of OTUs for inclusion in the GBIF taxonomic backbone, contact the mailto:helpdesk@gbif.org[GBIF help desk]."
-msgstr ""
+msgstr "此指南未提供全球OTU名錄清單/資料庫 (類別四) 的對照建議，並且不建議將 (計畫或研究特定的) OTU資料庫發布為物種清單。有關如何格式化和共享OTU物種清單的指南，請參見以下 https://github.com/gbif/ipt/wiki/checklistData#templates[DwC-A物種清單模板] 和 https://www.gbif.org/data-quality-requirements-checklists[物種清單的資料品質要求] 中的達爾文核心指南。https://www.ebi.ac.uk/ena/submit/mixs-checklists[MIxS物種清單的一般指南]。如需有關如何將全球OTU資料庫對照到GBIF分類骨架中的建議，請聯繫 mailto:helpdesk@gbif.org[GBIF help desk]。"
 
 #. type: Title ====
 #: 200.en.adoc:126
