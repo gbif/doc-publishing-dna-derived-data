@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-15 12:36\n"
+"PO-Revision-Date: 2024-03-16 03:26\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -827,7 +827,7 @@ msgstr "Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection wit
 #. type: Plain text
 #: 200.en.adoc:85 200.en.adoc:98
 msgid "For guidance on how to format and share these datasets, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
-msgstr ""
+msgstr "請參考 <<mapping-metabarcoding-edna-and-barcoding-data>> 以了解如何格式化和分享這些資料集。有關達爾文核心出現紀錄資料集的指南也可通過 https://github.com/gbif/ipt/wiki/occurrenceData#templates[達爾文核心出現紀錄資料集的 DwC-A模板] 和 https://www.gbif.org/data-quality-requirements-occurrences[出現紀錄資料的品質要求] 獲得。"
 
 #. type: Title ====
 #: 200.en.adoc:87
@@ -838,7 +838,7 @@ msgstr "類別二：多重引證出現紀錄"
 #. type: Plain text
 #: 200.en.adoc:90
 msgid "If some genetic material is, or can be, associated with an observation or a specimen, we will categorize this type of data as “enriched occurrences”. In this context, the sequences are not the only evidence of occurrences. One can always trace the information back to a vouchered specimen or observed organism. This category includes barcoding datasets and some DNA metabarcoding datasets with reference material for example. For more guidance on barcoding, follow https://www.cbd.int/doc/publications/cbd-ts-94-en.pdf[Centre for Biodiversity Genomics, University of Guelph (2021)]."
-msgstr ""
+msgstr "如果某些遺傳物質與觀察或標本相關聯，或者可以與之相關聯，我們將此類資料歸類為“多重引證出現紀錄”。在這種情況下，序列並不是出現紀錄的唯一證據。人們總是可以將資訊追溯到有標本證明或觀察到的生物體，例如該類別包括條形碼資料集和一些具有參考材料的DNA metabarcoding資料集。有關條形碼的更多資訊，請參閱 https://www.cbd.int/doc/publications/cbd-ts-94-en.pdf[Centre for Biodiversity Genomics, University of Guelph (2021年)]。"
 
 #. type: Title =====
 #: 200.en.adoc:91
