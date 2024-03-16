@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-16 11:05\n"
+"PO-Revision-Date: 2024-03-16 12:28\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -488,7 +488,7 @@ msgstr "資料集及其相關的詮釋資料被每個資料入口網索引：這
 #. type: Plain text
 #: 100.en.adoc:91
 msgid "Note that holders of genetic sequence data are expected to upload and archive genetic sequence data in raw sequence data repositories such as NCBI’s https://www.ncbi.nlm.nih.gov/genbank/submit/[SRA^], EMBL’s https://biodiversitydata-se.github.io/mol-data/ena-metabar.html[ENA^] or https://www.ddbj.nig.ac.jp/submission-e.html[DDBJ^]. The sequence archival topic is not covered here, but e.g. https://doi.org/10.3897/rio.3.e12431[Penev et al. (2017)] provide a general overview of the importance of data submission and guidelines in connection with scientific publication. Biodiversity data platforms such as ALA, GBIF, and most national biodiversity portals are not archives or repositories for raw sequence reads and associated files. We do, however, stress the importance of maintaining links between such primary data and derived occurrences in <<data-packaging-and-mapping,Section 2>>."
-msgstr ""
+msgstr "基因序列資料的持有者應該將基因序列上傳並存檔在原始序列資料存儲庫中，例如NCBI的 https://www.ncbi.nlm.nih.gov/genbank/submit/[SRA^]，EMBL的 https://biodiversitydata-se.github.io/mol-data/ena-metabar.html[ENA^]，或 https://www.ddbj.nig.ac.jp/submission-e.html[DDBJ^]。這裡不涉及序列存檔的討論，不過 https://doi.org/10.3897/rio.3.e12431[Penev等人 (2017)] 提供了有關科學出版物中資料提交和指南的概述。ALA、GBIF和大多數國家生物多樣性入口網與平台不是原始序列和相關文件的存儲庫。我們強調在 <data-packaging-and-mapping,Section 2> 中維持這些原始資料與衍生出現紀錄之間的連結的重要性。"
 
 #. type: Title ===
 #: 100.en.adoc:92
@@ -527,7 +527,7 @@ msgstr "通常，DNA序列會首先通過去除引子序列進行處理，然後
 #. type: Plain text
 #: 100.en.adoc:108
 msgid "The pre-processed sequences can then be assigned a taxon by comparing them against reference databases. When reference databases are incomplete, sequences classification can be done without taxonomic identifications, either by clustering sequences into operational taxonomic units based on their similarity (OTUs; https://doi.org/10.1098/rstb.2005.1725[Blaxter et al. 2005^]) or by denoising the data, i.e. explicitly detecting and excluding PCR/sequencing errors sequences to produce amplicon sequence variants (ASV; also referred to as zero radius OTU (zOTU)). Denoising attempts to correct errors that have been introduced in the PCR and/or sequencing steps, such that the denoised sequences are the set of unique biologically real sequences present in the original sequence mixture. In case of paired-end sequences, the forward and reverse sequences may be denoised separately before merging or else merged prior to denoising. ASVs in the resulting set can differ by as little as one base which is indicative of inter- or intraspecific sequence variation. Operationally, ASVs may be thought of as OTUs without defined radius and while denoising algorithms are typically very good, they do not entirely remove the problems of over-splitting or lumping sequences."
-msgstr ""
+msgstr "預處理過的序列可以通過與參考資料庫進行比較來分配分類單元。當參考資料庫不完整時，也可以在無進行分類識別的情況下對序列進行分群，方法之一是根據它們的相似性將序列分群為操作性分類單元 (OTUs；https://doi.org/10.1098/rstb.2005.1725[Blaxter et al. 2005^])。另一種方法是對序列進行去噪，即明確檢測和排除PCR/序列的錯誤，以生成ASV；也稱為zero-radius OTU (zOTU)。去噪試圖糾正PCR和/或序列步驟中產生的錯誤，使得去噪後的序列是原始序列混合物中存在的真實生物序列。Paired-end序列可以在合併之前對前向和反向序列進行單獨的去噪，或者在去噪前進行合併。結果集中的ASVs可能相差僅一個碱基，這表明了种内或种间的序列变异。在操作上，ASVs可以被認為是没有定義radius的OTUs。儘管去噪演算法通常非常出色，但它們並不能完全去除分裂或合併序列的問題。"
 
 #. type: Plain text
 #: 100.en.adoc:110
@@ -672,7 +672,7 @@ msgstr "資料類別"
 #. type: Plain text
 #: 200.en.adoc:21
 msgid "For the purpose of this guide, we categorize data into five categories, linked by a key ID field (_eventID_), equivalent to the standards for general biodiversity data, and include fields relevant for DNA-derived data (see xref:data-mapping[xrefstyle=\"full\"]). These five categories seek to reflect the most commonly used molecular approaches to biodiversity characterization and are I) DNA-derived occurrences, II) enriched occurrences, III) targeted species detection, IV) name references and V) metadata only. Examine the decision tree and proceed to the correct section below."
-msgstr ""
+msgstr "以這個指南的目的，我們將資料分為五個類別，通過一個關鍵的ID字段 (_eventID_) 進行關聯，該字段相當於一般生物多樣性資料的標準，並包括與DNA相關的字段 (見 xref:data-mapping[xrefstyle=\"full\"])。這五個類別旨在反映研究生物多樣性裡最常用的分子方法，分別是(一) DNA衍生出現紀錄、(二) 多重引證出現紀錄、(三) 目標物種檢測、(四) 物種基因代號、和 (五) 僅有詮釋資料的資料集。使用下列的決策樹來引導至該類別。"
 
 #. type: Block title
 #: 200.en.adoc:23
@@ -801,7 +801,7 @@ msgstr "類別一：DNA衍生出現紀錄"
 #. type: Plain text
 #: 200.en.adoc:77
 msgid "This category concerns data where a DNA sequence or detection through PCR is the only evidence for the presence of a given organism or community. In other words, the data cannot be traced back to an observable specimen. This is the case for many metagenomics, metabarcoding and eDNA studies."
-msgstr ""
+msgstr "此類別涉及到的資料是指DNA序列或PCR檢測為唯一用來證明特定生物體或群落存在的證據。換句話說，這些資料無法追溯到可觀察的標本。這是許多總體基因體學、metabarcoding和eDNA研究的情況。"
 
 #. type: Title =====
 #: 200.en.adoc:78
