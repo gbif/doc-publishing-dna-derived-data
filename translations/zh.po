@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-16 05:24\n"
+"PO-Revision-Date: 2024-03-16 08:34\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -2182,7 +2182,7 @@ msgstr "[[doi]]數位物件識別碼 (DOI)"
 #. type: Plain text
 #: glossary.en.adoc:20
 msgid "Long-lasting reference used to uniquely identify (and locate) digital information objects, such as a biodiversity data set or a scientific publication."
-msgstr ""
+msgstr "用於唯一識別 (和定位) 數位化資訊物件的永久性參考，例如生物多樣性資料集或科學出版物。"
 
 #. type: Labeled list
 #: glossary.en.adoc:20
@@ -2193,7 +2193,7 @@ msgstr "[[barcoding]]DNA 條形碼與元條形碼 (擴增子定序)"
 #. type: Plain text
 #: glossary.en.adoc:21
 msgid "Use of short, standardized DNA fragments to identify individual organisms via sequencing. Metabarcoding combines barcoding with high-throughput DNA sequencing, using universal primers to amplify and sequence large groups of organisms in eDNA samples."
-msgstr ""
+msgstr "使用短、標準化的DNA片段通過序列化來識別個體生物的方法。Metabarcoding將條形碼技術與高通量DNA序列化結合，使用通用引子來放大和序列化eDNA樣本中的大量生物群。"
 
 #. type: Labeled list
 #: glossary.en.adoc:21
@@ -2204,7 +2204,7 @@ msgstr "[[dna-marker]]DNA分子標記 (marker)"
 #. type: Plain text
 #: glossary.en.adoc:22
 msgid "A DNA fragment used as a marker of some property (e.g., taxonomic affiliation). May, but does not have to, be a gene or a part of a gene."
-msgstr ""
+msgstr "DNA片段作為某種特性 (例如分類歸屬) 的標記。可能是基因或基因的一部分，但不一定是。"
 
 #. type: Labeled list
 #: glossary.en.adoc:22
@@ -2215,7 +2215,7 @@ msgstr "[[dna-db]]DNA高通量分子條碼資料庫"
 #. type: Plain text
 #: glossary.en.adoc:23
 msgid "Database containing DNA sequences (DNA barcodes) from previously recovered or studied organisms. The reference sequences were ideally generated from individuals of described, well-studied species-with the type specimen serving as the ideal-or higher taxonomic level (e.g., genus, family), but may also stem from eDNA sequencing efforts. It is wise not to trust “reference sequences” blindly."
-msgstr ""
+msgstr "包含先前研究過的生物的DNA序列 (DNA條碼) 的資料庫。理想情況下的參考序列是從已描述和研究充分的物種的個體中生成的，以模式標本最為理想，或者高一級的分類階層 (例如屬、科)，但也可能來自eDNA定序。盲目的信任 “參考序列” 是不建議的。"
 
 #. type: Labeled list
 #: glossary.en.adoc:23
@@ -2226,7 +2226,7 @@ msgstr "[[dna-probe]]DNA探針 (probe)"
 #. type: Plain text
 #: glossary.en.adoc:24
 msgid "A short, synthetic single-stranded DNA fragment with fluorescent labelling that binds to a selected region of target DNA (marker) during PCR. Increases specificity and can be used in addition to primers in <<qpcr,qPCR>> and <<ddpcr,ddPCR>> to detect and quantify a genetic marker."
-msgstr ""
+msgstr "一段短與帶有螢光標記的合成單股DNA片段，在PCR過程中結合到目標DNA的特定區域 (標記)。增加了特異性使其可以與引子一起在<qpcr,qPCR>和<ddpcr,ddPCR>中使用以檢測和定量一個基因標記。"
 
 #. type: Labeled list
 #: glossary.en.adoc:24
