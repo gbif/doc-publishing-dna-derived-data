@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-16 03:26\n"
+"PO-Revision-Date: 2024-03-16 05:24\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -870,7 +870,7 @@ msgstr "類別三：目標物種檢測 (qPCR/ddPCR)"
 #. type: Plain text
 #: 200.en.adoc:103
 msgid "This category concerns data where a specific (qPCR/ddPCR) assay is used to detect the presence (or absence) of a DNA sequence specific to the target organism in an environmental sample. In this case the occurrence record may not even contain sequence data, as it is the process itself that determines the occurrence. With qPCR/ddPCR analyses for targeted species detection, many studies also report absence of that specific species for a given sample. Absence data is highly dependent on the detection limit of the specific assay, as well as field and lab protocols. As for DNA-metabarcoding data there is an issue of both false negatives and false positives, and it is important that sufficient information is reported for evaluating the records."
-msgstr ""
+msgstr "此類別涉及使用特定 (qPCR/ddPCR) assay檢測環境樣本中目標生物的DNA序列存在 (或不存在) 的資料。在這種情況下，出現記錄甚至可能不包含序列資料，因為是該檢測流程確定了該物種為“存在”。通過qPCR/ddPCR分析進行目標物種檢測，許多研究也報告了特定樣本中該特定物種的\"不存在\"。不存在資料高度依賴於特定assay的檢測限制，以及野外和實驗室的操作方法。對於DNA-metabarcoding資料存在假陰性和假陽性的問題，重要的是發布足夠的資訊以評估該記錄。"
 
 #. type: Title =====
 #: 200.en.adoc:104
@@ -1881,18 +1881,18 @@ msgstr "在處理來自海洋環境的資料集時，除了GBIF之外，也建�
 #. type: Plain text
 #: 200.en.adoc:737
 msgid "To ensure consistent taxonomic nomenclature OBIS uses the https://www.marinespecies.org/[World Register of Marine Species^] (WoRMS) as the only taxonomic backbone. This is the case also for occurrences derived from genetic data; a scientific name linked to a scientific name ID from the WoRMS database is highly recommended information for publishing. If a scientific name ID is not provided, OBIS will try to match the scientific name with WoRMS during ingestion, but this should be avoided whenever possible. Scientific names not listed in WoRMS are acceptable, and will be submitted to WoRMS for review and possible inclusion in the register. Fully unclassified sequences are recommended to be classified as \"incertae sedis\", with the WoRMS `scientificNameID` urn:lsid:marinespecies.org:taxname:12. This will ensure correct interpretation by both GBIF and OBIS. Additionally, it is recommended that sequence identifiers from the used reference databases (e.g. Barcode index numbers: BINs from BOLD) be added in the `taxonConceptID` field of the occurrence core table. In this way OBIS will retain its taxonomic backbone based on WoRMS, while enabling linking to disparate reference sequence databases. Names from reference databases which are not strictly scientific names, can be added as `verbatimIdentification`. Automatic classification of species names can often be done through the WoRMS taxon match services and R packages like worrms and taxize. In the future, OBIS plans to periodically search and update the taxonomic assignments of submitted sequences as reference databases develop with time, so recording the sequence information linked to each occurrence is highly recommended."
-msgstr ""
+msgstr "為了確保一致的分類學命名方式，OBIS使用 https://www.marinespecies.org/[世界海洋物種名錄^] (WoRMS) 作為唯一的分類學骨架。這也適用於從基因資料衍生的出現記錄；從WoRMS資料庫中，連結出現紀錄學名到WoRMS資料庫的scientific name ID是高度推薦的做法。如果未提供scientific name ID，OBIS將在資料詮釋過程中嘗試將學名與WoRMS比對，但應避免這樣做。未列在WoRMS中的學名是可以被接受的，WoRMS將會在後續資料詮釋過程中進行審查並可能納入學名到資料庫裡。未分類的序列建議分類為“incertae sedis”，並將WoRMS的 `scientificNameID` 輸入為 urn:lsid:marinespecies.org:taxname:12。這將確保GBIF和OBIS可正確的詮釋資料。此外，建議將所使用的序列資料庫 (例如BOLD中的Barcode index numbers：BINs) 的序列識別碼添加到出現紀錄核心表的 `taxonConceptID` 字段中。通過這種方式，OBIS將保留基於WoRMS的分類學骨架，同時實現與不同的參考序列資料庫的連結。如果來自參考資料庫的名稱不是嚴格的學名，可以添加為 `verbatimIdentification`。物種學名的自動分類通常可以通過WoRMS分類比對工具和R套件 (如worrms和taxize) 完成。將來OBIS計劃定期搜索和更新已發布序列的分類，因此也強烈建議記錄序列與每個出現相關聯的資訊。"
 
 #. type: Plain text
 #: 200.en.adoc:739
 msgid "Another required field in OBIS data submissions are geographic coordinates. OBIS performs additional quality checks related to marine data; e.g. that coordinates for strictly marine species are not on land, and that the depth value reported is in a reasonable range. Finally, it should be mentioned that in addition OBIS supports the use of the http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]. This extension allows linking environmental data and sampling facts to sampling events or occurrences, as well as biological measurements to occurrences in a flexible and standardized manner. OBIS has an example eDNA metabarcoding dataset with scripts for data formatting available at https://github.com/iobis/dataset-edna."
-msgstr ""
+msgstr "OBIS資料提交中的另一個必填字段是地理坐標。OBIS進行了與海洋數據相關的額外品質檢查；例如：海洋物種的坐標不應在陸地上、深度值應在合理的範圍內。最後值得一提的是，OBIS還支持使用擴充測量或事實 (eMoF)。該擴充允許以彈性和標準化的方式將環境數據、採樣資訊與事件或出現紀錄相關聯，以及將生物測量與出現紀錄相關聯。OBIS具有eDNA metabarcoding資料集的資料模板當作範例，可參考 https://github.com/iobis/dataset-edna。"
 
 #. type: Block title
 #: 200.en.adoc:744
 #, no-wrap
 msgid "OBIS requirements and recommendations for recording DNA-based occurrences. The table highlights important differences in field values and requirements compared to when publishing to GBIF. Here exemplified with a DNA detection of Blue whale (Balaenoptera musculus). "
-msgstr ""
+msgstr "OBIS對DNA-based出現紀錄的紀錄要求和建議。此表突出了與發布到GBIF時字段值和要求的重要差異。這裡以藍鯨 (Balaenoptera musculus) 的DNA檢測為例進行說明。 "
 
 #. type: Table
 #: 200.en.adoc:771
@@ -1917,13 +1917,32 @@ msgid "| Field name\n"
 "| Balaenoptera musculus\n"
 "| The name corresponding to the NCBI ID (Balaenoptera musculus) (or other ID). This does not necessarily correspond to the value in scientific name.\n"
 "| Recommended\n"
-msgstr ""
+msgstr "| 字段名稱\n"
+"| 範例 (OBIS)\n"
+"| 描述\n"
+"| 填寫建議\n\n"
+"| term:dwc[scientificName]\n"
+"| Balaenoptera musculus\n"
+"| 學名，最好按照WoRMS資料庫裡的名稱。這與GBIF不同。GBIF的建議為使用所用分類方法對應的物種名稱。\n"
+"| 必填\n\n"
+"| term:dwc[scientificNameID]\n"
+"| urn:lsid:marinespecies.org:taxname:137090\n"
+"| “藍鯨 (Balaenoptera musculus)” 的WoRMS資料庫中的scientific name ID。\n"
+"| 強烈建議\n\n"
+"| term:dwc[taxonConceptID]\n"
+"| NCBI:txid9771\n"
+"| 與NCBI分類資料庫中的藍鯨 (Balaenoptera musculus) 相關聯的NCBI ID。如果使用BOLD進行辨識，也可以是 BIN-ID，或來自其他資料庫的其他ID。\n"
+"| 建議\n\n"
+"| term:dwc[verbatimIdentification]\n"
+"| Balaenoptera musculus\n"
+"| 對應於NCBI ID (藍鯨 (Balaenoptera musculus)) (或其他 ID) 的名稱。這不一定與學名中的值對應。\n"
+"| 建議\n"
 
 #. type: Block title
 #: 200.en.adoc:774
 #, no-wrap
 msgid "OBIS requirements and recommendations for recording sequences that cannot be classified to a scientific name at any taxonomic level. "
-msgstr ""
+msgstr "OBIS對無法在任何分類階層上歸類為學名的序列的紀錄要求和建議。 "
 
 #. type: Table
 #: 200.en.adoc:801
@@ -1948,7 +1967,26 @@ msgid "| Field name\n"
 "| Phototrophic eukaryote\n"
 "| The name of the taxon in an external database, corresponding to the taxon concept ID.\n"
 "| Recommended\n"
-msgstr ""
+msgstr "| 字段名稱\n"
+"| 範例 (OBIS)\n"
+"| 描述\n"
+"| 填寫建議\n\n"
+"| term:dwc[scientificName]\n"
+"| incertae sedis\n"
+"| OBIS建議用於未知序列的科學名稱。當序列/分類未知時，請使用此名稱。這與GBIF不同，後者建議即使序列資料庫所使用的科學名稱不嚴謹，也應使用該名稱。\n"
+"| 必填\n\n"
+"| term:dwc[scientificNameID]\n"
+"| urn:lsid:marinespecies.org:taxname:12\n"
+"| OBIS建議使用根據WoRMS資料庫裡 “incertae sedis”的 scientific name ID於未知序列。當序列/分類未知時，請使用此ID。\n"
+"| 強烈建議\n\n"
+"| term:dwc[taxonConceptID]\n"
+"| NCBI:txid1899546\n"
+"| 其他分類學資料庫中的ID，例如序列參考資料庫。\n"
+"| 強烈建議\n\n"
+"| term:dwc[verbatimIdentification]\n"
+"| Phototrophic eukaryote\n"
+"| 對應於分類概念ID的外部資料庫中的生物名稱。\n"
+"| 建議\n"
 
 #. type: Title ==
 #: 300.en.adoc:1
@@ -1959,32 +1997,32 @@ msgstr "前景"
 #. type: Plain text
 #: 300.en.adoc:4
 msgid "The present interest in exposing DNA-derived data through biodiversity data platforms is very high, and it is very likely that the demand will grow. Our aim is for the mapping recommendations provided here to remain valid and evolve slowly, even as packaging and indexing by biodiversity data platforms may develop more rapidly. The authors are aware of but did not yet consult the https://v3.boldsystems.org/index.php/resources/handbook[BOLD Handbook], http://biom-format.org[BIOM format] and http://edamontology.org/page."
-msgstr ""
+msgstr "目前對通過生物多樣性資料平台公開DNA衍生資料的關注非常高，而且很可能需求量會增加。我們的目標是，這裡提供的對照建議保持有效並且緩慢的更改，即使生物多樣性資料平台的打包和索引可能發展得更快。作者有意識到但尚未參閱 https://v3.boldsystems.org/index.php/resources/handbook[BOLD手冊]、http://biom-format.org[BIOM格式] 和 http://edamontology.org/page。"
 
 #. type: Plain text
 #: 300.en.adoc:6
 msgid "We suggest that data platforms such as ALA and GBIF work towards adopting data formats that support more complex relational and hierarchical data. Examples could be the https://frictionlessdata.io/[Frictionless Data Format^] and the more domain-specific https://biom-format.org/[Biological Observation Matrix^] (BIOM) format. The latter is used by several bioinformatic tools (https://doi.org/10.1038/s41587-019-0209-9[QIIME2^], https://doi.org/10.1128/AEM.01541-09[Mothur^], https://doi.org/10.1093/bioinformatics/btq461[USEARCH^] etc.), and hence could help publishers skip a step in converting data into DwC-A format. A more flexible data format than the current DwC star schema is crucial for allowing hierarchical sampling events and material samples as well as attaching sequence data to individual occurrences within a sampling event."
-msgstr ""
+msgstr "我們建議ALA和GBIF這樣類似的資料平台開始採用支持更複雜的資料關聯和層次的格式。例如，https://frictionlessdata.io/[無摩擦資料格式] 和更具領域特定性的 https://biom-format.org/[生物觀察矩陣] (BIOM) 格式。後者被幾個生物資訊工具使用 (https://doi.org/10.1038/s41587-019-0209-9[QIIME2]、https://doi.org/10.1128/AEM.01541-09[Mothur]、https://doi.org/10.1093/bioinformatics/btq461[USEARCH] 等)，可能有助於發布者跳過將資料轉換為DwC-A格式的步驟。比當前的DwC星芒架構更彈性的資料格式會對於允許不同階層的採樣事件和材料樣本以及將序列資料附加到採樣事件中的個別出現紀錄中至關重要。"
 
 #. type: Plain text
 #: 300.en.adoc:8
 msgid "Biodiversity data platforms will also need to enable researchers to easily include or exclude DNA-derived occurrence data from their query results. The data formats suggested above could open opportunities for a richer classification of the types of evidence on which a specific occurrence record is based. However, for the time being there is a lack of an appropriate value in the BasisOfRecord vocabulary for these data types. We suggest, as a pragmatic immediate solution, that the BasisOfRecord is extended with a value such as “DNA”, “DNA-derived”, or similar. As described above, DNA-derived data may come from well-documented sampling or individual organisms, may be backed by preserved physical material or not, and may result from genetic sequencing or other DNA detection methods, such as qPCR. Biodiversity data platforms and TDWG should provide the means of differentiating between these data types and their origins."
-msgstr ""
+msgstr "生物多樣性資料平台還需要能夠讓研究人員輕鬆地將DNA衍生的出現紀錄資料包含或排除在其查詢結果中。上述建議的資料格式可以為特定出現記錄所基於的證據類型提供更豐富的分類機會。然而，目前在 “BasisOfRecord” 的詞彙表中缺乏適當的值來表示這些資料類型。我們建議，作為一個務實的即時解決方案，“BasisOfRecord” 應該增加 “DNA”、“DNA衍生” 或類似的值。正如上文所述，DNA衍生的資料可能來自有充分文檔記錄的採樣或個體生物、可能由保存的實體材料支持或不支持、可能是由基因序列分析或其他DNA檢測方法 (例如qPCR) 產生的。生物多樣性資料平台和TDWG應提供區分這些資料類型以及其來源的方法。"
 
 #. type: Plain text
 #: 300.en.adoc:10
 msgid "We also recommend that the data platforms index the actual sequences, or at least a MD5 checksum of these, to facilitate searches for ASVs across datasets. If ASVs are provided, MD5s should be generated by the biodiversity discovery platforms; if ASVs are not provided, MD5s need to be mandatory."
-msgstr ""
+msgstr "我們還建議資料平台將實際序列或至少這些序列的MD5開發索引功能，以便在資料集之間進行ASV的搜尋。如果提供了ASV，則MD5應由生物多樣性資料平台生成；如果沒有提供ASV，則MD5應是強制性提供的。"
 
 #. type: Plain text
 #: 300.en.adoc:12
 msgid "As mentioned in <<taxonomy-of-sequences>> and <<category-iv>>, we encourage the biodiversity data platforms to continue work on adopting relevant molecular taxonomic reference databases into their taxonomic backbones."
-msgstr ""
+msgstr "正如在 <<taxonomy-of-sequences>> 和 <<category-iv>> 中提到的那樣，我們鼓勵生物多樣性資料平台繼續努力將相關的分子分類參考資料庫納入其分類骨架中。"
 
 #. type: Plain text
 #: 300.en.adoc:13
 msgid "Broader application of other methods and technologies, such as Oxford Nanopore, PacBio and shotgun sequencing, will likely trigger the need for adjustments to this guide to accommodate specific new data and metadata fields."
-msgstr ""
+msgstr "其他方法和技術的廣泛應用，例如Oxford Nanopore、PacBio和shotgun定序，很可能會使本指南進行調整更新，以適應特定的新資料和詮釋資料相關字段的需求。"
 
 #. type: Title ==
 #: glossary.en.adoc:2
@@ -2001,7 +2039,7 @@ msgstr "[[ala]]Atlas of Living Australia (ALA)"
 #. type: Plain text
 #: glossary.en.adoc:6
 msgid "The ALA is a web-based platform that pulls together Australian biodiversity data from multiple sources, making it accessible and reusable to anyone (see https://www.ala.org.au/about-ala/). The open infrastructure platform developed by the ALA is also used by several other countries for their own national biodiversity data platform (see https://living-atlases.gbif.org/)."
-msgstr ""
+msgstr "ALA是一個從多個來源聚合澳大利亞的生物多樣性資料網絡的平台，使其對任何人都可查詢和重複使用 (請參見 https://www.ala.org.au/about-ala/)。ALA開發的開放式基礎架構平台也被其他國家用於建立自己的國家生物多樣性資料平台 (參見https://living-atlases.gbif.org/)。"
 
 #. type: Labeled list
 #: glossary.en.adoc:6
@@ -2012,7 +2050,7 @@ msgstr "[[asv]]擴增子序列變體 (Amplicon Sequence Variant, ASV)"
 #. type: Plain text
 #: glossary.en.adoc:7
 msgid "Unique DNA sequence derived from high-throughput sequencing and denoising, and assumed to represent a biologically real sequence variant. See also <<otu,Operational Taxonomic Unit (OTU)>> and https://doi.org/10.1038/ismej.2017.119[(Callahan et al. 2017)^]."
-msgstr ""
+msgstr "高通量定序和去噪处理生成的唯一DNA序列，被預定为代表生物上真實的序列變體 (sequence variant)。參考 <otu,Operational Taxonomic Unit (OTU)> 和 https://doi.org/10.1038/ismej.2017.119[(Callahan et al. 2017)^]。"
 
 #. type: Labeled list
 #: glossary.en.adoc:7
@@ -2023,7 +2061,7 @@ msgstr "[[api]]應用程式開發介面 (API)"
 #. type: Plain text
 #: glossary.en.adoc:8
 msgid "Set of protocols and tools for interaction and data transmission between different computer applications."
-msgstr ""
+msgstr "一組用于不同主機應用之間互通和資料傳輸的方法和工具。"
 
 #. type: Labeled list
 #: glossary.en.adoc:8
@@ -2034,7 +2072,7 @@ msgstr "[[bins]]Barcode Index Numbers (BINs)"
 #. type: Plain text
 #: glossary.en.adoc:9
 msgid "Species-level <<otu,Operational Taxonomic Units (OTUs)>> derived from clustering of the cytochrome c oxidase I (COI) gene in animals. Each BIN is assigned a globally unique identifier, and is made available in searchable database within the <<bold,Barcode of Life Data System (BOLD)>>."
-msgstr ""
+msgstr "動物中的cytochrome c oxidase I (COI) 基因序列分群產生的物種層級操作分類單元 <otu,Operational Taxonomic Units (OTUs)> 。每個BIN都被分配了一個全球唯一的識別碼，並在 <bold,Barcode of Life Data System (BOLD)> 資料庫內可被搜索。"
 
 #. type: Labeled list
 #: glossary.en.adoc:9
@@ -2045,7 +2083,7 @@ msgstr "[[bold]]Barcode of Life Data System (BOLD)"
 #. type: Plain text
 #: glossary.en.adoc:10
 msgid "http://www.boldsystems.org/[BOLD^] is the reference database maintained by the Centre for Biodiversity Genomics in Guelph on behalf of the International Barcode of Life Consortium (https://ibol.org/[IBOL^]). It hosts data on barcode reference specimens and sequences for eukaryote species, particularly COI for animals, and maintains the Barcode Index Number (http://www.boldsystems.org/index.php/Public_BarcodeIndexNumber_Home[BIN^]; https://doi.org/10.1371/journal.pone.0066213[Ratnasingham & Hebert 2013^]) system, identifiers for OTUs of approximately species rank, based on clusters of closely similar sequences."
-msgstr ""
+msgstr "http://www.boldsystems.org/[BOLD^] 是由Guelph的Centre for Biodiversity Genomics代表 (https://ibol.org/[IBOL^]) 所維護的參考資料庫。它收集了關於真核生物物種標本的條碼參考和序列資料，尤其是動物的COI序列，并維護了(http://www.boldsystems.org/index.php/Public_BarcodeIndexNumber_Home[BIN^]; https://doi.org/10.1371/journal.pone.0066213[Ratnasingham & Hebert 2013^]) 系統。接近物種層級的OTUs的辨識碼來自序列分群後高度相似的序列。"
 
 #. type: Labeled list
 #: glossary.en.adoc:10
@@ -2056,7 +2094,7 @@ msgstr "[[biodiversity-data-platform]]生物多樣性資料平台"
 #. type: Plain text
 #: glossary.en.adoc:11
 msgid "General online resource to discover and access biodiversity data derived from various sources, such as natural history collections, citizen science, ecology and monitoring projects, and genetic sequences. Can be global (<<gbif,GBIF>>) or national (<<ala,ALA>>)."
-msgstr ""
+msgstr "從各種來源 (如自然史收藏、公民科學、生態監測以及基因序列) 衍生的生物多樣性資料的線上資源，可以是全球性 (<gbif,GBIF>) 或國家級 (<ala,ALA>)。"
 
 #. type: Labeled list
 #: glossary.en.adoc:11
@@ -2067,7 +2105,7 @@ msgstr "[[clustering]]序列分群 (Clustering)"
 #. type: Plain text
 #: glossary.en.adoc:12
 msgid "In taxonomic classification, the process of grouping organisms together according to some similarity criterion. See <<otu,Operational Taxonomic Unit>>."
-msgstr ""
+msgstr "在分類學中，根據某種相似性準則將生物分群在一起的過程。見 <otu,Operational Taxonomic Unit>。"
 
 #. type: Labeled list
 #: glossary.en.adoc:12
@@ -2078,7 +2116,7 @@ msgstr "[[community-dna]]群落 (bulk) DNA"
 #. type: Plain text
 #: glossary.en.adoc:13
 msgid "DNA from bulk samples (e.g. plankton samples or Malaise trap samples consisting of several individuals from many species). For the purpose of this guide, bulk sample DNA is included in the eDNA concept."
-msgstr ""
+msgstr "來自大量樣本 (bulk) 的DNA (例如浮游生物樣本或由許多物種的幾個個體組成的Malaise陷阱樣本)。本指南將bulk樣本DNA納入了eDNA概念中。"
 
 #. type: Labeled list
 #: glossary.en.adoc:13
@@ -2089,7 +2127,7 @@ msgstr "[[dwc-a]]達爾文核心集檔案格式 (DwC-A)"
 #. type: Plain text
 #: glossary.en.adoc:14
 msgid "Compressed (ZIP) file format for exchange of biodiversity data compiled in accordance with the <<dwc-standard,Darwin Core (DwC) standard>>. Essentially a self-contained set of interconnected CSV files and an XML document describing included files and data columns, and their mutual relationships."
-msgstr ""
+msgstr "達爾文核心標準 <dwc-standard,Darwin Core (DwC) standard> 編制的生物多樣性資料打包的壓縮 (ZIP) 文件格式。基本上是一組相互關聯的CSV文件和一個XML檔，描述了包含的文件和資料列以及它們之間的相互關係。"
 
 #. type: Labeled list
 #: glossary.en.adoc:14
@@ -2100,7 +2138,7 @@ msgstr "[[dwc-standard]]達爾文核心 (DwC) 標準"
 #. type: Plain text
 #: glossary.en.adoc:15
 msgid "Standard for sharing and publishing biodiversity data, originating from the Biodiversity Information Standards (TDWG) community. In principle, a set of terms used for describing different entities of biodiversity observations, such as sampling events, occurrences and taxa. Current Darwin Core terms are described in the https://dwc.tdwg.org/terms/[Quick Reference Guide]."
-msgstr ""
+msgstr "由生物多樣性資訊標準 (TDWG) 社群所發源的用於共享和發布生物多樣性資料的標準。原則上，這是一組用於描述生物多樣性觀察的術語，例如採樣事件、出現紀錄和分類單元。目前的達爾文核心術語描述在 https://dwc.tdwg.org/terms/[快速參考指南] 中。"
 
 #. type: Labeled list
 #: glossary.en.adoc:15
@@ -2111,18 +2149,18 @@ msgstr "[[data-vocabulary]]資料詞彙"
 #. type: Plain text
 #: glossary.en.adoc:17
 msgid "Set of preferred terms or concepts with specific, well-defined meanings and interrelationships, facilitating data exchange and reuse."
-msgstr ""
+msgstr "一組首選術語或概念，具有特定的、明確定義的含義和相互關係，有助於資料交換和重複使用。"
 
 #. type: Labeled list
 #: glossary.en.adoc:17
 #, no-wrap
 msgid "[[ddpcr]]ddPCR (droplet digital Polymerase Chain Reaction)"
-msgstr ""
+msgstr "[[ddpcr]]ddPCR (droplet digital 聚合酶連鎖反應)"
 
 #. type: Plain text
 #: glossary.en.adoc:18
 msgid "Droplet digital <<pcr,PCR>>. Method for measuring absolute amount of DNA (number of copies) of one marker in a sample. See also <<qpcr,qPCR>>."
-msgstr ""
+msgstr "Droplet digital <<pcr,PCR>>。測量樣本中標記DNA的絕對量 (copy數) 的方法。也參考 <<qpcr,qPCR>>。"
 
 #. type: Labeled list
 #: glossary.en.adoc:18
@@ -2133,7 +2171,7 @@ msgstr "[[denoising]]去噪 (Denoising)"
 #. type: Plain text
 #: glossary.en.adoc:19
 msgid "In metabarcoding, method for separation of true biological sequences (see <<asv,ASVs>>) from spurious sequence variants caused by PCR amplification and sequencing error."
-msgstr ""
+msgstr "在metabarcoding中用於將真實生物序列 (見 <asv,ASVs>) 與由PCR增幅和序列錯誤引起的偽序列變異分離的方法。"
 
 #. type: Labeled list
 #: glossary.en.adoc:19
