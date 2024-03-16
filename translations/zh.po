@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-16 08:34\n"
+"PO-Revision-Date: 2024-03-16 09:45\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -2237,7 +2237,7 @@ msgstr "[[embl]]歐洲生物資訊研究機構 (EMBL-EBI)"
 #. type: Plain text
 #: glossary.en.adoc:25
 msgid "Intergovernmental organization for bioinformatics research and services, part of the European Molecular Biology Laboratory (EMBL), providing eg. (raw) sequence reads and assembly data via <<ena,the European Nucleotide Archive (ENA)>>."
-msgstr ""
+msgstr "生物資訊學研究和服務的政府間組織，隸屬於歐洲分子生物學實驗室 (EMBL)，通過 <ena,the European Nucleotide Archive (ENA)> 提供包括 (原始) 序列reads和assembly資料。"
 
 #. type: Labeled list
 #: glossary.en.adoc:25
@@ -2248,7 +2248,7 @@ msgstr "[[edna]]環境DNA (eDNA)"
 #. type: Plain text
 #: glossary.en.adoc:26
 msgid "DNA from an environmental sample, e.g. soil, water, air or host organism. An often used definition is that environmental DNA is the genetic material (DNA) obtained from environmental samples without any obvious evidence of biological source material (https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen and Willerslev 2015^])."
-msgstr ""
+msgstr "環境樣本中的DNA，例如土壤、水、空氣或宿主生物體。常用的定義為環境DNA是從環境樣本中獲得的基因物質 (DNA)，沒有明顯的生物來源材料的證據 (https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen and Willerslev 2015^])。"
 
 #. type: Labeled list
 #: glossary.en.adoc:26
@@ -2259,7 +2259,7 @@ msgstr "[[ena]]European Nucleotide Archive (ENA)"
 #. type: Plain text
 #: glossary.en.adoc:27
 msgid "European repository for nucleotide sequences, covering raw sequencing data, sequence assembly information and functional annotation. Includes the <<sra,Sequence Read Archive (SRA)>>, and is maintained by the European Bioinformatics Institute (EMBL-EBI), as part of <<insdc, the International Nucleotide Sequence Database Collaboration (INSDC)>>."
-msgstr ""
+msgstr "歐洲核苷酸序列資料庫，涵蓋原始序列、序列組裝資訊和功能註解。包括序列檔案 <sra,Sequence Read Archive (SRA)> ，由歐洲生物資訊學研究所 (EMBL-EBI) 管理，作為國際核苷酸序列資料庫合作項目 <insdc, the International Nucleotide Sequence Database Collaboration (INSDC)> 的一部分。"
 
 #. type: Labeled list
 #: glossary.en.adoc:27
@@ -2270,7 +2270,7 @@ msgstr "[[fastq]]FASTQ"
 #. type: Plain text
 #: glossary.en.adoc:28
 msgid "Text-based standard for storing molecular sequences and associated quality measures deriving from <<hts,High-throughput sequencing (HTS)>>. For each sequence position, single ASCII-characters are used to represent base call (identified nucleotide) and score, respectively."
-msgstr ""
+msgstr "一种以文字的格式用於存儲从高通量定序 <hts,High-throughput sequencing (HTS)> 中得到的分子序列及相關質量度。單個ASCII字符分別表示每個序列位置base call (已識別的核苷酸) 和質量分數。"
 
 #. type: Labeled list
 #: glossary.en.adoc:28
@@ -2281,7 +2281,7 @@ msgstr "[[gbif]]全球生物多樣性資訊機構 (GBIF)"
 #. type: Plain text
 #: glossary.en.adoc:29
 msgid "International network and research infrastructure, mainly focused on mobilizing and providing open access to global biodiversity data."
-msgstr ""
+msgstr "國際網絡和研究基礎建設，主要致力於提供全球生物多樣性資料的開放和流通。"
 
 #. type: Labeled list
 #: glossary.en.adoc:29
@@ -2292,7 +2292,7 @@ msgstr "[[ggbn]]Global Genome Biodiversity Network (GGBN)"
 #. type: Plain text
 #: glossary.en.adoc:30
 msgid "International network of institutions concerned with efficient sharing and usage of genomic biodiversity samples and associated metadata, e.g. promoting the Darwin Core-compatible GGBN Data Standard."
-msgstr ""
+msgstr "致力於有效分享和使用基因體生物多樣性樣本及相關詮釋資料的國際機構網絡，推廣符合達爾文核心相容之GGBN資料標準。"
 
 #. type: Labeled list
 #: glossary.en.adoc:30
@@ -2303,7 +2303,7 @@ msgstr "[[gps]]全球定位系統 (Global Positioning System, GPS)"
 #. type: Plain text
 #: glossary.en.adoc:31
 msgid "Satellite navigation system operated by the United States Space Force."
-msgstr ""
+msgstr "由美国空軍太空司令部營運的衛星導航系統。"
 
 #. type: Labeled list
 #: glossary.en.adoc:31
@@ -2314,7 +2314,7 @@ msgstr "[[hts]]高通量定序 (High-throughput sequencing, HTS)"
 #. type: Plain text
 #: glossary.en.adoc:32
 msgid "Different technologies for massively parallel sequencing, producing millions of DNA sequence reads from library preparations of genetic material, rather than targeting single amplicons as in traditional Sanger sequencing. Also called Next Generation Sequencing (NGS)."
-msgstr ""
+msgstr "不同技術且大規模並行的進行定序，從基因材料的製備中產生數百萬個DNA序列reads，也被稱為次世代定序 (NGS)。相較傳統的Sanger定序為針對特定DNA片段進行定序。"
 
 #. type: Labeled list
 #: glossary.en.adoc:32
@@ -2325,7 +2325,7 @@ msgstr "[[ingest]]資料整合"
 #. type: Plain text
 #: glossary.en.adoc:33
 msgid "Process of importing data from heterogeneous sources, such as local databases, text files or spreadsheets, to a common destination system, such as an online <<biodiversity-data-platform, biodiversity data platform>>, for storage and further analysis. Typically includes steps of extraction, transformation (cleaning) and loading (ETL)."
-msgstr ""
+msgstr "從不同來源 (例如本地資料庫、文字檔文件或試算表) 將資料導入到共同的目標系統，例如線上生物多樣性資料平台 <biodiversity-data-platform, biodiversity data platform> 以進行存儲和進一步分析的過程。通常包括擷取 (extraction)、轉換 (transform) 和載入 (load) 等步驟。"
 
 #. type: Labeled list
 #: glossary.en.adoc:33
@@ -2336,7 +2336,7 @@ msgstr "[[index]]索引"
 #. type: Plain text
 #: glossary.en.adoc:34
 msgid "Organization of information in accordance with a specific schema or structure, making data easier to access and present."
-msgstr ""
+msgstr "根據特定的架構或結構對資料進行組織，使資料更容易的被查詢和呈現。"
 
 #. type: Labeled list
 #: glossary.en.adoc:34
@@ -2347,7 +2347,7 @@ msgstr "[[insdc]]International Nucleotide Sequence Database Collaboration (INSDC
 #. type: Plain text
 #: glossary.en.adoc:35
 msgid "Joint effort of the DNA Databank of Japan (DDBJ), <<embl,EMBL>> and <<ncbi,NCBI>> to provide global public access to nucleotide sequence data and associated information."
-msgstr ""
+msgstr "日本DNA資料庫 (DDBJ)、<embl,EMBL> 和 <ncbi,NCBI> 的聯合合作，旨在提供全球公眾查詢核苷酸序列資料及相關資訊。"
 
 #. type: Labeled list
 #: glossary.en.adoc:35
@@ -2358,7 +2358,7 @@ msgstr "[[metagenomics]]總體基因體學 (Metagenomics)"
 #. type: Plain text
 #: glossary.en.adoc:36
 msgid "PCR-free sequencing of random genomic fragments in a mixed sample."
-msgstr ""
+msgstr "無經過PCR的混合樣品中隨機基因組片段的定序。"
 
 #. type: Labeled list
 #: glossary.en.adoc:36
@@ -2369,7 +2369,7 @@ msgstr "[[mixs]]Minimum Information about any (x) Sequence (MIxS) 標準"
 #. type: Plain text
 #: glossary.en.adoc:37
 msgid "Family of standards (checklists) for sequence metadata, developed by the Genomic Standards Consortium (GSC)."
-msgstr ""
+msgstr "由基因體標準協會 (GSC) 制定的用於序列詮釋資料的一系列標準 (清單)。"
 
 #. type: Labeled list
 #: glossary.en.adoc:37
@@ -2391,7 +2391,7 @@ msgstr "[[ncbi]]National Center for Biotechnology Information (NCBI)"
 #. type: Plain text
 #: glossary.en.adoc:39
 msgid "Division of United States National Library of Medicine (NLM) housing important bioinformatics resources, such as the GenBank database of DNA sequences, and the <<sra,Sequence Read Archive (SRA)>> of high throughput sequencing data."
-msgstr ""
+msgstr "美國國家醫學圖書館 (NLM) 的一個部門，擁有重要的生物資訊資源，如DNA序列的GenBank資料庫，以及高通量序列資料的 <sra,Sequence Read Archive (SRA)>。"
 
 #. type: Labeled list
 #: glossary.en.adoc:39
@@ -2413,7 +2413,7 @@ msgstr "[[occurrence]]出現紀錄"
 #. type: Plain text
 #: glossary.en.adoc:41
 msgid "An existence of an Organism (sensu http://rs.tdwg.org/dwc/terms/Organism) at a particular place at a particular time."
-msgstr ""
+msgstr "在特定時間及特定地點之生物 (即 http://rs.tdwg.org/dwc/terms/Organism 的概念) 的存在記錄。"
 
 #. type: Labeled list
 #: glossary.en.adoc:41
@@ -2424,7 +2424,7 @@ msgstr "[[otu]]操作分類單元 (Operational Taxonomic Unit, OTU)"
 #. type: Plain text
 #: glossary.en.adoc:42
 msgid "Cluster of organisms based on similarity in specific DNA marker sequence(s), used for taxonomic classification. Includes, for example, <<sh,Species Hypothesis>> in UNITE, and <<bins,Barcode Index Numbers>> in the Barcode of Life Data System (BOLD). <<asv,Amplicon Sequence Variants (ASVs)>> may be considered analogous to <<zotu,zero radius OTUs (zOTUs)>>."
-msgstr ""
+msgstr "基於特定DNA標記序列相似性的生物分群，用於分類。例如，在UNITE中有 <sh,Species Hypothesis> 和在Barcode of Life Data System (BOLD) 中有 <bins,Barcode Index Numbers>。<asv,Amplicon Sequence Variants (ASVs)> 可被視為 <zotu,zero radius OTUs (zOTUs)> 的類比。"
 
 #. type: Labeled list
 #: glossary.en.adoc:42
@@ -2435,7 +2435,7 @@ msgstr "[[pcr]]聚合酶連鎖反應 (Polymerase Chain Reaction, PCR)"
 #. type: Plain text
 #: glossary.en.adoc:43
 msgid "Technique for fast amplification and detection of specific fragments of target DNA (or RNA) sequences. Amplified regions are determined by the pair of <<primer,PCR primers>> used in the reaction."
-msgstr ""
+msgstr "特定DNA (或RNA) 序列片段的快速增幅和檢測技術。增幅區域由反應中使用的引子 <primer,PCR primers> 決定。"
 
 #. type: Labeled list
 #: glossary.en.adoc:43
@@ -2446,7 +2446,7 @@ msgstr "[[pipeline]]執行流程"
 #. type: Plain text
 #: glossary.en.adoc:44
 msgid "In bioinformatics, a set of algorithms or tools applied in a predefined workflow to process e.g. <<hts,High-throughput sequencing (HTS)>> data."
-msgstr ""
+msgstr "在生物資訊學裡一組演算法或工具被應用於預定義的工作流程中，用於處理例如高通量定序 <hts,High-throughput sequencing (HTS)> 資料。"
 
 #. type: Labeled list
 #: glossary.en.adoc:44
@@ -2457,7 +2457,7 @@ msgstr "[[primer]]引子 (PCR primers)"
 #. type: Plain text
 #: glossary.en.adoc:45
 msgid "Short, synthetic, single-stranded DNA fragments that bind to a selected region of target DNA (marker) to initiate replication during <<pcr,PCR>>. A pair of primers is necessary for the polymerase enzyme to amplify the selected marker."
-msgstr ""
+msgstr "簡短的合成單股DNA片段，它們與目標DNA (標記) 的選定區域結合，以在 <pcr,PCR> 中啟動複製過程。需一對引物才能讓聚合酶酶能夠擴增所選標記。"
 
 #. type: Labeled list
 #: glossary.en.adoc:45
