@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-16 09:45\n"
+"PO-Revision-Date: 2024-03-16 11:05\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -455,13 +455,13 @@ msgstr "通用的生物多樣性資料使用了一些資料標準 (https://www.g
 #. type: Plain text
 #: 100.en.adoc:76
 msgid "A central part of the standardization process is the mapping of fields, which is required to transform the original field (column) structure in a source-data export into a standard field structure. Standardization may also affect the content of the individual fields within each record, for example, by recalculating coordinates to a common system, rearranging date elements, or mapping the contents of fields a standard set of values, often called a vocabulary. The process of standardization also provides an opportunity to improve data quality, for example, by filling in omissions, correcting typos and extra spaces and handling inconsistent use of fields. Such improvements enhance the quality of data and increase its suitability for reuse, but at the same time, data published in any state are better than data that remain unpublished and inaccessible. Standartization is typically applied to a copy or to an export from the data source, leaving the original untouched."
-msgstr ""
+msgstr "標準化過程的主要部分是字段的對照 (mapping)，這是將原本資料的字段 (列) 結構轉換為標準字段結構所必需的。標準化過程也可能影響每筆記錄中各個字段的內容，例如，座標標重新轉換成共同常用的系統、重新排列日期或將字段內容對照為一組標準值，通常稱為控制詞彙 (vocabulary)。標準化過程還提供了改善資料品質的機會，例如，填補遺漏、更正拼寫錯誤和多餘空格以及處理字段的不一致使用。這些修改提高了資料品質，增加了其可重用性，但同時，以任何狀態發布的資料都比未發布和無法查詢的資料更好。為了保留原始資料的原樣，標準化處理通常使用原始資料的副本或輸出的資料。"
 
 #. type: Block title
 #: 100.en.adoc:78
 #, no-wrap
 msgid "Outline of a platform for reporting and publishing DNA sequences and associated metadata (green box) based on existing systems and data standards (grey boxes). An envisioned system for regular (based on machine-to-machine reading of data) update of results (white box) can either read and update the Darwin Core Archive or various administration systems. The data transfer between the various elements (black arrows) will require various degrees of data transformation and harmonization and may include either mechanical or human quality assessment."
-msgstr ""
+msgstr "呈現和發布DNA序列及相關詮釋資料的平台概要 (綠色框)，基於現有的系統和資料標準 (灰色框)。一個設想的系統 (基於機器對機器讀取資料) 定期更新結果 (白色框) 可以讀取並更新達爾文核心檔案或各種管理系統。各元素之間的資料傳輸 (黑色箭頭) 將需要各種程度的資料轉換和協調，可能包括機器或人工的品質評估。"
 
 #. type: Target for macro image
 #: 100.en.adoc:80
@@ -478,12 +478,12 @@ msgstr "img/web/outline-of-a-platform.en.svg"
 #. type: Plain text
 #: 100.en.adoc:87
 msgid "Once a dataset has been through these standardization and data quality processes, it should be placed in an accessible online location and associated with relevant metadata. Metadata–data or information about the dataset includes key parameters that describe the dataset and further improve its discoverability and reuse. Metadata should include other important elements such as authorship, Digital Object Identifiers (DOIs), organizational affiliations and other provenance information, as well as procedural and methodological information about how the dataset was collected and curated. We encourage to provide a description of workflow details and versions including quality control in the https://eml.ecoinformatics.org/schema/eml-dataset_xsd.html#DatasetType_methods[methods section] in the EML file."
-msgstr ""
+msgstr "一旦資料集通過標準化和資料品質處理流程，應該將其放置在可查詢的線上位置並與相關的詮釋資料相關聯。詮釋資料是關於資料集裡的資料資訊，包括描述資料集的關鍵參數，進一步提高其可發現性和重用性。詮釋資料應該包括其他重要資訊，如作者、DOI、組織單位以及其他資訊，以及有關資料集收集和管理的程序和方法資訊。我們鼓勵在EML文件的https://eml.ecoinformatics.org/schema/eml-dataset_xsd.html#DatasetType_methods[方法] 裡提供工作流程細節、版本描述和品質管控。"
 
 #. type: Plain text
 #: 100.en.adoc:89
 msgid "Datasets and their associated metadata are indexed by each data portal: this process enables users to query, filter and process data through APIs and web portals. Unlike journal publications, datasets may be dynamic products that go through multiple versions, with an evolving number of records and mutable metadata fields under the same title and DOI."
-msgstr ""
+msgstr "資料集及其相關的詮釋資料被每個資料入口網索引：這過程使用戶可以通過API和線上查詢、篩選和處理資料。與期刊出版物不同，資料集可能是動態產品。在相同標題與DOI的情況下，資料集可會不斷變化：更新成不同的版本、增加資料筆數和更改詮釋資料字段。"
 
 #. type: Plain text
 #: 100.en.adoc:91
@@ -2545,7 +2545,7 @@ msgstr "[[unite]]UNITE"
 #. type: Plain text
 #: glossary.en.adoc:53
 msgid "UNITE is a web-based sequence management environment centred on the eukaryotic nuclear ribosomal ITS region. All public sequences are clustered into species hypotheses (SHs), which are assigned unique DOIs. An SH-matching service outputs various elements of information, including what species are present in eDNA samples, whether these species are potentially undescribed new species, other studies in which they were recovered, whether the species are alien to a region, and whether they are threatened. The DOIs are connected to the taxonomic backbone of the https://plutof.ut.ee/[PlutoF platform^] and https://www.gbif.org[GBIF^], such that they are accompanied by a taxon name where available. The data used in UNITE are hosted and managed in PlutoF. Data are represented through a range of standards, primarily https://dwc.tdwg.org/[Darwin Core^], https://gensc.org/mixs/[MIxS^], and https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard[DMP Common Standard^]; partial support is available for https://www.dcc.ac.uk/resources/metadata-standards/eml-ecological-metadata-language[EML^], https://pubmed.ncbi.nlm.nih.gov/20211251/[MCL^], and https://terms.tdwg.org/wiki/GGBN_Data_Standard[GGBN^]. PlutoF exports data primarily through the CSV and FASTA formats. PlutoF can also be used to publish data in GBIF (using the DwC format) and to prepare GenBank submission files. It is furthermore possible to download species lists from your data and download your project as a https://www.json.org/json-en.html[JSON] document with project data in hierarchically structured."
-msgstr ""
+msgstr "UNITE是一個基於真核核糖體ITS區域的序列管理系統。所有公開的序列都被分群為物種假設(Species hypothesis, SHs)，並給予DOI。SH比對服務會輸出各種資訊，包括eDNA樣本中存在的物種、這些物種是否可能是未描述的新物種、它們在其他研究是否也被發現、這些物種是否對一個地區來說是外來種，以及它們是否受到威脅。DOI與 https://plutof.ut.ee/[PlutoF平台^] 和GBIF的分類骨架互相連結，因此會附帶有一個分類名稱 (taxon name)。UNITE中使用的資料由PlutoF管理。資料通過一系列標準，主要包括 https://dwc.tdwg.org/[Darwin Core^]， https://gensc.org/mixs/[MIxS^]， 和 https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard[DMP Common Standard^]；部分則是 https://www.dcc.ac.uk/resources/metadata-standards/eml-ecological-metadata-language[EML^]， https://pubmed.ncbi.nlm.nih.gov/20211251/[MCL^]，和 https://terms.tdwg.org/wiki/GGBN_Data_Standard[GGBN^]。PlutoF主要通過CSV和FASTA格式輸出資料。PlutoF也可以用於在GBIF中發布資料 (使用DwC格式) 並準備GenBank提交文件。此外，您還可以從您的資料中下載物種清單，以及以具有階層結構的JSON檔案格式下載您的計畫。"
 
 #. type: Labeled list
 #: glossary.en.adoc:53
