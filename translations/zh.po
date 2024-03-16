@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-16 12:28\n"
+"PO-Revision-Date: 2024-03-16 13:26\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -578,7 +578,7 @@ msgstr ""
 #. type: Plain text
 #: 100.en.adoc:128
 msgid "Algorithms for taxonomic annotation of eDNA will typically assign each unique sequence to the nearest taxonomic group in a reference set, based on some criteria for relatedness and confidence. For poorly known groups of organisms, such as prokaryotes, insects and fungi, the annotation may be a non-Linnaean placeholder name for a (cluster-based) taxon (i.e. the ID/number of the relevant SH or BIN), and this taxon may represent a species or even a taxonomic unit above the species level. No reference database contains all species in a given group due to the many unknown, unidentified, and undescribed species on earth. Frequent ignorance of this fact has been the source of numerous taxonomic misidentifications during the last 30 years."
-msgstr ""
+msgstr "EDNA分類注釋的演算法通常會將每個獨特的序列根據某些分類群上最相關性和信心度的標準做分類注釋。對於資訊較少的生物群體例如原核生物、昆蟲和真菌等，注釋可能是一個非林奈式的暫時名稱 (cluster-based) 分類單元 (即相關SH或BIN的ID/編號)，而該分類單元可能代表一個物種或是在物種之上的階層。因地球上有許多未知、未鑒定和未描述的物種，所以沒有任何參考資料庫包含所有物種。因此在過去30年中，對這一事實的普遍忽視已成為許多分類錯誤的源頭。"
 
 #. type: Plain text
 #: 100.en.adoc:130
