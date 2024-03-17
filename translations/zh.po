@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-16 14:22\n"
+"PO-Revision-Date: 2024-03-17 02:36\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -568,12 +568,12 @@ msgstr "由於分類學對於發現生物多樣性資料至關重要，因此強
 #. type: Plain text
 #: 100.en.adoc:124
 msgid "Most current biodiversity data platforms are organized around traditional name lists and taxonomic indexes. As DNA sequence-derived occurrences are rapidly becoming a significant source of biodiversity data, and as official taxonomy and nomenclature for such data lags, it is recommended that data providers and platforms should continue to explore and include more flexible representations of taxonomy into their taxonomic backbones. These new representations include molecular reference databases (e.g., GTDB, BOLD, UNITE) that recognize sequence data as reference material for previously unclassified organisms. Additionally, we suggest other commonly used molecular databases (e.g., PR2, RDP, SILVA) should develop stable identifiers for taxa and make reference sequences available for those taxa, to allow their use as taxonomic references."
-msgstr ""
+msgstr "大多當前的生物多樣性資料平台都是以傳統的名稱列表和分類索引為基礎的。由於DNA序列衍生出現紀錄正迅速成為生物多樣性資料的重要來源，但此類資料的官方分類和命名存在暫時處在還跟不上的現象。因此建議資料提供者和平台應繼續探索並將更彈性的分類形式納入其分類體系中。這包括分子參考資料庫 (例如GTDB、BOLD、UNITE) 承認並納入以前來自未成功分類生物的參考材料的序列資料。此外，我們建議其他常用的分子資料庫 (例如PR2、RDP、SILVA) 應該為分類單元開發穩定的辨識符並提供參考序列，以便將它們用作分類參考。"
 
 #. type: Plain text
 #: 100.en.adoc:126
 msgid "In contrast to classical taxonomy, which is a heavily manual process, clustering DNA sequences into taxonomic concepts relies on algorithmic analysis of similarity and other signals (such as phylogeny and probability), as well as some human editing. The resulting OTUs vary in stability, presence of reference sequences and physical material, alignments and cut-off values, and OTU identifiers such as DOIs (https://doi.org/10.1093/nar/gky1022[Nilsson et al. 2019^]). Even more importantly, they vary in scale, from local study- or project-specific libraries to global databases that enable broader cross-study comparison. In contrast to the centralization and codification of Linnaean taxa that are formally described in research publications, OTUs are distributed across multiple evolving digital reference libraries that differ in taxonomic focus, barcode genes and other factors. By associating standard sequences with identified reference specimens, BOLD and UNITE are establishing an essential mapping layer for linking ASVs and OTUs with Linnaean taxonomy. The GBIF backbone taxonomy includes identifiers for UNITE Species Hypotheses (SHs) as well as Barcode Index Numbers (BINs) which allows indexing of species occurrence data taxonomically annotated at the OTU level for primarily Fungi and Animals (https://www.gbif.org/news/2LrgV5t3ZuGeU2WIymSEuk/adding-sequence-based-identifiers-to-backbone-taxonomy-reveals-dark-taxa-fungi[GBIF secretariat 2018^], https://data-blog.gbif.org/post/gbif-backbone-taxonomy[Grosjean 2019^])."
-msgstr ""
+msgstr "與傳統的分類學相比，將DNA序列分群到分類概念中依賴其相似性和其他資訊 (如親緣關係和概率) 的算法分析，以及一些人為編輯。OTUs在穩定性、參考序列和實物的存在、序列對齊和cut-off值、OTU識別碼 (如DOI) 等因素存在差異 (https://doi.org/10.1093/nar/gky1022[Nilsson等人 2019^])。它們在規模上也存在差異：從局部研究或計畫特定的資料庫到能夠進行更廣泛的跨研究比較的全球資料庫。與正式描述在研究出版物中的林奈分類中心化和編碼化不同，OTUs分佈在多個不同的演變中的數位參考庫中，這些參考庫在分類焦點、條碼基因和其他因素上存在差異。通過將標準序列與已鑑定的參考標本關聯起來，BOLD和UNITE正在建立一個重要的對照層，將ASVs和OTUs與林奈分類相關聯。GBIF骨架分類學包括了對UNITE物種假設 (SHs) 和Barcode Index Numbers (BINs) 的識別碼，這使真菌和動物的OTU層級的物種出現紀錄可以進行分類注釋並進行索引 (https://www.gbif.org/news/2LrgV5t3ZuGeU2WIymSEuk/adding-sequence-based-identifiers-to-backbone-taxonomy-reveals-dark-taxa-fungi[GBIF secretariat 2018^]，https://data-blog.gbif.org/post/gbif-backbone-taxonomy[Grosjean 2019^])。"
 
 #. type: Plain text
 #: 100.en.adoc:128
