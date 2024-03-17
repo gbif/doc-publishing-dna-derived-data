@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-17 10:15\n"
+"PO-Revision-Date: 2024-03-17 11:29\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -661,7 +661,7 @@ msgstr "img/print/dwca-structure.en.png"
 #: 200.en.adoc:15
 #, no-wrap
 msgid "img/web/ct/dwca-structure.en.svg"
-msgstr "img/web/ct/dwca-structure.zh.svg"
+msgstr "img/web/ct/dwca-structure.zh-TW.svg"
 
 #. type: Title ===
 #: 200.en.adoc:18
@@ -790,7 +790,7 @@ msgstr "類別一至五的視覺化呈現。"
 #: 200.en.adoc:71
 #, no-wrap
 msgid "img/web/ct/eDNA-categories.en.svg"
-msgstr "img/web/ct/eDNA-categories.zh.svg"
+msgstr "img/web/ct/eDNA-categories.zh-TW.svg"
 
 #. type: Title ====
 #: 200.en.adoc:74
