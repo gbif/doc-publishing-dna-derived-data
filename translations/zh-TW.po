@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-18 08:03\n"
+"PO-Revision-Date: 2024-03-18 09:46\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -199,7 +199,7 @@ msgstr "摘要"
 #. type: Plain text
 #: colophon.en.adoc:53
 msgid "When genetic information is used to describe or classify a taxon, most users will foresee its use in the context of molecular ecology or phylogenetic research. It is important to realize that a sequence with coordinates and a timestamp is a valuable biodiversity occurrence which is useful in a much broader context than its original purpose. To realize this potential, DNA-derived data needs to be discoverable through biodiversity data platforms. This guide will teach you the principles and approaches of exposing “sequences with dates and coordinates” in the context of broader biodiversity data. The guide covers choices of particular schemas and terms, common pitfalls and good practice, without going into platform-specific details. It will benefit anyone interested in better exposure of DNA-derived data through general biodiversity data platforms, including national biodiversity portals."
-msgstr "使用基因資訊來描述或鑑定物種分類群時，大多使用者會預設該資料會使用在分子生物或演化學的研究上。然而，同時擁有座標與時間標記的基因序列是一個有價值的生物多樣性出現紀錄，相較其最初目可更廣泛的被使用。為了實現這一潛力，DNA衍生資料需要可以在生物多樣性資訊的平台上可供搜尋。這份教學文件將帶領您了解公開 “帶有時間標記與座標的序列” 的生物多樣性資訊的原則與方法。此文件涵蓋了特定的概要和術語、常見問題與合適的操作流程建議、且不討論各平台的細節。此文件將受益任何對使用各生物多樣性資訊平台 (包括國家級生物多樣性入口網站) 有興趣的人更順利地公開DNA衍生資料。"
+msgstr "使用基因資訊來描述或鑑定物種分類群時，大多使用者會預設這些資料將會使用在分子生物或演化學的研究上。然而，同時擁有座標與時間資訊的基因序列是一個有價值的生物多樣性出現紀錄，相較其最初目的，可更廣泛的被使用。為了實現這一潛力，DNA衍生資料需要可以在生物多樣性資訊的平台上供搜尋。這份教學文件將帶領您了解公開 “帶有時間與座標資訊的序列” 的生物多樣性資料的原理和方法。此文件涵蓋了特定的概要和術語、常見問題與合適的操作流程建議、且不討論各平台的細節。此文件將受益任何對使用各生物多樣性資訊平台 (包括國家級生物多樣性入口網站) 有興趣的人更順利地公開DNA衍生資料。"
 
 #. type: Title ==
 #: preface.en.adoc:2
@@ -210,17 +210,17 @@ msgstr "前言"
 #. type: Plain text
 #: preface.en.adoc:5
 msgid "The work on this guide started from discussions at the https://biss.pensoft.net/collection/115/[biodiversity_next conference] in 2019 consolidating inputs from various resources, such as:"
-msgstr "此指南的準備工作始於2019年在 https://biss.pensoft.net/collection/115/[biodiversity_next conference] 研討會上各種面向的討論整合，例如："
+msgstr "此文件的準備工作始於2019年在 https://biss.pensoft.net/collection/115/[biodiversity_next conference] 研討會上各種面向的討論整合，例如："
 
 #. type: Plain text
 #: preface.en.adoc:7
 msgid "https://docs.google.com/document/d/1xtgNwxp3Lek8hqFOBWPa8nCFLEc1S6YrYg1y_HLe5I4/edit?usp=sharing[Final Report on Environomics Future Science Platform Project]"
-msgstr "https://docs.google.com/document/d/1xtgNwxp3Lek8hqFOBWPa8nCFLEc1S6YrYg1y_HLe5I4/edit?usp=sharing[未來科學平台環境經濟學項目最終報告]"
+msgstr "https://docs.google.com/document/d/1xtgNwxp3Lek8hqFOBWPa8nCFLEc1S6YrYg1y_HLe5I4/edit?usp=sharing[未來科學平台環境經濟學項目 (Environomics Future Science Platform Project) 總結報告]"
 
 #. type: Plain text
 #: preface.en.adoc:8
 msgid "https://www.ala.org.au/blogs-news/edna-records-now-available-on-ala[ALA blog post eDNA records now available on ALA]"
-msgstr "https://www.ala.org.au/blogs-news/edna-records-now-available-on-ala[部落格文章，內容關於Atlas of Living Australia現在包含eDNA記錄]"
+msgstr "https://www.ala.org.au/blogs-news/edna-records-now-available-on-ala[部落格文章，內容關於ALA現在包含eDNA記錄]"
 
 #. type: Plain text
 #: preface.en.adoc:9
@@ -240,12 +240,12 @@ msgstr "https://www.miljodirektoratet.no/globalassets/publikasjoner/m1638/m1638.
 #. type: Plain text
 #: preface.en.adoc:12
 msgid "https://biodiversitydata-se.github.io/mol-data[Molecular biodiversity data in SBDI, Sweden]"
-msgstr "https://biodiversitydata-se.github.io/mol-data[瑞典生物多樣性資訊建設機構的分子生物多樣性資料]"
+msgstr "https://biodiversitydata-se.github.io/mol-data[瑞典生物多樣性資訊建設機構 (SBDI) 的分子生物多樣性資料]"
 
 #. type: Plain text
 #: preface.en.adoc:13
 msgid "https://www.gbif.org/faq?question=how-can-i-publish-molecular-data-to-gbif[GBIF resources (How) can I publish molecular/sequence/DNA based data to GBIF?]"
-msgstr "https://www.gbif.org/faq?question=how-can-i-publish-molecular-data-to-gbif[GBIF資源(如何)發布分子/序列/DNA資料到GBIF?]"
+msgstr "https://www.gbif.org/faq?question=how-can-i-publish-molecular-data-to-gbif[GBIF資源 (如何) 發布分子/序列/DNA資料到GBIF?]"
 
 #. type: Plain text
 #: preface.en.adoc:14
@@ -260,12 +260,12 @@ msgstr "https://www.gbif.org/publishing-data[GBIF簡略和詳細發布資料指�
 #. type: Plain text
 #: preface.en.adoc:16
 msgid "https://github.com/gbif/ipt/wiki/howToPublish#instructions[How to publish data to GBIF], as well as DwC/extension field overview."
-msgstr "https://github.com/gbif/ipt/wiki/howToPublish#instructions[如何發布資料到GBIF]，以及DwC/衍生資料集的欄位概述。"
+msgstr "https://github.com/gbif/ipt/wiki/howToPublish#instructions[如何發布資料到GBIF]，以及DwC/擴充表的欄位概述。"
 
 #. type: Plain text
 #: preface.en.adoc:16
 msgid "https://github.com/tdwg/gbwg[Genomic Biodiversity Interest Group]"
-msgstr "https://github.com/tdwg/gbwg[基因組生物多樣性工作小組]"
+msgstr "https://github.com/tdwg/gbwg[基因組生物多樣性工作小組 (Genomic Biodiversity Interest Group)]"
 
 #. type: Title ==
 #: 100.en.adoc:1
@@ -287,7 +287,7 @@ msgstr "在過去的20年裡，人們對分子生物方法在記錄地球上生�
 #. type: Plain text
 #: 100.en.adoc:8
 msgid "DNA-derived data enable us to record inconspicuous or otherwise unobservable taxa that fall below the radar of vetted protocols for field work, checklists, depositions into natural science collections, etc. The current maturity of DNA methodologies enables us to record the presence of these organisms to a level of detail that exceeds that of macroscopic observations of organisms in general. However, bearing in mind that DNA methodologies comes with their own problems and biases, it is important to use this moment to define and agree how we should record and report on an organism as present in some substrate or locality through molecular data. Doing so will help avoid significant inefficiencies that have been reported in other domains, in which the lack of standards and guidance has led to very heterogeneous and largely incomparable bodies of data (https://doi.org/10.1002/edn3.173[Berry et al. 2021^]; https://doi.org/10.1089/omi.2006.10.231[Leebens-Mack et al. 2006^]; https://doi.org/10.1038/nbt.1823[Yilmaz et al. 2011^]; https://doi.org/10.3897/mycokeys.4.3606[Nilsson et al. 2012^]; https://doi.org/10.7717/peerj.14993[Shea et al. 2023^]). Moreover, clear documentation of the computational processing from raw sequence reads to deduced species observation, will enable reanalysis when improved methods appear."
-msgstr "DNA衍生資料使我們能夠記錄不顯眼或無法觀察到的物種，因為這些物種會在常用的田野調查、名錄、自然典藏收集等的方法被忽略。目前DNA方法的成熟度使我們已能更詳細的記錄這些生物的存在，並超過了對一般生物的觀察水平。然而，DNA方法仍有其自身的問題和偏差，重要的是利用現況來定義我們應該如何通過分子生物方法記錄和回報現行存在於某特定基質或位置的生物。由於各領域缺乏標準和方法，導致資料主體非常多樣化且基本上無法互用或比較。標準化將有助於避免資料在其他領域呈現低成效報告的情況 (https://doi.org/10.1089/omi.2006.10.231[Leebens-Mack等人，2006^]；https://doi.org/10.1038/nbt.1823[Yilmaz等人，2011^]；https://doi.org/10.3897/mycokeys.4.3606[Nilsson等人，2012^])。此外，清晰記錄從原始序列讀取到推斷物種觀察計算處理的方法，將在未來改進方法出現時能夠重新複製過去的分析步驟。"
+msgstr "DNA衍生資料使我們能夠記錄不顯眼或無法觀察到的物種，因為這些物種會在常用的田野調查、名錄、自然典藏收集等的方法被忽略。目前DNA方法的成熟度使我們已能更詳細的記錄這些生物的存在，並超過了對一般生物的觀察方式。然而，DNA方法仍有其自身的問題和偏差，重要的是利用現況來定義我們應該如何通過分子生物方法記錄和回報現行存在於某特定基質或位置的生物。由於各領域缺乏標準和方法，導致資料主體非常多樣化且基本上無法互用或做比較。標準化將有助於避免資料在其他領域被無效的呈現 (https://doi.org/10.1002/edn3.173[Berry等人 2021^]；https://doi.org/10.1089/omi.2006.10.231[Leebens-Mack等人 2006^]；https://doi.org/10.1038/nbt.1823[Yilmaz等人 2011^]；https://doi.org/10.3897/mycokeys.4.3606[Nilsson等人 2012^]；https://doi.org/10.7717/peerj.14993[Shea等人 2023^])。此外，清晰地記錄從原始序列reads到推斷物種觀察的計算處理方法，將在未來改進方法出現時能夠重新分析過去所使用的步驟。"
 
 #. type: Plain text
 #: 100.en.adoc:10
