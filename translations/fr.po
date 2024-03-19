@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
-"POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2023-09-25 09:00\n"
+"POT-Creation-Date: 2024-03-19 10:11+0000\n"
+"PO-Revision-Date: 2024-03-19 10:12\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -259,8 +259,8 @@ msgstr "https://www.gbif.org/publishing-data[Guide rapide de publication des don
 
 #. type: Plain text
 #: preface.en.adoc:16
-msgid "https://github.com/gbif/ipt/wiki/howToPublish#instructions[How to publish data to GBIF], as well as DwC/extension field overview."
-msgstr "https://github.com/gbif/ipt/wiki/howToPublish#instructions[Comment publier des données dans GBIF], ainsi que l'aperçu des champs de l'extension DwC."
+msgid "https://ipt.gbif.org/manual/en/ipt/latest/how-to-publish[How to publish data to GBIF], as well as DwC/extension field overview."
+msgstr ""
 
 #. type: Plain text
 #: preface.en.adoc:16
@@ -826,8 +826,8 @@ msgstr "Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection wit
 
 #. type: Plain text
 #: 200.en.adoc:85 200.en.adoc:98
-msgid "For guidance on how to format and share these datasets, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
-msgstr "Pour des conseils sur la façon de formater et de partager les jeux de données, voir <<mapping-du-métabarcoding-edna-et-des-données-de-codes-barres-adn>>. Les directives générales pour les jeux de données d'occurrence Darwin Core sont également disponibles via https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] et https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
+msgid "For guidance on how to format and share these datasets, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
+msgstr ""
 
 #. type: Title ====
 #: 200.en.adoc:87
@@ -885,8 +885,8 @@ msgstr "Strzelecki, Joanna ; Feng, Ming; Berry, Olly; Zhong, Liejun; Keesing, Jo
 
 #. type: Plain text
 #: 200.en.adoc:108
-msgid "For guidance on how to format and share these datasets, see <<mapping-ddpcr-qpcr-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
-msgstr "Pour des conseils sur la manière de formater et de partager ces jeux de données, voir <<mapping-des-données-ddpcr-qpcr>>. Les directives générales pour les jeux de données sur les occurrences Darwin Core sont également disponibles via https://github.com/gbif/ipt/wiki/occurrenceData#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
+msgid "For guidance on how to format and share these datasets, see <<mapping-ddpcr-qpcr-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
+msgstr ""
 
 #. type: Title ====
 #: 200.en.adoc:110
@@ -929,8 +929,8 @@ msgstr "PlutoF (2019) - Système unifié pour les espèces fongiques basées sur
 
 #. type: Plain text
 #: 200.en.adoc:124
-msgid "This guide does not provide mapping recommendations for global OTU checklists / reference libraries (Category IV), and publishing referenceable (project- or study-specific) OTU libraries as checklists is discouraged. For guidance on how to format and share OTU checklists, see the following general Darwin Core guidelines in https://github.com/gbif/ipt/wiki/checklistData#templates[DwC-A template for checklists] and https://www.gbif.org/data-quality-requirements-checklists[Data quality requirements for checklists]. https://www.ebi.ac.uk/ena/submit/mixs-checklists[General guidelines for MIxS checklists]. For advice on how to map global reference libraries of OTUs for inclusion in the GBIF taxonomic backbone, contact the mailto:helpdesk@gbif.org[GBIF help desk]."
-msgstr "Ce guide ne fournit pas de recommandations de mapping pour les checklists globales d’OTUs / bibliothèques de référence (Catégorie IV), et il est déconseillé de publier des bibliothèques OTU référençables (spécifiques à un projet ou à une étude) sous forme de checklists. Pour obtenir des conseils sur la façon de formater et de partager les checklists d’OTUs, consultez les directives de Darwin Core suivantes sur https://github.com/gbif/ipt/wiki/checklistData#templates[DwC-A template for checklists], https://www.gbif.org/data-quality-requirements-checklists[Data quality requirements for checklists] et https://www.ebi.ac.uk/ena/submit/mixs-checklists[General guidelines for MIxS checklists]. Pour obtenir des conseils sur la façon de mapper les bibliothèques de référence mondiales d'OTUs pour les inclure dans le squelette taxonomique du GBIF, contactez le mailto:helpdesk@gbif.org[GBIF help desk]."
+msgid "This guide does not provide mapping recommendations for global OTU checklists / reference libraries (Category IV), and publishing referenceable (project- or study-specific) OTU libraries as checklists is discouraged. For guidance on how to format and share OTU checklists, see the following general Darwin Core guidelines in https://ipt.gbif.org/manual/en/ipt/latest/checklist-data#templates[DwC-A template for checklists] and https://www.gbif.org/data-quality-requirements-checklists[Data quality requirements for checklists]. https://www.ebi.ac.uk/ena/submit/mixs-checklists[General guidelines for MIxS checklists]. For advice on how to map global reference libraries of OTUs for inclusion in the GBIF taxonomic backbone, contact the mailto:helpdesk@gbif.org[GBIF help desk]."
+msgstr ""
 
 #. type: Title ====
 #: 200.en.adoc:126
@@ -961,8 +961,8 @@ msgstr "Cary S C (2015). New Zealand Terrestrial Biocomplexity Survey. SCAR - Mi
 
 #. type: Plain text
 #: 200.en.adoc:136
-msgid "Mapping recommendations for metadata-only DNA-derived datasets (Category V) is the same as for any other metadata-only datasets, and this guide does not provide any specific mapping recommendations for metadata. Please follow general recommendations of biodiversity data portals, paying attention to https://github.com/gbif/ipt/wiki/resourceMetadata[required and recommended metadata]. Descriptions of field, lab, and bioinformatics steps should be as detailed as possible. Describing your methods as method steps in the EML metadata makes them display on the dataset homepage in GBIF (https://www.gbif.org/dataset/3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f#methodology Frøslev T, Ejrnæs R (2018). BIOWIDE eDNA Fungi dataset. Danish Biodiversity Information Facility. Occurrence dataset https://doi.org/10.15468/nesbvx accessed via GBIF.org on 2021-07-06). However, if a structured and possibly more detailed method description is already published somewhere (e.g. at https://protocols.io[protocols.io] or https://www.neonscience.org/data-collection[NEON protocols collection]), it is straightforward to provide a link through the MIxS SOP field (see <<mapping-metabarcoding-edna-and-barcoding-data>>)."
-msgstr "Les recommandations de mapping pour les jeux de données dérivées de l'ADN (Catégorie V) ne comportant que des métadonnées sont les mêmes que pour tous les autres jeux de données qui incluent que des métadonnées, et ce guide ne fournit pas de recommandations de mapping plus spécifiques. Veuillez suivre les recommandations générales des portails de données sur la biodiversité, en prêtant attention à https://github.com/gbif/ipt/wiki/resourceMetadata[required and recommended metadata]. Les descriptions des étapes de terrain, de laboratoire et de bioinformatique doivent être aussi détaillées que possible. La description de vos méthodes en tant qu'étapes de méthode dans les métadonnées EML permet de les afficher sur la page d'accueil du GBIF (https://www.gbif.org/dataset/3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f#methodology Frøslev T, Ejrnæs R (2018). BIOWIDE eDNA Fungi dataset. Danish Biodiversity Information Facility. Occurrence dataset https://doi.org/10.15468/nesbvx accessed via GBIF.org on 2021-07-06). Cependant, si une description structurée et éventuellement plus détaillée de la méthode est déjà publiée quelque part (par exemple, sur https://protocols.io[protocols.io] ou dans https://www.neonscience.org/data-collection[NEON protocols collection]), c'est facile de fournir un lien via le champ MIxS SOP (voir <<mapping du métabarcoding eDNA et des données de codes-barres ADN>>)."
+msgid "Mapping recommendations for metadata-only DNA-derived datasets (Category V) is the same as for any other metadata-only datasets, and this guide does not provide any specific mapping recommendations for metadata. Please follow general recommendations of biodiversity data portals, paying attention to https://ipt.gbif.org/manual/en/ipt/latest/resource-metadata[required and recommended metadata]. Descriptions of field, lab, and bioinformatics steps should be as detailed as possible. Describing your methods as method steps in the EML metadata makes them display on the dataset homepage in GBIF (https://www.gbif.org/dataset/3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f#methodology Frøslev T, Ejrnæs R (2018). BIOWIDE eDNA Fungi dataset. Danish Biodiversity Information Facility. Occurrence dataset https://doi.org/10.15468/nesbvx accessed via GBIF.org on 2021-07-06). However, if a structured and possibly more detailed method description is already published somewhere (e.g. at https://protocols.io[protocols.io] or https://www.neonscience.org/data-collection[NEON protocols collection]), it is straightforward to provide a link through the MIxS SOP field (see <<mapping-metabarcoding-edna-and-barcoding-data>>)."
+msgstr ""
 
 #. type: Title ===
 #: 200.en.adoc:137
@@ -2661,8 +2661,8 @@ msgstr "[[boussarie]]Boussarie G, Bakker J, Wangensteen OS, Mariani S, Bonnin L,
 
 #. type: Plain text
 #: bibliography.en.adoc:14
-msgid "[[bustin]]Bustin SA, Benes V, Garson JA, Hellemans J, Huggett J, Kubista M, ... & Wittwer CT (2009). The MIQE Guidelines: M inimum I nformation for Publication of Q uantitative Real-Time PCR Experiments. https://doi.org/10.1373/clinchem.2008.112797"
-msgstr "[[bustin]]Bustin SA, Benes V, Garson JA, Hellemans J, Huggett J, Kubista M, ... & Wittwer CT (2009). The MIQE Guidelines: M inimum I nformation for Publication of Q uantitative Real-Time PCR Experiments. https://doi.org/10.1373/clinchem.2008.112797"
+msgid "[[bustin]]Bustin SA, Benes V, Garson JA, Hellemans J, Huggett J, Kubista M, ... & Wittwer CT (2009). The MIQE Guidelines: __M__inimum __I__nformation for Publication of __Q__uantitative Real-Time PCR __E__xperiments. https://doi.org/10.1373/clinchem.2008.112797"
+msgstr "[[bustin]]Bustin SA, Benes V, Garson JA, Hellemans J, Huggett J, Kubista M, ... & Wittwer CT (2009). The MIQE Guidelines: __M__inimum __I__nformation for Publication of __Q__uantitative Real-Time PCR __E__xperiments. https://doi.org/10.1373/clinchem.2008.112797"
 
 #. type: Plain text
 #: bibliography.en.adoc:15
