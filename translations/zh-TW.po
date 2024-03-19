@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 09:11+0000\n"
-"PO-Revision-Date: 2024-03-19 09:26\n"
+"PO-Revision-Date: 2024-03-19 09:44\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -292,7 +292,7 @@ msgstr "DNA衍生資料使我們能夠記錄不顯眼或無法觀察到的物種
 #. type: Plain text
 #: 100.en.adoc:10
 msgid "DNA-derived occurrence data of species should be as standardized and reproducible as possible, regardless of whether or not the detected species have formal scientific names. In some cases, such occurrence records will hint at previously unknown geographical and ecological properties of described species, thus enriching our body of knowledge on these taxa. In other cases, the data may allow us to amalgamate and visualize information on currently undescribed species, potentially speeding up their eventual formal description. The ability to collect usable data even for unnamed species adds significantly to the many ways in which GBIF and other biodiversity data platforms index the living world, and make this knowledge available to all and for a variety of purposes, including biodiversity conservation. Recent estimates suggest that at least 85 per cent of all extant species are undescribed (https://doi.org/10.1371/journal.pbio.1001127[Mora et al. 2011^]; https://doi.org/10.1111/cobi.12285[Tedesco et al. 2014^]). Existing data standards have been designed for the minority of taxa that have been described. Good practices for dealing with DNA-derived data will help to characterize occurrences of all organisms, whether described or not."
-msgstr "物種的DNA衍生出現紀錄應盡可能標準化和可重複操作，無論檢測到的物種是否具有正式學名。在某些情況下，此類出現記錄將暗示所描述物種以前未知的地理和生態特性，從而豐富我們對這些物種的知識。在其他情況下，這些數據可能使我們能夠整合和視覺化有關當前未描述物種的資訊，從而加快它們的正式物種描述。這些未命名物種也能收集可用的相關資料，顯著地增加了GBIF和其他生物多樣性資訊平台對生物世界多種進行索引的方式，使所有人都可以使用這些知識並用於各種目的，包括生物多樣性保育。文獻估計指出所有現存物種中至少有85%未被描述 (https://doi.org/10.1371/journal.pbio.1001127[Mora等人 2011^]；link:https://doi.org/10.1111/ cobi.12285[Tedesco等人 2014^])。現有的資料標準是為已描述的少數類群所設計的。良好的處理DNA衍生資料將有助於描述所有生物的出現紀錄，無論該物種是否已被描述。"
+msgstr "物種的DNA衍生出現紀錄應盡可能標準化和可重複操作，無論檢測到的物種是否具有正式學名。在某些情況下，此類出現記錄將暗示所描述物種以前未知的地理和生態特性，從而豐富我們對這些物種的知識。在其他情況下，這些數據可能使我們能夠整合和視覺化有關當前未描述物種的資訊，從而加快它們的正式物種描述。這些未命名物種也能收集可用的相關資料，顯著地增加了GBIF和其他生物多樣性資訊平台對生物世界多種進行索引的方式，使所有人都可以使用這些知識並用於各種目的，包括生物多樣性保育。文獻估計指出所有現存物種中至少有85%未被描述 (https://doi.org/10.1371/journal.pbio.1001127[Mora等人 2011^]；link:https://doi.org/10.1111/cobi.12285[Tedesco等人 2014^])。現有的資料標準是為已描述的少數類群所設計的。良好的處理DNA衍生資料將有助於描述所有生物的出現紀錄，無論該物種是否已被描述。"
 
 #. type: Plain text
 #: 100.en.adoc:12
@@ -583,7 +583,7 @@ msgstr "eDNA分類鑑定的演算法通常會將每個獨特的序列根據某�
 #. type: Plain text
 #: 100.en.adoc:130
 msgid "During import into the biodiversity platform (e.g. GBIF or OBIS), the taxonomic resolution for these DNA-based occurrences may be reduced even further, as the names/IDs obtained from comparing with the reference database (e.g. UNITE, BOLD) may not all be included in the taxonomic index of that platform at the time of publication. However, the inclusion of the underlying OTU or ASV sequence for each record will allow future users to potentially identify the sequence to a greater level of granularity, particularly as reference libraries improve over time. Therefore we also recommend to publish all sequences in a study - also those that are presently fully unclassified – as they may well be possible to identify with improved reference databases. In cases where the underlying sequence cannot be included as part of the submitted data, we advocate deposition of a (scientific or placeholder) name of the taxon (e.g. the BOLD BIN or UNITE SH) plus an MD5 checksum of the sequence as a unique taxon ID (see xref:data-mapping[xrefstyle=\"full\"]). MD5 checksums are unidirectional hash algorithms commonly used for https://en.wikipedia.org/wiki/MD5[verifying file integrity^]. In this case, they would provide a unique and repeatable representation of the original sequence that would nevertheless not allow the sequence itself to be recovered. This may be required in cases where sensitivity exists around access. MD5 checksums enable efficient query to determine whether the same exact sequence has been recovered in other eDNA efforts, but it is not a complete replacement of the sequence as MD5s do not enable further analyses. Two sequences differing by even a single base will get two completely different MD5 checksums, such that BLAST-style sequence similarity searches will not work."
-msgstr "由於DNA衍生出現紀錄資料在與參考資料庫 (例如UNITE、BOLD) 進行比對的當時，參考資料庫沒有完整或未更新的分類索引，在將這些DNA衍生出現紀錄導入生物多樣性平台 (例如GBIF或OBIS) 時，獲得的名稱/ID可能降低這些出現紀錄的分類的辨識率。然而，將這些OTU或ASV序列做發布將使未來使用者有機會將序列識別到更高分類階層，特別是參考資料庫會隨著時間的改善更新。在無法將序列做發布的情況下，我們主張將該物種的 (科學性或佔位符) 名稱 (例如BOLD BIN或UNITE SH) 加上序列的MD5校驗，作為唯一物種ID (xref:data-mapping[xrefstyle=\"full\"])。MD5校驗是一種單向hash演算法，通常用於https://en.wikipedia.org/wiki/MD5[驗證文件完整性^]。它們將可以在無法得到序列本身的情況下，提供原始序列唯一且可重複的代表性。這在獲取敏感資料的情況下可能是必需的。MD5校驗可有效地查詢來確定其他eDNA工作中是否也得到了相同的序列，但它不能完全取代序列所以無法進行進一步的分析。類似BLAST的序列相似度搜索會無法在這裡派上用場，因為相差一個碱基的兩個序列將獲得完全不同的MD5校驗。"
+msgstr "由於DNA衍生出現紀錄資料在與參考資料庫 (例如UNITE、BOLD) 進行比對的當時，參考資料庫沒有完整或未更新的分類索引，在將這些DNA衍生出現紀錄導入生物多樣性平台 (例如GBIF或OBIS) 時，獲得的名稱/ID可能降低這些出現紀錄的分類的辨識率。然而，將這些OTU或ASV序列做發布將使未來使用者有機會將序列識別到更高分類階層，特別是參考資料庫會隨著時間的改善更新。在無法將序列做發布的情況下，我們主張將該物種的 (科學性或佔位符) 名稱 (例如BOLD BIN或UNITE SH) 加上序列的MD5校驗，作為唯一物種ID (xref:資料對照-mapping[xrefstyle=\"full\"])。MD5校驗是一種單向hash演算法，通常用於link:https://en.wikipedia.org/wiki/MD5[驗證文件完整性^]。它們將可以在無法得到序列本身的情況下，提供原始序列唯一且可重複的代表性。這在獲取敏感資料的情況下可能是必需的。MD5校驗可有效地查詢來確定其他eDNA工作中是否也得到了相同的序列，但它不能完全取代序列所以無法進行進一步的分析。類似BLAST的序列相似度搜索會無法在這裡派上用場，因為相差一個碱基的兩個序列將獲得完全不同的MD5校驗。"
 
 #. type: Title ===
 #: 100.en.adoc:131
@@ -672,7 +672,7 @@ msgstr "資料類別"
 #. type: Plain text
 #: 200.en.adoc:21
 msgid "For the purpose of this guide, we categorize data into five categories, linked by a key ID field (_eventID_), equivalent to the standards for general biodiversity data, and include fields relevant for DNA-derived data (see xref:data-mapping[xrefstyle=\"full\"]). These five categories seek to reflect the most commonly used molecular approaches to biodiversity characterization and are I) DNA-derived occurrences, II) enriched occurrences, III) targeted species detection, IV) name references and V) metadata only. Examine the decision tree and proceed to the correct section below."
-msgstr "以這份文件的目的，我們將資料分為五個類別，通過一個關鍵的ID字段 (_eventID_) 進行關聯，該字段相當於一般生物多樣性資料的標準，並包括與DNA相關的字段 (見 xref:data-mapping[xrefstyle=\"full\"])。這五個類別旨在反映研究生物多樣性裡最常用的分子方法，分別是 (一) DNA衍生出現紀錄、(二) 多重引證出現紀錄、(三) 目標物種檢測、(四) 物種基因代號、和 (五) 僅有詮釋資料的資料集。使用下列的決策樹來引導至該類別。"
+msgstr "以這份文件的目的，我們將資料分為五個類別，通過一個關鍵的ID字段 (_eventID_) 進行關聯，該字段相當於一般生物多樣性資料的標準，並包括與DNA相關的字段 (見 xref:資料對照-mapping[xrefstyle=\"full\"])。這五個類別旨在反映研究生物多樣性裡最常用的分子方法，分別是 (一) DNA衍生出現紀錄、(二) 多重引證出現紀錄、(三) 目標物種檢測、(四) 物種基因代號、和 (五) 僅有詮釋資料的資料集。使用下列的決策樹來引導至該類別。"
 
 #. type: Block title
 #: 200.en.adoc:23
@@ -1132,7 +1132,7 @@ msgstr "| 字段名稱\n"
 "| 強烈建議\n\n"
 "| term:dwc[samplingProtocol]\n"
 "| UV light trap\n"
-"| 在採樣事件期間使用的方法名稱、參考或描述。https://dwc.tdwg.org/terms/#dwc:samplingProtocol\n"
+"| 在採樣事件期間使用的方法名稱、參考或描述。link:https://dwc.tdwg.org/terms/#dwc:samplingProtocol[]\n"
 "| 建議\n\n"
 "| term:dwc[associatedSequences]\n"
 "| https://www.ncbi.nlm.nih.gov/nuccore/MK405371\n"
@@ -1716,7 +1716,7 @@ msgstr "| 字段名稱\n"
 "| 填寫建議\n\n"
 "| term:mixs[sop]\n"
 "| https://www.protocols.io/view/protocol-for-dna-extraction-and-quantitative-pcr-d-vwie7ce +\n"
-"+\n"
+" +\n"
 "https://doi.org/10.17504/protocols.io.vwie7ce\n"
 "| 用於組裝和/或詮釋基因組、總體基因體或環境序列的標準操作流程。可使用有完整記錄方法的引用，例如 https://protocols.io[protocols.io]\n"
 "| 強烈建議\n\n"
@@ -1818,7 +1818,8 @@ msgstr "| 字段名稱\n"
 "| 強烈建議\n\n"
 "| term:mixs[env_broad_scale]\n"
 "| forest biome [ENVO:01000174]\n"
-"| *等同於MIxS v4中的env_biome* + 在此字段中，列出樣品或標本來源的主要環境系統。識別的系統應具有較粗略的空間廣度，以提供採樣地點的一般環境背景描述 (例如，您是否在沙漠還是雨林中)。我們建議使用ENVO的生物群系類的子類： +\n"
+"| *等同於MIxS v4中的env_biome* +\n"
+"在此字段中，列出樣品或標本來源的主要環境系統。識別的系統應具有較粗略的空間廣度，以提供採樣地點的一般環境背景描述 (例如，您是否在沙漠還是雨林中)。我們建議使用ENVO的生物群系類的子類： +\n"
 "http://purl.obolibrary.org/obo/ENVO_00000428\n"
 "| 建議\n\n"
 "| term:mixs[env_local_scale\t]\n"
@@ -1830,7 +1831,7 @@ msgstr "| 字段名稱\n"
 "| soil [ENVO:00001998]\n"
 "| *等同於MIxS v4中的env_material* +\n"
 "在此字段中，列出在採樣之前環繞樣品或標本的環境或基質 (使用 (\\|) 做分隔)。請使用ENV的環境材料類的一個或多個子類：+\n"
-"http://purl.obolibrary.org/obo/ENVO_00010483\n"
+" http://purl.obolibrary.org/obo/ENVO_00010483\n"
 "| 建議\n\n"
 "| term:mixs[concentration]\n"
 "| 67.5\n"
@@ -1846,7 +1847,7 @@ msgstr "| 字段名稱\n"
 "| 建議\n\n"
 "| term:mixs[ratioOfAbsorbance260_230]\n"
 "| 1.89\n"
-"| 在260nm和230nm波長的吸收比例，評估DNA純度 (通常為次要指標測量EDTA、碳水化合物、苯酚)，(DNA樣本)。 參考http://terms.tdwg.org/wiki/ggbn:ratioOfAbsorbance260_230\n"
+"| 在260nm和230nm波長的吸收比例，評估DNA純度 (通常為次要指標測量EDTA、碳水化合物、苯酚)，(DNA樣本)。 參考link:http://terms.tdwg.org/wiki/ggbn:ratioOfAbsorbance260_230[]\n"
 "| 建議\n\n"
 "| term:mixs[ratioOfAbsorbance260_280]\n"
 "| 1.91\n"
@@ -2622,7 +2623,7 @@ msgstr "[[boussarie]]Boussarie G, Bakker J, Wangensteen OS, Mariani S, Bonnin L,
 #. type: Plain text
 #: bibliography.en.adoc:14
 msgid "[[bustin]]Bustin SA, Benes V, Garson JA, Hellemans J, Huggett J, Kubista M, ... & Wittwer CT (2009). The MIQE Guidelines: __M__inimum __I__nformation for Publication of __Q__uantitative Real-Time PCR __E__xperiments. https://doi.org/10.1373/clinchem.2008.112797"
-msgstr ""
+msgstr "[[bustin]]Bustin SA, Benes V, Garson JA, Hellemans J, Huggett J, Kubista M, ... & Wittwer CT (2009). The MIQE Guidelines: __M__inimum __I__nformation for Publication of __Q__uantitative Real-Time PCR __E__xperiments. https://doi.org/10.1373/clinchem.2008.112797"
 
 #. type: Plain text
 #: bibliography.en.adoc:15
