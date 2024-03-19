@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-08-15 13:08+0000\n"
+"POT-Creation-Date: 2024-03-19 09:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3694,9 +3694,9 @@ msgstr ""
 #: bibliography.en.adoc:14
 msgid ""
 "[[bustin]]Bustin SA, Benes V, Garson JA, Hellemans J, Huggett J, Kubista M, "
-"... & Wittwer CT (2009). The MIQE Guidelines: M inimum I nformation for "
-"Publication of Q uantitative Real-Time PCR "
-"Experiments. https://doi.org/10.1373/clinchem.2008.112797"
+"... & Wittwer CT (2009). The MIQE Guidelines: __M__inimum __I__nformation "
+"for Publication of __Q__uantitative Real-Time PCR "
+"__E__xperiments. https://doi.org/10.1373/clinchem.2008.112797"
 msgstr ""
 
 #. type: Plain text
