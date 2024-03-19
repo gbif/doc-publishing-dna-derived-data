@@ -12,5 +12,5 @@ The work on this guide started from discussions at the https://biss.pensoft.net/
 * https://www.gbif.org/faq?question=how-can-i-publish-molecular-data-to-gbif[GBIF resources (How) can I publish molecular/sequence/DNA based data to GBIF?]
 * https://data-blog.gbif.org/post/gbif-molecular-data[Molecular data in GBIF]
 * https://www.gbif.org/publishing-data[GBIF quick guide to publishing data and detailed guides to publishing data]
-* https://github.com/gbif/ipt/wiki/howToPublish#instructions[How to publish data to GBIF], as well as DwC/extension field overview. 
+* https://ipt.gbif.org/manual/en/ipt/latest/how-to-publish[How to publish data to GBIF], as well as DwC/extension field overview.
 * https://github.com/tdwg/gbwg[Genomic Biodiversity Interest Group]
