@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 09:11+0000\n"
-"PO-Revision-Date: 2024-03-19 09:26\n"
+"PO-Revision-Date: 2024-03-19 09:44\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -2662,7 +2662,7 @@ msgstr "[[boussarie]]Boussarie G, Bakker J, Wangensteen OS, Mariani S, Bonnin L,
 #. type: Plain text
 #: bibliography.en.adoc:14
 msgid "[[bustin]]Bustin SA, Benes V, Garson JA, Hellemans J, Huggett J, Kubista M, ... & Wittwer CT (2009). The MIQE Guidelines: __M__inimum __I__nformation for Publication of __Q__uantitative Real-Time PCR __E__xperiments. https://doi.org/10.1373/clinchem.2008.112797"
-msgstr ""
+msgstr "[[bustin]]Bustin SA, Benes V, Garson JA, Hellemans J, Huggett J, Kubista M, ... & Wittwer CT (2009). The MIQE Guidelines: __M__inimum __I__nformation for Publication of __Q__uantitative Real-Time PCR __E__xperiments. https://doi.org/10.1373/clinchem.2008.112797"
 
 #. type: Plain text
 #: bibliography.en.adoc:15
