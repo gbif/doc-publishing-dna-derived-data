@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2023-08-15 13:08+0000\n"
-"PO-Revision-Date: 2024-03-18 09:46\n"
+"PO-Revision-Date: 2024-03-19 01:40\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -292,17 +292,17 @@ msgstr "DNA衍生資料使我們能夠記錄不顯眼或無法觀察到的物種
 #. type: Plain text
 #: 100.en.adoc:10
 msgid "DNA-derived occurrence data of species should be as standardized and reproducible as possible, regardless of whether or not the detected species have formal scientific names. In some cases, such occurrence records will hint at previously unknown geographical and ecological properties of described species, thus enriching our body of knowledge on these taxa. In other cases, the data may allow us to amalgamate and visualize information on currently undescribed species, potentially speeding up their eventual formal description. The ability to collect usable data even for unnamed species adds significantly to the many ways in which GBIF and other biodiversity data platforms index the living world, and make this knowledge available to all and for a variety of purposes, including biodiversity conservation. Recent estimates suggest that at least 85 per cent of all extant species are undescribed (https://doi.org/10.1371/journal.pbio.1001127[Mora et al. 2011^]; https://doi.org/10.1111/cobi.12285[Tedesco et al. 2014^]). Existing data standards have been designed for the minority of taxa that have been described. Good practices for dealing with DNA-derived data will help to characterize occurrences of all organisms, whether described or not."
-msgstr "物種的DNA衍生出現紀錄應盡可能標準化和可重複，無論檢測到的物種是否具有正式學名。在某些情況下，此類出現記錄將暗示所描述物種以前未知的地理和生態特性，從而豐富我們對這些物種的知識。在其他情況下，這些數據可能使我們能夠合併和可視化有關當前未描述物種的資訊，從而加快它們的正式物種描述。即使是未命名物種也能收集可用資料的能力顯著增加了GBIF和其他生物多樣性資訊平台對生物世界進行索引的多種方式，並使所有人都可以使用這些知識並用於各種目的，包括生物多樣性保育。文獻估計指出所有現存物種中至少有85%未被描述 (https://doi.org/10.1371/journal.pbio.1001127[Mora等人，2011^]；https://doi.org/10.1111/ cobi.12285[Tedesco等人，2014^])。現有資料標準是為已描述的少數類群所設計的。良好的處理DNA衍生資料將有助於描述所有生物的出現，無論該物種是否已被描述。"
+msgstr "物種的DNA衍生出現紀錄應盡可能標準化和可重複操作，無論檢測到的物種是否具有正式學名。在某些情況下，此類出現記錄將暗示所描述物種以前未知的地理和生態特性，從而豐富我們對這些物種的知識。在其他情況下，這些數據可能使我們能夠整合和視覺化有關當前未描述物種的資訊，從而加快它們的正式物種描述。這些未命名物種也能收集可用的相關資料，顯著地增加了GBIF和其他生物多樣性資訊平台對生物世界多種進行索引的方式，使所有人都可以使用這些知識並用於各種目的，包括生物多樣性保育。文獻估計指出所有現存物種中至少有85%未被描述 (https://doi.org/10.1371/journal.pbio.1001127[Mora等人 2011^]；https://doi.org/10.1111/ cobi.12285[Tedesco等人 2014^])。現有的資料標準是為已描述的少數類群所設計的。良好的處理DNA衍生資料將有助於描述所有生物的出現紀錄，無論該物種是否已被描述。"
 
 #. type: Plain text
 #: 100.en.adoc:12
 msgid "This guide sets out the ways in which DNA-derived occurrence data should be reported for standardized inclusion in GBIF and other biodiversity data platforms. It does not express any view on the issue of access and benefit sharing for digital sequence information, the subject of extensive discussion through the https://www.cbd.int/abs/[Convention on Biological Diversity^] (CBD). However, it is worth noting that genetic barcodes and metabarcodes are typically genes or non-coding DNA fragments, which are not suitable for commercial exploitation. As the archiving of sequences through http://www.insdc.org/[International Nucleotide Sequence Database Collaboration (INDSC)^] is a widespread norm in sequence-based research, publication of occurrence data originating from sequences does not involve publishing new sequences. In most cases these have already been placed in a public genetic repository. This guide therefore addresses the added value possible from deriving spatio-temporal occurrence data and dna-based names from dna data, rather than the value of the genetic information itself. In addition to dealing with sequence-derived data, this guide also includes suggestions for publishing occurrence data of species derived from qPCR or ddPCR analyses."
-msgstr "本指南描述DNA衍生資料的發布標準與方式，以便納入GBIF和其他生物多樣性平台。此指南對獲取與共享序列資訊的問題不發表任何意見，這是在 https://www.cbd.int/abs/[生物多樣性公約^] (CBD) 裡所廣泛已討論的主題。然而值得注意的是，DNA條碼和DNA元條碼通常是基因或非編碼DNA片段，不適合用於商業開發。歸檔序列於 http://www.insdc.org/[國際核苷酸序列數據庫協作 (INDSC)^] 是序列型研究中的普遍規範，但發布源自序列的出現紀錄不涉及發布新序列。大多數的情況下，這些序列資料已經被放置在公開的基因資料庫中。因此，本指南描述從DNA衍生資料中導出時空間的出現紀錄與基於DNA名稱可能帶來的附加資訊，而不是遺傳信息本身的價值。除了處理序列衍生資料外，本指南還包括發布來自qPCR或ddPCR分析的物種出現資料的建議。"
+msgstr "此文件描述DNA衍生資料的發布標準與方式，以便將此資料納入GBIF和其他生物多樣性平台。此文件不針對數據存取與序列資訊共享的議題發表任何意見，這是在https://www.cbd.int/abs/[生物多樣性公約^] (CBD) 裡已廣泛討論的主題。然而值得注意的是，DNA分子條碼 (barcoding) 和DNA高通量份子條碼 (metabarcoding) 通常是基因或非編碼DNA片段，不適合用於商業開發。序列存檔於http://www.insdc.org/[國際核苷酸序列數據庫協作 (INDSC)^] 是序列型研究中的普遍規範，但發布源自序列的出現紀錄不需要發布新序列。大多數的情況下，這些序列資料已經被放置在公開的基因資料庫中。因此，此文件描述從DNA衍生出現紀錄資料中的時空間與基於DNA的名稱資訊可能帶來的附加價值，而不是遺傳資訊本身的價值。除了處理序列衍生資料外，此文件還包括發布來自qPCR或ddPCR分析的物種出現資料的建議。"
 
 #. type: Plain text
 #: 100.en.adoc:14
 msgid "Reporting DNA-derived occurrences in an open and reproducible way brings many benefits: notably, it increases citability, highlights the taxa concerned in the context of biological conservation and contributes to taxonomic and ecological knowledge. Additionally, it also provides a mechanism to store occurrence records of undescribed species. When this yet to be described taxon is finally linked to a new Linnaean name, all these linked occurrence records will be immediately available. Each of these benefits provides a strong rationale for professionals to adopt the practices outlined in this guide, helping them to highlight a significant proportion of extant biodiversity, hasten its discovery and integrate it into biological conservation and policy-making."
-msgstr "以開放和可重複性的方式回報DNA衍生的出現紀錄有很多好處。它增加了可引用性，凸顯了生物保育背景下相關的分類群，並有助於分類學和生態學知識。除此此外，它還使用了另一種方式來存儲未描述物種的出現記錄。當這個尚未被描述的物種分類最終與一個新的林奈名稱相聯時，所有這些相關的出現記錄將連結與可立即使用。這些好處都為專業人士提供了強有力的理由來採用本指南中概述的做法，幫助他們凸顯出現存更廣的生物多樣性，加速其發現並將其納入生物保育和政策制定。"
+msgstr "以開放和可重複性的方式回報DNA衍生的出現紀錄有很多好處。它增加了可引用性，凸顯了生物保育背景下相關的分類群，並有助於分類學和生態學知識。除此之外，它還使用了另一種方式來存儲未描述物種的出現記錄。當這個尚未被描述的物種分類最終與一個新的林奈名稱相聯時，所有相關的出現記錄將連結與可立即被使用。這些好處都為專業人士提供了強有力的理由來採用此文件中概述的做法，幫助他們凸顯出現存更廣的生物多樣性，加速其發現並將其納入生物保育和政策制定。"
 
 #. type: Title ===
 #: 100.en.adoc:15
