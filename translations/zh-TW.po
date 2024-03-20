@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-03-20 04:57\n"
+"PO-Revision-Date: 2024-03-20 06:19\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -287,7 +287,7 @@ msgstr "在過去的20年裡，人們對分子生物方法在記錄地球上生�
 #. type: Plain text
 #: 100.en.adoc:8
 msgid "DNA-derived data enable us to record inconspicuous or otherwise unobservable taxa that fall below the radar of vetted protocols for field work, checklists, depositions into natural science collections, etc. The current maturity of DNA methodologies enables us to record the presence of these organisms to a level of detail that exceeds that of macroscopic observations of organisms in general. However, bearing in mind that DNA methodologies comes with their own problems and biases, it is important to use this moment to define and agree how we should record and report on an organism as present in some substrate or locality through molecular data. Doing so will help avoid significant inefficiencies that have been reported in other domains, in which the lack of standards and guidance has led to very heterogeneous and largely incomparable bodies of data (https://doi.org/10.1002/edn3.173[Berry et al. 2021^]; https://doi.org/10.1089/omi.2006.10.231[Leebens-Mack et al. 2006^]; https://doi.org/10.1038/nbt.1823[Yilmaz et al. 2011^]; https://doi.org/10.3897/mycokeys.4.3606[Nilsson et al. 2012^]; https://doi.org/10.7717/peerj.14993[Shea et al. 2023^]). Moreover, clear documentation of the computational processing from raw sequence reads to deduced species observation, will enable reanalysis when improved methods appear."
-msgstr "DNA衍生資料使我們能夠記錄不顯眼或無法觀察到的物種，因為這些物種會在常用的田野調查、名錄、自然典藏收集等的方法被忽略。目前DNA方法的成熟度使我們已能更詳細的記錄這些生物的存在，並超過了對一般生物的觀察方式。然而，DNA方法仍有其自身的問題和偏差，重要的是利用現況來定義我們應該如何通過分子生物方法記錄和回報現行存在於某特定基質或位置的生物。由於各領域缺乏標準和方法，導致資料主體非常多樣化且基本上無法互用或做比較。標準化將有助於避免資料在其他領域被無效的呈現 (https://doi.org/10.1002/edn3.173[Berry等人 2021^]；link:https://doi.org/10.1089/omi.2006.10.231[Leebens-Mack等人，2006^]；link:https://doi.org/10.1038/nbt.1823[Yilmaz等人，2011^]；link:https://doi.org/10.3897/mycokeys.4.3606[Nilsson等人，2012^]；link:https://doi.org/10.7717/peerj.14993[Shea等人，2023^])。此外，清晰地記錄從原始序列reads到推斷物種觀察的計算處理方法，將在未來改進方法出現時能夠重新分析過去所使用的步驟。"
+msgstr "DNA衍生資料使我們能夠記錄不顯眼或無法觀察到的物種，因為這些物種會在常用的田野調查、名錄、自然典藏收集等的方法被忽略。目前DNA方法的成熟度使我們已能更詳細的記錄這些生物的存在，並超過了對一般生物的觀察方式。然而，DNA方法仍有其自身的問題和偏差，重要的是利用現況來定義我們應該如何通過分子生物方法記錄和回報現行存在於某特定基質或位置的生物。由於各領域缺乏標準和方法，導致資料主體非常多樣化且基本上無法互用或做比較。標準化將有助於避免資料在其他領域被無效的呈現 (https://doi.org/10.1002/edn3.173[Berry等人，2021^]；link:https://doi.org/10.1089/omi.2006.10.231[Leebens-Mack等人，2006^]；link:https://doi.org/10.1038/nbt.1823[Yilmaz等人，2011^]；link:https://doi.org/10.3897/mycokeys.4.3606[Nilsson等人，2012^]；link:https://doi.org/10.7717/peerj.14993[Shea等人，2023^])。此外，清晰地記錄從原始序列reads到推斷物種觀察的計算處理方法，將在未來改進方法出現時能夠重新分析過去所使用的步驟。"
 
 #. type: Plain text
 #: 100.en.adoc:10
@@ -962,7 +962,7 @@ msgstr "Cary S C (2015). New Zealand Terrestrial Biocomplexity Survey. SCAR - Mi
 #. type: Plain text
 #: 200.en.adoc:136
 msgid "Mapping recommendations for metadata-only DNA-derived datasets (Category V) is the same as for any other metadata-only datasets, and this guide does not provide any specific mapping recommendations for metadata. Please follow general recommendations of biodiversity data portals, paying attention to https://ipt.gbif.org/manual/en/ipt/latest/resource-metadata[required and recommended metadata]. Descriptions of field, lab, and bioinformatics steps should be as detailed as possible. Describing your methods as method steps in the EML metadata makes them display on the dataset homepage in GBIF (https://www.gbif.org/dataset/3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f#methodology Frøslev T, Ejrnæs R (2018). BIOWIDE eDNA Fungi dataset. Danish Biodiversity Information Facility. Occurrence dataset https://doi.org/10.15468/nesbvx accessed via GBIF.org on 2021-07-06). However, if a structured and possibly more detailed method description is already published somewhere (e.g. at https://protocols.io[protocols.io] or https://www.neonscience.org/data-collection[NEON protocols collection]), it is straightforward to provide a link through the MIxS SOP field (see <<mapping-metabarcoding-edna-and-barcoding-data>>)."
-msgstr "對僅有詮釋資料的DNA衍生資料集 (類別五)，對照建議與其他僅有詮釋資料的資料集相同，此文件不提供僅有詮釋資料資料集的對照建議。請參考生物多樣性資料入口網的建議，並特別注意link:https://ipt.gbif.org/manual/zh/ipt/latest/resource-metadata[所需和建議的詮釋資料]。對田野、實驗室和生物資訊學步驟的描述應盡可能詳細。GBIF的資料集頁面會呈現在EML檔案中您描述的方法和步驟 (link:https://www.gbif.org/zh-tw/dataset/3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f#methodology[Frøslev T, Ejrnæs R (2018)]。 BIOWIDE eDNA Fungi dataset. Danish Biodiversity Information Facility. Occurrence dataset https://doi.org/10.15468/nesbvx accessed via GBIF.org on 2021-07-06)。但如果某平台或發表已經描述了結構化且可能更詳細的方法 (例如 https://protocols.io[protocols.io] 或 https://www.neonscience.org/data-collection[NEON protocols collection])，則可以直接通過MIxS SOP字段提供連結 (見<<mapping-metabarcoding-edna-和barcoding資料>>)。"
+msgstr "對僅有詮釋資料的DNA衍生資料集 (類別五)，對照建議與其他僅有詮釋資料的資料集相同，此文件不提供僅有詮釋資料資料集的對照建議。請參考生物多樣性資料入口網的建議，並特別注意link:https://ipt.gbif.org/manual/zh/ipt/latest/resource-metadata[所需和建議的詮釋資料]。對田野、實驗室和生物資訊學步驟的描述應盡可能詳細。GBIF的資料集頁面會呈現在EML檔案中您描述的方法和步驟 (link:https://www.gbif.org/zh-tw/dataset/3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f#methodology[Frøslev T, Ejrnæs R，2018]。 BIOWIDE eDNA Fungi dataset. Danish Biodiversity Information Facility. Occurrence dataset https://doi.org/10.15468/nesbvx accessed via GBIF.org on 2021-07-06)。但如果某平台或發表已經描述了結構化且可能更詳細的方法 (例如 https://protocols.io[protocols.io] 或 https://www.neonscience.org/data-collection[NEON protocols collection])，則可以直接通過MIxS SOP字段提供連結 (見<<mapping-metabarcoding-edna-和barcoding資料>>)。"
 
 #. type: Title ===
 #: 200.en.adoc:137
@@ -1104,7 +1104,7 @@ msgstr "| 字段名稱\n"
 "| 必填\n\n"
 "| term:dwc[recordedBy]\n"
 "| \"Oliver P. Pearson \\| Anita K. Pearson\"\n"
-"| 記錄原始出現紀錄的人、組織或團體的名稱 (連接和分隔)。推薦的最佳做法是用垂直線 (\\|) 分隔每個值。包含有關觀察者的資訊有助於提高科學可重複性(https://doi.org/10.1093/database/baaa072[Groom等人 2020^])。\n"
+"| 記錄原始出現紀錄的人、組織或團體的名稱 (連接和分隔)。推薦的最佳做法是用垂直線 (\\|) 分隔每個值。包含有關觀察者的資訊有助於提高科學可重複性(https://doi.org/10.1093/database/baaa072[Groom等人，2020^])。\n"
 "| 強烈建議\n\n"
 "| term:dwc[organismQuantity]\n"
 "| 33\n"
@@ -1465,7 +1465,7 @@ msgstr "| 字段名稱\n"
 "| 必填\n\n"
 "| term:dwc[recordedBy]\n"
 "| \"Oliver P. Pearson \\| Anita K. Pearson\"\n"
-"| 記錄原始出現紀錄的人、組織或機構的姓名列表 (串聯並分隔)。建議的寫法是使用垂直條 (\\|) 分隔值。包含觀察者的名字可提高科學的可重複性 (https://doi.org/10.1093/database/baaa072[Groom等人 2020^])。\n"
+"| 記錄原始出現紀錄的人、組織或機構的姓名列表 (串聯並分隔)。建議的寫法是使用垂直條 (\\|) 分隔值。包含觀察者的名字可提高科學的可重複性 (https://doi.org/10.1093/database/baaa072[Groom等人，2020^])。\n"
 "| 強烈建議\n\n"
 "| term:dwc[organismQuantity]\n"
 "| 50\n"
@@ -1887,7 +1887,7 @@ msgstr "海洋資料集和海洋生物多樣性信息系統 (OBIS)"
 #. type: Plain text
 #: 200.en.adoc:735
 msgid "When working with datasets originating in the marine environment, it is recommended that the information is published also in the https://obis.org[Ocean Biodiversity Information System^] (OBIS) in addition to GBIF. OBIS is a global biodiversity database, which is specialized in providing reliable and accessible data related to marine life and is a part of the IOC-UNESCO. Like GBIF, and ALA, OBIS uses the DwC-A format for data indexing and publishing. By publishing marine datasets through OBIS in addition to other biodiversity databases, the data can reach a broader audience, and diverse groups working in the field of marine biodiversity, as datasets in OBIS are often used for UN processes. With the focus on marine datasets, stringent quality controls on the data increase the reliability of the data and lead to small differences in what information is required for publishing in OBIS as opposed to GBIF."
-msgstr "在處理來自海洋環境的資料集時，除了GBIF之外，也建議將資料發布在 https://obis.org[海洋生物多樣性信息系統(OBIS)^]。 OBIS是一個全球性的生物多樣性資料庫，是IOC-UNESCO的一部分，專門提供與海洋生物相關的可靠並可查找的資料。與GBIF和ALA一樣，OBIS使用DwC-A格式進行資料索引和發布。同時將海洋資料集通過其他生物多樣性資料庫和OBIS發布，資料可以觸及更廣泛的受眾以及在海洋生物多樣性領域工作的多個社群，因為OBIS中的資料常應用在聯合國的相關工作。海洋資料發布到OBIS時所需的資訊與GBIF有些不同的小差異，這些差異帶出了資料嚴格品質管控，提高了海洋資料集資料的可信度。"
+msgstr "在處理來自海洋環境的資料集時，除了GBIF之外，也建議將資料發布在link:https://obis.org[海洋生物多樣性信息系統(OBIS)^]。 OBIS是一個全球性的生物多樣性資料庫，是IOC-UNESCO的一部分，專門提供與海洋生物相關的可靠並可查找的資料。與GBIF和ALA一樣，OBIS使用DwC-A格式進行資料索引和發布。同時將海洋資料集通過其他生物多樣性資料庫和OBIS發布，資料可以觸及更廣泛的受眾以及在海洋生物多樣性領域工作的多個社群，因為OBIS中的資料常應用在聯合國的相關工作。海洋資料發布到OBIS時所需的資訊與GBIF有些不同的小差異，這些差異帶出了資料嚴格品質管控，提高了海洋資料集資料的可信度。"
 
 #. type: Plain text
 #: 200.en.adoc:737
@@ -2050,7 +2050,7 @@ msgstr "[[ala]]Atlas of Living Australia (ALA)"
 #. type: Plain text
 #: glossary.en.adoc:6
 msgid "The ALA is a web-based platform that pulls together Australian biodiversity data from multiple sources, making it accessible and reusable to anyone (see https://www.ala.org.au/about-ala/). The open infrastructure platform developed by the ALA is also used by several other countries for their own national biodiversity data platform (see https://living-atlases.gbif.org/)."
-msgstr "ALA是一個從多個來源聚合澳大利亞的生物多樣性資料網絡的平台，使其對任何人都可查詢和重複使用 (請參見 https://www.ala.org.au/about-ala/)。 ALA開發的開放式基礎架構平台也被其他國家用於建立自己的國家生物多樣性資料平台 (link:https://living-atlases.gbif.org/[])。"
+msgstr "ALA是一個從多個來源聚合澳大利亞的生物多樣性資料網絡的平台，使其對任何人都可查詢和重複使用 (請見 https://www.ala.org.au/about-ala/) 。 ALA開發的開放式基礎架構平台也被其他國家用於建立自己的國家生物多樣性資料平台 (link:https://living-atlases.gbif.org/[])。"
 
 #. type: Labeled list
 #: glossary.en.adoc:6
@@ -2094,7 +2094,7 @@ msgstr "[[bold]]Barcode of Life Data System (BOLD)"
 #. type: Plain text
 #: glossary.en.adoc:10
 msgid "http://www.boldsystems.org/[BOLD^] is the reference database maintained by the Centre for Biodiversity Genomics in Guelph on behalf of the International Barcode of Life Consortium (https://ibol.org/[IBOL^]). It hosts data on barcode reference specimens and sequences for eukaryote species, particularly COI for animals, and maintains the Barcode Index Number (http://www.boldsystems.org/index.php/Public_BarcodeIndexNumber_Home[BIN^]; https://doi.org/10.1371/journal.pone.0066213[Ratnasingham & Hebert 2013^]) system, identifiers for OTUs of approximately species rank, based on clusters of closely similar sequences."
-msgstr "http://www.boldsystems.org/[BOLD^] 是由Guelph的Centre for Biodiversity Genomics代表 (https://ibol.org/[IBOL^]) 所維護的參考資料庫。它收集了關於真核生物物種標本的條碼參考和序列資料，尤其是動物的COI序列，并維護了(http://www.boldsystems.org/index.php/Public_BarcodeIndexNumber_Home[BIN^]; https://doi.org/10.1371/journal.pone.0066213[Ratnasingham & Hebert 2013^]) 系統。接近物種層級的OTUs的辨識碼來自序列分群後高度相似的序列。"
+msgstr "http://www.boldsystems.org/[BOLD^] 是由Guelph的Centre for Biodiversity Genomics代表 (https://ibol.org/[IBOL^]) 所維護的參考資料庫。它收集了關於真核生物物種標本的條碼參考和序列資料，尤其是動物的COI序列，并維護了(http://www.boldsystems.org/index.php/Public_BarcodeIndexNumber_Home[BIN^]; https://doi.org/10.1371/journal.pone.0066213[Ratnasingham & Hebert，2013^]) 系統。接近物種層級的OTUs的辨識碼來自序列分群後高度相似的序列。"
 
 #. type: Labeled list
 #: glossary.en.adoc:10
@@ -2248,7 +2248,7 @@ msgstr "[[embl]]歐洲生物資訊研究機構 (EMBL-EBI)"
 #. type: Plain text
 #: glossary.en.adoc:25
 msgid "Intergovernmental organization for bioinformatics research and services, part of the European Molecular Biology Laboratory (EMBL), providing eg. (raw) sequence reads and assembly data via <<ena,the European Nucleotide Archive (ENA)>>."
-msgstr "生物資訊學研究和服務的政府間組織，隸屬於歐洲分子生物學實驗室 (EMBL)，通過 <<ena,the European Nucleotide Archive (ENA)>> 提供包括 (原始) 序列reads和assembly資料。"
+msgstr "生物資訊學研究和服務的政府間組織，隸屬於歐洲分子生物學實驗室 (EMBL)，通過 <<ena,European Nucleotide Archive (ENA)>> 提供包括 (原始) 序列reads和assembly資料。"
 
 #. type: Labeled list
 #: glossary.en.adoc:25
@@ -2259,7 +2259,7 @@ msgstr "[[edna]]環境DNA (eDNA)"
 #. type: Plain text
 #: glossary.en.adoc:26
 msgid "DNA from an environmental sample, e.g. soil, water, air or host organism. An often used definition is that environmental DNA is the genetic material (DNA) obtained from environmental samples without any obvious evidence of biological source material (https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen and Willerslev 2015^])."
-msgstr "環境樣本中的DNA，例如土壤、水、空氣或宿主生物體。常用的定義為環境DNA是從環境樣本中獲得的基因物質 (DNA)，沒有明顯的生物來源材料的證據 (https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen and Willerslev 2015^])。"
+msgstr "環境樣本中的DNA，例如土壤、水、空氣或宿主生物體。常用的定義為環境DNA是從環境樣本中獲得的基因物質 (DNA)，沒有明顯的生物來源材料的證據 (https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen and Willerslev，2015^])。"
 
 #. type: Labeled list
 #: glossary.en.adoc:26
@@ -2270,7 +2270,7 @@ msgstr "[[ena]]European Nucleotide Archive (ENA)"
 #. type: Plain text
 #: glossary.en.adoc:27
 msgid "European repository for nucleotide sequences, covering raw sequencing data, sequence assembly information and functional annotation. Includes the <<sra,Sequence Read Archive (SRA)>>, and is maintained by the European Bioinformatics Institute (EMBL-EBI), as part of <<insdc, the International Nucleotide Sequence Database Collaboration (INSDC)>>."
-msgstr "歐洲核苷酸序列資料庫，涵蓋原始序列、序列組裝資訊和功能註解。包括序列檔案 <sra,Sequence Read Archive (SRA)> ，由歐洲生物資訊學研究所 (EMBL-EBI) 管理，作為國際核苷酸序列資料庫合作項目 <insdc, the International Nucleotide Sequence Database Collaboration (INSDC)> 的一部分。"
+msgstr "歐洲核苷酸序列資料庫，涵蓋原始序列、序列組裝資訊和功能註解。包括序列檔案 <<sra,Sequence Read Archive (SRA)>> ，由歐洲生物資訊學研究所 (EMBL-EBI) 管理，作為國際核苷酸序列資料庫合作項目 <<insdc, the International Nucleotide Sequence Database Collaboration (INSDC)>> 的一部分。"
 
 #. type: Labeled list
 #: glossary.en.adoc:27
@@ -2457,7 +2457,7 @@ msgstr "[[pipeline]]執行流程"
 #. type: Plain text
 #: glossary.en.adoc:44
 msgid "In bioinformatics, a set of algorithms or tools applied in a predefined workflow to process e.g. <<hts,High-throughput sequencing (HTS)>> data."
-msgstr "在生物資訊學裡一組演算法或工具被應用於預定義的工作流程中，用於處理例如高通量定序 <hts,High-throughput sequencing (HTS)> 資料。"
+msgstr "在生物資訊學裡一組演算法或工具被應用於預定義的工作流程中，用於處理例如高通量定序 <<hts,High-throughput sequencing (HTS)>> 資料。"
 
 #. type: Labeled list
 #: glossary.en.adoc:44
