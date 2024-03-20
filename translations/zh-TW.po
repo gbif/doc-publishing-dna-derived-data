@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-03-20 06:19\n"
+"PO-Revision-Date: 2024-03-20 09:20\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -330,13 +330,13 @@ msgstr "DNA衍生生物多樣性資料在此文件中的流程圖總覽"
 #: 100.en.adoc:24
 #, no-wrap
 msgid "img/print/sequence-publishing-guide.en.png"
-msgstr "img/print/sequence-publishing-guide.en.png"
+msgstr "img/print/sequence-publishing-guide.zh-TW.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:27
 #, no-wrap
 msgid "img/web/sequence-publishing-guide.en.svg"
-msgstr "img/web/sequence-publishing-guide.en.svg"
+msgstr "img/web/sequence-publishing-guide.zh-TW.svg"
 
 #. type: Plain text
 #: 100.en.adoc:31
@@ -375,7 +375,7 @@ msgstr "這張示意圖呈現了採樣過程，比較了 A) 傳統生態/生物�
 #: 100.en.adoc:43
 #, no-wrap
 msgid "img/print/sampling-processes.en.png"
-msgstr "img/print/sampling-processes.en.png"
+msgstr "img/print/sampling-processes.zh-TW.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:46
@@ -467,7 +467,7 @@ msgstr "呈現和發布DNA序列及相關詮釋資料的平台概要 (綠色框)
 #: 100.en.adoc:80
 #, no-wrap
 msgid "img/print/outline-of-a-platform.en.png"
-msgstr "img/print/outline-of-a-platform.en.png"
+msgstr "img/print/outline-of-a-platform.zh-TW.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:83
@@ -511,7 +511,7 @@ msgstr "生物資訊分析metabarcoding資料的流程。"
 #: 100.en.adoc:99
 #, no-wrap
 msgid "img/print/outline-of-bioinformatic-processing.en.png"
-msgstr "img/print/outline-of-bioinformatic-processing.en.png"
+msgstr "img/print/outline-of-bioinformatic-processing.zh-TW.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:102
@@ -655,7 +655,7 @@ msgstr "第1.4章節中圖表3的DwC-A / IPT的放大圖。核心的選擇主要
 #: 200.en.adoc:12
 #, no-wrap
 msgid "img/print/dwca-structure.en.png"
-msgstr "img/print/dwca-structure.en.png"
+msgstr "img/print/dwca-structure.zh-TW.png"
 
 #. type: Target for macro image
 #: 200.en.adoc:15
