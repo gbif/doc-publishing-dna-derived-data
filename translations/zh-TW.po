@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-03-20 09:20\n"
+"PO-Revision-Date: 2024-04-01 13:07\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -381,7 +381,7 @@ msgstr "img/print/sampling-processes.zh-TW.png"
 #: 100.en.adoc:46
 #, no-wrap
 msgid "img/web/sampling-processes.en.svg"
-msgstr "img/web/sampling-processes.en.svg"
+msgstr "img/web/sampling-processes.zh-TW.svg"
 
 #. type: Plain text
 #: 100.en.adoc:50
@@ -473,7 +473,7 @@ msgstr "img/print/outline-of-a-platform.zh-TW.png"
 #: 100.en.adoc:83
 #, no-wrap
 msgid "img/web/outline-of-a-platform.en.svg"
-msgstr "img/web/outline-of-a-platform.en.svg"
+msgstr "img/web/outline-of-a-platform.zh-TW.svg"
 
 #. type: Plain text
 #: 100.en.adoc:87
@@ -517,7 +517,7 @@ msgstr "img/print/outline-of-bioinformatic-processing.zh-TW.png"
 #: 100.en.adoc:102
 #, no-wrap
 msgid "img/web/outline-of-bioinformatic-processing.en.svg"
-msgstr "img/web/outline-of-bioinformatic-processing.en.svg"
+msgstr "img/web/outline-of-bioinformatic-processing.zh-TW.svg"
 
 #. type: Plain text
 #: 100.en.adoc:106
