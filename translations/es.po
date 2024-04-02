@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-04-02 21:45\n"
+"PO-Revision-Date: 2024-04-02 22:45\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -568,7 +568,7 @@ msgstr "Dado que la taxonomía es fundamental para el descubrimiento de datos so
 #. type: Plain text
 #: 100.en.adoc:124
 msgid "Most current biodiversity data platforms are organized around traditional name lists and taxonomic indexes. As DNA sequence-derived occurrences are rapidly becoming a significant source of biodiversity data, and as official taxonomy and nomenclature for such data lags, it is recommended that data providers and platforms should continue to explore and include more flexible representations of taxonomy into their taxonomic backbones. These new representations include molecular reference databases (e.g., GTDB, BOLD, UNITE) that recognize sequence data as reference material for previously unclassified organisms. Additionally, we suggest other commonly used molecular databases (e.g., PR2, RDP, SILVA) should develop stable identifiers for taxa and make reference sequences available for those taxa, to allow their use as taxonomic references."
-msgstr ""
+msgstr "La mayoría de las plataformas de datos sobre biodiversidad actuales están organizadas en torno a listas de nombres e índices taxonómicos tradicionales. Dado que las ocurrencias derivadas de secuencias de ADN se están convirtiendo rápidamente en una fuente importante de datos sobre biodiversidad, y como la taxonomía y nomenclatura oficiales para dichos datos van retrasadas, se recomienda que los proveedores de datos y las plataformas continúen explorando e incluyendo representaciones más flexibles de la taxonomía en sus árboles taxonómicos. Estas nuevas representaciones incluyen bases de datos de referencia molecular (por ejemplo, GTDB, BOLD, UNITE) que reconocen los datos de secuencia como material de referencia para organismos no clasificados previamente. Además, sugerimos que otras bases de datos moleculares de uso común (por ejemplo, PR2, RDP, SILVA) desarrollen identificadores estables para taxones y pongan a disposición secuencias de referencia para esos taxones, para permitir su uso como referencias taxonómicas."
 
 #. type: Plain text
 #: 100.en.adoc:126
