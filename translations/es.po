@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-03-19 10:13\n"
+"PO-Revision-Date: 2024-04-02 19:29\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -532,12 +532,12 @@ msgstr "Las secuencias pre-procesadas pueden ser asignadas a un taxón al compar
 #. type: Plain text
 #: 100.en.adoc:110
 msgid "The PCR used for generating the sequencing library can result in the generation of artefactual sequences in the form of chimeras; a single sequence that originates from multiple parent sequences. Such sequences can be detected bioinformatically and removed, and this is typically done after denoising."
-msgstr ""
+msgstr "El PCR utilizado para generar la biblioteca de secuenciación puede resultar en la generación de secuencias artefactuales en forma de quimeras; una secuencia única que se origina a partir de múltiples secuencias parentales. Estas secuencias pueden ser detectadas bioinformáticamente y eliminarse, y esto se hace típicamente después del denoising."
 
 #. type: Plain text
 #: 100.en.adoc:112
 msgid "Finally, the pre-processed sequences, OTUs or ASVs, are taxonomically classified by comparing them to a database of annotated sequences (often referred to as reference libraries, see <<taxonomy-of-sequences>>). As with the previous steps, several alternative methods are available. Most of these are either based on aligning the metabarcoding sequences to the reference sequences or on counting shared k-mers (short exact sequences)."
-msgstr ""
+msgstr "Finalmente, las secuencias preprocesadas, OTU o ASV, son clasificadas taxonómicamente al compararlas con una base de datos de secuencias anotadas (a menudo referidas como bibliotecas de referencia, véase <<taxonomy-of-sequences>>). Como en los pasos anteriores, varios métodos alternativos están disponibles. La mayoría de estos se basan en alinear de las secuencias de metabarcoding con las secuencias de referencia o en contar los k-mers compartidos (secuencias cortas exactas)."
 
 #. type: Plain text
 #: 100.en.adoc:114
