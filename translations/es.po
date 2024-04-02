@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-04-02 20:40\n"
+"PO-Revision-Date: 2024-04-02 21:45\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -558,12 +558,12 @@ msgstr "La anotación taxonómica de secuencias es un paso crítico en el proces
 #. type: Plain text
 #: 100.en.adoc:120
 msgid "Species, as described by taxonomists, are central to biology and attempts at characterizing biodiversity may therefore make use of the end products of taxonomic research. However, unlike DNA sequence data, taxonomic outputs are not always readily amenable to direct algorithmic or computational interpretation: classical taxonomy is a human-driven process which includes manual steps of taxon delimitation, description and naming, culminating in a formal publication in accordance to the international Codes of Nomenclature. As discussed in previous chapters, DNA sequence-based surveys are very effective at detecting hard to observe species and will often identify the presence of organisms currently outside traditional Linnaean taxonomic knowledge. While these guidelines do not address the publication of alternative species checklists derived from sequence data, the disconnection between traditional taxonomy and eDNA efforts is undesirable. Therefore we offer the following recommendations to readers of this guide."
-msgstr ""
+msgstr "Las especies, tal como las describen los taxónomos, son fundamentales para la biología y, por lo tanto, los intentos de caracterizar la biodiversidad, pueden utilizar los productos finales de la investigación taxonómica. Sin embargo, a diferencia de los datos de la secuencia de ADN, las salidas taxonómicas no siempre son fácilmente susceptibles a la interpretación algorítmica directa o computacional: la taxonomía clásica es un proceso impulsado por el hombre que inclye pasos manuales de delimitación de taxones, descripción y nombramiento, culminando en una publicación formal de acuerdo con los Códigos internacionales de Nomenclatura. Como se discutió en capítulos anteriores, los estudios basados en secuencias de ADN son muy eficaces para detectar especies difíciles de observar y, a menudo, identificarán la presencia de organismos que actualmente están fuera del conocimiento taxonómico tradicional de Linneo. Si bien estas directrices no abordan la publicación de listas de especies alternativas derivadas de datos de secuencia, la desconexión entre la taxonomía tradicional y los esfuerzos del ADN ambiental es indeseable. Por ello ofrecemos las siguientes recomendaciones a los lectores de esta guía."
 
 #. type: Plain text
 #: 100.en.adoc:122
 msgid "As taxonomy is central to the discovery of biodiversity data, it is highly recommended that any eDNA sequencing efforts should seek to include relevant taxonomic expertise in their study. It will similarly be beneficial if eDNA sequencing studies are able to allocate a portion of their budget to generation and release of reference sequences from previously unsequenced type specimens or other important reference material from the local herbarium, museum, or biological collection. Taxonomists, too, can contribute towards this goal by always including relevant DNA sequences with each new species description (https://doi.org/10.1093/sysbio/syaa026[Miralles et al. 2020^]) and by targeting the many novel biological entities unravelled by eDNA efforts (e.g. https://doi.org/10.1186/s40168-017-0259-5[Tedersoo et al. 2017^])."
-msgstr ""
+msgstr "Dado que la taxonomía es fundamental para el descubrimiento de datos sobre biodiversidad, es altamente recomendable que con cualquier esfuerzo de secuenciación de ADN ambiental se busque incluir experiencia taxonómica relevante en su estudio. De manera similar, será beneficioso si los estudios de secuenciación de ADN ambiental puedan asignar una parte de su presupuesto a la generación y publicación de secuencias de referencia a partir de especímenes tipo no secuenciados previamente u otro material de referencia importante del herbario, museo o colección biológica local. Los taxónomos también pueden contribuir a este objetivo incluyendo siempre secuencias de ADN relevantes con cada descripción de una nueva especie (https://doi.org/10.1093/sysbio/syaa026[Miralles et al. 2020^]) y centrándose en las muchas entidades biológicas novedosas desveladas por los esfuerzos del ADN ambiental (por ejemplo, https://doi.org/10.1186/s40168-017-0259-5[Tedersoo et al. 2017^])."
 
 #. type: Plain text
 #: 100.en.adoc:124
