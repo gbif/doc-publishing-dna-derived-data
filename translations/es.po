@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-04-02 22:45\n"
+"PO-Revision-Date: 2024-07-18 19:07\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -260,7 +260,7 @@ msgstr "https://www.gbif.org/publishing-data[GBIF quick guide to publishing data
 #. type: Plain text
 #: preface.en.adoc:16
 msgid "https://ipt.gbif.org/manual/en/ipt/latest/how-to-publish[How to publish data to GBIF], as well as DwC/extension field overview."
-msgstr ""
+msgstr "https://ipt.gbif.org/manual/en/ipt/latest/how-to-publish[Cómo publicar datos a través de GBIF], así como una visión general del DwC/extensiones."
 
 #. type: Plain text
 #: preface.en.adoc:16
