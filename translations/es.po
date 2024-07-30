@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-07-29 23:46\n"
+"PO-Revision-Date: 2024-07-30 15:30\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -599,13 +599,13 @@ msgstr ""
 #. type: Plain text
 #: 100.en.adoc:136
 msgid "At GBIF.org or through the GBIF API, registered users can search, filter, and download biodiversity data in the following three formats:"
-msgstr ""
+msgstr "En GBIF.org o a través de la API de GBIF, los usuarios registrados pueden buscar, filtrar y descargar datos de biodiversidad en los siguientes tres formatos:"
 
 #. type: Plain text
 #: 100.en.adoc:138
 #, no-wrap
 msgid "*Simple*: a simple, tab-delimited format which includes only the GBIF-interpreted version of the data, as a result of the indexing process. This is suitable for quick tests and direct import into spreadsheets. \n"
-msgstr ""
+msgstr "*Simple*: Un formato sencillo delimitado por tabulaciones que incluye solo la versión interpretada por GBIF de los datos, como resultado del proceso de indexación. Este formato es adecuado para pruebas rápidas y para importar directamente a hojas de cálculo.\n"
 
 #. type: Plain text
 #: 100.en.adoc:139
