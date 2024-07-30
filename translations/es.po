@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-07-30 15:30\n"
+"PO-Revision-Date: 2024-07-30 16:50\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -611,13 +611,13 @@ msgstr "*Simple*: Un formato sencillo delimitado por tabulaciones que incluye so
 #: 100.en.adoc:139
 #, no-wrap
 msgid "*Darwin Core Archive*: richer format that includes both the interpreted data and the original verbatim version provided by the publisher (prior to indexing and interpretation by GBIF). Because it includes all the metadata and issue flags, this format provides a richer view of the downloaded dataset. \n"
-msgstr ""
+msgstr "*Archivo Darwin Core*: Formato más completo que incluye tanto los datos interpretados como la versión original literal proporcionada por el publicador (antes de la indexación e interpretación por parte de GBIF). Debido a que incluye todos los metadatos y las indicaciones de problemas, este formato aporta una vista más detallada del conjunto de datos descargado.\n"
 
 #. type: Plain text
 #: 100.en.adoc:140
 #, no-wrap
 msgid "*Species list*: a simple table format that includes only an interpreted list of unique species names from a dataset or query result. \n"
-msgstr ""
+msgstr "*Lista de especies*: Un formato de tabla sencillo que incluye solo una lista interpretada de nombres únicos de especies de un conjunto de datos o de un resultado de una consulta.\n"
 
 #. type: Plain text
 #: 100.en.adoc:141
