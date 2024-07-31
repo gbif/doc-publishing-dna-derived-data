@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-07-31 17:45\n"
+"PO-Revision-Date: 2024-07-31 22:35\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -594,7 +594,7 @@ msgstr "Salidas"
 #. type: Plain text
 #: 100.en.adoc:134
 msgid "The purpose of exposing DNA-derived data through biodiversity platforms is to enable reuse of these data in combination with other biodiversity data types. It is very important to keep this reuse in mind when preparing your data for publication. Ideally, the metadata and data should tell a complete story in such a way that new, uninformed users can use this evidence without any additional consultations or correspondence. Biodiversity data platforms provide search, filtering, browsing, visualizations, data access, and data citation functionality. For metabarcoding data we encourage users to configure filters for minimum absolute and relative read abundance to make a suitable filtering of data. Singletons or any occurrence with an absolute read count below some selected value can be filtered out by setting a minimum read abundance per OTU or ASV (using the field organismQuantity). Occurrences with a relative read abundance below a selected threshold can be filtered out by setting a minimum value of relative organism quantity, which is calculated from the detected reads (organismQuantity) and total reads in the corresponding sample (sampleSizeValue) (<<mapping-metabarcoding-edna-and-barcoding-data>>). Users can often choose data-output formats (e.g. DwC-A, CSV) and then process, clean and transform data into the shape and format needed for the analyses."
-msgstr ""
+msgstr "El propósito de exponer datos derivados del ADN a través de plataformas de biodiversidad es permitir la reutilización de estos datos en combinación con otros tipos de datos sobre biodiversidad. Es muy importante tener en cuenta esta reutilización al preparar sus datos para la publicación. Idealmente, los metadatos y los datos deben contar una historia completa de tal manera que los nuevos usuarios no informados puedan utilizar esta evidencia sin ninguna consulta o correspondencia adicional. Las plataformas de datos sobre biodiversidad proporcionan funcionalidades de búsqueda, filtrado, navegación, visualizaciones, acceso a datos y citación de datos. Para los datos de metabarcoding, alentamos a los usuarios a configurar filtros para la abundancia mínima absoluta y relativa de lecturas para hacer un filtrado adecuado de los datos. Las ocurrencias individuales o cualquier ocurrencia con un recuento absoluto de lecturas por debajo de algún valor seleccionado pueden ser filtradas estableciendo una abundancia mínima de lecturas por OTU o ASV (usando el campo organismQuantity). Las ocurrencias con una abundancia relativa de lecturas por debajo de un umbral seleccionado pueden ser filtradas estableciendo un valor mínimo de cantidad relativa del organismo, que se calcula a partir de las lecturas detectadas (organismQuantity) y el total de lecturas en la muestra correspondiente (sampleSizeValue) (<<mapping-metabarcoding-edna-and-barcoding-data>>). Los usuarios a menudo pueden elegir formatos de salida de datos (por ejemplo, DwC-A, CSV) y luego procesar, limpiar y transformar los datos en la forma y formato necesarios para los análisis."
 
 #. type: Plain text
 #: 100.en.adoc:136
