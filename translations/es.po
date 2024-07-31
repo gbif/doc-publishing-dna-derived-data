@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-07-31 14:28\n"
+"PO-Revision-Date: 2024-07-31 16:47\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -892,7 +892,7 @@ msgstr ""
 #: 200.en.adoc:110
 #, no-wrap
 msgid "Category IV: Name references"
-msgstr ""
+msgstr "Categoría IV: Referencias de nombres"
 
 #. type: Plain text
 #: 200.en.adoc:113
@@ -915,7 +915,7 @@ msgstr ""
 #: 200.en.adoc:118
 #, no-wrap
 msgid "Examples of Name references checklists"
-msgstr ""
+msgstr "Ejemplos de listas de verificación de referencias de nombres"
 
 #. type: Plain text
 #: 200.en.adoc:121
@@ -1271,7 +1271,7 @@ msgstr "Mapeando datos ddPCR / qPCR"
 #. type: Plain text
 #: 200.en.adoc:398
 msgid "This section provides mapping recommendations for https://academic.oup.com/view-large/199871507[Category III]."
-msgstr ""
+msgstr "Esta sección proporciona recomendaciones de mapeo para https://academic.oup.com/view-large/199871507 [Categoría III]."
 
 #. type: Block title
 #: 200.en.adoc:400
