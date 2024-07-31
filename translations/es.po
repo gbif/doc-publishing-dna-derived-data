@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-07-30 22:12\n"
+"PO-Revision-Date: 2024-07-31 14:28\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -578,7 +578,7 @@ msgstr "A diferencia de la taxonomía clásica, que es un proceso altamente manu
 #. type: Plain text
 #: 100.en.adoc:128
 msgid "Algorithms for taxonomic annotation of eDNA will typically assign each unique sequence to the nearest taxonomic group in a reference set, based on some criteria for relatedness and confidence. For poorly known groups of organisms, such as prokaryotes, insects and fungi, the annotation may be a non-Linnaean placeholder name for a (cluster-based) taxon (i.e. the ID/number of the relevant SH or BIN), and this taxon may represent a species or even a taxonomic unit above the species level. No reference database contains all species in a given group due to the many unknown, unidentified, and undescribed species on earth. Frequent ignorance of this fact has been the source of numerous taxonomic misidentifications during the last 30 years."
-msgstr ""
+msgstr "Los algoritmos para la anotación taxonómica del ADN ambiental típicamente asignarán cada secuencia única al grupo taxonómico más cercano en un conjunto de referencia, basado en algunos criterios de parentesco y confianza. Para grupos de organismos poco conocidos, como los procariotas, insectos y hongos, la anotación puede ser un nombre provisional no Linneano (basado en clústeres) para un taxón (es decir, el ID/número del SH o BIN relevante), y este taxón puede representar una especie o incluso una unidad taxonómica por encima del nivel de especie. Ninguna base de datos de referencia contiene todas las especies de un grupo dado debido a las muchas especies desconocidas, no identificadas y no descritas en la tierra. La ignorancia frecuente de este hecho ha sido la fuente de numerosas identificaciones taxonómicas erróneas durante los últimos 30 años."
 
 #. type: Plain text
 #: 100.en.adoc:130
