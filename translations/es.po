@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-08-13 15:28\n"
+"PO-Revision-Date: 2024-08-13 16:51\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -827,7 +827,7 @@ msgstr "Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection wit
 #. type: Plain text
 #: 200.en.adoc:85 200.en.adoc:98
 msgid "For guidance on how to format and share these datasets, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
-msgstr "Para obtener orientación sobre cómo dar formato y compartir estos conjuntos de datos, consulta <<mapping-metabarcoding-edna-and-barcoding-data>>. También están disponibles las directrices generales para los conjuntos de datos de ocurrencias de Darwin Core a través de https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[plantilla DwC-A para conjuntos de datos de ocurrencias] y https://www.gbif.org/data-quality-requirements-occurrences[recomendaciones de calidad de datos para ocurrencias]."
+msgstr "Para obtener orientación sobre cómo dar formato y compartir estos conjuntos de datos, consulta <<mapping-metabarcoding-edna-and-barcoding-data>>. También están disponibles las directrices generales para los conjuntos de datos de ocurrencias de Darwin Core a través de https://ipt.gbif.org/manual/es/ipt/latest/occurrence-data#templates[plantilla DwC-A para conjuntos de datos de ocurrencias] y https://www.gbif.org/data-quality-requirements-occurrences[recomendaciones de calidad de datos para ocurrencias]."
 
 #. type: Title ====
 #: 200.en.adoc:87
@@ -886,7 +886,7 @@ msgstr "Strzelecki, Joanna; Feng, Ming; Berry, Olly; Zhong, Liejun; Keesing, Joh
 #. type: Plain text
 #: 200.en.adoc:108
 msgid "For guidance on how to format and share these datasets, see <<mapping-ddpcr-qpcr-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
-msgstr ""
+msgstr "Para obtener orientación sobre cómo dar formato y compartir estos conjuntos de datos, consulta <<mapping-ddpcr-qpcr-data>>. También están disponibles las directrices generales para los conjuntos de datos de ocurrencias de Darwin Core a través de https://ipt.gbif.org/manual/es/ipt/latest/occurrence-data#templates[plantilla DwC-A para conjuntos de datos de ocurrencias] y https://www.gbif.org/data-quality-requirements-occurrences[recomendaciones de calidad de datos para ocurrencias]."
 
 #. type: Title ====
 #: 200.en.adoc:110
@@ -897,13 +897,13 @@ msgstr "Categoría IV: Referencias de nombres"
 #. type: Plain text
 #: 200.en.adoc:113
 msgid "This category corresponds to DNA-derived names, derived from clustering or denoising (error-correction based models), such as stable non-Linnaean Operational Taxonomic Units (OTU), Amplicon Sequence Variant (ASV) and Barcode Index Numbers (BIN)—in other words, any reference to taxa or provisional names that are defined outside of the Linnaean taxonomy. Numerous projects produce local project- or study-specific libraries of OTUs, and although it is technically possible to publish these as checklists, they have limited to no value for data linking or interpretation; as a result, we do not encourage their publication through biodiversity data platforms. However, the inclusion of the widely adopted, stable, global, digitally referenceable OTUs into Linnaean taxonomic backbones is critically important for indexing unnamed “dark” biodiversity. GBIF have accumulated experience in integrating such large and global reference libraries of OTUs into the GBIF taxonomic backbone, which allows the display of OTUs under the nearest parent taxon which has a Scientific name (<<figure-otus>>)."
-msgstr ""
+msgstr "Esta categoría corresponde a nombres derivados del ADN, obtenidos mediante agrupación o denoising (modelos basados en corrección de errores), como las Unidades Taxonómicas Operativas (OTU) no Linneanas estables, las Variantes de Secuencia de Amplicón (ASV) y los Números de Índice de Código de Barras (BIN). En otras palabras, se refiere a cualquier mención de taxones o nombres provisionales definidos fuera de la taxonomía Linneana. Numerosos proyectos generan bibliotecas locales de OTUs específicas para proyectos o estudios, y aunque es técnicamente posible publicarlas como listas de verificación, tienen un valor limitado o nulo para la vinculación o interpretación de datos. Por lo tanto, no alentamos su publicación a través de plataformas de datos de biodiversidad. Sin embargo, la inclusión de las OTUs ampliamente adoptadas, estables, globales y digitalmente referenciables en las estructuras taxonómicas Linneanas es de vital importancia para indexar la biodiversidad “oscura” sin nombre. GBIF ha acumulado experiencia en la integración de estas grandes bibliotecas de referencia globales de OTUs en la estructura taxonómica principal de GBIF, lo que permite mostrar las OTUs bajo el taxón padre más cercano que tiene un nombre científico (<<figure-otus>>)."
 
 #. type: Block title
 #: 200.en.adoc:115
 #, no-wrap
 msgid "OTUs (SHs) from UNITE (mainly fungi, above) and from BOLD (BINs) (mainly arthropods, below) are displayed in the GBIF backbone taxonomy under their corresponding parent taxa which have Scientific names. Multiple individually observed occurrences of cryptic biodiversity become discoverable together with non-genetic evidence through a single access point."
-msgstr ""
+msgstr "Los OTUs (SHs) de UNITE (principalmente hongos, arriba) y de BOLD (BINs) (principalmente artrópodos, abajo) se muestran en la taxonomía principal de GBIF bajo sus taxones parentales correspondientes que tienen nombres científicos. Múltiples ocurrencias observadas individualmente de biodiversidad críptica se vuelven descubribles junto con evidencia no genética a través de un único punto de acceso."
 
 #. type: Target for macro image
 #: 200.en.adoc:116
@@ -930,7 +930,7 @@ msgstr "PlutoF (2019). UNITE - Unified system for the DNA based fungal species l
 #. type: Plain text
 #: 200.en.adoc:124
 msgid "This guide does not provide mapping recommendations for global OTU checklists / reference libraries (Category IV), and publishing referenceable (project- or study-specific) OTU libraries as checklists is discouraged. For guidance on how to format and share OTU checklists, see the following general Darwin Core guidelines in https://ipt.gbif.org/manual/en/ipt/latest/checklist-data#templates[DwC-A template for checklists] and https://www.gbif.org/data-quality-requirements-checklists[Data quality requirements for checklists]. https://www.ebi.ac.uk/ena/submit/mixs-checklists[General guidelines for MIxS checklists]. For advice on how to map global reference libraries of OTUs for inclusion in the GBIF taxonomic backbone, contact the mailto:helpdesk@gbif.org[GBIF help desk]."
-msgstr ""
+msgstr "Este guía no proporciona recomendaciones de mapeo para listas de verificación globales de OTUs / bibliotecas de referencia (Categoría IV), y se desaconseja publicar bibliotecas de OTUs referenciables (proyecto o estudio específico) como listas de verificación. Para obtener orientación sobre cómo dar formato y compartir listas de verificación de OTUs, consulte las siguientes directrices generales de Darwin Core en https://ipt.gbif.org/manual/es/ipt/latest/checklist-data#templates[plantilla DwC-A para listas de verificación], https://www.gbif.org/data-quality-requirements-checklists[recomendaciones de calidad de datos para listas de verificación] y https://www.ebi.ac.uk/ena/submit/mixs-checklists[directrices generales para listas de verificación MIxS]. Si necesita asesoramiento sobre cómo mapear bibliotecas de referencia globales de OTUs para su inclusión en la estructura taxonómica principal de GBIF, comunicarse con mailto:helpdesk@gbif.org[centro de ayuda de GBIF]."
 
 #. type: Title ====
 #: 200.en.adoc:126
