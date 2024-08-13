@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-07-31 22:35\n"
+"PO-Revision-Date: 2024-08-13 15:28\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -583,7 +583,7 @@ msgstr "Los algoritmos para la anotación taxonómica del ADN ambiental típicam
 #. type: Plain text
 #: 100.en.adoc:130
 msgid "During import into the biodiversity platform (e.g. GBIF or OBIS), the taxonomic resolution for these DNA-based occurrences may be reduced even further, as the names/IDs obtained from comparing with the reference database (e.g. UNITE, BOLD) may not all be included in the taxonomic index of that platform at the time of publication. However, the inclusion of the underlying OTU or ASV sequence for each record will allow future users to potentially identify the sequence to a greater level of granularity, particularly as reference libraries improve over time. Therefore we also recommend to publish all sequences in a study - also those that are presently fully unclassified – as they may well be possible to identify with improved reference databases. In cases where the underlying sequence cannot be included as part of the submitted data, we advocate deposition of a (scientific or placeholder) name of the taxon (e.g. the BOLD BIN or UNITE SH) plus an MD5 checksum of the sequence as a unique taxon ID (see xref:data-mapping[xrefstyle=\"full\"]). MD5 checksums are unidirectional hash algorithms commonly used for https://en.wikipedia.org/wiki/MD5[verifying file integrity^]. In this case, they would provide a unique and repeatable representation of the original sequence that would nevertheless not allow the sequence itself to be recovered. This may be required in cases where sensitivity exists around access. MD5 checksums enable efficient query to determine whether the same exact sequence has been recovered in other eDNA efforts, but it is not a complete replacement of the sequence as MD5s do not enable further analyses. Two sequences differing by even a single base will get two completely different MD5 checksums, such that BLAST-style sequence similarity searches will not work."
-msgstr ""
+msgstr "Durante la importación en la plataforma de biodiversidad (por ejemplo, GBIF u OBIS), la resolución taxonómica para estas ocurrencias basadas en ADN puede reducirse aún más, ya que los nombres/IDs obtenidos al comparar con la base de datos de referencia (por ejemplo, UNITE, BOLD) pueden no estar incluidos totalmente en el índice taxonómico de esa plataforma en el momento de la publicación. Sin embargo, la inclusión de la secuencia subyacente de OTU o ASV para cada registro permitirá a los futuros usuarios identificar potencialmente la secuencia a un nivel de granularidad mayor, especialmente a medida que las bibliotecas de referencia mejoren con el tiempo. Por lo tanto, también recomendamos publicar todas las secuencias en un estudio, incluso aquellas que actualmente están completamente sin clasificar, ya que es posible que se puedan identificar con bases de datos de referencia mejoradas. En los casos en los que la secuencia subyacente no pueda incluirse como parte de los datos enviados, abogamos por la deposición de un nombre (científico o de marcador de posición) del taxón (por ejemplo, el BOLD BIN o UNITE SH) junto con la suma de verificación MD5 de la secuencia como un ID de taxón único (ver xref:data-mapping[xrefstyle=\"full\"]). La suma de verificación MD5 es un algoritmo de hash unidireccional comúnmente utilizado para https://es.wikipedia.org/wiki/MD5[verificar la integridad de archivos^]. En este caso proporciona una representación única y repetible de la secuencia original que, sin embargo, no permitiría recuperar la secuencia en sí. Esto puede ser necesario en casos en los que exista sensibilidad en torno al acceso. La suma de verificación MD5 permite consultas eficientes para determinar si se ha recuperado la misma secuencia exacta en otros esfuerzos de eDNA, pero no reemplaza por completo la secuencia, ya que los MD5 no habilitan análisis adicionales. Dos secuencias que difieren en incluso una sola base obtendrán dos sumas de verificación MD5 completamente diferentes, de modo que las búsquedas de similitud de secuencias al estilo BLAST no funcionarán."
 
 #. type: Title ===
 #: 100.en.adoc:131
@@ -622,7 +622,7 @@ msgstr "*Lista de especies*: Un formato de tabla sencillo que incluye solo una l
 #. type: Plain text
 #: 100.en.adoc:141
 msgid "Regardless of the selected format, each GBIF user download receives a reusable link to the query and a data citation that includes a DOI. This DOI-based citation system provides the means of recognizing and crediting uses to datasets and data originators, improving both the credibility and transparency of the findings based on the data. It is essential to follow data citation recommendations and use DOIs, as good data citation culture is not only the academic norm, but also a powerful mechanism for crediting acknowledging and, therefore, incentivizing data publishers."
-msgstr ""
+msgstr "Independientemente del formato seleccionado, cada descarga de usuario de GBIF recibe un enlace reutilizable a la consulta y una cita de datos que incluye un DOI. Este sistema de citación basado en DOI proporciona los medios para reconocer y acreditar el uso de conjuntos de datos y sus creadores, mejorando tanto la credibilidad como la transparencia de los hallazgos basados en los datos. Es esencial seguir las recomendaciones de citación de datos y utilizar DOIs, ya que una buena cultura de citación de datos no solo es la norma académica, sino también un mecanismo poderoso para acreditar y, por lo tanto, incentivar a los publicadores de datos."
 
 #. type: Title ==
 #: 200.en.adoc:1
@@ -827,7 +827,7 @@ msgstr "Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection wit
 #. type: Plain text
 #: 200.en.adoc:85 200.en.adoc:98
 msgid "For guidance on how to format and share these datasets, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
-msgstr ""
+msgstr "Para obtener orientación sobre cómo dar formato y compartir estos conjuntos de datos, consulta <<mapping-metabarcoding-edna-and-barcoding-data>>. También están disponibles las directrices generales para los conjuntos de datos de ocurrencias de Darwin Core a través de https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[plantilla DwC-A para conjuntos de datos de ocurrencias] y https://www.gbif.org/data-quality-requirements-occurrences[recomendaciones de calidad de datos para ocurrencias]."
 
 #. type: Title ====
 #: 200.en.adoc:87
