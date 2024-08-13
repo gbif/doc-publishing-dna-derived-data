@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-08-13 16:51\n"
+"PO-Revision-Date: 2024-08-13 17:57\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -962,7 +962,7 @@ msgstr "Cary S C (2015). New Zealand Terrestrial Biocomplexity Survey. SCAR - Mi
 #. type: Plain text
 #: 200.en.adoc:136
 msgid "Mapping recommendations for metadata-only DNA-derived datasets (Category V) is the same as for any other metadata-only datasets, and this guide does not provide any specific mapping recommendations for metadata. Please follow general recommendations of biodiversity data portals, paying attention to https://ipt.gbif.org/manual/en/ipt/latest/resource-metadata[required and recommended metadata]. Descriptions of field, lab, and bioinformatics steps should be as detailed as possible. Describing your methods as method steps in the EML metadata makes them display on the dataset homepage in GBIF (https://www.gbif.org/dataset/3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f#methodology Frøslev T, Ejrnæs R (2018). BIOWIDE eDNA Fungi dataset. Danish Biodiversity Information Facility. Occurrence dataset https://doi.org/10.15468/nesbvx accessed via GBIF.org on 2021-07-06). However, if a structured and possibly more detailed method description is already published somewhere (e.g. at https://protocols.io[protocols.io] or https://www.neonscience.org/data-collection[NEON protocols collection]), it is straightforward to provide a link through the MIxS SOP field (see <<mapping-metabarcoding-edna-and-barcoding-data>>)."
-msgstr ""
+msgstr "Las recomendaciones de mapeo para conjuntos de datos derivados del ADN que contienen solo metadatos (Categoría V) son las mismas que para cualquier otro conjunto de datos que contenga solo metadatos, y esta guía no proporciona recomendaciones específicas de mapeo para los metadatos. Por favor, siga las recomendaciones generales de los portales de datos de biodiversidad, prestando atención a https://ipt.gbif.org/manual/es/ipt/latest/resource-metadata[metadatos requeridos y recomendados]. Las descripciones de los campos, laboratorio y pasos de bioinformática deben ser lo más detalladas posible. Describir los métodos como pasos de método en los metadatos EML permite que se muestren en la página de inicio del conjunto de datos en GBIF (https://www.gbif.org/es/dataset/3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f#methodology Frøslev T, Ejrnæs R (2018). Conjunto de datos de hongos eDNA BIOWIDE. Servicio Danés de Información sobre Biodiversidad. Conjunto de datos de ocurrencias https://doi.org/10.15468/nesbvx accedido a través de GBIF.org el 2021-07-06). Sin embargo, si ya existe una descripción de método estructurada y posiblemente más detallada publicada en algún lugar (por ejemplo, en https://protocols.io[protocols.io] o en https://www.neonscience.org/data-collection[colección de protocolos NEON]), es sencillo proporcionar un enlace a través del campo MIxS SOP (ver <<mapping-metabarcoding-edna-and-barcoding-data>>)."
 
 #. type: Title ===
 #: 200.en.adoc:137
