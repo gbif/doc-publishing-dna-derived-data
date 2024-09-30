@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-08-13 17:57\n"
+"PO-Revision-Date: 2024-09-30 22:25\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1577,7 +1577,7 @@ msgstr ""
 #: 200.en.adoc:744
 #, no-wrap
 msgid "OBIS requirements and recommendations for recording DNA-based occurrences. The table highlights important differences in field values and requirements compared to when publishing to GBIF. Here exemplified with a DNA detection of Blue whale (Balaenoptera musculus). "
-msgstr ""
+msgstr "Requisitos y recomendaciones de OBIS para registrar ocurrencias basadas en ADN. La tabla resalta diferencias importantes en los valores de campo y requisitos en comparación con la publicación en GBIF. Aquí se ejemplifica con una detección de ADN de la ballena azul (Balaenoptera musculus). "
 
 #. type: Table
 #: 200.en.adoc:771
@@ -1700,18 +1700,18 @@ msgstr "Glosario"
 #: glossary.en.adoc:5
 #, no-wrap
 msgid "[[ala]]Atlas of Living Australia (ALA)"
-msgstr ""
+msgstr "[[ala]] Atlas de la Vida de Australia (ALA)"
 
 #. type: Plain text
 #: glossary.en.adoc:6
 msgid "The ALA is a web-based platform that pulls together Australian biodiversity data from multiple sources, making it accessible and reusable to anyone (see https://www.ala.org.au/about-ala/). The open infrastructure platform developed by the ALA is also used by several other countries for their own national biodiversity data platform (see https://living-atlases.gbif.org/)."
-msgstr ""
+msgstr "ALA es una plataforma web que reúne datos de biodiversidad de Australia de múltiples fuentes, haciéndolos accesibles y reutilizables para cualquier persona (ver https://www.ala.org.au/about-ala/). La plataforma de infraestructura abierta desarrollada por ALA también es utilizada por varios otros países para sus propias plataformas nacionales de datos de biodiversidad (ver https://living-atlases.gbif.org/)."
 
 #. type: Labeled list
 #: glossary.en.adoc:6
 #, no-wrap
 msgid "[[asv]]Amplicon Sequence Variant (ASV)"
-msgstr ""
+msgstr "[[asv]] Variante de Secuencia de Amplicón (ASV)"
 
 #. type: Plain text
 #: glossary.en.adoc:7
@@ -1722,18 +1722,18 @@ msgstr ""
 #: glossary.en.adoc:7
 #, no-wrap
 msgid "[[api]]Application Programming Interface (API)"
-msgstr ""
+msgstr "[[api]] Interfaz de programación de aplicaciones (API)"
 
 #. type: Plain text
 #: glossary.en.adoc:8
 msgid "Set of protocols and tools for interaction and data transmission between different computer applications."
-msgstr ""
+msgstr "Conjunto de protocolos y herramientas para la interacción y transmisión de datos entre diferentes aplicaciones informáticas."
 
 #. type: Labeled list
 #: glossary.en.adoc:8
 #, no-wrap
 msgid "[[bins]]Barcode Index Numbers (BINs)"
-msgstr ""
+msgstr "[[bins]] Números de índice de códigos de barras (BIN)"
 
 #. type: Plain text
 #: glossary.en.adoc:9
@@ -1744,7 +1744,7 @@ msgstr ""
 #: glossary.en.adoc:9
 #, no-wrap
 msgid "[[bold]]Barcode of Life Data System (BOLD)"
-msgstr ""
+msgstr "[[bold]] Sistema de datos de código de barras de vida (BOLD)"
 
 #. type: Plain text
 #: glossary.en.adoc:10
@@ -1755,12 +1755,12 @@ msgstr ""
 #: glossary.en.adoc:10
 #, no-wrap
 msgid "[[biodiversity-data-platform]]Biodiversity data platform"
-msgstr ""
+msgstr "[[plataforma-de-datos-de-biodiversidad]] Plataforma de datos de biodiversidad"
 
 #. type: Plain text
 #: glossary.en.adoc:11
 msgid "General online resource to discover and access biodiversity data derived from various sources, such as natural history collections, citizen science, ecology and monitoring projects, and genetic sequences. Can be global (<<gbif,GBIF>>) or national (<<ala,ALA>>)."
-msgstr ""
+msgstr "Recurso general en línea para descubrir y acceder a datos de biodiversidad derivados de diversas fuentes, como colecciones de historia natural, ciencia ciudadana, proyectos de ecología y monitoreo, y secuencias genéticas. Puede ser global (<<gbif,GBIF>>) o nacional (<<ala,ALA>>)."
 
 #. type: Labeled list
 #: glossary.en.adoc:11
@@ -1777,12 +1777,12 @@ msgstr ""
 #: glossary.en.adoc:12
 #, no-wrap
 msgid "[[community-dna]]Community (bulk) DNA"
-msgstr ""
+msgstr "[[community-dna]] ADN comunitario (masivo)"
 
 #. type: Plain text
 #: glossary.en.adoc:13
 msgid "DNA from bulk samples (e.g. plankton samples or Malaise trap samples consisting of several individuals from many species). For the purpose of this guide, bulk sample DNA is included in the eDNA concept."
-msgstr ""
+msgstr "ADN de muestras masivas (por ejemplo, muestras de plancton o muestras de trampas de Malaise compuestas por varios individuos de muchas especies). A los efectos de esta guía, las muestras de ADN en masa se incluyen en el concepto de eADN."
 
 #. type: Labeled list
 #: glossary.en.adoc:13
