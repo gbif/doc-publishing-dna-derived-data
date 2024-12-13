@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-09-30 22:25\n"
+"PO-Revision-Date: 2024-12-13 20:19\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -778,7 +778,7 @@ msgstr "<|*<<category-v,Category V>>* +"
 #. type: Table
 #: 200.en.adoc:67
 msgid "Metadata-only |"
-msgstr "Solo metadato |"
+msgstr "Conjunto de solo metadatos |"
 
 #. type: Block title
 #: 200.en.adoc:70
@@ -1571,7 +1571,7 @@ msgstr "Para asegurar una nomenclatura taxonómica consistente OBIS utiliza el h
 #. type: Plain text
 #: 200.en.adoc:739
 msgid "Another required field in OBIS data submissions are geographic coordinates. OBIS performs additional quality checks related to marine data; e.g. that coordinates for strictly marine species are not on land, and that the depth value reported is in a reasonable range. Finally, it should be mentioned that in addition OBIS supports the use of the http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]. This extension allows linking environmental data and sampling facts to sampling events or occurrences, as well as biological measurements to occurrences in a flexible and standardized manner. OBIS has an example eDNA metabarcoding dataset with scripts for data formatting available at https://github.com/iobis/dataset-edna."
-msgstr ""
+msgstr "Otro elemento requerido para la publicación de datos a través de OBIS son las coordenadas geográficas. OBIS realiza controles de calidad adicionales relacionados a los datos marinos, por ejemplo que las coordenadas para especies estrictamente marinas no estén en tierra y que el valor de profundidad reportado esté en un rango razonable. Finalmente, se debe mencionar que adicionalmente OBIS suporta el uso de la http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extensión de Medidas o Hechos Extendida (eMoF)]. Esta extensión permite conectar datos abióticos ambientales y medidas o hechos asociadas al protocolo de muestreo, con los eventos de muestreo o los registros biológicos, así como a medidas bióticas asociadas a los registros, de una forma flexible y estandarizada. OBIS tiene un ejemplo de conjunto de datos de metabarcoding (eDNA) con scripts para realizar la transformación de los datos, que está disponible en https://github.com/iobis/dataset-edna."
 
 #. type: Block title
 #: 200.en.adoc:744
@@ -1771,7 +1771,7 @@ msgstr "[[clustering]]Clusterizar"
 #. type: Plain text
 #: glossary.en.adoc:12
 msgid "In taxonomic classification, the process of grouping organisms together according to some similarity criterion. See <<otu,Operational Taxonomic Unit>>."
-msgstr ""
+msgstr "En la clasificación taxonómica, el proceso de agrupar organismos juntos de acuerdo a algún criterio de similaridad. Ver <<otu,Operational Taxonomic Unit>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:12
@@ -1788,7 +1788,7 @@ msgstr "ADN de muestras masivas (por ejemplo, muestras de plancton o muestras de
 #: glossary.en.adoc:13
 #, no-wrap
 msgid "[[dwc-a]]Darwin Core Archive (DwC-A)"
-msgstr ""
+msgstr "[[dwc-a]]Archivo Darwin Core (DwC-A)"
 
 #. type: Plain text
 #: glossary.en.adoc:14
@@ -2074,7 +2074,7 @@ msgstr ""
 #: glossary.en.adoc:40
 #, no-wrap
 msgid "[[occurrence]]Occurrence"
-msgstr ""
+msgstr "[[occurrence]]Registro biológico"
 
 #. type: Plain text
 #: glossary.en.adoc:41
@@ -2107,7 +2107,7 @@ msgstr ""
 #: glossary.en.adoc:43
 #, no-wrap
 msgid "[[pipeline]]Pipeline"
-msgstr ""
+msgstr "[[pipeline]]Pipeline"
 
 #. type: Plain text
 #: glossary.en.adoc:44
@@ -2222,7 +2222,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:54
 msgid "See <<asv,ASV>>."
-msgstr ""
+msgstr "Ver <<asv,ASV>>."
 
 #. type: Title ==
 #: bibliography.en.adoc:2
@@ -2278,7 +2278,7 @@ msgstr "[[boussarie]]Boussarie G, Bakker J, Wangensteen OS, Mariani S, Bonnin L,
 #. type: Plain text
 #: bibliography.en.adoc:14
 msgid "[[bustin]]Bustin SA, Benes V, Garson JA, Hellemans J, Huggett J, Kubista M, ... & Wittwer CT (2009). The MIQE Guidelines: __M__inimum __I__nformation for Publication of __Q__uantitative Real-Time PCR __E__xperiments. https://doi.org/10.1373/clinchem.2008.112797"
-msgstr ""
+msgstr "[[bustin]]Bustin SA, Benes V, Garson JA, Hellemans J, Huggett J, Kubista M, ... & Wittwer CT (2009). The MIQE Guidelines: __M__inimum __I__nformation for Publication of __Q__uantitative Real-Time PCR __E__xperiments. https://doi.org/10.1373/clinchem.2008.112797"
 
 #. type: Plain text
 #: bibliography.en.adoc:15
@@ -2597,13 +2597,13 @@ msgstr ""
 #: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "Occurrence"
-msgstr ""
+msgstr "Registro biológico"
 
 #. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
 #: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "core"
-msgstr ""
+msgstr "core"
 
 #. type: Content of: <svg><g><g><switch><text>
 #: img/web/ct/dwca-structure.en.svg:4
