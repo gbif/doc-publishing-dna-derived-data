@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2025-01-14 19:52\n"
+"PO-Revision-Date: 2025-01-14 20:51\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2109,7 +2109,7 @@ msgstr "[[gbif]]Sistema Global de Información sobre Biodiversidad (GBIF)"
 #. type: Plain text
 #: glossary.en.adoc:29
 msgid "International network and research infrastructure, mainly focused on mobilizing and providing open access to global biodiversity data."
-msgstr ""
+msgstr "Red internacional e infraestructura de datos, enfocada principalmente en movilizar y proveer acceso abierto a datos globales de biodiversidad."
 
 #. type: Labeled list
 #: glossary.en.adoc:29
@@ -2335,7 +2335,7 @@ msgstr ""
 #: glossary.en.adoc:49
 #, no-wrap
 msgid "[[specimen]]Specimen"
-msgstr ""
+msgstr "[[specimen]]Espécimen"
 
 #. type: Plain text
 #: glossary.en.adoc:50
@@ -2368,7 +2368,7 @@ msgstr ""
 #: glossary.en.adoc:52
 #, no-wrap
 msgid "[[unite]]UNITE"
-msgstr ""
+msgstr "[[unite]]UNITE"
 
 #. type: Plain text
 #: glossary.en.adoc:53
