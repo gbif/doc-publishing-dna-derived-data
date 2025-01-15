@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2025-01-15 13:41\n"
+"PO-Revision-Date: 2025-01-15 16:33\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -330,13 +330,13 @@ msgstr "Flujo de trabajo general para los datos sobre biodiversidad derivados de
 #: 100.en.adoc:24
 #, no-wrap
 msgid "img/print/sequence-publishing-guide.en.png"
-msgstr "amplicon-derived"
+msgstr "img/print/sequence-publishing-guide.es.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:27
 #, no-wrap
 msgid "img/web/sequence-publishing-guide.en.svg"
-msgstr "img/web/sequence-publishing-guide.en.svg"
+msgstr "img/web/sequence-publishing-guide.es.svg"
 
 #. type: Plain text
 #: 100.en.adoc:31
@@ -375,13 +375,13 @@ msgstr "Representación de los procesos de muestreo que comparan la recopilació
 #: 100.en.adoc:43
 #, no-wrap
 msgid "img/print/sampling-processes.en.png"
-msgstr "img/print/sampling-processes.en.png"
+msgstr "img/print/sampling-processes.es.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:46
 #, no-wrap
 msgid "img/web/sampling-processes.en.svg"
-msgstr "img/web/sampling-processes.en.svg"
+msgstr "img/web/sampling-processes.es.svg"
 
 #. type: Plain text
 #: 100.en.adoc:50
@@ -467,13 +467,13 @@ msgstr "Esquema de una plataforma para informar y publicar secuencias de ADN y m
 #: 100.en.adoc:80
 #, no-wrap
 msgid "img/print/outline-of-a-platform.en.png"
-msgstr "img/print/outline-of-a-platform.en.png"
+msgstr "img/print/outline-of-a-platform.es.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:83
 #, no-wrap
 msgid "img/web/outline-of-a-platform.en.svg"
-msgstr "img/web/outline-of-a-platform.en.svg"
+msgstr "img/web/outline-of-a-platform.es.svg"
 
 #. type: Plain text
 #: 100.en.adoc:87
@@ -511,13 +511,13 @@ msgstr "Esquema del procesamiento bioinformático del metabarcoding."
 #: 100.en.adoc:99
 #, no-wrap
 msgid "img/print/outline-of-bioinformatic-processing.en.png"
-msgstr ""
+msgstr "img/print/outline-of-bioinformatic-processing.es.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:102
 #, no-wrap
 msgid "img/web/outline-of-bioinformatic-processing.en.svg"
-msgstr ""
+msgstr "img/web/outline-of-bioinformatic-processing.es.svg"
 
 #. type: Plain text
 #: 100.en.adoc:106
@@ -655,13 +655,13 @@ msgstr "Ampliación de DwC-A / IPT de la figura 3 del capítulo 1.2. La elecció
 #: 200.en.adoc:12
 #, no-wrap
 msgid "img/print/dwca-structure.en.png"
-msgstr "img/print/dwca-structure.en.png"
+msgstr "img/print/dwca-structure.es.png"
 
 #. type: Target for macro image
 #: 200.en.adoc:15
 #, no-wrap
 msgid "img/web/ct/dwca-structure.en.svg"
-msgstr "img/web/ct/dwca-structure.en.svg"
+msgstr "img/web/ct/dwca-structure.es.svg"
 
 #. type: Title ===
 #: 200.en.adoc:18
@@ -909,7 +909,7 @@ msgstr "Los OTUs (SHs) de UNITE (principalmente hongos, arriba) y de BOLD (BINs)
 #: 200.en.adoc:116
 #, no-wrap
 msgid "img/web/otus-from-unite.en.png"
-msgstr ""
+msgstr "img/web/otus-from-unite.en.png"
 
 #. type: Title =====
 #: 200.en.adoc:118
