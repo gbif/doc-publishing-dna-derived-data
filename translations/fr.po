@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2025-02-28 07:23+0000\n"
-"PO-Revision-Date: 2025-02-28 07:34\n"
+"PO-Revision-Date: 2025-02-28 14:58\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -827,7 +827,7 @@ msgstr "Flanders Research Institute for Agriculture, Fisheries and Food (ILVO): 
 #. type: Plain text
 #: 200.en.adoc:83
 msgid "Okrasińska A, Pawłowska J (2025). Metabarcoding of fungi in post-industrial soils. Institute of Evolutionary Biology, University of Warsaw. Occurrence dataset https://doi.org/10.15468/e4maz4 accessed via GBIF.org on 2025-02-28."
-msgstr ""
+msgstr "Okrasińska A, Pawłowska J (2025). Metabarcoding of fungi in post-industrial soils. Institute of Evolutionary Biology, University of Warsaw. Jeu de données d'occurrence https://doi.org/10.15468/e4maz4 accédé via GBIF.org le 2025-02-28."
 
 #. type: Plain text
 #: 200.en.adoc:85
