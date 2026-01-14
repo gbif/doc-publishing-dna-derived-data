@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2025-02-28 07:23+0000\n"
-"PO-Revision-Date: 2026-01-14 20:30\n"
+"PO-Revision-Date: 2026-01-14 21:50\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -817,7 +817,7 @@ msgstr "Ejemplos de conjuntos de datos de registros biológicos derivados de ADN
 #. type: Plain text
 #: 200.en.adoc:81
 msgid "Holman L E, Bohmann K (2025). Eukaryotic metabarcoding (18S rRNA V9 region) of environmental DNA from an archived marine sediment record, Skagerrak, North Sea, spanning 8000 years. Globe Institute. Occurrence dataset https://doi.org/10.15468/2ve69k accessed via GBIF.org on 2025-02-27."
-msgstr ""
+msgstr "Holman L E, Bohmann K (2025). Eukaryotic metabarcoding (18S rRNA V9 region) of environmental DNA from an archived marine sediment record, Skagerrak, North Sea, spanning 8000 years. Globe Institute. Occurrence dataset <a target=\"_blank\" rel=\"noreferrer nofollow\" href=\"https://doi.org/10.15468/2ve69k\">https://doi.org/10.15468/2ve69k</a> accedido a traves de GBIF.org el 2025-02-27."
 
 #. type: Plain text
 #: 200.en.adoc:82
