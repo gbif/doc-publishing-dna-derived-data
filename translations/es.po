@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2025-02-28 07:23+0000\n"
-"PO-Revision-Date: 2025-07-28 16:09\n"
+"PO-Revision-Date: 2026-01-14 20:30\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -827,7 +827,7 @@ msgstr ""
 #. type: Plain text
 #: 200.en.adoc:83
 msgid "Okrasińska A, Pawłowska J (2025). Metabarcoding of fungi in post-industrial soils. Institute of Evolutionary Biology, University of Warsaw. Occurrence dataset https://doi.org/10.15468/e4maz4 accessed via GBIF.org on 2025-02-28."
-msgstr ""
+msgstr "Okrasińska A, Pawłowska J (2025). Metabarcoding of fungi in post-industrial soils. Institute of Evolutionary Biology, University of Warsaw. Occurrence dataset https://doi.org/10.15468/e4maz4 accessed via GBIF.org on 2025-02-28."
 
 #. type: Plain text
 #: 200.en.adoc:85
@@ -988,7 +988,7 @@ msgstr "Mientras que los archivos core guardan información general de un regist
 #. type: Plain text
 #: 200.en.adoc:142
 msgid "As a first step in preparing your data for publishing, you should make sure your field names / column headers follow the https://dwc.tdwg.org/terms/[Darwin Core data standard]. In many cases this is straightforward, such as renaming your `lat` or `latitude` field to `decimalLatitude`. However, the Darwin Core Standard is quite flexible and some terms are used in different ways, depending on the type of data. An example of this are the fields term:dwc[organismQuantity] and term:dwc[organismQuantityType], which could be used to describe the number of individuals, per cent biomass or a score on the Braun-Blanquet Scale, as well as the number of reads of an ASV within a sample. Therefore, we here provide tables of required and recommended fields with descriptions and examples (<<table-01,Table 1>>, <<table-02,Table 2>>, <<table-03,Table 3>> and <<table-04, Table 4>>). The recommendation to use the Occurrence core for DNA-derived data stems from the strong desire to share the sequence to help qualify the determination. Additional fields and extensions (such as http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]) are applicable - both to occurrence cores and event core. When a sequence is derived from an organism (e.g. a parasite, gut contents, epibiont etc.) the observation may be linked to the observation of the host organism. This can be achieved using the (https://dwc.tdwg.org/terms/#resourcerelationship[Resource Relation extension^]) of Darwin Core (e.g. https://www.gbif.org/species/143610775/verbatim). Perhaps the most important recommendation is to use globally unique (when available) and other permanent identifiers for as many data fields and parameters as possible (in all ID fields in the tables below)."
-msgstr "Como primer paso en la preparación de sus datos para su publicación, debe asegurarse de que los nombres de sus campos / encabezados de sus columnas siguen el https://dwc. dwg.org/terms/[Estándar Darwin Core]. En muchos casos esto es sencillo, como renombrar su campo `lat` o `latitude` a `decimalLatitude`. Sin embargo, el estándar Darwin Core es bastante flexible y algunos términos se utilizan de diferentes maneras, dependiendo del tipo de datos. Un ejemplo de esto son los elementos term:dwc[organismQuantity] y term:dwc[organismQuantityType], que podrían utilizarse para describir el número de individuos, porcentaje de biomasa o una valor en la escala Braun-Blanquet, así como el número de lecturas de una ASV dentro de una muestra. Por lo tanto, aquí proporcionamos tablas de elementos obligatorios y recomendados con descripciones y ejemplos (<<table-01,Table 1>>, <<table-02,Table 2>>, <<table-03,Table 3>> and <<table-04, Table 4>>). La recomendación de utilizar el core de Registros biológicos para los datos derivados de ADN, surge del fuerte deseo de compartir la secuencia para ayudar a calificar la determinación. Elementos y extensiones adicionales (como la extensión http://rs.gbif. rg/extension/obis/extended_measurement_or_fact.xml[Medidas o Hechos Extendida (eMoF)]) son aplicables - tanto al core de Registro biológicos como al core de eventos. Cuando una secuencia es derivada de un organismo (por ejemplo, parásitos, contenidos estomacales, epibiontes, etc.). la observación puede estar vinculada a la observación del organismo anfitrión. Esto se puede lograr utilizando la extensión (https://dwc. dwg.org/terms/#resourcerelationship[Relación del Recurso]) de Darwin Core (por ejemplo, https://www.gbif. rg/species/143610775/verbatim). Tal vez la recomendación más importante sea utilizar identificadores únicos globales (cuando estén disponibles) y otros identificadores permanentes para tantos elementos y parámetros como sea posible (en todos los elementos ID de las siguientes tablas)."
+msgstr "Como primer paso en la preparación de sus datos para su publicación, debe asegurarse de que los nombres de sus campos / encabezados de sus columnas siguen el https://dwc. dwg.org/terms/[Estándar Darwin Core]. En muchos casos esto es sencillo, como renombrar su campo `lat` o `latitude` a `decimalLatitude`. Sin embargo, el estándar Darwin Core es bastante flexible y algunos términos se utilizan de diferentes maneras, dependiendo del tipo de datos. Un ejemplo de esto son los elementos term:dwc[organismQuantity] y term:dwc[organismQuantityType], que podrían utilizarse para describir el número de individuos, porcentaje de biomasa o una valor en la escala Braun-Blanquet, así como el número de lecturas de una ASV dentro de una muestra. Por lo tanto, aquí proporcionamos tablas de elementos obligatorios y recomendados con descripciones y ejemplos (<<table-01,Table 1>>, <<table-02,Table 2>>, <<table-03,Table 3>> and <<table-04, Table 4>>). La recomendación de utilizar el core de Registros biológicos para los datos derivados de ADN, surge del fuerte deseo de compartir la secuencia para ayudar a calificar la determinación. Elementos y extensiones adicionales (como la extensión http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[Medidas o Hechos Extendida (eMoF)]) son aplicables - tanto al core de Registro biológicos como al core de eventos. Cuando una secuencia es derivada de un organismo (por ejemplo, parásitos, contenidos estomacales, epibiontes, etc.). la observación puede estar vinculada a la observación del organismo anfitrión. Esto se puede lograr utilizando la extensión (https://dwc. dwg.org/terms/#resourcerelationship[Relación del Recurso]) de Darwin Core (por ejemplo, https://www.gbif. rg/species/143610775/verbatim). Tal vez la recomendación más importante sea utilizar identificadores únicos globales (cuando estén disponibles) y otros identificadores permanentes para tantos elementos y parámetros como sea posible (en todos los elementos ID de las siguientes tablas)."
 
 #. type: Plain text
 #: 200.en.adoc:145 200.en.adoc:290 200.en.adoc:396 200.en.adoc:516
@@ -1840,7 +1840,7 @@ msgstr "| Elemento\n"
 "En este elemento, se reporta de cuál ecosistema superior provienen los especímenes o muestras. Los sistemas identificados deben tener una granularidad espacial gruesa, para proveer de información general del contexto medioambiental donde la muestra fue realizada (e.g. ¿estaba en el desierto o en el bosque lluvioso?). Se recomienda utilizar subclases de ENVO pertenecientes a la clase bioma: +\n"
 "http://purl.obolibrary.org/obo/ENVO_00000428\n"
 "| Recomendado\n\n"
-"| term:mixs[env_local_scale\t]\n"
+"| term:mixs[env_local_scale]\n"
 "| litter layer [ENVO:01000338]\n"
 "| *Equivalente al env_feature en MIxS v4* +\n"
 "En este elemento, se reporta la entidad o entidades que están en la localidad cercana a los especímenes o muestras, y cree que tienen influencias causales significativas sobre la muestra o especímen. Por favor utilice términos que estén presentes en ENVO y tengan una granularidad espacial menor a la documentada en env_broad_scale.\n"
@@ -1848,7 +1848,7 @@ msgstr "| Elemento\n"
 "| term:mixs[env_medium]\n"
 "| soil [ENVO:00001998]\n"
 "| *Equivalente al env_material en MIxS v4* +\n"
-"En este elemento, se reporta cuál material o materiales (separados por una barra vertical “\\|”) estaban en la vecindad inmediata de los especímenes o muestras antes del muestreo, utiliando una o más subclases de ENVO pertenecientes a la clase material medioambiental: +\n"
+"En este elemento, se reporta cuál material o materiales (separados por una barra vertical) estaban en la vecindad inmediata de los especímenes o muestras antes del muestreo, utiliando una o más subclases de ENVO pertenecientes a la clase material medioambiental: +\n"
 "http://purl.obolibrary.org/obo/ENVO_00010483\n"
 "| Recomendado\n\n"
 "| term:mixs[concentration]\n"
