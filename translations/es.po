@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2025-02-28 07:23+0000\n"
-"PO-Revision-Date: 2026-01-14 21:50\n"
+"PO-Revision-Date: 2026-01-20 21:30\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2052,7 +2052,7 @@ msgstr "Como se menciona en <<taxonomy-of-sequences>> y <<category-iv>>, alentam
 #. type: Plain text
 #: 300.en.adoc:13
 msgid "Broader application of other methods and technologies, such as Oxford Nanopore, PacBio and shotgun sequencing, will likely trigger the need for adjustments to this guide to accommodate specific new data and metadata fields."
-msgstr "Aplicación de otros métodos y tecnologías, como Oxford Nanopore, PacBio y shotgun sequencing, probablemente desencadenarán la necesidad de ajustes a esta guía para integrar nuevos datos específicos y campos de metadatos."
+msgstr "Aplicación de otros métodos y tecnologías, como Oxford Nanopore, PacBio y shotgun sequencing, probablemente desencadenarán la necesidad de ajustes a esta guía para integrar nuevos datos específicos y elementos de metadatos."
 
 #. type: Title ==
 #: glossary.en.adoc:2
