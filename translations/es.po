@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2025-02-28 07:23+0000\n"
-"PO-Revision-Date: 2026-01-29 21:36\n"
+"PO-Revision-Date: 2026-01-29 23:06\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -832,7 +832,7 @@ msgstr "Okrasińska A, Pawłowska J (2025). Metabarcoding of fungi in post-indus
 #. type: Plain text
 #: 200.en.adoc:85
 msgid "To specifically format and share metabarcoding datasets, we suggest the user friendly https://mdt.gbif-test.org/[Metabarcoding Data Toolkit (MDT)^] – and consult the dedicated guide material: https://doi.org/10.35035/doc-wkpc-m352[Metabarcoding Data Toolkit – user guide]. For more general guidance on how to format and share these dna-derived data, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
-msgstr ""
+msgstr "Para formatear y compartir conjuntos de datos de metabarcoding, recomendamos el https://mdt.gbif-test.org/[Kit de Herramientas de Datos de Metabarcoding (MDT)^], de fácil manejo, y consultar la guía específica: https://doi.org/10.35035/doc-wkpc-m352[Kit de Herramientas de Datos de Metabarcoding: guía del usuario]. Para obtener información más general sobre cómo formatear y compartir estos datos derivados del ADN, consulte [mapping-metabarcoding-edna-and-barcoding-data]. Las directrices generales para los conjuntos de datos de registros biológicos de Darwin Core también están disponibles a través de la https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[ plantilla DwC-A para conjuntos de datos de registros] y https://www.gbif.org/data-quality-requirements-occurrences[los requisitos de calidad de los datos para registros]."
 
 #. type: Title ====
 #: 200.en.adoc:87
