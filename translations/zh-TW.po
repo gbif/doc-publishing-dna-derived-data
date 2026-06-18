@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
-"POT-Creation-Date: 2026-04-14 12:21+0000\n"
-"PO-Revision-Date: 2026-04-14 12:40\n"
+"POT-Creation-Date: 2026-06-18 10:31+0000\n"
+"PO-Revision-Date: 2026-06-18 14:43\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -991,8 +991,8 @@ msgid "As a first step in preparing your data for publishing, you should make su
 msgstr "初步在準備資料進行發布時，您應確保您的字段名稱/列標題符合link:https://dwc.tdwg.org/terms/[達爾文核心資料標準]。在許多情況下這很簡易，如將您的“lat”或“latitude”字段重命名為“decimalLatitude”。然而，達爾文核心標準非常彈性，一些術語的使用方式會因資料類型而異。例如，字段term:dwc[organismQuantity]和term:dwc[organismQuantityType]可用於描述個體數量、百分比生物量或Braun-Blanquet量表上的分數、以及樣本中ASV的read數量。因此，我們在這裡提供了必填字段和建議字段的表，並提供了描述和範例 (<<table-01,表格1>>、<<table-02,表格 2>>、<<table-03,表格 3>>和<<table-04,表格 4>>)。將DNA衍生資料發布在出現紀錄核心集的建議源於希望這些發布的序列可以作為出現紀錄的證據。另外，也可使用出現紀錄核心集和擴充文件的其他字段 (例如link:http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[擴展測量或事實擴充 (eMoF)])。當序列來自一個生物體 (例如寄生蟲、腸道內容物、附生生物等) 時，此出現紀錄與宿主的相關聯可以通過達爾文核心的link:https://dwc.tdwg.org/terms/#resourcerelationship[資源關係擴充]來實現 (例如 link:https://www.gbif.org/zh-tw/species/143610775/verbatim[])。 最重要的建議是盡可能使用全球獨一 (如果可用) 和其他永久識別碼來標識所有資料字段和參數 (在下表的所有ID字段中)。"
 
 #. type: Plain text
-#: 200.en.adoc:145 200.en.adoc:290 200.en.adoc:396 200.en.adoc:516
-#: 200.en.adoc:733 200.en.adoc:744 200.en.adoc:806 glossary.en.adoc:55
+#: 200.en.adoc:145 200.en.adoc:300 200.en.adoc:406 200.en.adoc:536
+#: 200.en.adoc:753 200.en.adoc:764 200.en.adoc:826 glossary.en.adoc:55
 #: bibliography.en.adoc:74
 msgid "<<<"
 msgstr "<<<"
@@ -1021,7 +1021,7 @@ msgstr "給link:http://rs.gbif.org/core/dwc_occurrence_2020-04-15.xml[出現紀�
 
 #.  The [.break-all]#ASV:…# is to allow the identifier to be broken at any character, rather than stretching the text cell.
 #. type: Table
-#: 200.en.adoc:247
+#: 200.en.adoc:257
 #, no-wrap
 msgid "| Field name\n"
 "| Examples\n"
@@ -1089,103 +1089,38 @@ msgid "| Field name\n"
 "https://github.com/terrimporter/CO1Classifier\n"
 "| A list (concatenated and separated) of references (publication, global unique identifier, URI) used in the Identification. Recommended best practice is to separate the values in a list with space vertical bar space ( \\| ).\n"
 "| Recommended\n\n"
+"| term:dwc[country]\n"
+"| Denmark, Colombia, España\n"
+"| The name of the country or major administrative unit in which the dcterms:Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names. Recommended best practice is to leave this field blank if the dcterms:Location spans multiple entities at this administrative level or if the dcterms:Location might be in one or another of multiple possible entities at this level. Multiplicity and uncertainty of the geographic entity can be captured either in the term dwc:higherGeography or in the term dwc:locality, or both.\n"
+"| Required, if known\n\n"
+"| term:dwc[countryCode]\n"
+"| AR, SV, XZ, ZZ\n"
+"| The standard code for the country in which the dcterms:Location occurs. Recommended best practice is to use an ISO 3166-1-alpha-2 country code, or 'ZZ' (for an unknown location or a location unassignable to a single country code), or 'XZ' (for the high seas beyond national jurisdictions). Multiplicity and uncertainty of the geographic entity can be captured either in the term dwc:higherGeography or in the term dwc:locality, or both.\n"
+"| Required, if known\n\n"
 "| term:dwc[decimalLatitude]\n"
 "| 60.545207\n"
-"| The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.\n"
-"| Highly recommended\n\n"
+"| The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive. \n"
+"| Required, if known\n\n"
 "| term:dwc[decimalLongitude]\n"
 "| 24.174556\n"
 "| The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.\n"
-"| Highly recommended\n\n"
-msgstr "| 字段名稱\n"
-"| 範例\n"
-"| 描述\n"
-"| 填寫建議\n\n"
-"| term:dwc[basisOfRecord]\n"
-"| MaterialSample\n"
-"| 資料記錄的具體性質 - 是link:http://rs.gbif.org/vocabulary/dwc/basis_of_record.xml[dcterms:type]的子類型。對於DNA衍生的出現紀錄資料，(見 <<category-i,類別一>>和<<category-iii,類別三>>)，使用MaterialSample。對於多重引證出現紀錄，視情況使用PreservedSpecimen或LivingSpecimen。\n"
-"| 必填\n\n"
-"| term:dwc[occurrenceID]\n"
-"| urn:catalog:UWBM:Bird:89776\n"
-"| 出現紀錄的唯一識別碼，允許不同版本在的資料集中以及通過資料下載和應用中可被識別。可以是全球唯一辨識碼或特定於資料集的辨識碼。\n"
-"| 必填\n\n"
-"| term:dwc[eventID]\n"
-"| urn:uuid:a964765b-22c4-439a-jkgt-2\n"
-"| 與事件 (在特定地點和時間發生的事情) 相關的資訊的識別碼。可以是全球唯一辨識碼或特定於資料集的辨識碼。\n"
-"| 強烈建議\n\n"
-"| term:dwc[eventDate]\n"
-"| 2020-01-05\n"
-"| 記錄事件的日期。推薦的最佳做法是使用符合ISO 8601-1:2019的日期格式。有關更多資訊，請參考 https://dwc.tdwg.org/terms/#dwc:eventDate\n"
-"| 必填\n\n"
-"| term:dwc[recordedBy]\n"
-"| \"Oliver P. Pearson \\| Anita K. Pearson\"\n"
-"| 記錄原始出現紀錄的人、組織或團體的名稱 (連接和分隔)。推薦的最佳做法是用垂直線 (\\|) 分隔每個值。包含有關觀察者的資訊有助於提高科學可重複性(https://doi.org/10.1093/database/baaa072[Groom等人，2020^])。\n"
-"| 強烈建議\n\n"
-"| term:dwc[organismQuantity]\n"
-"| 33\n"
-"| 樣本裡OTU或ASV的read數量。\n"
-"| 強烈建議\n\n"
-"| term:dwc[organismQuantityType]\n"
-"| DNA sequence reads\n"
-"| 應填寫「DNA sequence reads」\n"
-"| 強烈建議\n\n"
-"| term:dwc[sampleSizeValue]\n"
-"| 1233890\n"
-"| 樣本中的總read數。這紀錄很重要因它允許計算樣本中每個OTU或ASV的相對豐度。此數字最好在通用處理 (品質控制、ASV去噪、chimera去除等) 之後，但在從資料集中手動/選擇性刪除非目標OTU或ASV之前做計算。稀釋化抽樣 (rarefraction，在樣本間均勻地重新抽樣到相同的定序深度) 並不必要或建議。\n"
-"| 強烈建議\n\n"
-"| term:dwc[sampleSizeUnit]\n"
-"| DNA sequence reads\n"
-"| 應填寫「DNA sequence reads」\n"
-"| 強烈建議\n\n"
-"| term:dwc[materialSampleID]\n"
-"| https://www.ncbi.nlm.nih.gov/biosample/15224856 +\n"
-" +\n"
-"https://www.ebi.ac.uk/ena/browser/view/SAMEA3724543 +\n"
-" +\n"
-"urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03\n"
-"| MaterialSample的ID (不是特定於材料樣本的數位化記錄)。如果從核苷酸檔案中獲取了生物樣本ID (biosample ID)，則使用生物樣本ID。如果沒有唯一識別碼，則可以從記錄中ID的組合構造出一個最可能全球唯一的識別碼。\n"
-"| 強烈建議\n\n"
-"| term:dwc[samplingProtocol]\n"
-"| UV light trap\n"
-"| 在採樣事件期間使用的方法名稱、參考或描述。link:https://dwc.tdwg.org/terms/#dwc:samplingProtocol[]\n"
-"| 建議\n\n"
-"| term:dwc[associatedSequences]\n"
-"| https://www.ncbi.nlm.nih.gov/nuccore/MK405371\n"
-"| 與出現紀錄相關的遺傳序列資訊的ID (出版物、全球唯一的識別碼、URI) 列表 (連接並分隔)。可用於連接到原始條形碼和/或相關基因組序列，例如在公開資料庫中。\n"
-"| 建議\n\n"
-"| term:dwc[identificationRemarks]\n"
-"| RDP annotation confidence (at lowest specified taxon): 0.96, against reference database: GTDB\n"
-"| 種的鑑定過程的具體規范，理想情況下應包括應用算法和參考資料庫的資訊，以及對鑑定結果的信心評分。\n"
-"| 建議\n\n"
-"| term:dwc[identificationReferences]\n"
-"| https://www.ebi.ac.uk/metagenomics/pipelines/4.1 + \n"
-" +\n"
-"https://github.com/terrimporter/CO1Classifier\n"
-"| 用於鑑定的參考 (出版物、全球唯一的識別碼、URI) 列表 (連接並分隔)。推薦的做法是用空格、垂直線 (\\|) 和空格分隔列表中的值。\n"
-"| 建議\n\n"
-"| term:dwc[decimalLatitude]\n"
-"| 60.545207\n"
-"| 位置的地理緯度 (以十進制度為單位，使用大地基準面的空間參考系統)。正值在赤道以北，負值在赤道以南。值介於-90和90之間，包括-90和90。\n"
-"| 強烈建議\n\n"
-"| term:dwc[decimalLongitude]\n"
-"| 24.174556\n"
-"| 位置的地理經度 (以十進制度為單位，使用大地基準面的空間參考系統)。正值在格林威治子午線以東，負值在格林威治子午線以西。值介於-180和180之間，包括-180和180。\n"
-"| 強烈建議\n\n"
+"| Required, if known\n\n"
+msgstr ""
 
 #. type: Table
-#: 200.en.adoc:287
+#: 200.en.adoc:297
 msgid "| term:dwc[taxonID] | [.break-all]#ASV:7bdb57487bee022ba30c03c3e7ca50e1# | For eDNA data, it is recommended to use an MD5 hash of the sequence and prepend it with “ASV:”. See also <<taxonomy-of-sequences>>.  | Highly recommended, if DNA_sequence is not provided | term:dwc[scientificName] | _Gadus morhua_ L. 1758, BOLD:ACF1143 | Scientific name of the closest known taxon (species or higher) or an OTU identifier from BOLD (BIN) or UNITE (SH)  | Required | term:dwc[kingdom] | Animalia | Higher taxonomy | Highly recommended | term:dwc[phylum] | Chordata | Higher taxonomy | Recommended | term:dwc[class] | Actinopterygii | Higher taxonomy | Recommended | term:dwc[order] | Gadiformes | Higher taxonomy | Recommended | term:dwc[family] | Gadidae | Higher taxonomy | Recommended | term:dwc[genus] | _Gadus_ | Higher taxonomy | Recommended"
 msgstr "| term:dwc[taxonID] | [.break-all]#ASV:7bdb57487bee022ba30c03c3e7ca50e1# | eDNA資料建議使用序列的MD5 hash，開頭再加上“ASV:”。參考 <<基因序列的分類學>>。 | 如沒提供 DNA_sequence，強烈建議填寫 | term:dwc[scientificName] | _Gadus morhua_ L. 1758, BOLD:ACF1143 | 最接近已知的分類單位 (物種或更高階層) 的學名，或來自BOLD或UNITE的OTU ID。  | 必填 | term:dwc[kingdom] | Animalia | 更高階層分類 | 強烈建議 | term:dwc[phylum] | Chordata | 更高階層分類 | 建議 | term:dwc[class] | Actinopterygii | 更高階層分類 | 建議 | term:dwc[order] | Gadiformes | 更高階層分類 | 建議 | term:dwc[family] | Gadidae | 更高階層分類 | 建議 | term:dwc[genus] | _Gadus_ | 更高階層分類 | 建議"
 
 #. type: Block title
-#: 200.en.adoc:292
+#: 200.en.adoc:302
 #, no-wrap
 msgid "Recommended fields from the DNA derived data extension (a selection) for metabarcoding data"
 msgstr "DNA衍生資料擴充中 (部分) 建議用於metabarcoding資料的字段"
 
 #.  The [.break-all]#TCTA…# is to allow the sequence to be broken at any character, rather than stretching the text cell.
 #. type: Table
-#: 200.en.adoc:300
+#: 200.en.adoc:310
 #, no-wrap
 msgid "| Field name\n"
 "| Examples\n"
@@ -1197,7 +1132,7 @@ msgstr "| 字段名稱\n"
 "| 填寫建議\n\n"
 
 #. type: Table
-#: 200.en.adoc:393
+#: 200.en.adoc:403
 #, no-wrap
 msgid "| term:mixs[DNA_sequence]\n"
 "| [.break-all]#TCTATCCTCAATTATAGGTCATAATTCACCATCAGTAGATTTAGGAATTTTCTCTATTCATATTGCAGGTGTATCATCAATTATAGGATCAATTAATTTTATTGTAACAATTTTAAATATACATACAAAAACTCATTCATTAAACTTTTTACCATTATTTTCATGATCAGTTCTAGTTACAGCAATTCTCCTTTTATTATCATTA#\n"
@@ -1351,24 +1286,24 @@ msgstr "| term:mixs[DNA_sequence]\n"
 "| 強烈建議\n"
 
 #. type: Title ====
-#: 200.en.adoc:397
+#: 200.en.adoc:407
 #, no-wrap
 msgid "Mapping ddPCR / qPCR data"
 msgstr "Mapping ddPCR / qPCR 資料"
 
 #. type: Plain text
-#: 200.en.adoc:400
+#: 200.en.adoc:410
 msgid "This section provides mapping recommendations for https://academic.oup.com/view-large/199871507[Category III]."
 msgstr "此部分呈現link:https://academic.oup.com/view-large/199871507[類別三]在mapping上的建議。"
 
 #. type: Block title
-#: 200.en.adoc:402
+#: 200.en.adoc:412
 #, no-wrap
 msgid "Recommended fields for Occurrence core for ddPCR/qPCR data"
 msgstr "給ddPCR/qPCR資料類型的出現紀錄核心集的字段建議"
 
 #. type: Table
-#: 200.en.adoc:513
+#: 200.en.adoc:533
 #, no-wrap
 msgid "| Field name\n"
 "| Examples\n"
@@ -1422,14 +1357,22 @@ msgid "| Field name\n"
 "| UV light trap\n"
 "| The name of, reference to, or description of the method or protocol used during a sampling Event. https://dwc.tdwg.org/terms/#dwc:samplingProtocol\n"
 "| Recommended\n\n"
+"| term:dwc[country]\n"
+"| Denmark, Colombia, España\n"
+"| The name of the country or major administrative unit in which the dcterms:Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names. Recommended best practice is to leave this field blank if the dcterms:Location spans multiple entities at this administrative level or if the dcterms:Location might be in one or another of multiple possible entities at this level. Multiplicity and uncertainty of the geographic entity can be captured either in the term dwc:higherGeography or in the term dwc:locality, or both.\n"
+"| Required, if known\n\n"
+"| term:dwc[countryCode]\n"
+"| AR, SV, XZ, ZZ\n"
+"| The standard code for the country in which the dcterms:Location occurs. Recommended best practice is to use an ISO 3166-1-alpha-2 country code, or 'ZZ' (for an unknown location or a location unassignable to a single country code), or 'XZ' (for the high seas beyond national jurisdictions). Multiplicity and uncertainty of the geographic entity can be captured either in the term dwc:higherGeography or in the term dwc:locality, or both.\n"
+"| Required, if known\n\n"
 "| term:dwc[decimalLatitude]\n"
 "| 60.545207\n"
-"| The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.\n"
-"| Highly recommended\n\n"
+"| The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive. \n"
+"| Required, if known\n\n"
 "| term:dwc[decimalLongitude]\n"
 "| 24.174556\n"
 "| The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.\n"
-"| Highly recommended\n\n"
+"| Required, if known\n\n"
 "| term:dwc[scientificName]\n"
 "| _Gadus morhua_ L. 1758, BOLD:ACF1143\n"
 "| Scientific name of the closest known taxon (species or higher) or an OTU identifier from BOLD or UNITE\n"
@@ -1458,103 +1401,16 @@ msgid "| Field name\n"
 "| _Gadus_\n"
 "| Higher taxonomy\n"
 "| Recommended\n"
-msgstr "| 字段名稱\n"
-"| 範例\n"
-"| 描述\n"
-"| 填寫建議\n\n"
-"| term:dwc[basisOfRecord]\n"
-"| MaterialSample\n"
-"| 資料所記錄的具體性質 - dcterms:type 的子類。對於DNA衍生的出現紀錄 (參見<<category-i,類別一>>和<<category-iii,類別三>>)，請使用MaterialSample。\n"
-"| 必填\n\n"
-"| term:dwc[occurrenceStatus]\n"
-"| Present, Absent\n"
-"| 有關生物在特定位置的存在或不存在的說明。\n"
-"| 必填\n\n"
-"| term:dwc[eventID]\n"
-"| urn:uuid:a964765b-22c4-439a-jkgt-2\n"
-"| 與事件 (在特定地點和時間發生的事情) 相關資訊的ID。可以是全GUI或特定於資料集的ID。\n"
-"| 強烈建議\n\n"
-"| term:dwc[eventDate]\n"
-"| 2020-01-05\n"
-"| 記錄事件的日期。建議寫法是使用符合ISO 8601-1:2019的日期。有關更多詳情請查看 https://dwc.tdwg.org/terms/#dwc:eventDate\n"
-"| 必填\n\n"
-"| term:dwc[recordedBy]\n"
-"| \"Oliver P. Pearson \\| Anita K. Pearson\"\n"
-"| 記錄原始出現紀錄的人、組織或機構的姓名列表 (串聯並分隔)。建議的寫法是使用垂直條 (\\|) 分隔值。包含觀察者的名字可提高科學的可重複性 (https://doi.org/10.1093/database/baaa072[Groom等人，2020^])。\n"
-"| 強烈建議\n\n"
-"| term:dwc[organismQuantity]\n"
-"| 50\n"
-"| 樣本中陽性droplets/chambers的數量\n"
-"| ddPCR, dPCR 來源資料強烈建議使用\n\n"
-"| term:dwc[organismQuantityType]\n"
-"| ddPCR droplets +\n"
-"dPCR chambers\n"
-"| 分割類型 partition type \n"
-"| ddPCR, dPCR 來源資料強烈建議使用\n\n"
-"| term:dwc[sampleSizeValue]\n"
-"| 20000\n"
-"| Accepted partitions 的數量 (n), 例如 accepted ddPCR droplets 或 dPCR chambers\n"
-"| ddPCR, dPCR 來源資料強烈建議使用\n\n"
-"| term:dwc[sampleSizeUnit]\n"
-"| ddPCR droplets +\n"
-"dPCR chambers\n"
-"| 分割類型 partition type, 應與organismQuantityType中的值相等\n"
-"| ddPCR, dPCR 來源資料強烈建議使用\n\n"
-"| term:dwc[materialSampleID]\n"
-"| https://www.ncbi.nlm.nih.gov/biosample/15224856 +\n"
-" +\n"
-"urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03\n"
-"| MaterialSample的ID (不是特定於材料樣本的數位化記錄)。如果從核苷酸檔案中獲取了生物樣本ID (biosample ID)，則使用生物樣本ID。如果沒有識別碼，則可以從記錄中ID的組合構造出一個。\t\n"
-"| 強烈建議\n\n"
-"| term:dwc[samplingProtocol]\n"
-"| UV light trap\n"
-"| 在採樣事件期間使用的方法名稱、參考或描述。link:https://dwc.tdwg.org/terms/#dwc:samplingProtocol[]\n"
-"| 建議\n\n"
-"| term:dwc[decimalLatitude]\n"
-"| 60.545207\n"
-"| 位置的地理緯度 (以十進制度為單位，使用大地基準面的空間參考系統)。正值在赤道以北，負值在赤道以南。值介於-90和90之間，包括-90和90。\n"
-"| 強烈建議\n\n"
-"| term:dwc[decimalLongitude]\n"
-"| 24.174556\n"
-"| 位置的地理經度 (以十進制度為單位，使用大地基準面的空間參考系統)。正值在格林威治子午線以東，負值在格林威治子午線以西。值介於-180和180之間，包括-180和180。\n"
-"| 強烈建議\n\n"
-"| term:dwc[scientificName]\n"
-"| _Gadus morhua_ L. 1758, BOLD:ACF1143\n"
-"| 最接近已知的分類單位 (物種或更高階層) 的學名，或來自BOLD或UNITE的OTU ID。\n"
-"| 必填\n\n"
-"| term:dwc[kingdom]\n"
-"| Animalia\n"
-"| 更高階層分類\n"
-"| 強烈建議\n\n"
-"| term:dwc[phylum]\n"
-"| Chordata\n"
-"| 更高階層分類\n"
-"| 建議\n\n"
-"| term:dwc[class]\n"
-"| Actinopterygii\n"
-"| 更高階層分類\n"
-"| 建議\n\n"
-"| term:dwc[order]\n"
-"| Gadiformes\n"
-"| 更高階層分類\n"
-"| 建議\n\n"
-"| term:dwc[family]\n"
-"| Gadidae\n"
-"| 更高階層分類\n"
-"| 建議\n\n"
-"| term:dwc[genus]\n"
-"| _Gadus_\n"
-"| 更高階層分類\n"
-"| 建議\n"
+msgstr ""
 
 #. type: Block title
-#: 200.en.adoc:518
+#: 200.en.adoc:538
 #, no-wrap
 msgid "Recommended fields from the https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml[DNA derived data extension] (a selection) for ddPCR/qPCR data"
 msgstr "link:https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml[DNA衍生資料擴充^] (部分) 建議用於ddPCR/qPCR資料的字段"
 
 #. type: Table
-#: 200.en.adoc:729
+#: 200.en.adoc:749
 #, no-wrap
 msgid "| Field name\n"
 "| Examples\n"
@@ -1728,34 +1584,34 @@ msgid "| Field name\n"
 msgstr ""
 
 #. type: Title ===
-#: 200.en.adoc:734
+#: 200.en.adoc:754
 #, no-wrap
 msgid "Marine datasets and the Ocean Biodiversity Information System (OBIS)"
 msgstr "海洋資料集和海洋生物多樣性信息系統 (OBIS)"
 
 #. type: Plain text
-#: 200.en.adoc:737
+#: 200.en.adoc:757
 msgid "When working with datasets originating in the marine environment, it is recommended that the information is published also in the https://obis.org[Ocean Biodiversity Information System^] (OBIS) in addition to GBIF. OBIS is a global biodiversity database, which is specialized in providing reliable and accessible data related to marine life and is a part of the IOC-UNESCO. Like GBIF, and ALA, OBIS uses the DwC-A format for data indexing and publishing. By publishing marine datasets through OBIS in addition to other biodiversity databases, the data can reach a broader audience, and diverse groups working in the field of marine biodiversity, as datasets in OBIS are often used for UN processes. With the focus on marine datasets, stringent quality controls on the data increase the reliability of the data and lead to small differences in what information is required for publishing in OBIS as opposed to GBIF."
 msgstr "在處理來自海洋環境的資料集時，除了GBIF之外，也建議將資料發布在link:https://obis.org[海洋生物多樣性信息系統(OBIS)^]。 OBIS是一個全球性的生物多樣性資料庫，是IOC-UNESCO的一部分，專門提供與海洋生物相關的可靠並可查找的資料。與GBIF和ALA一樣，OBIS使用DwC-A格式進行資料索引和發布。同時將海洋資料集通過其他生物多樣性資料庫和OBIS發布，資料可以觸及更廣泛的受眾以及在海洋生物多樣性領域工作的多個社群，因為OBIS中的資料常應用在聯合國的相關工作。海洋資料發布到OBIS時所需的資訊與GBIF有些不同的小差異，這些差異帶出了資料嚴格品質管控，提高了海洋資料集資料的可信度。"
 
 #. type: Plain text
-#: 200.en.adoc:739
+#: 200.en.adoc:759
 msgid "To ensure consistent taxonomic nomenclature OBIS uses the https://www.marinespecies.org/[World Register of Marine Species^] (WoRMS) as the only taxonomic backbone. This is the case also for occurrences derived from genetic data; a scientific name linked to a scientific name ID from the WoRMS database is highly recommended information for publishing. If a scientific name ID is not provided, OBIS will try to match the scientific name with WoRMS during ingestion, but this should be avoided whenever possible. Scientific names not listed in WoRMS are acceptable, and will be submitted to WoRMS for review and possible inclusion in the register. Fully unclassified sequences are recommended to be classified as \"incertae sedis\", with the WoRMS `scientificNameID` urn:lsid:marinespecies.org:taxname:12. This will ensure correct interpretation by both GBIF and OBIS. Additionally, it is recommended that sequence identifiers from the used reference databases (e.g. Barcode index numbers: BINs from BOLD) be added in the `taxonConceptID` field of the occurrence core table. In this way OBIS will retain its taxonomic backbone based on WoRMS, while enabling linking to disparate reference sequence databases. Names from reference databases which are not strictly scientific names, can be added as `verbatimIdentification`. Automatic classification of species names can often be done through the WoRMS taxon match services and R packages like worrms and taxize. In the future, OBIS plans to periodically search and update the taxonomic assignments of submitted sequences as reference databases develop with time, so recording the sequence information linked to each occurrence is highly recommended."
 msgstr "為了確保一致的分類學命名方式，OBIS使用link:https://www.marinespecies.org/[世界海洋物種名錄^] (WoRMS) 作為唯一的分類學骨幹。這也適用於從基因資料衍生的出現記錄；從WoRMS資料庫中，連結出現紀錄學名到WoRMS資料庫的scientific name ID是高度推薦的做法。如果未提供scientific name ID，OBIS將在資料詮釋過程中嘗試將學名與WoRMS比對，但應避免這樣做。未列在WoRMS中的學名是可以被接受的，WoRMS將會在後續資料詮釋過程中進行審查並可能納入學名到資料庫裡。未分類的序列建議分類為“incertae sedis”，並將WoRMS的 `scientificNameID` 輸入為 urn:lsid:marinespecies.org:taxname:12。這將確保GBIF和OBIS可正確的詮釋資料。此外，建議將所使用的序列資料庫 (例如BOLD中的Barcode index numbers：BINs) 的序列識別碼添加到出現紀錄核心表的 `taxonConceptID` 字段中。通過這種方式，OBIS將保留基於WoRMS的分類學骨架，同時實現與不同的參考序列資料庫的連結。如果來自參考資料庫的名稱不是嚴格的學名，可以添加為 `verbatimIdentification`。物種學名的自動分類通常可以通過WoRMS分類比對工具和R套件 (如worrms和taxize) 來完成。將來OBIS計劃定期搜索和更新已發布序列的分類，因此也強烈建議記錄序列與每個出現相關聯的資訊。"
 
 #. type: Plain text
-#: 200.en.adoc:741
+#: 200.en.adoc:761
 msgid "Another required field in OBIS data submissions are geographic coordinates. OBIS performs additional quality checks related to marine data; e.g. that coordinates for strictly marine species are not on land, and that the depth value reported is in a reasonable range. Finally, it should be mentioned that in addition OBIS supports the use of the http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]. This extension allows linking environmental data and sampling facts to sampling events or occurrences, as well as biological measurements to occurrences in a flexible and standardized manner. OBIS has an example eDNA metabarcoding dataset with scripts for data formatting available at https://github.com/iobis/dataset-edna."
 msgstr "OBIS資料提交中的另一個必填字段是地理坐標。OBIS進行了與海洋數據相關的額外品質檢查；例如：海洋物種的坐標不應在陸地上、深度值應在合理的範圍內。最後值得一提的是，OBIS還支持使用擴充測量或事實 (eMoF)。該擴充允許以彈性和標準化的方式將環境數據、採樣資訊與事件或出現紀錄相關聯，以及將生物測量與出現紀錄相關聯。OBIS具有eDNA metabarcoding資料集的資料模板當作範例，可參考 https://github.com/iobis/dataset-edna 。"
 
 #. type: Block title
-#: 200.en.adoc:746
+#: 200.en.adoc:766
 #, no-wrap
 msgid "OBIS requirements and recommendations for recording DNA-based occurrences. The table highlights important differences in field values and requirements compared to when publishing to GBIF. Here exemplified with a DNA detection of Blue whale (Balaenoptera musculus). "
 msgstr "OBIS對DNA-based出現紀錄的紀錄要求和建議。此表突出了與發布到GBIF時字段值和要求的重要差異。這裡以藍鯨 (Balaenoptera musculus) 的DNA檢測為例進行說明。 "
 
 #. type: Table
-#: 200.en.adoc:773
+#: 200.en.adoc:793
 #, no-wrap
 msgid "| Field name\n"
 "| Value/example (OBIS)\n"
@@ -1799,13 +1655,13 @@ msgstr "| 字段名稱\n"
 "| 建議\n"
 
 #. type: Block title
-#: 200.en.adoc:776
+#: 200.en.adoc:796
 #, no-wrap
 msgid "OBIS requirements and recommendations for recording sequences that cannot be classified to a scientific name at any taxonomic level. "
 msgstr "OBIS對無法在任何分類階層上歸類學名的序列的紀錄要求和建議。 "
 
 #. type: Table
-#: 200.en.adoc:803
+#: 200.en.adoc:823
 #, no-wrap
 msgid "| Field name\n"
 "| Value (OBIS)\n"
