@@ -163,6 +163,11 @@ This section provides mapping recommendations for Categories I and II.
 | The specific nature of the data record - a subtype of the http://rs.gbif.org/vocabulary/dwc/basis_of_record.xml[dcterms:type]. For DNA-derived occurrences, (see <<category-i,Category I>> and <<category-iii,Category III>>) use MaterialSample. For enriched occurrences use PreservedSpecimen or LivingSpecimen as appropriate.
 | Required
 
+| term:dwc[occurrenceStatus]
+| detected, notDetected
+| A statement about the detection or non-detection of a dwc:Organism during a dwc:Event..
+| Required
+
 | term:dwc[occurrenceID]
 | urn:catalog:UWBM:Bird:89776
 | A unique identifier for the occurrence, allowing the same occurrence to be recognized across dataset versions as well as through data downloads and use. May be a global unique identifier or an identifier specific to the data set.
@@ -423,8 +428,8 @@ This section provides mapping recommendations for https://academic.oup.com/view-
 | Required
 
 | term:dwc[occurrenceStatus]
-| Present, Absent
-| A statement about the presence or absence of a taxon at a location.
+| detected, notDetected
+| A statement about the detection or non-detection of a dwc:Organism during a dwc:Event.
 | Required
 
 | term:dwc[eventID]
