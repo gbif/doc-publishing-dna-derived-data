@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-06-25 11:41+0000\n"
+"POT-Creation-Date: 2026-09-08 08:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,9 +186,8 @@ msgstr ""
 #. type: Plain text
 #: colophon.en.adoc:29
 msgid ""
-"https://orcid.org/0000-0002-2919-1168[Saara Suominen], "
-"mailto:s.suominen@unesco.org[s.suominen@unesco.org], Ocean Biodiversity "
-"Information System, Jacobsenstraat 1, 8400 Oostende, Belgium"
+"Saara Suominen, mailto:s.suominen@unesco.org[s.suominen@unesco.org], Ocean "
+"Biodiversity Information System, Jacobsenstraat 1, 8400 Oostende, Belgium"
 msgstr ""
 
 #. type: Plain text
