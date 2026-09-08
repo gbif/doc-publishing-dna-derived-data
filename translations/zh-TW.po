@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
-"POT-Creation-Date: 2026-06-25 11:41+0000\n"
-"PO-Revision-Date: 2026-06-25 11:54\n"
+"POT-Creation-Date: 2026-09-08 08:06+0000\n"
+"PO-Revision-Date: 2026-09-08 08:44\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -128,8 +128,8 @@ msgstr "https://orcid.org/0000-0002-2919-1168[Dmitry Schigel], mailto:dschigel@g
 
 #. type: Plain text
 #: colophon.en.adoc:29
-msgid "https://orcid.org/0000-0002-2919-1168[Saara Suominen], mailto:s.suominen@unesco.org[s.suominen@unesco.org], Ocean Biodiversity Information System, Jacobsenstraat 1, 8400 Oostende, Belgium"
-msgstr "https://orcid.org/0000-0002-2919-1168[Saara Suominen], mailto:s.suominen@unesco.org[s.suominen@unesco.org], Ocean Biodiversity Information System, Jacobsenstraat 1, 8400 Oostende, Belgium"
+msgid "Saara Suominen, mailto:s.suominen@unesco.org[s.suominen@unesco.org], Ocean Biodiversity Information System, Jacobsenstraat 1, 8400 Oostende, Belgium"
+msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:30
