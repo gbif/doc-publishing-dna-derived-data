@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
-"POT-Creation-Date: 2026-09-08 08:06+0000\n"
-"PO-Revision-Date: 2026-09-08 08:44\n"
+"POT-Creation-Date: 2026-09-16 14:02+0000\n"
+"PO-Revision-Date: 2026-09-16 14:14\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -47,8 +47,8 @@ msgstr "引用建議"
 
 #. type: Plain text
 #: colophon.en.adoc:11
-msgid "Abarenkov K, Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Provoost P, Schigel D, Suominen S, Svenningsen C & Frøslev TG (2023) Publishing DNA-derived data through biodiversity data platforms, v1.3. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22."
-msgstr "Abarenkov K, Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Provoost P, Schigel D, Suominen S, Svenningsen C & Frøslev TG (2023) Publishing DNA-derived data through biodiversity data platforms, v1.3. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22."
+msgid "Abarenkov K, Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Provoost P, Schigel D, Suominen S, Svenningsen C & Frøslev TG (2023) Publishing DNA-derived data through biodiversity data platforms, v1.4. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22."
+msgstr ""
 
 #. type: Title ===
 #: colophon.en.adoc:12
@@ -187,22 +187,17 @@ msgstr "版本 {revnumber} 發布於 {revdate}。"
 
 #. type: Plain text
 #: colophon.en.adoc:50
-msgid "This version adds paragraph on marine datasets and the Ocean Biodiversity Information System (OBIS) along with some minor text edits throughout."
-msgstr "此版本新增了有關海洋資料集和海洋生物多樣性信息系統 (OBIS) 的文字段落，以及小部分的文字編輯。"
-
-#. type: Plain text
-#: colophon.en.adoc:52
-msgid "A minor update (Feb 2025) adds information and links to the https://mdt.gbif-test.org/[Metabarcoding Data Toolkit^]"
+msgid "This version adjusts guidance in response to the CBD COP [Decision 16/2 on digital sequence information](https://www.cbd.int/doc/decisions/cop-16/cop-16-dec-02-en.pdf); see [Making DNA-derived data accessible and accountable](https://www.gbif.org/news/3OYkPINuWGy3U6k2ezbuDU) for context."
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:53
+#: colophon.en.adoc:51
 #, no-wrap
 msgid "Abstract"
 msgstr "摘要"
 
 #. type: Plain text
-#: colophon.en.adoc:55
+#: colophon.en.adoc:53
 msgid "When genetic information is used to describe or classify a taxon, most users will foresee its use in the context of molecular ecology or phylogenetic research. It is important to realize that a sequence with coordinates and a timestamp is a valuable biodiversity occurrence which is useful in a much broader context than its original purpose. To realize this potential, DNA-derived data needs to be discoverable through biodiversity data platforms. This guide will teach you the principles and approaches of exposing “sequences with dates and coordinates” in the context of broader biodiversity data. The guide covers choices of particular schemas and terms, common pitfalls and good practice, without going into platform-specific details. It will benefit anyone interested in better exposure of DNA-derived data through general biodiversity data platforms, including national biodiversity portals."
 msgstr "使用基因資訊來描述或鑑定物種分類群時，大多使用者會預設這些資料將會使用在分子生物或演化學的研究上。然而，同時擁有座標與時間資訊的基因序列是一個有價值的生物多樣性出現紀錄，相較其最初目的，可更廣泛的被使用。為了實現這一潛力，DNA衍生資料需要可以在生物多樣性資訊的平台上供搜尋。這份教學文件將帶領您了解公開 “帶有時間與座標資訊的序列” 的生物多樣性資料的原理和方法。此文件涵蓋了特定的概要和術語、常見問題與合適的操作流程建議、且不討論各平台的細節。此文件將受益任何對使用各生物多樣性資訊平台 (包括國家級生物多樣性入口網站) 有興趣的人更順利地公開DNA衍生資料。"
 
