@@ -7,7 +7,7 @@ endif::backend-html5[]
 
 === Suggested citation
 
-Abarenkov K, Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Provoost P, Schigel D, Suominen S, Svenningsen C & Frøslev TG (2023) Publishing DNA-derived data through biodiversity data platforms, v1.3. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22.
+Abarenkov K, Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Provoost P, Schigel D, Suominen S, Svenningsen C & Frøslev TG (2023) Publishing DNA-derived data through biodiversity data platforms, v1.4. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22.
 
 === Authors
 
@@ -46,9 +46,7 @@ https://doi.org/10.35035/doc-vf1a-nr22
 
 Version {revnumber} released on {revdate}.
 
-This version adds paragraph on marine datasets and the Ocean Biodiversity Information System (OBIS) along with some minor text edits throughout. 
-
-A minor update (Feb 2025) adds information and links to the https://mdt.gbif-test.org/[Metabarcoding Data Toolkit^]
+This version adjusts guidance in response to the CBD COP [Decision 16/2 on digital sequence information](https://www.cbd.int/doc/decisions/cop-16/cop-16-dec-02-en.pdf); see [Making DNA-derived data accessible and accountable](https://www.gbif.org/news/3OYkPINuWGy3U6k2ezbuDU) for context.
 
 === Abstract
 
