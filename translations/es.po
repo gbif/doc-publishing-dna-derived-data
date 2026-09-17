@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2026-09-16 14:02+0000\n"
-"PO-Revision-Date: 2026-09-16 14:14\n"
+"PO-Revision-Date: 2026-09-17 00:15\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -48,7 +48,7 @@ msgstr "Citación sugerida"
 #. type: Plain text
 #: colophon.en.adoc:11
 msgid "Abarenkov K, Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Provoost P, Schigel D, Suominen S, Svenningsen C & Frøslev TG (2023) Publishing DNA-derived data through biodiversity data platforms, v1.4. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22."
-msgstr ""
+msgstr "Abarenkov K, Andersson AF, Bissett A, Finstad AG, Fossøy F, Grosjean M, Hope M, Jeppesen TS, Kõljalg U, Lundin D, Nilsson RN, Prager M, Provoost P, Schigel D, Suominen S, Svenningsen C & Frøslev TG (2023) Publicación de datos derivados de ADN a través de plataformas de datos sobre biodiversidad, v1.4. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22."
 
 #. type: Title ===
 #: colophon.en.adoc:12
@@ -188,7 +188,7 @@ msgstr "Versión {revnumber} liberada en {revdate}."
 #. type: Plain text
 #: colophon.en.adoc:50
 msgid "This version adjusts guidance in response to the CBD COP [Decision 16/2 on digital sequence information](https://www.cbd.int/doc/decisions/cop-16/cop-16-dec-02-en.pdf); see [Making DNA-derived data accessible and accountable](https://www.gbif.org/news/3OYkPINuWGy3U6k2ezbuDU) for context."
-msgstr ""
+msgstr "Esta versión ajusta la guía en respuesta a la [Decisión 16/2 sobre información de secuencias digitales](https://www.cbd.int/doc/decisions/cop-16/cop-16-dec-02-en.pdf); véase [Haciendo los datos derivados de ADN accesibles y responsables](https://www.gbif.org/news/3OYkPINuWGy3U6k2ezbuDU) para contexto."
 
 #. type: Title ===
 #: colophon.en.adoc:51
